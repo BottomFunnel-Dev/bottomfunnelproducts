@@ -1,0 +1,60 @@
+.StartupSolPartnerContainer {
+  width: 90%;
+  margin: 2% auto 2% auto;
+}
+
+.StartupSolPartnerContainer > h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.StartupSolPartnerContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.StartupSolPartnerContainer > p {
+  font-size: 16px;
+  width: 80%;
+
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.StartupSolPartnerContainer > ul {
+  font-size: 16px;
+}
+
+.StartupSolPartnerHrLine {
+  width: 25%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.StartupSolPartnerHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.StartupSolPartnerHrLine > span {
+  width: 44%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.StartupSolPartnerImage {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.StartupSolPartnerImage > img {
+  width: 100%;
+}

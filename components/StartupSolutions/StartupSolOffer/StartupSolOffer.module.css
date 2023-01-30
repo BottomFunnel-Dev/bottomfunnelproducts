@@ -1,0 +1,37 @@
+.StartupSolOfferContainer {
+  margin: 2% auto 2% auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.StartupSolOfferMain {
+  width: 45%;
+  padding: 1%;
+
+  margin-left: 5%;
+}
+
+.StartupSolOfferMain > h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.StartupSolOfferMain > p {
+  font-size: 16px;
+}
+
+.StartupSolofferImages {
+  width: 40%;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.StartupSolofferImages > img {
+  width: 100%;
+}

@@ -1,0 +1,97 @@
+.skillsbannermain {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skillsbannercontent {
+  width: 60%;
+  text-align: left;
+  height: fit-content;
+}
+
+.skillsbannercontent>h1 {
+  font-size: 40px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.skillsbannercontent>p {
+  font-size: 20px;
+  margin: 2% auto;
+}
+
+.skillsbannercontent>button {
+  margin-top: 2%;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border: 2px solid #ef4c34;
+  padding: 10px 50px;
+  border-radius: 100px;
+  cursor: pointer;
+
+  color: #f5f5f5;
+  background-color: #ef4c34;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.skillsbannercontent>button:hover {
+  background-color: #f5f5f5;
+  color: #ef4c34;
+}
+
+.skillsbannermain>img {
+  width: 30%;
+  height: fit-content;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .skillsbannermain {
+    margin-top: 100px;
+    height: 25vh;
+  }
+
+  .skillsbannercontent>h1 {
+    font-size: 20px;
+  }
+
+  .skillsbannercontent>p {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .skillsbannercontent>button {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .skillsbannermain {
+    margin-top: 100px;
+    height: 35vh;
+  }
+
+  .skillsbannercontent>h1 {
+    font-size: 30px;
+  }
+
+  .skillsbannercontent>p {
+    font-size: 16px;
+    width: 95%;
+  }
+
+  .skillsbannercontent>button {
+    font-size: 16px;
+    padding: 5px 30px;
+  }
+}
