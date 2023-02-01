@@ -40,20 +40,21 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   <img
                     className={prods.productLogoImages}
                     src={item.navIcons}
-                    alt=""
+                    alt="image"
                     // style={{ width: "90px", height: "60px" }}
                   />
                 </div>
+
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
                   className={prods.productSaasRow}
                   // style={{ width: "100%", marginLeft: "10%", marginTop: "0%" }}
                 >
-                  <p style={{ fontWeight: "500", fontSize: "14px" }}>
+                  <p style={{ fontWeight: "700", fontSize: "13px" }}>
                     {item.dropContent}
                   </p>
-                  <p style={{ fontSize: "11px" }}>{item.title}</p>
+                  <p style={{ fontSize: "10px", fontWeight: "500" }}>{item.title}</p>
                 </Link>
               </div>
             ))}
@@ -61,9 +62,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
         </div>
 
         <div
-          className={prods.productDropdownContent}
-          // style={{ marginLeft: "4%", width: "35%", marginTop: "2%" }}
-        >
+          className={prods.productDropdownContent}>
           <div
             className={prods.listItems}
             style={{ width: "100%", margin: "13% 0" }}
@@ -77,7 +76,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 }}
                 className={`${prods.productimageIconDivSection} ${prods.hoveringDiv}`}
                 style={{
-                  height: "75px",
+                  height: "60px",
                   width: "100%",
                   marginTop: "0%",
                   "--i": item.productHover,
@@ -114,7 +113,6 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           </Link>
         </div>
 
-     
       </div>
     </div>
   );
