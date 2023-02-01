@@ -13,6 +13,7 @@ import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
+import { Platform } from "./Platform";
 
 const Navbar = ({ navredux, productMount }) => {
   // const router.push = userouter.push();
@@ -21,6 +22,7 @@ const Navbar = ({ navredux, productMount }) => {
   const [service, setService] = useState(false);
   const [scroll, setScroll] = useState(false);
   const [product, setProduct] = useState(false);
+  const [platform, setPlatform] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
   // const [scrollVal, setScrollVal] = useState()
@@ -65,6 +67,17 @@ const Navbar = ({ navredux, productMount }) => {
 
   const productHoverOut = () => {
     setProduct(false);
+    if (window.scrollY == 0) {
+      setNabvar(false);
+    }
+  };
+  const platformHoverIn = () => {
+    setPlatform(true);
+    setNabvar(true);
+  };
+
+  const platformHoverOut = () => {
+    setPlatform(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
@@ -188,26 +201,25 @@ const Navbar = ({ navredux, productMount }) => {
                 About
               </li>
 
-              <li
+              {/* <li
                 onMouseEnter={solHoverIn}
                 onMouseLeave={solHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Features
-              </li>
+              </li> */}
 
               <li
                 onMouseEnter={productHoverIn}
                 onMouseLeave={productHoverOut}
-                // onClick={() => router.push("https://bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Products
               </li>
 
               <li
-                // onMouseEnter={blogHoverIn}
-                // onMouseLeave={blogHoverOut}
+                onMouseEnter={platformHoverIn}
+                onMouseLeave={platformHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Platform
@@ -310,6 +322,15 @@ const Navbar = ({ navredux, productMount }) => {
         <Products
           serHoverIn={productHoverIn}
           serHoverOut={productHoverOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+      ) : null}
+
+     {platform ? (
+        <Platform
+          serHoverIn={platformHoverIn}
+          serHoverOut={platformHoverOut}
           scroll={scroll}
           productMount={productMount}
         />

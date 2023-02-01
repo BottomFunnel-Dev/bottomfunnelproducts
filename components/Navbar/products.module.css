@@ -9,7 +9,7 @@
 }
 .productDropdownContent {
   height: 100%;
-  width: 19%;
+  width: 50%;
   /* border: 2px solid red; */
 }
 .productDropdownSection {
@@ -22,15 +22,16 @@
   justify-content:space-around;
   box-sizing: border-box;
   height: fit-content;
-  /* border: 2px solid yellow; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* border: 2px solid red; */
 }
 .productVisible {
   display: flex;
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
   z-index: 100000000;
-
-  height: 470px;
+  left: 15%;
+  height: auto;
   position: fixed;
   background-color: white;
   /* border: 1px solid red; */
