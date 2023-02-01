@@ -94,10 +94,11 @@
 }
 
 .callToAction {
-  /* background-color: #ef4c23; */
-  color: #ef4c23;
-  padding: 10px 25px;
+  background-color: #ef4c23;
+  color: white;
+  padding: 10px 50px;
   border-radius: 25px;
+  font-size: 13px;
   font-weight: 600;
   margin: 0 5px;
   border: none;
@@ -106,10 +107,13 @@
 .productIcon {
   font-size: 30px;
 }
+
 .callToAction:hover {
-  color: #ef4c23 !important;
-  background-color: white !important;
-  border: 1px solid white;
+  color: #ef4c23 ;
+  border: 1px solid #ef4c23;
+  background-color: white ;
+  cursor: pointer;
+  /* border: 1px solid white; */
 }
 
 .navbarSection.active .dropdownBar > div li:nth-child(8) {

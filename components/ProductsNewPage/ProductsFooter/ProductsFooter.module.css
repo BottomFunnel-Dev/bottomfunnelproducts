@@ -13,6 +13,8 @@
 .productFooterLogoDiv {
   /* border: 1px solid red; */
   width: 60%;
+  margin-top: 5%;
+  height: fit-content;
 }
 
 .productsFooterSocialMediaLogos {

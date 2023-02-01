@@ -15,7 +15,7 @@ export const ProductsFooter = () => {
         <div className={styles.productsFooterParentDiv}>
             <div className={styles.productsFooterTopImagesMainDiv}>
                 <div className={styles.productFooterLogoDiv}>
-                    <img src='/Images/ProductsPage/Footer/Funnel-logo.png' alt='image' />
+                    <img src='/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
                 </div>
 
                 <div className={styles.productsFooterSocialMediaLogos}>

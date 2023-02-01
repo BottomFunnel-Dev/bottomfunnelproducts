@@ -1,0 +1,141 @@
+.trustedByrotationalbox {
+  /* border: 1px solid red; */
+  width: 99%;
+  height: fit-content;
+  margin-bottom: 3%;
+}
+
+.trustedByContentDiv {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.trustedByHeadingDiv > h1 {
+  /* border: 1px solid black; */
+  margin-bottom: 0%;
+  font-weight: 700;
+}
+
+.trustedByHeadingDiv > p {
+  margin: auto;
+  margin-top: 1%;
+  width: 70%;
+  font-weight: 500;
+}
+
+.trustedByMainslide {
+  margin-top: 2%;
+  width: 95%;
+  margin: auto;
+  border-bottom: 4px solid red;
+}
+
+.slick-slide > div {
+  margin: 0 !important;
+}
+
+.slick-slide {
+  border: none !important;
+}
+
+.slick-list {
+  margin: 0 !important;
+}
+
+.trustedByslideDivSection {
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  /* background-color: rgb(195, 190, 190); */
+}
+
+.trustedByslideDivSection > div {
+  padding: 20px;
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.trustedByslideDivSection > div > img {
+  width: 60%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Media Query for Mobile Devices */
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  /* .trustedByrotationalbox{
+  border: 50px solid black;
+ } */
+  .trustedByslideDivSection {
+    height: 50%;
+  }
+
+  .trustedByslideDivSection > div {
+    padding: 0;
+    width: 67%;
+  }
+
+  .trustedByslideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .trustedByslideDivSection > div {
+    padding: 0;
+    width: 65%;
+  }
+
+  .trustedByslideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .trustedByslideDivSection > div {
+    padding: 0;
+    width: 70%;
+  }
+
+  .trustedByslideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .trustedByslideDivSection > div {
+    padding: 0;
+    width: 55%;
+  }
+
+  .trustedByslideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) and (max-width: 1520px) {
+  .trustedByslideDivSection > div {
+    padding: 0;
+    width: 50%;
+  }
+
+  .trustedByslideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
