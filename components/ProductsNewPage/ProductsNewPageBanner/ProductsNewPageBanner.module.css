@@ -43,13 +43,21 @@
   font-size: 18px;
   font-weight: 600;
   margin-left: 3%;
+  /* width: 26%; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
 }
 
 .productsBannerWatchVideoButton:hover {
   color: #ef4c23;
   /* border: 1px solid #ef4c23; */
   background-color: white;
+}
+
+.mainWatchNowIcon {
+  font-size: 20px;
+  margin-left: 5%;
+  position: absolute;
 }
 
 .productsBannerMeatBannerContentDiv {

@@ -7,16 +7,12 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
     <div
       onMouseEnter={() => serHoverIn()}
       onMouseLeave={() => serHoverOut()}
-      className={prods.productVisible}
+      className={prods.platformVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
-      <div className={prods.productDropdownSection}>
-      
-
-        <div
-          className={prods.productDropdownContent}
-          // style={{ marginLeft: "3%", marginTop: "0%", width: "25%" }}
-        >
+      <div className={prods.platformDropdownSection}>
+    
+        <div className={prods.platformDropdownContent}>
           <h5
             className={prods.noStyleMain}
             style={{ marginLeft: "2%", color: "#ef4c23" }}
@@ -27,6 +23,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           >
             Platforms
           </h5>
+
           <div style={{marginTop:"6%"}} className={prods.listItems}>
             {product4.map((item, i) => (
               <div
@@ -35,7 +32,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   // navigate(`/${item.path}`);
                   serHoverOut();
                 }}
-                className={`${prods.productimageIconDivSection} ${prods.saasHoveringData}`}
+                className={`${prods.platformimageIconDivSection} ${prods.saasHoveringData}`}
                 // style={{ marginTop: i == 0 ? "0" : "2%" }}
               >
                 <div>
@@ -62,7 +59,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
         </div>
 
         <div
-          className={prods.productDropdownContent}
+          className={prods.platformDropdownContent}
           // style={{ marginLeft: "3%", width: "25%" }}
         >
           <h5
@@ -76,28 +73,14 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             Features
           </h5>
 
-          <div
-            className={prods.listItems}
-            style={{ marginTop: "5%", marginLeft: "7%" }}
-          >
+          <div className={prods.listItems} style={{ marginTop: "5%", marginLeft: "7%" }}>
             {/* <h5> <img src=""/> Features</h5> */}
             {product3.map((item, i) => (
-              <div
-                key={i}
-                onClick={() => {
-                  // navigate(`/${item.path}`);
+              <div key={i} onClick={() => {
                   serHoverOut();
                 }}
-                className={prods.productimageIconDivSection}
+                className={prods.platformimageIconDivSection}
               >
-                {/* <div>
-                    <img
-                      className="iconDivSection"
-                      src={item.navIcons}
-                      alt=""
-                    />
-                  </div> */}
-
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
@@ -107,21 +90,15 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     color: "black",
                     padding: "0 10px",
                   }}
-                  // className={prods.linkP}
                 >
-                  {/* <p style={{ margin: "0", paddingLeft: "7%" }}> */}
                   {item.dropContent}
-                  {/* </p> */}
                 </Link>
               </div>
             ))}
           </div>
         </div>
 
-        <div
-          className={prods.productDropdownContent}
-          // style={{ marginLeft: "1%", width: "25%" }}
-        >
+        <div className={prods.platformDropdownContent}>
           <div
             style={{
               marginTop: "1%",
@@ -132,9 +109,11 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               columnGap: "5px",
             }}
           >
-            <img height="40px" src="/Images/navbar/product/Neo.png" />
+            <img height="40px" src="/Images/navbar/platform/Neo.png" />
             <h5> Bottom Funnel Neo</h5>
+
           </div>
+
           <p style={{ marginLeft: "5%" }}>
             Leverage a flexible, end-to-end, AI-powered enterprise platform tou
             unify customer experiences
@@ -148,7 +127,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               columnGap: "5px",
             }}
           >
-            <img src="/Images/navbar/product/knowmore.png" />
+            <img src="/Images/navbar/platform/knowmore.png" />
             <h5> Know more</h5>
           </div>
           <p>What's New?</p>

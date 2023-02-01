@@ -24,10 +24,13 @@ export const ProductsNewPageBanner = () => {
 
         <div className={styles.productsBannerButtonsDiv}>
           <button className={styles.productsBannerTrialsButton}> Free Trials </button>
-          <button className={styles.productsBannerWatchVideoButton}> Watch Now <BsPlayCircle style={{fontSize:"20px"}}/> </button>
+          <button className={styles.productsBannerWatchVideoButton}>
+            Watch Now
+            <BsPlayCircle className={styles.mainWatchNowIcon}/>
+          </button>
         </div>
       </div>
-      
+
       <div className={styles.productsBannerBannerImageDiv}>
         <IconContext.Provider value={{ className: styles.productBannerPlayIcon }}>
           <BsPlayCircle />
