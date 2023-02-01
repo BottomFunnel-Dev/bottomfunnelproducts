@@ -3,13 +3,10 @@ import navstyle from "./navbar.module.css";
 import Link from "next/link";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
-import { BsArrowRight } from "react-icons/bs";
 import { WhoWeAre } from "./WhoWeAre";
 
-import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 import { ContactMain } from "../Contact/Contact";
 
-import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
@@ -192,20 +189,11 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
 
               <li
-                // onMouseEnter={serHoverIn}
-                // onMouseLeave={serHoverOut}
-                onClick={() => router.push("https://service.bottomfunnel.net/")}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                SERVICES
-              </li>
-
-              <li
                 onMouseEnter={solHoverIn}
                 onMouseLeave={solHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                SOLUTIONS
+                FEATURES
               </li>
 
               <li
@@ -215,6 +203,14 @@ const Navbar = ({ navredux, productMount }) => {
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PRODUCTS
+              </li>
+
+              <li
+                // onMouseEnter={blogHoverIn}
+                // onMouseLeave={blogHoverOut}
+                style={{ color: navbar ? "black" : navredux.color }}
+              >
+                PLATFORM
               </li>
 
               <li
@@ -231,17 +227,22 @@ const Navbar = ({ navredux, productMount }) => {
                 // onMouseLeave={blogHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                PORTFOLIO
+                RESOURCES
               </li>
 
-              <li
-                // onMouseEnter={blogHoverIn}
-                // onMouseLeave={blogHoverOut}
+              <li className={navstyle.serviceButton}
+                // onMouseEnter={serHoverIn}
+                // onMouseLeave={serHoverOut}
+                onClick={() => router.push("https://service.bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                BLOGS
+                SERVICES
               </li>
             </div>
+
+            {/* <button className={navstyle.serviceButton}>
+              SERVICES
+            </button> */}
 
             <button
               className={navstyle.callToAction}
