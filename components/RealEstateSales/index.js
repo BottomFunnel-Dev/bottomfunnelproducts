@@ -12,19 +12,32 @@ import { WhatCanYouDo } from './WhatCanYouDo/WhatCanYouDo'
 export default function RealEstateSales() {
     return (
       <>
-     
-     <RealEstateSalesBanner/>
+        <div style={{ color: "#393939" }}>
+ 
+        <Navbar
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+          <SalesNavbar  navproductredux={{
+              color: "black",
+              logo: false,
+            }}/>
+
+        <RealEstateSalesBanner/>
         <TheSolution/>
         <WhatCanYouDo/>
         <TailorBusiness/>
         <Productivity/>
         <AccessData/>
         <EstateAgency/>
-
-
         <SalesWorldwide/>
         <MakeYourDeal/>
-       
+       </div>
       </>
     )
   }

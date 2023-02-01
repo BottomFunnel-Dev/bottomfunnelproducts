@@ -1334,19 +1334,19 @@ export const salesResources = [
 export const salesIndustries = [
   {
     dropContent: "Real Estate",
-    path: "",
+    path: "/real-estate",
   },
   {
     dropContent: "Manufacturing",
-    path: "manufacturing",
+    path: "/",
   },
   {
     dropContent: "SAAS",
-    path: "saaSHomePage",
+    path: "/saasSales",
   },
   {
     dropContent: "Hospitality",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Insurance",
@@ -1358,30 +1358,30 @@ export const salesIndustries = [
   },
   {
     dropContent: "Agency",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Retail",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Finance",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "HealthCare",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Education",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Travel Agency",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Law Firm",
-    path: "",
+    path: "/",
   },
 ];
