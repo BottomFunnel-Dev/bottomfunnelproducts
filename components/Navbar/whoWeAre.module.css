@@ -4,10 +4,10 @@
   /* height: 220px; */
   box-sizing: border-box;
   background-color: white;
-  z-index: 1000;
+  z-index: 10000000;
   position: fixed;
   /* padding: 20px; */
-
+ /* border: 2px solid red; */
 
 }
 
