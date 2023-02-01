@@ -14,8 +14,6 @@ import { useEffect } from "react";
 import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
-import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
-import { SalesNavbar } from "./SalesNavbar/SalesNavbar";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 
@@ -143,17 +141,6 @@ const Navbar = ({ navredux, productMount }) => {
           textcolor={!navbar ? navredux.color : "black"}
         />
       )}
-
-      {productMount.navMount && (
-        <ProductsNavbar
-          navproductredux={{
-            color: "black",
-            logo: false,
-          }}
-          scroll={scroll}
-        />
-      )}
-      {productMount.salesnavMount && <SalesNavbar scroll={scroll} />}
       <nav
         className={
           navbar
@@ -196,7 +183,6 @@ const Navbar = ({ navredux, productMount }) => {
         {!mobres && (
           <div className={navstyle.dropdownBar}>
             <div className={navstyle.mobLists}>
-              
               <li
                 onMouseEnter={homeHoverIn}
                 onMouseLeave={homeHoverOut}
@@ -206,9 +192,8 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
 
               <li
-                // onMouseEnter={serHoverIn}
-                // onMouseLeave={serHoverOut}
-                onClick={() => router.push("https://service.bottomfunnel.net")}
+                onMouseEnter={serHoverIn}
+                onMouseLeave={serHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 SERVICES
@@ -219,13 +204,13 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={solHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                FEATURES
+                SOLUTIONS
               </li>
 
               <li
                 onMouseEnter={productHoverIn}
                 onMouseLeave={productHoverOut}
-                onClick={() => router.push("/Products")}
+                onClick={() => router.push("https://bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PRODUCTS
@@ -259,13 +244,13 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/hire-new-talent")}
+            // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/Apply-new-talent")}
+            // onClick={() => router.push("/Apply-new-talent")}
             >
               Apply as a Talent
             </button>
@@ -294,14 +279,14 @@ const Navbar = ({ navredux, productMount }) => {
       {/* about drop down section code end */}
 
       {/* service drop down section code start */}
-      {/* {service ? (
+      {service ? (
         <NavServices
           serHoverIn={serHoverIn}
           serHoverOut={serHoverOut}
           scroll={scroll}
           productMount={productMount}
         />
-      ) : null} */}
+      ) : null}
 
       {/* service drop down section code end */}
 

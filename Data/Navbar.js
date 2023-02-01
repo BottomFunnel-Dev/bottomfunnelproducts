@@ -1146,22 +1146,21 @@ export const productSolution = [
     dropContent: "By Use Size",
     productText1: "Enterprise",
     productText2: "SMB",
-    path: "enterprise",
+    path: "/funneldesk/solutions/enterprise",
   },
   {
     dropContent: "By Use Case",
     productText1: "Self Service",
-    path: "self-service",
+    path: "/funneldesk/solutions/selfservice",
     productText2: "Field Service",
   },
   {
     dropContent: "By Industry",
     productText1: "Retail & E-commerce",
     productText2: "Travel & Hospitality",
-    path: "RetailEcommerce",
+    path: "/funneldesk/solutions/retailandecommerce",
   },
 ];
-
 export const productDesk = [
   {
     dropContent: "Support Desk",
@@ -1196,11 +1195,11 @@ export const productDesk = [
 export const productFeatures = [
   {
     dropContent: "Ticketing",
-    path: "ticketing",
+    path: "/funneldesk/features/ticketing",
   },
   {
     dropContent: "Collaboration",
-    path: "Collaboration",
+    path: "/funneldesk/features/collaboration",
   },
   {
     dropContent: "Automations",
@@ -1208,7 +1207,7 @@ export const productFeatures = [
   },
   {
     dropContent: "Help Widget",
-    path: "helpDesk",
+    path: "/funneldesk/features/helpwidget",
   },
   {
     dropContent: "Reporting & Analytics",

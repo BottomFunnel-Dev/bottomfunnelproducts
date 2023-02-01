@@ -22,7 +22,7 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
           >
             <Link
               onClick={solHoverOut}
-              to={item.path}
+              href={item.path}
               style={{ cursor: "default"}}
               className={solnav.productlinkP}
             >
