@@ -27,10 +27,10 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
               className={solnav.productlinkP}
             >
               <div>
-                <h6 style={{marginLeft:"3.5%",border:"2px solid red",width:"50%"}}>{item.dropContent}</h6> <span></span>
+                <h6 style={{marginLeft:"3.5%",width:"50%"}}>{item.dropContent}</h6> <span></span>
               </div>
-              <p style={{marginTop:"5%",fontSize:"14px",border:"2px solid red"}}>{item.productText1}</p>
-              <p style={{marginTop:"5%",fontSize:"14px",border:"2px solid red"}}>{item.productText2}</p>
+              <p style={{marginTop:"5%",fontSize:"14px"}}>{item.productText1}</p>
+              <p style={{marginTop:"5%",fontSize:"14px"}}>{item.productText2}</p>
             </Link>
           </div>
         ))}

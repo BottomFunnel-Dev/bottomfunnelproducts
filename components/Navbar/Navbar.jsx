@@ -194,7 +194,7 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 // onMouseEnter={serHoverIn}
                 // onMouseLeave={serHoverOut}
-                onClick={() => router.push("https://bottomfunnel.net/")}
+                onClick={() => router.push("https://service.bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 SERVICES
