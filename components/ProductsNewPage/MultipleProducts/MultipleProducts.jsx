@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./MultipleProducts.module.css";
+import Link from "next/link";
 
 export default function MultipleProducts() {
     return (
@@ -25,16 +26,20 @@ export default function MultipleProducts() {
 
                 <div className={styles.solright}>
                     <div className={styles.soltop}>
+
                         <div className={styles.funnelDesk}>
-                            <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/desk.png" alt='image'/>
-                            </div>
-                            <p> Bottomfunnel Desk </p>
+                            <Link href={"/funneldesk"}>
+                                <div className={styles.multipleProductsai}>
+                                    <img src="/Images/ProductsPage/ProductsLogo/desk.png" alt='image' />
+                                </div>
+                                <p> Bottomfunnel Desk </p>
+                            </Link>
                         </div>
+
 
                         <div className={styles.team}>
                             <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/teams.png" alt='image'/>
+                                <img src="/Images/ProductsPage/ProductsLogo/teams.png" alt='image' />
                             </div>
 
                             <p> Bottomfunnel Team </p>
@@ -53,23 +58,25 @@ export default function MultipleProducts() {
                     <div className={styles.solbotm}>
                         <div className={styles.market}>
                             <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/marketer.png" alt='image'/>
+                                <img src="/Images/ProductsPage/ProductsLogo/marketer.png" alt='image' />
                             </div>
 
                             <p> Bottomfunnel Marketer </p>
                         </div>
 
                         <div className={styles.team}>
-                            <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/sales.png" alt='image'/>
-                            </div>
+                            <Link href={"/sales"}>
+                                <div className={styles.multipleProductsai}>
+                                    <img src="/Images/ProductsPage/ProductsLogo/sales.png" alt='image' />
+                                </div>
 
-                            <p> Bottomfunnel Sales </p>
+                                <p> Bottomfunnel Sales </p>
+                            </Link>
                         </div>
 
                         <div className={styles.chat}>
                             <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/chat.png" alt='image'/>
+                                <img src="/Images/ProductsPage/ProductsLogo/chat.png" alt='image' />
                             </div>
 
                             <p> Bottomfunnel Chat </p>
@@ -79,7 +86,7 @@ export default function MultipleProducts() {
                     <div className={styles.solbotm1}>
                         <div className={styles.funnelDesk}>
                             <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/omnichannel.png" alt='image'/>
+                                <img src="/Images/ProductsPage/ProductsLogo/omnichannel.png" alt='image' />
                             </div>
 
                             <p> Bottomfunnel Omnichannel </p>
@@ -87,7 +94,7 @@ export default function MultipleProducts() {
 
                         <div className={styles.funnelDesk}>
                             <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/contact.png" alt='image'/>
+                                <img src="/Images/ProductsPage/ProductsLogo/contact.png" alt='image' />
                             </div>
 
                             <p> Bottomfunnel ContactCenter </p>
@@ -95,7 +102,7 @@ export default function MultipleProducts() {
 
                         <div className={styles.funnelDesk}>
                             <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/customer sucess.png" alt='image'/>
+                                <img src="/Images/ProductsPage/ProductsLogo/customer sucess.png" alt='image' />
                             </div>
                             <p> Bottomfunnel CustomerSuccess </p>
                         </div>

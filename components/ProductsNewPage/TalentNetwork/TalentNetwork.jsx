@@ -100,7 +100,7 @@ export const TalentNetwork = () => {
         <div className={styles.productsTalentNetworkParentDiv}>
             <div className={styles.productsTalentNetworkHeadingDiv}>
                 <h1>
-                    India's Largest Talent Network
+                    Hire from India's Largest Talent Network
                     {/* <span> SERVICES </span> */}
                 </h1>
 

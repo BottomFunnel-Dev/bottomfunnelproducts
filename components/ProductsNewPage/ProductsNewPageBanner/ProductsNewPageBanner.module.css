@@ -1,7 +1,7 @@
 .productsBannerBannerParentDiv {
   /* border: 1px solid red; */
   display: flex;
-  height: 100vh;
+  height: 92vh;
   flex-direction: row;
   align-items: center;
   /* justify-content: space-between; */

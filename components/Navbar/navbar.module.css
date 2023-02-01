@@ -64,11 +64,11 @@
 }
 
 .dropdownBar > div li {
-  /* background-color: green; */
+  /* background-color  : green; */
   /* height: 75px; */
   width: 30%;
   text-align: center;
-  padding: 29px 5px;
+  padding: 10px 5px;
   /* color: black; */
   font-weight: 500;
   cursor: pointer;
@@ -81,9 +81,21 @@
   text-decoration-thickness: 3px;
 }
 
-.callToAction {
+.serviceButton {
+  border: 1px solid #ef4c23;
+  border-radius: 20px;
+  /* padding: 15px 5px; */
+  /* height: 10px; */
+}
+
+.serviceButton:hover {
   background-color: #ef4c23;
-  color: white;
+  color: white !important;
+}
+
+.callToAction {
+  /* background-color: #ef4c23; */
+  color: #ef4c23;
   padding: 10px 25px;
   border-radius: 25px;
   font-weight: 600;
