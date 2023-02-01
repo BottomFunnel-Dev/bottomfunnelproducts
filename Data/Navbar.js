@@ -1350,15 +1350,15 @@ export const salesIndustries = [
   },
   {
     dropContent: "Insurance",
-    path: "insuranceSales",
+    path: "insurancesales",
   },
   {
     dropContent: "Logistics",
-    path: "Logistics",
+    path: "logistics-sales",
   },
   {
     dropContent: "Agency",
-    path: "/",
+    path: "agency-sales",
   },
   {
     dropContent: "Retail",
@@ -1374,11 +1374,11 @@ export const salesIndustries = [
   },
   {
     dropContent: "Education",
-    path: "/",
+    path: "education",
   },
   {
     dropContent: "Travel Agency",
-    path: "/",
+    path: "travel",
   },
   {
     dropContent: "Law Firm",
