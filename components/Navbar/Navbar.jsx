@@ -192,8 +192,9 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
 
               <li
-                onMouseEnter={serHoverIn}
-                onMouseLeave={serHoverOut}
+                // onMouseEnter={serHoverIn}
+                // onMouseLeave={serHoverOut}
+                onClick={() => router.push("https://bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 SERVICES
@@ -210,7 +211,7 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 onMouseEnter={productHoverIn}
                 onMouseLeave={productHoverOut}
-                onClick={() => router.push("https://bottomfunnel.net/")}
+                // onClick={() => router.push("https://bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PRODUCTS
@@ -279,14 +280,14 @@ const Navbar = ({ navredux, productMount }) => {
       {/* about drop down section code end */}
 
       {/* service drop down section code start */}
-      {service ? (
+      {/* {service ? (
         <NavServices
           serHoverIn={serHoverIn}
           serHoverOut={serHoverOut}
           scroll={scroll}
           productMount={productMount}
         />
-      ) : null}
+      ) : null} */}
 
       {/* service drop down section code end */}
 

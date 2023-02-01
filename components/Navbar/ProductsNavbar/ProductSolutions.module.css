@@ -28,8 +28,9 @@
   color: black;
 }
 .productSolutionsData {
-  height: 100px;
+  height: 80px;
   padding: 10px;
+  border: 2px solid red;
 }
 .productSolutionsData .productlinkP > p {
   margin: 5px 0;
