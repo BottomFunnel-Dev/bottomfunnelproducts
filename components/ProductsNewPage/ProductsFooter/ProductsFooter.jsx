@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
-import  Link  from "next/link";
+import Link from "next/link";
 
 export const ProductsFooter = () => {
     return (
@@ -102,68 +102,82 @@ export const ProductsFooter = () => {
 
                         <h5> SAAS Services </h5>
 
-                        <Link className={styles.productFooterLinkTag} href="/web-development"> 
-                        <li>
-                            Web Development
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href="/web-development">
+                            <li>
+                                Web Development
+                            </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href="/mobile-app-development"> 
-                        <li>
-                            Mobile App Development
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href="/mobile-app-development">
+                            <li>
+                                Mobile App Development
+                            </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href="/Digital-marketing"> 
-                        <li>
-                            Digital Marketing
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href="/Digital-marketing">
+                            <li>
+                                Digital Marketing
+                            </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href="/">  
-                        <li>
-                            Trending Technologies
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href="/">
+                            <li>
+                                Trending Technologies
+                            </li>
                         </Link>
                     </ul>
 
                     <ul className={styles.productMainProductDivLink}>
                         <h5> On Demand Solution </h5>
 
-                        <li>Real State Solutions</li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>Real State Solutions</li>
+                        </Link>
 
-                        <li>Beauty and salon solutions</li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>Beauty and salon solutions</li>
+                        </Link>
 
-                        <li>Trading App Solutions</li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>Trading App Solutions</li>
+                        </Link>
 
-                        <li>Grocery Delivery Solutions</li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>Grocery Delivery Solutions</li>
+                        </Link>
 
-                        <li>OTT APP solutions</li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>OTT APP solutions</li>
+                        </Link>
 
-                        <li>Online Payment App</li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>Online Payment App</li>
+                        </Link>
 
-                        <li>Car Rental APP Solutions</li>
-
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>Car Rental APP Solutions</li>
+                        </Link>
                     </ul>
 
                     <ul className={styles.productMainProductDivLink}>
                         <h5> About </h5>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Company
+                            </li>
+                        </Link>
 
-                        <li>
-                            Company
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Careers </li>
+                        </Link>
 
-                        <li>
-                            Careers
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Privacy Policy </li>
+                        </Link>
 
-                        <li>
-                            Privacy Policy
-                        </li>
-
-                        <li>
-                            Contact Us
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Contact Us </li>
+                        </Link>
                     </ul>
 
                 </div>

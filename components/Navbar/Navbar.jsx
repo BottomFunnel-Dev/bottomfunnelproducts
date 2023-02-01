@@ -185,7 +185,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={homeHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                ABOUT
+                About
               </li>
 
               <li
@@ -193,7 +193,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={solHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                FEATURES
+                Features
               </li>
 
               <li
@@ -202,7 +202,7 @@ const Navbar = ({ navredux, productMount }) => {
                 // onClick={() => router.push("https://bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                PRODUCTS
+                Products
               </li>
 
               <li
@@ -210,7 +210,7 @@ const Navbar = ({ navredux, productMount }) => {
                 // onMouseLeave={blogHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                PLATFORM
+                Platform
               </li>
 
               <li
@@ -219,7 +219,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onClick={() => router.push("/pricing")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                PRICING
+                Pricing
               </li>
 
               <li
@@ -227,7 +227,7 @@ const Navbar = ({ navredux, productMount }) => {
                 // onMouseLeave={blogHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                RESOURCES
+                Resources
               </li>
 
               <li className={navstyle.serviceButton}
@@ -236,14 +236,14 @@ const Navbar = ({ navredux, productMount }) => {
                 onClick={() => router.push("https://service.bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                SERVICES
+                Services
               </li>
             </div>
 
             {/* <button className={navstyle.serviceButton}>
               SERVICES
             </button> */}
-
+++
             <button
               className={navstyle.callToAction}
             // onClick={() => router.push("/hire-new-talent")}
