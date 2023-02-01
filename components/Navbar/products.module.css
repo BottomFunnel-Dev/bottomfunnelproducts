@@ -7,11 +7,13 @@
   z-index: 1000;
   position: fixed;
 }
+
 .productDropdownContent {
   height: 100%;
   width: 50%;
   /* border: 2px solid red; */
 }
+
 .productDropdownSection {
   width: 100%;
   margin: 0 auto;

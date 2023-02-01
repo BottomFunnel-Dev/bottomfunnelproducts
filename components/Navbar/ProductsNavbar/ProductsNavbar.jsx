@@ -7,7 +7,7 @@ import { ProductResources } from "./ProductResources";
 import { ProductFeature } from "./ProductFeature";
 import { ProductDesk } from "./ProductDesk";
 
-export const ProductsNavbar = ({navproductredux }) => {
+export const ProductsNavbar = ({ navproductredux }) => {
   // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
@@ -120,7 +120,7 @@ export const ProductsNavbar = ({navproductredux }) => {
         <li
           onMouseEnter={solDeskIn}
           onMouseLeave={solDeskOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}F
+          style={{ color: productnavbar ? "black" : navproductredux.color }} F
         >
           Desk Products
           <img
