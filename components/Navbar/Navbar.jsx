@@ -242,31 +242,51 @@ const Navbar = ({ navredux, productMount }) => {
                 Resources
               </li>
 
-              <li className={navstyle.serviceButton}
+              <li
+                // onMouseEnter={blogHoverIn}
+                // onMouseLeave={blogHoverOut}
+                style={{ color: navbar ? "black" : navredux.color }}
+              >
+                Support
+              </li>
+
+              {/* <li className={navstyle.serviceButton}
                 // onMouseEnter={serHoverIn}
                 // onMouseLeave={serHoverOut}
                 onClick={() => router.push("https://service.bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Services
-              </li>
+              </li> */}
             </div>
 
-            {/* <button className={navstyle.serviceButton}>
-              SERVICES
-            </button> */}
             <button
+              className={navstyle.callToAction}
+            // onClick={() => router.push("/hire-new-talent")}
+            >
+              Trial
+            </button>
+
+            <button
+              className={navstyle.callToAction}
+              onClick={() => router.push("https://service.bottomfunnel.net/")}
+            >
+             Services
+            </button>
+
+            {/* <button
               className={navstyle.callToAction}
             // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
+
             <button
               className={navstyle.callToAction}
             // onClick={() => router.push("/Apply-new-talent")}
             >
               Apply as a Talent
-            </button>
+            </button> */}
           </div>
         )}
 

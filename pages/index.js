@@ -1,4 +1,3 @@
-
 import { TextDropdown } from "../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../components/CommonComponents/PlanProject/PlanProject";
@@ -7,7 +6,7 @@ import { SeoblogSection } from "../components/CommonComponents/SeoBlogs/Seoblogs
 import StoriesSection from "../components/CommonComponents/StoriesSection/StoriesSection";
 import CompanyLogo from "../components/CompanyLogos/CompanyLogo";
 import ContectForm from "../components/ContectForm/ContectForm";
-import { Companystats } from "../components/CompanyStats/Companystats";
+import TrustedBy from "../components/TrustedByProductsPage/TrustedBy";
 
 import Navbar from "../components/Navbar/Navbar";
 import { ProductsNewPageBanner } from "../components/ProductsNewPage/ProductsNewPageBanner/ProductsNewPageBanner";
@@ -35,7 +34,6 @@ export default function Home() {
       />
 
       <ProductsNewPageBanner />
-      <CompanyLogo />
       <MultipleProducts />
       <TalentNetwork />
       <SimpleAndEasy />
@@ -43,7 +41,7 @@ export default function Home() {
 
       {/* Other react required components  */}
       <StoriesSection />
-      <Companystats />
+      <TrustedBy/>
       {/* <OndemandSection /> */}
       {/* <PortFolio />  */}
       {/* <PlanProject /> */}
