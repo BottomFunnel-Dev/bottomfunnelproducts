@@ -1020,7 +1020,7 @@ export const product1 = [
   {
     dropContent: "Bottom Funnel sales",
     navIcons: "Images/navbar/product/bottomFunnnelSales.png",
-    path: "sales",
+    path: "/sales",
     title: "Delight Your Customer With Effortless Sales Service",
     productHover: "#ffaf9a",
   },
