@@ -113,7 +113,8 @@ export const SalesNavbar = () => {
       }}
     >
       <div className={navsales.deskLogo}>
-        <h5>Sales</h5>
+        <img src="/Images/Logos/bottomfunnelsales.png"/>
+        <h5>Bottom Funnel Sales</h5>
       </div>
       <div className={navsales.deskList}>
         <li
