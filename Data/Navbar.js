@@ -1005,14 +1005,14 @@ export const product1 = [
   {
     dropContent: "Bottom Funnel Chat",
     navIcons: "Images/navbar/product/Chat.png",
-    path: "Chat",
+    path: "/",
     title: "Delight Your Customer With Effortless Bottom Funnel Chat Service",
     productHover: "#a1ffca",
   },
   {
     dropContent: "Bottom Funnel Marketer",
     navIcons: "Images/navbar/product/Market.png",
-    path: "Marketer",
+    path: "/",
     title: "Delight Your Customer With Effortless MarketPlace Service",
     productHover: "#ffcf9c",
   },
@@ -1027,7 +1027,7 @@ export const product1 = [
   {
     dropContent: "Bottom Funnel Service",
     navIcons: "Images/navbar/product/Service.png",
-    path: "Service",
+    path: "/",
     title: "Delight Your Customer With Effortless Service",
     productHover: "#e1e1e1",
   },
@@ -1037,7 +1037,7 @@ export const product2 = [
   {
     dropContent: "Bottom Funnel Omnichannel",
     navIcons: "Images/navbar/product/omnichannel.png",
-    path: "Omnichannel",
+    path: "/",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
   },
@@ -1045,21 +1045,21 @@ export const product2 = [
   {
     dropContent: "Bottom Funnel Customer Success",
     navIcons: "Images/navbar/product/success.png",
-    path: "Team",
+    path: "/",
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Contact Center",
     navIcons: "Images/navbar/product/contact.png",
-    path: "ContactManagement",
+    path: "/",
     title: "Delight Your Customer With Effortless Contact Center Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel CRM Suite",
     navIcons: "Images/navbar/product/Sales.png",
-    path: "Team",
+    path: "/",
     title: "Delight Your Customer With Effortless CRM Suite Service",
     productHover: "#ffaf9a",
   },
@@ -1175,13 +1175,14 @@ export const productDesk = [
       "A reliable and smart call center solution for effortless experience",
     productText2: "Field Service",
     navIcons: "/Images/Logos/funnel-desk/contact-center.png",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Omnichannel Suite",
     productText1: "Delight your customers with effortless omnichannel service",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/omnichannel.png",
+    path: "/",
   },
   {
     dropContent: "Customer Sucess",
@@ -1189,6 +1190,7 @@ export const productDesk = [
       "Product revenue, increase customer lifetime value, and strengthen customer relationship.",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/customer-sucess.png",
+    path: "/",
   },
 ];
 

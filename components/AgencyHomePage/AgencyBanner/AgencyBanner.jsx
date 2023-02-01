@@ -6,7 +6,7 @@ export const AgencyBanner = () => {
     <div>
                <div className={style.AgencySalesbannermainbox}>
     <div className={style.AgencySalesbannermainboxinnertextdiv}>
-    <h1>CRM for Agencys</h1>
+    <h1>CRM for Agency</h1>
     <p>Improve speed, time, and quality of customer service with a  frist-rate CRM for Agencys </p>
     <button className={style.AgencySalesbannerbutton}>TRY FOR FREE</button>
     </div>

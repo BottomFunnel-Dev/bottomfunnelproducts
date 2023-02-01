@@ -8,10 +8,29 @@ import { AngencyCrm } from "../../components/AgencyHomePage/AngencyCrm/AngencyCr
 import { AutomateTask } from "../../components/AgencyHomePage/AutomateTask/AutomateTask";
 import { Discover } from "../../components/AgencyHomePage/Discover/Discover";
 import { Performing } from "../../components/AgencyHomePage/Performing/Performing";
+import Navbar from "../../components/Navbar/Navbar";
+import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
 
 export default function AgencyHomePage() {
   return (
     <>
+
+    <div style={{ color: "#393939" }}>
+    
+    <Navbar
+      productMount={{
+        navMount: true,
+      }}
+      navredux={{
+        color: "black",
+        logo: false,
+      }}
+    />
+      <SalesNavbar  navproductredux={{
+          color: "black",
+          logo: false,
+        }}/>
+
       <AgencyBanner />
       <AngencyCrm />
       <AgencyNeedCrm />
@@ -22,6 +41,7 @@ export default function AgencyHomePage() {
       <EstateAgency />
       <SalesWorldwide />
       <MakeYourDeal />
+      </div>
     </>
   );
 }

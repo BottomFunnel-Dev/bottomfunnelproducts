@@ -8,10 +8,28 @@ import { InsuranceSalesScreens } from "../../components/InsuranceSales/Insurance
 import { MakeYourDeal } from "../../components/InsuranceSales/MakeYourDeal/MakeYourDeal";
 import { SalesWorldwide } from "../../components/InsuranceSales/SalesWorldwide/SalesWorldwide";
 import { Spacialized } from "../../components/InsuranceSales/Spacialized/Spacialized";
+import Navbar from "../../components/Navbar/Navbar";
+import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
 
 export default function InsuranceSales() {
   return (
     <>
+        <div style={{ color: "#393939" }}>
+ 
+        <Navbar
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+          <SalesNavbar  navproductredux={{
+              color: "black",
+              logo: false,
+            }}/>
+
       <InsuranceSalesBanner />
       <CentricBusiness />
       <InsuranceProductivity />
@@ -21,6 +39,7 @@ export default function InsuranceSales() {
       <InsuranceAgency />
       <SalesWorldwide />
       <MakeYourDeal />
+      </div>
     </>
   );
 }
