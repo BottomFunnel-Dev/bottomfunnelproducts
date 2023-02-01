@@ -28,9 +28,10 @@
   color: black;
 }
 .productSolutionsData {
-  height: 80px;
+  height: 85px;
   padding: 10px;
   /* border: 2px solid red; */
+  /* padding-bottom: 2%; */
 }
 .productSolutionsData .productlinkP > p {
   margin: 5px 0;
@@ -58,6 +59,7 @@
 }
 .productlinkP > p:hover {
   background-color: lightgray;
+  border-left: 3px solid #ef4c23;
 }
 .productSolutionsData:last-child {
   border-bottom: none;
@@ -67,12 +69,12 @@
   background: transparent;
   width: 80%;
   height: 30px;
-  margin: 2% auto;
+  margin: 8% auto;
   margin-bottom: 10%;
   border-radius: 5px;
   font-size: 14px;
   padding: 2px 0;
-  font-weight: 600;
+  font-weight: 500;
   outline: none;
   cursor: pointer;
 }
