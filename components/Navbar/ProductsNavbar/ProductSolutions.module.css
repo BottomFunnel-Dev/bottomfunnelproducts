@@ -73,7 +73,7 @@
   margin-bottom: 10%;
   border-radius: 5px;
   font-size: 14px;
-  padding: 2px 0;
+  /* padding: 2px 0; */
   font-weight: 500;
   outline: none;
   cursor: pointer;
@@ -87,4 +87,8 @@
 
 .productSolutionsData .productlinkP {
   color: #393939;
+}
+.arrowIcon{
+  /* border: 2px solid red; */
+  width: 18px;
 }

@@ -34,7 +34,7 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
             </Link>
           </div>
         ))}
-        <button>All industries</button>
+        <button>View all industries</button>
       </div>
     </div>
   );
