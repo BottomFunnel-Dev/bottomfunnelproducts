@@ -69,12 +69,13 @@
     border: 1px solid #393939;
     background: transparent;
     width: 80%;
+    height: 30px;
     margin: 2% auto;
     margin-bottom: 10%;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 2px 0;
-    font-weight: 600;
+    font-weight: 500;
     outline: none;
     cursor: pointer;
   }
