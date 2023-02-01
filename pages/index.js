@@ -7,6 +7,8 @@ import { SeoblogSection } from "../components/CommonComponents/SeoBlogs/Seoblogs
 import StoriesSection from "../components/CommonComponents/StoriesSection/StoriesSection";
 import CompanyLogo from "../components/CompanyLogos/CompanyLogo";
 import ContectForm from "../components/ContectForm/ContectForm";
+import { Companystats } from "../components/CompanyStats/Companystats";
+
 import Navbar from "../components/Navbar/Navbar";
 import { ProductsNewPageBanner } from "../components/ProductsNewPage/ProductsNewPageBanner/ProductsNewPageBanner";
 import MultipleProducts from "../components/ProductsNewPage/MultipleProducts/MultipleProducts";
@@ -41,12 +43,13 @@ export default function Home() {
 
       {/* Other react required components  */}
       <StoriesSection />
-      <OndemandSection />
+      <Companystats />
+      {/* <OndemandSection /> */}
       {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
+      {/* <PlanProject /> */}
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
       <ContectForm />
       <ProductsFooter />
     </>
