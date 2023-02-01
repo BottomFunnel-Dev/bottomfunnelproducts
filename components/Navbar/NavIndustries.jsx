@@ -2,7 +2,7 @@ import React from "react";
 import navstyle from "./navbar.module.css";
 import industry from "./navIndustries.module.css";
 import Link from "next/link";
-import { industries, ondemand } from "../../Data/Navbar";
+import { industries, product3 } from "../../Data/Navbar";
 export const NavIndustries = ({
   solHoverIn,
   solHoverOut,
@@ -17,7 +17,7 @@ export const NavIndustries = ({
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
       {/* <div className={industry.serviceVisible}> */}
-      <div className={industry.indindustryContent}>
+      {/* <div className={industry.indindustryContent}>
         <Link href={""} className={industry.industrynoStyle}>
           <h5>Industries We Serves</h5>
         </Link>
@@ -48,16 +48,16 @@ export const NavIndustries = ({
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
 
       
       <div id={industry.ondemandsol} className={industry.indindustryContent}>
-        <Link href={""} className={industry.industrynoStyle}>
+        {/* <Link href={""} className={industry.industrynoStyle}>
           <h5>On Demand Solutions</h5>
-        </Link>
+        </Link> */}
         <div className={industry.industryListItems}>
-          {ondemand.map((item, i) => (
+          {product3.map((item, i) => (
             <div
               key={i}
               onClick={() => {

@@ -1,12 +1,15 @@
 .industryserviceVisible {
   display: flex;
-  background-color: white;
-  width: 100%;
-  height: 440px;
+  background-color: transparent;
+  width:40%;
+  height: 340px;
   position: fixed;
   box-sizing: border-box;
   top: 78px;
+  left: 25%;
   padding: 0 5px;
+
+  /* border: 2px solid red; */
   /* border-top: 1px solid black; */
   z-index: 100000000;
   justify-content: center;
@@ -29,32 +32,35 @@
   display: flex;
   flex-direction: row;
   padding: 0 30px;
+  border: 2px solid yellow;
 }
 
-.indindustryContent {
-  width: 40%;
-  height: 100%;
-}
+
 
 .indindustryContent > h4 {
   color: #ef4c23;
 }
 
 .industryListItems {
-  width: 38%;
-  height: 98%;
+  width: 100%;
+  /* height: 98%; */
+  background-color: white;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  /* margin: auto; */
+  margin-top: 2%;
+  /* border: 2px solid green; */
 }
 
-.industryListItems > p {
+.industryListItems>div>p{
   margin: 0;
   width: 49%;
   padding: 5px 5px;
   list-style: none !important;
   text-decoration: none !important;
+  /* border: 2px solid red; */
 }
 
 .industryListItems > p:hover {
@@ -86,20 +92,17 @@
   background-color: white;
   top: 78px;
 }
-
-
-
-
 .industryimageIconDivSection {
   width: 100%;
   height: 38px;
   column-gap: 3%;
   display: flex;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   align-items: center;
   box-sizing: border-box;
-  border-left: 3px solid white;
+  /* border-left: 3px solid black; */
   margin-top: 2px;
+  /* border: 2px solid red; */
 }
 
 .industryiconDivSection {
@@ -111,7 +114,7 @@
 }
 
 .industryimageIconDivSection:hover {
-  /* border-left: 3px solid #ef4c23; */
+  border-left: 3px solid #ef4c23;
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
@@ -123,6 +126,7 @@
   width: 65%;
   font-size: 14px;
   margin: 0;
+  border: 2px solid red;
 }
 
 .industryimageIconDivSection > div {

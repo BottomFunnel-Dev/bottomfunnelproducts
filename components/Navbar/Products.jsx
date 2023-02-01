@@ -162,14 +162,12 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           </div>
         </div>
 
-        <div
+        {/* <div
           className={prods.productDropdownContent}
-          // style={{ marginLeft: "3%", width: "25%" }}
         >
           <h5
             className={prods.noStyleMain}
             onClick={() => {
-              // navigate(`web-development`);
               serHoverOut();
             }}
             style={{ color: "#ef4c23", paddingLeft: "35px" }}
@@ -181,24 +179,14 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             className={prods.listItems}
             style={{ marginTop: "5%", marginLeft: "7%" }}
           >
-            {/* <h5> <img src=""/> Features</h5> */}
             {product3.map((item, i) => (
               <div
                 key={i}
                 onClick={() => {
-                  // navigate(`/${item.path}`);
                   serHoverOut();
                 }}
                 className={prods.productimageIconDivSection}
               >
-                {/* <div>
-                    <img
-                      className="iconDivSection"
-                      src={item.navIcons}
-                      alt=""
-                    />
-                  </div> */}
-
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
@@ -208,20 +196,16 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     color: "black",
                     padding: "0 10px",
                   }}
-                  // className={prods.linkP}
                 >
-                  {/* <p style={{ margin: "0", paddingLeft: "7%" }}> */}
                   {item.dropContent}
-                  {/* </p> */}
                 </Link>
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div
           className={prods.productDropdownContent}
-          // style={{ marginLeft: "1%", width: "25%" }}
         >
           <div
             style={{
