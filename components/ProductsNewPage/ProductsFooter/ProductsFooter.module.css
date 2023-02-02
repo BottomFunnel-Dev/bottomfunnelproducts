@@ -98,8 +98,9 @@
 .productFooterLinkTag {
   text-decoration: none;
   color: #393939;
-  /* border: 1px solid red;
-  height: 20px; */
+  /* margin-top: 2%; */
+  /* border: 1px solid red; */
+  /* height: 20px; */
 }
 
 .productFooterLinkTag:hover {
@@ -107,17 +108,10 @@
   cursor: pointer;
 }
 
-/* .productFooterLinkServicesTag {
-  color: #393939;
-  text-decoration: none;
-  margin-bottom: 0% !important;
-  
+.productFooterLinkTag > li {
+  /* border: 1px solid red; */
+  margin-top: 3%;
 }
-
-.productFooterLinkServicesTag:hover{
-  color: #ef4c23;
-  cursor: pointer;
-} */
 
 .productFooterBottomDiv {
   /* border-bottom: 1px solid black; */
