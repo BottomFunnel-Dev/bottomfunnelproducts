@@ -40,12 +40,11 @@
 }
 
 .viewAllButton {
-  border: 2px solid red;
   cursor: pointer;
   /* text-decoration: underline; */
   margin: 0% auto;
   background-color: white;
-  width: 65%;
+  width: 45%;
   color: #ef4c23;
   padding: 7px;
   border-radius: 5px;

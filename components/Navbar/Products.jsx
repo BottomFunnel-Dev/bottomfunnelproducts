@@ -54,7 +54,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   <p style={{ fontWeight: "700", fontSize: "13px" }}>
                     {item.dropContent}
                   </p>
-                  <p style={{ fontSize: "10px", fontWeight: "500" }}>{item.title}</p>
+                  <p style={{ fontSize: "12px", fontWeight: "600" }}>{item.title}</p>
                 </Link>
               </div>
             ))}
@@ -86,7 +86,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   <img
                     // className={prods.productLogoImages}
                     src={item.navIcons}
-                    alt=""
+                    alt="image"
                     // style={{ width: "90px", height: "60px" }}
                   />
                 </div>
@@ -99,7 +99,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   <p style={{ fontWeight: "500", fontSize: "14px" }}>
                     {item.dropContent}
                   </p>
-                  <p style={{ fontSize: "11px" }}>{item.title}</p>
+                  <p style={{ fontSize: "12px",fontWeight:"600" }}>{item.title}</p>
                 </Link>
               </div>
             ))}
