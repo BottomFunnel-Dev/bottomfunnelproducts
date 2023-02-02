@@ -15,6 +15,7 @@ import { TalentNetwork } from "../components/ProductsNewPage/TalentNetwork/Talen
 import { SimpleAndEasy } from "../components/ProductsNewPage/SimpleAndEasy/SimpleAndEasy";
 import { TalentProfiles } from "../components/ProductsNewPage/TalentProfiles/TalentProfiles";
 import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 export default function Home() {
   return (
     <>
@@ -48,6 +49,7 @@ export default function Home() {
       {/* <SeoblogSection /> */}
       {/* <Revamping /> */}
       {/* <TextDropdown /> */}
+      <LifeBottomFunnel/>
       <ContectForm />
       <ProductsFooter />
     </>
