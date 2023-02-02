@@ -86,17 +86,18 @@
   border: 1px solid white;
   padding: 6px;
   /* color: white; */
-  border-radius: 25px;
+  border-radius: 15px;
   text-decoration: none;
   /* margin-left: 45%; */
   /* background-color: #ef4c23; */
 }
 
-.productPagesocialIcons:hover {
+.talentedProfilesLinkedinIcons:hover {
   font-size: 32px;
   padding: 6px;
-  color: white;
-  background-color: #ef4c23;
+  /* color: white;
+  background-color: #ef4c23; */
+  border: none;
   border-radius: 18px;
 }
 
