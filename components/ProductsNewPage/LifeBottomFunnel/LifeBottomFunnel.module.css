@@ -46,3 +46,22 @@
   width: 100%;
   object-fit: contain;
 }
+
+.lifeBottomContentDiv {
+  /* border: 1px solid red; */
+  position: relative;
+  height: 50px;
+}
+
+.lifeBottomContentDiv > h2 {
+  position: absolute;
+  right: 0%;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ef4c23;
+}
+
+.lifeBottomContentDiv > h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
