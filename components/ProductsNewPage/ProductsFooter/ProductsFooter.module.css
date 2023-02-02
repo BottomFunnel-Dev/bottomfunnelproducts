@@ -8,85 +8,120 @@
   /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
+  height: 70px;
+  margin-left: 3%;
 }
 
 .productFooterLogoDiv {
   /* border: 1px solid red; */
-  width: 60%;
-  margin-top: 5%;
+  width: 50%;
+  margin-top: -0.5%;
   height: fit-content;
 }
 
-.productsFooterSocialMediaLogos {
-  /* border: 1px solid gold; */
-  width: 40%;
-}
-
 .productFooterLogoDiv > img {
-  width: 20%;
+  width: 35%;
+  margin-left: 4.5%;
   object-fit: cover;
 }
 
-.productsfooterSocialMediaSection {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin: 5px 0;
-  margin-top: 13%;
-  column-gap: 16px;
-}
-.productPagesocialIcons {
-  font-size: 35px;
-  border: 1px solid white;
-  padding: 6px;
-  color: #ef4c23;
-  border-radius: 18px;
-  background-color: white;
-}
-.productPagesocialIcons:hover {
-  font-size: 35px;
-  /* border: 1px solid white; */
-  padding: 6px;
-  color: white;
-  background-color: #ef4c23;
-  border-radius: 18px;
+.productsFooterSideButtons {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 50px;
+  margin-top: 1%;
+  margin-left: 18%;
 }
 
-/* .productsFooterContentMainDiv {
-  border: 1px solid gold;
-} */
+.productsFooterCallToAction {
+  background-color: #ffeae5;
+  border: 1px solid #ef4c23;
+  color: #ef4c23;
+  padding: 8px 25px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.productsFooterCallToAction:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+  cursor: pointer;
+  /* border: 1px solid white; */
+}
+
+.productsFooterCallToActionLogin {
+  background-color: #ef4c23;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 5px;
+  border: none;
+}
+
+.productsFooterCallToActionLogin:hover {
+  color: #ef4c23;
+  border: 1px solid #ef4c23;
+  background-color: white;
+  cursor: pointer;
+  /* border: 1px solid white; */
+}
+
+.productsFooterContentMainDiv {
+  /* border: 1px solid gold; */
+  margin-left: 3%;
+}
 
 .productsFooterTagsDiv {
   /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
+  text-align: left;
 }
 
 .productMainProductDivLink {
   /* border: 1px solid red; */
   width: 24%;
-  text-decoration: none;
+  text-align: left;
+  list-style-type: none;
 }
 
-.productMainProductDivLink > li {
-  margin-left: 10%;
-  margin-bottom: 2%;
-  color: #393939;
+.productMainProductDivLink > h5 {
+  /* border: 1px solid red; */
+  margin-bottom: 1%;
 }
 
 .productFooterLinkTag {
   text-decoration: none;
   color: #393939;
-  margin-left: 5%;
+  /* border: 1px solid red;
+  height: 20px; */
 }
 
- .productFooterLinkTag:hover {
+.productFooterLinkTag:hover {
   color: #ef4c23;
   cursor: pointer;
 }
 
+/* .productFooterLinkServicesTag {
+  color: #393939;
+  text-decoration: none;
+  margin-bottom: 0% !important;
+  
+}
+
+.productFooterLinkServicesTag:hover{
+  color: #ef4c23;
+  cursor: pointer;
+} */
+
 .productFooterBottomDiv {
-  /* border: 1px solid red; */
+  border-bottom: 1px solid black;
+  height: 70px;
   display: flex;
   flex-direction: row;
   margin-top: 2%;
@@ -100,6 +135,38 @@
   margin-left: 4%;
 }
 
+.productsFooterSocialMediaLogos {
+  /* border: 1px solid gold; */
+  width: 40%;
+}
+
+.productsfooterSocialMediaSection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 5px 0;
+  /* margin-top: 13%; */
+  column-gap: 16px;
+}
+
+.productPagesocialIcons {
+  font-size: 30px;
+  border: 1px solid white;
+  padding: 6px;
+  color: #ef4c23;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.productPagesocialIcons:hover {
+  font-size: 32px;
+  /* border: 1px solid white; */
+  padding: 6px;
+  color: white;
+  background-color: #ef4c23;
+  border-radius: 18px;
+}
+
 .productFooterBottomDivImagesDiv {
   /* border: 1px solid gold; */
   margin-left: 6%;
@@ -108,4 +175,14 @@
 .productFooterBottomDivImagesDiv > img {
   column-gap: 5%;
   /* margin-right: 3%; */
+}
+
+.productFooterBottomContentDiv {
+  border-bottom: 1px solid black;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  /* align-items: center;
+  justify-content: center; */
 }

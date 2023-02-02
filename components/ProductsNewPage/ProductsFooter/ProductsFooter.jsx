@@ -18,7 +18,8 @@ export const ProductsFooter = () => {
                     <img src='/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
                 </div>
 
-                <div className={styles.productsFooterSocialMediaLogos}>
+
+                {/* <div className={styles.productsFooterSocialMediaLogos}>
                     <div className={styles.productsfooterSocialMediaSection}>
                         <a
                             target="_blank"
@@ -61,6 +62,72 @@ export const ProductsFooter = () => {
                             </IconContext.Provider>
                         </a>
                     </div>
+                </div> */}
+
+                <div className={styles.productsFooterSideButtons}>
+                    <button
+                        className={styles.productsFooterCallToAction}
+                    // onClick={() => router.push("/hire-new-talent")}
+                    >
+                        Hire a Talent
+                    </button>
+
+                    <button
+                        className={styles.productsFooterCallToAction}
+                    // onClick={() => router.push("/Apply-new-talent")}
+                    >
+                        Apply as a Talent
+                    </button>
+
+                    <button
+                        className={styles.productsFooterCallToActionLogin}
+                    // onClick={() => router.push("/Apply-new-talent")}
+                    >
+                        Login
+                    </button>
+
+                    {/* <div className={styles.productsfooterSocialMediaSection}>
+                        <a
+                            target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100075774771610"
+                        >
+                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                <FaFacebookF />
+                            </IconContext.Provider>
+                        </a>
+
+                        <a target="_blank" href="https://twitter.com/BottomFunnel">
+                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                <FaTwitter />
+                            </IconContext.Provider>
+                        </a>
+
+                        <a
+                            target="_blank"
+                            href="https://www.linkedin.com/company/bottomfunnel/mycompany/verification/"
+                        >
+                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                <FaLinkedin />
+                            </IconContext.Provider>
+                        </a>
+
+                        <a
+                            target="_blank"
+                            href="https://www.instagram.com/bottomfunnelmarketing/"
+                        >
+                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                <AiFillInstagram />
+                            </IconContext.Provider>
+                        </a>
+                        <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC-zyghDYFUgRSUlKTadvJuQ"
+                        >
+                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                <FaYoutube />
+                            </IconContext.Provider>
+                        </a>
+                    </div> */}
                 </div>
             </div>
 
@@ -68,59 +135,119 @@ export const ProductsFooter = () => {
                 <div className={styles.productsFooterTagsDiv}>
                     <ul className={styles.productMainProductDivLink}>
                         <h5> Products </h5>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                BottomFunnel Desk
+                            </li>
+                        </Link>
 
-                        <li>
-                            BottomFunnel Desk
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                BottomFunnel Chat
+                            </li>
+                        </Link>
 
-                        <li>
-                            BottomFunnel Chat
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                BottomFunnel Sales
+                            </li>
+                        </Link>
 
-                        <li>
-                            BottomFunnel Sales
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                BottomFunnel Marketer
+                            </li>
+                        </Link>
 
-                        <li>
-                            BottomFunnel Marketer
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                BottomFunnel Service
+                            </li>
+                        </Link>
 
-                        <li>
-                            BottomFunnel Service
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                BottomFunnel Team
+                            </li>
+                        </Link>
 
-                        <li>
-                            BottomFunnel Team
-                        </li>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                BottomFunnel Survey
+                            </li>
+                        </Link>
+                    </ul>
 
-                        <li>
-                            BottomFunnel Survey
-                        </li>
+                    <ul className={styles.productMainProductDivLink}>
+
+                        <h5> Platform </h5>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Marketplace
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Developer Portal
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Customer Spotlight
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Customer Services
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                IT Enterprise
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Engagement
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Olly AI
+                            </li>
+                        </Link>
                     </ul>
 
                     <ul className={styles.productMainProductDivLink}>
 
                         <h5> SAAS Services </h5>
 
-                        <Link className={styles.productFooterLinkTag} href="/web-development">
+                        <Link className={styles.productFooterLinkTag} href={"/web-development"}>
                             <li>
                                 Web Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href="/mobile-app-development">
+                        <Link className={styles.productFooterLinkTag} href={"/mobile-app-development"}>
                             <li>
                                 Mobile App Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href="/Digital-marketing">
+                        <Link className={styles.productFooterLinkTag} href={"/Digital-marketing"}>
                             <li>
                                 Digital Marketing
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href="/">
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
                             <li>
                                 Trending Technologies
                             </li>
@@ -184,9 +311,50 @@ export const ProductsFooter = () => {
 
                 <div className={styles.productFooterBottomDiv}>
                     <div className={styles.productFooterBottomDivContentDiv}>
-                        <h5>
-                            ©2022 BottomFunnel. All rights reserved
-                        </h5>
+                        <div className={styles.productsFooterSocialMediaLogos}>
+                            <div className={styles.productsfooterSocialMediaSection}>
+                                <a
+                                    target="_blank"
+                                    href="https://www.facebook.com/profile.php?id=100075774771610"
+                                >
+                                    <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                        <FaFacebookF />
+                                    </IconContext.Provider>
+                                </a>
+
+                                <a target="_blank" href="https://twitter.com/BottomFunnel">
+                                    <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                        <FaTwitter />
+                                    </IconContext.Provider>
+                                </a>
+
+                                <a
+                                    target="_blank"
+                                    href="https://www.linkedin.com/company/bottomfunnel/mycompany/verification/"
+                                >
+                                    <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                        <FaLinkedin />
+                                    </IconContext.Provider>
+                                </a>
+
+                                <a
+                                    target="_blank"
+                                    href="https://www.instagram.com/bottomfunnelmarketing/"
+                                >
+                                    <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                        <AiFillInstagram />
+                                    </IconContext.Provider>
+                                </a>
+                                <a
+                                    target="_blank"
+                                    href="https://www.youtube.com/channel/UC-zyghDYFUgRSUlKTadvJuQ"
+                                >
+                                    <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
+                                        <FaYoutube />
+                                    </IconContext.Provider>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <div className={styles.productFooterBottomDivImagesDiv}>
@@ -194,6 +362,17 @@ export const ProductsFooter = () => {
                         <img src='/Images/ProductsPage/Footer/Play Store.png' alt='image' />
                     </div>
                 </div>
+
+                {/* <div className={styles.productFooterBottomContentDiv}>
+                    <div className={styles.productFooterBottomDivContentDiv}>
+                        
+                    </div>
+
+                    <div className={styles.productFooterBottomDivImagesDiv}>
+                        <img src='/Images/ProductsPage/Footer/Google Play.png' alt='image' />
+                        <img src='/Images/ProductsPage/Footer/Play Store.png' alt='image' />
+                    </div>
+                </div> */}
             </div>
 
         </div>
