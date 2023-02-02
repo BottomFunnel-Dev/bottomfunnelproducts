@@ -38,12 +38,9 @@
 }
 
 .productsTalentProfilesContentDiv > div {
-  width: 20%;
-  /* height: 320px; */
-  /* border: 1px solid #d6d6d6; */
+  /* border: 1px solid red; */
+  width: 15%;
   border-radius: 10px;
-  /* margin-top: 4%; */
-  /* margin-bottom: 2%; */
   padding: 1%;
   display: flex;
   flex-direction: column;
@@ -53,6 +50,7 @@
   background-color: white;
   /* border: 1px solid red; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
 }
 
 .productsTalentProfilesContentDiv > div:hover {
@@ -66,41 +64,90 @@
   color: white;
 }
 
+.productsTalentProfilesContentDiv > div > div {
+  /* border: 1px solid red; */
+  width: 100%;
+  position: relative;
+}
+
+.productsTalentProfilesLinkdinDiv {
+  /* border: 1px solid green; */
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.productsTalentProfilesLinkdinDiv > a {
+  color: inherit;
+}
+
+.talentedProfilesLinkedinIcons {
+  font-size: 30px;
+  border: 1px solid white;
+  padding: 6px;
+  /* color: white; */
+  border-radius: 25px;
+  text-decoration: none;
+  /* margin-left: 45%; */
+  /* background-color: #ef4c23; */
+}
+
+.productPagesocialIcons:hover {
+  font-size: 32px;
+  padding: 6px;
+  color: white;
+  background-color: #ef4c23;
+  border-radius: 18px;
+}
+
 .productsTalentProfilesContentDiv > div > div > img {
   /* height: 65%; */
-  width: 40%;
-  object-fit: cover;
+  width: 50%;
+  object-fit: contain;
   padding: 1%;
-  margin-top: -2%;
+  /* margin-top: -2%; */
   margin-bottom: 0%;
 }
 
-.productsTalentProfilesContentDiv > div > h3{
+.productsTalentProfilesContentDiv > div > h3 {
   /* border: 1px solid red; */
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 0%;
   margin-bottom: 0%;
 }
 
-.productsTalentProfilesContentDiv > div > h4{
+.productsTalentProfilesContentDiv > div > h4 {
   /* border: 1px solid green; */
+  font-size: 15px;
   margin-bottom: 0%;
   margin-top: 0%;
 }
 
-.productsTalentProfilesContentDiv > div > h6{
+.productsTalentProfilesContentDiv > div > h6 {
   /* border: 1px solid black; */
+  font-size: 14px;
+  font-weight: 400;
   margin-bottom: 0%;
   margin-top: 0%;
 }
 
 .productsTalentCommunication {
   /* border: 1px solid red; */
-  width: 97%;
+  width: 100%;
   display: flex;
   gap: 12%;
   margin-bottom: 0%;
   margin-top: 0%;
   flex-direction: row;
   /* border: 1px solid blue; */
+}
+
+.productsTalentCommunication > p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2%;
+  /* height: 30px; */
 }
 
 .productsTalentTechnicalScore {

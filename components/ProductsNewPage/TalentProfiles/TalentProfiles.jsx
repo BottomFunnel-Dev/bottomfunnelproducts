@@ -1,77 +1,107 @@
 import React from 'react';
 import styles from "./TalentProfiles.module.css";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
 
 export const TalentProfiles = () => {
     const productsTalentProfilesCardsData = [
         {
-            title: "Ashish Verma",
-            body: `Full-Stack web developer`,
-            image: "/Images/ProductsPage/TalentProfileImage1.png",
-            experience: "Ex:6 years",
+            title: "Manav Sharma",
+            body: `UI/UX Designer`,
+            profileLink: `https://www.linkedin.com/in/manav--sharma/`,
+            image: "/Images/ProductsPage/TalentProfiles/Manav.png",
+            experience: "Ex:1 year",
             communication: "Communication Score",
             technicalscore: "Technical Score",
             buttondetails: "See more",
         },
         {
-            title: "Neeti Singh",
-            body: `Wordpress developer`,
-            image: "/Images/ProductsPage/TalentProfileImage2.png",
-            experience: "Ex:4 years",
+            title: "Hemant Jayas",
+            body: `MERN Stack Developer`,
+            profileLink: `https://www.linkedin.com/in/hemant-jayas-45ab6318b/`,
+            image: "/Images/ProductsPage/TalentProfiles/HemantJayas.png",
+            experience: "Ex:1 year",
             communication: "Communication Score",
             technicalscore: "Technical Score",
             buttondetails: "See more",
         },
         {
-            title: "Enid Gates",
-            body: `Paid search analyst`,
-            image: "/Images/ProductsPage/TalentProfileImage3.png",
-            experience: "Ex:2 years",
+            title: "Shantnu Bhardwaj",
+            body: `UI/Ux Designer`,
+            profileLink: `https://www.linkedin.com/in/shantanu-bhardwaj-717631233/`,
+            image: "/Images/ProductsPage/TalentProfiles/Shantanu.png",
+            experience: "Ex:1 year",
             communication: "Communication Score",
             technicalscore: "Technical Score",
             buttondetails: "See more",
         },
         {
-            title: "Bianca Adams",
-            body: `React native developer`,
-            image: "/Images/ProductsPage/TalentProfileImage4.png",
-            experience: "Ex:5 years",
+            title: "Deepanshu Gulia",
+            body: `MERN Stack Developer`,
+            profileLink: `https://www.linkedin.com/in/deepanshu-gulia/`,
+            image: "/Images/ProductsPage/TalentProfiles/Deepanshu.png",
+            experience: "Ex:1 year",
             communication: "Communication Score",
             buttondetails: "See more",
             technicalscore: "Technical Score",
         },
         {
-            title: "Ashish Verma",
-            body: `Full-Stack web developer`,
-            image: "/Images/ProductsPage/TalentProfileImage1.png",
-            experience: "Ex:6 years",
+            title: "Hemant Khandelwal",
+            body: `UI/UX Designer`,
+            profileLink: `https://www.linkedin.com/in/hemant-khandelwal-60a717200`,
+            image: "/Images/ProductsPage/TalentProfiles/HemantK.png",
+            experience: "Ex:1 year",
             communication: "Communication Score",
             buttondetails: "See more",
             technicalscore: "Technical Score",
         },
         {
-            title: "Neeti Singh",
-            body: `Wordpress developer`,
-            image: "/Images/ProductsPage/TalentProfileImage2.png",
-            experience: "Ex:4 years",
+            title: "Aaradhana Shukla",
+            body: `MERN Stack Developer`,
+            profileLink: `https://www.linkedin.com/in/aaradhana-shukla-a285b1197`,
+            image: "/Images/ProductsPage/TalentProfiles/Aaradhana.png",
+            experience: "Ex:1 year",
             communication: "Communication Score",
             buttondetails: "See more",
             technicalscore: "Technical Score",
         },
         {
-            title: "Enid Gates",
-            body: `Paid search analyst`,
-            image: "/Images/ProductsPage/TalentProfileImage3.png",
-            experience: "Ex:2 years",
+            title: "Minali Dadhich",
+            body: `UI/UX Designer`,
+            profileLink: `https://www.linkedin.com/in/minali-dadhich/`,
+            image: "/Images/ProductsPage/TalentProfiles/Minali.png",
+            experience: "Ex:1 year",
             communication: "Communication Score",
             buttondetails: "See more",
             technicalscore: "Technical Score",
         },
         {
-            title: "Bianca Adams",
-            body: `React native developer`,
-            image: "/Images/ProductsPage/TalentProfileImage4.png",
-            experience: "Ex:5 years",
+            title: "Akshay Thakur",
+            body: `MERN Stack Developer`,
+            profileLink: `https://www.linkedin.com/in/akshay-kumar-018970189/`,
+            image: "/Images/ProductsPage/TalentProfiles/Akshay.png",
+            experience: "Ex:1 year",
+            communication: "Communication Score",
+            buttondetails: "See more",
+            technicalscore: "Technical Score",
+        },
+        {
+            title: "Avinash Kumar",
+            body: `MERN Stack Developer`,
+            profileLink: `https://www.linkedin.com/in/avinash-kumar-7015baa3/`,
+            image: "/Images/ProductsPage/TalentProfiles/Avinash.png",
+            experience: "Ex:1 year",
+            communication: "Communication Score",
+            buttondetails: "See more",
+            technicalscore: "Technical Score",
+        },
+        {
+            title: "Muskan Gupta",
+            body: `MERN Stack Developer`,
+            profileLink: `https://www.linkedin.com/in/muskan-gupta01/`,
+            image: "/Images/ProductsPage/TalentProfiles/Muskan.png",
+            experience: "Ex: 1 year",
             communication: "Communication Score",
             buttondetails: "See more",
             technicalscore: "Technical Score",
@@ -98,29 +128,30 @@ export const TalentProfiles = () => {
             </div> */}
 
             <div className={styles.productsTalentProfilesContentDiv}>
-                {productsTalentProfilesCardsData.map(({ title, body, image, buttondetails, experience, communication, technicalscore }, idx) => (
+                {productsTalentProfilesCardsData.map(({ title, body, image, buttondetails, experience, communication, technicalscore, profileLink }, idx) => (
                     <div key={idx}>
                         <div>
                             <img src={image} alt={title} />
+
+                            <div className={styles.productsTalentProfilesLinkdinDiv}>
+                                <a target="_blank" href={profileLink}>
+                                    <IconContext.Provider value={{ className: styles.talentedProfilesLinkedinIcons }}>
+                                        <FaLinkedin />
+                                    </IconContext.Provider>
+                                </a>
+                            </div>
                         </div>
-                        
-                        <h3>{title}</h3>
-                        <h4>{body}</h4>
-                        <h6>{experience}</h6>
+
+                        <h3> {title} </h3>
+                        <h4> {body} </h4>
+                        <h6> {experience} </h6>
 
                         <div className={styles.productsTalentCommunication}>
-                            <p>{communication}</p>
-                            <p style={{ fontSize: "12px", marginTop: "1%" }}>
+                            <p> {communication} </p>
+                            <p style={{ fontSize: "12px", marginTop: "3%" }}>
                                 <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiOutlineStar />
                             </p>
                         </div>
-
-                        {/* <div className='productsTalentTechnicalScore'>
-                            <p>{technicalscore}</p>
-                            <p style={{fontSize:"12px",marginTop:"1%"}}>
-                                <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiOutlineStar />
-                            </p>
-                        </div> */}
 
                         <p className={styles.productsTalentProfilesContentButton}>
                             {buttondetails}
