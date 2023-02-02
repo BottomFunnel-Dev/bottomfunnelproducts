@@ -38,7 +38,7 @@ export const TalentProfiles = () => {
         },
         {
             title: "Deepanshu Gulia",
-            body: `React Native`,
+            body: `React Native Developer`,
             profileLink: `https://www.linkedin.com/in/deepanshu-gulia/`,
             image: "/Images/ProductsPage/TalentProfiles/Deepanshu.png",
             experience: "Ex: 2 years",
@@ -78,7 +78,7 @@ export const TalentProfiles = () => {
         },
         {
             title: "Akshay Thakur",
-            body: `React Native`,
+            body: `React Native Developer`,
             profileLink: `https://www.linkedin.com/in/akshay-kumar-018970189/`,
             image: "/Images/ProductsPage/TalentProfiles/Akshay.png",
             experience: "Ex: 2 years",
