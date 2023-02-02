@@ -1102,7 +1102,36 @@ export const product3 = [
     path: "ionic",
   },
 ];
-
+export const resource = [
+  {
+    dropContent: "Blog",
+    path: "/",
+  },
+  {
+    dropContent: "Academy",
+    path: "/",
+  },
+  {
+    dropContent: "Videos",
+    path: "/",
+  },
+  {
+    dropContent: "Community",
+    path: "/",
+  },
+  {
+    dropContent: "Services",
+    path: "/",
+  },
+  {
+    dropContent: "What's New",
+    path: "/",
+  },
+  {
+    dropContent: "Customers",
+    path: "/",
+  },
+];
 export const product4 = [
   {
     dropContent: "MarketPlace",

@@ -16,11 +16,12 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function AboutUS() {
   return (
     <div className={styles.AboutUSmain}>
-      {/*  <Helmet>
+      <Head>
         <title>About us | Bottom Funnel</title>
         <meta
           name="description"
@@ -29,10 +30,9 @@ export default function AboutUS() {
           unparalleled value to our partners, through our experience and
           expertise in the field."
         />
-      </Helmet>
-  */}
-
-<Navbar
+      </Head>
+      <main>
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -57,6 +57,7 @@ export default function AboutUS() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }
