@@ -201,13 +201,13 @@ const Navbar = ({ navredux, productMount }) => {
                 About
               </li>
 
-              {/* <li
+              <li
                 onMouseEnter={solHoverIn}
                 onMouseLeave={solHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Features
-              </li> */}
+              </li>
 
               <li
                 onMouseEnter={productHoverIn}
@@ -235,8 +235,8 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
 
               <li
-                // onMouseEnter={blogHoverIn}
-                // onMouseLeave={blogHoverOut}
+                onMouseEnter={blogHoverIn}
+                onMouseLeave={blogHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Resources

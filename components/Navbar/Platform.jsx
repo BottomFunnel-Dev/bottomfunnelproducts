@@ -40,7 +40,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     className={prods.iconDivSection}
                     src={item.navIcons}
                     alt="image"
-                    style={{ width: "30px" }}
+                    style={{ height: "30px" }}
                   />
                 </div>
 
@@ -48,7 +48,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   onClick={serHoverOut}
                   href={item.path}
                   className={prods.linkP}
-                  style={{ width: "70%", color: "black", fontSize: "14px", marginBottom: "0%" }}
+                  style={{ width: "70%", color: "black", fontSize: "14px", }}
                 >
                   {/* <p style={{ marginTop: "0%", marginLeft: "10%" }}> */}
                   {item.dropContent}
@@ -59,7 +59,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           </div>
         </div>
 
-        <div className={prods.platformDropdownContent}>
+        {/* <div className={prods.platformDropdownContent}>
           <h5
             className={prods.noStyleMain}
             onClick={() => {
@@ -92,7 +92,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className={prods.platformDropdownContent}>
           <div
