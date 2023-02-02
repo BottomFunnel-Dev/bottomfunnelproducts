@@ -54,7 +54,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   <p style={{ fontWeight: "700", fontSize: "13px" }}>
                     {item.dropContent}
                   </p>
-                  <p style={{ fontSize: "12px", fontWeight: "600" }}>{item.title}</p>
+                  <p style={{ fontSize: "11px", fontWeight: "500" }}>{item.title}</p>
                 </Link>
               </div>
             ))}
@@ -78,7 +78,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 style={{
                   height: "60px",
                   width: "100%",
-                  marginTop: "0%",
+                  marginTop: "-3%",
                   "--i": item.productHover,
                 }}
               >
@@ -99,7 +99,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   <p style={{ fontWeight: "500", fontSize: "14px" }}>
                     {item.dropContent}
                   </p>
-                  <p style={{ fontSize: "12px",fontWeight:"600" }}>{item.title}</p>
+                  <p style={{ fontSize: "11px",fontWeight:"500" }}>{item.title}</p>
                 </Link>
               </div>
             ))}

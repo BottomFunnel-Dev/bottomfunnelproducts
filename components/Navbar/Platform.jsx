@@ -11,29 +11,26 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
       <div className={prods.platformDropdownSection}>
-    
+
         <div className={prods.platformDropdownContent}>
           <h5
             className={prods.noStyleMain}
             style={{ marginLeft: "2%", color: "#ef4c23" }}
             onClick={() => {
-              // navigate(`web-development`);
               serHoverOut();
             }}
           >
             Platforms
           </h5>
 
-          <div style={{marginTop:"6%"}} className={prods.listItems}>
+          <div style={{ marginTop: "6%" }} className={prods.listItems}>
             {product4.map((item, i) => (
               <div
                 key={i}
                 onClick={() => {
-                  // navigate(`/${item.path}`);
                   serHoverOut();
                 }}
                 className={`${prods.platformimageIconDivSection} ${prods.saasHoveringData}`}
-                // style={{ marginTop: i == 0 ? "0" : "2%" }}
               >
                 <div>
                   <img
@@ -58,41 +55,6 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             ))}
           </div>
         </div>
-
-        {/* <div className={prods.platformDropdownContent}>
-          <h5
-            className={prods.noStyleMain}
-            onClick={() => {
-              serHoverOut();
-            }}
-            style={{ color: "#ef4c23", paddingLeft: "35px" }}
-          >
-            Features
-          </h5>
-
-          <div className={prods.listItems} style={{ marginTop: "5%", marginLeft: "7%" }}>
-            {product3.map((item, i) => (
-              <div key={i} onClick={() => {
-                  serHoverOut();
-                }}
-                className={prods.platformimageIconDivSection}
-              >
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  style={{
-                    margin: "5px",
-                    fontSize: "14px",
-                    color: "black",
-                    padding: "0 10px",
-                  }}
-                >
-                  {item.dropContent}
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div> */}
 
         <div className={prods.platformDropdownContent}>
           <div
