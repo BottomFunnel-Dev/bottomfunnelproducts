@@ -21,16 +21,16 @@
 
 .productFooterLogoDiv > img {
   width: 35%;
-  margin-left: 4.5%;
+  margin-left: 7%;
   object-fit: cover;
 }
 
 .productsFooterSideButtons {
   /* border: 1px solid red; */
-  width: 50%;
+  width: 48%;
   height: 50px;
   margin-top: 1%;
-  margin-left: 18%;
+  margin-left: 20%;
 }
 
 .productsFooterCallToAction {
@@ -120,7 +120,7 @@
 } */
 
 .productFooterBottomDiv {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   height: 70px;
   display: flex;
   flex-direction: row;
@@ -140,6 +140,13 @@
   width: 40%;
 }
 
+.productsFooterSocialMediaLogos > p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-weight: 600;
+  margin-left: -8%;
+}
+
 .productsfooterSocialMediaSection {
   display: flex;
   width: 100%;
@@ -153,9 +160,10 @@
   font-size: 30px;
   border: 1px solid white;
   padding: 6px;
-  color: #ef4c23;
-  border-radius: 18px;
-  background-color: white;
+  color: white;
+  border-radius: 25px;
+  margin-left: 45%;
+  background-color: #ef4c23;
 }
 
 .productPagesocialIcons:hover {
@@ -169,20 +177,72 @@
 
 .productFooterBottomDivImagesDiv {
   /* border: 1px solid gold; */
-  margin-left: 6%;
+  width: 50%;
+  margin-left: 16%;
 }
 
-.productFooterBottomDivImagesDiv > img {
-  column-gap: 5%;
+.productFooterBottomDivImagesDiv > p {
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 35%;
+  font-weight: 500;
+}
+
+.productFooterBottomDivImagesDiv > div {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin-left: 35%;
+}
+
+.productFooterBottomDivImagesDiv > div > img {
+  margin-right: 4%;
+  width: 40%;
+  /* margin-left: 15%; */
+  object-fit: contain;
   /* margin-right: 3%; */
 }
 
 .productFooterBottomContentDiv {
-  border-bottom: 1px solid black;
-  height: 70px;
+  border-top: 1px solid black;
+  height: 60px;
   display: flex;
+  width: 89%;
+  margin-left: 2%;
+  margin-top: 1%;
   flex-direction: row;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   /* align-items: center;
   justify-content: center; */
+}
+
+.productFooterBottomDivHeading {
+  /* border: 1px solid green; */
+  width: 40%;
+}
+
+.productFooterBottomDivHeading > p {
+  /* border: 1px solid red; */
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.productFooterBottomDivPaymentImage {
+  /* border: 1px solid gold; */
+  width: 50%;
+  display: flex;
+  margin-left: 20%;
+}
+
+.productFooterBottomDivPaymentImage > p {
+  font-weight: 600;
+}
+
+.productFooterBottomDivPaymentImage > img {
+  /* margin-right: 1%; */
+  /* border: 1px solid red; */
+  width: 70%;
+  height: 50%;
+  margin-top: 2.5%;
+  margin-left: 1%;
+  object-fit: contain;
 }

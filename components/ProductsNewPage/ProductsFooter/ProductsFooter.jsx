@@ -312,6 +312,9 @@ export const ProductsFooter = () => {
                 <div className={styles.productFooterBottomDiv}>
                     <div className={styles.productFooterBottomDivContentDiv}>
                         <div className={styles.productsFooterSocialMediaLogos}>
+                            <p>
+                                Connect with us:
+                            </p>
                             <div className={styles.productsfooterSocialMediaSection}>
                                 <a
                                     target="_blank"
@@ -358,21 +361,26 @@ export const ProductsFooter = () => {
                     </div>
 
                     <div className={styles.productFooterBottomDivImagesDiv}>
-                        <img src='/Images/ProductsPage/Footer/Google Play.png' alt='image' />
-                        <img src='/Images/ProductsPage/Footer/Play Store.png' alt='image' />
+                        <p> Download the apps now</p>
+                        <div>
+                            <img src='/Images/ProductsPage/Footer/PlayStore.png' alt='image' />
+                            <img src='/Images/ProductsPage/Footer/AppStore.png' alt='image' />
+                        </div>
                     </div>
                 </div>
 
-                {/* <div className={styles.productFooterBottomContentDiv}>
-                    <div className={styles.productFooterBottomDivContentDiv}>
-                        
+                <div className={styles.productFooterBottomContentDiv}>
+                    <div className={styles.productFooterBottomDivHeading}>
+                        <p>
+                            ©2022 All rights reserved to the Bottom-Funnel Private Limited 
+                        </p>
                     </div>
 
-                    <div className={styles.productFooterBottomDivImagesDiv}>
-                        <img src='/Images/ProductsPage/Footer/Google Play.png' alt='image' />
-                        <img src='/Images/ProductsPage/Footer/Play Store.png' alt='image' />
+                    <div className={styles.productFooterBottomDivPaymentImage}>
+                        <p> We accept: </p>
+                        <img src='/Images/ProductsPage/Footer/PaymentGroup.png' alt='image' />
                     </div>
-                </div> */}
+                </div>
             </div>
 
         </div>
