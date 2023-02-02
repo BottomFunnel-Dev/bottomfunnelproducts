@@ -28,6 +28,12 @@ const LifeBottomFunnel = () => {
                         <img src='/Images/ProductsPage/Footer/LifeImage3.png' alt='image'/>
                     </div>
                 </div>
+
+                <div className={styles.lifeBottomContentDiv}>
+                    <h2>
+                        See life of Bottom Funnel→
+                    </h2>
+                </div>
             </div>
         </div>
     )

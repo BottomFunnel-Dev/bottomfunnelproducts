@@ -134,7 +134,7 @@ export const ProductsFooter = () => {
             <div className={styles.productsFooterContentMainDiv}>
                 <div className={styles.productsFooterTagsDiv}>
                     <ul className={styles.productMainProductDivLink}>
-                        <h5> Products </h5>
+                        <h5> SaaS Products </h5>
                         <Link className={styles.productFooterLinkTag} href={"/"}>
                             <li>
                                 BottomFunnel Desk
@@ -227,7 +227,7 @@ export const ProductsFooter = () => {
 
                     <ul className={styles.productMainProductDivLink}>
 
-                        <h5> SAAS Services </h5>
+                        <h5> SaaS Services </h5>
 
                         <Link className={styles.productFooterLinkTag} href={"/web-development"}>
                             <li>
