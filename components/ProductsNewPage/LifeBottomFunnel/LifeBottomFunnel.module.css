@@ -82,6 +82,7 @@
 .lifeBottomContentDiv > button:hover {
   cursor: pointer;
   background-color: white;
+  border: 1px solid #ef4c23;
   color: #ef4c23;
 }
 
