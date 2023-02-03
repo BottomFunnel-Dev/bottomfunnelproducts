@@ -104,7 +104,6 @@ export const ProductsNavbar = ({ navproductredux }) => {
     // console.log(scrollY);
   });
 
-
   return (
     <div
       className={prodnav.productsnavbar}
@@ -114,14 +113,15 @@ export const ProductsNavbar = ({ navproductredux }) => {
       }}
     >
       <div className={prodnav.deskLogo}>
-        <img src="/Images/Logos/funnel-desk/support-desk.png"/>
+        <img src="/Images/Logos/funnel-desk/support-desk.png" />
         <h5>Support Desk</h5>
       </div>
       <div className={prodnav.deskList}>
         <li
           onMouseEnter={solDeskIn}
           onMouseLeave={solDeskOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }} F
+          style={{ color: productnavbar ? "black" : navproductredux.color }}
+          F
         >
           Desk Products
           <img
