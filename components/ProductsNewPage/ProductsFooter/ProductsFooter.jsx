@@ -183,15 +183,27 @@ export const ProductsFooter = () => {
                     </ul>
 
                     <ul className={styles.productMainProductDivLink}>
-                        <h5> About </h5>
+                        <h5> Company </h5>
                         <Link className={styles.productFooterLinkTag} href={"/"}>
                             <li>
-                                Company
+                                About us
                             </li>
                         </Link>
 
                         <Link className={styles.productFooterLinkTag} href={"/"}>
                             <li> Careers </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Vetting Process </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Our Development Process </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Vetting Process </li>
                         </Link>
 
                         <Link className={styles.productFooterLinkTag} href={"/"}>
@@ -228,6 +240,18 @@ export const ProductsFooter = () => {
                         <Link className={styles.productFooterLinkTag} href={"/"}>
                             <li>
                                 Trending Technologies
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Industries
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                On Demand Solutions
                             </li>
                         </Link>
                     </ul>

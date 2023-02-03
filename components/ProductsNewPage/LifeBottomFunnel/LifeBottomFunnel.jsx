@@ -39,9 +39,9 @@ const LifeBottomFunnel = () => {
                 </div>
 
                 <div className={styles.lifeBottomContentDiv}>
-                    <h2>
-                        See life of Bottom Funnel→
-                    </h2>
+                    <button>
+                        See life of Bottom Funnel
+                    </button>
                 </div>
             </div>
         </div>
