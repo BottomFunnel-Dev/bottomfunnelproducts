@@ -104,7 +104,7 @@
   font-size: 40px;
 }
 
-.productPageBannerContent > span{
+.productPageBannerContent > span {
   background-color: white;
 }
 
@@ -165,5 +165,336 @@
 
   100% {
     width: 100%;
+  }
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .productsBannerBannerParentDiv {
+    /* border: 1px solid red; */
+    flex-direction: column-reverse;
+    height: 92vh;
+    align-items: center;
+    margin-top: 3%;
+    width: 95%;
+    /* justify-content: space-between; */
+    /* padding-left: 5%; */
+    /* justify-content: center; */
+  }
+
+  .productsBannerButtonsDiv {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    width: 95%;
+  }
+
+  .productsBannerTrialsButton {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .productsBannerTrialsButton:hover {
+    color: #ef4c23;
+    /* border: 1px solid #ef4c23; */
+    background-color: white;
+  }
+
+  .productsBannerWatchVideoButton {
+    border: 1px solid gray;
+    padding: 10px 40px;
+    border-radius: 10px;
+    /* background-color: #ef4c23; */
+    border: none;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 3%;
+    /* width: 26%; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+  }
+
+  .productsBannerWatchVideoButton:hover {
+    color: #ef4c23;
+    /* border: 1px solid #ef4c23; */
+    background-color: white;
+  }
+
+  .mainWatchNowIcon {
+    font-size: 20px;
+    margin-left: 5%;
+    position: absolute;
+  }
+
+  .productsBannerMeatBannerContentDiv {
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .productsBannerBannerImageDiv {
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    width: 100%;
+    position: relative;
+  }
+
+  .productsBannerBannerImageDiv img {
+    width: 95%;
+    object-fit: cover;
+    margin-top: 5%;
+    /* margin-right: 5%; */
+    /* height: 100vh; */
+    /* height: 400px; */
+  }
+
+  .productBannerPlayIcon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 48%;
+    font-size: 65px;
+    left: 50%;
+    z-index: 1;
+    color: white;
+  }
+
+  .productPageBannerContent {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .productPageBannerContent > h1 {
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .productPageBannerContent > span {
+    background-color: white;
+    font-size: 20px;
+  }
+
+  .productPageBannerContent > p {
+    /* margin: auto; */
+    /* text-align: justify; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    /* border: 1px solid rebeccapurple; */
+    width: 95%;
+  }
+
+  .productPageBannerContent > hr {
+    background-color: #393939;
+    height: 1px;
+    border-radius: 2px;
+    width: 65%;
+    margin: 0px;
+  }
+
+  .productPage-banner-image {
+    width: 40%;
+    height: fit-content;
+    text-align: right;
+  }
+
+  .productPage-banner-image > img {
+    width: 80%;
+  }
+
+  .productPageAnimatedTitle {
+    font-size: 40px;
+    position: relative;
+    color: #ef4c23;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .productPageAnimatedTitle::after {
+    content: "|";
+    position: absolute;
+    font-size: 40px;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    color: #393939;
+    animation: animateTitle 10s linear infinite, caret 1s infinite;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .productsBannerBannerParentDiv {
+    /* border: 1px solid red; */
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding-left: 5%; */
+    /* justify-content: center; */
+  }
+
+  .productsBannerButtonsDiv {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+  }
+
+  .productsBannerTrialsButton {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .productsBannerTrialsButton:hover {
+    color: #ef4c23;
+    /* border: 1px solid #ef4c23; */
+    background-color: white;
+  }
+
+  .productsBannerWatchVideoButton {
+    border: 1px solid gray;
+    padding: 10px 40px;
+    border-radius: 10px;
+    /* background-color: #ef4c23; */
+    border: none;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 3%;
+    /* width: 26%; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+  }
+
+  .productsBannerWatchVideoButton:hover {
+    color: #ef4c23;
+    /* border: 1px solid #ef4c23; */
+    background-color: white;
+  }
+
+  .mainWatchNowIcon {
+    font-size: 20px;
+    margin-left: 5%;
+    position: absolute;
+  }
+
+  .productsBannerMeatBannerContentDiv {
+    /* border: 1px solid green; */
+    width: 55%;
+    margin-top: 0%;
+    /* margin-top: 3%; */
+  }
+
+  .productsBannerBannerImageDiv {
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    width: 45%;
+    position: relative;
+    /* margin-top: -10%; */
+  }
+
+  .productsBannerBannerImageDiv img {
+    width: 100%;
+    object-fit: cover;
+    /* margin-top: 5%; */
+    margin-right: 5%;
+    height: 27vh;
+    /* height: 400px; */
+  }
+
+  .productBannerPlayIcon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 48%;
+    font-size: 65px;
+    left: 50%;
+    z-index: 1;
+    color: white;
+  }
+
+  .productPageBannerContent {
+    /* border: 1px solid red; */
+    width: 85%;
+    height: fit-content;
+  }
+
+  .productPageBannerContent > h1 {
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .productPageBannerContent > span {
+    background-color: white;
+  }
+
+  .productPageBannerContent > p {
+    margin: auto;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .productPageBannerContent > hr {
+    background-color: #393939;
+    height: 1px;
+    border-radius: 2px;
+    width: 65%;
+    margin: 0px;
+  }
+
+  .productPage-banner-image {
+    width: 40%;
+    height: fit-content;
+    text-align: right;
+  }
+
+  .productPage-banner-image > img {
+    width: 80%;
+  }
+
+  .productPageAnimatedTitle {
+    font-size: 30px;
+    position: relative;
+    color: #ef4c23;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .productPageAnimatedTitle::after {
+    content: "|";
+    position: absolute;
+    font-size: 31px;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    color: #393939;
+    animation: animateTitle 10s linear infinite, caret 1s infinite;
   }
 }

@@ -26,7 +26,7 @@ export const ProductsNewPageBanner = () => {
           <button className={styles.productsBannerTrialsButton}> Free Trials </button>
           <button className={styles.productsBannerWatchVideoButton}>
             Watch Now
-            <BsPlayCircle className={styles.mainWatchNowIcon}/>
+            <BsPlayCircle className={styles.mainWatchNowIcon} />
           </button>
         </div>
       </div>

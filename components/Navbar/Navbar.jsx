@@ -271,7 +271,7 @@ const Navbar = ({ navredux, productMount }) => {
               className={navstyle.callToAction}
               onClick={() => router.push("https://service.bottomfunnel.net/")}
             >
-             Services
+              Services
             </button>
 
             {/* <button
@@ -346,7 +346,7 @@ const Navbar = ({ navredux, productMount }) => {
         />
       ) : null}
 
-     {platform ? (
+      {platform ? (
         <Platform
           serHoverIn={platformHoverIn}
           serHoverOut={platformHoverOut}
