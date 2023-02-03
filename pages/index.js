@@ -47,23 +47,16 @@ export default function Home() {
 
       <ProductsNewPageBanner />
       <MultipleProducts />
-      {/* <TalentNetwork /> */}
-      {/* <SimpleAndEasy /> */}
-      {/* <TalentProfiles /> */}
+      <TalentNetwork />
+      <SimpleAndEasy />
+      <TalentProfiles />
 
       {/* Other react required components  */}
       <StoriesSection />
       <TrustedBy/>
-      {/* <OndemandSection /> */}
-      {/* <PortFolio />  */}
-      {/* <PlanProject /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
       <LifeBottomFunnel/>
       <ContectForm />
       <ProductsFooter />
-
       </main>
     </>
   );
