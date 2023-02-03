@@ -14,6 +14,7 @@ import { Products } from "./Products";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 import { Platform } from "./Platform";
+import { Resource } from "./Resource";
 
 const Navbar = ({ navredux, productMount }) => {
   // const router.push = userouter.push();
@@ -23,6 +24,7 @@ const Navbar = ({ navredux, productMount }) => {
   const [scroll, setScroll] = useState(false);
   const [product, setProduct] = useState(false);
   const [platform, setPlatform] = useState(false);
+  const [resource, setResource] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
   // const [scrollVal, setScrollVal] = useState()
@@ -83,6 +85,18 @@ const Navbar = ({ navredux, productMount }) => {
     }
   };
 
+  const resHoverIn = () => {
+    setResource(true);
+    setNabvar(true);
+  };
+
+  const resHoverOut = () => {
+    setResource(false);
+    if (window.scrollY == 0) {
+      setNabvar(false);
+    }
+  };
+
   const serHoverIn = () => {
     setService(true);
     setNabvar(true);
@@ -107,15 +121,7 @@ const Navbar = ({ navredux, productMount }) => {
     }
   };
   // console.log("service", service);
-  const blogHoverIn = () => {
-    setNabvar(true);
-  };
 
-  const blogHoverOut = () => {
-    if (window.scrollY == 0) {
-      setNabvar(false);
-    }
-  };
 
   const navBackground = () => {
     if (window.scrollY > 1) {
@@ -235,16 +241,16 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
 
               <li
-                onMouseEnter={blogHoverIn}
-                onMouseLeave={blogHoverOut}
+                onMouseEnter={resHoverIn}
+                onMouseLeave={resHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Resources
               </li>
 
               <li
-                // onMouseEnter={blogHoverIn}
-                // onMouseLeave={blogHoverOut}
+                // onMouseEnter={resHoverIn}
+                // onMouseLeave={resHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Support
@@ -337,10 +343,11 @@ const Navbar = ({ navredux, productMount }) => {
       ) : null} */}
 
       {/* product drop down section code start */}
+
       {product ? (
         <Products
-          serHoverIn={productHoverIn}
-          serHoverOut={productHoverOut}
+          productHoverIn={productHoverIn}
+          productHoverOut={productHoverOut}
           scroll={scroll}
           productMount={productMount}
         />
@@ -348,12 +355,22 @@ const Navbar = ({ navredux, productMount }) => {
 
       {platform ? (
         <Platform
-          serHoverIn={platformHoverIn}
-          serHoverOut={platformHoverOut}
+          platformHoverIn={platformHoverIn}
+          platformHoverOut={platformHoverOut}
           scroll={scroll}
           productMount={productMount}
         />
       ) : null}
+
+      {resource ? (
+        <Resource
+          resHoverIn={resHoverIn}
+          resHoverOut={resHoverOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+      ) : null}
+
     </div>
   );
 };

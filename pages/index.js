@@ -16,13 +16,24 @@ import { SimpleAndEasy } from "../components/ProductsNewPage/SimpleAndEasy/Simpl
 import { TalentProfiles } from "../components/ProductsNewPage/TalentProfiles/TalentProfiles";
 import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import Head from "next/head";
+
+
 export default function Home() {
   return (
     <>
-      {/* <Head>
-        <title>Bottom funnel service</title>
-        <meta name="description" content="Bottom funnel services" />
-      </Head> */}
+      <Head>
+        <title>Product Home page | Bottom Funnel Company</title>
+        <meta
+          name="description"
+          content="Design your product home page the right way and 
+          empower your team with the right tools to make it easy 
+          for them to sell, market, and interact with your 
+          customers. With our help, you'll soon be delighting 
+          your customers like never before!"
+        />
+      </Head>
+      <main>
 
       <Navbar
         productMount={{
@@ -41,11 +52,19 @@ export default function Home() {
       {/* <TalentProfiles /> */}
 
       {/* Other react required components  */}
-      {/* <StoriesSection /> */}
-      {/* <TrustedBy/> */}
-      {/* <LifeBottomFunnel/> */}
-      {/* <ContectForm /> */}
-      {/* <ProductsFooter /> */}
+      <StoriesSection />
+      <TrustedBy/>
+      {/* <OndemandSection /> */}
+      {/* <PortFolio />  */}
+      {/* <PlanProject /> */}
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      <LifeBottomFunnel/>
+      <ContectForm />
+      <ProductsFooter />
+
+      </main>
     </>
   );
 }

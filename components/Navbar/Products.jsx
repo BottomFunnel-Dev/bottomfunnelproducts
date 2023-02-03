@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import prods from "./products.module.css";
 import Link from "next/link";
 import { product1, product2, product3, product4 } from "../../Data/Navbar";
-export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
+export const Products = ({ productHoverIn, productHoverOut, scroll, productMount }) => {
   return (
     <div
-      onMouseEnter={() => serHoverIn()}
-      onMouseLeave={() => serHoverOut()}
+      onMouseEnter={() => productHoverIn()}
+      onMouseLeave={() => productHoverOut()}
       className={prods.productVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
@@ -16,7 +16,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             className={prods.noStyleMain}
             onClick={() => {
               // navigate(`web-development`);
-              serHoverOut();
+              productHoverOut();
             }}
             style={{ color: "#ef4c23", marginBottom: "10px" }}
           >
@@ -29,7 +29,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 key={i}
                 onClick={() => {
                   // navigate(`/${item.path}`);
-                  serHoverOut();
+                  productHoverOut();
                 }}
                 className={`${prods.productimageIconDivSection} ${prods.hoveringDiv}`}
                 style={{
@@ -46,7 +46,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 </div>
 
                 <Link
-                  onClick={serHoverOut}
+                  onClick={productHoverOut}
                   href={item.path}
                   className={prods.productSaasRow}
                   // style={{ width: "100%", marginLeft: "10%", marginTop: "0%" }}
@@ -72,7 +72,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 key={i}
                 onClick={() => {
                   // navigate(`/${item.path}`);
-                  serHoverOut();
+                  productHoverOut();
                 }}
                 className={`${prods.productimageIconDivSection} ${prods.hoveringDiv}`}
                 style={{
@@ -91,7 +91,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                   />
                 </div>
                 <Link
-                  onClick={serHoverOut}
+                  onClick={productHoverOut}
                   href={item.path}
                   className={prods.productSaasRow}
                   // style={{ width: "100%", marginLeft: "10%", marginTop: "0%"}}
@@ -106,7 +106,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           </div>
           <Link
             href="newProductPage"
-            onClick={serHoverOut}
+            onClick={productHoverOut}
             style={{ textDecoration: "none" }}
           >
             <p className={prods.viewAllButton}>View All Products</p>

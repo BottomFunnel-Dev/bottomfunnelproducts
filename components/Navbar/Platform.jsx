@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import prods from "./platform.module.css";
 import Link from "next/link";
 import { product3, product4 } from "../../Data/Navbar";
-export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
+export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMount }) => {
   return (
     <div
-      onMouseEnter={() => serHoverIn()}
-      onMouseLeave={() => serHoverOut()}
+      onMouseEnter={() => platformHoverIn()}
+      onMouseLeave={() => platformHoverOut()}
       className={prods.platformVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
@@ -17,7 +17,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             className={prods.noStyleMain}
             style={{ marginLeft: "2%", color: "#ef4c23" }}
             onClick={() => {
-              serHoverOut();
+              platformHoverOut();
             }}
           >
             Platforms
@@ -28,7 +28,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               <div
                 key={i}
                 onClick={() => {
-                  serHoverOut();
+                  platformHoverOut();
                 }}
                 className={`${prods.platformimageIconDivSection} ${prods.saasHoveringData}`}
               >
@@ -42,7 +42,7 @@ export const Platform = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                 </div>
 
                 <Link
-                  onClick={serHoverOut}
+                  onClick={platformHoverOut}
                   href={item.path}
                   className={prods.linkP}
                   style={{ width: "70%", color: "black", fontSize: "14px", }}
