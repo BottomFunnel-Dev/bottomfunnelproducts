@@ -17,7 +17,7 @@ import { TalentProfiles } from "../components/ProductsNewPage/TalentProfiles/Tal
 import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
-
+import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
 
 export default function Home() {
   return (
@@ -34,29 +34,29 @@ export default function Home() {
         />
       </Head>
       <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
+        <ProductsNewPageBanner />
+        <MultipleProducts />
+        <TalentNetwork />
+        <SimpleAndEasy />
+        <TalentProfiles />
 
-      <ProductsNewPageBanner />
-      <MultipleProducts />
-      <TalentNetwork />
-      <SimpleAndEasy />
-      <TalentProfiles />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <TrustedBy/>
-      <LifeBottomFunnel/>
-      <ContectForm />
-      <ProductsFooter />
+        {/* Other react required components  */}
+        <StoriesSection />
+        <TrustedBy />
+        <LifeBottomFunnel />
+        <GetStarted />
+        {/* <ContectForm /> */}
+        <ProductsFooter />
       </main>
     </>
   );

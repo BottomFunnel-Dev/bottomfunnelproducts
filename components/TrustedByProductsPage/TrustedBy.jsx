@@ -64,23 +64,23 @@ const TrustedBy = () => {
       },
     ],
   };
-  
+
   return (
     <div className={styles.trustedByrotationalbox}>
 
-        <div className={styles.trustedByContentDiv}>
-            <div className={styles.trustedByHeadingDiv}>
-                <h1>
-                    Trusted by 50K+ customers big and small
-                </h1>
+      <div className={styles.trustedByContentDiv}>
+        <div className={styles.trustedByHeadingDiv}>
+          <h1>
+            Trusted by 50K+ customers big and small
+          </h1>
 
-                <p>
-                    We are a leading provider of the modern SaaS solutions that solve multiple, complex business problems to
-                    companies of all sizes. Businesses from more than 120 countries around the world use Freshworks products to
-                    delight their customers and employees every day.
-                </p>
-            </div>
+          <p>
+            We are a leading provider of the modern SaaS solutions that solve multiple, complex business problems to
+            companies of all sizes. Businesses from more than 120 countries around the world use Freshworks products to
+            delight their customers and employees every day.
+          </p>
         </div>
+      </div>
 
       <div className={styles.trustedByMainslide}>
         <Slider {...settings}>

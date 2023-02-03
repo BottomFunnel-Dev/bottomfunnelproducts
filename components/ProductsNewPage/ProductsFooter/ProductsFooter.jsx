@@ -85,49 +85,6 @@ export const ProductsFooter = () => {
                     >
                         Login
                     </button>
-
-                    {/* <div className={styles.productsfooterSocialMediaSection}>
-                        <a
-                            target="_blank"
-                            href="https://www.facebook.com/profile.php?id=100075774771610"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaFacebookF />
-                            </IconContext.Provider>
-                        </a>
-
-                        <a target="_blank" href="https://twitter.com/BottomFunnel">
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaTwitter />
-                            </IconContext.Provider>
-                        </a>
-
-                        <a
-                            target="_blank"
-                            href="https://www.linkedin.com/company/bottomfunnel/mycompany/verification/"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaLinkedin />
-                            </IconContext.Provider>
-                        </a>
-
-                        <a
-                            target="_blank"
-                            href="https://www.instagram.com/bottomfunnelmarketing/"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <AiFillInstagram />
-                            </IconContext.Provider>
-                        </a>
-                        <a
-                            target="_blank"
-                            href="https://www.youtube.com/channel/UC-zyghDYFUgRSUlKTadvJuQ"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaYoutube />
-                            </IconContext.Provider>
-                        </a>
-                    </div> */}
                 </div>
             </div>
 
@@ -226,6 +183,27 @@ export const ProductsFooter = () => {
                     </ul>
 
                     <ul className={styles.productMainProductDivLink}>
+                        <h5> About </h5>
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li>
+                                Company
+                            </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Careers </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Privacy Policy </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                            <li> Contact Us </li>
+                        </Link>
+                    </ul>
+
+                    <ul className={styles.productMainProductDivLink}>
 
                         <h5> SaaS Services </h5>
 
@@ -285,28 +263,6 @@ export const ProductsFooter = () => {
                             <li>Car Rental APP Solutions</li>
                         </Link>
                     </ul>
-
-                    <ul className={styles.productMainProductDivLink}>
-                        <h5> About </h5>
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>
-                                Company
-                            </li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li> Careers </li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li> Privacy Policy </li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li> Contact Us </li>
-                        </Link>
-                    </ul>
-
                 </div>
 
                 <div className={styles.productFooterBottomDiv}>
@@ -372,7 +328,7 @@ export const ProductsFooter = () => {
                 <div className={styles.productFooterBottomContentDiv}>
                     <div className={styles.productFooterBottomDivHeading}>
                         <p>
-                            ©2022 All rights reserved to the Bottom-Funnel Private Limited 
+                            ©2022 All rights reserved to the Bottom-Funnel Private Limited
                         </p>
                     </div>
 

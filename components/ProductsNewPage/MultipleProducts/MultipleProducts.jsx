@@ -13,15 +13,7 @@ export default function MultipleProducts() {
             <div className={styles.multipleProductseLearning}>
 
                 <div className={styles.multiProductsImageDiv}>
-
                     <img src='/Images/ProductsPage/ProductsLogo/animation.gif' alt='animation' />
-                    {/* <div className='solutionpara'>
-                        <h1> E-learning solutions </h1>
-                        <p>
-                            Make online tutoring more engaging, interactive and fun for your students with our cuttingedge e-learning solutions. We have a wide range of education app development solutions
-                            that can be used for tutorials, lectures, discussions and more.
-                        </p>
-                    </div> */}
                 </div>
 
                 <div className={styles.solright}>
@@ -32,16 +24,17 @@ export default function MultipleProducts() {
                                 <div className={styles.multipleProductsai}>
                                     <img src="/Images/ProductsPage/ProductsLogo/desk.png" alt='image' />
                                 </div>
-                                <p> Bottomfunnel Desk </p>
+                                <p className={styles.multipleProductHeadings}> Bottomfunnel Desk </p>
                             </Link>
                         </div>
 
 
                         <div className={styles.team}>
-                            <div className={styles.multipleProductsai}>
-                                <img src="/Images/ProductsPage/ProductsLogo/teams.png" alt='image' />
-                            </div>
-
+                            <Link href={"/"}>
+                                <div className={styles.multipleProductsai}>
+                                    <img src="/Images/ProductsPage/ProductsLogo/teams.png" alt='image' />
+                                </div>
+                            </Link>
                             <p> Bottomfunnel Team </p>
                         </div>
 

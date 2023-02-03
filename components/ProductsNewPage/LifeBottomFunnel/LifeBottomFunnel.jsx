@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./LifeBottomFunnel.module.css";
+import Link from "next/link";
 
 const LifeBottomFunnel = () => {
     return (
@@ -16,16 +17,24 @@ const LifeBottomFunnel = () => {
 
             <div className={styles.lifeImageMainDiv}>
                 <div className={styles.lifeImageInnerDiv}>
+
                     <div className={styles.lifeImageDiv}>
-                        <img src="/Images/ProductsPage/Footer/LifeImage1.png" alt='image'/>
+                        <Link href={"/about"}>
+                            <img src="/Images/ProductsPage/Footer/LifeImage1.png" alt='image' />
+                        </Link>
+                    </div>
+
+
+                    <div className={styles.lifeImageDiv}>
+                        <Link href={"/engagement"}>
+                            <img src='/Images/ProductsPage/Footer/Model.png' alt='image' />
+                        </Link>
                     </div>
 
                     <div className={styles.lifeImageDiv}>
-                        <img src='/Images/ProductsPage/Footer/LifeImage2.png' alt='image'/>
-                    </div>
-
-                    <div className={styles.lifeImageDiv}>
-                        <img src='/Images/ProductsPage/Footer/LifeImage3.png' alt='image'/>
+                        <Link href={"/career"}>
+                            <img src='/Images/ProductsPage/Footer/LifeImage3.png' alt='image' />
+                        </Link>
                     </div>
                 </div>
 

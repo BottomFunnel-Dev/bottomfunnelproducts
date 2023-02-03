@@ -18,8 +18,6 @@
   width: 100%;
   display: flex;
   margin: auto;
-  /* background-color: blue; */
-  /* height: 550px; */
 }
 
 .multiProductsImageDiv {
@@ -78,20 +76,13 @@
   transform: scale(1.1);
   /* transform: translateY(-15px); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* background-color: #f08034;
-  color: white; */
 }
-
-/* .soltop > div > p {
-  padding: 20px;
-} */
 
 .multipleProductsai {
   /* background-color: aqua; */
   width: 65px;
   height: 65px;
   margin: auto;
-  /* border: 1px solid red; */
 }
 
 .multipleProductsai > img {
@@ -106,7 +97,6 @@
 
 .solbotm > div {
   text-align: center;
-  /* background-color: bisque; */
   width: 20%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
@@ -118,18 +108,11 @@
 
 .solbotm > div:hover {
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
   transform: scale(1.1);
   /* transform: translateY(-15px); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* background-color: #f08034;
-  color: white; */
 }
-
-/* .solbotm > div > p {
-  padding: 10px;
-} */
 
 .solbotm1 {
   display: flex;
@@ -137,7 +120,6 @@
 
 .solbotm1 > div {
   text-align: center;
-  /* background-color: bisque; */
   width: 25%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
@@ -153,28 +135,207 @@
   transform: scale(1.1);
   /* transform: translateY(-15px); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* background-color: #f08034;
-  color: white; */
 }
-
-/* .solbotm1 > div > p {
-  padding: 20px;
-} */
 
 /* ------------------------Hovering Effect of Boxes----------------------------- */
 
 .funnelDesk:hover {
   background-color: #d6ffe8;
 }
+
 .team:hover {
   background-color: #ffaf9a;
 }
+
 .market:hover {
   background-color: #ffcf9c;
 }
+
 .service:hover {
   background-color: #e1e1e1;
 }
+
 .chat:hover {
   background-color: #a1ffca;
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .multipleProductssolution {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .multipleProductssolution h2 {
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .multipleProductseLearning {
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .multiProductsImageDiv {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: 0.5% 2%;
+    text-align: left;
+    padding: 40px;
+    /* height: 400px; */
+    position: relative;
+  }
+
+  .multiProductsImageDiv img {
+    /* border: 1px solid black; */
+    width: 100%;
+    object-fit: cover;
+    margin: 0.5% 4%;
+  }
+
+  .solutionpara {
+    border: 1px solid aqua;
+    width: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  .solright {
+    border: 1px solid red;
+    width: 95%;
+    /* margin: 20px; */
+    /* background-color: red; */
+    height: fit-content;
+  }
+
+  .soltop {
+    display: flex;
+    /* border: 1px solid blueviolet; */
+  }
+
+  .soltop > div {
+    /* background-color: bisque; */
+    /* border: 1px solid black; */
+    width: 20%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    height: 40px;
+    position: relative;
+    /* margin: 20px 25px; */
+    /* text-align: center; */
+    /* padding: 40px; */
+  }
+
+  .soltop > div:hover {
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    /* transform: translateY(-15px); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .soltop > div > p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .multipleProductsai {
+    /* background-color: aqua; */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+  }
+
+  .multipleProductsai > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .multipleProductHeadings {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    font-size: 12px;
+  }
+
+  .solbotm {
+    display: flex;
+  }
+
+  .solbotm > div {
+    text-align: center;
+    width: 20%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    height: 100px;
+    margin: 20px 25px;
+    padding: 40px;
+    /* border: 1px solid red; */
+  }
+
+  .solbotm > div:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    /* transform: translateY(-15px); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .solbotm1 {
+    display: flex;
+  }
+
+  .solbotm1 > div {
+    text-align: center;
+    width: 25%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    height: 100px;
+    margin: 20px 25px;
+    padding: 40px;
+  }
+
+  .solbotm1 > div:hover {
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    /* transform: translateY(-15px); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  /* ------------------------Hovering Effect of Boxes----------------------------- */
+
+  .funnelDesk:hover {
+    background-color: #d6ffe8;
+  }
+
+  .team:hover {
+    background-color: #ffaf9a;
+  }
+
+  .market:hover {
+    background-color: #ffcf9c;
+  }
+
+  .service:hover {
+    background-color: #e1e1e1;
+  }
+
+  .chat:hover {
+    background-color: #a1ffca;
+  }
 }

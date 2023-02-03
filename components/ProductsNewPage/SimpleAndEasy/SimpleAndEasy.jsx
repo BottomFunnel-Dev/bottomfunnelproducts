@@ -60,10 +60,6 @@ export const SimpleAndEasy = () => {
                 </p>
             </div>
 
-            {/* <div className='plantBasedServicesBackImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedMeatBackground.png' alt='image' />
-            </div> */}
-
             <div className={styles.simpleAndEasyContentDiv}>
                 {simpleAndEasyCardsData.map(({ title, body, image, buttondetails }, idx) => (
                     <div key={idx}>
