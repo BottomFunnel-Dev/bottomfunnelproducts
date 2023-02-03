@@ -1234,7 +1234,7 @@ export const productFeatures = [
   },
   {
     dropContent: "Automations",
-    path: "",
+    path: "/funneldesk/features/automation",
   },
   {
     dropContent: "Help Widget",
