@@ -45,7 +45,7 @@ export default function Home() {
         />
 
         <ProductsNewPageBanner />
-        <MultipleProducts />
+        {/* <MultipleProducts /> */}
         <TalentNetwork />
         <SimpleAndEasy />
         <TalentProfiles />
