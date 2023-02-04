@@ -18,13 +18,17 @@ import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/Pro
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
 import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
+<<<<<<< HEAD
 import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+=======
+import { CustomerRate } from "../components/ProductsNewPage/CustomerRate/CustomerRate";
+>>>>>>> 9509f9582f0c2d376619fedc1ed4372f2ffbed56
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Product Home page | Bottom Funnel Company</title>
+        <title>Explore Brainstrome SAAS Products and Customer Employee Experience Software | Bottom Funnel</title>
         <meta
           name="description"
           content="Design your product home page the right way and 
@@ -47,6 +51,7 @@ export default function Home() {
 
         <ProductsNewPageBanner />
         <MultipleProducts />
+        <CustomerRate/>
         <TalentNetwork />
         <SimpleAndEasy />
         <TalentProfiles />
