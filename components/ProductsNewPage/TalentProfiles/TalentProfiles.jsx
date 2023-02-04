@@ -147,8 +147,8 @@ export const TalentProfiles = () => {
                         <h6> {experience} </h6>
 
                         <div className={styles.productsTalentCommunication}>
-                            <p> {communication} </p>
-                            <p style={{ fontSize: "12px", marginTop: "3%" }}>
+                            <p className={styles.productsTalentTextCommunicationDiv}> {communication} </p>
+                            <p className={styles.productsTalentStarsTag}>
                                 <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiOutlineStar />
                             </p>
                         </div>

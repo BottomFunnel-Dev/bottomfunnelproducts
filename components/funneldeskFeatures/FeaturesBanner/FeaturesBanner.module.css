@@ -1,0 +1,41 @@
+.featuresBannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.featuresBannerContainer>div {
+    width: 45%;
+}
+
+.featuresBannerContainer>div>h1 {
+    font-size: 40px;
+}
+
+.featuresBannerContainer>div>p {
+    font-size: 20px;
+}
+
+.featuresBannerContainer>div>button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 60px;
+    border: 2px solid #ef4c23;
+    outline: none;
+    border-radius: 20px;
+    background: #ef4c23;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.featuresBannerContainer>div>button:hover {
+    color: #ef4c23;
+    background: white;
+}
+
+.featuresBannerContainer>span {
+    width: 45%;
+    height: fit-content;
+}

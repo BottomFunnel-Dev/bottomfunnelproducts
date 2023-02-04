@@ -1196,7 +1196,7 @@ export const productDesk = [
     productText1: "A comprehensive helpdesk for exceptional customer service",
     productText2: "SMB",
     navIcons: "/Images/Logos/funnel-desk/support-desk.png",
-    path: "funnel-desk",
+    path: "/funneldesk",
   },
   {
     dropContent: "Contact Center",
@@ -1234,7 +1234,7 @@ export const productFeatures = [
   },
   {
     dropContent: "Automations",
-    path: "",
+    path: "/funneldesk/features/automation",
   },
   {
     dropContent: "Help Widget",

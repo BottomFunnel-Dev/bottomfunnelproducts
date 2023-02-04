@@ -1,6 +1,6 @@
 import React from "react";
-import deskstyle from  "./ProductDesk.module.css";
-import Link  from "next/link";
+import deskstyle from "./ProductDesk.module.css";
+import Link from "next/link";
 import { productDesk } from "../../../Data/Navbar";
 export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
   return (
@@ -24,7 +24,7 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
             <Link
               onClick={solDeskOut}
               style={{ width: "75%" }}
-              href={"item.path"}
+              href={item.path}
               className={deskstyle.productlinkP}
             >
               <h6>{item.dropContent}</h6>

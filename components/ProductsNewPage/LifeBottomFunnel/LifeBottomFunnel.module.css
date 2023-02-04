@@ -12,7 +12,7 @@
 
 .lifeHeadingMainDiv > p {
   border-bottom: 1px solid red;
-  width: 46%;
+  width: 32.7%;
   height: 40px;
   margin: auto;
   font-size: 20px;
@@ -22,7 +22,8 @@
 .lifeHeadingMainDiv > h1 {
   font-weight: 700;
   margin-top: 0%;
-  font-size: 42px;
+  font-size: 30px;
+  margin-bottom: 2.7%;
 }
 
 .lifeImageMainDiv {
@@ -38,8 +39,17 @@
 
 .lifeImageDiv {
   /* border: 1px solid rebeccapurple; */
-  width: 30%;
+  width: 100%;
   margin-left: 4%;
+}
+
+.lifeImageDiv:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .lifeImageDiv > img {
@@ -51,17 +61,172 @@
   /* border: 1px solid red; */
   position: relative;
   height: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.lifeBottomContentDiv > h2 {
+.lifeBottomContentDiv > button {
   position: absolute;
-  right: 0%;
-  font-size: 30px;
+  left: 40%;
+  /* top: 50%; */
+  padding: 10px 30px;
+  border-radius: 7px;
+  font-size: 20px;
   font-weight: 600;
+  color: white;
+  background-color: #ef4c23;
+  outline: none !important; 
+  border: none;
+}
+
+.lifeBottomContentDiv > button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ef4c23;
   color: #ef4c23;
 }
 
-.lifeBottomContentDiv > h2:hover {
-  cursor: pointer;
-  text-decoration: underline;
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .lifeMainOuterDiv {
+    /* border: 1px solid gold; */
+    width: 95%;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+
+  .lifeHeadingMainDiv {
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+
+  .lifeHeadingMainDiv > p {
+    border-bottom: 1px solid red;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .lifeHeadingMainDiv > h1 {
+    font-weight: 700;
+    margin-top: 0%;
+    font-size: 20px;
+  }
+
+  .lifeImageMainDiv {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+  }
+
+  .lifeImageInnerDiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lifeImageDiv {
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    margin-left: 4%;
+  }
+
+  .lifeImageDiv > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .lifeBottomContentDiv {
+    /* border: 1px solid red; */
+    position: relative;
+    height: 50px;
+  }
+
+  .lifeBottomContentDiv > h2 {
+    position: absolute;
+    right: 0%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ef4c23;
+  }
+
+  .lifeBottomContentDiv > h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .lifeMainOuterDiv {
+    /* border: 1px solid gold; */
+    width: 95%;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+
+  .lifeHeadingMainDiv {
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+
+  .lifeHeadingMainDiv > p {
+    border-bottom: 1px solid red;
+    width: 65%;
+    height: 40px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .lifeHeadingMainDiv > h1 {
+    font-weight: 700;
+    margin-top: 0%;
+    font-size: 30px;
+  }
+
+  .lifeImageMainDiv {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+  }
+
+  .lifeImageInnerDiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lifeImageDiv {
+    /* border: 1px solid rebeccapurple; */
+    width: 30%;
+    margin-left: 4%;
+  }
+
+  .lifeImageDiv > img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .lifeBottomContentDiv {
+    /* border: 1px solid red; */
+    position: relative;
+    height: 50px;
+  }
+
+  .lifeBottomContentDiv > h2 {
+    position: absolute;
+    right: 0%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ef4c23;
+  }
+
+  .lifeBottomContentDiv > h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }

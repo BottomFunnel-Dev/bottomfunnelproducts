@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./SimpleAndEasy.module.css";
+import Link from "next/link";
 
 export const SimpleAndEasy = () => {
     const simpleAndEasyCardsData = [
@@ -7,12 +8,14 @@ export const SimpleAndEasy = () => {
             title: "Get up and running with no barriers",
             body: "Try or purchase our system directly from our website, and onboard in a matter of days, not months.",
             image: "/Images/ProductsPage/SimpleAndEasyImage1.png",
+            link: "",
             buttondetails: "start free trial",
         },
         {
             title: "Choosing your pricing plan",
             body: "Our pricing plans are for modern business use cases and affordable for organizations of all sizes.",
             image: "/Images/ProductsPage/SimpleAndEasyImage2.png",
+            link: "",
             buttondetails: "See pricing",
         },
         {
@@ -20,6 +23,7 @@ export const SimpleAndEasy = () => {
             body: `Extend and tailor experience to meet your unique business needs, with low-code development and over
             1,100 custom apps made available on our marketplace.`,
             image: "/Images/ProductsPage/SimpleAndEasyImage3.png",
+            link: "",
             buttondetails: "Visit marketplace",
         },
         {
@@ -27,6 +31,7 @@ export const SimpleAndEasy = () => {
             body: `Accelerate your team's productivity and efficiency with modern automation and collaboraiton tools,
             to get tangible results in no time.`,
             image: "/Images/ProductsPage/SimpleAndEasyImage4.png",
+            link: "",
             buttondetails: "Learn now",
         },
         // {
@@ -60,21 +65,19 @@ export const SimpleAndEasy = () => {
                 </p>
             </div>
 
-            {/* <div className='plantBasedServicesBackImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedMeatBackground.png' alt='image' />
-            </div> */}
-
             <div className={styles.simpleAndEasyContentDiv}>
-                {simpleAndEasyCardsData.map(({ title, body, image, buttondetails }, idx) => (
+                {simpleAndEasyCardsData.map(({ title, body, image, buttondetails, link }, idx) => (
                     <div key={idx}>
                         <div>
                             <img src={image} alt={title} />
                         </div>
                         <h3>{title}</h3>
                         <p>{body}</p>
-                        <p className={styles.simpleAndEasyContentButton}>
-                            {buttondetails}
-                        </p>
+                        <Link href={link}>
+                            <p className={styles.simpleAndEasyContentButton}>
+                                {buttondetails}
+                            </p>
+                        </Link>
                     </div>
                 ))}
             </div>

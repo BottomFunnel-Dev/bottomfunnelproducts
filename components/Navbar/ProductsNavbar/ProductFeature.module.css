@@ -12,6 +12,7 @@
   /* border: 2px solid; */
   /* text-align: center; */
 }
+
 .productFeatureListItems {
   width: 38%;
   height: 100%;
@@ -22,12 +23,13 @@
   margin-top: 5%;
 }
 
-.productFeatureListItems > p {
+.productFeatureListItems>p {
   margin: 0;
   width: 49%;
   list-style: none !important;
   text-decoration: none !important;
 }
+
 .productlinkP {
   text-decoration: none;
   /* border: 2px solid red; */
@@ -40,6 +42,7 @@
   color: black;
   /* border: 2px solid red; */
 }
+
 .productFeatureData {
   padding: 10px 0;
   padding-left: 10px;
@@ -49,23 +52,34 @@
   /* border-bottom: 1px solid #d9d9d9; */
   /* border: 2px solid ; */
 }
-.productFeatureData .productlinkP > p {
+
+.productFeatureData .productlinkP>p {
   /* border: 2px solid red; */
   margin: 0;
   margin-left: 6%;
   font-size: 13px;
   font-weight: 500;
 }
-.productFeatureData .productlinkP > p:hover{
+
+.productFeatureData .productlinkP>p:hover {
   color: #ef4c23;
 }
+
 .productFeatureData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   background-color: lightgray;
-  border-left: 3px solid  #ef4c23;
+  border-left: 3px solid #ef4c23;
 }
 
-.productFeatureListItems > button {
+.productFeaturesAllFeaturesButton {
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.productFeaturesAllFeaturesButton>button {
   border: 1px solid #393939;
   background: transparent;
   width: 80%;
@@ -80,7 +94,7 @@
   cursor: pointer;
 }
 
-.productFeatureListItems > button:hover {
+.productFeaturesAllFeaturesButton>button:hover {
   background-color: #ef4c23;
   color: white;
   border: 1px solid #ef4c23;

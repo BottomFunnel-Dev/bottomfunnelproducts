@@ -32,7 +32,7 @@ export const TalentNetwork = () => {
             language4: "Visual Designer",
             language5: "Graphic Designer",
             language6: "",
-            jobprofile: "Designers",
+            jobprofile: "Designers Technologies",
 
             buttondetails: "Visit marketplace",
         },
@@ -120,15 +120,15 @@ export const TalentNetwork = () => {
                         <div>
                             <h4>{jobprofile}</h4>
                         </div>
+                        
                         <p>{language1}</p>
                         <p>{language2}</p>
                         <p>{language3}</p>
                         <p>{language4}</p>
                         <p>{language5}</p>
                         <p>{language6}</p>
-                        <p>{language7}</p>
-                        <p>{language8}</p>
-                        {/* <p className='productsTalentNetworkContentButton'>{buttondetails}</p> */}
+                        {/* <p>{language7}</p>
+                        <p>{language8}</p> */}
                     </div>
                 ))}
             </div>
