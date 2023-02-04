@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Product Home page | Bottom Funnel Company</title>
+        <title>Explore Brainstrome SAAS Products and Customer Employee Experience Software | Bottom Funnel</title>
         <meta
           name="description"
           content="Design your product home page the right way and 
