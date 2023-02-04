@@ -101,14 +101,12 @@ export default function DropdownResp({
         </AccordionDetails>
       </Accordion>
 
-
       <div className={dropdown.otherNav}>
-      <div>PRICING</div>
-      <div>PORTFOLIO</div>
-      <div>BLOG</div>
-     <button>Hire A Talent</button>
-     <button>Apply as a Talent</button>
-
+        <div>PRICING</div>
+        <div>PORTFOLIO</div>
+        <div>BLOG</div>
+        <button>Hire A Talent</button>
+        <button>Apply as a Talent</button>
       </div>
     </div>
   );

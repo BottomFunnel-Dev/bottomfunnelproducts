@@ -37,10 +37,47 @@
   flex-direction: row;
 }
 
+.LifeImageMainImageDiv {
+  border: 1px solid red;
+  position: relative;
+}
+
+.lifeImageDivBackgroundImage {
+  position: relative;
+  z-index: 0;
+}
+
+.lifeImageDivBackgroundImage > img {
+  width: 90%;
+}
+
+.lifeImageDiv1 {
+  /* border: 1px solid rebeccapurple; */
+  width: 100%;
+  margin-left: 4%;
+  margin-top: -20%;
+  z-index: 1;
+}
+
+.lifeImageDiv1:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.lifeImageDiv1 > img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .lifeImageDiv {
   /* border: 1px solid rebeccapurple; */
   width: 100%;
   margin-left: 4%;
+  z-index: 1;
 }
 
 .lifeImageDiv:hover {
