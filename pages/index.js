@@ -18,6 +18,7 @@ import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/Pro
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
 import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
+import { CustomerRate } from "../components/ProductsNewPage/CustomerRate/CustomerRate";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
 
         <ProductsNewPageBanner />
         <MultipleProducts />
+        <CustomerRate/>
         <TalentNetwork />
         <SimpleAndEasy />
         <TalentProfiles />
