@@ -18,11 +18,9 @@ import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/Pro
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
 import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
-<<<<<<< HEAD
-import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-=======
 import { CustomerRate } from "../components/ProductsNewPage/CustomerRate/CustomerRate";
->>>>>>> 9509f9582f0c2d376619fedc1ed4372f2ffbed56
+import Hiretalent from "../components/ProductsNewPage/hireComopnent/Hiretalent";
+import Testimonial from "../components/ProductsNewPage/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -44,25 +42,26 @@ export default function Home() {
             navMount: false,
           }}
           navredux={{
-            color: "black",
-            logo: false,
+            color: "white",
+            logo: true,
           }}
         />
 
         <ProductsNewPageBanner />
-        <MultipleProducts />
+        {/* <MultipleProducts /> */}
         <CustomerRate/>
-        <TalentNetwork />
+        <Hiretalent/>
+        {/* <TalentNetwork /> */}
         <SimpleAndEasy />
+        <GetStarted />
         <TalentProfiles />
         {/* <ReadyStarted /> */}
 
         {/* Other react required components  */}
-        <StoriesSection />
+        {/* <StoriesSection /> */}
+        <Testimonial/>
         <TrustedBy />
         <LifeBottomFunnel />
-        <GetStarted />
-        {/* <ContectForm /> */}
         <ProductsFooter />
       </main>
     </>
