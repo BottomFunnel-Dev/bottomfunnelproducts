@@ -21,8 +21,6 @@ import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted"
 
 import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
-import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-
 export default function Home() {
   return (
     <>
