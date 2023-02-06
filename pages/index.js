@@ -18,6 +18,9 @@ import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/Pro
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
 import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
+
+import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+
 import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 export default function Home() {
