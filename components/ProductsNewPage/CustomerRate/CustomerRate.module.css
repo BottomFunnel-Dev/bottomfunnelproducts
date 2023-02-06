@@ -4,36 +4,33 @@
     height: 300px;
     margin-top: 330px;
 }
+
+.mainSlideDiv{
+    padding: 10px;
+}
 .customerRateMainDiv>h1{
-    /* border: 2px solid red; */
     text-align: center;
 }
 .customerRateDContainer{
-    /* border: 2px solid red; */
     width: 70%;
     height: 200px;
     margin: auto;
-    display: flex;
-    flex-direction: row;
 }
 .customerRatedata{
-    /* border: 2px solid red; */
     height: 200px;
-    width: 30%;
-    margin-left: 2%;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+ 
 }
 .customerStar{
-    /* border: 2px solid red; */
     color: gold;
     text-align: center;
 }
 .customerText{
-    /* border: 2px solid red; */
     text-align: center;
 }
 .customerRateImage{
-    /* border: 2px solid red; */
+    width: 50%;
+    margin: auto;
     text-align: center;
 }

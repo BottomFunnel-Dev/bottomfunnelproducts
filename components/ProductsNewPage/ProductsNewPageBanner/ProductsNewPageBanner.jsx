@@ -2,46 +2,58 @@ import React from "react";
 import styles from "./ProductsNewPageBanner.module.css";
 import { IconContext } from "react-icons/lib";
 import { BsPlayCircle } from "react-icons/bs";
+import { useRouter } from "next/router";
 
 export const ProductsNewPageBanner = () => {
   const data = [
     {
       img: "/Images/productsmainpage/Components/desk.png",
       title: "Bottomfunnel Desk",
+      path: "funneldesk"
     },
     {
       img: "/Images/productsmainpage/Components/teams.png",
       title: "Bottomfunnel Team",
+      path: "/"
     },
     {
       img: "/Images/productsmainpage/Components/service.png",
       title: "Bottomfunnel Services",
+      path: "/"
     },
     {
       img: "/Images/productsmainpage/Components/marketer.png",
       title: "Bottomfunnel Marketer",
+      path: "/"
     },
     {
       img: "/Images/productsmainpage/Components/sales.png",
       title: "Bottomfunnel Sales",
+      path: "sales"
     },
     {
       img: "/Images/productsmainpage/Components/chat.png",
       title: "Bottomfunnel Chat",
+      path: "/"
     },
     {
       img: "/Images/productsmainpage/Components/omnichannel.png",
       title: "Bottomfunnel Omnichannel",
+      path:"/"
     },
     {
       img: "/Images/productsmainpage/Components/contact.png",
       title: "Bottomfunnel Contact Center",
+      path:"/"
     },
     {
       img: "/Images/productsmainpage/Components/customersuccess.png",
       title: "Bottomfunnel Customer Success",
+      path:"/"
     },
   ];
+
+  const router = useRouter()
 
   return (
     <div className={styles.productsbanner}>
@@ -110,7 +122,7 @@ export const ProductsNewPageBanner = () => {
         </div>
         <div className={styles.productright}>
           {data.map((item, index) => (
-            <div key={index} className={styles.productsLogo}>
+            <div onClick={()=>{router.push(`${item.path}`)}} key={index} className={styles.productsLogo}  >
               <div className={styles.logoProduct}>
                 <img src={item.img} alt="" />
               </div>
