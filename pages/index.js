@@ -21,6 +21,8 @@ import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted"
 import { CustomerRate } from "../components/ProductsNewPage/CustomerRate/CustomerRate";
 import Hiretalent from "../components/ProductsNewPage/hireComopnent/Hiretalent";
 import Testimonial from "../components/ProductsNewPage/Testimonial/Testimonial";
+import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+
 
 export default function Home() {
   return (
@@ -55,7 +57,8 @@ export default function Home() {
         <SimpleAndEasy />
         <GetStarted />
         <TalentProfiles />
-        <ReadyStarted />
+        {/* <ReadyStarted /> */}
+        {/* <ReadyStarted/>  */}
 
         {/* Other react required components  */}
         {/* <StoriesSection /> */}
