@@ -21,13 +21,11 @@ import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted"
 
 import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
-
-
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Explore Brainstrome SAAS Products and Customer Employee Experience Software | Bottom Funnel</title>
+        <title>Product Home page | Bottom Funnel Company</title>
         <meta
           name="description"
           content="Design your product home page the right way and 
@@ -53,7 +51,7 @@ export default function Home() {
         <TalentNetwork />
         <SimpleAndEasy />
         <TalentProfiles />
-        {/* <ReadyStarted /> */}
+        <ReadyStarted />
 
         {/* Other react required components  */}
         <StoriesSection />
