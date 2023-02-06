@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Explore Brainstrome SAAS Products and Customer Employee Experience Software | Bottom Funnel</title>
+        <title>Product Home page | Bottom Funnel Company</title>
         <meta
           name="description"
           content="Design your product home page the right way and 
@@ -55,7 +55,7 @@ export default function Home() {
         <SimpleAndEasy />
         <GetStarted />
         <TalentProfiles />
-        {/* <ReadyStarted /> */}
+        <ReadyStarted />
 
         {/* Other react required components  */}
         {/* <StoriesSection /> */}
