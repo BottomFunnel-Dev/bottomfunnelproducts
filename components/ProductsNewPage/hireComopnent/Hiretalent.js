@@ -1,144 +1,132 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./hiretalent.module.css";
 export default function Hiretalent() {
   const roles = [
     {
-      role1: {
-        title: "Front-end Developers",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
-      role2: {
-        title: "backend Developers",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
+      title: "Front-end Developers",
+      stack: [
+        "HTML",
+        "React.js",
+        "Angular.js",
+        "Vue.js",
+        "jquery",
+        "javascript",
+        "Svelte",
+        "Semantic Ui",
+      ],
+      img: "/Images/productsmainpage/Components/frontend.png",
     },
     {
-      role1: {
-        title: "Product Designers",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
-      role2: {
-        title: "Software Engineers",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
+      title: "backend Developers",
+      stack: [
+        "Node.js",
+        ".NET",
+        "PHP",
+        "JAVA",
+        "Laravel",
+        "Django",
+        "Flask",
+        "Golang",
+      ],
+      img: "/Images/productsmainpage/Components/backend.png",
+    },
+
+    {
+      title: "Product Designers",
+      stack: [
+        "HTML",
+        "React.js",
+        "Angular.js",
+        "Vue.js",
+        "jquery",
+        "javascript",
+        "Svelte",
+        "Semantic Ui",
+      ],
+      img: "/Images/productsmainpage/Components/productdesign.png",
     },
     {
-      role1: {
-        title: "Salesforce Experts",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
-      role2: {
-        title: "Digital Marketing",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
+      title: "Software Engineers",
+      stack: [
+        "HTML",
+        "React.js",
+        "Angular.js",
+        "Vue.js",
+        "jquery",
+        "javascript",
+        "Svelte",
+        "Semantic Ui",
+      ],
+      img: "/Images/productsmainpage/Components/sde.png",
+    },
+
+    {
+      title: "Salesforce Experts",
+      stack: [
+        "HTML",
+        "React.js",
+        "Angular.js",
+        "Vue.js",
+        "jquery",
+        "javascript",
+        "Svelte",
+        "Semantic Ui",
+      ],
+      img: "/Images/productsmainpage/Components/salesforce.png",
     },
     {
-      role1: {
-        title: "Cross-platform Developers",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
-      role2: {
-        title: "native app Developers",
-        stack: [
-          "HTML",
-          "React.js",
-          "Angular.js",
-          "Vue.js",
-          "jquery",
-          "javascript",
-          "Svelte",
-          "Semantic Ui",
-        ],
-        img: "/Images/productsmainpage/Components/jobimage.png",
-      },
+      title: "Digital Marketing",
+      stack: [
+        "HTML",
+        "React.js",
+        "Angular.js",
+        "Vue.js",
+        "jquery",
+        "javascript",
+        "Svelte",
+        "Semantic Ui",
+      ],
+      img: "/Images/productsmainpage/Components/digital.png",
+    },
+
+    {
+      title: "Cross-platform Developers",
+      stack: [
+        "HTML",
+        "React.js",
+        "Angular.js",
+        "Vue.js",
+        "jquery",
+        "javascript",
+        "Svelte",
+        "Semantic Ui",
+      ],
+      img: "/Images/productsmainpage/Components/crossdev.png",
+    },
+    {
+      title: "native app Developers",
+      stack: [
+        "HTML",
+        "React.js",
+        "Angular.js",
+        "Vue.js",
+        "jquery",
+        "javascript",
+        "Svelte",
+        "Semantic Ui",
+      ],
+      img: "/Images/productsmainpage/Components/native.png",
     },
   ];
 
-  const [dataprint, setdataprint] = useState(roles[0].role1)
+  const [active, setactive] = useState(0);
+  const [dataprint, setdataprint] = useState(0);
 
-
-  
-  
-  const handleclick1 = (item)=>{
-    setdataprint(item.role1)
-    console.log(dataprint)
-  }
-  const handleclick2 = (item)=>{
-    setdataprint(item.role2)
-    console.log(dataprint)
-  }
-
-  
+  const handleclick = (item, index) => {
+    setdataprint(index);
+    setactive(item.title);
+    // console.log(index);
+  };
 
   return (
     <div className={styles.hiretalent}>
@@ -149,16 +137,48 @@ export default function Hiretalent() {
       </p>
       <div className={styles.jobroles}>
         <div className={styles.leftrole}>
+          <img src={roles[dataprint].img} alt="" />
+          <div className={styles.topcontent}>Click to know More</div>
+          <div className={styles.techstackpart}>
+<h3>{roles[dataprint].title}</h3>
+<div className={styles.relatedtech}>
+    {roles[dataprint].stack.map((item)=>(
+        <div key={item}>{item}</div>
+    ))}
+</div>
 
-          <img src="/Images/productsmainpage/Components/jobimage.png" alt="" />
+          </div>
         </div>
         <div className={styles.rightrole}>
-          {roles.map((item, index) => (
-            <div key={index} className={styles.jobtitles}>
-              <div onClick={()=>{handleclick1(item)}} className={styles.rolespart1}>{item.role1.title}</div>
-              <div onClick={()=>{handleclick2(item)}} className={styles.rolespart2}>{item.role2.title}</div>
-            </div>
-          ))}
+          <div className={styles.backcont}>
+            <div className={styles.backdiv}></div>
+            <div className={styles.backdiv}></div>
+            <div className={styles.backdiv}></div>
+            <div className={styles.backdiv}></div>
+          </div>
+          <div className={styles.devroles}>
+            {roles.map((item, index) => (
+              <div
+                className={
+                  index % 2 == 0 ? styles.rolespart1 : styles.rolespart2
+                }
+                key={index}
+                onClick={() => {
+                  handleclick(item, index);
+                }}
+                style={
+                  index === dataprint
+                    ? {
+                        background: "#ef4c23",
+                        color: "white",
+                      }
+                    : null
+                }
+              >
+                {item.title}{" "}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

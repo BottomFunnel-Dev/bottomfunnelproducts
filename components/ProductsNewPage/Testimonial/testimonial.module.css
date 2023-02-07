@@ -19,6 +19,7 @@
   /* background-color: blue; */
   display: flex;
   justify-content: center;
+
 }
 
 .slidingDiv {
@@ -28,6 +29,7 @@
   background-color: #ef4c23;
   display: flex;
   justify-content: center;
+  border-radius: 10px;
 }
 .imgpart {
   width: 40%;
