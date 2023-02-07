@@ -1246,7 +1246,7 @@ export const productFeatures = [
   },
   {
     dropContent: "Security",
-    path: "",
+    path: "/funneldesk/features/security",
   },
   {
     dropContent: "Integration",

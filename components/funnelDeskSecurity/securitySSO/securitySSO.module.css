@@ -1,0 +1,25 @@
+.securitySSOContainer {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.securitySSOContainer>span {
+    width: 35%;
+    height: fit-content;
+}
+
+.securitySSOContainer>div {
+    width: 45%;
+}
+
+.securitySSOContainer>div>h2 {
+    font-size: 25px;
+}
+
+.securitySSOContainer>div>p {
+    font-size: 16px;
+    text-align: justify;
+}

@@ -1,0 +1,14 @@
+.supportDeskSecurityContainer>h1 {
+    font-size: 32px;
+    background: #ef4c23;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.supportDeskSecurityContainer>p {
+    font-size: 16px;
+    text-align: center;
+    width: 70%;
+    margin: 3% auto 0;
+}

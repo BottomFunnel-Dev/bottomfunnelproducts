@@ -1,0 +1,29 @@
+.securePlatformContainer {
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.securePlatformContainer>span {
+    width: 25%;
+    height: fit-content;
+}
+
+.securePlatformContainer>div {
+    width: 45%;
+}
+
+.securePlatformContainer>div>h2 {
+    font-size: 25px;
+}
+
+.securePlatformContainer>div>p {
+    font-size: 16px;
+}
+
+.securePlatformContainer>div>ul>li {
+    font-size: 16px;
+    margin: 2% 0;
+}
