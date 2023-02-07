@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 // import  Link  from "next/Link";
 import prodnav from "./productsNavbar.module.css";
-import { useSelector } from "react-redux";
 import { ProductSolutions } from "./ProductSolutions";
 import { ProductResources } from "./ProductResources";
 import { ProductFeature } from "./ProductFeature";
 import { ProductDesk } from "./ProductDesk";
 
 export const ProductsNavbar = ({ navproductredux }) => {
-  // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
   const [productresource, setproductResource] = useState(false);
@@ -121,7 +119,6 @@ export const ProductsNavbar = ({ navproductredux }) => {
           onMouseEnter={solDeskIn}
           onMouseLeave={solDeskOut}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
-          F
         >
           Desk Products
           <img

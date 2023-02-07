@@ -1,0 +1,60 @@
+.ConversonalCrmmaindiv{
+    /* border: 2px solid red; */
+
+}
+.ConversonalCrmmaindivcontain{
+    /* border: 2px solid yellow; */
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.ConversonalCrmcarddiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column ;
+}
+.ConversonalCrmcarddivinner{
+    /* border:     2px solid red; */
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.ConversonalCrmcarddivinnerbox{
+    /* border: 2px solid pink; */
+    display: flex;
+    width: 43%;
+    height: 80vh;
+    /* height: fit-content; */
+    flex-direction: column;
+    margin: auto;
+}
+.ConversonalCrmcarddivinnerboximage{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 50vh;
+
+    /* height: 200px; */
+    margin: auto;
+}
+.ConversonalCrmcarddivinnerboximage img{
+width: 100%;
+height: 100%;
+}
+.ConversonalCrmcarddivinnerboxcontain{
+    /* border: 2px solid aqua; */
+    height: 30vh;
+    text-align: justify;
+}
+.ConversonalCrmcarddivinnerboxcontain h2{
+    margin: 0%;
+    /* margin-left: 9%; */
+}
+.ConversonalCrmcarddivinnerboxexplore{
+    color: #ef4c23;
+    margin: 0%;
+    /* margin-left: 9%; */
+}
