@@ -1,0 +1,61 @@
+.ForBusinessdivmain{
+    border: 2px solid transparent;
+    background: url("/Images/MarketerHomePagephotos/baground1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    
+}
+
+
+.ForBusinessdiv{
+    /* border: 2px solid green; */
+    text-align: center;
+    margin-top: 3%;
+}
+.ForBusinessdivcard{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+.ForBusinessdivcardinnerdiv{
+    border: 1px solid lightgrey;
+    width: 30%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ForBusinessdivcardinnerdiv:hover{
+    background-color: #ffc687;
+}
+
+.ForBusinessdivcardimagecontain{
+    /* border: 2px solid green; */
+    padding-left: 60px;
+    padding-right: 60px;
+    /* width: 320px; */
+}
+.ForBusinessdivcardimagecontain h5{
+    margin: 0%;
+}
+.ForBusinessdivcardimagecontain p{
+    margin: 0%;
+    font-size: 14px;
+}
+.ForBusinessdivcardimage{
+    /* border: 2px solid yellowgreen; */
+    /* width: 50px; */
+}
+.ForBusinessdivcardimage img{
+    width: 80px;
+    height: 80px;
+}

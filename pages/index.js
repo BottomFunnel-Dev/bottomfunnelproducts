@@ -18,6 +18,7 @@ import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/Pro
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
 import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
+import { HireTalent } from "../components/ProductsNewPage/HireTalent/HireTalent";
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
         <TalentNetwork />
         <SimpleAndEasy />
         <TalentProfiles />
+        <HireTalent/>
 
         {/* Other react required components  */}
         <StoriesSection />

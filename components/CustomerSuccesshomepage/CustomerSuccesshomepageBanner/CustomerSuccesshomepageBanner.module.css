@@ -1,0 +1,24 @@
+.CustomerSuccesshomepageBannermaindiv{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: row;
+}
+.CustomerSuccesshomepageBannermaindivcontain{
+    border: 2px solid yellow;
+    width: 40%;
+    margin: auto;
+
+}
+.CustomerSuccesshomepageBannermaindivcontain h1{
+
+}
+.CustomerSuccesshomepageBannermaindivbutton{
+    /* border: 2px solid yellow; */
+    width: 220px;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #ef4c23;
+    color: white;
+    border: none;
+}
