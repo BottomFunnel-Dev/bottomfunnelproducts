@@ -6,6 +6,12 @@ import { allfeatures } from "../../../components/Data/funneldeskFeatures";
 import { FeatureDemo } from "../../../components/funneldeskFeatures/FeaturesDemo/FeatureDemo";
 import { ProductsNavbar } from "../../../components/Navbar/ProductsNavbar/ProductsNavbar";
 
+import StoriesSection from "../../../components/CommonComponents/StoriesSection/StoriesSection";
+import TrustedBy from "../../../components/TrustedByProductsPage/TrustedBy";
+import LifeBottomFunnel from "../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { GetStarted } from "../../../components/ProductsNewPage/GetStarted/GetStarted";
+import { ProductsFooter } from "../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+
 export default function funnelDeskFeatures() {
   const {
     banner,
@@ -48,6 +54,12 @@ export default function funnelDeskFeatures() {
       <FeaturesCardsLeft cardsData={capabilities} right={false} />
       <FeaturesCardsLeft cardsData={security} right={true} />
       <FeatureDemo />
+
+      <StoriesSection />
+      <TrustedBy />
+      <LifeBottomFunnel />
+      <GetStarted />
+      <ProductsFooter />
     </div>
   );
 }
