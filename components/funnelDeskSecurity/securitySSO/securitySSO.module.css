@@ -23,3 +23,28 @@
     font-size: 16px;
     text-align: justify;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .securitySSOContainer {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .securitySSOContainer>span {
+        width: 80%;
+    }
+
+    .securitySSOContainer>div {
+        width: 95%;
+        text-align: center;
+    }
+
+    .securitySSOContainer>div>h2 {
+        font-size: 20px;
+    }
+
+    .securitySSOContainer>div>p {
+        font-size: 14px;
+    }
+}

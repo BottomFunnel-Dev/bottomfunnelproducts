@@ -53,3 +53,19 @@
 .securityMidBannerContainer>span>button:nth-child(2):hover {
     background-color: #ef4c23;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .securityMidBannerContainer>h1 {
+        font-size: 20px;
+    }
+
+    .securityMidBannerContainer>p {
+        font-size: 14px;
+    }
+
+    .securityMidBannerContainer>span>button {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+}

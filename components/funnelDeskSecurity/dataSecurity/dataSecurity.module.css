@@ -11,3 +11,18 @@
 .dataSecurityContainer>p {
     font-size: 16px;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .dataSecurityContainer {
+        padding: 2% 3%;
+    }
+
+    .dataSecurityContainer>h1 {
+        font-size: 25px;
+    }
+
+    .dataSecurityContainer>p {
+        font-size: 14px;
+    }
+}

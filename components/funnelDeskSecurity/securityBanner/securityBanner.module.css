@@ -40,3 +40,35 @@
     background-color: white;
     color: #ef4c23;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .securityBannerContainer {
+        flex-direction: column;
+        height: fit-content;
+        padding: 20px 0;
+        margin-top: 90px;
+    }
+
+    .securityBannerContainer>span {
+        width: 80%;
+    }
+
+    .securityBannerContainer>div {
+        width: 95%;
+        text-align: center;
+    }
+
+    .securityBannerContainer>div>h1 {
+        font-size: 32px;
+    }
+
+    .securityBannerContainer>div>p {
+        font-size: 14px;
+    }
+
+    .securityBannerContainer>div>button {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+}

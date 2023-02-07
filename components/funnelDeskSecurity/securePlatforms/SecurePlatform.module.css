@@ -27,3 +27,33 @@
     font-size: 16px;
     margin: 2% 0;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .securePlatformContainer {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .securePlatformContainer>span {
+        width: 50%;
+    }
+
+    .securePlatformContainer>div {
+        width: 90%;
+    }
+
+    .securePlatformContainer>div>h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .securePlatformContainer>div>p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .securePlatformContainer>div>ul>li {
+        font-size: 14px;
+    }
+}

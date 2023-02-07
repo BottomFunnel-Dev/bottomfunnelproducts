@@ -34,7 +34,7 @@
 }
 
 .customSSLCertificatesContainer>div>h2,
-.ipWhitelistingContainer>h2 {
+.ipWhitelistingContainer>div>h2 {
     font-size: 25px;
 }
 
@@ -46,4 +46,56 @@
 .customSSLCertificatesContainer>div>ul>li {
     font-size: 16px;
     margin: 2% 0;
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .bestSecurityRoofContainer {
+        padding: 5px 0;
+    }
+
+    .bestSecurityRoofContainer>h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .customSSLCertificatesContainer,
+    .ipWhitelistingContainer {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .ipWhitelistingContainer {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .customSSLCertificatesContainer>span,
+    .ipWhitelistingContainer>span {
+        width: 80%;
+        height: fit-content;
+    }
+
+    .customSSLCertificatesContainer>div,
+    .ipWhitelistingContainer>div {
+        width: 100%;
+    }
+
+    .customSSLCertificatesContainer>div>h2,
+    .ipWhitelistingContainer>div>h2 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .customSSLCertificatesContainer>div>p,
+    .ipWhitelistingContainer>div>p {
+        font-size: 14px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .customSSLCertificatesContainer>div>ul>li {
+        font-size: 14px;
+    }
 }

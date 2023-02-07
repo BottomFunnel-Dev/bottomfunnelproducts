@@ -12,3 +12,16 @@
     width: 70%;
     margin: 3% auto 0;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .supportDeskSecurityContainer>h1 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .supportDeskSecurityContainer>p {
+        width: 90%;
+        font-size: 14px;
+    }
+}
