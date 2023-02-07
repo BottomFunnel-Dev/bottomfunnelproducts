@@ -3,12 +3,11 @@ import styles from "./MultipleProducts.module.css";
 import Link from "next/link";
 
 export default function MultipleProducts() {
+
+  
     return (
         <div className={styles.multipleProductssolution}>
-            <h2>
-                Try the business software used by over 50,000 companies acorss the globe to exceed customer and employess
-                expectations.
-            </h2>
+          
 
             <div className={styles.multipleProductseLearning}>
 

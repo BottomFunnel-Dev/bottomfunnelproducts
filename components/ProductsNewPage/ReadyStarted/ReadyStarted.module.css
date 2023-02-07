@@ -1,0 +1,23 @@
+.readyStartOuterDiv {
+  position: relative;
+}
+
+.readyStartedButtonOuterDiv {
+  border: 1px solid black;
+  /* position: absolute; */
+}
+
+
+.readyStartedButtonOuterDiv > button {
+  border: 1px solid green;
+  width: 20%;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 20px;
+  /* margin-top: -50%; */
+}
+
+.readyStartedButtonOuterDiv > button:hover {
+  background-color: #ef4c23;
+  color: white;
+}

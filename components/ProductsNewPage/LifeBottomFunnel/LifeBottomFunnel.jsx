@@ -17,7 +17,7 @@ const LifeBottomFunnel = () => {
 
             <div className={styles.lifeImageMainDiv}>
                 <div className={styles.lifeImageInnerDiv}>
-
+            
                     <div className={styles.lifeImageDiv}>
                         <Link href={"/about"}>
                             <img src="/Images/ProductsPage/Footer/LifeImage1.png" alt='image' />

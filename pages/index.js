@@ -18,13 +18,17 @@ import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/Pro
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
 import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
-import { HireTalent } from "../components/ProductsNewPage/HireTalent/HireTalent";
+import { CustomerRate } from "../components/ProductsNewPage/CustomerRate/CustomerRate";
+import Hiretalent from "../components/ProductsNewPage/hireComopnent/Hiretalent";
+import Testimonial from "../components/ProductsNewPage/Testimonial/Testimonial";
+import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Explore Brainstrome SAAS Products and Customer Employee Experience Software | Bottom Funnel</title>
+        <title>Product Home page | Bottom Funnel Company</title>
         <meta
           name="description"
           content="Design your product home page the right way and 
@@ -40,24 +44,27 @@ export default function Home() {
             navMount: false,
           }}
           navredux={{
-            color: "black",
-            logo: false,
+            color: "white",
+            logo: true,
           }}
         />
 
         <ProductsNewPageBanner />
-        <MultipleProducts />
-        <TalentNetwork />
+        {/* <MultipleProducts /> */}
+        <CustomerRate/>
+        <Hiretalent/>
+        {/* <TalentNetwork /> */}
         <SimpleAndEasy />
+        <GetStarted />
         <TalentProfiles />
-        <HireTalent/>
+        {/* <ReadyStarted /> */}
+        {/* <ReadyStarted/>  */}
 
         {/* Other react required components  */}
-        <StoriesSection />
+        {/* <StoriesSection /> */}
+        <Testimonial/>
         <TrustedBy />
         <LifeBottomFunnel />
-        <GetStarted />
-        {/* <ContectForm /> */}
         <ProductsFooter />
       </main>
     </>
