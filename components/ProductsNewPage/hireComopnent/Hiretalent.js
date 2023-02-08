@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import styles from "./hiretalent.module.css";
 export default function Hiretalent() {
@@ -119,12 +120,10 @@ export default function Hiretalent() {
     },
   ];
 
-  const [active, setactive] = useState(0);
   const [dataprint, setdataprint] = useState(0);
 
   const handleclick = (item, index) => {
     setdataprint(index);
-    setactive(item.title);
     // console.log(index);
   };
 
@@ -137,16 +136,22 @@ export default function Hiretalent() {
       </p>
       <div className={styles.jobroles}>
         <div className={styles.leftrole}>
-          <img src={roles[dataprint].img} alt="" />
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src={roles[dataprint].img}
+            alt={roles[dataprint].img}
+          />
           <div className={styles.topcontent}>Click to know More</div>
           <div className={styles.techstackpart}>
-<h3>{roles[dataprint].title}</h3>
-<div className={styles.relatedtech}>
-    {roles[dataprint].stack.map((item)=>(
-        <div key={item}>{item}</div>
-    ))}
-</div>
-
+            <h3>{roles[dataprint].title}</h3>
+            <div className={styles.relatedtech}>
+              {roles[dataprint].stack.map((item) => (
+                <div key={item}>{item}</div>
+              ))}
+            </div>
           </div>
         </div>
         <div className={styles.rightrole}>
@@ -175,7 +180,7 @@ export default function Hiretalent() {
                     : null
                 }
               >
-                {item.title}{" "}
+                {item.title}
               </div>
             ))}
           </div>
