@@ -1,8 +1,8 @@
 .customerRateMainDiv{
     /* border: 2px solid red; */
     width: 100%;
-    height: 300px;
-    margin-top: 330px;
+    height: fit-content;
+    margin-top: 270px;
 }
 
 .mainSlideDiv{
@@ -13,24 +13,40 @@
 }
 .customerRateDContainer{
     width: 70%;
-    height: 200px;
+    /* height: 300px; */
     margin: auto;
+    /* background-color: green; */
 }
-.customerRatedata{
-    height: 200px;
-    width: 100%;
+
+.mainsliderDiv{
+    width: 200px;
+    /* height: 100%; */
+    /* background-color: red; */
     padding: 10px;
- 
+    box-sizing: border-box;
 }
-.customerStar{
-    color: gold;
+.maincontent{
+    width: 95%;
+    margin: auto;
     text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.customerText{
-    text-align: center;
+
+.ratings{
+    color: #F9A60B;
 }
-.customerRateImage{
+
+.imagesicon{
     width: 50%;
     margin: auto;
-    text-align: center;
+    height: 40px;
+}
+.imagesicon>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }

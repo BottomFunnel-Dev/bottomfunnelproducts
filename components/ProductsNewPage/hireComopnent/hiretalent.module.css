@@ -1,68 +1,86 @@
-.hiretalent{
-    width: 100%;
-    /* height: 500px; */
-    /* background-color: green; */
-    text-align: center;
+.hiretalent {
+  width: 100%;
+  /* height: 500px; */
+  /* background-color: green; */
+  text-align: center;
 }
 
-.jobroles{
-    width: 100%;
-/* background-color: red; */
-height: 600px;
-display: flex;
+.jobroles {
+  width: 100%;
+  /* background-color: red; */
+  height: 600px;
+  display: flex;
 }
-.leftrole{
-    width: 50%;
-    height: 100%;
-
+.leftrole {
+  width: 50%;
+  height: 100%;
 }
-.leftrole>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+.leftrole > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.rightrole{
-width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 60px;
-    
+.rightrole {
+  width: 50%;
+  position: relative;
 }
 
-.jobtitles{
-    width: 80%;
-    height: 60px;
-    border: 1px solid gray;
-    position: relative;
+.backcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.devroles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
 }
 
-.rolespart1{
-    position: absolute;
-    top: -20px;
-    left: 60px;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(51, 53, 51);
-    color: white;
-    border-radius: 6px;
-    font-weight: 600;
-    cursor: pointer;
+.backdiv {
+  width: 80%;
+  margin: auto;
+  height: 80px;
+  border: 1px solid gray;
 }
-.rolespart2{
-    position: absolute;
-    bottom: -20px;
-    right: 60px;
-    width: 50%;
-    background-color: rgb(51, 53, 51);
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 6px;
-    font-weight: 600;
-    cursor: pointer;
+
+.rolespart1 {
+  position: absolute;
+  top: -20px;
+  left: 60px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(51, 53, 51);
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rolespart2 {
+  position: absolute;
+  bottom: -20px;
+  right: 60px;
+  width: 50%;
+  background-color: rgb(51, 53, 51);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
 }

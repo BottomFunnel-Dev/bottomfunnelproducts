@@ -10,7 +10,7 @@ import TrustedBy from "../components/TrustedByProductsPage/TrustedBy";
 
 import Navbar from "../components/Navbar/Navbar";
 import { ProductsNewPageBanner } from "../components/ProductsNewPage/ProductsNewPageBanner/ProductsNewPageBanner";
-import MultipleProducts from "../components/ProductsNewPage/MultipleProducts/MultipleProducts";
+// import MultipleProducts from "../components/ProductsNewPage/MultipleProducts/MultipleProducts";
 import { TalentNetwork } from "../components/ProductsNewPage/TalentNetwork/TalentNetwork";
 import { SimpleAndEasy } from "../components/ProductsNewPage/SimpleAndEasy/SimpleAndEasy";
 import { TalentProfiles } from "../components/ProductsNewPage/TalentProfiles/TalentProfiles";
@@ -50,7 +50,7 @@ export default function Home() {
         />
 
         <ProductsNewPageBanner />
-        {/* <MultipleProducts /> */}
+       
         <CustomerRate/>
         <Hiretalent/>
         {/* <TalentNetwork /> */}
