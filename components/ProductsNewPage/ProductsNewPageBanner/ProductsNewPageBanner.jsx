@@ -3,8 +3,21 @@ import styles from "./ProductsNewPageBanner.module.css";
 import { IconContext } from "react-icons/lib";
 import { BsPlayCircle } from "react-icons/bs";
 import { useRouter } from "next/router";
+import Lottie from "react-lottie";
+import * as whiteanime from "../../../public/Animation/backwhiteproductpage.json";
+// import * as orangeanime from "../../../public/Animation/backorangeproductpage.json";
+
 
 export const ProductsNewPageBanner = () => {
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: whiteanime,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   const data = [
     {
       img: "/Images/productsmainpage/Components/desk.png",
@@ -131,6 +144,8 @@ export const ProductsNewPageBanner = () => {
           ))}
         </div>
       </div>
+
+      {/* <Lottie options={lottieDefaultOptions} height={"200"} /> */}
     </div>
   );
 };

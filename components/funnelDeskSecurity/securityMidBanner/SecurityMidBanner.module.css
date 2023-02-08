@@ -1,0 +1,71 @@
+.securityMidBannerContainer {
+    padding: 20px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/funneldeskSecurity/midbanner.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.securityMidBannerContainer>h1 {
+    font-size: 32px;
+}
+
+.securityMidBannerContainer>p {
+    font-size: 16px;
+}
+
+.securityMidBannerContainer>span {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 3%;
+}
+
+.securityMidBannerContainer>span>button {
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 100px;
+    border: 2px solid #ef4c23;
+    outline: none;
+    cursor: pointer;
+}
+
+.securityMidBannerContainer>span>button:nth-child(1) {
+    background: #ef4c23;
+    color: #fff;
+}
+
+.securityMidBannerContainer>span>button:nth-child(1):hover {
+    background-color: transparent;
+}
+
+.securityMidBannerContainer>span>button:nth-child(2) {
+    background: transparent;
+    color: #fff;
+}
+
+.securityMidBannerContainer>span>button:nth-child(2):hover {
+    background-color: #ef4c23;
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .securityMidBannerContainer>h1 {
+        font-size: 20px;
+    }
+
+    .securityMidBannerContainer>p {
+        font-size: 14px;
+    }
+
+    .securityMidBannerContainer>span>button {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+}

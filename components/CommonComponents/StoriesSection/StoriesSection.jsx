@@ -41,7 +41,7 @@ const StoriesSection = () => {
           slidesToScroll: 1,
           initialSlide: 1,
           draggable: true,
-          touchMove:true,
+          touchMove: true,
         },
       },
     ],
@@ -50,84 +50,84 @@ const StoriesSection = () => {
   const arr = [
     {
       BrandName: "ScaleForce",
-      brandImage: "Images/storiesSection/stories1.png",
+      brandImage: "/Images/storiesSection/stories1.png",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Incubeta",
-      brandImage: "Images/storiesSection/stories2.png",
+      brandImage: "/Images/storiesSection/stories2.png",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Ranking Carolina",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.png",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Studio marche",
-      brandImage: "Images/storiesSection/stories4.png",
+      brandImage: "/Images/storiesSection/stories4.png",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "HSE",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.png",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "National Geographic",
-      brandImage: "Images/storiesSection/stories2.png",
+      brandImage: "/Images/storiesSection/stories2.png",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "ScaleForce",
-      brandImage: "Images/storiesSection/stories1.png",
+      brandImage: "/Images/storiesSection/stories1.png",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Incubeta",
-      brandImage: "Images/storiesSection/stories4.png",
+      brandImage: "/Images/storiesSection/stories4.png",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Ranking Carolina",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.png",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Studio marche",
-      brandImage: "Images/storiesSection/stories1.png",
+      brandImage: "/Images/storiesSection/stories1.png",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "HSE",
-      brandImage: "Images/storiesSection/stories2.png",
+      brandImage: "/Images/storiesSection/stories2.png",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "National Geographic",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.png",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",
@@ -168,10 +168,12 @@ const StoriesSection = () => {
       {/* <div onClick={handleModalOut} className={toggle?"youtubeDiv":"none"}>
               {toggle && <YoutubeLink embedId={videoString} />}
             </div> */}
-      <p className={styles.testimonial}>View more testimonials <IconContext.Provider value={{ className: styles.rightArrow }}>
-        <BsArrowRight />
-      </IconContext.Provider></p>
-
+      <p className={styles.testimonial}>
+        View more testimonials{" "}
+        <IconContext.Provider value={{ className: styles.rightArrow }}>
+          <BsArrowRight />
+        </IconContext.Provider>
+      </p>
     </div>
   );
 };

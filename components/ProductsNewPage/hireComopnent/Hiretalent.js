@@ -14,21 +14,21 @@ export default function Hiretalent() {
         "Svelte",
         "Semantic Ui",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/frontend.png",
     },
     {
       title: "backend Developers",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+        "Node.js",
+        ".NET",
+        "PHP",
+        "JAVA",
+        "Laravel",
+        "Django",
+        "Flask",
+        "Golang",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/backend.png",
     },
 
     {
@@ -43,7 +43,7 @@ export default function Hiretalent() {
         "Svelte",
         "Semantic Ui",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/productdesign.png",
     },
     {
       title: "Software Engineers",
@@ -57,7 +57,7 @@ export default function Hiretalent() {
         "Svelte",
         "Semantic Ui",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/sde.png",
     },
 
     {
@@ -72,7 +72,7 @@ export default function Hiretalent() {
         "Svelte",
         "Semantic Ui",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/salesforce.png",
     },
     {
       title: "Digital Marketing",
@@ -86,7 +86,7 @@ export default function Hiretalent() {
         "Svelte",
         "Semantic Ui",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/digital.png",
     },
 
     {
@@ -101,7 +101,7 @@ export default function Hiretalent() {
         "Svelte",
         "Semantic Ui",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/crossdev.png",
     },
     {
       title: "native app Developers",
@@ -115,19 +115,17 @@ export default function Hiretalent() {
         "Svelte",
         "Semantic Ui",
       ],
-      img: "/Images/productsmainpage/Components/jobimage.png",
+      img: "/Images/productsmainpage/Components/native.png",
     },
   ];
 
-  const [dataprint, setdataprint] = useState(roles[0].role1);
+  const [active, setactive] = useState(0);
+  const [dataprint, setdataprint] = useState(0);
 
-  const handleclick1 = (item) => {
-    setdataprint(item.role1);
-    console.log(dataprint);
-  };
-  const handleclick2 = (item) => {
-    setdataprint(item.role2);
-    console.log(dataprint);
+  const handleclick = (item, index) => {
+    setdataprint(index);
+    setactive(item.title);
+    // console.log(index);
   };
 
   return (
@@ -139,22 +137,48 @@ export default function Hiretalent() {
       </p>
       <div className={styles.jobroles}>
         <div className={styles.leftrole}>
-          <img src="/Images/productsmainpage/Components/jobimage.png" alt="" />
+          <img src={roles[dataprint].img} alt="" />
+          <div className={styles.topcontent}>Click to know More</div>
+          <div className={styles.techstackpart}>
+<h3>{roles[dataprint].title}</h3>
+<div className={styles.relatedtech}>
+    {roles[dataprint].stack.map((item)=>(
+        <div key={item}>{item}</div>
+    ))}
+</div>
+
+          </div>
         </div>
         <div className={styles.rightrole}>
-
-         <div className={styles.backcont}>
-
-         <div className={styles.backdiv}></div>
-          <div className={styles.backdiv}></div>
-          <div className={styles.backdiv}></div>
-          <div className={styles.backdiv}></div>
-         </div>
-         <div className={styles.devroles}>
-            {roles.map((item, index)=>(
-                <div className={index%2==0? styles.rolespart1:styles.rolespart2} key={index}>{item.title} </div>
+          <div className={styles.backcont}>
+            <div className={styles.backdiv}></div>
+            <div className={styles.backdiv}></div>
+            <div className={styles.backdiv}></div>
+            <div className={styles.backdiv}></div>
+          </div>
+          <div className={styles.devroles}>
+            {roles.map((item, index) => (
+              <div
+                className={
+                  index % 2 == 0 ? styles.rolespart1 : styles.rolespart2
+                }
+                key={index}
+                onClick={() => {
+                  handleclick(item, index);
+                }}
+                style={
+                  index === dataprint
+                    ? {
+                        background: "#ef4c23",
+                        color: "white",
+                      }
+                    : null
+                }
+              >
+                {item.title}{" "}
+              </div>
             ))}
-         </div>
+          </div>
         </div>
       </div>
     </div>
