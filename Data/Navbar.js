@@ -1099,7 +1099,7 @@ export const product3 = [
   {
     dropContent: "Custom Objects",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "ionic",
+    path: "featured-integration",
   },
 ];
 export const resource = [
