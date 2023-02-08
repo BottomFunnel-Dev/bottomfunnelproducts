@@ -32,3 +32,21 @@ margin-top: 50px;
     background-color: transparent;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
+.IntegrationFooterbutton2:hover{
+    background-color: transparent;
+    color: #ef4c23;
+    border: 2px solid #ef4c23;
+}
+.IntegrationFooterbutton1:hover{
+    background-color: #ffff;
+    color: #ef4c23;
+    border: 2px solid #ef4c23;
+}
+@media only screen and ( min-width:0px) and (max-width:1024px){
+    .IntegrationFooterMain{
+        justify-content: space-around;
+        text-align: center;
+        padding: 10px 10px 10px ;
+    }
+    
+}
