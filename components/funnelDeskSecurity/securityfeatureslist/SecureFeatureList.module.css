@@ -1,0 +1,39 @@
+.secureFeatureListContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+.secureFeatureListContainer>span {
+    width: 40%;
+    height: fit-content;
+}
+
+.secureFeatureListContainer>div {
+    width: 45%;
+}
+
+.secureFeatureListContainer>div>h2 {
+    font-size: 25px;
+}
+
+.secureFeatureListContainer>div>p {
+    font-size: 16px;
+}
+
+.secureFeatureListContainer>div>button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ef4c23;
+    color: #fff;
+    border: 2px solid #ef4c23;
+    outline: none;
+    border-radius: 100px;
+    padding: 10px 50px;
+}
+
+.secureFeatureListContainer>div>button:hover {
+    background-color: #fff;
+    color: #ef4c23;
+}

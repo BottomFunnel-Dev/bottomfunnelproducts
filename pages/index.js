@@ -10,7 +10,7 @@ import TrustedBy from "../components/TrustedByProductsPage/TrustedBy";
 
 import Navbar from "../components/Navbar/Navbar";
 import { ProductsNewPageBanner } from "../components/ProductsNewPage/ProductsNewPageBanner/ProductsNewPageBanner";
-import MultipleProducts from "../components/ProductsNewPage/MultipleProducts/MultipleProducts";
+// import MultipleProducts from "../components/ProductsNewPage/MultipleProducts/MultipleProducts";
 import { TalentNetwork } from "../components/ProductsNewPage/TalentNetwork/TalentNetwork";
 import { SimpleAndEasy } from "../components/ProductsNewPage/SimpleAndEasy/SimpleAndEasy";
 import { TalentProfiles } from "../components/ProductsNewPage/TalentProfiles/TalentProfiles";
@@ -18,8 +18,11 @@ import { ProductsFooter } from "../components/ProductsNewPage/ProductsFooter/Pro
 import LifeBottomFunnel from "../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import Head from "next/head";
 import { GetStarted } from "../components/ProductsNewPage/GetStarted/GetStarted";
-
+import { CustomerRate } from "../components/ProductsNewPage/CustomerRate/CustomerRate";
+import Hiretalent from "../components/ProductsNewPage/hireComopnent/Hiretalent";
+import Testimonial from "../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+
 
 export default function Home() {
   return (
@@ -41,24 +44,27 @@ export default function Home() {
             navMount: false,
           }}
           navredux={{
-            color: "black",
-            logo: false,
+            color: "white",
+            logo: true,
           }}
         />
 
         <ProductsNewPageBanner />
-        <MultipleProducts />
-        <TalentNetwork />
+       
+        <CustomerRate/>
+        <Hiretalent/>
+        {/* <TalentNetwork /> */}
         <SimpleAndEasy />
+        <GetStarted />
         <TalentProfiles />
-        <ReadyStarted />
+        {/* <ReadyStarted /> */}
+        {/* <ReadyStarted/>  */}
 
         {/* Other react required components  */}
-        <StoriesSection />
+        {/* <StoriesSection /> */}
+        <Testimonial/>
         <TrustedBy />
         <LifeBottomFunnel />
-        <GetStarted />
-        {/* <ContectForm /> */}
         <ProductsFooter />
       </main>
     </>

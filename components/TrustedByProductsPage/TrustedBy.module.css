@@ -64,9 +64,10 @@
 }
 
 .trustedByslideDivSection > div > img {
-  width: 60%;
+  width: 85%;
   height: 100%;
   object-fit: contain;
+  margin: auto;
 }
 
 /* this css is for the responsive of the pages f0r the mobile and web responsive */

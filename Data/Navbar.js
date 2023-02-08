@@ -1242,11 +1242,11 @@ export const productFeatures = [
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "",
+    path: "/funneldesk/features/reportandanalysis",
   },
   {
     dropContent: "Security",
-    path: "",
+    path: "/funneldesk/features/security",
   },
   {
     dropContent: "Integration",
