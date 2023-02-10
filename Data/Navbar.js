@@ -1012,7 +1012,7 @@ export const product1 = [
   {
     dropContent: "Bottom Funnel Marketer",
     navIcons: "Images/navbar/product/Market.png",
-    path: "/",
+    path: "marketer",
     title: "Delight Your Customer With Effortless MarketPlace Service",
     productHover: "#ffcf9c",
   },
@@ -1045,7 +1045,7 @@ export const product2 = [
   {
     dropContent: "Bottom Funnel Customer Success",
     navIcons: "Images/navbar/product/success.png",
-    path: "/",
+    path: "customersuccess",
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
@@ -1099,7 +1099,7 @@ export const product3 = [
   {
     dropContent: "Custom Objects",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "ionic",
+    path: "featured-integration",
   },
 ];
 export const resource = [

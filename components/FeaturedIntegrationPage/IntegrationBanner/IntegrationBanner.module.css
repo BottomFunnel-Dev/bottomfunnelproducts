@@ -4,7 +4,7 @@
     display: flex;
 }
 .IntegrationBannercontain{
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 100px;
 }
 .IntegrationbannerButton{
@@ -12,17 +12,42 @@
     padding: 10px 30px;
     border-radius: 25px;
     margin-top: 27px;
-    border: none;
+    border: 1px solid transparent;
     /* font-weight: 100; */
     color: white;
     background-color: #ef4c23;
 }
 .IntegrationBannerAnimation>img{
 width: 600px;
+margin-top: 10%;
 margin-left: 100px;
 }
 .IntegrationbannerButton:hover{
     background-color: #ffff;
     color: #ef4c23;
     border: 2px solid #ef4c23;
+}
+@media only screen and ( min-width:0px) and (max-width:1024px){
+    .IntegrationBannermain{
+        height: fit-content;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+    }
+    .IntegrationBannercontain{
+       margin: auto;
+       text-align: center;
+    }
+    .IntegrationBannerAnimation{
+        margin: 0;
+        text-align: center;
+        height: 40%;
+        margin-right: 10px;
+
+    }
+    .IntegrationBannerAnimation>img{
+        width: 70%;
+        margin-left: 10px;
+
+    }
 }

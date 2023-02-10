@@ -1,0 +1,53 @@
+.FeatureListMain{
+    display: flex;
+}
+.FeatureListimg{
+    margin: auto;
+    padding: 30px;
+}
+.FeatureListimg>img{
+    object-fit: contain;
+    
+}
+.FeatureListcontain{
+    margin-right: 80px;
+    
+}
+.FeatureListcontain>button{
+    margin: 0;
+}
+.FeatureListcontain>button{
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 7px;
+    border: none;
+    color: white;
+    background-color: #ef4c23;
+}
+.FeatureListcontain>button:hover{
+    background-color: #ffff;
+    color: #ef4c23;
+    border: 2px solid #ef4c23;
+}
+@media only screen and ( min-width:0px) and (max-width:1024px){
+    .FeatureListMain{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .FeatureListimg{
+        width: 85%;
+        text-align: center;
+    }
+    .FeatureListimg>img{
+        width: 70%;
+    }   
+    .FeatureListcontain{
+        width: 100%;
+        text-align: center;
+    }
+    .FeatureListcontain>button{
+    margin-bottom: 10px;
+    }
+}    

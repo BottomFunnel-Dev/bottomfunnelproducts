@@ -1,0 +1,53 @@
+.ActiveGoalsmaindiv{
+    /* border: 2px solid yellow; */
+}
+
+.ActiveGoalsmaindivcontainer{
+    /* border: 2px solid red; */
+}
+.ActiveGoalsmaindivcontain{
+    /* border: 1px solid green; */
+    text-align: center;
+    background: url("/Images/customersuccesshomepagephotos/bg1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ActiveGoalsmaindivcontain h1{
+    /* border: 2px solid yellow; */
+    width: 80%;
+    margin: auto;
+}
+.ActiveGoalsmaindivcontain p{
+    /* border: 2px solid yellow; */
+    width: 80%;
+    margin: auto;
+}
+
+.ActiveGoalsmaindivcards{
+    /* border: 2px solid red; */
+    margin-top: 2%;
+}
+.ActiveGoalsmaindivcardsdiv{
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+.ActiveGoalsmaindivcardsdivinner{
+    /* border: 2px solid yellow; */
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ActiveGoalsmaindivcardsdivinner:hover{
+     
+     transition: all 0.2s linear;
+     transform: translateY(-10px);
+}

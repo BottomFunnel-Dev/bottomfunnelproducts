@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from "./CustomerSuccesshomepageBanner.module.css";
+import styles from "./CustomerSuccessBanner.module.css";
 
 
-export const CustomerSuccesshomepageBanner = () => {
+export const CustomerSuccessBanner = () => {
   return (
     <div>
 <div className={styles.CustomerSuccesshomepageBannermaindiv}>
@@ -13,7 +13,7 @@ export const CustomerSuccesshomepageBanner = () => {
             <button  className={styles.CustomerSuccesshomepageBannermaindivbutton}>Start A Free Demo</button>
         </div>
     </div>
-    <div>
+    <div className={styles.CustomerSuccesshomepageBannermaindivimage} >
         <img src="/Images/customersuccesshomepagephotos/banner.png" alt="banner" />
     </div>
 </div>
