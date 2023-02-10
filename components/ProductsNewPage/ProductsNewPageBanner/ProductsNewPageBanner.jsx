@@ -4,15 +4,23 @@ import { IconContext } from "react-icons/lib";
 import { BsPlayCircle } from "react-icons/bs";
 import { useRouter } from "next/router";
 import Lottie from "react-lottie";
-import * as whiteanime from "../../../public/Animation/backwhiteproductpage.json";
-// import * as orangeanime from "../../../public/Animation/backorangeproductpage.json";
+import * as whiteanime from "../../../public/Animation/white.json";
+import * as orangeanime from "../../../public/Animation/backorangeproductpage.json";
 
 
 export const ProductsNewPageBanner = () => {
   const lottieDefaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: whiteanime,
+    animationData: whiteanime,orangeanime,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+  const lottieDefaultOptions1 = {
+    loop: true,
+    autoplay: true,
+    animationData: orangeanime,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"
     }
@@ -22,47 +30,56 @@ export const ProductsNewPageBanner = () => {
     {
       img: "/Images/productsmainpage/Components/desk.png",
       title: "Bottomfunnel Desk",
-      path: "funneldesk"
+      path: "funneldesk",
+      color:"#d6ffe8"
     },
     {
       img: "/Images/productsmainpage/Components/teams.png",
       title: "Bottomfunnel Team",
-      path: "/"
+      path: "/",
+      color:"#ffaf9c"
     },
     {
       img: "/Images/productsmainpage/Components/service.png",
       title: "Bottomfunnel Services",
-      path: "/"
+      path: "/",
+      color:"#e1e1e1"
     },
     {
       img: "/Images/productsmainpage/Components/marketer.png",
       title: "Bottomfunnel Marketer",
-      path: "/"
+      path: "/",
+      color:"#ffcf9c"
     },
     {
       img: "/Images/productsmainpage/Components/sales.png",
       title: "Bottomfunnel Sales",
-      path: "sales"
+      path: "sales",
+      color:"#ffaf9a"
     },
     {
       img: "/Images/productsmainpage/Components/chat.png",
       title: "Bottomfunnel Chat",
-      path: "/"
+      path: "/",
+      color:"#a1ffca"
     },
     {
       img: "/Images/productsmainpage/Components/omnichannel.png",
       title: "Bottomfunnel Omnichannel",
-      path:"/"
+      path:"/",
+      color:"#d6ffe8"
     },
     {
       img: "/Images/productsmainpage/Components/contact.png",
       title: "Bottomfunnel Contact Center",
-      path:"/"
+      path:"/",
+      color:"#d6ffe8"
     },
     {
       img: "/Images/productsmainpage/Components/customersuccess.png",
       title: "Bottomfunnel Customer Success",
-      path:"/"
+      path:"/",
+      color:"#d6ffe8"
     },
   ];
 
@@ -95,16 +112,20 @@ export const ProductsNewPageBanner = () => {
           >
             <BsPlayCircle />
           </IconContext.Provider>
+
+          <Lottie options={lottieDefaultOptions} height={"200"} />
+
+
           <img
             className={styles.mainImage}
             src="/Images/ProductsPage/ProductBannerimage.png"
             alt="image"
           />
-          <img
+          {/* <img
             className={styles.backImage}
             src="/Images/productsmainpage/Components/mainback.png"
             alt=""
-          />
+          /> */}
         </div>
       </div>
 
@@ -121,9 +142,11 @@ export const ProductsNewPageBanner = () => {
             >
               <BsPlayCircle />
             </IconContext.Provider>
+            {/* <Lottie options={lottieDefaultOptions1} height={"200"} /> */}
+            
             <img
               className={styles.mainImagesecond}
-              src="/Images/ProductsPage/ProductBannerimage.png"
+              src="/Images/productsmainpage/Components/prods.png"
               alt="image"
             />
             <img
@@ -135,7 +158,7 @@ export const ProductsNewPageBanner = () => {
         </div>
         <div className={styles.productright}>
           {data.map((item, index) => (
-            <div onClick={()=>{router.push(`${item.path}`)}} key={index} className={styles.productsLogo}  >
+            <div onClick={()=>{router.push(`${item.path}`)}} key={index} className={styles.productsLogo}  style={{ "--i": `${item.color}` }} >
               <div className={styles.logoProduct}>
                 <img src={item.img} alt="" />
               </div>
@@ -145,7 +168,6 @@ export const ProductsNewPageBanner = () => {
         </div>
       </div>
 
-      {/* <Lottie options={lottieDefaultOptions} height={"200"} /> */}
     </div>
   );
 };
