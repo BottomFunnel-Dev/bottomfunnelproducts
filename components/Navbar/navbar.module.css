@@ -94,8 +94,8 @@
 }
 
 .callToAction {
-  background-color: #ef4c23;
-  color: white;
+  background-color: white;
+  color: #ef4c23;
   padding: 10px 50px;
   border-radius: 25px;
   font-size: 13px;
@@ -109,9 +109,9 @@
 }
 
 .callToAction:hover {
-  color: #ef4c23 ;
+  color: white ;
   border: 1px solid #ef4c23;
-  background-color: white ;
+  background-color: #ef4c23 ;
   cursor: pointer;
   /* border: 1px solid white; */
 }
