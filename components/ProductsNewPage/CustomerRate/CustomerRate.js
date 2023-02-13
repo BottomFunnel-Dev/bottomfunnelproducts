@@ -10,9 +10,11 @@ export const CustomerRate = () => {
   const settings = {
     infinite: true,
     speed: 300,
+    autoPlay:true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
+     autoplaySpeed: 3000,
     dots: true,
   };
 
@@ -73,7 +75,8 @@ export const CustomerRate = () => {
       <div className={styles.customerRateDContainer}>
         <Slider {...settings}>
           {data.map((item, index) => (
-            <div key={index} className={styles.mainsliderDiv}>
+            <div key={index} className={styles.mainsliderDiv} onClick={()=>{navigate.push(item.path);
+            }} >
               <div className={styles.maincontent}>
                 <div className={styles.imagesicon}>
                   <Image

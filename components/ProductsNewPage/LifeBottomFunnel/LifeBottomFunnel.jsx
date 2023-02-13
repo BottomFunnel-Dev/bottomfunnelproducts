@@ -30,14 +30,7 @@ const LifeBottomFunnel = () => {
               src="/Images/productsmainpage/Components/lifeimage1.png"
               alt="Components/lifeimage1.png"
             />
-            {/* <Image
-              width={"0"}
-              className={styles.backgroundlife}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/productsmainpage/Components/backrac.png"
-              alt="Components/lifeimage1.png"
-            /> */}
+           
           </div>
 
 

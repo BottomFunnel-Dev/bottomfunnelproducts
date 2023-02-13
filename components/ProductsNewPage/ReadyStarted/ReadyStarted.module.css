@@ -1,23 +1,27 @@
 .readyStartOuterDiv {
-  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #393939;
+  display: flex;
+  justify-content: space-between;
 }
 
-.readyStartedButtonOuterDiv {
-  border: 1px solid black;
-  /* position: absolute; */
-}
-
-
-.readyStartedButtonOuterDiv > button {
-  border: 1px solid green;
-  width: 20%;
-  height: 40px;
-  border-radius: 7px;
-  font-size: 20px;
-  /* margin-top: -50%; */
-}
-
-.readyStartedButtonOuterDiv > button:hover {
-  background-color: #ef4c23;
+.textcontent {
+  width: 50%;
   color: white;
+  padding: 5%;
+}
+.textcontent > button {
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #393939;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.textcontent > button:hover {
+  background-color: #393939;
+  border: 1px solid #f5f5f5;
+  color: #f5f5f5;
 }

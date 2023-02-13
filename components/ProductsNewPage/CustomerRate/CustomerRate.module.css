@@ -18,7 +18,7 @@
 
 .mainsliderDiv{
     width: 200px;
-  
+  cursor: pointer;
     padding: 10px;
     box-sizing: border-box;
 }

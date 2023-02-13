@@ -1,7 +1,6 @@
 .SalesPageBannermainbox {
   height: 100vh;
   width: 100%;
-  /* background-position: right; */
   display: flex;
   flex-direction: row;
 }
@@ -9,18 +8,13 @@
 .SalesPageBannermainboxinnertextdiv {
   height: 50%;
   width: 50%;
-  /* border: 2px solid red; */
   margin-top: 15%;
   margin-left: 3%;
-  /* text-align: right; */
-  /* padding-top: 10.5%; */
-  /* text-align: center; */
+
 }
 .SalesPageBannermainboximage {
-  /* border: 2px solid red; */
   width: 40%;
   margin-top: 5%;
-  /* margin-left: 4%; */
   margin-top: 8%;
   display: flex;
   align-items: center;
@@ -29,15 +23,12 @@
 .SalesPageBannermainboxinnertextdiv > h1 {
   color: black;
   font-size: 42px;
-  /* margin-left: %; */
-  /* font-weight: 600; */
 }
 .SalesPageBannermainboxinnertextdiv > p {
   color: black;
   margin-top: 1%;
   font-size: 18px;
   text-align: left;
-  /* font-weight: 500; */
 }
 
 .SalesPageBannerbutton {
@@ -52,8 +43,6 @@
   font-weight: 600;
   color: white;
   margin-top: 30px;
-  /* margin-left: 15%; */
-  /* border: 2px solid green; */
 }
 
 .SalesPageBannerbutton:hover {
