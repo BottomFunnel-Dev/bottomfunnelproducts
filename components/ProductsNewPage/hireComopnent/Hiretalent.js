@@ -35,14 +35,13 @@ export default function Hiretalent() {
     {
       title: "Product Designers",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+        "UI Ux Designer",
+        "Graphic Designer",
+        "motion Designer",
+        "Figma Designer",
+        "Product Designer",
+        "Product Manager",
+      
       ],
       img: "/Images/productsmainpage/Components/productdesign.png",
     },

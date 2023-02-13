@@ -48,7 +48,7 @@ export const ProductsNewPageBanner = () => {
     {
       img: "/Images/productsmainpage/Components/marketer.png",
       title: "Bottomfunnel Marketer",
-      path: "/",
+      path: "marketer",
       color: "#ffcf9c",
     },
     {
@@ -78,7 +78,7 @@ export const ProductsNewPageBanner = () => {
     {
       img: "/Images/productsmainpage/Components/customersuccess.png",
       title: "Bottomfunnel Customer Success",
-      path: "/",
+      path: "customersuccess",
       color: "#d6ffe8",
     },
   ];

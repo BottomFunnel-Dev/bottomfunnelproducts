@@ -53,15 +53,11 @@ export default function Home() {
        
         <CustomerRate/>
         <Hiretalent/>
-        {/* <TalentNetwork /> */}
         <SimpleAndEasy />
-        <GetStarted />
+        <ReadyStarted/> 
         <TalentProfiles />
-        {/* <ReadyStarted /> */}
-        {/* <ReadyStarted/>  */}
 
-        {/* Other react required components  */}
-        {/* <StoriesSection /> */}
+     
         <Testimonial/>
         <TrustedBy />
         <LifeBottomFunnel />
