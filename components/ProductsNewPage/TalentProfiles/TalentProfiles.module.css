@@ -21,7 +21,6 @@
 
 .productsTalentProfilesContentDiv {
   width: 100%;
-  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -29,48 +28,64 @@
   justify-content: center;
   row-gap: 40px;
   column-gap: 40px;
-  /* border: 1px solid red; */
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-sizing: border-box;
+  /* background-color: green; */
+}
+
+.sliderinner {
+  width: 100%;
+  padding: 20px;
+  /* background-color: red; */
+  box-sizing: border-box;
+  position: relative;
+  
+}
+.sliderinner>div {
+ width: 100%;
+ padding: 20px 8px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border-radius: 10px;
+  
+}
+.sliderinner>div:hover {
+  background-color: #f08034;
+
+  
+}
+.sliderinner>div:hover .productsTalentProfilesContentButton{
+  background-color: white;
+  color: #ef4c23;
+
+  
+}
+.sliderinner > h3 {
+  margin: 0;
 }
 
 .productsTalentProfilesContentDiv > div {
-  /* border: 1px solid red; */
-  width: 15%;
-  border-radius: 10px;
-  padding: 1%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
   text-align: center;
-  justify-content: center;
-  background-color: white;
-  /* border: 1px solid red; */
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  position: relative;
 }
 
-.productsTalentProfilesContentDiv > div:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  transform: scale(1.1);
-  /* transform: translateY(-15px); */
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: #f08034;
-  color: white;
+.profile {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.profile > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .productsTalentProfilesContentDiv > div > div {
-  /* border: 1px solid red; */
   width: 100%;
-  position: relative;
 }
 
 .productsTalentProfilesLinkdinDiv {
-  /* border: 1px solid green; */
   position: absolute;
-  top: 0%;
-  right: 0%;
+  top: 9%;
+  right: 5%;
 }
 
 .productsTalentProfilesLinkdinDiv > a {
@@ -79,7 +94,6 @@
 
 .talentedProfilesLinkedinIcons {
   font-size: 30px;
-  /* border: 1px solid white; */
   padding: 6px;
   /* color: white; */
   border-radius: 15px;
@@ -89,60 +103,49 @@
 .talentedProfilesLinkedinIcons:hover {
   font-size: 32px;
   padding: 6px;
-  /* color: white;
-  background-color: #ef4c23; */
+
   border: none;
   border-radius: 18px;
 }
 
-.productsTalentProfilesContentDiv > div > div > img {
-  /* height: 65%; */
-  width: 50%;
-  object-fit: contain;
-  padding: 1%;
-  /* margin-top: -2%; */
-  margin-bottom: 0%;
-}
 
-.productsTalentProfilesContentDiv > div > h3 {
-  /* border: 1px solid red; */
+
+.productsTalentProfilesContentDiv h3 {
   font-size: 25px;
   font-weight: 600;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  padding: 10px;
+  margin: 0;
+
 }
 
-.productsTalentProfilesContentDiv > div > h4 {
-  /* border: 1px solid green; */
+.productsTalentProfilesContentDiv h5 {
   font-size: 15px;
-  margin-bottom: 0%;
-  margin-top: 0%;
+  padding: 5px;
+  margin: 0;
+
 }
 
-.productsTalentProfilesContentDiv > div > h6 {
-  /* border: 1px solid black; */
+.productsTalentProfilesContentDiv h6 {
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 0%;
-  margin-top: 0%;
+  padding: 5px;
+  margin: 0;
+
+
 }
 
 .productsTalentCommunication {
-  /* border: 1px solid red; */
-  width: 100%;
+  width: 80%;
   display: flex;
-  gap: 12%;
-  margin-bottom: 0%;
-  margin-top: 0%;
-  flex-direction: row;
-  /* border: 1px solid blue; */
+  column-gap: 7%;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
 }
 
 .productsTalentCommunication > p {
   font-size: 12px;
   font-weight: 500;
-  margin-top: 2%;
-  /* height: 30px; */
 }
 
 .productsTalentTechnicalScore {
@@ -154,11 +157,15 @@
 
 .productsTalentProfilesContentButton {
   color: #ef4c23;
-  width: 50%;
   background-color: #ef4c23;
   color: white;
-  height: 30px;
+  padding: 10px 60px;
+  font-size: 16px;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #ef4c23;
+
 }
 
 .productsTalentProfilesContentButton:hover {
@@ -173,7 +180,6 @@
 
 @media (max-width: 480px) {
   .productsTalentProfilesParentDiv {
-    /* border: 1px solid red; */
     margin-top: 4%;
     margin-bottom: 4%;
   }

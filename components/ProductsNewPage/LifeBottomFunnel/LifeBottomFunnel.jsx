@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./LifeBottomFunnel.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const LifeBottomFunnel = () => {
   const router = useRouter();
@@ -21,12 +22,24 @@ const LifeBottomFunnel = () => {
             }}
             className={styles.lifeImageDiv}
           >
-            <img
-              src="Images/productsmainpage/Components/lifeimage1.png"
-              alt="image"
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/productsmainpage/Components/lifeimage1.png"
+              alt="Components/lifeimage1.png"
             />
-            
+            {/* <Image
+              width={"0"}
+              className={styles.backgroundlife}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/productsmainpage/Components/backrac.png"
+              alt="Components/lifeimage1.png"
+            /> */}
           </div>
+
 
           <div
             onClick={() => {
@@ -34,22 +47,33 @@ const LifeBottomFunnel = () => {
             }}
             className={styles.lifeImageDiv}
           >
-            <img
-              src="Images/productsmainpage/Components/model.png"
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/productsmainpage/Components/model.png"
               alt="image"
             />
           </div>
+
+
           <div
             onClick={() => {
               router.push("/about");
             }}
             className={styles.lifeImageDiv}
           >
-            <img
-              src="Images/productsmainpage/Components/lifeimage.png"
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/productsmainpage/Components/lifeimage.png"
               alt="image"
             />
           </div>
+
         </div>
 
         <div className={styles.lifeBottomContentDiv}>

@@ -3,27 +3,27 @@ import styles from "./ProductsNewPageBanner.module.css";
 import { IconContext } from "react-icons/lib";
 import { BsPlayCircle } from "react-icons/bs";
 import { useRouter } from "next/router";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 import * as whiteanime from "../../../public/Animation/white.json";
 import * as orangeanime from "../../../public/Animation/backorangeproductpage.json";
-
 
 export const ProductsNewPageBanner = () => {
   const lottieDefaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: whiteanime,orangeanime,
+    animationData: whiteanime,
+    orangeanime,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
+      preserveAspectRatio: "xMidYMid slice",
+    },
   };
   const lottieDefaultOptions1 = {
     loop: true,
     autoplay: true,
     animationData: orangeanime,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
+      preserveAspectRatio: "xMidYMid slice",
+    },
   };
 
   const data = [
@@ -31,59 +31,59 @@ export const ProductsNewPageBanner = () => {
       img: "/Images/productsmainpage/Components/desk.png",
       title: "Bottomfunnel Desk",
       path: "funneldesk",
-      color:"#d6ffe8"
+      color: "#d6ffe8",
     },
     {
       img: "/Images/productsmainpage/Components/teams.png",
       title: "Bottomfunnel Team",
       path: "/",
-      color:"#ffaf9c"
+      color: "#ffaf9c",
     },
     {
       img: "/Images/productsmainpage/Components/service.png",
       title: "Bottomfunnel Services",
       path: "/",
-      color:"#e1e1e1"
+      color: "#e1e1e1",
     },
     {
       img: "/Images/productsmainpage/Components/marketer.png",
       title: "Bottomfunnel Marketer",
       path: "/",
-      color:"#ffcf9c"
+      color: "#ffcf9c",
     },
     {
       img: "/Images/productsmainpage/Components/sales.png",
       title: "Bottomfunnel Sales",
       path: "sales",
-      color:"#ffaf9a"
+      color: "#ffaf9a",
     },
     {
       img: "/Images/productsmainpage/Components/chat.png",
       title: "Bottomfunnel Chat",
       path: "/",
-      color:"#a1ffca"
+      color: "#a1ffca",
     },
     {
       img: "/Images/productsmainpage/Components/omnichannel.png",
       title: "Bottomfunnel Omnichannel",
-      path:"/",
-      color:"#d6ffe8"
+      path: "/",
+      color: "#d6ffe8",
     },
     {
       img: "/Images/productsmainpage/Components/contact.png",
       title: "Bottomfunnel Contact Center",
-      path:"/",
-      color:"#d6ffe8"
+      path: "/",
+      color: "#d6ffe8",
     },
     {
       img: "/Images/productsmainpage/Components/customersuccess.png",
       title: "Bottomfunnel Customer Success",
-      path:"/",
-      color:"#d6ffe8"
+      path: "/",
+      color: "#d6ffe8",
     },
   ];
 
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <div className={styles.productsbanner}>
@@ -113,8 +113,7 @@ export const ProductsNewPageBanner = () => {
             <BsPlayCircle />
           </IconContext.Provider>
 
-          <Lottie options={lottieDefaultOptions} height={"200"} />
-
+          <Player autoplay speed={1.5} loop src={whiteanime}></Player>
 
           <img
             className={styles.mainImage}
@@ -143,22 +142,32 @@ export const ProductsNewPageBanner = () => {
               <BsPlayCircle />
             </IconContext.Provider>
             {/* <Lottie options={lottieDefaultOptions1} height={"200"} /> */}
-            
+
             <img
               className={styles.mainImagesecond}
               src="/Images/productsmainpage/Components/prods.png"
               alt="image"
             />
-            <img
+           <div    className={styles.backImagesecond}> <Player autoplay speed={1.5} loop src={orangeanime} style={{width:"700px", height:"700px"}}
+            ></Player></div>
+
+            {/* <img
               className={styles.backImagesecond}
               src="/Images/productsmainpage/Components/backorange.png"
               alt=""
-            />
+            /> */}
           </div>
         </div>
         <div className={styles.productright}>
           {data.map((item, index) => (
-            <div onClick={()=>{router.push(`${item.path}`)}} key={index} className={styles.productsLogo}  style={{ "--i": `${item.color}` }} >
+            <div
+              onClick={() => {
+                router.push(`${item.path}`);
+              }}
+              key={index}
+              className={styles.productsLogo}
+              style={{ "--i": `${item.color}` }}
+            >
               <div className={styles.logoProduct}>
                 <img src={item.img} alt="" />
               </div>
@@ -167,7 +176,6 @@ export const ProductsNewPageBanner = () => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };

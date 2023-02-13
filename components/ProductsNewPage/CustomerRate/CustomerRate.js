@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 import Slider from "react-slick";
 import { IconContext } from "react-icons/lib";
 import { useRouter } from "next/router";
-
+import Image from "next/image";
 export const CustomerRate = () => {
   const navigate = useRouter();
   const settings = {
@@ -21,49 +21,49 @@ export const CustomerRate = () => {
       icon: <FaStar />,
       path: "https://clutch.co/profile/bottom-funnel",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/clutch.png",
+      img: "/Images/productsmainpage/Components/icons/clutch.webp",
     },
     {
       icon: <FaStar />,
       path: "https://www.appfutura.com/companies/bottom-funnel",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/futura.png",
+      img: "/Images/productsmainpage/Components/icons/futura.webp",
     },
     {
       icon: <FaStar />,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/google.png",
+      img: "/Images/productsmainpage/Components/icons/google.webp",
     },
     {
       icon: <FaStar />,
       path: "https://www.goodfirms.co/company/bottom-funnel",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/goodfirm.png",
+      img: "/Images/productsmainpage/Components/icons/goodfirm.webp",
     },
     {
       icon: <FaStar />,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/itfirm.png",
+      img: "/Images/productsmainpage/Components/icons/itfirm.webp",
     },
     {
       icon: <FaStar />,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/topdev.png",
+      img: "/Images/productsmainpage/Components/icons/topdev.webp",
     },
     {
       icon: <FaStar />,
       path: "https://www.upwork.com/agencies/1549703270292094976/",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/upwork.png",
+      img: "/Images/productsmainpage/Components/icons/upwork.webp",
     },
     {
       icon: <FaStar />,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
-      img: "Images/productsmainpage/Components/sd.png",
+      img: "/Images/productsmainpage/Components/icons/sd.webp",
     },
   ];
 
@@ -75,15 +75,22 @@ export const CustomerRate = () => {
           {data.map((item, index) => (
             <div key={index} className={styles.mainsliderDiv}>
               <div className={styles.maincontent}>
+                <div className={styles.imagesicon}>
+                  <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                    src={item.img}
+                    alt={item.title}
+                  />
+                </div>
                 <div className={styles.ratings}>
                   <IconContext.Provider value={{ className: styles.ratings }}>
                     {item.icon} {item.icon} {item.icon} {item.icon} {item.icon}{" "}
                   </IconContext.Provider>
                 </div>
                 <p>{item.desc}</p>
-                <div className={styles.imagesicon}>
-                  <img src={item.img} alt="" />
-                </div>
               </div>
             </div>
           ))}

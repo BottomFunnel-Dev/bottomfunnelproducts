@@ -65,13 +65,17 @@ const HomeServices = () => {
       <div>
         <Slider {...settings}>
           {homeService.map((item, i) => (
+
             <div key={i} className={styles.homeServices}>
+
               <div>
                 <img src={item.serviceimage} alt="images" />
                 <h5>{item.serviceName}</h5>
                 <p>{item.serviceDescription}</p>
               </div>
+
             </div>
+
           ))}
         </Slider>
       </div>

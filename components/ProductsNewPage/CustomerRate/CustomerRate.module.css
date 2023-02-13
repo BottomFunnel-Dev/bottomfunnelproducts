@@ -13,15 +13,12 @@
 }
 .customerRateDContainer{
     width: 70%;
-    /* height: 300px; */
     margin: auto;
-    /* background-color: green; */
 }
 
 .mainsliderDiv{
     width: 200px;
-    /* height: 100%; */
-    /* background-color: red; */
+  
     padding: 10px;
     box-sizing: border-box;
 }
@@ -42,8 +39,8 @@
 
 .imagesicon{
     width: 50%;
-    margin: auto;
     height: 40px;
+    margin: auto;
 }
 .imagesicon>img{
     width: 100%;
