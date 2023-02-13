@@ -36,6 +36,7 @@ export const Opportunity = () => {
           <img src="/Images/SalesPagePhotos/textimage.png" alt="image" />
         </div>
       </div>
+    
 
       <div className={style.Opportunityinnerdiv1}>
         <div className={style.Opportunityimagediv1}>
