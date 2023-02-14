@@ -1,7 +1,7 @@
 .SaleSmarterdiv{
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
+    margin-top: 3%;
     justify-content: center;
     column-gap: 2%;
     align-items: stretch;
@@ -33,12 +33,12 @@
 }
 .SaleSmarterparagrafdiv{
     border-bottom: 1px solid #ef4c23;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     height: 80px;
 }
 
 .SaleSmarterpricediv{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     /* border: 2px solid green; */
 
 }
@@ -55,7 +55,7 @@
     background-color: #ef4c23;
     color: white;
     font-size: 18px;
-    margin-top: 5%;
+    /* margin-top: 1%; */
 }
 .SaleSmarterbutton:hover{
     background-color: white;
@@ -65,12 +65,12 @@
 .SaleSmarterlistdiv{
     /* border: 2px solid yellow; */
     text-align: left;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-bottom: 5%;
 }
 
 .SaleSmarterlistdiv ul li{
-   margin-top: 5%;
+   margin-top: 3%;
 }
 .SaleSmarterlistdiv h6{
 

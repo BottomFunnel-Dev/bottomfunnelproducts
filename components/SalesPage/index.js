@@ -10,13 +10,13 @@ export default function SalesPage() {
     return (
       <>
       <SalesPageBanner/>
-        <Revenue/>
-        <SaleSmarter/>
-        <Opportunity/>
+        {/* <Revenue/> */}
+        {/* <SaleSmarter/> */}
+        {/* <Opportunity/> */}
         
       
-        < SalesWorldwide/>
-       <MakeYourDeal/> 
+        {/* < SalesWorldwide/> */}
+       {/* <MakeYourDeal/>  */}
         
   
        

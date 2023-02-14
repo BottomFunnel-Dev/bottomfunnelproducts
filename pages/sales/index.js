@@ -32,8 +32,8 @@ export default function SalesPage() {
 
         <SalesPageBanner/>
         <Revenue/>
-        <SaleSmarter/>
         <Opportunity/>
+         <SaleSmarter/>
         <SalesWorldwide/>
         <MakeYourDeal/>
       </div> 

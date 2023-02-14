@@ -1,9 +1,9 @@
 .Revenuemaindiv{
-    border: 2px solid #f2f2f2;
+    /* border: 2px solid green; */
     background-color: #f2f2f2;
     height: fit-content;
     padding: 10px;
-    margin-top: 4%;
+    /* margin-top: 4%; */
 }
 
 .Revenuediv{
@@ -19,8 +19,7 @@
     /* border: 2px solid yellow; */
     background-color: white;
     text-align: center;
-    justify-content: center;
-    width: 25%;
+     width: 25%;
     height: 35vh;
     margin: auto;
     padding-top: 2%;
@@ -30,13 +29,14 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .Revenueinnerdiv:hover{
-    background-color: #f9a894;
+    background-color: #ef6d4d;
 }
 .Revenueinnerdivimage{
     /* border: 2px solid red; */
     height: 100px;
-    width: 140px;
-    margin-left: 30%;
+    width: 100px;
+    margin: auto;
+   
    
 }
 .Revenueinnerdivimage img{
