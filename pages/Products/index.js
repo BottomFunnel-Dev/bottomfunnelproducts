@@ -31,19 +31,14 @@ export default function Products() {
       />
 
       <ProductsNewPageBanner />
-      <MultipleProducts />
+      {/* <MultipleProducts /> */}
       <TalentNetwork />
       <SimpleAndEasy />
       <TalentProfiles />
       {/* <OurCommitment /> */}
 
       {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <TextDropdown />
+     
       <ContectForm />
       <ProductsFooter />
     </div>
