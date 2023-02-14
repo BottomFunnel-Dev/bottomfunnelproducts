@@ -5,7 +5,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
-    height: 95vh;
+    height: 100vh;
 
 }
 .CustomerSuccesshomepageBannermaindivcontain{
@@ -13,6 +13,7 @@
     width: 35%;
     margin: auto;
     margin-left: 7%;
+    margin-bottom: 15%;
 
 }
 .CustomerSuccesshomepageBannermaindivcontain h1{
@@ -41,7 +42,6 @@
 .CustomerSuccesshomepageBannermaindivimage{
     /* border: 2px solid green; */
     width: 45%;
-    height: 600px;
     margin-right: 10%;
     
 
