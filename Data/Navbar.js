@@ -1250,7 +1250,7 @@ export const productFeatures = [
   },
   {
     dropContent: "Integration",
-    path: "",
+    path: "/funneldesk/features/integration",
   },
 ];
 
