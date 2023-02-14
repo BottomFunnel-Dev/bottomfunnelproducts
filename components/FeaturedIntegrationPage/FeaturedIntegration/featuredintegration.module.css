@@ -1,12 +1,14 @@
 .FeaturedIntegrationLine{
-    margin-top: 10px;
     width: 100%;
-    background-color: #ef4c23;
     color: #ffff;
+    height: 50px;
+    
+    background-color: #ef4c23;
     text-align: center;
 }
 .FeaturedIntegrationMain{
     background-color: #f5f5f5;
+    border: 1px solid transparent;
     
 }
 
@@ -29,7 +31,6 @@
     width: 15%;
     height: 230px;
     margin-top: 10px ;
-    /* margin: 0; */
     padding: 10px 10px 10px ;
     background-color: #ffff;
     border-radius: 18px;
@@ -39,7 +40,6 @@
     width: 100%;
     margin-top: 10px ;
     object-fit: contain;
-    /* margin: 5% 5%; */
 }
 
 .FeaturedIntegrationcontain{
