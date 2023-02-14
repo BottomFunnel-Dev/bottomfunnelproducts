@@ -148,8 +148,8 @@ export const TalentProfiles = () => {
               },
               idx
             ) => (
-              <div className={styles.sliderinner}>
-                <div className={styles.innnercontent} key={idx}>
+              <div className={styles.sliderinner} key={idx}>
+                <div className={styles.innnercontent} >
                   <div>
                     <div className={styles.profile}>
                       <img src={image} alt={title} />

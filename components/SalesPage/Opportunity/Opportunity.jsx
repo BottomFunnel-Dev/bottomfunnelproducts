@@ -37,6 +37,7 @@ export const Opportunity = () => {
         </div>
       </div>
     
+    
 
       <div className={style.Opportunityinnerdiv1}>
         <div className={style.Opportunityimagediv1}>
@@ -75,6 +76,8 @@ export const Opportunity = () => {
           </div>
         </div>
       </div>
+
+
 
       <div className={style.Opportunityinnerdiv}>
         <div className={style.Opportunityinnerdivheading}>
