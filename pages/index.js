@@ -38,14 +38,12 @@ export default function Home() {
         />
 
         <ProductsNewPageBanner />
-
         <CustomerRate />
         <Hiretalent />
         <SimpleAndEasy />
         <ReadyStarted />
         <TalentProfiles />
-
-        <Testimonial />
+          <Testimonial />
         <TrustedBy />
         <LifeBottomFunnel />
         <ProductsFooter />

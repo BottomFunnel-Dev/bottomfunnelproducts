@@ -31,7 +31,7 @@ export default function Testimonial() {
 
   const settings = {
     infinite: true,
-    dots: true,
+    dots: false,
     accessibility: false,
     autoplaySpeed: 300,
     speed: 100,
@@ -44,6 +44,7 @@ export default function Testimonial() {
     // autoplay: true,
     cssEase: "linear",
     arrows: true,
+  
  
     responsive: [
       {

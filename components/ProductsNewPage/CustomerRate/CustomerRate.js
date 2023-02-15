@@ -15,7 +15,7 @@ export const CustomerRate = () => {
     slidesToScroll: 1,
     arrows: false,
      autoplaySpeed: 3000,
-    dots: true,
+    dots: false,
   };
 
   const data = [

@@ -7,13 +7,14 @@ import Slider from "react-slick";
 
 export const TalentProfiles = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 3000,
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 4,
     arrows: false,
+    dragable:true,
     autoplay: true,
     autoplaySpeed: 3000,
   };
