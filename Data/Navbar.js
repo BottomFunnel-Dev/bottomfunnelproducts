@@ -1052,15 +1052,15 @@ export const product2 = [
   {
     dropContent: "Bottom Funnel Contact Center",
     navIcons: "Images/navbar/product/contact.png",
-    path: "/",
+    path: "contact-center",
     title: "Delight Your Customer With Effortless Contact Center Service",
     productHover: "#d6ffe8",
   },
   {
-    dropContent: "Bottom Funnel CRM Suite",
+    dropContent: "Bottom Funnel Team",
     navIcons: "Images/navbar/product/Sales.png",
     path: "/",
-    title: "Delight Your Customer With Effortless CRM Suite Service",
+    title: "Delight Your Customer With Effortless Team Service",
     productHover: "#ffaf9a",
   },
 ];

@@ -255,19 +255,11 @@ const Navbar = ({ navredux, productMount }) => {
                 Support
               </li>
 
-              {/* <li className={navstyle.serviceButton}
-                // onMouseEnter={serHoverIn}
-                // onMouseLeave={serHoverOut}
-                onClick={() => router.push("https://service.bottomfunnel.net/")}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                Services
-              </li> */}
             </div>
 
             <button
               className={navstyle.callToAction}
-            // onClick={() => router.push("/hire-new-talent")}
+              style={{color: scroll? "white":"#ef4c23",background: scroll? "#ef4c23":"white"}}
             >
               Free Trial
             </button>
@@ -275,6 +267,7 @@ const Navbar = ({ navredux, productMount }) => {
             <button
               className={navstyle.callToAction}
               onClick={() => router.push("https://service.bottomfunnel.net/")}
+              style={{color: scroll? "white":"#ef4c23",background: scroll? "#ef4c23":"white"}}
             >
               Services
             </button>

@@ -116,23 +116,39 @@ export default function Hiretalent() {
       title: "Software Engineers",
       stack: [
         {
-          stack: "Cakephp",
+          stack: "Golang",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Python",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Php",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: ".NET",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Ruby",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "R",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "MERN stack",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "PERL",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Java",
           path: "https://service.bottomfunnel.net/cakephp"
         },
       ],
@@ -174,24 +190,24 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/seo-services"
         },
         {
-          stack: "Local SEO",
+          stack: "Local SEO Expert",
           path: "https://service.bottomfunnel.net/local-seo-services"
         },
         {
-          stack: "SEM Manager",
+          stack: "SEM Expert",
           path: "https://service.bottomfunnel.net/sem-services"
-        },
-        {
-          stack: "Link Building",
-          path: "https://service.bottomfunnel.net/link-building-services"
-        },
-        {
-          stack: "Guest posting",
-          path: "https://service.bottomfunnel.net/guest-posting-services"
         },
         {
           stack: "PPC Expert",
           path: "https://service.bottomfunnel.net/ppc-services"
+        },
+        {
+          stack: "Link Building Expert",
+          path: "https://service.bottomfunnel.net/link-building-services"
+        },
+        {
+          stack: "Guest Posting Expert",
+          path: "https://service.bottomfunnel.net/guest-posting-services"
         },
         {
           stack: "Email marketer",
@@ -224,7 +240,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/xamarin-development"
         },
         {
-          stack: "kotlin",
+          stack: "Kotlin",
           path: "https://service.bottomfunnel.net/kotlin-development"
         },
      
@@ -232,7 +248,7 @@ export default function Hiretalent() {
       img: "/Images/productsmainpage/Components/crossdev.png",
     },
     {
-      title: "native app Developers",
+      title: "Native app Developers",
       stack: [
 
         {

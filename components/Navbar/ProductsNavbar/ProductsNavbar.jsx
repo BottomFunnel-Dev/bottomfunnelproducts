@@ -184,7 +184,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
             alt="image"
           />
         </li>
-        <li>Sign In</li>
+        <li >Sign In</li>
         <button>Free Trial</button>
       </div>
 

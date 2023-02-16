@@ -1,5 +1,4 @@
 .customerRateMainDiv{
-    /* border: 2px solid red; */
     width: 100%;
     height: fit-content;
     margin-top: 270px;
@@ -29,7 +28,6 @@
     border-radius: 10px;
     padding: 10px;
     box-sizing: border-box;
-    /* border: 1px solid green; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 

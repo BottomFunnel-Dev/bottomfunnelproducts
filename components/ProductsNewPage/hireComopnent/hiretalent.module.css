@@ -6,7 +6,6 @@
 
 .jobroles {
   width: 100%;
-  /* background-color: red; */
   height: 600px;
   display: flex;
   justify-content: space-between;
@@ -24,7 +23,6 @@
   left: 5%;
   width: fit-content;
   height: 10px;
-  /* background-color: green; */
   color: white;
 }
 
@@ -35,7 +33,6 @@
 .techstackpart {
   width: 100%;
   height: 250px;
-  /* background-color: green; */
   color: white;
   position: absolute;
   bottom: 0;
@@ -45,7 +42,6 @@
 
 .relatedtech{
     width: 100%;
-    /* background-color: red; */
     height: 100px;
     display: flex;
     margin: auto;
