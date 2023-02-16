@@ -1,0 +1,52 @@
+.allindistriescustomerdelightmainboxes{
+    height: fit-content;
+
+}
+.allindistriescustomerdelightmainboxes h1{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+.allindiacustomerdelightmappingbox{
+   
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+ 
+  justify-content: center;
+  margin-left: 2%;
+
+  margin-top: 5%;
+
+}
+
+.customerdelightdatamapingindi{
+    width: 15%;
+    margin: 2%;
+    padding: 10px;
+    border: 1px solid red;
+color: black;
+}
+
+.customerdelightdatamappingimg{
+    height:60%;
+    width:60%;
+
+   margin-top: -30%;
+   margin-left: 20%;
+   padding: 5px;
+ 
+}
+
+.customerdelightdatamappingimg>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+
+.customerdelightdatamappingtxt{
+    text-align: center;
+}
