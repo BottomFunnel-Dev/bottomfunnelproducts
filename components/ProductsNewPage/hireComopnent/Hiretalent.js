@@ -1,33 +1,86 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import styles from "./hiretalent.module.css";
+import { useRouter } from "next/router";
 export default function Hiretalent() {
+
+  const navigate = useRouter()
   const roles = [
     {
       title: "Front-end Developers",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+
+        {
+          stack: "React.js",
+          path: "https://service.bottomfunnel.net/reactjs"
+        },
+        {
+          stack: "Angular.js",
+          path: "https://service.bottomfunnel.net/angularjs"
+        },
+        {
+          stack: "Vue.js",
+          path: "https://service.bottomfunnel.net/vuejs"
+        },
+        {
+          stack: "Ember.js",
+          path: "https://service.bottomfunnel.net/emberjs"
+        },
+        {
+          stack: "Jquery",
+          path: "https://service.bottomfunnel.net/jquery"
+        },
+        {
+          stack: "Next.js",
+          path: "https://service.bottomfunnel.net/nextjs"
+        },
+        {
+          stack: "Backbone.js",
+          path: "https://service.bottomfunnel.net/backbonejs"
+        },
+        {
+          stack: "Svelte",
+          path: "https://service.bottomfunnel.net/svelte"
+        },
+       
       ],
       img: "/Images/productsmainpage/Components/frontend.png",
     },
     {
       title: "backend Developers",
       stack: [
-        "Node.js",
-        ".NET",
-        "PHP",
-        "JAVA",
-        "Laravel",
-        "Django",
-        "Flask",
-        "Golang",
+
+        {
+          stack: "Php",
+          path: "https://service.bottomfunnel.net/php"
+        },
+        {
+          stack: ".NET",
+          path: "https://service.bottomfunnel.net/dotnet"
+        },
+        {
+          stack: "Golang",
+          path: "https://service.bottomfunnel.net/golang"
+        },
+        {
+          stack: "Laravel",
+          path: "https://service.bottomfunnel.net/laravel"
+        },
+        {
+          stack: "Springboot",
+          path: "https://service.bottomfunnel.net/springboot"
+        },
+        {
+          stack: "Django",
+          path: "https://service.bottomfunnel.net/django"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+
+
+     
       ],
       img: "/Images/productsmainpage/Components/backend.png",
     },
@@ -35,12 +88,26 @@ export default function Hiretalent() {
     {
       title: "Product Designers",
       stack: [
-        "UI Ux Designer",
-        "Graphic Designer",
-        "motion Designer",
-        "Figma Designer",
-        "Product Designer",
-        "Product Manager",
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
       
       ],
       img: "/Images/productsmainpage/Components/productdesign.png",
@@ -48,14 +115,26 @@ export default function Hiretalent() {
     {
       title: "Software Engineers",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
       ],
       img: "/Images/productsmainpage/Components/sde.png",
     },
@@ -63,28 +142,63 @@ export default function Hiretalent() {
     {
       title: "Salesforce Experts",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
+        {
+          stack: "Cakephp",
+          path: "https://service.bottomfunnel.net/cakephp"
+        },
       ],
       img: "/Images/productsmainpage/Components/salesforce.png",
     },
     {
       title: "Digital Marketing",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+
+        {
+          stack: "SEO Expert",
+          path: "https://service.bottomfunnel.net/seo-services"
+        },
+        {
+          stack: "Local SEO",
+          path: "https://service.bottomfunnel.net/local-seo-services"
+        },
+        {
+          stack: "SEM Manager",
+          path: "https://service.bottomfunnel.net/sem-services"
+        },
+        {
+          stack: "Link Building",
+          path: "https://service.bottomfunnel.net/link-building-services"
+        },
+        {
+          stack: "Guest posting",
+          path: "https://service.bottomfunnel.net/guest-posting-services"
+        },
+        {
+          stack: "PPC Expert",
+          path: "https://service.bottomfunnel.net/ppc-services"
+        },
+        {
+          stack: "Email marketer",
+          path: "https://service.bottomfunnel.net/emailmarketing-services"
+        },
+
+
       ],
       img: "/Images/productsmainpage/Components/digital.png",
     },
@@ -92,28 +206,55 @@ export default function Hiretalent() {
     {
       title: "Cross-platform Developers",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+
+        {
+          stack: "React Native",
+          path: "https://service.bottomfunnel.net/reactnative-development"
+        },
+        {
+          stack: "Flutter",
+          path: "https://service.bottomfunnel.net/flutter-development"
+        },
+        {
+          stack: "Ionic",
+          path: "https://service.bottomfunnel.net/ionic"
+        },
+        {
+          stack: "Xamarin",
+          path: "https://service.bottomfunnel.net/xamarin-development"
+        },
+        {
+          stack: "kotlin",
+          path: "https://service.bottomfunnel.net/kotlin-development"
+        },
+     
       ],
       img: "/Images/productsmainpage/Components/crossdev.png",
     },
     {
       title: "native app Developers",
       stack: [
-        "HTML",
-        "React.js",
-        "Angular.js",
-        "Vue.js",
-        "jquery",
-        "javascript",
-        "Svelte",
-        "Semantic Ui",
+
+        {
+          stack: "React Native",
+          path: "https://service.bottomfunnel.net/reactnative-development"
+        },
+
+        {
+          stack: "Flutter",
+          path: "https://service.bottomfunnel.net/flutter-development"
+        },
+        {
+          stack: "Ionic",
+          path: "https://service.bottomfunnel.net/ionic"
+        },
+        {
+          stack: "Xamarin",
+          path: "https://service.bottomfunnel.net/xamarin-development"
+        },
+      
+
+    
       ],
       img: "/Images/productsmainpage/Components/native.png",
     },
@@ -147,8 +288,8 @@ export default function Hiretalent() {
           <div className={styles.techstackpart}>
             <h3>{roles[dataprint].title}</h3>
             <div className={styles.relatedtech}>
-              {roles[dataprint].stack.map((item) => (
-                <div key={item}>{item}</div>
+              {roles[dataprint].stack.map((item,index) => (
+                <div onClick={()=>{navigate.push(item.path)}} key={index}>{item.stack}</div>
               ))}
             </div>
           </div>
