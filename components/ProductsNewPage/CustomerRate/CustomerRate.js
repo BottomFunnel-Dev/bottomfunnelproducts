@@ -1,21 +1,47 @@
 import React from "react";
 import styles from "./CustomerRate.module.css";
 import { FaStar } from "react-icons/fa";
+import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 import Slider from "react-slick";
 import { IconContext } from "react-icons/lib";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import { display, positions } from "@mui/system";
 export const CustomerRate = () => {
+  const ArrowLeft = (props) => (
+    <button {...props} className={styles.prevButton}>
+      <GrLinkPrevious color="#ef4c23" />
+    </button>
+  );
+
+  const ArrowRight = (props) => (
+    <button {...props} className={styles.nextButton}>
+      <GrLinkNext color="#ef4c23" />
+    </button>
+  );
+
   const navigate = useRouter();
   const settings = {
     infinite: true,
     speed: 300,
-    autoPlay:true,
+    autoPlay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: false,
-     autoplaySpeed: 3000,
+    autoplaySpeed: 3000,
     dots: false,
+    arrows: true,
+    prevArrow: <ArrowLeft />,
+    nextArrow: <ArrowRight />,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+    ],
   };
 
   const data = [
@@ -75,8 +101,13 @@ export const CustomerRate = () => {
       <div className={styles.customerRateDContainer}>
         <Slider {...settings}>
           {data.map((item, index) => (
-            <div key={index} className={styles.mainsliderDiv} onClick={()=>{navigate.push(item.path);
-            }} >
+            <div
+              key={index}
+              className={styles.mainsliderDiv}
+              onClick={() => {
+                navigate.push(item.path);
+              }}
+            >
               <div className={styles.maincontent}>
                 <div className={styles.imagesicon}>
                   <Image
@@ -85,7 +116,7 @@ export const CustomerRate = () => {
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
                     src={item.img}
-                    alt={item.title}
+                    alt={`${item.title}`}
                   />
                 </div>
                 <div className={styles.ratings}>

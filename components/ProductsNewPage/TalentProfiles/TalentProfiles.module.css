@@ -35,29 +35,17 @@
 .sliderinner {
   width: 100%;
   padding: 20px;
-  /* background-color: red; */
   box-sizing: border-box;
   position: relative;
-  
 }
-.sliderinner>div {
- width: 100%;
- padding: 20px 8px;
- box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
- border-radius: 10px;
-  
+.sliderinner > div {
+  width: 100%;
+  padding: 20px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
 }
-.sliderinner>div:hover {
-  background-color: #f08034;
 
-  
-}
-.sliderinner>div:hover .productsTalentProfilesContentButton{
-  background-color: white;
-  color: #ef4c23;
 
-  
-}
 .sliderinner > h3 {
   margin: 0;
 }
@@ -108,21 +96,17 @@
   border-radius: 18px;
 }
 
-
-
 .productsTalentProfilesContentDiv h3 {
   font-size: 25px;
   font-weight: 600;
   padding: 10px;
   margin: 0;
-
 }
 
 .productsTalentProfilesContentDiv h5 {
   font-size: 15px;
   padding: 5px;
   margin: 0;
-
 }
 
 .productsTalentProfilesContentDiv h6 {
@@ -130,8 +114,6 @@
   font-weight: 400;
   padding: 5px;
   margin: 0;
-
-
 }
 
 .productsTalentCommunication {
@@ -165,7 +147,6 @@
   border: none;
   cursor: pointer;
   border: 1px solid #ef4c23;
-
 }
 
 .productsTalentProfilesContentButton:hover {
@@ -179,16 +160,29 @@
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .productsTalentProfilesParentDiv {
-    margin-top: 4%;
-    margin-bottom: 4%;
-  }
-
   .productsTalentProfilesHeadingDiv {
     width: 100%;
     margin: auto;
     text-align: center;
     justify-content: center;
+  }
+
+  .profile {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+  }
+  .profile > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .productsTalentProfilesHeadingDiv > h1 {
+    font-size: 24px;
+  }
+  .productsTalentProfilesHeadingDiv > p {
+    font-size: 14px;
   }
 
   .productsTalentProfilesHeadingDiv > h1 > span {
@@ -201,7 +195,6 @@
 
   .productsTalentProfilesContentDiv {
     width: 100%;
-    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -209,148 +202,101 @@
     justify-content: center;
     row-gap: 20px;
     column-gap: 25px;
-    /* border: 1px solid red; */
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   }
 
   .productsTalentProfilesContentDiv > div {
-    /* border: 1px solid red; */
-    width: 42%;
+    width: 85%;
     border-radius: 10px;
-    padding: 1%;
+    padding: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: white;
-    /* border: 1px solid red; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
+    margin: auto;
   }
 
   .productsTalentProfilesContentDiv > div:hover {
     cursor: pointer;
-    /* margin-top: 0; */
     transition: all 0.2s linear;
-    transform: scale(1.1);
-    /* transform: translateY(-15px); */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #f08034;
-    color: white;
+    transform: none;
+    box-shadow: none;
+    background-color: none;
+    color: black;
   }
 
   .productsTalentProfilesContentDiv > div > div {
-    /* border: 1px solid red; */
     width: 100%;
     position: relative;
   }
 
   .productsTalentProfilesLinkdinDiv {
-    /* border: 1px solid green; */
     position: absolute;
-    top: -5%;
-    right: -3%;
+    top: 8%;
+    right: 10%;
   }
 
   .productsTalentProfilesLinkdinDiv > a {
     color: inherit;
   }
 
-  .talentedProfilesLinkedinIcons {
-    font-size: 30px;
-    /* border: 1px solid white; */
-    padding: 6px;
-    /* color: white; */
-    border-radius: 15px;
-    text-decoration: none;
-  }
+  .productsTalentProfilesContentDiv h5 {
+    font-size: 20px;
+    color: black;
 
-  .talentedProfilesLinkedinIcons:hover {
-    font-size: 32px;
-    padding: 6px;
-    /* color: white;
-    background-color: #ef4c23; */
-    border: none;
-    border-radius: 18px;
   }
-
-  .productsTalentProfilesContentDiv > div > div > img {
-    /* height: 65%; */
-    width: 75%;
-    object-fit: contain;
-    padding: 1%;
-    /* margin-top: -2%; */
-    margin-bottom: 0%;
+  .productsTalentProfilesContentDiv h3 {
+    font-size: 26px;
+    color: black;
   }
+  .productsTalentProfilesContentDiv h6 {
+    font-size: 18px;
+    color: black;
 
-  .productsTalentProfilesContentDiv > div > h3 {
-    /* border: 1px solid red; */
-    font-size: 19px;
-    font-weight: 600;
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
-
-  .productsTalentProfilesContentDiv > div > h4 {
-    /* border: 1px solid green; */
-    font-size: 12px;
-    margin-bottom: 0%;
-    margin-top: 0%;
-  }
-
-  .productsTalentProfilesContentDiv > div > h6 {
-    /* border: 1px solid black; */
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 0%;
-    margin-top: 0%;
   }
 
   .productsTalentCommunication {
-    /* border: 1px solid red; */
     width: 100%;
     display: flex;
-    gap: 3%;
+    gap: 12%;
     margin-bottom: 0%;
     margin-top: 0%;
     flex-direction: row;
-    /* border: 1px solid blue; */
+    color: black;
+    justify-content: space-around;
+
   }
 
-  .productsTalentTextCommunicationDiv {
-    font-size: 8px;
-    font-weight: 600;
-    margin-top: 2%;
-    /* border: 1px solid black; */
-    /* height: 30px; */
+  .productsTalentCommunication>p{
+    font-size: 14px;
   }
 
-  .productsTalentStarsTag {
-    /* border: 1px solid red; */
-    font-size: 10px !important ;
+  .sliderinner>div{
+  
+    box-sizing: border-box;
   }
 
-  .productsTalentTechnicalScore {
-    width: 97%;
-    display: flex;
-    gap: 12%;
-    flex-direction: row;
+  .sliderinner > div:hover {
+    transform: none;
   }
 
-  .productsTalentProfilesContentButton {
-    color: #ef4c23;
-    width: 50%;
-    background-color: #ef4c23;
-    color: white;
-    height: 30px;
-    border-radius: 5px;
-  }
-
-  .productsTalentProfilesContentButton:hover {
+  .productsTalentProfilesContentDiv > div:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: none;
+    box-shadow: none;
     background-color: white;
-    border: 1px solid #ef4c23;
-    color: #393939;
+    color: black;
   }
+
+  .productsTalentProfilesContentButton:hover{
+background-color: #f08034 !important;
+color: white !important;
+  }
+
+
+
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {

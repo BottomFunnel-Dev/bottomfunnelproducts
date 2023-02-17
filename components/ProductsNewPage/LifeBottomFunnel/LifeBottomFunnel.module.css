@@ -132,7 +132,7 @@
     /* border: 1px solid gold; */
     width: 95%;
     margin: auto;
-    margin-bottom: 3%;
+    margin-bottom: 0%;
   }
 
   .lifeHeadingMainDiv {
@@ -157,8 +157,7 @@
 
   .lifeImageMainDiv {
     /* border: 1px solid red; */
-    width: 90%;
-    margin: auto;
+    width: 100%;
   }
 
   .lifeImageInnerDiv {
@@ -179,9 +178,9 @@
   }
 
   .lifeBottomContentDiv {
-    /* border: 1px solid red; */
-    position: relative;
-    height: 50px;
+    height: 35px;
+    text-align: center;
+    padding: 10px;
   }
 
   .lifeBottomContentDiv > h2 {
@@ -195,6 +194,11 @@
   .lifeBottomContentDiv > h2:hover {
     cursor: pointer;
     text-decoration: underline;
+  }
+
+  .lifeBottomContentDiv>button{
+    position: static;
+    font-size: 14px;
   }
 }
 

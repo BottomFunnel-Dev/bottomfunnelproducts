@@ -40,9 +40,7 @@ export const TalentNetwork = () => {
             language1: "Performance Marketers",
             language2: "Programatic Specialists",
             language3: "SEO Experts",
-            // language4: "Content-Marketing",
-            // language5: "Email Marketing",
-            // language6: "Affiliate Marketing",
+          
             jobprofile: "Mobile Marketing",
             buttondetails: "Learn now",
         },
@@ -51,8 +49,7 @@ export const TalentNetwork = () => {
             language2: "Technical Consultants",
             language3: "Functional Consultants",
             language4: "Platform Manager",
-            // language5: "Project Manager",
-            // language6: "Swift",
+    
             jobprofile: "Salesforce Experts",
 
             buttondetails: "start free trial",
@@ -62,8 +59,7 @@ export const TalentNetwork = () => {
             language2: "Marketing Specialists",
             language3: "Developers",
             language4: "Transactional Experts",
-            // language5: "Kotlin",
-            // language6: "Swift",
+  
             jobprofile: "Email Marketers",
 
             buttondetails: "See pricing",
@@ -101,7 +97,6 @@ export const TalentNetwork = () => {
             <div className={styles.productsTalentNetworkHeadingDiv}>
                 <h1>
                     Hire from India's Largest Talent Network
-                    {/* <span> SERVICES </span> */}
                 </h1>
 
                 <p>
@@ -110,9 +105,7 @@ export const TalentNetwork = () => {
 
             </div>
 
-            {/* <div className='plantBasedServicesBackImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedMeatBackground.png' alt='image' />
-            </div> */}
+      
 
             <div className={styles.productsTalentNetworkContentDiv}>
                 {productsTalentNetworkCardsData.map(({ language1, language2, language3, language4, language5, language6, language7, language8, jobprofile }, idx) => (
@@ -127,8 +120,7 @@ export const TalentNetwork = () => {
                         <p>{language4}</p>
                         <p>{language5}</p>
                         <p>{language6}</p>
-                        {/* <p>{language7}</p>
-                        <p>{language8}</p> */}
+                     
                     </div>
                 ))}
             </div>

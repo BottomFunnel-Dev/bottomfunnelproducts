@@ -1,47 +1,95 @@
-.customerRateMainDiv{
-    width: 100%;
-    height: fit-content;
-    margin-top: 270px;
+.customerRateMainDiv {
+  width: 100%;
+  height: fit-content;
+  margin-top: 270px;
 }
 
-.mainSlideDiv{
-    padding: 10px;
+.mainSlideDiv {
+  padding: 10px;
 }
-.customerRateMainDiv>h1{
-    text-align: center;
+.customerRateMainDiv > h1 {
+  text-align: center;
 }
-.customerRateDContainer{
-    width: 70%;
-    margin: auto;
+.customerRateDContainer {
+  width: 70%;
+  margin: auto;
 }
 
-.mainsliderDiv{
-    width: 200px;
+.mainsliderDiv {
+  width: 200px;
   cursor: pointer;
-    padding: 10px;
-    box-sizing: border-box;
+  padding: 10px;
+  box-sizing: border-box;
 }
-.maincontent{
-    width: 95%;
-    margin: auto;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.ratings{
-    color: #F9A60B;
+.maincontent {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.imagesicon{
-    width: 50%;
-    height: 40px;
-    margin: auto;
+.ratings {
+  color: #f9a60b;
 }
-.imagesicon>img{
+
+.imagesicon {
+  width: 50%;
+  height: 40px;
+  margin: auto;
+}
+.imagesicon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nextButton {
+  padding: 10px;
+  position: absolute;
+  top: 38%;
+  right: -9%;
+  text-align: center;
+  font-size: 30px;
+  background: none;
+  border: none;
+}
+
+.prevButton {
+  padding: 10px;
+  position: absolute;
+  top: 38%;
+  left: -9%;
+  text-align: center;
+  font-size: 30px;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 480px) {
+  .customerRateMainDiv {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    margin: 0;
+  }
+  .customerRateMainDiv > h1 {
+    font-size: 24px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .nextButton {
+    font-size: 18px;
+    right: -8%;
+  }
+
+  .prevButton {
+    font-size: 18px;
+    left: -8%;
+  }
+
+  .customerRateDContainer {
+    width: 85%;
+  }
 }

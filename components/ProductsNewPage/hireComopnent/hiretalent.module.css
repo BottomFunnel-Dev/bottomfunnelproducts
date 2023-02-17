@@ -26,7 +26,7 @@
   color: white;
 }
 
-.leftrole>img {
+.leftrole > img {
   width: 100%;
 }
 
@@ -40,28 +40,24 @@
   box-sizing: border-box;
 }
 
-.relatedtech{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    column-gap: 5px;
-    padding: 10px;
-    row-gap: 5px;
-    box-sizing: border-box;
-    justify-content: center;
-
+.relatedtech {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  padding: 10px;
+  row-gap: 5px;
+  box-sizing: border-box;
+  justify-content: center;
 }
 
-.relatedtech>div {
+.relatedtech > div {
   width: 19%;
   padding: 5px 0;
   text-align: center;
   cursor: pointer;
-
-
-
 }
 
 .rightrole {
@@ -101,7 +97,6 @@
   z-index: 2;
 }
 
-
 .rolespart1 {
   width: 40%;
   padding: 12px;
@@ -126,4 +121,45 @@
   margin-left: 13%;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .hiretalent {
+    width: 100%;
+    display: none;
+  }
+  .hiretalent > h1 {
+    margin: 0;
+    font-size: 22px;
+  }
+  .hiretalent > p {
+    font-size: 14px;
+  }
+
+  .jobroles{
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+.rightrole{
+  width: 100%;
+}
+  .backcont{
+    display: none;
+  }
+
+  .devroles{
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .rolespart1{
+    margin: 0;
+    width: fit-content;
+    font-size: 14px;
+  }
+  .rolespart2{
+    margin: 0;
+    width: fit-content;
+    font-size: 14px;
+  }
 }

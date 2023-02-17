@@ -34,16 +34,7 @@ export const SimpleAndEasy = () => {
             link: "",
             buttondetails: "Learn now",
         },
-        // {
-        //     title: "Better ROI",
-        //     body: "Meter per second recruits best in class German Car Technicians with a minimum of 8+ years of experience and train them. After enabling them with garage Nation's Standards they are assigned for Services/Reapirs.",
-        //     image: "/Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage5.png",
-        // },
-        // {
-        //     title: "Promote Your Business Effectively",
-        //     body: "Meter per second provied 100% Transparent Service which means all parts are opened right in front of you while performing service and no more surprised or extra spares or costs.",
-        //     image: "/Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage6.png",
-        // }
+       
     ];
 
 
@@ -52,7 +43,6 @@ export const SimpleAndEasy = () => {
             <div className={styles.simpleAndEasyHeadingDiv}>
                 <h1>
                     Frictionless,simple, easy
-                    {/* <span> SERVICES </span> */}
                 </h1>
 
                 <p>

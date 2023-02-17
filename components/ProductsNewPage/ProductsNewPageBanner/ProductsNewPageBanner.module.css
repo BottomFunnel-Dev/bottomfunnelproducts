@@ -1,11 +1,11 @@
-.productsbanner{
+.productsbanner {
   height: 130vh;
   background: linear-gradient(#ef4c23, #fad200);
-position: relative;
-padding-top: 20px;
+  position: relative;
+  padding-top: 20px;
 }
 
-.multipleproducts{
+.multipleproducts {
   width: 90%;
   height: 520px;
   background-color: white;
@@ -17,11 +17,9 @@ padding-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   justify-content: center;
-
-
 }
 
-.productright{
+.productright {
   width: 50%;
   /* background-color: green; */
   padding: 15px;
@@ -32,50 +30,43 @@ padding-top: 20px;
   align-items: stretch;
   row-gap: 10px;
   column-gap: 10px;
-
-
 }
 
-.productsLogo{
+.productsLogo {
   width: 32%;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 10px;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  
 }
-.productsLogo:hover{
-
+.productsLogo:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
   background-color: var(--i);
-  
 }
-.productsLogo>p{
-margin: 0;
-  
+.productsLogo > p {
+  margin: 0;
 }
 
-.logoProduct{
+.logoProduct {
   width: 100%;
   height: 60px;
 }
-.logoProduct>img{
- width: 100%;
- height: 100%;
- object-fit: contain;
+.logoProduct > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-
-.productsleft{
+.productsleft {
   width: 45%;
   padding: 15px;
   box-sizing: border-box;
   /* background-color: green; */
 }
-.productsleft>h3{
- margin: 0;
+.productsleft > h3 {
+  margin: 0;
 }
 
 .productsBannerBannerParentDiv {
@@ -88,7 +79,6 @@ margin: 0;
   padding-top: 20px;
   margin-top: 30px;
   /* background: linear-gradient(#ef4c23, #fad200); */
-
 }
 
 .productsBannerButtonsDiv {
@@ -101,34 +91,32 @@ margin: 0;
   border-radius: 25px;
   overflow: hidden;
 }
-.productsBannerButtonsDiv>div {
- background-color: white;
- padding: 12px;
- width: 25%;
- text-align: center;
- border-top-left-radius: 25px;
- border-bottom-left-radius: 25px;
- font-weight: 600;
- color: #393939;
- cursor: pointer;
+.productsBannerButtonsDiv > div {
+  background-color: white;
+  padding: 12px;
+  width: 25%;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-weight: 600;
+  color: #393939;
+  cursor: pointer;
 }
-.productsBannerButtonsDiv>div:hover {
+.productsBannerButtonsDiv > div:hover {
   background-color: #ef4c23;
   color: #f5f5f5;
 }
-.productsBannerButtonsDiv >input{
-border: none;
-outline: none;
-padding: 10px 15px;
-background: transparent;
-color: #f5f5f5;
-width: 75%;
-font-size: 15px;
-
+.productsBannerButtonsDiv > input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  background: transparent;
+  color: #f5f5f5;
+  width: 75%;
+  font-size: 15px;
 }
-.productsBannerButtonsDiv >input::placeholder{
-color: #f5f5f5;
-
+.productsBannerButtonsDiv > input::placeholder {
+  color: #f5f5f5;
 }
 
 .productsBannerTrialsButton {
@@ -181,7 +169,7 @@ color: #f5f5f5;
   box-sizing: border-box;
 }
 
-.productsimg{
+.productsimg {
   width: 100%;
   height: 400px;
   /* background-color: red; */
@@ -193,22 +181,19 @@ color: #f5f5f5;
   width: 75%;
   object-fit: cover;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   z-index: 2;
-
 }
 .backImagesecond {
   width: 75%;
   object-fit: cover;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 28%;
   z-index: 1;
-  
-
 }
 
 .productBannerPlay {
@@ -220,7 +205,6 @@ color: #f5f5f5;
   z-index: 3;
   color: white;
 }
-
 
 .productsBannerBannerImageDiv {
   margin-top: 65px;
@@ -235,49 +219,21 @@ color: #f5f5f5;
   object-fit: cover;
   border-radius: 10px;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   top: 47%;
   left: 50%;
   z-index: 2;
-
 }
 .backImage {
   width: 80%;
   object-fit: cover;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   z-index: 1;
   transform: rotate();
-  /* animation-name: frontanime;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; */
-
 }
-
-/* @keyframes frontanime {
-  0% {
-    transform: rotate(-23deg);
-    top: 50%;
-    left: 50%;
-  }
-  50% {
-    transform: rotate(23deg);
-    top: 50%;
-    left: 50%;
-  }
-  100% {
-    transform: rotate(-23deg);
-    top: 50%;
-    left: 50%;
-  }
-} */
-
-
-
-
 
 .productBannerPlayIcon {
   position: absolute;
@@ -351,31 +307,13 @@ color: #f5f5f5;
   animation: animateTitle 10s linear infinite, caret 1s infinite;
 }
 
-.dottedlines{
+.dottedlines {
   width: 90%;
-  height:220px;
+  height: 220px;
   /* background-color: green; */
   margin: auto;
- border-radius: 60%;
- border-top: 3px dotted #f5f5f5;
-}
-
-
-
-
-
-@keyframes animateTitle {
-  0% {
-    width: 100%;
-  }
-
-  50% {
-    width: 0%;
-  }
-
-  100% {
-    width: 100%;
-  }
+  border-radius: 60%;
+  border-top: 3px dotted #f5f5f5;
 }
 
 /* this css is for the responsive of the pages f0r the mobile and web responsive */
@@ -384,23 +322,30 @@ color: #f5f5f5;
 
 @media (max-width: 480px) {
   .productsBannerBannerParentDiv {
-    /* border: 1px solid red; */
     flex-direction: column-reverse;
-    height: 92vh;
+    height: fit-content;
     align-items: center;
-    margin-top: 3%;
-    width: 95%;
-    /* justify-content: space-between; */
-    /* padding-left: 5%; */
-    /* justify-content: center; */
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .productsbanner {
+    height: fit-content;
   }
 
   .productsBannerButtonsDiv {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
-    margin-top: 4%;
+    margin: 4% auto;
     width: 95%;
+  }
+  .productsBannerButtonsDiv > input {
+    font-size: 14px;
+    padding: 6px 15px;
+  }
+  .productsBannerButtonsDiv > div {
+    font-size: 14px;
+    padding: 6px 15px;
   }
 
   .productsBannerTrialsButton {
@@ -414,9 +359,13 @@ color: #f5f5f5;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
+  .dottedlines {
+    display: none;
+  }
+
   .productsBannerTrialsButton:hover {
     color: #ef4c23;
-    /* border: 1px solid #ef4c23; */
+
     background-color: white;
   }
 
@@ -424,20 +373,17 @@ color: #f5f5f5;
     border: 1px solid gray;
     padding: 10px 40px;
     border-radius: 10px;
-    /* background-color: #ef4c23; */
     border: none;
     color: #393939;
     font-size: 18px;
     font-weight: 600;
     margin-left: 3%;
-    /* width: 26%; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
   }
 
   .productsBannerWatchVideoButton:hover {
     color: #ef4c23;
-    /* border: 1px solid #ef4c23; */
     background-color: white;
   }
 
@@ -448,25 +394,21 @@ color: #f5f5f5;
   }
 
   .productsBannerMeatBannerContentDiv {
-    /* border: 1px solid green; */
     width: 100%;
-    margin-top: 3%;
+    margin-top: 0%;
+    padding: 15px;
   }
 
   .productsBannerBannerImageDiv {
-    /* border: 1px solid black; */
-    /* height: 100vh; */
     width: 100%;
     position: relative;
+    margin-top: 30px;
   }
 
   .productsBannerBannerImageDiv img {
-    width: 95%;
+    width: 86%;
     object-fit: cover;
-    margin-top: 5%;
-    /* margin-right: 5%; */
-    /* height: 100vh; */
-    /* height: 400px; */
+    margin-top: 2%;
   }
 
   .productBannerPlayIcon {
@@ -479,6 +421,63 @@ color: #f5f5f5;
     color: white;
   }
 
+  .multipleproducts {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 0;
+    margin: auto;
+    position: static;
+    box-shadow: none;
+    flex-direction: column;
+  }
+
+  .productsleft {
+    width: 100%;
+  }
+  .productsleft > h3 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .productsimg {
+    height: fit-content;
+  }
+  .backImagesecond {
+    display: none;
+  }
+
+
+  .mainImagesecond {
+    width: 100%;
+    position: static;
+    transform: none;
+    margin-top: 3%;
+  }
+
+  .productright{
+    width: 100%;
+    padding: 0;
+  }
+
+  .productsLogo{
+    width: 29%;
+    padding: 4px;
+    border: 0.5px solid #f1ecec;
+  }
+  .productsLogo>p{
+   font-size: 14px;
+  }
+
+  .logoProduct{
+    width: 60px;
+    height: 50px;
+    margin: auto;
+  }
+  .logoProduct>img{
+    width: 80%;
+    height: 90%;
+  }
   .productPageBannerContent {
     width: 100%;
     height: fit-content;
@@ -488,8 +487,9 @@ color: #f5f5f5;
     text-transform: uppercase;
     margin: auto;
     margin-bottom: 2%;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
+    text-align: center;
   }
 
   .productPageBannerContent > span {
@@ -498,13 +498,12 @@ color: #f5f5f5;
   }
 
   .productPageBannerContent > p {
-    /* margin: auto; */
-    /* text-align: justify; */
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 0%;
-    /* border: 1px solid rebeccapurple; */
     width: 95%;
+    font-size: 14px;
+    margin: auto;
   }
 
   .productPageBannerContent > hr {
@@ -614,7 +613,6 @@ color: #f5f5f5;
     /* border: 1px solid green; */
     width: 55%;
     margin-top: 0%;
-    /* margin-top: 3%; */
   }
 
   .productsBannerBannerImageDiv {

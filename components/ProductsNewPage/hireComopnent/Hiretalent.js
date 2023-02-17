@@ -280,7 +280,6 @@ export default function Hiretalent() {
 
   const handleclick = (item, index) => {
     setdataprint(index);
-    // console.log(index);
   };
 
   return (

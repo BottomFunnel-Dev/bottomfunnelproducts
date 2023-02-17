@@ -14,54 +14,14 @@ export const NavIndustries = ({
       onMouseEnter={solHoverIn}
       onMouseLeave={solHoverOut}
       className={industry.industryserviceVisible}
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "70px" : "100px" }}
     >
-      {/* <div className={industry.serviceVisible}> */}
-      {/* <div className={industry.indindustryContent}>
-        <Link href={""} className={industry.industrynoStyle}>
-          <h5>Industries We Serves</h5>
-        </Link>
-        <div className={industry.industryListItems}>
-          {industries.map((item, i) => (
-            <div
-              key={i}
-              onClick={() => {
-                // navigate(`/${item.path}`);
-                solHoverOut();
-              }}
-              className={industry.industryimageIconDivSection}
-            >
-              <div>
-                <img
-                  className={industry.industryiconDivSection}
-                  src={item.navIcons}
-                  alt=""
-                />
-              </div>
-              <Link
-                onClick={solHoverOut}
-                href={item.path}
-                className={industry.industrylinkP}
-              >
-                <p>{item.dropContent}</p>
-              </Link>
-            </div>
-          ))}
-        </div>
-      </div> */}
-
-
-      
       <div id={industry.ondemandsol} className={industry.indindustryContent}>
-        {/* <Link href={""} className={industry.industrynoStyle}>
-          <h5>On Demand Solutions</h5>
-        </Link> */}
         <div className={industry.industryListItems}>
           {product3.map((item, i) => (
             <div
               key={i}
               onClick={() => {
-                // navigate(`/${item.path}`);
                 solHoverOut();
               }}
               className={industry.industryimageIconDivSection}

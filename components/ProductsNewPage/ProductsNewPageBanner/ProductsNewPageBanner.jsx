@@ -120,11 +120,7 @@ export const ProductsNewPageBanner = () => {
             src="/Images/ProductsPage/ProductBannerimage.png"
             alt="image"
           />
-          {/* <img
-            className={styles.backImage}
-            src="/Images/productsmainpage/Components/mainback.png"
-            alt=""
-          /> */}
+        
         </div>
       </div>
 
@@ -141,7 +137,7 @@ export const ProductsNewPageBanner = () => {
             >
               <BsPlayCircle />
             </IconContext.Provider>
-            {/* <Lottie options={lottieDefaultOptions1} height={"200"} /> */}
+            
 
             <img
               className={styles.mainImagesecond}
@@ -150,12 +146,6 @@ export const ProductsNewPageBanner = () => {
             />
            <div    className={styles.backImagesecond}> <Player autoplay speed={1.5} loop src={orangeanime} style={{width:"700px", height:"700px"}}
             ></Player></div>
-
-            {/* <img
-              className={styles.backImagesecond}
-              src="/Images/productsmainpage/Components/backorange.png"
-              alt=""
-            /> */}
           </div>
         </div>
         <div className={styles.productright}>

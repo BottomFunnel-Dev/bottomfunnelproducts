@@ -3,37 +3,26 @@ import Slider from "react-slick";
 import styles from "./testimonial.module.css";
 import { BsPlayCircle } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
-
-function SampleNextArrow() {
-    // const { className, style, onClick } = props;
-    return (
-        <div>
-        <BsPlayCircle color="red"/>
-    </div>
-    );
-  }
-  
-  function SamplePrevArrow() {
-    // const { className, style, onClick } = props;
-    return (
-    <div>
-        <BsPlayCircle color="green"/>
-    </div>
-    );
-  }
-
-
+import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 
 export default function Testimonial() {
+  const ArrowLeft = (props) => (
+    <button {...props} className={styles.prevButton}>
+      <GrLinkPrevious color="#ef4c23" />
+    </button>
+  );
 
-
-
+  const ArrowRight = (props) => (
+    <button {...props} className={styles.nextButton}>
+      <GrLinkNext color="#ef4c23" />
+    </button>
+  );
 
   const settings = {
     infinite: true,
     dots: false,
     accessibility: false,
-    autoplaySpeed: 300,
+    autoplaySpeed: 3000,
     speed: 100,
     slidesToScroll: 1,
     initialSlide: 1,
@@ -41,16 +30,17 @@ export default function Testimonial() {
     touchMove: false,
     slidesToShow: 1,
     pauseOnHover: false,
-    // autoplay: true,
+    autoplay: true,
     cssEase: "linear",
     arrows: true,
-  
- 
+    prevArrow: <ArrowLeft />,
+    nextArrow: <ArrowRight />,
+
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -58,11 +48,15 @@ export default function Testimonial() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
           draggable: true,
           touchMove: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          speed: 500,
         },
       },
     ],
@@ -87,12 +81,6 @@ export default function Testimonial() {
       desc: "It was a wonderfull experience with the Bottom funnel developers team they build our B2C B2B Mobile app development & website development As per our requirement they were so calm & patient we thankfull for their efforts time & energy I hope will get an oppurtunity to work with the team again in future cheers.",
       image: "Images/productsmainpage/Components/testimonial1.png",
     },
-    // {
-    //   name: "Leslie al",
-    //   degination: "CEO, Digital PT",
-    //   desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas, nulla assumenda facilis officia voluptatem eum laborum odit esse in incidunt totam, perferendis reprehenderit modi consectetur obcaecati nihil distinctio saepe.",
-    //   image: "Images/productsmainpage/Components/testimonial1.png",
-    // },
   ];
 
   return (

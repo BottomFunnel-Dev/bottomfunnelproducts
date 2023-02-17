@@ -1,5 +1,4 @@
 import React from "react";
-import navstyle from "./navbar.module.css";
 import industry from "./navIndustries.module.css";
 import Link from "next/link";
 import {resource } from "../../Data/Navbar";

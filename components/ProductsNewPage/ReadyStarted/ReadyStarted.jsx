@@ -14,7 +14,7 @@ const ReadyStarted = () => {
         <button>CONTACT SALES</button>
       </div>
 
-      <div>
+      <div className={styles.logoImage}>
         <Image
           width={"0"}
           height={"0"}

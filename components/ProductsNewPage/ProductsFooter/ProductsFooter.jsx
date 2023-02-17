@@ -19,69 +19,21 @@ export const ProductsFooter = () => {
                 </div>
 
 
-                {/* <div className={styles.productsFooterSocialMediaLogos}>
-                    <div className={styles.productsfooterSocialMediaSection}>
-                        <a
-                            target="_blank"
-                            href="https://www.facebook.com/profile.php?id=100075774771610"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaFacebookF />
-                            </IconContext.Provider>
-                        </a>
-
-                        <a target="_blank" href="https://twitter.com/BottomFunnel">
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaTwitter />
-                            </IconContext.Provider>
-                        </a>
-
-                        <a
-                            target="_blank"
-                            href="https://www.linkedin.com/company/bottomfunnel/mycompany/verification/"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaLinkedin />
-                            </IconContext.Provider>
-                        </a>
-
-                        <a
-                            target="_blank"
-                            href="https://www.instagram.com/bottomfunnelmarketing/"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <AiFillInstagram />
-                            </IconContext.Provider>
-                        </a>
-                        <a
-                            target="_blank"
-                            href="https://www.youtube.com/channel/UC-zyghDYFUgRSUlKTadvJuQ"
-                        >
-                            <IconContext.Provider value={{ className: styles.productPagesocialIcons }}>
-                                <FaYoutube />
-                            </IconContext.Provider>
-                        </a>
-                    </div>
-                </div> */}
-
                 <div className={styles.productsFooterSideButtons}>
                     <button
                         className={styles.productsFooterCallToAction}
-                    // onClick={() => router.push("/hire-new-talent")}
                     >
                         Hire a Talent
                     </button>
 
                     <button
                         className={styles.productsFooterCallToAction}
-                    // onClick={() => router.push("/Apply-new-talent")}
                     >
                         Apply as a Talent
                     </button>
 
                     <button
                         className={styles.productsFooterCallToActionLogin}
-                    // onClick={() => router.push("/Apply-new-talent")}
                     >
                         Login
                     </button>

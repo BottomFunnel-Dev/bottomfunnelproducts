@@ -8,14 +8,13 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
       onMouseEnter={() => productHoverIn()}
       onMouseLeave={() => productHoverOut()}
       className={prods.productVisible}
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "70px" : "100px" }}
     >
       <div className={prods.productDropdownSection}>
         <div className={prods.productDropdownContent}>
           <h5
             className={prods.noStyleMain}
             onClick={() => {
-              // navigate(`web-development`);
               productHoverOut();
             }}
             style={{ color: "#ef4c23", marginBottom: "10px" }}
@@ -28,7 +27,6 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
               <div
                 key={i}
                 onClick={() => {
-                  // navigate(`/${item.path}`);
                   productHoverOut();
                 }}
                 className={`${prods.productimageIconDivSection} ${prods.hoveringDiv}`}
@@ -41,7 +39,6 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                     className={prods.productLogoImages}
                     src={item.navIcons}
                     alt="image"
-                    // style={{ width: "90px", height: "60px" }}
                   />
                 </div>
 
@@ -49,7 +46,6 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                   onClick={productHoverOut}
                   href={item.path}
                   className={prods.productSaasRow}
-                  // style={{ width: "100%", marginLeft: "10%", marginTop: "0%" }}
                 >
                   <p style={{ fontWeight: "700", fontSize: "13px" }}>
                     {item.dropContent}
