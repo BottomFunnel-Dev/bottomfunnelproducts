@@ -1,0 +1,115 @@
+.ConversationalEngagementmaindiv{
+    /* border: 2px solid yellow; */
+    text-align: center;
+}
+.ConversationalEngagementmaindiv h1{
+    margin-bottom: 0%;
+}
+
+
+.ConversationalEngagementimagediv{
+    /* border: 2px solid red; */
+}
+.ConversationalEngagementcomponent{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 3%;
+    background:linear-gradient(to right, rgb(251, 227, 231), white);
+
+}
+.ConversationalEngagementcomponent1{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 3%;
+    /* background:linear-gradient(to right, rgb(251, 227, 231), white); */
+
+}
+.ConversationalEngagementimageinnerdiv{
+    /* border: 2px solid greenyellow; */
+    /* height: 350px; */
+    width: 35%;
+    margin-left: 5%;
+    padding: 15px 15px 15px 15px;
+}
+.ConversationalEngagementimageinnerdivmain{
+    /* border: 2px solid aqua; */
+    /* width: 30%; */
+}
+.ConversationalEngagementcontentmaindiv{
+    /* border: 2px solid green; */
+    width: 50%;
+    margin-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+    
+}
+
+@media only screen and (min-width:0px) and (max-width:1024px){
+    .ConversationalEngagementmaindiv{
+        /* border: 2px solid yellow; */
+        text-align: center;
+    }
+    .ConversationalEngagementmaindiv h1{
+        margin-bottom: 0%;
+        font-size: 30px;
+
+    }
+    
+    
+    .ConversationalEngagementimagediv{
+        /* border: 2px solid red; */
+    }
+    .ConversationalEngagementcomponent{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 3%;
+        background:linear-gradient(to right, rgb(251, 227, 231), white);
+    
+    }
+    .ConversationalEngagementcomponent1{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 3%;
+        /* background:linear-gradient(to right, rgb(251, 227, 231), white); */
+    
+    }
+    .ConversationalEngagementimageinnerdiv{
+        /* border: 2px solid greenyellow; */
+        /* height: 350px; */
+        width: 90%;
+        margin: auto;
+        /* margin-left: 5%; */
+        padding: 15px 15px 15px 15px;
+    }
+    .ConversationalEngagementimageinnerdivmain{
+        /* border: 2px solid aqua; */
+        /* width: 30%; */
+    }
+    .ConversationalEngagementcontentmaindiv{
+        /* border: 2px solid green; */
+        width: 95%;
+        margin: auto;
+        /* margin-left: 4%; */
+        padding: 5px 15px 5px 5px ;
+       
+        text-align: center;
+       
+        
+    }
+    .ConversationalEngagementcontentmaindiv ul {
+        text-align: left;
+    }
+    .ConversationalEngagementcontentmaindiv ul li {
+        text-align: justify;
+    }
+
+}
