@@ -1005,7 +1005,7 @@ export const product1 = [
   {
     dropContent: "Bottom Funnel Chat",
     navIcons: "Images/navbar/product/Chat.png",
-    path: "/",
+    path: "bottomfunnel-chat",
     title: "Delight Your Customer With Effortless Bottom Funnel Chat Service",
     productHover: "#a1ffca",
   },
@@ -1037,7 +1037,7 @@ export const product2 = [
   {
     dropContent: "Bottom Funnel Omnichannel",
     navIcons: "Images/navbar/product/omnichannel.png",
-    path: "/",
+    path: "/bottomfunnel-omnichannel",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
   },

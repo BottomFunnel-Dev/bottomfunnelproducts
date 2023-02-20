@@ -47,7 +47,7 @@ export default function Hiretalent() {
       img: "/Images/productsmainpage/Components/frontend.png",
     },
     {
-      title: "backend Developers",
+      title: "Backend Developers",
       stack: [
 
         {
@@ -89,23 +89,23 @@ export default function Hiretalent() {
       title: "Product Designers",
       stack: [
         {
-          stack: "Cakephp",
+          stack: "UX Designers",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "UI Designers",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Motion Designers",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Graphic Designers",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Visual Designers",
           path: "https://service.bottomfunnel.net/cakephp"
         },
       
@@ -159,23 +159,23 @@ export default function Hiretalent() {
       title: "Salesforce Experts",
       stack: [
         {
-          stack: "Cakephp",
+          stack: "Tablo",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "System Administrator",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Platform Manager",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Solution Architect",
           path: "https://service.bottomfunnel.net/cakephp"
         },
         {
-          stack: "Cakephp",
+          stack: "Technical Architect",
           path: "https://service.bottomfunnel.net/cakephp"
         },
       ],

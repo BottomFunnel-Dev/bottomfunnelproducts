@@ -43,7 +43,7 @@ export default function Home() {
         <SimpleAndEasy />
         <ReadyStarted />
         <TalentProfiles />
-          <Testimonial />
+        <Testimonial />
         <TrustedBy />
         <LifeBottomFunnel />
         <ProductsFooter />
