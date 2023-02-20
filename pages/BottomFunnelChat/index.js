@@ -8,6 +8,7 @@ import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsN
 import { GetStarted } from '../../components/ProductsNewPage/GetStarted/GetStarted'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
 import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
+import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 
 
@@ -42,7 +43,8 @@ export default function BottomFunnelChat () {
             <StoriesSection/>
       <TrustedBy/>
       <LifeBottomFunnel/>
-      <GetStarted/>
+      {/* <GetStarted/> */}
+      <ReadyStarted />
       <ProductsFooter/>
         </div>
     )

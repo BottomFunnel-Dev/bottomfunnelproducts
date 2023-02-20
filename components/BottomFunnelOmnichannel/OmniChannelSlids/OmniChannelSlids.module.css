@@ -1,0 +1,51 @@
+.OmniChannelSlidsmainpage{
+    /* border: 2px solid green; */
+
+}
+.OmniChannelSlidsinnerdiv{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    background: linear-gradient(to right, rgb(246, 219, 223),  white, rgb(246, 219, 223)); 
+}
+
+.OmniChannelSlidsinnerdiv1{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    /* background: linear-gradient(to right, rgb(246, 219, 223),  white, rgb(246, 219, 223));  */
+}
+.OmniChannelSlidsinnerdivcards{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+.OmniChannelSlidsinnerdivcards1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+.OmniChannelSlidscontent{
+    /* border: 2px solid; */
+    width: 50%;
+    padding-top: 2%;
+}
+.OmniChannelSlidscontent li{
+    /* border: 2px solid aqua; */
+    width: 80%;
+}
+.OmniChannelSlidsinnerdivcardsimage{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 300px;
+    /* padding: 10px 10px 10px 10px; */
+
+}
