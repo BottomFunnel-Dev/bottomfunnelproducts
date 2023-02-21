@@ -1027,7 +1027,7 @@ export const product1 = [
   {
     dropContent: "Bottom Funnel Service",
     navIcons: "Images/navbar/product/Service.png",
-    path: "/",
+    path: "/bottomfunnelservice",
     title: "Delight Your Customer With Effortless Service",
     productHover: "#e1e1e1",
   },

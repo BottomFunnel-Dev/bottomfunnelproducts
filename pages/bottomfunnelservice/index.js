@@ -4,6 +4,7 @@ import { BottomFunnelServiceBanner } from '../../components/BottomFunnelService/
 import { PopularFeatures } from '../../components/BottomFunnelService/PopularFeatures/PopularFeatures'
 import { ServiceTools } from '../../components/BottomFunnelService/ServiceTools/ServiceTools'
 import { ServiceWalk } from '../../components/BottomFunnelService/ServiceWalk/ServiceWalk'
+import { DeskStarted } from '../../components/funnelDeskCom/DeskStarted'
 import Navbar from '../../components/Navbar/Navbar'
 import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
@@ -15,7 +16,7 @@ import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 export default function bottomfunnelservice () {
     return (
     <div>
-              {/* <Navbar
+               <Navbar
       productMount={{
         navMount: true,
       }}
@@ -29,7 +30,7 @@ export default function bottomfunnelservice () {
         color: "black",
         logo: false,
       }}
-    /> */}
+    /> 
 <BottomFunnelServiceBanner/>
 <TrustedBy/>
 <BetterService/>
@@ -37,7 +38,7 @@ export default function bottomfunnelservice () {
 <PopularFeatures/>
 <ServiceWalk/>
 
-
+<DeskStarted/>
 <TrustedBy/>
 <Testimonial />
       <LifeBottomFunnel/>
