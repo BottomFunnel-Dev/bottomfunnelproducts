@@ -1,0 +1,7 @@
+.BetterServicemaindiv{
+    /* border: 2px solid green; */
+    margin-top:2% ;
+    text-align: center;
+    padding: 15px 100px 15px 100px;
+    background: linear-gradient(to left, white, lightgray, white);
+}
