@@ -49,3 +49,65 @@
     text-align: center;
     margin: auto;
 }
+
+@media (max-width: 1024px) {
+    .OmnichannelSolutionmaindiv{
+        /* border: 2px solid green; */
+        margin-top: 2%;
+    }
+    .OmnichannelSolutionheading{
+        /* border: 1px solid red; */
+        text-align: center;
+        width: 95%;
+        margin: auto;
+    }
+    .OmnichannelSolutionheading h5{
+        color: gray;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .OmnichannelSolutionheading h2{
+        text-align: justify;
+        font-size: 25px;
+    }
+    
+    .OmnichannelSolutioncardsmaindiv{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .OmnichannelSolutioncards{
+        /* border: 2px solid yellow ; */
+        height: fit-content;
+        width: 90%;
+        /* margin-top: 10%; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 4%;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    }
+    
+    .OmnichannelSolutioncards:hover{
+        transition: all 0.2s linear;
+    
+      transform: translateY(-10px);
+    
+    
+    }
+    .OmnichannelSolutionimage{
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        margin: auto;
+    }
+
+}
