@@ -99,7 +99,6 @@ export const ProductsNavbar = ({ navproductredux }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", navBackground);
-    // console.log(scrollY);
   });
 
   return (
@@ -108,6 +107,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
       style={{
         top: scroll ? "0" : "65px",
         background: scroll ? "white" : "transparent",
+        transition: scroll? "all .5s ease-in": "all .5s ease-out"
       }}
     >
       <div className={prodnav.deskLogo}>
@@ -144,20 +144,12 @@ export const ProductsNavbar = ({ navproductredux }) => {
         <li
           onMouseEnter={skillProductHoverIn}
           onMouseLeave={skillProductHoverOut}
-          // onClick={() => navigate("/pricing")}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Pricing
         </li>
 
-        {/* <li
-          onMouseEnter={serHoverIn}
-          onMouseLeave={serHoverOut}
-          onClick={() => navigate("/saas")}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}
-        >
-          Saas
-        </li> */}
+     
 
         <li
           onMouseEnter={solHoverIn}

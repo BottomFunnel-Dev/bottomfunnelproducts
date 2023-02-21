@@ -1,0 +1,34 @@
+.setupContent {
+  width: 100%;
+  display: flex;
+  padding: 0 3%;
+  box-sizing: border-box;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+.setupContent p {
+display: flex;
+align-items: center;
+font-size: 18px;
+text-decoration: underline;
+cursor: pointer;
+color: #Ef4c23;
+}
+.leftcontent {
+  width: 50%;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+.setupImage{
+    width: 45%;
+    height: 100%;
+    
+}
+.setupImage>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}

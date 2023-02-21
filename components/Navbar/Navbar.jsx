@@ -154,6 +154,8 @@ const Navbar = ({ navredux, productMount }) => {
             scroll && (productMount.navMount || productMount.salesnavMount)
               ? "static"
               : "fixed",
+              transition:  scroll && (productMount.navMount || productMount.salesnavMount)
+              ? "all .5s ease-in": "all .5 ease-out"
         }}
       >
         <div className={navstyle.logoSection}>
