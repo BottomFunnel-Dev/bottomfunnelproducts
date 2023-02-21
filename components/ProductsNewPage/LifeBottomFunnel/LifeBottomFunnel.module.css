@@ -1,12 +1,10 @@
 .lifeMainOuterDiv {
-  /* border: 1px solid gold; */
   width: 95%;
   margin: auto;
   margin-bottom: 3%;
 }
 
 .lifeHeadingMainDiv {
-  /* border: 1px solid red; */
   text-align: center;
 }
 
@@ -27,7 +25,6 @@
 }
 
 .lifeImageMainDiv {
-  /* border: 1px solid red; */
   width: 90%;
   margin: auto;
 }
@@ -129,14 +126,12 @@
 
 @media (max-width: 480px) {
   .lifeMainOuterDiv {
-    /* border: 1px solid gold; */
     width: 95%;
     margin: auto;
     margin-bottom: 0%;
   }
 
   .lifeHeadingMainDiv {
-    /* border: 1px solid red; */
     text-align: center;
   }
 
@@ -156,7 +151,6 @@
   }
 
   .lifeImageMainDiv {
-    /* border: 1px solid red; */
     width: 100%;
   }
 
@@ -166,7 +160,6 @@
   }
 
   .lifeImageDiv {
-    /* border: 1px solid rebeccapurple; */
     width: 100%;
     margin-left: 4%;
   }
@@ -204,14 +197,12 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .lifeMainOuterDiv {
-    /* border: 1px solid gold; */
     width: 95%;
     margin: auto;
     margin-bottom: 3%;
   }
 
   .lifeHeadingMainDiv {
-    /* border: 1px solid red; */
     text-align: center;
   }
 
@@ -231,7 +222,6 @@
   }
 
   .lifeImageMainDiv {
-    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
   }
@@ -242,7 +232,6 @@
   }
 
   .lifeImageDiv {
-    /* border: 1px solid rebeccapurple; */
     width: 30%;
     margin-left: 4%;
   }
@@ -253,7 +242,6 @@
   }
 
   .lifeBottomContentDiv {
-    /* border: 1px solid red; */
     position: relative;
     height: 50px;
   }

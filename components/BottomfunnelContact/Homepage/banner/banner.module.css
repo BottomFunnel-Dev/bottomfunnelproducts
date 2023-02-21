@@ -2,6 +2,48 @@
 
 .banner {
   width: 100%;
-  height: 700px;
-  background-color: green;
+  height: 90vh;
+  margin-top: 10vh;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannercontent {
+  width: 30%;
+  position: relative;
+}
+.bannercontent > div {
+  width: 100%;
+  position: absolute;
+  right: -20%;
+  top: 15%;
+}
+.bannercontent > div h1 {
+font-size: 40px;
+}
+.bannercontent > div p {
+  line-height: 20px;
+}
+.bannercontent > div button {
+  font-size: 16px;
+  padding: 10px 25px;
+  font-weight: 600;
+  margin: 4% 0;
+  background-color: transparent;
+  border: 2px solid #ffd5a6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bannercontent > div button:hover {
+  background-color: #ffd5a6;
+  border: 2px solid #ffd5a6;
+}
+
+.bannerImages {
+  width: 70%;
+}
+.bannerImages > img {
+  width: 100%;
+  height: 100%;
 }
