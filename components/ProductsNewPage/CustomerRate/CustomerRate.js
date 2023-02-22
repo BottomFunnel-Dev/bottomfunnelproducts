@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import { IconContext } from "react-icons/lib";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import { display, positions } from "@mui/system";
 export const CustomerRate = () => {
   const ArrowLeft = (props) => (
     <button {...props} className={styles.prevButton}>
@@ -29,9 +28,9 @@ export const CustomerRate = () => {
     slidesToScroll: 1,
     autoplaySpeed: 3000,
     dots: false,
-    arrows: true,
-    prevArrow: <ArrowLeft />,
-    nextArrow: <ArrowRight />,
+    // arrows: true,
+    // prevArrow: <ArrowLeft />,
+    // nextArrow: <ArrowRight />,
     responsive: [
       {
         breakpoint: 480,

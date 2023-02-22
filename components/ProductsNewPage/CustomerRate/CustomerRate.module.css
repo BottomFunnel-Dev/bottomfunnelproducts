@@ -57,8 +57,9 @@
   right: -9%;
   text-align: center;
   font-size: 30px;
-  background: green;
   border: none;
+  background: none;
+
 }
 
 .prevButton {
