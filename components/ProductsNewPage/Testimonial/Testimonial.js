@@ -6,15 +6,32 @@ import { IconContext } from "react-icons/lib";
 import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 
 export default function Testimonial() {
-  const ArrowLeft = (props) => (
-    <button {...props} className={styles.prevButton}>
-      <GrLinkPrevious color="#ef4c23" />
+  const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
+    <button
+      {...props}
+      className={
+        styles.prevButton +
+        (currentSlide === 0 ? " slick-disabled" : "")
+      }
+      aria-hidden="true"
+      aria-disabled={currentSlide === 0 ? true : false}
+      type="button"
+    >
+      Previous
     </button>
   );
-
-  const ArrowRight = (props) => (
-    <button {...props} className={styles.nextButton}>
-      <GrLinkNext color="#ef4c23" />
+  const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
+    <button
+      {...props}
+      className={
+        styles.nextButton +
+        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
+      }
+      aria-hidden="true"
+      aria-disabled={currentSlide === slideCount - 1 ? true : false}
+      type="button"
+    >
+      Next
     </button>
   );
 
@@ -33,8 +50,8 @@ export default function Testimonial() {
     autoplay: true,
     cssEase: "linear",
     arrows: true,
-    prevArrow: <ArrowLeft />,
-    nextArrow: <ArrowRight />,
+    prevArrow: <SlickArrowLeft />,
+    nextArrow: <SlickArrowRight />,
 
     responsive: [
       {
