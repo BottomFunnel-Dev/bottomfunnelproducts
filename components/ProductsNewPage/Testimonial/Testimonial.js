@@ -17,7 +17,7 @@ export default function Testimonial() {
       aria-disabled={currentSlide === 0 ? true : false}
       type="button"
     >
-      Previous
+      <GrLinkPrevious/>
     </button>
   );
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
@@ -31,7 +31,7 @@ export default function Testimonial() {
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
       type="button"
     >
-      Next
+      <GrLinkNext/>
     </button>
   );
 
