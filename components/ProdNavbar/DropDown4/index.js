@@ -1,31 +1,27 @@
 import React from "react";
-import resource from "./ProductResources.module.css";
+import resource from "./DropDown4.module.css";
 import Link from "next/link";
-import { productResources } from "../../../Data/Navbar";
 
-export const ProductResources = ({ solResIn, solResOut, scroll }) => {
+export const DropDown4 = ({ handleHover, scroll, data, more }) => {
   return (
     <div
-      onMouseEnter={solResIn}
-      onMouseLeave={solResOut}
+      onMouseEnter={() => handleHover("dropDown4")}
+      onMouseLeave={() => handleHover("")}
       className={resource.productResourceMainDiv}
-      style={{ top: scroll ? "6.5%" : "16%" }}
+      style={{ top: scroll ? "55px" : "120px" }}
     >
       <div
         className={resource.productResourceListItems}
         style={{ width: "100%" }}
       >
-        {productResources.map((item, i) => (
+        {data.map((item, i) => (
           <div
             key={i}
-            onClick={() => {
-              // navigate(`/${item.path}`);
-              solHoverOut();
-            }}
+            onClick={() => handleHover("")}
             className={resource.productResourceData}
           >
             <Link
-              onClick={solResOut}
+              onClick={() => handleHover("")}
               href={item.path}
               className={resource.productlinkP}
             >
@@ -33,6 +29,7 @@ export const ProductResources = ({ solResIn, solResOut, scroll }) => {
             </Link>
           </div>
         ))}
+        {more ? <button>{more.title}</button> : null}
       </div>
     </div>
   );

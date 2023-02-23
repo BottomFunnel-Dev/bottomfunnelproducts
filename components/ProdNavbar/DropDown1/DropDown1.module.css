@@ -1,0 +1,70 @@
+.productDeskMainDiv {
+    display: flex;
+    background-color: white;
+    width: 15%;
+    height: fit-content;
+    position: fixed;
+    top: 50px;
+    left: 29%;
+    z-index: 100000000;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.productDeskListItems {
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    justify-content: center;
+}
+
+.productDeskListItems>p {
+    margin: 0;
+    width: 49%;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+.productlinkP h6 {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1%;
+    /* border: 2px solid red; */
+}
+
+.productDeskData {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+    /* border: 2px solid ; */
+}
+
+.productDeskData .productlinkP>h6 {
+    font-size: 13px;
+    margin: 2% 0;
+}
+
+.productDeskData .productlinkP>p {
+    font-size: 10px;
+    margin: 2% 0;
+}
+
+.productDeskData>img {
+    height: 40px;
+}
+
+.productDeskData:hover {
+    background-color: lightgray;
+    border-left: 2px solid #ef4c23;
+}
+
+.productDeskData:last-child {
+    border-bottom: none;
+}
+
+.productlinkP> :hover {
+    color: #393939;
+}

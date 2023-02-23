@@ -1,7 +1,8 @@
 import React from "react";
 import solnav from "./ProductSolutions.module.css";
-import  Link  from "next/link";
+import Link from "next/link";
 import { productSolution } from "../../../Data/Navbar";
+
 export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
   return (
     <div
@@ -10,7 +11,10 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
       className={solnav.productSolutionsMainDiv}
       style={{ top: scroll ? "6.5%" : "15%" }}
     >
-      <div className={solnav.productSolutionsListItems} style={{ width: "100%" }}>
+      <div
+        className={solnav.productSolutionsListItems}
+        style={{ width: "100%" }}
+      >
         {productSolution.map((item, i) => (
           <div
             key={i}
@@ -23,14 +27,21 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
             <Link
               onClick={solHoverOut}
               href={item.path}
-              style={{ cursor: "default"}}
+              style={{ cursor: "default" }}
               className={solnav.productlinkP}
             >
               <div>
-                <h6 style={{marginLeft:"3.5%",width:"50%"}}>{item.dropContent}</h6> <span></span>
+                <h6 style={{ marginLeft: "3.5%", width: "50%" }}>
+                  {item.dropContent}
+                </h6>{" "}
+                <span></span>
               </div>
-              <p style={{marginTop:"5%",fontSize:"14px",padding:"3%"}}>{item.productText1}</p>
-              <p style={{marginTop:"5%",fontSize:"14px",padding:"3%"}}>{item.productText2}</p>
+              <p style={{ marginTop: "5%", fontSize: "14px", padding: "3%" }}>
+                {item.productText1}
+              </p>
+              <p style={{ marginTop: "5%", fontSize: "14px", padding: "3%" }}>
+                {item.productText2}
+              </p>
             </Link>
           </div>
         ))}
