@@ -1,18 +1,15 @@
 .shopifyframesmainboxes{
     height: fit-content;
     margin-top: 2%;
-  
 }
 
 .shopifyframesindibox{
     display: flex;
-
 }
 
 .shopifyframesindibox:nth-child(2n){
     flex-direction: row-reverse;
 }
-
 
 .shopifyframesindileftbox{
     height: 20%;
@@ -28,4 +25,40 @@ margin-top: 20%;
 margin-left: 2%;
 margin-right: 3%;
   
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.shopifyframesmainboxes{
+    height: fit-content;
+    margin-top: 2%;
+}
+
+.shopifyframesindibox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.shopifyframesindileftbox{
+    height: 20%;
+    width: 90%;
+    margin-top: 3%;
+ margin-left: 3%;
+
+}
+
+.shopifyframesindirightboxes{
+    width: 90%;
+margin-top: 20%;
+margin-left: 2%;
+margin-right: 3%;
+  
+}
+
+.shopifyframesindirightboxes>ul>li{
+   text-align: justify;
+}
+
+
 }
