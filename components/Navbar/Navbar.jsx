@@ -114,7 +114,7 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   const navBackground = () => {
-    if (window.scrollY > 1) {
+    if (window.scrollY > 100) {
       setNabvar(true);
       setScroll(true);
     } else {
@@ -151,11 +151,13 @@ const Navbar = ({ navredux, productMount }) => {
               ? "0"
               : "30px",
           position:
-            scroll && (productMount.navMount || productMount.salesnavMount)
+            productMount.navMount || productMount.salesnavMount
               ? "static"
               : "fixed",
-              transition:  scroll && (productMount.navMount || productMount.salesnavMount)
-              ? "all .5s ease-in": "all .5 ease-out"
+          transition:
+            scroll && (productMount.navMount || productMount.salesnavMount)
+              ? "all .5s ease-in"
+              : "all .5 ease-out",
         }}
       >
         <div className={navstyle.logoSection}>

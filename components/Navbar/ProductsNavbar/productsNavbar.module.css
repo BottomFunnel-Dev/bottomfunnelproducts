@@ -3,7 +3,7 @@
   height: 60px;
   position: fixed;
   /* border: 2px solid red; */
-  transition: top 100ms ease-in-out;
+  /* transition: top 50ms linear; */
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -17,10 +17,12 @@
   justify-content: space-around;
   align-items: center;
 }
-.deskLogo > img {
+
+.deskLogo>img {
   width: 14%;
 }
-.deskLogo > h5 {
+
+.deskLogo>h5 {
   width: 75%;
   margin: 0;
 }
@@ -31,7 +33,8 @@
   align-items: center;
   justify-content: space-around;
 }
-.deskList > button {
+
+.deskList>button {
   padding: 5px 35px;
   border-radius: 20px;
   border: none;
@@ -41,7 +44,8 @@
   color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.deskList > button:hover {
+
+.deskList>button:hover {
   background-color: white;
   color: #ef4c23;
 }
@@ -52,11 +56,11 @@
   padding: 13px 5px;
 }
 
-.navbarSection.active .deskList > li {
+.navbarSection.active .deskList>li {
   color: black;
 }
 
-.deskList > li:hover {
+.deskList>li:hover {
   color: #ef4c23 !important;
   text-decoration: underline;
   text-decoration-color: #ef4c23;

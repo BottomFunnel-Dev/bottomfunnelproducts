@@ -88,7 +88,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
   };
 
   const navBackground = () => {
-    if (window.scrollY > 1) {
+    if (window.scrollY > 100) {
       setNabvar(true);
       setScroll(true);
     } else {
@@ -107,7 +107,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
       style={{
         top: scroll ? "0" : "65px",
         background: scroll ? "white" : "transparent",
-        transition: scroll? "all .5s ease-in": "all .5s ease-out"
+        transition: scroll ? "all 200ms linear" : "all 200ms linear",
       }}
     >
       <div className={prodnav.deskLogo}>
@@ -149,8 +149,6 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Pricing
         </li>
 
-     
-
         <li
           onMouseEnter={solHoverIn}
           onMouseLeave={solHoverOut}
@@ -176,7 +174,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
             alt="image"
           />
         </li>
-        <li >Sign In</li>
+        <li>Sign In</li>
         <button>Free Trial</button>
       </div>
 
