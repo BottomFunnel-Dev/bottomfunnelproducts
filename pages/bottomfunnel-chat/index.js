@@ -4,20 +4,19 @@ import { ConversationalEngagement } from "../../components/BottomFunnelChat/Conv
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import { DeskStarted } from "../../components/funnelDeskCom/DeskStarted";
 import Navbar from "../../components/Navbar/Navbar";
-import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
-import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 const productData = {
-  title: "Funnel Chat",
+  title: "Bottom Funnel Chat",
   logo: "/Images/navbar/product/Chat.png",
   list1: {
     title: "Features",
     more: { title: "View more features", path: "/404" },
+    position: { left: "30%" },
     products: [
       {
         dropContent: "Messaging Channels",
@@ -95,6 +94,7 @@ const productData = {
   list4: {
     title: "Resources",
     more: { title: "View more resources", path: "/404" },
+    position: { right: "20%" },
     products: [
       {
         dropContent: "Holiday Support",
@@ -145,12 +145,6 @@ export default function BottomFunnelChat() {
           logo: false,
         }}
       />
-      {/* <ProductsNavbar
-        navproductredux={{
-          color: "black",
-          logo: false,
-        }}
-      /> */}
       <ProdNavbar data={productData} />
       <BottomfunnelchatBanner />
       <TrustedBy />

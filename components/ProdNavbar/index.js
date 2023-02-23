@@ -5,14 +5,11 @@ import prodnav from "./ProdNavbar.module.css";
 import DropDown1 from "./DropDown1";
 import DropDown2 from "./DropDown2";
 import { DropDown3 } from "./DropDown3";
-import { DropDown4 } from "./DropDown4";
 import Image from "next/image";
 import DropDown5 from "./DropDown5";
 
 export const ProdNavbar = ({ data }) => {
-  const navigate = useRouter();
   const [dropdown, setDropdown] = useState("none");
-  const [productnavbar, setproductNabvar] = useState(false);
   const [scroll, setScroll] = useState(false);
 
   function handleHover(input) {
@@ -100,19 +97,21 @@ export const ProdNavbar = ({ data }) => {
 
         <p>Pricing</p>
 
-        <p
-          onMouseEnter={() => handleHover("dropDown3")}
-          onMouseLeave={() => handleHover("none")}
-        >
-          Solutions{" "}
-          <i
-            class={
-              dropdown == "dropDown3"
-                ? "bi bi-chevron-up"
-                : "bi bi-chevron-down"
-            }
-          ></i>
-        </p>
+        {data.lsit3 ? (
+          <p
+            onMouseEnter={() => handleHover("dropDown3")}
+            onMouseLeave={() => handleHover("none")}
+          >
+            {data.lsit3.title}{" "}
+            <i
+              class={
+                dropdown == "dropDown3"
+                  ? "bi bi-chevron-up"
+                  : "bi bi-chevron-down"
+              }
+            ></i>
+          </p>
+        ) : null}
 
         {data.list4 ? (
           <p
@@ -162,11 +161,16 @@ export const ProdNavbar = ({ data }) => {
       ) : null}
 
       {dropdown == "dropDown4" ? (
-        <DropDown4
+        <DropDown5
           handleHover={handleHover}
           scroll={scroll}
-          more={data.list4.more}
-          data={data.list4.products}
+          ProdData={{
+            data: data.list4.products,
+            more: data.list4.more,
+            hover: "dropDown4",
+            scrollTop: scroll,
+          }}
+          postion={data.list4.position}
         />
       ) : null}
 
@@ -174,8 +178,13 @@ export const ProdNavbar = ({ data }) => {
         <DropDown5
           handleHover={handleHover}
           scroll={scroll}
-          more={data.list1.more}
-          data={data.list1.products}
+          ProdData={{
+            data: data.list1.products,
+            more: data.list1.more,
+            hover: "dropDown5",
+            scrollTop: scroll,
+          }}
+          postion={data.list1.position}
         />
       ) : null}
     </div>
