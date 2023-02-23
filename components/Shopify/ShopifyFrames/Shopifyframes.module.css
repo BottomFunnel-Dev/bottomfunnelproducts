@@ -1,0 +1,31 @@
+.shopifyframesmainboxes{
+    height: fit-content;
+    margin-top: 2%;
+  
+}
+
+.shopifyframesindibox{
+    display: flex;
+
+}
+
+.shopifyframesindibox:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+
+.shopifyframesindileftbox{
+    height: 20%;
+    width: 60%;
+    margin-top: 3%;
+ margin-left: 3%;
+
+}
+
+.shopifyframesindirightboxes{
+    width: 40%;
+margin-top: 20%;
+margin-left: 2%;
+margin-right: 3%;
+  
+}

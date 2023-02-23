@@ -1,0 +1,44 @@
+.shopifylowerbannermainboxes{
+    height: fit-content;
+   margin-bottom: 2%;
+}
+
+.shopifylowerbannermainboxes>h2{
+    text-align: center;
+}
+
+.shopifylowerbannermainboxes>p{
+    text-align: center;
+}
+
+.shopifylowebannerbackground{
+    height: 40vh;
+    background-color: #d9d9d9;
+    
+}
+
+.shopifylowebannerbackground>h2{
+    position: absolute;
+  margin-left: 25%;
+    margin-top: 5%;
+}
+
+.shopifylowerbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10%;
+    margin-left: 42%;
+  }
+  
+  .shopifylowerbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+    }
