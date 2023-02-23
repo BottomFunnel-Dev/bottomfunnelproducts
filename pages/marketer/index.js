@@ -8,6 +8,7 @@ import { ProdNavbar } from "../../components/ProdNavbar";
 const productData = {
   title: "Bottom Funnel Marketer",
   logo: "/Images/navbar/product/Market.png",
+  width: "45%",
   list1: {
     title: "Features",
     more: { title: "View more features", path: "/404" },

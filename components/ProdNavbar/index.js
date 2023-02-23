@@ -35,101 +35,103 @@ export const ProdNavbar = ({ data }) => {
         top: scroll ? "0" : "65px",
       }}
     >
-      <div className={prodnav.deskLogo}>
-        <span>
-          <Image
-            src={data.logo}
-            alt={data.logo}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-          />
-        </span>
-        <h5>{data.title}</h5>
-      </div>
-      <div className={prodnav.deskList}>
-        {data.productsList ? (
-          <p
-            onMouseEnter={() => handleHover("dropDown1")}
-            onMouseLeave={() => handleHover("none")}
-          >
-            {data.productsList.title}
-            <i
-              class={
-                dropdown == "dropDown1"
-                  ? "bi bi-chevron-up"
-                  : "bi bi-chevron-down"
-              }
-            ></i>
-          </p>
-        ) : (
-          <p
-            onMouseEnter={() => handleHover("dropDown5")}
-            onMouseLeave={() => handleHover("none")}
-          >
-            {data.list1.title}
-            <i
-              class={
-                dropdown == "dropDown5"
-                  ? "bi bi-chevron-up"
-                  : "bi bi-chevron-down"
-              }
-            ></i>
-          </p>
-        )}
+      <div className={prodnav.productsNavbarMain}>
+        <div className={prodnav.deskLogo}>
+          <span>
+            <Image
+              src={data.logo}
+              alt={data.logo}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
+          </span>
+          <h5>{data.title}</h5>
+        </div>
+        <div className={prodnav.deskList} style={{ width: data.width }}>
+          {data.productsList ? (
+            <p
+              onMouseEnter={() => handleHover("dropDown1")}
+              onMouseLeave={() => handleHover("none")}
+            >
+              {data.productsList.title}
+              <i
+                class={
+                  dropdown == "dropDown1"
+                    ? "bi bi-chevron-up"
+                    : "bi bi-chevron-down"
+                }
+              ></i>
+            </p>
+          ) : (
+            <p
+              onMouseEnter={() => handleHover("dropDown5")}
+              onMouseLeave={() => handleHover("none")}
+            >
+              {data.list1.title}
+              <i
+                class={
+                  dropdown == "dropDown5"
+                    ? "bi bi-chevron-up"
+                    : "bi bi-chevron-down"
+                }
+              ></i>
+            </p>
+          )}
 
-        {data.list2 ? (
-          <p
-            onMouseEnter={() => handleHover("dropDown2")}
-            onMouseLeave={() => handleHover("none")}
-          >
-            {data.list2.title}{" "}
-            <i
-              class={
-                dropdown == "dropDown2"
-                  ? "bi bi-chevron-up"
-                  : "bi bi-chevron-down"
-              }
-            ></i>
-          </p>
-        ) : null}
+          {data.list2 ? (
+            <p
+              onMouseEnter={() => handleHover("dropDown2")}
+              onMouseLeave={() => handleHover("none")}
+            >
+              {data.list2.title}{" "}
+              <i
+                class={
+                  dropdown == "dropDown2"
+                    ? "bi bi-chevron-up"
+                    : "bi bi-chevron-down"
+                }
+              ></i>
+            </p>
+          ) : null}
 
-        <p>Pricing</p>
+          <p>Pricing</p>
 
-        {data.lsit3 ? (
-          <p
-            onMouseEnter={() => handleHover("dropDown3")}
-            onMouseLeave={() => handleHover("none")}
-          >
-            {data.lsit3.title}{" "}
-            <i
-              class={
-                dropdown == "dropDown3"
-                  ? "bi bi-chevron-up"
-                  : "bi bi-chevron-down"
-              }
-            ></i>
-          </p>
-        ) : null}
+          {data.list3 ? (
+            <p
+              onMouseEnter={() => handleHover("dropDown3")}
+              onMouseLeave={() => handleHover("none")}
+            >
+              {data.list3.title}{" "}
+              <i
+                class={
+                  dropdown == "dropDown3"
+                    ? "bi bi-chevron-up"
+                    : "bi bi-chevron-down"
+                }
+              ></i>
+            </p>
+          ) : null}
 
-        {data.list4 ? (
-          <p
-            onMouseEnter={() => handleHover("dropDown4")}
-            onMouseLeave={() => handleHover("none")}
-          >
-            {data.list4.title}{" "}
-            <i
-              class={
-                dropdown == "dropDown4"
-                  ? "bi bi-chevron-up"
-                  : "bi bi-chevron-down"
-              }
-            ></i>
-          </p>
-        ) : null}
-        <p>Sign In</p>
-        <button>Free Trial</button>
+          {data.list4 ? (
+            <p
+              onMouseEnter={() => handleHover("dropDown4")}
+              onMouseLeave={() => handleHover("none")}
+            >
+              {data.list4.title}{" "}
+              <i
+                class={
+                  dropdown == "dropDown4"
+                    ? "bi bi-chevron-up"
+                    : "bi bi-chevron-down"
+                }
+              ></i>
+            </p>
+          ) : null}
+          <p>Sign In</p>
+          <button>Free Trial</button>
+        </div>
       </div>
 
       {/* service drop down section code start */}

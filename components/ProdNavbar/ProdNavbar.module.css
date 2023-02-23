@@ -7,9 +7,16 @@
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    border-bottom: 1px solid rgb(227, 223, 223);
+    justify-content: center;
+    border: 1px solid rgb(227, 223, 223);
     border-top: 1px solid rgb(227, 223, 223);
+}
+
+.productsNavbarMain {
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .deskLogo {
