@@ -31,7 +31,8 @@
 }
 
 .deskList {
-    width: 65%;
+    min-width: 45%;
+    max-width: 65%;
     display: flex;
     align-items: center;
     justify-content: space-around;

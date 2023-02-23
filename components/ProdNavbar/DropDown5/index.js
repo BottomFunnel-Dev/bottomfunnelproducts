@@ -2,37 +2,42 @@ import React from "react";
 import styles from "./DropDown5.module.css";
 import Link from "next/link";
 
-export default function DropDown5({ handleHover, scroll, data, more }) {
+export default function DropDown5({ handleHover, ProdData, postion }) {
   return (
     <div
-      onMouseEnter={() => handleHover("dropDown5")}
+      onMouseEnter={() => handleHover(ProdData.hover)}
       onMouseLeave={() => handleHover("")}
       className={styles.dropDownFiveMainDiv}
-      style={{ top: scroll ? "55px" : "120px" }}
+      style={{
+        top: ProdData.scrollTop ? "55px" : "120px",
+        left: postion.left ? postion.left : "none",
+        right: postion.right ? postion.right : "none",
+      }}
     >
       <div className={styles.dropDownFiveListItems} style={{ width: "100%" }}>
-        {data.map((item, i) => (
+        {ProdData.data.map((item, i) => (
           <div
             key={i}
             onClick={() => handleHover("")}
             className={styles.dropDownFiveData}
           >
-            <Link
+            <div
               onClick={() => handleHover("")}
-              href={item.path}
               className={styles.productlinkP}
             >
               <p>{item.dropContent}</p>
-            </Link>
+            </div>
           </div>
         ))}
-        <Link
-          onClick={() => handleHover("")}
-          href={more.path}
-          className={styles.dropDownFivesAllFeaturesButton}
-        >
-          {more ? <button>{more.title}</button> : null}
-        </Link>
+        {ProdData.more ? (
+          <Link
+            onClick={() => handleHover("")}
+            href={ProdData.more.path}
+            className={styles.dropDownFivesAllFeaturesButton}
+          >
+            <button>{ProdData.more.title}</button>
+          </Link>
+        ) : null}
       </div>
     </div>
   );
