@@ -13,6 +13,7 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 const productData = {
   title: "Bottom Funnel Chat",
   logo: "/Images/navbar/product/Chat.png",
+  width: "65%",
   list1: {
     title: "Features",
     more: { title: "View more features", path: "/404" },
