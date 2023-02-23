@@ -42,3 +42,54 @@
     background-color: white;
     color: #ef4c23;
     }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.shopifylowerbannermainboxes{
+    height: fit-content;
+   margin-bottom: 2%;
+}
+
+.shopifylowerbannermainboxes>h2{
+    text-align: center;
+}
+
+.shopifylowerbannermainboxes>p{
+    text-align: center;
+}
+
+.shopifylowebannerbackground{
+    height: 20vh;
+    background-color: #d9d9d9;
+    
+}
+
+.shopifylowebannerbackground>h2{
+    position: absolute;
+  margin-left: 5%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.shopifylowerbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20%;
+    margin-left: 23%;
+  }
+  
+  .shopifylowerbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+    }
+
+
+}
