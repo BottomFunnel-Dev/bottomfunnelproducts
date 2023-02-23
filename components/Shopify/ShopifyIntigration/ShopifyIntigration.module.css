@@ -38,6 +38,14 @@
     background-color: white;
 }
 
+
+.shopifyintegrationdataindi:hover{
+transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #f5d6bf;
+}
+
+
 .shopifyintegrationdataindi>h4{
     text-align: center;
 }
