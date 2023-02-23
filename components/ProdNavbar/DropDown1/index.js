@@ -1,29 +1,25 @@
 import React from "react";
-import deskstyle from "./ProductDesk.module.css";
+import deskstyle from "./DropDown1.module.css";
 import Link from "next/link";
-import { productDesk } from "../../../Data/Navbar";
 
-export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
+export default function DropDown1({ handleHover, scroll, productDesk }) {
   return (
     <div
-      onMouseEnter={solDeskIn}
-      onMouseLeave={solDeskOut}
+      onMouseEnter={() => handleHover("dropDown1")}
+      onMouseLeave={() => handleHover("")}
       className={deskstyle.productDeskMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "55px" : "120px" }}
     >
       <div className={deskstyle.productDeskListItems} style={{ width: "100%" }}>
         {productDesk.map((item, i) => (
           <div
             key={i}
-            onClick={() => {
-              // navigate(`/${item.path}`);
-              solDeskOut();
-            }}
+            onClick={() => handleHover("")}
             className={deskstyle.productDeskData}
           >
             <img src={item.navIcons} alt="Product logo" />
             <Link
-              onClick={solDeskOut}
+              onClick={() => handleHover("")}
               style={{ width: "75%" }}
               href={item.path}
               className={deskstyle.productlinkP}
@@ -36,4 +32,4 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
       </div>
     </div>
   );
-};
+}

@@ -3,7 +3,7 @@
   height: 60px;
   position: fixed;
   /* border: 2px solid red; */
-  /* transition: top 50ms linear; */
+  transition: top 50ms linear;
   z-index: 1000;
   display: flex;
   align-items: center;
