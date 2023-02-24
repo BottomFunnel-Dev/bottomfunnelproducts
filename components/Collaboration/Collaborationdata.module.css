@@ -1,6 +1,6 @@
 .collaborationdatamainboxes{
     height: fit-content;
-    border: 1px solid red;
+
 }
 
 .collaborationdataindibox{
@@ -9,16 +9,15 @@
 
 }
 .collaborationdatainnerboxes{
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
-  padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 10px;
+     padding: 10px;
+     background-color: white;
+   
 }
-
-
 
 
 .collaborationdatainnerleftbox{
