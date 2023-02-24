@@ -37,12 +37,12 @@ const collaborationdatad = [
 ]
 
 
-  return (
-    <div className={styles.collaborationdatamainboxes}>{collaborationdatad.map((e)=>{
+return (
+    <div className={styles.messagingplatformsmainboxes}>
+    <div className={styles.messagingplatformsdataboxes}>{collaborationdatad.map((e)=>{
         return (
-            <div className={styles.collaborationdataindibox}>
-            <div className={styles.collaborationdatainnerboxes}>
-            <div className={styles.collaborationdatainnerleftbox}>
+            <div className={styles.messagingplatformsindidata}>
+            <div className={styles.messagingplatformsindileftbox}>
             
             <Image
             src={e.image}
@@ -50,23 +50,20 @@ const collaborationdatad = [
             width={"0"}
             height={"0"}
             sizes={"100vw"}
-            style={{ width: "100%", height: "100%",objectFit:"contain" }}
+            style={{ width: "100%", height: "100%" , objectFit:"contain",}}
           />
-            
             </div>
-      
 
-            <div className={styles.collaborationdatainnerrightbox}>
-            <h4>{e.htxt}</h4>
+            <div className={styles.messagingplatformsindirightbox}>
+            <h3>{e.htxt}</h3>
             <p>{e.stxt}</p>
             </div>
             
             </div>
-            
-            </div>
         )
-    })}
-    
+    })}</div>
+
+
     
     </div>
   )

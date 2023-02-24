@@ -1,34 +1,73 @@
-.collaborationdatamainboxes{
+.messagingplatformsmainboxes{
     height: fit-content;
-
 }
 
-.collaborationdataindibox{
-    height: 300px;
-    background-color: #f5f5f5;
-
-}
-.collaborationdatainnerboxes{
-    width: 80%;
+.messagingplatformsdataboxes{
+    height: fit-content;
     margin: auto;
+    width: 80%;
+}
+
+.messagingplatformsindidata{
+    height: 300px;
+    width: 100%;
+ 
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-     border-radius: 10px;
-     padding: 10px;
-     background-color: white;
-   
+}
+.messagingplatformsindidata:nth-child(even){
+    flex-direction: row-reverse;
 }
 
-
-.collaborationdatainnerleftbox{
-    height: 250px;
-    width: 30%;
-   
+.messagingplatformsindidata:nth-child(2){
+    background-color: #f5f5f5;
 }
 
-.collaborationdatainnerrightbox{
-    width: 60%;
+.messagingplatformsindidata:nth-child(3){
+    background-color: #f5f5f5;
+}
+
+.messagingplatformsindirightbox{
     margin-left: 5%;
-    margin-top: 3%;
+    margin-top: 5%;
+}
 
+.messagingplatformsindirightbox>h3{
+    font-weight: 700;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.messagingplatformsmainboxes{
+    height: fit-content;
+}
+
+.messagingplatformsdataboxes{
+    height: fit-content;
+    margin: auto;
+    width: 90%;
+}
+
+.messagingplatformsindidata{
+    height: 300px;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+}
+.messagingplatformsindidata:nth-child(even){
+    flex-direction: row-reverse;
+   
+}
+.messagingplatformsindirightbox{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.messagingplatformsindirightbox>h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.messagingplatformsindirightbox>p{
+    text-align: justify;
+}
 }
