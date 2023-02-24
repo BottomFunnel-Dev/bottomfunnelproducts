@@ -38,6 +38,7 @@ const shopifyintegrationdata = [
     <div className={styles.shopifyintegrationboxingformapp}>{shopifyintegrationdata.map((e)=>{
         return (
             <div className={styles.shopifyintegrationdataindi}>
+            
             <h4>{e.htxt}</h4>
 <div className={styles.shopifyintegrationicons}>
             <Image
@@ -50,6 +51,7 @@ const shopifyintegrationdata = [
         />
 </div>
 <p>{e.stxt}</p>
+
 </div>
         )
     })}</div>

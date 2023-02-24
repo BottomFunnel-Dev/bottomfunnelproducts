@@ -3,7 +3,7 @@
     border: 1px solid white;
     background: url("/Images/Shopify/Banner/Frame 40253.webp");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 60% 100%;
     background-position-x: right;
     color: black;
 }
@@ -15,13 +15,17 @@
     margin-left: 3%;
 }
 
-.shopifybannertxtboxes>h2{
+.shopifybannertxtboxes>h1{
     font-weight: 700;
+    font-size: 35px;
+}
 
+.shopifybannertxtboxes>p{
+    font-size: 25px;
 }
 
 .shopifybannerbutton {
-    padding: 10px 50px;
+    padding: 15px 50px;
     border-radius: 100px;
     width: 220px;
     background-color: #ef4c23;
@@ -29,7 +33,7 @@
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
     margin-top: 4%;
   }
