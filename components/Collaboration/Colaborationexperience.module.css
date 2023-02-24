@@ -1,0 +1,22 @@
+.colaborationexpmainboxes{
+    height: 70vh;
+    border: 1px solid transparent;
+    margin-top: 2%;
+    background-color: #f5f5f5;
+}
+
+.colaborationexpmainboxes>h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.colaborationexpmainboxes>p{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.colaborationexperienceimagebox{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
