@@ -4,14 +4,11 @@ import styles from "./ContactUS.module.css";
 import { ContactUSBanner } from "../../components/ContactUS/ContactUSBanner/ContactUSBanner";
 import { ContactUSForm } from "../../components/ContactUS/ContactUSForm/ContactUSForm";
 
-import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
-import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
-import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import Revamping from "../../components/revamping/Revamping";
-import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
-import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
 export default function ContactUs() {
@@ -32,14 +29,10 @@ export default function ContactUs() {
 
       {/* Other react required components  */}
       <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+      <TrustedBy />
+      <LifeBottomFunnel />
+      <GetStarted />
+      <ProductsFooter />
     </div>
   );
 }

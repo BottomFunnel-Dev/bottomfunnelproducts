@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
 import stylecon from "./Contact.module.css";
 
 export const ContactMain = ({ bgcolor, textcolor }) => {

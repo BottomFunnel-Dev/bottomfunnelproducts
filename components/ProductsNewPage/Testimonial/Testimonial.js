@@ -1,23 +1,19 @@
 import React from "react";
 import Slider from "react-slick";
 import styles from "./testimonial.module.css";
-import { BsPlayCircle } from "react-icons/bs";
-import { IconContext } from "react-icons/lib";
-import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 
 export default function Testimonial() {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <button
       {...props}
       className={
-        styles.prevButton +
-        (currentSlide === 0 ? " slick-disabled" : "")
+        styles.prevButton + (currentSlide === 0 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
       type="button"
     >
-      <GrLinkPrevious/>
+      <i class="bi bi-arrow-left"></i>
     </button>
   );
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
@@ -31,7 +27,7 @@ export default function Testimonial() {
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
       type="button"
     >
-      <GrLinkNext/>
+      <i class="bi bi-arrow-right"></i>
     </button>
   );
 
@@ -110,11 +106,9 @@ export default function Testimonial() {
             <div key={index} className={styles.mainsliderDiv}>
               <div className={styles.slidingDiv}>
                 <div className={styles.imgpart}>
-                  <IconContext.Provider
-                    value={{ className: styles.productBannerPlayIcon }}
-                  >
-                    <BsPlayCircle />
-                  </IconContext.Provider>
+                  <div className={styles.productBannerPlayIcon}>
+                    <i class="bi bi-play-circle"></i>
+                  </div>
                   <img src={item.image} alt="" />
                 </div>
                 <div className={styles.textpart}>

@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 // import { useNavigate } from "react-router-dom";
 import navsales from "./SalesNavbar.module.css";
-import { useSelector } from "react-redux";
 import { SalesProduct } from "./SalesProduct";
 import { SalesFeature } from "./SalesFeature";
 import { SalesResources } from "./SalesResources";
 import { SalesIndustries } from "./SalesIndustries";
 
-export const SalesNavbar = ({navproductredux}) => {
+export const SalesNavbar = ({ navproductredux }) => {
   // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
@@ -112,7 +111,7 @@ export const SalesNavbar = ({navproductredux}) => {
       }}
     >
       <div className={navsales.deskLogo}>
-        <img src="/Images/Logos/bottomfunnelsales.png"/>
+        <img src="/Images/Logos/bottomfunnelsales.png" />
         <h5>Bottom Funnel Sales</h5>
       </div>
       <div className={navsales.deskList}>
@@ -176,7 +175,6 @@ export const SalesNavbar = ({navproductredux}) => {
             alt="image"
           />
         </li>
-
 
         <li>Sign In</li>
         <button>Free Trial</button>

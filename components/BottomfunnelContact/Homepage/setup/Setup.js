@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./setup.module.css";
 import { contactcenter } from "./../../../Data/contactcenter";
-import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
 
 export default function Setup() {
@@ -21,7 +20,7 @@ export default function Setup() {
               ))}
             </ul>
             <p>
-              Learn more <BsArrowRight />
+              Learn more <i class="bi bi-arrow-right"></i>
             </p>
           </div>
           <div className={styles.setupImage}>

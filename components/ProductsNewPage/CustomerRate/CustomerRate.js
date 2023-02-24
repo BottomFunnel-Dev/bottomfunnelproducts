@@ -1,24 +1,21 @@
 import React from "react";
 import styles from "./CustomerRate.module.css";
-import { FaStar } from "react-icons/fa";
-import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 import Slider from "react-slick";
-import { IconContext } from "react-icons/lib";
 import { useRouter } from "next/router";
 import Image from "next/image";
+
 export const CustomerRate = () => {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <button
       {...props}
       className={
-        styles.prevButton +
-        (currentSlide === 0 ? " slick-disabled" : "")
+        styles.prevButton + (currentSlide === 0 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
       type="button"
     >
-      <GrLinkPrevious/>
+      <i class="bi bi-arrow-left"></i>
     </button>
   );
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
@@ -32,7 +29,7 @@ export const CustomerRate = () => {
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
       type="button"
     >
-      <GrLinkNext/>
+      <i class="bi bi-arrow-right"></i>
     </button>
   );
 
@@ -62,49 +59,49 @@ export const CustomerRate = () => {
 
   const data = [
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "https://clutch.co/profile/bottom-funnel",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/clutch.webp",
     },
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "https://www.appfutura.com/companies/bottom-funnel",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/futura.webp",
     },
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/google.webp",
     },
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "https://www.goodfirms.co/company/bottom-funnel",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/goodfirm.webp",
     },
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/itfirm.webp",
     },
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/topdev.webp",
     },
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "https://www.upwork.com/agencies/1549703270292094976/",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/upwork.webp",
     },
     {
-      icon: <FaStar />,
+      icon: <i class="bi bi-star-fill"></i>,
       path: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi rem corporis ratione molestiae mollitia, quis excepturi sint voluptas itaque.",
       img: "/Images/productsmainpage/Components/icons/sd.webp",
@@ -136,9 +133,9 @@ export const CustomerRate = () => {
                   />
                 </div>
                 <div className={styles.ratings}>
-                  <IconContext.Provider value={{ className: styles.ratings }}>
+                  <div className={styles.ratings}>
                     {item.icon} {item.icon} {item.icon} {item.icon} {item.icon}{" "}
-                  </IconContext.Provider>
+                  </div>
                 </div>
                 <p>{item.desc}</p>
               </div>

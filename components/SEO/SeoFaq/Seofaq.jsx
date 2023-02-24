@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./Seofaq.module.css";
-// import Accordion from 'react-bootstrap/Accordion';
 
 export default function Seofaq() {
-
   return (
     <div className={styles.seofaqs}>
       <h2 className={styles._SeoFaqheading}>Frequently Asked Questions</h2>
@@ -65,5 +63,5 @@ export default function Seofaq() {
         </Accordion.Item>
       </Accordion> */}
     </div>
-  )
+  );
 }

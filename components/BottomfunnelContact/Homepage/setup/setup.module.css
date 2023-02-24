@@ -7,28 +7,39 @@
   height: 500px;
   align-items: center;
 }
+
 .setupContent p {
-display: flex;
-align-items: center;
-font-size: 18px;
-text-decoration: underline;
-cursor: pointer;
-color: #Ef4c23;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #Ef4c23;
 }
+
+.setupContent p>i {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  height: fit-content;
+}
+
 .leftcontent {
   width: 50%;
   padding: 3%;
   box-sizing: border-box;
 }
 
-.setupImage{
-    width: 45%;
-    height: 100%;
-    
+.setupImage {
+  width: 45%;
+  height: 100%;
+
 }
-.setupImage>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+
+.setupImage>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 
 }
