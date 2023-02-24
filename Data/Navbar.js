@@ -1204,14 +1204,14 @@ export const productDesk = [
       "A reliable and smart call center solution for effortless experience",
     productText2: "Field Service",
     navIcons: "/Images/Logos/funnel-desk/contact-center.png",
-    path: "/",
+    path: "/contact-center",
   },
   {
     dropContent: "Omnichannel Suite",
     productText1: "Delight your customers with effortless omnichannel service",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/omnichannel.png",
-    path: "/",
+    path: "/bottomfunnel-omnichannel",
   },
   {
     dropContent: "Customer Sucess",
@@ -1219,7 +1219,7 @@ export const productDesk = [
       "Product revenue, increase customer lifetime value, and strengthen customer relationship.",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/customer-sucess.png",
-    path: "/",
+    path: "/customersuccess",
   },
 ];
 
@@ -1298,28 +1298,28 @@ export const salesProduct = [
     dropContent: "Bottom Funnel Sales",
     productText1: "Sales CRM",
     navIcons: "/Images/navbar/product/bottomFunnnelSales.png",
-    path: "",
+    path: "/sales",
   },
   {
     dropContent: "Bottom Funnel Suite",
     productText1: "Sales & Markeing CRM",
     navIcons: "/Images/navbar/product/Sales.png",
-    path: "",
+    path: "/",
   },
 ];
 
 export const salesFeatures = [
   {
     dropContent: "Contact Management",
-    path: "ContactManagement",
+    path: "/",
   },
   {
     dropContent: "Cloud Telephony",
-    path: "cloudTelephony",
+    path: "/cloud_telephony",
   },
   {
     dropContent: "CPQ",
-    path: "cpq",
+    path: "/",
   },
   {
     dropContent: "Deal Management",
