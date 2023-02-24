@@ -1,29 +1,18 @@
-import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
+import React from "react";
 
 import { AwardsBanner } from "./AwardsBanner/AwardsBanner";
 import "./AwardsPage.css";
 import { AwardsSection } from "./AwardsSection/AwardsSection";
 
 // ----- Other requried react components -----
-import StoriesSection from "../StoriesSection/StoriesSection";
-import OndemandSection from "../OnDemandSection/OndemandSection";
-import PortFolio from "../PortFolioSection/PortFolio";
-import PlanProject from "../PlanProject/PlanProject";
-import Revamping from "../revamping/Revamping";
-import { SeoblogSection } from "../SeoBlogs/Seoblogs";
-import { TextDropdown } from "../faqSection/Faqs";
-import ContectForm from "../ContectForm/ContectForm";
-import MainFooter from "../FooterSection/MainFooter";
+import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import { Helmet } from "react-helmet";
 
 export const AwardsPage = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
-  }, []);
-
   return (
     <div style={{ color: "#393939" }}>
       <Helmet>
@@ -40,14 +29,10 @@ export const AwardsPage = () => {
       <AwardsSection />
       {/* Other react required components */}
       <StoriesSection />
-      <OndemandSection />
-      <PortFolio />
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+      <TrustedBy />
+      <LifeBottomFunnel />
+      <GetStarted />
+      <ProductsFooter />
     </div>
   );
 };

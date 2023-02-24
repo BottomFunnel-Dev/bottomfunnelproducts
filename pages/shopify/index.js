@@ -1,25 +1,19 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-import { Shopifybanner } from '../../components/Shopify/Shopifybanner/Shopifybanner'
-import { Shopifyframes } from '../../components/Shopify/ShopifyFrames/Shopifyframes'
-import { ShopifyIntigration } from '../../components/Shopify/ShopifyIntigration/ShopifyIntigration'
-import { Shopifylowerbanner } from '../../components/Shopify/Shopifylowerbanner/Shopifylowerbanner'
-import OndemandSection from '../../components/CommonComponents/OnDemandSection/OndemandSection'
-import PlanProject from '../../components/CommonComponents/PlanProject/PlanProject'
-import { SeoblogSection } from '../../components/CommonComponents/SeoBlogs/Seoblogs'
-import Revamping from '../../components/revamping/Revamping'
-import { TextDropdown } from '../../components/CommonComponents/faqSection/Faqs'
-import ContectForm from '../../components/CommonComponents/ContectForm/ContectForm'
-import MainFooter from '../../components/CommonComponents/FooterSection/MainFooter'
-import StoriesSection from '../../components/CommonComponents/StoriesSection/StoriesSection'
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import { Shopifybanner } from "../../components/Shopify/Shopifybanner/Shopifybanner";
+import { Shopifyframes } from "../../components/Shopify/ShopifyFrames/Shopifyframes";
+import { ShopifyIntigration } from "../../components/Shopify/ShopifyIntigration/ShopifyIntigration";
+import { Shopifylowerbanner } from "../../components/Shopify/Shopifylowerbanner/Shopifylowerbanner";
+import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
-
-
-export default function Shopify  () {
+export default function Shopify() {
   return (
     <div>
-
-    <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -28,20 +22,16 @@ export default function Shopify  () {
           logo: false,
         }}
       />
-    <Shopifybanner />
-    <ShopifyIntigration />
-    <Shopifyframes />
-    <Shopifylowerbanner />
+      <Shopifybanner />
+      <ShopifyIntigration />
+      <Shopifyframes />
+      <Shopifylowerbanner />
 
-    <StoriesSection />
-    <OndemandSection />
-    {/* <PortFolio />  */}
-    <PlanProject />
-    <SeoblogSection />
-    <Revamping />
-    <TextDropdown />
-    <ContectForm />
-    <MainFooter />
+      <StoriesSection />
+      <TrustedBy />
+      <LifeBottomFunnel />
+      <GetStarted />
+      <ProductsFooter />
     </div>
-  )
+  );
 }

@@ -1,12 +1,7 @@
 import React from "react";
-import styles from './Seoagency.module.css';
-// import Button from 'react-bootstrap/Button';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import Accordion from 'react-bootstrap/Accordion';
+import styles from "./Seoagency.module.css";
 
 export default function Seoagency() {
-
-
   return (
     // <Accordion flush className={styles._SeoAgencymaindiv}>
     //   <Accordion.Item eventKey="0">
@@ -44,4 +39,4 @@ export default function Seoagency() {
     // </Accordion>
     <div></div>
   );
-};
+}

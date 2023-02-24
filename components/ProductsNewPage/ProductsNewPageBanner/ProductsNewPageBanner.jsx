@@ -3,29 +3,8 @@ import styles from "./ProductsNewPageBanner.module.css";
 import { IconContext } from "react-icons/lib";
 import { BsPlayCircle } from "react-icons/bs";
 import { useRouter } from "next/router";
-import { Player } from "@lottiefiles/react-lottie-player";
-import * as whiteanime from "../../../public/Animation/white.json";
-import * as orangeanime from "../../../public/Animation/backorangeproductpage.json";
 
 export const ProductsNewPageBanner = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: whiteanime,
-    orangeanime,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-  const lottieDefaultOptions1 = {
-    loop: true,
-    autoplay: true,
-    animationData: orangeanime,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   const data = [
     {
       img: "/Images/productsmainpage/Components/desk.png",
@@ -90,10 +69,7 @@ export const ProductsNewPageBanner = () => {
       <div className={styles.productsBannerBannerParentDiv}>
         <div className={styles.productsBannerMeatBannerContentDiv}>
           <div className={styles.productPageBannerContent}>
-            <h1>
-              Build Your Brands presence With BOTTOM FUNNEL
-              {/* <span className={styles.productPageAnimatedTitle}>BOTTOM FUNNEL</span> */}
-            </h1>
+            <h1>Build Your Brands presence With BOTTOM FUNNEL</h1>
             <p>
               Welcome to Bottom Funnel, the world's leading app development
               company for fintech and startup companies.
@@ -113,14 +89,19 @@ export const ProductsNewPageBanner = () => {
             <BsPlayCircle />
           </IconContext.Provider>
 
-          <Player autoplay speed={1.5} loop src={whiteanime}></Player>
+          <lottie-player
+            src="/Animation/white.json"
+            background="transparent"
+            speed="1.5"
+            loop
+            autoplay
+          ></lottie-player>
 
           <img
             className={styles.mainImage}
             src="/Images/ProductsPage/ProductBannerimage.png"
             alt="image"
           />
-        
         </div>
       </div>
 
@@ -137,15 +118,25 @@ export const ProductsNewPageBanner = () => {
             >
               <BsPlayCircle />
             </IconContext.Provider>
-            
 
             <img
               className={styles.mainImagesecond}
               src="/Images/productsmainpage/Components/prods.png"
               alt="image"
             />
-           <div    className={styles.backImagesecond}> <Player autoplay speed={1.5} loop src={orangeanime} style={{width:"700px", height:"700px"}}
-            ></Player></div>
+            <div className={styles.backImagesecond}>
+              <lottie-player
+                src="/Animation/backorangeproductpage.json"
+                background="transparent"
+                speed="1.5"
+                loop
+                autoplay
+                style={{
+                  width: "700px",
+                  heigth: "700px",
+                }}
+              ></lottie-player>
+            </div>
           </div>
         </div>
         <div className={styles.productright}>

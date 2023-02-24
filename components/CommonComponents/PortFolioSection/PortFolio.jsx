@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import styles from "./portfolio.module.css";
 import Slider from "react-slick";
-import { BsGlobe, BsApple, BsArrowRight } from "react-icons/bs";
-import { AiFillAndroid } from "react-icons/ai";
-import { IconContext } from "react-icons";
-// import { Link } from "react-router-dom";
 
 const PortFolio = () => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -53,8 +49,7 @@ const PortFolio = () => {
       backend: " Java, ASP.NET,",
       database: " CloudFront",
       website: "https://www.physicsfunshop.com/",
-      playStore:
-        "http://play.google.com/store/apps/details?id=",
+      playStore: "http://play.google.com/store/apps/details?id=",
     },
     {
       leftimg: "Images/portfolio/bbgroup.png",
@@ -228,7 +223,9 @@ const PortFolio = () => {
           <div
             key={i}
             className={
-              i === imageIndex ? `${styles.mainSlide} ${styles.activeMainSlide}` : styles.mainSlide
+              i === imageIndex
+                ? `${styles.mainSlide} ${styles.activeMainSlide}`
+                : styles.mainSlide
             }
           >
             <div className={styles.leftAnime}>
@@ -256,21 +253,20 @@ const PortFolio = () => {
                   <div className={styles.appstore}>
                     <span>Available On</span>
 
-                    <IconContext.Provider  value={{ className: styles.webIcon }}>
-                      <BsApple />
-                    </IconContext.Provider>
+                    <div className={styles.webIcon}>
+                      <i class="bi bi-apple"></i>
+                    </div>
 
                     <a href={item.playStore} target="_blank">
-                  
-                      <IconContext.Provider value={{ className: styles.webIcon }}>
-                        <AiFillAndroid />
-                      </IconContext.Provider>
+                      <div className={styles.webIcon}>
+                        <i class="bi bi-android2"></i>
+                      </div>
                     </a>
 
                     <a href={item.website} target="_blank">
-                      <IconContext.Provider value={{ className: styles.webIcon }}>
-                        <BsGlobe />
-                      </IconContext.Provider>
+                      <div className={styles.webIcon}>
+                        <i class="bi bi-globe2"></i>
+                      </div>
                     </a>
                   </div>
                 </div>
@@ -283,9 +279,9 @@ const PortFolio = () => {
 
                 <button className={styles.casestudy}>
                   View Case Study{" "}
-                  <IconContext.Provider value={{ className: styles.casestudyIcon }}>
-                    <BsArrowRight />
-                  </IconContext.Provider>
+                  <div className={styles.casestudyIcon}>
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
                 </button>
               </span>
             </div>
