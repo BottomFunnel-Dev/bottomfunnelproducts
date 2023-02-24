@@ -43,5 +43,64 @@
   .collaborationbannerbutton:hover {
     background-color: white;
     color: #ef4c23
-
   }
+
+  @media only screen and (min-width:0px) and (max-width:600px){
+.collaborationbannermainboxes{
+    height: fit-content;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 20px solid #ef4c23;
+}
+.collaborationbannerleftbox{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+     margin-top: 15%;
+ 
+}
+.collaborationbannerrightbox{
+    width: 95%;
+    height: fit-content;
+    margin-left:2%;
+    margin-top: -5%;
+    margin-right: 2%;
+    color: black;
+
+    padding: 5px;
+}
+
+.collaborationbannerrightbox>h1{
+    font-weight: 700;
+   font-size: 25px;
+   text-align: center;
+   
+}
+.collaborationbannerrightbox>p{
+   text-align: justify;
+   font-size: 16px;
+}
+
+.collaborationbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+    margin-left: 17%;
+  }
+  
+  .collaborationbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23
+  }
+
+
+}

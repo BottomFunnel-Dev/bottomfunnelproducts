@@ -1,0 +1,87 @@
+.messaginglowerbannermainboxes{
+    height: 40vh;
+    border: 1px solid transparent;
+    background: url("/Images/Messaging channels/components/Group 1000006017.webp");
+    background-repeat: no-repeat;
+    }
+    
+    .messaginlowerbannertxt{
+    color: white;
+     text-align: center;
+     margin-top: 5%;
+    }
+    
+    .lowerbannerbutton{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    width: 30%;
+    justify-content: space-around;
+    }
+    
+    .massaginglowerbannerbuttonone {
+    padding: 5px 5px;
+    border-radius: 100px;
+    width: 200px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    }
+      
+    .massaginglowerbannerbuttonone:hover {
+    background-color: white;
+    color:  #ef4c23;
+    }
+    
+    @media only screen and (min-width:0px) and (max-width:600px){
+    
+    .messaginglowerbannermainboxes{
+    height: 30vh;
+    border: 1px solid transparent;
+    background: url("/Images/Messaging channels/components/Group 1000006017.webp");
+    background-repeat: no-repeat;
+    }
+    
+    .messaginlowerbannertxt{
+    color: white;
+     text-align: center;
+     margin-top: 5%;
+    }
+    .messaginlowerbannertxt>h1{
+        font-size: 20px;
+    }
+    
+    .lowerbannerbutton{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    width: 70%;
+    justify-content: space-around;
+    }
+    
+    .massaginglowerbannerbuttonone {
+    padding: 5px 5px;
+    border-radius: 100px;
+    width: 150px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    }
+      
+    .massaginglowerbannerbuttonone:hover {
+    background-color: white;
+    color:  #ef4c23;
+    }
+    
+    
+    
+    }
+    

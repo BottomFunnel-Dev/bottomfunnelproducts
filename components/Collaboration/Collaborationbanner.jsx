@@ -14,7 +14,7 @@ export const Collaborationbanner = () => {
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "100%", height: "95%" }}
+          style={{ width: "100%", height: "95%" , objectFit:"contain"}}
             />
 
     </div>
