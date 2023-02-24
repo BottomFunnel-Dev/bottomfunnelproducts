@@ -32,8 +32,6 @@ export const Colaborationbuilding = () => {
 
     ]
 
-
-
   return (
     <div className={styles.colaborationbuildingmainboxes}>
     <h1>Building better ways to collaborate</h1>
