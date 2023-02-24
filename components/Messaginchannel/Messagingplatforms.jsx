@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import styles from "./Messagingplatforms.module.css"
 
-
 export const Messagingplatforms = () => {
 
     const messagingplatformsdata = [
@@ -53,15 +52,12 @@ export const Messagingplatforms = () => {
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" , objectFit:"contain",}}
           />
-  
-            
             </div>
 
             <div className={styles.messagingplatformsindirightbox}>
             <h3>{e.htxt}</h3>
             <p>{e.stxt}</p>
             </div>
-            
             
             </div>
         )

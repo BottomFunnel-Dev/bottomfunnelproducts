@@ -51,7 +51,7 @@ export const Messagincommunication = () => {
 <div className={styles.messagingexperience}>
 <h2>Provide seamless conversational experiences</h2>
 <p>Increase your agent productivity and improve your customer experience with contextual conversations across popular messaging applications.</p>
-
+<div className={styles.messagingexperienceimagebox}>
         <Image
           src={"/Images/Messaging channels/components/messaging channels.webp"}
           alt={"images"}
@@ -60,6 +60,8 @@ export const Messagincommunication = () => {
           sizes={"100vw"}
           style={{ width: "50%", height: "70%" ,objectFit:"contain"}}
         />
+</div>
+
 </div>
     </div>
   )
