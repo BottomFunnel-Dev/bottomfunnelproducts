@@ -6,12 +6,10 @@ export const Shopifybanner = () => {
   return (
     <div className={styles.shopifybannermainboxes}>
     <div className={styles.shopifybannertxtboxes}>
-    <h2>The only multichannel, conversational marketing CRM for shopify storefronts</h2>
+    <h1>The only multichannel, conversational marketing CRM for shopify storefronts</h1>
     <p>Attract engage and nature your customers using WhatsApp, SMS, Email & Chat</p>
     <button className={styles.shopifybannerbutton}>Get Started</button>
     </div>
-    
-    
     </div>
   )
 }
