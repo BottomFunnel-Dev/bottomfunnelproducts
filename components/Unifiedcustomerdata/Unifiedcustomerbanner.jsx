@@ -16,9 +16,7 @@ export const Unifiedcustomerbanner = () => {
     autoplay
   ></lottie-player>
 
-    
     </div>
-
     <div className={styles.unifiedcustomerbannerrightbox}>
     <h1>Complete <span>Customer view</span> in one unified record.</h1>
     <hr></hr>

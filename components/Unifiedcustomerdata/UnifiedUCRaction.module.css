@@ -1,10 +1,10 @@
 .unifieducrmainboxes{
-    height: fit-content;
-    margin-top: 5%;
+height: fit-content;
+margin-top: 5%;
 }
 
 .unifieducrmainboxes>h2{
-    text-align: center;
+text-align: center;
 }
 
 .ucractiondatamappingbox{
@@ -16,9 +16,39 @@ justify-content: space-around;
 }
 
 .ucractiondatamappingbox>div{
-    width: 25%;
-    height: 220px;
+width: 25%;
+height: 220px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 border-radius: 20px;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.unifieducrmainboxes{
+height: fit-content;
+margin-top: 5%;
+}
+
+.unifieducrmainboxes>h2{
+text-align: center;
+}
+
+.ucractiondatamappingbox{
+width: 90%;
+margin: auto;
+margin-top: 3%;
+display: flex;
+justify-content: space-around;
+}
+
+.ucractiondatamappingbox>div{
+width: 25%;
+height: 120px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 20px;
+}
+
+
+
 
 }
