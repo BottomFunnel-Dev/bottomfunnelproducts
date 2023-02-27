@@ -25,12 +25,12 @@ export default function bottomfunnelservice () {
         logo: false,
       }}
     />
-    <ProductsNavbar
+    {/* <ProductsNavbar
       navproductredux={{
         color: "black",
         logo: false,
       }}
-    /> 
+    />  */}
 <BottomFunnelServiceBanner/>
 <TrustedBy/>
 <BetterService/>
@@ -45,10 +45,6 @@ export default function bottomfunnelservice () {
       {/* <GetStarted/> */}
       <ReadyStarted />
       <ProductsFooter/>
-
-
-
-    
-    </div>
+     </div>
   )
 }
