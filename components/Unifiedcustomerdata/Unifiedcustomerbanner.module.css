@@ -46,3 +46,61 @@
     background-color: white;
     color:  #ef4c23;
   }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.unifiedcustomerbannermainboxes{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 20px solid #ef4c23 ;
+}
+
+.unifiedcustomerbennerleftbox{
+    width: 100%;
+}
+
+.unifiedcustomerbannerrightbox{
+    width: 100%;
+    height: fit-content;
+
+}
+
+.unifiedcustomerbannerrightbox>h1{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.unifiedcustomerbannerrightbox>h1>span{
+   color: #ef4c23;
+}
+
+.unifiedcustomerbannerrightbox>p{
+    font-size: 15px;
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+}
+
+.unifiedcustomerbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 200px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 22%;
+  }
+  
+  .unifiedcustomerbannerbutton:hover {
+    background-color: white;
+    color:  #ef4c23;
+  }
+
+
+}

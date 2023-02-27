@@ -1,6 +1,5 @@
 .unifiedpersonalizedmainboxes{
     height: fit-content;
-
 }
 .unifiedpersonalizeheadingbox{
 text-align: center;
@@ -96,3 +95,115 @@ font-weight: 700;
     background-color: white;
     color:  #ef4c23;
   }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.unifiedpersonalizedmainboxes{
+    height: fit-content;
+    margin-top: 10%;
+}
+.unifiedpersonalizeheadingbox{
+text-align: center;
+}
+
+.unifiedpersonalizeheadingbox>h1{
+font-size: 25px;
+}
+
+
+.unifiedpersonalizeheadingbox>hr{
+    width: 30%;
+margin: auto;
+color: #ef4c23;
+height: 30px;
+border-width: 2px;
+}
+
+.unifiedpersonalizeddataboxes{
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+}
+
+.unifiedpersonaldataindiin{
+    width: 35%;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.unifiedpersonaldataindiin>p{
+    text-align: justify;
+}
+
+.unifiedpersonalindiixon{
+    height: 30%;
+    width: 30%;
+    margin: 5%;
+}
+
+.unifiedpersonalanotherboxe{
+    height: 300px;
+    margin-top: 2%;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.unifiedpersonalflexleftbox{
+    width: 30%;
+    margin-top: 2%;
+}
+
+.unifiedpersonalflexrighttbox{
+    width: 50%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.unifiedpersonalflexrighttbox>div{
+    width: 35%;
+    margin: 1%;
+    display: flex;
+}
+
+.unifiedpersonalflexrighttbox>div>h4{
+margin-left: 3%;
+font-weight: 700;
+}
+
+.explorenowbutton{
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 13%;
+}
+
+.explorenowbutton {
+    padding: 10px 10px;
+    border-radius: 100px;
+    width: 180px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+
+  }
+  
+  .explorenowbutton:hover {
+    background-color: white;
+    color:  #ef4c23;
+  }
+
+
+
+
+
+}
