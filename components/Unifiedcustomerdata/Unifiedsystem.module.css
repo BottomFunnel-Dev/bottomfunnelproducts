@@ -1,0 +1,36 @@
+.unifiedsystemmainboxes{
+    height: fit-content;
+    margin-top: 2%;
+ border-bottom: 20px solid #ef4c23;
+}
+
+.unifiedsystemmainboxes>h2{
+    text-align: center;
+}
+
+.unifiedsystemdatamappingboxes{
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.unifiedsystemdataindi{
+    margin-left: 2%;
+    width: 100%;
+    margin-top: 5%;
+ 
+}
+.unifiedsystemdataindi>h4{
+    color: #ef4c23;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.unifiedsystemdataindi>p{
+    font-size: 20px;
+    text-align: justify;
+ 
+}

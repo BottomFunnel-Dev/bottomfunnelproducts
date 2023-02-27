@@ -1,0 +1,93 @@
+.Advantagesmaindiv{
+ 
+  margin-top: 3%;
+}
+.Advantagesmaindiv h2{
+    text-align: center;
+}
+
+.Advantagesboxdiv{
+    display:flex;
+    width: 90%;
+    flex-direction: row;
+    margin: auto;
+    
+    margin-top: 3%;
+}
+.Advantagesinnerboximage{
+    width: 70px;
+    height: 70px;
+ 
+    
+}
+.Advantagesinnerboxcontent{
+    /* border: 2px solid green; */
+    /* margin-top: 2%; */
+    padding-top: 15px;
+
+
+}
+.Advantagesinnerbox{
+     margin: auto;
+    width: 26%;
+    padding: 20px 20px 20px 20px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+   
+}
+
+.Advantagesinnerbox:hover{
+transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}
+
+
+@media  (max-width:1024px){
+    .Advantagesmaindiv{
+ 
+        margin-top: 3%;
+      }
+      .Advantagesmaindiv h2{
+          text-align: center;
+      }
+      
+      .Advantagesboxdiv{
+          display:flex;
+          width: 90%;
+          flex-direction: column;
+          margin: auto;
+          
+          margin-top: 3%;
+      }
+      .Advantagesinnerboximage{
+          width: 70px;
+          height: 70px;
+       
+          
+      }
+      .Advantagesinnerboxcontent{
+          /* border: 2px solid green; */
+          /* margin-top: 2%; */
+          padding-top: 15px;
+      
+      
+      }
+      .Advantagesinnerbox{
+           margin: auto;
+          width: 90%;
+          padding: 20px 20px 20px 20px ;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          border-radius: 10px;
+          margin-top: 2%;
+         
+      }
+      
+      .Advantagesinnerbox:hover{
+      transition: all 0.2s linear;
+      
+        transform: translateY(-10px);
+      }
+      
+    
+}
