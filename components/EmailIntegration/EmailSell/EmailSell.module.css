@@ -1,0 +1,23 @@
+.EmailSellmaindiv{
+    /* border: 2px so   lid green; */
+    margin: auto;
+    margin-top: 2%;
+    padding: 2%;
+    width: 90%;
+    text-align: center;
+}
+.EmailSelllistdiv{
+
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+}
+.EmailSelltopdiv{
+    background-color: whitesmoke;
+}
+
+.EmailSelllistdivinner{
+    /* border: 2px solid blue; */
+    width: 47%;
+}

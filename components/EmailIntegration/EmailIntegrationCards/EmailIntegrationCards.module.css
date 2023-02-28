@@ -1,0 +1,40 @@
+
+.EmailIntegrationCardsinner{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.EmailIntegrationCardsmainbox{
+    display: flex;
+    flex-direction: row;
+    /* width: 90%; */
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.EmailIntegrationCardsmainbox1{
+    display: flex;
+    flex-direction: row-reverse;
+    /* width: 90%; */
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.EmailIntegrationCardsmaincontent{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 5%;
+}
+.EmailIntegrationCardsimage{
+    width: 35%;
+}
+.EmailIntegrationCardsmaincontent1{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-right: 5%;
+}

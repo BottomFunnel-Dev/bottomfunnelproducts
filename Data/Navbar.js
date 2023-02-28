@@ -1069,7 +1069,7 @@ export const product3 = [
   {
     dropContent: "Analytics",
     navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "android",
+    path: "/analyticsoffeatures",
   },
   {
     dropContent: "Neo Admin Center",
@@ -1311,7 +1311,7 @@ export const salesProduct = [
 export const salesFeatures = [
   {
     dropContent: "Contact Management",
-    path: "/",
+    path: "/contactmanagement",
   },
   {
     dropContent: "Cloud Telephony",
@@ -1327,7 +1327,7 @@ export const salesFeatures = [
   },
   {
     dropContent: "Email Integration",
-    path: "",
+    path: "/emailintegration",
   },
   {
     dropContent: "Olly AI",
@@ -1335,7 +1335,7 @@ export const salesFeatures = [
   },
   {
     dropContent: "Mobile",
-    path: "",
+    path: "/mobilesales",
   },
   {
     dropContent: "Sales Reports",
@@ -1381,15 +1381,15 @@ export const salesIndustries = [
   },
   {
     dropContent: "Insurance",
-    path: "insurancesales",
+    path: "/insurancesales",
   },
   {
     dropContent: "Logistics",
-    path: "logistics-sales",
+    path: "/logistics-sales",
   },
   {
     dropContent: "Agency",
-    path: "agency-sales",
+    path: "/agency-sales",
   },
   {
     dropContent: "Retail",

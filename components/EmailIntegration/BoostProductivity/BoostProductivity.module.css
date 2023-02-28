@@ -1,0 +1,14 @@
+.BoostProductivitymaindiv{
+    /* border: 2px solid ; */
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+
+}
+.BoostProductivitymaindiv hr{
+    width: 50%;
+    height: 4%;
+    margin: auto;
+    color: red;
+}
