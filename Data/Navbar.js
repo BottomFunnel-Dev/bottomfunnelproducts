@@ -1074,7 +1074,7 @@ export const product3 = [
   {
     dropContent: "Neo Admin Center",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "ios",
+    path: "neoAdmin-Center",
   },
   {
     dropContent: "Collaboration",

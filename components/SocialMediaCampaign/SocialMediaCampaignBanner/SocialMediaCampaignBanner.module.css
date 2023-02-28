@@ -1,0 +1,35 @@
+.socialMediaBannerMaindiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90vh;
+}
+.socialMediaBannerImage{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.socialMediaBannerText{
+    /* border: 2px solid green; */
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.socialMediaBannerText>button{
+    background-color: #EC4D23;
+    width: 25%;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.socialMediaBannerText>button:hover{
+    background-color: white;
+    color: #EC4D23;
+    border: 1px solid #EC4D23;
+    font-weight: 500;
+}

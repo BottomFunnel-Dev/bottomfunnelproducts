@@ -1,0 +1,40 @@
+.neoAdminBannerDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.neoAdminBannerText{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 70vh;
+    margin-top: 5%;
+}
+.neoAdminBannerContent{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+}
+.neoAdminBannerContent>button{
+    background-color: #EE4C23;
+    color: white;
+    border: none;
+    height: 35px;
+    font-size: 15px;
+    width: 25%;
+    border-radius: 5px;
+}
+.neoAdminBannerContent>button:hover{
+    background-color: white;
+    color: #EE4C23;
+    border: 1px solid #EE4C23;
+    font-weight: 500;
+}
+.neoAdminBannerImage{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 60vh;
+    margin-top: 8%;
+}

@@ -1,0 +1,80 @@
+.neoAdminEnterpriseMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+.neoAdminEnterprisePassword{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: row;
+}
+.neoAdminEnterpriseHeading{
+    /* border: 2px solid red; */
+    text-align: center;
+    
+}
+.neoAdminEnterpriseImage{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 70vh;
+    /* margin-top: 3%; */
+    margin-left: 5%;
+}
+.neoAdminEnterpriseContent{
+    margin-top: 2%;
+}
+.neoAdminEnterpriseText{
+    /* border: 2px solid red; */
+    width: 50%; 
+    margin-top: 9%;
+    margin-left: 2%;
+}
+
+.neoAdminEnterpriseText>h1{
+    margin: auto;
+    font-size: 45px;
+}
+.neoAdminEnterpriseText>p{
+    font-size: 16px;
+}
+.neoAdminLink{
+    color: #EE4C23;
+}
+.neoAdminEnterprisePassword1{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.neoAdminEnterpriseImage1{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 60vh;
+    margin-left: 3%;
+}
+.neoAdminEnterpriseText1{
+    /* border: 2px solid red; */
+    width: 40%; 
+    margin-top: 9%;
+    margin-left: 8%;
+}
+
+.neoAdminEnterpriseText1>h1{
+    margin: auto;
+    font-size: 45px;
+}
+.neoAdminEnterpriseText1>p{
+    font-size: 16px;
+}
+.neoAdminEnterpriseImage3{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 70vh;
+    /* margin-top: 3%; */
+    margin-left: 5%;
+}
