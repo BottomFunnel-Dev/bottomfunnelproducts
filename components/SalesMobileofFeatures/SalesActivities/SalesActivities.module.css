@@ -1,0 +1,51 @@
+.SalesActivitiesmaindiv{
+    /* border: 2px solid green; */
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+.SalesActivitiesinnerdiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+
+}
+.SalesActivitiesinnerdivbox{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.SalesActivitiesinnerdivboxcontent{
+    width: 40%;
+    margin-left: 5%;
+}
+.SalesActivitiesinnerdivboximage{
+    width: 42%;
+}
+
+.SalesActivitiesinnerdivboxreverse{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.SalesActivitiesinnerdivboxcontentreverse{
+    width: 40%;
+    /* border: 2px solid; */
+    /* margin-right: 7%; */
+}
+
+.SalesActivitiesinnerdivboximagereverse{
+    /* border: 2px solid green; */
+    width: fit-content;
+    width: 21%;
+}
