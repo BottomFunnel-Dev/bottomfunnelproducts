@@ -1,0 +1,62 @@
+.landingFatureParent{
+    margin-top: 5%;
+   display: flex;
+   flex-direction: column;
+    
+    align-items: center;
+    align-content: center;
+   
+}
+.landingFatureOnlyChild{
+    display: flex;
+    width: 100%;
+  margin-top: 1%;
+  background-color: whitesmoke;
+}
+.landingFatureImage{
+    width: 50%;
+    padding: 5%;
+    
+    margin-left: 10%;
+}
+.landingFatureContent{
+    width: 50%;
+    padding: 5%;
+    
+    margin-right: 10%;
+}
+@media(max-width:780px){
+    .landingFatureParent{
+        margin-top: 5%;
+       display: flex;
+       flex-direction: column;
+        
+        align-items: center;
+        align-content: center;
+       text-align: center;
+       
+    }
+    .landingFatureParent>h1{
+        width: 90%;
+    }
+    .landingFatureOnlyChild{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      margin-top: 1%;
+      background-color: whitesmoke;
+    }
+    .landingFatureImage{
+        width: 100%;
+        padding: 5%;
+       
+        margin-left: 0%;
+    }
+    .landingFatureContent{
+        width: 100%;
+        padding: 5%;
+        
+        margin-right: 10%;
+    } 
+   
+}

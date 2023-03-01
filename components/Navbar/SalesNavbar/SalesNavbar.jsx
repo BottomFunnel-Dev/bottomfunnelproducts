@@ -111,7 +111,7 @@ export const SalesNavbar = ({ navproductredux }) => {
       }}
     >
       <div className={navsales.deskLogo}>
-        <img src="/Images/Logos/bottomfunnelsales.png" />
+        <img src="/Images/navbar/product/bottomFunnnelSales.png" />
         <h5>Bottom Funnel Sales</h5>
       </div>
       <div className={navsales.deskList}>

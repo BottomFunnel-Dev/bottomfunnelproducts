@@ -1,0 +1,56 @@
+.CPQBannermaindiv{
+    /* border: 2px solid  red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.CPQBannerimagediv{
+    /* border: 2px solid green; */
+    width: 40%;
+}
+.CPQBannercontent{
+    /* border: 2px solid red; */
+    width: 35%;
+    margin-right: 3%;
+}
+.CPQBannercontent p{
+    font-size: 18px;
+}
+.CPQBannerbuttonone{
+    border: 2px solid;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    color: white;
+    border: none;
+    margin-top: 2%;
+}
+
+.CPQBannerbuttonone:hover{
+    background: transparent;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+
+}
+.CPQBannerbuttontwo{
+    border: 1px solid #ef4c23;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ef4c23;
+     margin-top: 2%;
+    /* border: none; */
+}
+.CPQBannerbuttontwo:hover{
+    border: none;
+    background-color: #ef4c23;
+    color: white;
+}
