@@ -1,0 +1,108 @@
+.allFeaturesDriveMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 170vh;
+    margin-top: 2%;
+}
+.allFeaturesHeading{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.allFeaturesContainer{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: 150vh;
+}
+.allFeaturesContainerBoxes{
+    /* border: 2px solid green; */
+    width: 85%;
+    height: 120vh;
+    background-color: #FDBB4D;
+    border-radius:0px 15px 15px 0px;
+    position: relative;
+}
+.allFeatureContainerDiv{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 3%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.allFeatureDataContainers{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.allFeatureDataContainers3{
+    /* border: 2px solid gold; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 2%;
+}
+.allFeaturesBoxes{
+    /* border: 2px solid red; */
+    width: 22%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.allFeaturesIconsHeading{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+}
+.allFeaturesImage1{
+    margin-left: 50%;
+    height: 60px;
+}
+.allFeaturesImage2{
+    margin-left: 50%;
+    height: 70px;
+    
+}
+.allFeaturesImage3{
+    margin-left: 20%;
+    height: 70px;
+}
+.allFeaturesImage4{
+    margin-left: 30%;
+    height: 70px;
+}
+.allFeaturesImage5{
+    margin-left: 5%;
+    height: 60px;
+    width: 60px;
+}
+.allFeaturesImage6{
+    margin-left: 2%;
+    height: 70px;
+    width: 80px;
+}
+.allFeaturesBoxes1{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}

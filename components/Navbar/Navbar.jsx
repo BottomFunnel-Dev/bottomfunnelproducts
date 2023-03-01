@@ -273,8 +273,8 @@ const Navbar = ({ navredux, productMount }) => {
               className={navstyle.callToAction}
               onClick={() => router.push("https://service.bottomfunnel.net/")}
               style={{
-                color: scroll ? "white" : "#ef4c23",
-                background: scroll ? "#ef4c23" : "white",
+                color: scroll ? "white" : "white",
+                background: scroll ? "#ef4c23" : "#ef4c23",
               }}
             >
               Services
