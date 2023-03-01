@@ -10,6 +10,7 @@ import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/
 import { GetStarted } from '../../components/ProductsNewPage/GetStarted/GetStarted'
 import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
 import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 
 export default function BottomFunnelOmnichannel () {
     return (
@@ -32,14 +33,17 @@ export default function BottomFunnelOmnichannel () {
         
 <BottomFunnelOmnichannelBanner/>
 <OmnichannelSolution/>
-<TrustedBy/>
+{/* <TrustedBy/> */}
 <OmniChannelSlids/>
 
-<StoriesSection/>
+{/* <StoriesSection/> */}
+      
+<Testimonial />
       <TrustedBy/>
+      <ReadyStarted />
       <LifeBottomFunnel/>
       {/* <GetStarted/> */}
-      <ReadyStarted />
+     
       <ProductsFooter/>
     
       

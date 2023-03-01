@@ -4,6 +4,7 @@ import Setup from "../../components/BottomfunnelContact/Homepage/setup/Setup";
 import Support from "../../components/BottomfunnelContact/Homepage/support/Support";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
@@ -30,9 +31,11 @@ export default function index() {
       <Banner />
       <Support/>
       <Setup/>
-      <ReadyStarted/>
+     
       <Testimonial/>
       <TrustedBy/>
+      <ReadyStarted/>
+      <LifeBottomFunnel />
       <ProductsFooter/>
     </div>
   );
