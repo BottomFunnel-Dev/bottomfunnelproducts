@@ -1,22 +1,20 @@
 import React from "react";
 import styles from "./TalentProfiles.module.css";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { FaLinkedin } from "react-icons/fa";
-import { IconContext } from "react-icons/lib";
 import Slider from "react-slick";
 
 export const TalentProfiles = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 4,
     arrows: false,
     dragable: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -40,7 +38,7 @@ export const TalentProfiles = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centermode:true,
+          centermode: true,
         },
       },
     ],
@@ -174,7 +172,7 @@ export const TalentProfiles = () => {
                 technicalscore,
                 profileLink,
               },
-              idx
+              idx,
             ) => (
               <div className={styles.sliderinner} key={idx}>
                 <div className={styles.innnercontent}>
@@ -185,13 +183,9 @@ export const TalentProfiles = () => {
 
                     <div className={styles.productsTalentProfilesLinkdinDiv}>
                       <a target="_blank" href={profileLink}>
-                        <IconContext.Provider
-                          value={{
-                            className: styles.talentedProfilesLinkedinIcons,
-                          }}
-                        >
-                          <FaLinkedin />
-                        </IconContext.Provider>
+                        <i
+                          className={`bi bi-linkedin ${styles.talentedProfilesLinkedinIcons}`}
+                        ></i>
                       </a>
                     </div>
                   </div>
@@ -218,7 +212,7 @@ export const TalentProfiles = () => {
                   </button>
                 </div>
               </div>
-            )
+            ),
           )}
         </Slider>
       </div>

@@ -1,0 +1,74 @@
+.neoAdminBillingMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.neoAdminBillingPassword{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: row;
+}
+.neoAdminBillingHeading{
+    /* border: 2px solid red; */
+    text-align: center;
+    
+}
+.neoAdminBillingImage{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 70vh;
+    /* margin-top: 3%; */
+    margin-left: 5%;
+}
+.neoAdminBillingContent{
+    margin-top: 2%;
+}
+.neoAdminBillingText{
+    /* border: 2px solid red; */
+    width: 50%; 
+    margin-top: 9%;
+    margin-left: 2%;
+}
+
+.neoAdminBillingText>h1{
+    margin: auto;
+    font-size: 45px;
+}
+.neoAdminBillingText>p{
+    font-size: 16px;
+}
+.neoAdminLink{
+    color: #EE4C23;
+}
+.neoAdminBillingPassword1{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.neoAdminBillingImage1{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 60vh;
+    margin-left: 3%;
+}
+.neoAdminBillingText1{
+    /* border: 2px solid red; */
+    width: 40%; 
+    margin-top: 9%;
+    margin-left: 8%;
+}
+
+.neoAdminBillingText1>h1{
+    margin: auto;
+    font-size: 45px;
+}
+.neoAdminBillingText1>p{
+    font-size: 16px;
+}

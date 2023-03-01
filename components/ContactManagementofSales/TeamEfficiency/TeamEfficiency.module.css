@@ -1,0 +1,25 @@
+.TeamEfficiencyinnerdiv{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+   
+    align-items: center;
+}
+.TeamEfficiencyinnerdivimage{
+    /* border: 2px solid yellow; */
+    width: 40%;
+}
+.TeamEfficiencyinnerdivcontent{
+    width: 40%;
+    margin-left: 5%;
+}
+.TeamEfficiencymaindiv{
+    margin-top: 3%;
+    background-color: whitesmoke;
+    padding-top: 2%;
+}
+.TeamEfficiencymaindiv h2{
+    text-align: center;
+}

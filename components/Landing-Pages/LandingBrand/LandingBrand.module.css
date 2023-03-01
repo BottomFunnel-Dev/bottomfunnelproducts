@@ -1,0 +1,135 @@
+.LandingBrandParent{
+    margin-top: 5%;
+    
+    width: 90%;
+    margin-left: 5%;
+   margin-bottom: 5%;
+}
+.Landingstrip{
+    margin-top: 3%;
+   height: 15px;
+   background-color: rgb(165, 91, 42);
+   border-radius: 10px;
+}
+.LandingBrandChild{
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+  align-content: center;
+}
+.LandingBrandChild>div{
+    
+   width: 20%;
+   margin-left: 5%;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 40px;
+  padding: 1%;
+}
+.LandingBrandChild>div:hover{
+    width: 21%;
+    margin-left: 4%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   border-radius: 40px;
+   padding: 1%;
+   font-weight: bold;
+}
+
+.LandingBrandfilterChild{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 2%;
+    padding: 2%;
+}
+.LandingBrandButtons{
+    display: flex;
+   
+   justify-content: space-between;
+    
+}
+.LandingBrandButtons>button{
+    width: 100px;
+    align-content: space-evenly;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.LandingBrandButtons>button:hover{
+    width: 120px;
+    background-color: #c124c1;
+    border-radius: 10px;
+}
+
+.LandingBrandPhotos>div{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+@media(max-width:780px){
+    .LandingBrandParent{
+        margin-top: 5%;
+      
+        width: 90%;
+        margin-left: 5%;
+       margin-bottom: 5%;
+       text-align: center;
+    }
+    .LandingBrandParent>h1{
+        text-align: center; 
+    }
+    .Landingstrip{
+        margin-top: 3%;
+       height: 15px;
+       background-color: brown;
+       border-radius: 10px;
+    }
+    .LandingBrandChild{
+        
+        display: flex;
+        flex-direction: column;
+       align-content: center;
+       align-items: center;
+    }
+    .LandingBrandChild>div{
+        margin-top: 2%;
+       width: 50%;
+       height: 100px;
+       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+      padding: 2%;
+    }
+    .LandingBrandChild>div:hover{
+        width: 21%;
+        margin-left: 4%;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+       border-radius: 40px;
+       padding: 1%;
+       font-weight: bold;
+    } 
+    .LandingBrandButtons{
+        display: flex;
+       
+       justify-content: space-between;
+        
+    }
+    .LandingBrandButtons>button{
+        width: 100px;
+        align-content: space-evenly;
+        background-color: whitesmoke;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    }
+    .LandingBrandButtons>button:hover{
+        width: 120px;
+        background-color: #c124c1;
+        border-radius: 10px;
+    }
+    
+    .LandingBrandPhotos>div{
+        
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1%;
+    }
+
+}

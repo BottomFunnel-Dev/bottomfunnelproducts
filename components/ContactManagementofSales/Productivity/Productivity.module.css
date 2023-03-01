@@ -1,0 +1,37 @@
+.Productivitymaindiv{
+    /* border: 2px solid green; */
+    margin-top: 3%;
+}
+.Productivitymaindiv h2{
+    text-align: center;
+}
+
+
+
+.Productivityinnercards{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid; */
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+.Productivitymaindivcards{
+    /* border: 2px solid yellow; */
+    margin: auto;
+    border-radius: 10px;
+    width: 26%;
+    padding: 20px 10px 20px 10px ;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Productivitymaindivcards h4{
+    color: #ef4c23;
+}
+
+.Productivitymaindivcards:hover{
+    transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}

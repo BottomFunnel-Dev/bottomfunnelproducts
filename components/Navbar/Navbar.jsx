@@ -189,7 +189,10 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={homeHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                About
+                <p>About</p>
+                <i
+                  className={aboutH ? "bi bi-chevron-up" : "bi bi-chevron-down"}
+                ></i>
               </li>
 
               <li
@@ -197,7 +200,12 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={solHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                Features
+                <p>Features</p>
+                <i
+                  className={
+                    solution ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li
@@ -205,7 +213,12 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={productHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                Products
+                <p>Products</p>
+                <i
+                  className={
+                    product ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li
@@ -213,7 +226,12 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={platformHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                Platform
+                <p>Platform</p>
+                <i
+                  className={
+                    platform ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li
@@ -221,7 +239,12 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={resHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                Resources
+                <p>Resources</p>
+                <i
+                  className={
+                    resource ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li
@@ -247,12 +270,8 @@ const Navbar = ({ navredux, productMount }) => {
             </button>
 
             <button
-              className={navstyle.callToAction}
+              className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
               onClick={() => router.push("https://service.bottomfunnel.net/")}
-              style={{
-                color: scroll ? "white" : "#ef4c23",
-                background: scroll ? "#ef4c23" : "white",
-              }}
             >
               Services
             </button>

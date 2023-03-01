@@ -1,0 +1,54 @@
+.SalesMobileofFeaturesbannermaindiv{
+    /* border: 2px solid yellow; */
+display: flex;
+flex-direction: row;
+height: 90vh;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.SalesMobileofFeaturesbannercontent{
+    /* border: 2px solid green; */
+    width: 35%;
+
+}
+.SalesMobileofFeaturesbannercontent p{
+    font-size: 18px;
+}
+.SalesMobileofFeaturesbannerimage{
+    /* border: 2px solid red; */
+    width: 45%;
+}
+
+.SalesMobileofFeaturesbannerbutton{
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.SalesMobileofFeaturesbannerbutton:hover{
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+    background-color: white;
+}
+
+.SalesMobileofFeaturesbannermaindiv1{
+    /* border: 2px solid yellow; */
+display: flex;
+flex-direction: row-reverse;
+height: fit-content;
+justify-content: space-evenly;
+align-items: center;
+}
+.SalesMobileofFeaturesbannercontenttwo{
+    width: 40%;
+}
+
+.SalesMobileofFeaturesbannerimagetwo{
+    width: 28%;
+}

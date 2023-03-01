@@ -25,15 +25,17 @@
 }
 
 .slidingDiv {
-  width:100%;
+  width: 100%;
   margin: auto;
   height: 350px;
   background-color: #ef4c23;
   display: flex;
+  align-items: center;
   justify-content: center;
   border-radius: 10px;
  
 }
+
 .imgpart {
   width: 40%;
   height: 100%;
@@ -52,14 +54,15 @@
 
 
 .productBannerPlayIcon {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 48%;
-    font-size: 65px;
-    left: 50%;
-    z-index: 3;
-    color: white;
-  }
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 48%;
+  font-size: 65px;
+  left: 50%;
+  z-index: 3;
+  color: white;
+}
+
 .textpart {
   width: 57%;
   /* height: 100%; */
@@ -70,9 +73,10 @@
   /* background-color: pink; */
  
 }
+
 .textpart>h6 {
-text-decoration: underline;
-text-underline-offset: 8px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .nextButton {
@@ -86,7 +90,7 @@ text-underline-offset: 8px;
   border: none;
 }
 
-.prevButton{
+.prevButton {
   padding: 10px;
   position: absolute;
   top: 38%;
@@ -100,39 +104,41 @@ text-underline-offset: 8px;
 
 
 @media (max-width:480px) {
-.testimonials{
-  height: fit-content;
-}
-
-.sliderDivcomp{
-  width: 92%;
-  height: fit-content;
-}
-
-  .mainsliderDiv{
+  .testimonials {
     height: fit-content;
   }
 
-  .slidingDiv{
+  .sliderDivcomp {
+    width: 92%;
+    height: fit-content;
+  }
+
+  .mainsliderDiv {
+    height: fit-content;
+  }
+
+  .slidingDiv {
     height: fit-content;
     flex-direction: column;
   }
 
-  .imgpart{
+  .imgpart {
     width: 100%;
   }
 
-  .textpart{
+  .textpart {
     width: 100%;
     height: 300px;
     padding: 0 10px;
     box-sizing: border-box;
   }
-  .textpart>h3{
-  margin: 0;
+
+  .textpart>h3 {
+    margin: 0;
   }
-  .textpart>h6{
-  margin: 0;
+
+  .textpart>h6 {
+    margin: 0;
   }
 
 

@@ -1,0 +1,98 @@
+.ContactManagementBannermaindiv{
+    border-bottom: 10px solid #ef4c23;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+
+}
+.ContactManagementBannerimage{
+    width: 40%;
+  
+}
+.ContactManagementBannerimagecontent{
+    /* border: 2px solid red ; */
+    width: 35%;
+}
+.ContactManagementBannerimagecontent h1{
+    width: 80%;
+}
+.ContactManagementBannerimagecontent h1 span{
+    color: #ef4c23;
+}
+
+.ContactManagementBannerimagecontent p{
+    width: 80%;
+}
+.ContactManagementBannerbutton{
+    background-color: #ef4c23;
+    color: white;
+    width: 220px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 10px;
+border: none;
+}
+.ContactManagementBannerbutton:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+}
+
+@media (max-width:1024px){
+    .ContactManagementBannermaindiv{
+        border-bottom: 10px solid #ef4c23;
+        background-color: whitesmoke;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        
+    
+    }
+    .ContactManagementBannerimage{
+        width: 90%;
+      
+    }
+    .ContactManagementBannerimagecontent{
+        /* border: 2px solid red ; */
+        width: 90%;
+        text-align: center;
+    }
+    .ContactManagementBannerimagecontent h1{
+        width: 100%;
+    }
+    .ContactManagementBannerimagecontent h1 span{
+        color: #ef4c23;
+    }
+    
+    .ContactManagementBannerimagecontent p{
+        width:100%;
+    }
+    .ContactManagementBannerbutton{
+        background-color: #ef4c23;
+        color: white;
+        width: 220px;
+        font-size: 18px;
+        font-weight: 600;
+        height: 40px;
+        border-radius: 10px;
+    border: none;
+    }
+    .ContactManagementBannerbutton:hover{
+        background-color: white;
+        color: #ef4c23;
+        border: 1px solid #ef4c23;
+    }
+    
+    
+}
