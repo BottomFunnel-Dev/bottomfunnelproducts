@@ -1,0 +1,16 @@
+.ReletionshipBuildmaindiv{
+    width: 88%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.ReletionshipBuildmaindivimage{
+    width: 60%;
+    margin: auto;
+    /* height: 40%; */
+}
+
+.ReletionshipBuildmaindiv p{
+    text-align: justify;
+}
