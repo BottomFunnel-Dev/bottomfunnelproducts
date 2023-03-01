@@ -8,9 +8,15 @@
 }
 .LandingSalesPerent>button{
     border-radius: 10px;
-    background-color: rgb(215, 74, 22);
-    width: 150px;
+    margin-top: 2%;
+    background-color: #EF4C23;
+    width: 200px;
+    height: 50px;
     border: none;
+}
+.LandingSalesPerent>button:hover{
+    background-color: whitesmoke;
+    color: #EF4C23;
 }
 @media(max-width:780px){
     .LandingSalesPerent>h1{

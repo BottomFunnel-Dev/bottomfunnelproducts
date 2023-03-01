@@ -1,0 +1,132 @@
+.hr{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .GuideToShopFyBannerParent{
+     
+     
+      height: 100vh;
+      display: flex;
+     
+   padding: 5%;
+  
+   padding-left: 7%;
+  }
+  .GuideToShopFyBannerone{
+     
+      width: 50%;
+     
+  }
+  .GuideToShopFyBannertwo{
+    
+      width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+   
+    margin-bottom: 70px;
+    padding-top: 12%;
+ 
+   padding-left: 5%;
+     
+  }
+  .GuideToShopFyBannertwo>h1{
+     
+      width: 75%;
+      font-weight: 700;
+      
+  }
+  .GuideToShopFyBannertwo>p{
+     
+      margin-top: 1%;
+      width: 70%;
+     
+    color: #393939;
+  }
+  .GuideToShopFyBannertwo>button{
+      width: 200px;
+      height: 40px;
+      margin-top: 3%; 
+      display: inline-block;
+      background-color: #EF5122;
+      padding: 5px;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      text-decoration: white;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    
+    
+  }
+  .GuideToShopFyBannertwo>button:hover{
+    background-color: white;
+    color: #ef4c23;
+    
+  }
+  @media(max-width:780px){
+    .GuideToShopFyBannerParent{
+      width: 100%;
+      height: auto;
+      display: flex;
+     background-color:whitesmoke;
+     flex-direction: column;
+    padding: 0px;
+  
+  }
+  .GuideToShopFyBannerone{
+     
+      width: 100%;
+      padding-right: 0px;
+      margin-right: 0px;
+     
+  }
+  .GuideToShopFyBannertwo{
+    padding-right: 0px;
+    margin-right: 0px;
+      width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+   
+    margin-bottom: 70px;
+    padding-top: 10%;
+   margin-left: 0%;
+   text-align: center;
+   align-items: center;
+     
+  }
+  .GuideToShopFyBannertwo>h1{
+     
+      width: 75%;
+      font-weight: 700;
+      font-size: 32;
+  }
+  .GuideToShopFyBannertwo>p{
+     
+      margin-top: 2%;
+      width: 70%;
+      font-weight: 700;
+      font-size: 20;
+    color: #393939;
+  
+    
+  }
+  .GuideToShopFyBannertwo>button{
+      width: 200px;
+      height: 40px;
+      margin-top: 5%; 
+      display: inline-block;
+      background-color: #EF5122;
+      padding: 5px;
+      text-align: center;
+      border: none;
+      border-radius: 20px;
+      text-decoration: white;
+    color: aliceblue;
+    
+  }
+  }
+  
