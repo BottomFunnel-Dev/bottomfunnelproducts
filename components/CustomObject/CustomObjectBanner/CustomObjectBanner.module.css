@@ -1,0 +1,135 @@
+.hr{
+    margin: 0px;
+    padding: 0px;
+  }
+  .line{
+    width: 100%;
+    height: 20px;
+    background-color: #ef4c23;
+  }
+  .CustomObjectParent{
+     
+     
+      height: 75vh;
+      display: flex;
+     background-color:whitesmoke;
+   
+  }
+  .CustomObjectone{
+     
+      width: 40%;
+      padding: 2%;
+      margin-left: 5%;
+  }
+  .CustomObjecttwo{
+     
+      width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+   
+    margin-bottom: 70px;
+    padding-top: 7%;
+   margin-left: 5%;
+   
+     
+  }
+  .CustomObjecttwo>h1{
+     
+      width: 75%;
+      font-weight: 700;
+      
+  }
+  .CustomObjecttwo>p{
+     
+      margin-top: 1%;
+      width: 70%;
+     
+    color: #393939;
+  }
+  .CustomObjecttwo>button{
+      width: 200px;
+      height: 40px;
+      margin-top: 3%; 
+      display: inline-block;
+      background-color: #EF5122;
+      padding: 5px;
+      text-align: center;
+      border: none;
+      border-radius: 20px;
+      text-decoration: white;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    
+    
+  }
+  .CustomObjecttwo>button:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+  }
+  @media(max-width:780px){
+    .CustomObjectParent{
+      width: 100%;
+      height: auto;
+      display: flex;
+     background-color:whitesmoke;
+     flex-direction: column;
+   
+  
+  }
+  .CustomObjectone{
+     
+      width: 100%;
+      padding-right: 0px;
+      margin-right: 0px;
+     
+  }
+  .CustomObjecttwo{
+    padding-right: 0px;
+    margin-right: 0px;
+      width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+   
+    margin-bottom: 70px;
+    padding-top: 10%;
+   margin-left: 0%;
+   text-align: center;
+   align-items: center;
+     
+  }
+  .jCustomObjecttwo>h1{
+     
+      width: 75%;
+      font-weight: 700;
+      font-size: 32;
+  }
+  .CustomObjecttwo>p{
+     
+      margin-top: 2%;
+      width: 70%;
+      font-weight: 700;
+      font-size: 20;
+    color: #393939;
+  
+    
+  }
+  .CustomObjecttwo>button{
+      width: 200px;
+      height: 40px;
+      margin-top: 5%; 
+      display: inline-block;
+      background-color: #EF5122;
+      padding: 5px;
+      text-align: center;
+      border: none;
+      border-radius: 20px;
+      text-decoration: white;
+    color: aliceblue;
+    
+  }
+  }
+  

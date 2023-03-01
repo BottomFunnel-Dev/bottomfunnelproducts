@@ -1,0 +1,12 @@
+.LandingTraficParent{
+  
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   
+   
+    text-align: center;
+    margin-left: 5%;
+    
+}
