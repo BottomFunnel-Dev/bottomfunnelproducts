@@ -1,0 +1,37 @@
+.SuitFeatureMain{
+    width: 100%;
+    height: fit-content;
+
+}
+.SuitFeaturediv{
+    width: 100%;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 5%;
+
+}
+.SuitFeaturebox{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-left: 2.5%;
+    margin-top: 7%;
+    padding: 10px;
+}
+.SuitFeatureimg{
+width: 45%;
+margin-top: 3%;
+height: 300px;
+}
+.SuitFeatureimg>img{
+height: fit-content;
+}
+.SuitFeaturetext{
+    width: 50%;
+    margin-top: 3%;
+}
+.SuitFeaturetext>h5{
+font-weight: 700;
+padding-bottom: 10px;
+}
