@@ -30,23 +30,34 @@ height: 420px;
 }
 .WhatCustomObjectonediv>div{
     width: 50%;
-   
+    height: 100%;
     padding-right:5% ;
+   
     
+}
+.WhatCustomObjectonecontenct{
+    padding-top: 9%;
+}
+.bannerimageone{
+    width: 50%;
+    height: 100%;
+    padding-right:5% ;
+   
 }
 .WhatCustomObjectsecdiv{
     display: flex;
-    padding: 1%;
-    height: 420px;
-   
-    align-items: center;
-    padding-left: 10%;
+padding: 1%;
+
+align-items: center;
+padding-left: 10%;
+height: 420px;
     
     }
     .WhatCustomObjectsecdiv>div{
         width: 50%;
-        
-        padding-right:5% ;
+    height: 100%;
+    padding-right:5% ;
+   
        
     }
     .WhatCustomObjectthirddiv{
@@ -54,13 +65,18 @@ height: 420px;
         padding: 1%;
         
         align-items: center;
-        height: 420px;
-        
         padding-left: 10%;
+        height: 420px;
         }
         .WhatCustomObjectthirddiv>div{
             width: 50%;
-           
+            height: 100%;
             padding-right:5% ;
            
+        }
+        .JourneyPersonalizeddiv{
+            padding-top: 9%;  
+        }
+        .WhatCustomObjectthirdcontenct{
+            padding-top: 9%;  
         }
