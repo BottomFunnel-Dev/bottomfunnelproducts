@@ -70,7 +70,7 @@ export const AllFeaturesDrive = () => {
                             </div>
                             <div className={styles.allFeaturesText}>
                                 <p>
-                                    Create high-performing campaigns on whatsapp.SEnd one-to-one messages or set up
+                                    Create high-performing campaigns on whatsapp.Send one-to-one messages or set up
                                     bots to enagage and support your customers.
                                 </p>
                             </div>

@@ -103,6 +103,22 @@
   border: none;
 }
 
+.buttonGradientAnimation {
+  background: linear-gradient(to right, #f7cfc4, #fed200, #f7cfc4);
+  background-size: 200%;
+  animation: gradientAnimation 2s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
 .productIcon {
   font-size: 30px;
 }

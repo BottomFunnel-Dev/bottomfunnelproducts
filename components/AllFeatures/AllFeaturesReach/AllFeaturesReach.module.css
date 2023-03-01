@@ -1,0 +1,81 @@
+.allFeaturesReachMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 55vh;
+    margin-top: 2%;
+}
+.allFeaturesReachHeading{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.allFeaturesReachContainer{
+    /* border: 2px solid gold; */
+    width: 100%;
+    
+}
+.allFeaturesReachContainerBoxes{
+    /* border: 2px solid green; */
+    width: 75%;
+    height: 42vh;
+    background-color: #FDBB4D;
+    border-radius:15px 0px 0px 15px;
+    position: relative;
+    float: right;
+}
+.allFeatureContainerDiv{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 3%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+}
+.allFeatureDataContainers{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.allFeatureDataContainers3{
+    /* border: 2px solid gold; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 2%;
+}
+.allFeaturesReachBoxes{
+    /* border: 2px solid red; */
+    width: 24%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.allFeaturesReachIconsHeading{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+}
+.allFeaturesReachImage1{
+    margin-left: 2%;
+    height: 65px;
+}
+.allFeaturesReachImage2{
+    margin-left: 2%;
+    height: 70px;
+}
+.allFeaturesReachImage3{
+    margin-left: 2%;
+    height: 65px;
+}

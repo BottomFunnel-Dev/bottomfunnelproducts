@@ -1,0 +1,67 @@
+.JourneyPersonalizedParent{
+    height: auto;
+    
+}
+.JourneyPersonizedOnlyChild{
+    margin-top: 5%;
+    display: flex;
+    width: 90%;
+   margin-left: 5%;
+   
+align-items: center;
+  
+}
+.JourneyPersonizedOnlyChild>div{
+    width: 43%;
+    padding-top: 2%;
+    margin-left: 5%;
+    
+}
+.bannerimage{
+    width: 100%;
+}
+.JourneyPersonalizedmainheading{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.JourneyPersonalizedPara{
+   margin-top: 2%;
+
+}
+@media (max-width:780px){
+    .JourneyPersonalizedParent{
+        height: auto;
+       
+    }
+    .bannerimage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+    }
+    .JourneyPersonizedOnlyChild{
+        margin-top: 5%;
+        display: flex;
+        width: 90%;
+       flex-direction: column;
+     
+    }
+    .JourneyPersonizedOnlyChild>div{
+        width: 100%;
+      
+    }
+    .JourneyPersonalizedmainheading{
+        width: 90%;
+        margin-left: 7%;
+        margin-top: 2%;
+       
+    }
+    .JourneyPersonalizedPara{
+       margin-top: 2%;
+   
+    }
+    .JourneyPersonalizeddiv{
+        margin-left: 5%;
+    }
+}
