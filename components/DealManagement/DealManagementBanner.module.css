@@ -1,0 +1,44 @@
+.dealmanagementbannermainboxes{
+ height: 100vh;
+ border: 5px solid transparent;
+background: url("/Images/Deal management/banners & background/ha/Group 1000003850.webp");
+background-repeat: no-repeat;
+background-position-y:center;
+background-color: #f5f5f5;
+}
+
+.dealmanagementbannertxtboxes{
+    height: fit-content;
+    width: 50%;
+    margin-left: 45%;
+    margin-top: 12%;
+}
+
+.dealmanagementbannertxtboxes>h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.dealmanagementbannertxtboxes>p{
+    font-size: 30px;
+}
+
+.dealmanagementbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .dealmanagementbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+
+  }

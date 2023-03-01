@@ -1,0 +1,24 @@
+.dealmanagementvisiabilitymainboxes{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.dealmanagementvisiabilitymainboxes>div{
+    width: 30%;
+    height: 200px;
+     margin: 1%;
+      padding: 10px;
+}
+
+.dealmanagementvisiabilityiconbox{
+    height: 30%;
+    width: 20%;
+   
+}
+
+.dealmanagementvisiabilitymainboxes>div>p{
+text-align: justify;
+}
