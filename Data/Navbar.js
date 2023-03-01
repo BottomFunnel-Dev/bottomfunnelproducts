@@ -1339,7 +1339,7 @@ export const salesFeatures = [
   },
   {
     dropContent: "Sales Reports",
-    path: "",
+    path: "/salesreports",
   },
 ];
 

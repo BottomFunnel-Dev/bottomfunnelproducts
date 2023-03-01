@@ -1,13 +1,13 @@
 import React from 'react'
 import { Trial } from '../../components/AnalyticsofFeature/Trial/Trial'
-import StoriesSection from '../../components/CommonComponents/StoriesSection/StoriesSection'
 import { ContactManagementBanner } from '../../components/ContactManagementofSales/ContactManagementBanner/ContactManagementBanner'
 import { Productivity } from '../../components/ContactManagementofSales/Productivity/Productivity'
+import { ReletionshipBuild } from '../../components/ContactManagementofSales/ReletionshipBuild/ReletionshipBuild'
 import { TeamEfficiency } from '../../components/ContactManagementofSales/TeamEfficiency/TeamEfficiency'
 import Navbar from '../../components/Navbar/Navbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
 import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
-import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 
 
@@ -24,16 +24,16 @@ export default function contactmanagement() {
         }}
       />
        <ContactManagementBanner/>
-       {/* <relationshipBuild/> */}
+      <ReletionshipBuild/>
        <Productivity/>
        <TeamEfficiency/>
-       <Trial/>
-       <StoriesSection />
-      <TrustedBy />
+       <TrustedBy/>
+        <Trial/>
+        <Testimonial />
+
       <LifeBottomFunnel />
-      {/* <GetStarted/> */}
-      <ReadyStarted />
       <ProductsFooter />
+      
     
     </div>
   )
