@@ -270,12 +270,8 @@ const Navbar = ({ navredux, productMount }) => {
             </button>
 
             <button
-              className={navstyle.callToAction}
+              className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
               onClick={() => router.push("https://service.bottomfunnel.net/")}
-              style={{
-                color: scroll ? "white" : "#ef4c23",
-                background: scroll ? "#ef4c23" : "white",
-              }}
             >
               Services
             </button>

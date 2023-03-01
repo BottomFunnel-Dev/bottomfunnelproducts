@@ -1,18 +1,19 @@
 import React from 'react'
-import styles from "./relationshipBuild.module.css";
-import Image from 'next/image'
+import styles from "./ReletionshipBuild.module.css";
+import Image from 'next/image';
 
-export const relationshipBuild = () => {
+
+export const ReletionshipBuild = () => {
   return (
     <div>
-        <div className={styles.relationshipBuildmaindiv}>
+         <div className={styles.ReletionshipBuildmaindiv}>
             <h2>Gain a 360 view of contacts and build stronger reletionships </h2>
             <hr/>
             <p>Get Complete details about the contacts in your database - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit tempora sapiente et reprehenderit neque dolor blanditiis exercitationem culpa, assumenda, aliquid aliquam labore quod corporis deserunt. Quia odio repellat nisi nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ab minima excepturi sunt fugiat, ipsa libero dolor accusamus. Placeat hic beatae dicta voluptatum dolores eum amet, nostrum deleniti. Labore, ipsum.</p>
               
-              <div>
+              <div  className={styles.ReletionshipBuildmaindivimage}>
               <Image
-          src={"/Images/contactmanagementofsalesphotos/bgbanner.webp"}
+          src={"/Images/contactmanagementofsalesphotos/Contacts.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

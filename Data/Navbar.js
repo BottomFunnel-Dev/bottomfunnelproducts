@@ -1323,7 +1323,7 @@ export const salesFeatures = [
   },
   {
     dropContent: "Deal Management",
-    path: "",
+    path: "/deal-management",
   },
   {
     dropContent: "Email Integration",
@@ -1339,7 +1339,7 @@ export const salesFeatures = [
   },
   {
     dropContent: "Sales Reports",
-    path: "",
+    path: "/salesreports",
   },
 ];
 
