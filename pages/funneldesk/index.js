@@ -12,6 +12,8 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 export default function FunnelDesk() {
   return (
@@ -37,13 +39,22 @@ export default function FunnelDesk() {
       <EliteServices />
       <EliteLast />
       <IndustryExperts />
-      <DeskStarted />
+      {/* <DeskStarted /> */}
 
-      <StoriesSection />
+      {/* <StoriesSection /> */}
+      
+      <Testimonial/>
       <TrustedBy />
+      <ReadyStarted/>
+
       <LifeBottomFunnel />
-      <GetStarted />
+      {/* <GetStarted /> */}
       <ProductsFooter />
+
+
+
+
+
     </div>
   );
 }

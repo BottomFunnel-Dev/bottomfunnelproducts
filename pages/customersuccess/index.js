@@ -5,6 +5,12 @@ import { CustomerValue } from '../../components/CustomerSuccessHome/CustomerValu
 import { RequestDemo } from '../../components/CustomerSuccessHome/RequestDemo/RequestDemo'
 import Navbar from '../../components/Navbar/Navbar'
 import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsNavbar'
+import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
+import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
+import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import { TalentProfiles } from '../../components/ProductsNewPage/TalentProfiles/TalentProfiles'
+import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
+import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 
 export default function CustomerSuccessHome() {
     return (
@@ -31,6 +37,16 @@ export default function CustomerSuccessHome() {
        <ActiveGoals/>
        <CustomerValue/>
        <RequestDemo/>
+
+       <Testimonial />
+      <TrustedBy/>
+     
+      
+      <ReadyStarted />
+      {/* <TalentProfiles/> */}
+      
+      <LifeBottomFunnel />
+      <ProductsFooter />
     </div>
   )
 }

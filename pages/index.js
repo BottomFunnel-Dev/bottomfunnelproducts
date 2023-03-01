@@ -41,10 +41,13 @@ export default function Home() {
         <CustomerRate />
         <Hiretalent />
         <SimpleAndEasy />
-        <ReadyStarted />
-        <TalentProfiles />
+
         <Testimonial />
         <TrustedBy />
+        <ReadyStarted />
+        <TalentProfiles />
+    
+        
         <LifeBottomFunnel />
         <ProductsFooter />
       </main>

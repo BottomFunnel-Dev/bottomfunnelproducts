@@ -7,6 +7,12 @@ import { SaleSmarter } from "../../components/SalesPage/SaleSmarter/SaleSmarter"
 import { SalesPageBanner } from "../../components/SalesPage/SalesPageBanner/SalesPageBanner";
 import { SalesWorldwide } from "../../components/SalesPage/SalesWorldwide/SalesWorldwide";
 import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import { TalentProfiles } from "../../components/ProductsNewPage/TalentProfiles/TalentProfiles";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export default function SalesPage() {
   return (
@@ -32,8 +38,17 @@ export default function SalesPage() {
         <Revenue />
         <Opportunity />
         <SaleSmarter />
-        <SalesWorldwide />
-        <MakeYourDeal />
+        {/* <SalesWorldwide /> */}
+        {/* <MakeYourDeal /> */}
+
+        <Testimonial />
+      <TrustedBy/>
+     
+      
+      <ReadyStarted />
+      <TalentProfiles />
+      <LifeBottomFunnel />
+      <ProductsFooter />
       </div>
     </>
   );

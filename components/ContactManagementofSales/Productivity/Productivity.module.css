@@ -29,3 +29,9 @@
 .Productivitymaindivcards h4{
     color: #ef4c23;
 }
+
+.Productivitymaindivcards:hover{
+    transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}
