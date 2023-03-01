@@ -1319,7 +1319,7 @@ export const salesFeatures = [
   },
   {
     dropContent: "CPQ",
-    path: "/",
+    path: "/cpq",
   },
   {
     dropContent: "Deal Management",
