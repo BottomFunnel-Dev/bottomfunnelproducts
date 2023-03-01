@@ -1074,32 +1074,32 @@ export const product3 = [
   {
     dropContent: "Neo Admin Center",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "neoAdmin-Center",
+    path: "neoadmin-center",
   },
   {
     dropContent: "Collaboration",
     navIcons: "/Images/navbar/product/bottomfunnelsales.png",
-    path: "kotlin-development",
+    path: "collaboration",
   },
   {
     dropContent: "Events and Notification",
     navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "flutter",
+    path: "/",
   },
   {
     dropContent: "Unified Customer Record",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "reactnative",
+    path: "unifiedcustomer",
   },
   {
     dropContent: "Messaging Channels",
     navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "Xamarin-Development",
+    path: "messagingchannel",
   },
   {
     dropContent: "Custom Objects",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "featured-integration",
+    path: "custom-object",
   },
 ];
 export const resource = [

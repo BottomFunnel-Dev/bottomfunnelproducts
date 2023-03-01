@@ -1,0 +1,84 @@
+.CustomObjectSupportpatrent{
+    background-image: url('/Images/customObject/Background.png');
+    height: 30vh;
+    border: 1px solid blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 3%;
+    padding-left: 5%;
+    margin-top: 2%;
+   margin-bottom: 10%;
+}
+.CustomObjectSupportpatrent>div{
+    margin-top: 1%;
+    width: 30%;
+}
+.CustomObjectSupportbutton{
+    width: 200px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.CustomObjectSupportbutton:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+}
+
+@media (max-width:780px){
+    .CustomObjectSupportpatrent{
+        background-image: url('/Images/Journey/background.png');
+        height: 30vh;
+        border: 1px solid blue;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-top: 2%;
+       
+    }
+    .CustomObjectSupportpatrent>div{
+        margin-top: 3%;
+        width: 40%;
+        display: flex;
+        
+    }
+    .CustomObjectSupportbutton{
+        width: 200px;
+        height: 40px;
+        background-color: brown;
+        color: white;
+        border-radius: 20px;
+        
+    }
+    
+
+    
+}
+@media (max-width:480px){
+    .JourneyTrialpatrent>div{
+        margin-top: 3%;
+        width: 80%;
+        display: flex;
+        
+    }
+    .JourneyTrialpatrent{
+        background-image: url('/Images/Journey/background.png');
+        height: 30vh;
+        border: 1px solid blue;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-top: 5%;
+        padding-left: 5%;
+       
+    }
+}

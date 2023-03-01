@@ -5,12 +5,12 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-import { Unifiedcustomerbanner } from "../../components/Unifiedcustomerdata/Unifiedcustomerbanner";
-import { UnifiedPersonalized } from "../../components/Unifiedcustomerdata/UnifiedPersonalized";
-import { Unifiedsystem } from "../../components/Unifiedcustomerdata/Unifiedsystem";
-import { UnifiedUCRaction } from "../../components/Unifiedcustomerdata/UnifiedUCRaction";
+import { CustomBenefit } from "../../components/CustomObject/CustomBenefit/CustomBenefit";
+import { CustomObjectSupport } from "../../components/CustomObject/CustomerObjectSupport/CustomerObjectSupport";
+import { CustomObjectBanner } from "../../components/CustomObject/CustomObjectBanner/CustomObjectBanner";
+import { WhatCustomObject } from "../../components/CustomObject/WhatCustomObject/WhatCustomObject";
 
-export default function Unifiedcustomerdata() {
+export default function Custom() {
   return (
     <div>
       <Navbar
@@ -22,10 +22,10 @@ export default function Unifiedcustomerdata() {
           logo: false,
         }}
       />
-      <Unifiedcustomerbanner />
-      <UnifiedPersonalized />
-      <Unifiedsystem />
-      <UnifiedUCRaction />
+      <CustomObjectBanner />
+      <WhatCustomObject />
+      <CustomBenefit />
+      <CustomObjectSupport />
       <TrustedBy />
       <Testimonial />
       <ReadyStarted />

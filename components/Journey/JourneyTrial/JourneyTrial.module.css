@@ -1,0 +1,108 @@
+.JourneyTrialpatrent{
+    background-image: url('/Images/Journey/background.png');
+    height: 30vh;
+    border: 1px solid blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-top: 2%;
+    margin-top: 2%;
+   
+}
+.JourneyTrialpatrent>div{
+    margin-top: 1%;
+    width: 30%;
+}
+.JourneyTrialbuttonone{
+    width: 200px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    
+}
+.JourneyTrialbuttontwo{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid brown;
+    margin-left: 3%;
+    border-radius: 20px;
+   
+}
+.JourneyTrialbuttontwo:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+}
+.JourneyTrialbuttonone:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+}
+
+@media (max-width:780px){
+    .JourneyTrialpatrent{
+        background-image: url('/Images/Journey/background.png');
+        height: 30vh;
+        border: 1px solid blue;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-top: 2%;
+       
+    }
+    .JourneyTrialpatrent>div{
+        margin-top: 3%;
+        width: 40%;
+        display: flex;
+        
+    }
+    .JourneyTrialbuttonone{
+        width: 200px;
+        height: 40px;
+        background-color: brown;
+        color: white;
+        border-radius: 20px;
+        
+    }
+    .JourneyTrialbuttontwo{
+        width: 200px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid brown;
+        margin-left: 3%;
+        border-radius: 20px;
+       
+       
+    }
+
+    
+}
+@media (max-width:480px){
+    .JourneyTrialpatrent>div{
+        margin-top: 3%;
+        width: 80%;
+        display: flex;
+        
+    }
+    .JourneyTrialpatrent{
+        background-image: url('/Images/Journey/background.png');
+        height: 30vh;
+        border: 1px solid blue;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-top: 5%;
+        padding-left: 5%;
+       
+    }
+}
