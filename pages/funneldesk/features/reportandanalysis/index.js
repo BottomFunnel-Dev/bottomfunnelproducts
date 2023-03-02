@@ -26,21 +26,7 @@ export default function funnelDeskReportAndAnalysis() {
           logo: false,
         }}
       />
-      <span>
-        <h1
-          style={{
-            marginTop: 200,
-            marginBottom: 200,
-            textAlign: "center",
-            color: "#ef4c23",
-            textDecoration: "underline",
-            textDecorationColor: "black",
-          }}
-        >
-          This page is under construction
-        </h1>
-      </span>
-      <StoriesSection />
+      
       <TrustedBy />
       <LifeBottomFunnel />
       <GetStarted />
