@@ -9,9 +9,8 @@ export const AllFeaturesReach = () => {
            <h1>Reach the right people at the right time</h1>
            <p>Gain a deeper understanding of your customers with all their datapoints in one place</p>
         </div>
-        <div className={styles.allFeaturesReachContainer}>
             <div className={styles.allFeaturesReachContainerBoxes}>
-                <div className={styles.allFeatureContainerDiv}>
+                 
                     <div className={styles.allFeatureDataContainers}>
                         <div className={styles.allFeaturesReachBoxes}>
                            <div className={styles.allFeaturesReachIconsHeading}>
@@ -39,7 +38,7 @@ export const AllFeaturesReach = () => {
                                 <h3>Shopify-based Segments</h3>
                                 <div className={styles.allFeaturesReachImage2}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle2.webp"}
+                                        src={"/Images/allFeatures/Rectangle12.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -60,7 +59,7 @@ export const AllFeaturesReach = () => {
                                 <h3>Anonymous Website Visitors</h3>
                                 <div className={styles.allFeaturesReachImage3}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle3.webp"}
+                                        src={"/Images/allFeatures/Rectangle13.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -77,11 +76,8 @@ export const AllFeaturesReach = () => {
                             </div>
                         </div>
                     </div>
-                    
-                </div>
 
             </div>
-        </div>
     </div>
   );
 };

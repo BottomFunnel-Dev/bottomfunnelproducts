@@ -9,11 +9,6 @@
     text-align: center;
 }
 
-.allFeaturesReachContainer{
-    /* border: 2px solid gold; */
-    width: 100%;
-    
-}
 .allFeaturesReachContainerBoxes{
     /* border: 2px solid green; */
     width: 75%;
@@ -23,16 +18,6 @@
     position: relative;
     float: right;
 }
-.allFeatureContainerDiv{
-    /* border: 2px solid red; */
-    position: absolute;
-    width: 100%;
-    height: 70vh;
-    top: 3%;
-    left: 7%;
-    display: flex;
-    flex-direction: column;
-}
 .allFeatureDataContainers{
     /* border: 2px solid gold; */
     width: 100%;
@@ -41,18 +26,9 @@
     flex-direction: row;
     margin-top: 2%;
 }
-.allFeatureDataContainers3{
-    /* border: 2px solid gold; */
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    margin-top: 2%;
-}
 .allFeaturesReachBoxes{
     /* border: 2px solid red; */
-    width: 24%;
+    width: 27%;
     height: 250px;
     background-color: white;
     border-radius: 15px;
