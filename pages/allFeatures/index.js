@@ -6,6 +6,7 @@ import { AllFeatureSignUp } from "../../components/AllFeatures/AllFeatureSignUp/
 import { AllFeaturesPerformance } from "../../components/AllFeatures/AllFeaturesPerformance/AllFeaturesPerformance";
 import { AllFeaturesReach } from "../../components/AllFeatures/AllFeaturesReach/AllFeaturesReach";
 import { AllFeaturesTemplate } from "../../components/AllFeatures/AllFeaturesTemplate/AllFeaturesTemplate";
+import { AllFeaturesTime } from "../../components/AllFeatures/AllFeaturesTime/AllFeaturesTime";
 import Navbar from "../../components/Navbar/Navbar";
 import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
 
@@ -36,6 +37,7 @@ export default function AllFeatures() {
         <AllFeaturesDrive/>
         <AllFeaturesReach/>
         <AllFeaturesTemplate/>
+        <AllFeaturesTime/>
         <AllFeaturesPerformance/>
         <AllFeaturesConnect/>
         <AllFeatureSignUp/>

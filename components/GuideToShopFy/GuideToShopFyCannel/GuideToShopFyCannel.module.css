@@ -1,0 +1,206 @@
+.GuideToShopFyCannelaPrent{
+   
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: whitesmoke;
+   padding: 2%;
+}
+.GuideToShopFyCannelfirstChild{
+  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.GuideToShopFyCannelfirstChild>div{
+    padding: 0PX;
+    width: 25%;
+   
+   padding: 1%;
+    border-right:  4px  solid white;
+   
+}
+.GuideToShopFyCannelfirstChilddiv>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22%;
+   
+}
+.GuideToShopFyCannelfirstChilddiv>div>h1{
+   width: 70%;
+  
+  
+}
+.GuideToShopFyCannelfirstChilddivone>div{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 25%;
+    
+}
+
+.GuideToShopFyCannelfirstChilddivtwo>div{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 25%;
+    
+}
+.GuideToShopFyCannelfirstChilddivtwo>div>h1{
+    width: 70%;
+}
+
+
+
+.GuideToShopFyCannelfirstChilddivthree>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23%;
+    
+}
+.GuideToShopFyCannelfirstChilddivthree>div>h1{
+    width: 70%;
+}
+.GuideToShopFyConfigurefirstChilddivfour{
+    border-right: 4px solid white;
+}
+.GuideToShopFyCannelfirstChilddivfour>div{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-bottom: 20%;
+    
+}
+.GuideToShopFyCannelfirstChilddivfour>div>h1{
+    width: 70%;
+}
+
+.GuideToShopFyCannelthirdChild{
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.GuideToShopFyCannelthirdChild>div{
+    padding: 0PX;
+    width: 25%;
+   
+   padding: 1%;
+    border-right:  4px  solid white;
+}
+.GuideToShopFyCannelthirdChilddivone>div{
+    display: flex;
+   
+    margin-bottom: 22%;
+}
+.GuideToShopFyCannelthirdChilddivone>div>h1{
+   width: 70%;
+  
+}
+
+@media(max-width:780px){
+    .GuideToShopFyCannelaPrent{
+   
+        margin-top: 5%;
+        display: flex;
+        
+        align-items: center;
+       background-color: whitesmoke;
+       padding: 2%;
+    }
+    .GuideToShopFyCannelfirstChilddivone>div{
+        display: flex;
+        justify-content: space-between;
+        
+        margin-bottom: 0%;
+        
+    }
+    .GuideToShopFyCannelfirstChild{
+      
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    .GuideToShopFyCannelfirstChild>div{
+        padding: 0PX;
+        width: 100%;
+       
+       padding: 1%;
+        border-right:  4px  solid white;
+       
+    }
+    .GuideToShopFyCannelfirstChilddiv>div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+       
+    }
+    .GuideToShopFyCannelfirstChilddiv>div>h1{
+       width: 100%;
+      
+      
+    }
+    
+    .GuideToShopFyCannelfirstChilddivtwo>div{
+        display: flex;
+        justify-content: space-between;
+        
+        margin-bottom: 0%;
+        
+    }
+    .GuideToShopFyCannelfirstChilddivtwo>div>h1{
+        width: 100%;
+    }
+    
+    
+    
+    .GuideToShopFyCannelfirstChilddivthree>div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0%;
+        
+    }
+    .GuideToShopFyCannelfirstChilddivthree>div>h1{
+        width: 100%;
+    }
+    .GuideToShopFyConfigurefirstChilddivfour{
+        border-right: 4px solid white;
+    }
+    .GuideToShopFyCannelfirstChilddivfour>div{
+        display: flex;
+        justify-content: space-between;
+       
+        margin-bottom: 0%;
+        
+    }
+    .GuideToShopFyCannelfirstChilddivfour>div>h1{
+        width: 100%;
+    }
+    
+    .GuideToShopFyCannelthirdChild{
+      
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0%;
+        
+    }
+    .GuideToShopFyCannelthirdChild>div{
+        padding: 0PX;
+        width: 100%;
+       
+       padding: 1%;
+        border-right:  4px  solid white;
+    }
+    .GuideToShopFyCannelthirdChilddivone>div{
+        display: flex;
+       
+        margin-bottom: 0%;
+    }
+    .GuideToShopFyCannelthirdChilddivone>div>h1{
+       width: 100%;
+      
+    }
+}

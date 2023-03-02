@@ -18,7 +18,7 @@ const productData = {
   list1: {
     title: "Features",
     more: { title: "View more features", path: "/404" },
-    position: { right: "43%" },
+    position: { right: "35%" },
     products: [
       {
         dropContent: "Multichannel Engagement",
@@ -38,18 +38,18 @@ const productData = {
       },
       {
         dropContent: "Landing Pages",
-        path: "/404",
+        path: "/landing-pages",
       },
       {
         dropContent: "Shopify Integration",
-        path: "/404",
+        path: "/landing-pages",
       },
     ],
   },
   list4: {
     title: "Resources",
     more: false,
-    position: { right: "25%" },
+    position: { right: "20%" },
     products: [
       {
         dropContent: "Product Tours",
