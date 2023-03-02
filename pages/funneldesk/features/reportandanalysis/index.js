@@ -7,6 +7,11 @@ import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
 import LifeBottomFunnel from "../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { GetStarted } from "../../../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import { ReportAndAnalysisBanner } from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisBanner/ReportAndAnalysisBanner";
+import { ReportAndAnalysisTransform } from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisTransform/ReportAndAnalysisTransform";
+import ReportAndAnalysisReports from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisReports/ReportAndAnalysisReports";
+import ReportAndAnalysisLower from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisLower/ReportAndAnalysisLower";
+import ReportAndAnalysisCards from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisCards/ReportAndAnalysisCards";
 
 export default function funnelDeskReportAndAnalysis() {
   return (
@@ -26,7 +31,11 @@ export default function funnelDeskReportAndAnalysis() {
           logo: false,
         }}
       />
-      
+      <ReportAndAnalysisBanner/>
+      <ReportAndAnalysisTransform/>
+      <ReportAndAnalysisReports/>
+      <ReportAndAnalysisCards/>
+      <ReportAndAnalysisLower/>
       <TrustedBy />
       <LifeBottomFunnel />
       <GetStarted />

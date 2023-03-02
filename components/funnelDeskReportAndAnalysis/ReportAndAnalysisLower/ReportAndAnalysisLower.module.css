@@ -1,0 +1,35 @@
+.LowerMain{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.Lowertext{
+    padding-top: 3%;
+}
+.Lowertext>h2{
+    font-weight: 700;
+}
+.Lowertext>p{
+    padding-top: 2%;
+    font-size: 22px;
+}
+.Lowertext>button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+}
+.Lowertext>button:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+}
+

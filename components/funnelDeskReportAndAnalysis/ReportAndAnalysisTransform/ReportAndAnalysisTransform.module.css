@@ -1,0 +1,38 @@
+.transformMain{
+    height: 60vh;
+    width: 100%;
+    
+}
+.transformMain>h1{
+text-align: center;
+font-weight: 500;
+}
+.transformdiv{
+    gap: 7%;
+    display: flex;
+    flex-direction: row;
+}
+
+.transformtext{
+    height: 100%;
+    width: 40%;
+    margin-top: 8%;
+    margin-left: 5%;
+  
+}
+.transformtext>h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+}
+.list{
+    margin-top: 4%;
+    font-size: 20px;
+}
+.transformimg{
+    width: 30%;
+    height: 350px;
+    margin-top: 3%;
+    margin-left: 5%;
+   
+}
