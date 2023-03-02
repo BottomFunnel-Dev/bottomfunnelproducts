@@ -30,7 +30,11 @@
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.maincontent>p{
+  /* border: 2px solid red; */
+  margin-top: 3%;
+  text-align: left;
+}
 .ratings {
   color: #f9a60b;
 }
