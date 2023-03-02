@@ -42,10 +42,10 @@ height: 80%;
     margin: 1%;
 }
 .MarketerHomePageBannermaindivbutton{
-    border: 1px solid #ffc687;
+    border: 1px solid #F78F1E;
     border-radius: 5px;
     width: 200px;
-    color: #ffc687;
+    color: #F78F1E;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 10px 10px 10px ;
@@ -55,9 +55,9 @@ height: 80%;
 
 }
 .MarketerHomePageBannermaindivbutton1{
-    border: 1px solid #ffc687;
+    border: 1px solid #F78F1E;
     border-radius: 5px;
-    color: #ffc687;
+    color: #F78F1E;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 10px 10px 10px ;
@@ -68,12 +68,13 @@ height: 80%;
 
 }
 .MarketerHomePageBannermaindivbutton1:hover{
-    background:#ffc687 ;
+    background:#F78F1E;
     color: white;
 
 }
+
 .MarketerHomePageBannermaindivbutton:hover{
-    background:#ffc687 ;
+    background:#F78F1E;
     color: white;
 
 }

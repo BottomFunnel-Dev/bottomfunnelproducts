@@ -42,7 +42,7 @@ const productData = {
       },
       {
         dropContent: "Shopify Integration",
-        path: "/landing-pages",
+        path: "/404",
       },
     ],
   },
