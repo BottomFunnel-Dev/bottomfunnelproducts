@@ -1,0 +1,34 @@
+.AllFeaturesBannermaindiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AllFeaturesBannermaindivinner{
+    width: 35%;
+}
+
+
+.AllFeaturesBannermaindivinnerimage{
+    width: 40%;
+}
+
+.AllFeaturesBannermaindivinnerbutton{
+    width: 220px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    background-color: #ef4c23;
+    color: white;
+    border: none;
+}
+
+.AllFeaturesBannermaindivinnerbutton:hover{
+    border: 1px solid #ef4c23;
+    color: #ef4c23;
+    background-color: white;
+}

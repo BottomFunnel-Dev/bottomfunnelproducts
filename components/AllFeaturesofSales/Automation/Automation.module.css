@@ -1,0 +1,116 @@
+.Automationheading{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.Automationmaindiv{
+    background-image: url("/Images/allfeaturessales/5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+   
+}
+.Automationmaindivinner{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 2px solid green; */
+}
+
+.Automationmaindivinnerbox{
+    width: 45%;
+    height: 250px;
+    padding: 2% ;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #fadfd5;
+    /* border: 2px solid blue; */
+}
+
+.Automationmaindivinnerlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Automationmaindivinnerlogoimage{
+    width: 50px;
+    height: 50px;
+}
+
+.Automationmaindivcolum{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  
+}
+.Automationmaindivsecond{
+    /* border: 2px solid green; */
+}
+
+
+
+.Automationmaindivinnerbox1{
+    width: 45%;
+    height: 250px;
+    padding: 2% ;
+    /* margin: auto; */
+    border-radius: 10px;
+    background-color: #fadfd5;
+    /* border: 2px solid blue; */
+}
+
+
+
+
+
+.Automationmaindivone{
+    background-image: url("/Images/allfeaturessales/6.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: right;
+   
+}
+
+.Automationmaindivcolum{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    
+   
+  
+}
+
+.Automationmaindivsecondone{
+    /* border: 2px solid green; */
+    justify-content: right;
+    width: 20%;
+    display: flex;
+    align-self: fl;
+    
+}
+.Automationmaindivinnerbox1one{
+    /* width: 75%; */
+    height: 250px;
+    padding: 2% ;
+    /* margin: auto; */
+    border-radius: 10px;
+    background-color: #fadfd5;
+    /* border: 2px solid blue; */
+}
