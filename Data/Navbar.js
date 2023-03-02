@@ -1365,7 +1365,7 @@ export const salesResources = [
 export const salesIndustries = [
   {
     dropContent: "Real Estate",
-    path: "/real-estate",
+    path: "/realestatesales",
   },
   {
     dropContent: "Manufacturing",
@@ -1373,7 +1373,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "SAAS",
-    path: "/saasSales",
+    path: "/saashomepage",
   },
   {
     dropContent: "Hospitality",
@@ -1385,7 +1385,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "Logistics",
-    path: "/logistics-sales",
+    path: "/logisticsales",
   },
   {
     dropContent: "Agency",
@@ -1397,7 +1397,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "Finance",
-    path: "/",
+    path: "/financesales",
   },
   {
     dropContent: "HealthCare",

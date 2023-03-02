@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import { SalesNavbar } from '../Navbar/SalesNavbar/SalesNavbar'
 import { MakeYourDeal } from '../SalesPage/MakeYourDeal/MakeYourDeal'
 import { SalesWorldwide } from '../SalesPage/SalesWorldwide/SalesWorldwide'
 import { AccessData } from './AccessData/AccessData'

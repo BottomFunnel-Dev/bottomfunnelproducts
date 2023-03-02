@@ -34,9 +34,9 @@ export default function SocialMediaCampaign() {
         <AllFeaturesDrive/>
         <AllFeaturesReach/>
         <AllFeaturesTemplate/>
-        <AllFeaturesReach/>
-        <AllFeaturesTemplate/>
-        <AllFeatureSignUp/>
+        {/* <AllFeaturesReach/> */}
+        {/* <AllFeaturesTemplate/> */}
+        {/* <AllFeatureSignUp/> */}
       </div>
     </>
   );

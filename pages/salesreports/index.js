@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import { SalesNavbar } from '../../components/Navbar/SalesNavbar/SalesNavbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
 import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
+import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import { Solution } from '../../components/SalesMobileofFeatures/Solution/Solution'
 import { SalesReportsBanner } from '../../components/SalesReports/SalesReportsBanner/SalesReportsBanner'
@@ -36,10 +37,11 @@ export default function salesreports() {
         <SalesReportsScreens/>
         <Solution/>
 
-        <TrustedBy />
+       
         <Trial/>
         <Testimonial />
-
+        <TrustedBy />
+        <ReadyStarted />
       <LifeBottomFunnel />
       <ProductsFooter />
      

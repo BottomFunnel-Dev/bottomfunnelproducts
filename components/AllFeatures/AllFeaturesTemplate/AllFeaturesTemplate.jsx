@@ -6,19 +6,18 @@ export const AllFeaturesTemplate = () => {
   return (
     <div className={styles.allFeaturesTemplateMainDiv}>
         <div className={styles.allFeaturesTemplateHeading}>
-           <h1>Template the right people at the right time</h1>
-           <p>Gain a deeper understanding of your customers with all their datapoints in one place</p>
+           <h1>Get started from Day 1 with templates</h1>
+           <p>Reduce time spent setting up campaigns with ready-made templates</p>
         </div>
-        <div className={styles.allFeaturesTemplateContainer}>
             <div className={styles.allFeaturesTemplateContainerBoxes}>
-                <div className={styles.allFeatureContainerDiv}>
+                 
                     <div className={styles.allFeatureDataContainers}>
                         <div className={styles.allFeaturesTemplateBoxes}>
                            <div className={styles.allFeaturesTemplateIconsHeading}>
-                                <h3>Marketing Segments</h3>
+                                <h3>Email Templates</h3>
                                 <div className={styles.allFeaturesTemplateImage1}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle11.webp"}
+                                        src={"/Images/allFeatures/Rectangle18.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -29,17 +28,17 @@ export const AllFeaturesTemplate = () => {
                             </div>
                             <div className={styles.allFeaturesTemplateText}>
                                 <p>
-                                    Group Your customers into segments based on demography, geography, or behaviour to
-                                    engage in personalized ways with relevant campaigns.
+                                   Choose from 150+ email templates to create your 
+                                   campaigns customize emails using the drag-and-drag editor.
                                 </p>
                             </div>
                         </div>
                         <div className={styles.allFeaturesTemplateBoxes}>
                            <div className={styles.allFeaturesTemplateIconsHeading}>
-                                <h3>Shopify-based Segments</h3>
+                                <h3>Bot Templates</h3>
                                 <div className={styles.allFeaturesTemplateImage2}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle2.webp"}
+                                        src={"/Images/allFeatures/Rectangle19.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -50,17 +49,17 @@ export const AllFeaturesTemplate = () => {
                             </div>
                             <div className={styles.allFeaturesTemplateText}>
                                 <p>
-                                    Connect to Shopify and get started with pre-built segments based on orders placed,
-                                    added to cart, abandoned cart, and more, and set up personalized campaigns. 
+                                    Get Started with pre-built D2C bot templates modify the bot to meet
+                                    your needs, preview the changes, and deploy it across channels easily. 
                                 </p>
                             </div>
                         </div>
                         <div className={styles.allFeaturesTemplateBoxes}>
                            <div className={styles.allFeaturesTemplateIconsHeading}>
-                                <h3>Anonymous Website Visitors</h3>
+                                <h3>Journey Templates</h3>
                                 <div className={styles.allFeaturesTemplateImage3}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle3.webp"}
+                                        src={"/Images/allFeatures/Rectangle20.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -71,17 +70,15 @@ export const AllFeaturesTemplate = () => {
                             </div>
                             <div className={styles.allFeaturesTemplateText}>
                                 <p>
-                                    Use segments to identify fist-time website visitors and catch their attention
-                                    with timely offers, customized discounts, and personalized promotions.
+                                    Set up journeys in minute with pre-built playbooks and run 
+                                    campaigns with follow-up actions for common use cases like order confirmations,cart 
+                                    abandonment, post-purchase feedback, and more.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    
-                </div>
 
             </div>
-        </div>
     </div>
   );
 };
