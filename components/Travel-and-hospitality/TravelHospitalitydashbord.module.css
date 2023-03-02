@@ -1,0 +1,52 @@
+.travelhositalitydasmainboxes{
+    height: fit-content;
+
+}
+
+.travelhospitalitydasdatamappingondi{
+    display: flex;
+    margin: 2%;
+}
+.travelhospitalitydasdatamappingondi:nth-child(3){
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2%;
+}
+
+.travelhospitalitydasdatamappingondi:nth-child(even){
+    background-color: #f5f5f5;
+}
+
+
+.travelhospitalitydashleftbox{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.travelhospitalitydashleftbox>hr{
+    width: 40%;
+    color: #ef4c23;
+}
+
+.travelhospitalitydashleftbox>h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.travelhospitalitydashleftbox>p{
+    margin-left: 5%;
+}
+
+.travelhospitalitydashleftbox>ul>li{
+    margin-left: 5%;
+}
+.travelhospitalitydashleftbox>h6{
+    margin-top: 4%;
+    margin-left: 5%;
+    color: #ef4c23;
+}
+
+.travelhospitalitydashrightbox{
+    width: 50%;
+    height: 70vh;
+}

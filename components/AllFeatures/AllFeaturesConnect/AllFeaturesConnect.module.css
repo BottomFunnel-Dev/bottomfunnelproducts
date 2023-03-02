@@ -1,0 +1,57 @@
+.allFeaturesConnectMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 55vh;
+    margin-top: 2%;
+}
+.allFeaturesConnectHeading{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.allFeaturesConnectContainerBoxes{
+    /* border: 2px solid green; */
+    width: 85%;
+    height: 42vh;
+    background-color: #FDBB4D;
+    border-radius:15px 0px 0px 15px;
+    position: relative;
+    float: right;
+}
+.allFeatureDataContainers{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.allFeaturesConnectBoxes{
+    /* border: 2px solid red; */
+    width: 22%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2.5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.allFeaturesConnectIconsHeading{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+}
+.allFeaturesConnectImage1{
+    margin-left: 2%;
+    height: 65px;
+}
+.allFeaturesConnectImage2{
+    margin-left: 2%;
+    height: 70px;
+}
+.allFeaturesConnectImage3{
+    margin-left: 2%;
+    height: 65px;
+}

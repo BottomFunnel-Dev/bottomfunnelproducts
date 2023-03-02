@@ -97,7 +97,7 @@ export const AllindustrycustomerDelight = () => {
     <h1>Industries that rely on Bottom Funnel for lasting customer delight</h1>
     <div className={styles.allindiacustomerdelightmappingbox}>{customerdelightdata.map((e)=>{
         return (
-            <div className={styles.customerdelightdatamapingindi}>
+            <div className={styles.customerdelightdatamapingindi} key={e.htxt}>
            <div className={styles.customerdelightdatamappingimg}> <img src={e.icon} alt="image" /></div>
             <div className={styles.customerdelightdatamappingtxt}><h4>{e.htxt}</h4>
             <p>{e.stxt}</p>
