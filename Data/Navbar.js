@@ -1304,7 +1304,7 @@ export const salesProduct = [
     dropContent: "Bottom Funnel Suite",
     productText1: "Sales & Markeing CRM",
     navIcons: "/Images/navbar/product/Sales.png",
-    path: "/",
+    path: "/suite",
   },
 ];
 
