@@ -1,22 +1,22 @@
-.allFeaturesTemplateMainDiv{
+.allFeaturesConnectMainDiv{
     /* border: 2px solid red; */
     width: 100%;
     height: 55vh;
     margin-top: 2%;
 }
-.allFeaturesTemplateHeading{
+.allFeaturesConnectHeading{
     /* border: 2px solid red; */
     text-align: center;
 }
 
-.allFeaturesTemplateContainerBoxes{
+.allFeaturesConnectContainerBoxes{
     /* border: 2px solid green; */
-    width: 75%;
+    width: 85%;
     height: 42vh;
     background-color: #FDBB4D;
-    border-radius:0px 15px 15px 0px;
+    border-radius:15px 0px 0px 15px;
     position: relative;
-    float: left;
+    float: right;
 }
 .allFeatureDataContainers{
     /* border: 2px solid gold; */
@@ -24,34 +24,34 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    margin-top: 3%;
+    margin-top: 2%;
 }
-.allFeaturesTemplateBoxes{
+.allFeaturesConnectBoxes{
     /* border: 2px solid red; */
-    width: 27%;
+    width: 22%;
     height: 250px;
     background-color: white;
     border-radius: 15px;
-    margin-left: 5%;
+    margin-left: 2.5%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
     padding: 15px;
 }
-.allFeaturesTemplateIconsHeading{
+.allFeaturesConnectIconsHeading{
     display: flex;
     flex-direction: row;
     /* border: 2px solid red; */
 }
-.allFeaturesTemplateImage1{
-    margin-left: 7%;
-    height: 55px;
-}
-.allFeaturesTemplateImage2{
-    margin-left: 15%;
+.allFeaturesConnectImage1{
+    margin-left: 2%;
     height: 65px;
 }
-.allFeaturesTemplateImage3{
+.allFeaturesConnectImage2{
     margin-left: 2%;
-    height: 60px;
+    height: 70px;
+}
+.allFeaturesConnectImage3{
+    margin-left: 2%;
+    height: 65px;
 }
