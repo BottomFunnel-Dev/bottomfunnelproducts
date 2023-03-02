@@ -4,11 +4,11 @@ import { Shopifybanner } from "../../components/Shopify/Shopifybanner/Shopifyban
 import { Shopifyframes } from "../../components/Shopify/ShopifyFrames/Shopifyframes";
 import { ShopifyIntigration } from "../../components/Shopify/ShopifyIntigration/ShopifyIntigration";
 import { Shopifylowerbanner } from "../../components/Shopify/Shopifylowerbanner/Shopifylowerbanner";
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 export default function Shopify() {
   return (
@@ -27,11 +27,11 @@ export default function Shopify() {
       <Shopifyframes />
       <Shopifylowerbanner />
 
-      <StoriesSection />
       <TrustedBy />
-      <LifeBottomFunnel />
-      <GetStarted />
-      <ProductsFooter />
+    <Testimonial />
+    <ReadyStarted />
+    <LifeBottomFunnel />
+    <ProductsFooter />
     </div>
   );
 }

@@ -1,0 +1,45 @@
+.travelandhospitalitybannermainboxes{
+    height: 100vh;
+    border: 5px solid transparent;
+    display: flex;
+}
+
+.travelandhospitalitybennerleftbox{
+    width: 50%;
+    height: fit-content;
+    margin-top: 14%;
+    margin-left: 5%;
+}
+
+.travelandhospitalitybennerleftbox>h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.travelandhospitalitybennerleftbox>p{
+    font-size: 25px;
+}
+
+.travelandhospbanbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  
+  }
+  
+  .travelandhospbanbutton:hover {
+    background-color: white;
+   color: #ef4c23;
+  }
+
+
+.travelandhospitalitybennerrightbox{
+    width: 50%;
+}

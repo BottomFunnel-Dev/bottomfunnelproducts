@@ -2,8 +2,11 @@ import React from "react";
 import solnav from "./ProductSolutions.module.css";
 import Link from "next/link";
 import { productSolution } from "../../../Data/Navbar";
-
+import { useRouter } from "next/router";
 export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
+
+  const router = useRouter();
+
   return (
     <div
       onMouseEnter={solHoverIn}
@@ -45,7 +48,11 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
             </Link>
           </div>
         ))}
-        <button>View all industries</button>
+
+       
+      <button
+      onClick={() => router.push("/all-industry")}
+      >View all industries</button>
       </div>
     </div>
   );
