@@ -1,0 +1,174 @@
+.GuideToShopFyCoversationparent{
+    margin-top: 5%;
+    
+   
+    display: flex;
+    align-items: center;
+}
+.GuideToShopFyCoversationparentfirstchild{
+    width: 40%;
+   
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.GuideToShopFyCoversationparentfirstchild>h1{
+    text-align: center;
+}
+.GuideToShopFyCoversationparentfirstchild>p{
+    text-align: center;
+    width: 70%;
+}
+.GuideToShopFyCoversationfirstChilddiv{
+   margin-top: 15%;
+   width: 60%;
+}
+.GuideToShopFyCoversationfirstChilddiv>div{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 2%;
+   
+}
+.GuideToShopFyCoversationfirstChilddiv>div>h1{
+   width: 70%;
+  
+  
+}
+
+.GuideToShopFyCoversationparentsecchild{
+   background-color: whitesmoke;
+    width: 60%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+
+.GuideToShopFyCoversationparentsecchildfirstdiv>h1{
+
+text-align: center;
+}
+.GuideToShopFyCoversationparentsecchildfirstdiv>p{
+
+    text-align: center;
+    }
+.GuideToShopFyCoversationparentsecchildsecdiv{
+    
+    display: flex;
+}
+.GuideToShopFyCoversationparentsecchildsecdiv>div{
+    border-right: 4px solid white;
+    padding: 5%
+    
+}
+.GuideToShopFyCoversationparentsecchildsecdiv>div>div{
+   
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .GuideToShopFyCoversationparent{
+        margin-top: 5%;
+        
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .GuideToShopFyCoversationparentfirstchild{
+        width: 100%;
+       
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .GuideToShopFyCoversationparentfirstchild>h1{
+        text-align: center;
+    }
+    .GuideToShopFyCoversationparentfirstchild>p{
+        text-align: center;
+        width: 70%;
+    }
+    .GuideToShopFyCoversationfirstChilddiv{
+       
+       width: 70%;
+    }
+    .GuideToShopFyCoversationfirstChilddiv>div{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        padding: 2%;
+       
+    }
+    .GuideToShopFyCoversationfirstChilddiv>div>h1{
+       width: 70%;
+      
+      
+    }
+    
+    .GuideToShopFyCoversationparentsecchild{
+       background-color: whitesmoke;
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        
+    }
+    
+    
+    .GuideToShopFyCoversationparentsecchildfirstdiv>h1{
+    
+    text-align: center;
+    }
+    .GuideToShopFyCoversationparentsecchildfirstdiv>p{
+    
+        text-align: center;
+        }
+    .GuideToShopFyCoversationparentsecchildsecdiv{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .GuideToShopFyCoversationparentsecchildsecdiv>div{
+        border-right: 4px solid white;
+        padding: 5%;
+        width:100%;
+        
+    }
+    .GuideToShopFyCoversationparentsecchildsecdiv>div>div{
+       
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        padding: 2%;
+    }  
+}
