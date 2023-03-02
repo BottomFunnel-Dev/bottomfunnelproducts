@@ -1,0 +1,140 @@
+.hr{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .softwareandserviceitcommunicationParent{
+     
+    
+    
+      display: flex;
+     
+   
+  background-color: whitesmoke;
+ 
+  margin-top: 5%;
+  }
+  .softwareandserviceitcommunicationone{
+     
+      width: 50%;
+   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border: 1px solid blue;
+    
+     
+  }
+  .softwareandserviceitcommunicationtwo{
+    
+      width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+   
+    margin-bottom: 70px;
+    padding-top: 12%;
+   
+   padding-left: 5%;
+     
+  }
+  .softwareandserviceitcommunicationtwo>h1{
+     
+      width: 75%;
+      font-weight: 700;
+      
+  }
+  .softwareandserviceitcommunicationtwo>p{
+     
+      margin-top: 1%;
+      width: 70%;
+     
+    color: #393939;
+  }
+  .softwareandserviceitcommunicationtwo>button{
+      width: 200px;
+      height: 40px;
+      margin-top: 3%; 
+      display: inline-block;
+      background-color:blue;
+      padding: 5px;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      text-decoration: white;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    
+    
+  }
+  .softwareandserviceitcommunicationtwo>button:hover{
+    background-color: white;
+    color:blue;
+    
+  }
+  @media(max-width:780px){
+    .softwareandserviceitcommunicationParent{
+      width: 100%;
+      height: auto;
+      display: flex;
+     background-color:whitesmoke;
+     flex-direction: column;
+    padding: 0px;
+  
+  }
+  .softwareandserviceitcommunicationone{
+     
+      width: 100%;
+      padding-right: 0px;
+      margin-right: 0px;
+      padding-left: 15%;
+     
+  }
+  .softwareandserviceitcommunicationtwo{
+    padding-right: 0px;
+    margin-right: 0px;
+      width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+   
+    margin-bottom: 70px;
+    padding-top: 10%;
+   margin-left: 0%;
+   text-align: center;
+   align-items: center;
+     
+  }
+  .softwareandserviceitcommunicationtwo>h1{
+     
+      width: 75%;
+      font-weight: 700;
+      font-size: 32;
+  }
+  .softwareandserviceitcommunicationtwo>p{
+     
+      margin-top: 2%;
+      width: 70%;
+      font-weight: 700;
+      font-size: 20;
+    color: #393939;
+  
+    
+  }
+  .softwareandserviceitcommunicationtwo>button{
+      width: 200px;
+      height: 40px;
+      margin-top: 5%; 
+      display: inline-block;
+      background-color: #EF5122;
+      padding: 5px;
+      text-align: center;
+      border: none;
+      border-radius: 20px;
+      text-decoration: white;
+    color: aliceblue;
+    
+  }
+  }
+  
