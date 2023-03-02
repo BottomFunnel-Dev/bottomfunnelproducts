@@ -22,7 +22,9 @@ export const featuredata=[
             three:"Set up welcome emails or personalized journeys based on actions",
             four:"Communicate across Phone, Email, WhatsApp, Chat"
         }
-    },
+    }
+]
+export const dealsdata=[ 
     {
         img:"/Images/SuitePage/Screens/Deal 1.webp",
         title:"Drive deals to closure, faster. Improve sales conversions by 50%.",
@@ -32,7 +34,7 @@ export const featuredata=[
             one:"Improve revenue predictability with Dynamic Forecasting",
             two:"Find the best deals to close with AI-based Deal Insights",
             three:"Collaborate on Slack across departments to close deals faster",
-            four:"Get a breakdown of campaign analytics for a holistic understanding of your market and audience"
+            
         }
     },
     {
@@ -44,7 +46,7 @@ export const featuredata=[
             one:"Design multichannel nurture campaigns and target customers via emails, SMS, WhatsApp, and chat ",
             two:"Send transactional emails to customers to upsell and cross-sell",
             three:"Get a breakdown of campaign analytics for a holistic understanding of your market and audience",
-            four:"Get a breakdown of campaign analytics for a holistic understanding of your market and audience"
+            
         }
     }
 ]
