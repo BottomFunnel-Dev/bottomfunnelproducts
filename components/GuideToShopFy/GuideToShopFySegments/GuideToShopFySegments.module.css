@@ -1,0 +1,112 @@
+.GuideToShopFySegmentsParent{
+   
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: whitesmoke;
+   padding: 2%;
+}
+.GuideToShopFySegmentsOnlyChild{
+  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.GuideToShopFySegmentsOnlyChild>div{
+    width: 33%;
+   border-right: 4px solid white;
+    
+}
+.GuideToShopFySegmentsOnlyChilddivone>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+}
+.GuideToShopFySegmentsOnlyChilddivone>div>h1{
+    width: 80%;
+    
+}
+
+
+
+.GuideToShopFySegmentsOnlyChilddivtwo>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+}
+.GuideToShopFySegmentsOnlyChilddivtwo>div>h1{
+   width: 80%;
+}
+
+
+
+.GuideToShopFySegmentsOnlyChilddivthree>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12%;
+    
+}
+.GuideToShopFySegmentsOnlyChilddivthree>div>h1{
+   width: 80%;
+}
+@media(max-width:780px){
+    .GuideToShopFySegmentsParent{
+   
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       background-color: whitesmoke;
+       padding: 2%;
+    }
+    .GuideToShopFySegmentsOnlyChild{
+      
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2%;
+        flex-direction: column;
+    }
+    .GuideToShopFySegmentsOnlyChild>div{
+        width: 100%;
+       border-right: 4px solid white;
+       margin-bottom: 5%;
+        
+    }
+    .GuideToShopFySegmentsOnlyChilddivone>div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0%;
+        
+    }
+    .GuideToShopFySegmentsOnlyChilddivone>div>h1{
+        width: 100%;
+        
+    }
+    
+    
+    
+    .GuideToShopFySegmentsOnlyChilddivtwo>div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0%;
+        
+    }
+    .GuideToShopFySegmentsOnlyChilddivtwo>div>h1{
+       width: 100%;
+    }
+    
+    
+    
+    .GuideToShopFySegmentsOnlyChilddivthree>div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0%;
+        
+    }
+    .GuideToShopFySegmentsOnlyChilddivthree>div>h1{
+       width: 100%;
+    }
+}

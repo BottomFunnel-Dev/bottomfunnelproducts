@@ -1,31 +1,31 @@
-.GuideToShopFyConfigureaPrent{
+.GuideToShopFybotsaPrent{
    
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-   background-color: white;
+   background-color: whitesmoke;
    padding: 2%;
 }
-.GuideToShopFyConfigureOnlyChild{
+.GuideToShopFybotsOnlyChild{
   
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
 }
-.GuideToShopFyConfigureOnlyChild>div{
+.GuideToShopFybotsOnlyChild>div{
     padding: 0PX;
     width: 25%;
    
    padding: 1%;
-    border-right:  4px  solid whitesmoke;
+    border-right:  4px  solid white;
 }
-.GuideToShopFyConfigureOnlyChilddivone>div{
+.GuideToShopFybotsOnlyChilddivone>div{
     display: flex;
     justify-content: space-between;
     margin-bottom: 22%;
 }
-.GuideToShopFyConfigureOnlyChilddivone>div>h1{
+.GuideToShopFybotsOnlyChilddivone>div>h1{
    width: 70%;
   
 }
@@ -35,72 +35,75 @@
 
 
 
-.GuideToShopFyConfigureOnlyChilddivtwo>div{
+.GuideToShopbotsOnlyChilddivtwo>div{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 11%;
-    
+    margin-bottom: 30%;
+   
 }
-.GuideToShopFyConfigureOnlyChilddivtwo>div>h1{
+.GuideToShopbotsOnlyChilddivtwo>div>h1{
     width: 70%;
 }
 
 
 
-.GuideToShopFyConfigureOnlyChilddivthree>div{
+.GuideToShopFybotsOnlyChilddivthree>div{
     display: flex;
     justify-content: space-between;
     margin-bottom: 23%;
     
 }
-.GuideToShopFyConfigureOnlyChilddivthree>div>h1{
+.GuideToShopFybotsOnlyChilddivthree>div>h1{
     width: 70%;
 }
-.GuideToShopFyConfigureOnlyChilddivfour{
+.GuideToShopFybotsOnlyChilddivfour{
     border-right: 4px solid white;
 }
-.GuideToShopFyConfigureOnlyChilddivfour>div{
+.GuideToShopFybotsOnlyChilddivfour>div{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30%;
     
 }
-.GuideToShopFyConfigureOnlyChilddivfour>div>h1{
+.GuideToShopFybotsOnlyChilddivfour>div>h1{
     width: 70%;
 }
 
+
+
+
+
+
 @media(max-width:780px){
-    .GuideToShopFyConfigureaPrent{
+    .GuideToShopFybotsaPrent{
    
         margin-top: 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
-       background-color: white;
+       background-color: whitesmoke;
        padding: 2%;
     }
-    .GuideToShopFyConfigureOnlyChild{
+    .GuideToShopFybotsOnlyChild{
       
         display: flex;
         justify-content: space-around;
-        flex-direction: column;
         margin-top: 2%;
+        flex-direction: column;
     }
-    .GuideToShopFyConfigureOnlyChild>div{
+    .GuideToShopFybotsOnlyChild>div{
         padding: 0PX;
         width: 100%;
        
        padding: 1%;
-        border-right:  4px  solid whitesmoke;
-        margin-bottom: 5%;
+        border-right:  4px  solid white;
     }
-    .GuideToShopFyConfigureOnlyChilddivone>div{
+    .GuideToShopFybotsOnlyChilddivone>div{
         display: flex;
         justify-content: space-between;
-        margin: 0px;
-    
-        
+        margin-bottom: 0%;
     }
-    .GuideToShopFyConfigureOnlyChilddivone>div>h1{
+    .GuideToShopFybotsOnlyChilddivone>div>h1{
        width: 70%;
       
     }
@@ -110,36 +113,38 @@
     
     
     
-    .GuideToShopFyConfigureOnlyChilddivtwo>div{
+    .GuideToShopbotsOnlyChilddivtwo>div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0%;
+       
+    }
+    .GuideToShopbotsOnlyChilddivtwo>div>h1{
+        width: 70%;
+    }
+    
+    
+    
+    .GuideToShopFybotsOnlyChilddivthree>div{
         display: flex;
         justify-content: space-between;
         margin-bottom: 0%;
         
     }
-    .GuideToShopFyConfigureOnlyChilddivtwo>div>h1{
-        width: 100%;
+    .GuideToShopFybotsOnlyChilddivthree>div>h1{
+        width: 70%;
     }
-    
-    
-    
-    .GuideToShopFyConfigureOnlyChilddivthree>div{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0%;
-        
-    }
-    .GuideToShopFyConfigureOnlyChilddivthree>div>h1{
-        width: 100%;
-    }
-    .GuideToShopFyConfigureOnlyChilddivfour{
+    .GuideToShopFybotsOnlyChilddivfour{
         border-right: 4px solid white;
     }
-    .GuideToShopFyConfigureOnlyChilddivfour>div{
+    .GuideToShopFybotsOnlyChilddivfour>div{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 0%;
         
     }
-    .GuideToShopFyConfigureOnlyChilddivfour>div>h1{
-        width: 100%;
-    }  
+    .GuideToShopFybotsOnlyChilddivfour>div>h1{
+        width: 70%;
+    }
+       
 }

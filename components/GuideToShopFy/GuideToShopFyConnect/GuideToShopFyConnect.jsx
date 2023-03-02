@@ -16,7 +16,7 @@ export const GuideToShopFyConnect = () => {
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{ width: "30%", height: "30%" }}
+                            style={{ width: "15%", height: "15%" }}
 
                         />
                         <hr />
@@ -34,7 +34,7 @@ export const GuideToShopFyConnect = () => {
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{  width: "30%", height: "30%" }}
+                            style={{  width: "15%", height: "15%" }}
 
                         />
                     </div>
@@ -51,7 +51,7 @@ export const GuideToShopFyConnect = () => {
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{  width: "30%", height: "30%"}}
+                            style={{  width: "15%", height: "15%"}}
 
                         />
                     </div>
