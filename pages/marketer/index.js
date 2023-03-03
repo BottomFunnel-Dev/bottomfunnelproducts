@@ -34,7 +34,7 @@ const productData = {
       },
       {
         dropContent: "Journeys",
-        path: "/",
+        path: "/journey",
       },
       {
         dropContent: "Landing Pages",
@@ -94,7 +94,7 @@ export default function MarketerHomePage() {
       <TrustedBy />
 
       <ReadyStarted />
-      <TalentProfiles />
+      {/* <TalentProfiles /> */}
       <LifeBottomFunnel />
       <ProductsFooter />
     </div>

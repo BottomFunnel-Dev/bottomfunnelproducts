@@ -37,7 +37,7 @@ const productData = {
       },
       {
         dropContent: "Journeys",
-        path: "/",
+        path: "/journey",
       },
       {
         dropContent: "Landing Pages",

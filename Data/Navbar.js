@@ -1136,37 +1136,37 @@ export const product4 = [
   {
     dropContent: "MarketPlace",
     navIcons: "/Images/navbar/product/MarketPlace.png",
-    path: "MarketPlace",
+    path: "/",
   },
   {
     dropContent: "Developer Portal",
     navIcons: "/Images/navbar/product/dveloper.png",
-    path: "Portal",
+    path: "/developers-portal",
   },
   {
     dropContent: "Customer Spotlight",
     navIcons: "/Images/navbar/product/customer.png",
-    path: "Spotlight",
+    path: "/",
   },
   {
     dropContent: "Customer Service",
     navIcons: "/Images/navbar/product/Customerservice.png",
-    path: "Service",
+    path: "/",
   },
   {
     dropContent: "IT Enterprises",
     navIcons: "/Images/navbar/product/IT.png",
-    path: "Enterprises",
+    path: "/",
   },
   {
     dropContent: "Engagement",
     navIcons: "/Images/navbar/product/users.png",
-    path: "Conversational",
+    path: "/",
   },
   {
     dropContent: "Olly AI",
     navIcons: "/Images/navbar/product/olly.png",
-    path: "olly",
+    path: "/",
   },
 ];
 
