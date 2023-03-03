@@ -12,6 +12,8 @@ import { ReportAndAnalysisTransform } from "../../../../components/funnelDeskRep
 import ReportAndAnalysisReports from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisReports/ReportAndAnalysisReports";
 import ReportAndAnalysisLower from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisLower/ReportAndAnalysisLower";
 import ReportAndAnalysisCards from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisCards/ReportAndAnalysisCards";
+import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
+import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 export default function funnelDeskReportAndAnalysis() {
   return (
@@ -36,9 +38,13 @@ export default function funnelDeskReportAndAnalysis() {
       <ReportAndAnalysisReports/>
       <ReportAndAnalysisCards/>
       <ReportAndAnalysisLower/>
-      <TrustedBy />
+    
+
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <GetStarted />
       <ProductsFooter />
     </div>
   );

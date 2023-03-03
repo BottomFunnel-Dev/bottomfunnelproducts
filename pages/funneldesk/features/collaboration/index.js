@@ -13,6 +13,8 @@ import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
 import LifeBottomFunnel from "../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { GetStarted } from "../../../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
+import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 export default function funnelDeskCollaboration() {
   return (
@@ -38,11 +40,13 @@ export default function funnelDeskCollaboration() {
       <CollaborationOffers />
       <CollaborationMidBanner />
 
-      <StoriesSection />
-      <TrustedBy />
-      <LifeBottomFunnel />
-      <GetStarted />
-      <ProductsFooter />
+             
+       <Testimonial/>
+       <TrustedBy/>
+       <ReadyStarted/>
+      {/* <TalentProfiles/> */}
+       <LifeBottomFunnel />
+       <ProductsFooter />
     </div>
   );
 }

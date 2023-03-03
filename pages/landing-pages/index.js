@@ -8,6 +8,11 @@ import { LandingCustomer } from "../../components/Landing-Pages/LandingCustomer/
 import { LandingSales } from "../../components/Landing-Pages/LandingSales/LandingSales";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 const productData = {
   title: "Bottom Funnel Marketer",
@@ -20,27 +25,27 @@ const productData = {
     products: [
       {
         dropContent: "Multichannel Engagement",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Email & SMS",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "WhatsApp",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Journeys",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Landing Pages",
-        path: "/404",
+        path: "/landing-pages",
       },
       {
         dropContent: "Shopify Integration",
-        path: "/404",
+        path: "/",
       },
     ],
   },
@@ -51,19 +56,19 @@ const productData = {
     products: [
       {
         dropContent: "Product Tours",
-        path: "/404",
+        path: "/product-tour",
       },
       {
         dropContent: "Case Studies",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "What's new",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Guide to Shopify",
-        path: "/404",
+        path: "/guideToShopFy",
       },
     ],
   },
@@ -94,6 +99,12 @@ export default function landingPages() {
       <LandingBrand/>
       <LandingCustomer/>
       <LandingSales/>
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      {/* <TalentProfiles/> */}
+      <LifeBottomFunnel/>
+      <ProductsFooter/>
     </div>
     );
 }

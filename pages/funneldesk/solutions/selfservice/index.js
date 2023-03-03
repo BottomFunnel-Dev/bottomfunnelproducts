@@ -12,6 +12,8 @@ import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
 import LifeBottomFunnel from "../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { GetStarted } from "../../../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
+import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 export default function funnelDeskSelfService() {
   return (
@@ -37,10 +39,11 @@ export default function funnelDeskSelfService() {
       <SelfServiceContent />
       <SelfServiceCustomerHelp />
 
-      <StoriesSection />
-      <TrustedBy />
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <GetStarted />
       <ProductsFooter />
     </div>
   );

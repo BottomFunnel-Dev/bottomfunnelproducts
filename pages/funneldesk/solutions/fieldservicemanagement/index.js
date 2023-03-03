@@ -29,11 +29,12 @@ export default function FieldServiceManagement  ()  {
     <Stellerfieldservice />
     
 
-    <TrustedBy />
-    <Testimonial />
-    <ReadyStarted />
-    <LifeBottomFunnel />
-    <ProductsFooter />
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      {/* <TalentProfiles/> */}
+      <LifeBottomFunnel />
+      <ProductsFooter />
     </div>
   )
 }

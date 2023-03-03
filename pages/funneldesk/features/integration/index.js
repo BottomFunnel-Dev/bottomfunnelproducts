@@ -9,6 +9,7 @@ import LifeBottomFunnel from "../../../../components/ProductsNewPage/LifeBottomF
 import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
+import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 const index = () => {
   return (
@@ -34,8 +35,10 @@ const index = () => {
       <FeatureList />
       <IntegrationFooter />
 
-      {/* <Testimonial /> */}
-      <TrustedBy />
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
       <ProductsFooter />
     </div>
