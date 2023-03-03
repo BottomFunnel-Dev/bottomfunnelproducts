@@ -17,7 +17,7 @@ const productData = {
   width: "45%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/404" },
+    more: { title: "View more features", path: "/landing-pages" },
     position: { right: "35%" },
     products: [
       {
@@ -42,10 +42,11 @@ const productData = {
       },
       {
         dropContent: "Shopify Integration",
-        path: "/landing-pages",
+        path: "landing-pages",
       },
     ],
   },
+
   list4: {
     title: "Resources",
     more: false,
@@ -53,7 +54,7 @@ const productData = {
     products: [
       {
         dropContent: "Product Tours",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Case Studies",
@@ -84,15 +85,15 @@ export default function MarketerHomePage() {
           logo: false,
         }}
       />
+
       <ProdNavbar data={productData} />
       <MarketerHomePageBanner />
       <ConversonalCrm />
       <ForBusiness />
 
       <Testimonial />
-      <TrustedBy/>
-     
-      
+      <TrustedBy />
+
       <ReadyStarted />
       <TalentProfiles />
       <LifeBottomFunnel />

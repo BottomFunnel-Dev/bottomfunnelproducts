@@ -25,7 +25,13 @@ export default function DropDown5({ handleHover, ProdData, postion }) {
               onClick={() => handleHover("")}
               className={styles.productlinkP}
             >
-              <p>{item.dropContent}</p>
+              <Link
+                onClick={handleHover}
+                style={{ width: "75%" }}
+                href={item.path}
+              >
+                <p style={{color:'black'}}>{item.dropContent}</p>
+              </Link>
             </div>
           </div>
         ))}
