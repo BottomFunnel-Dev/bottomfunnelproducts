@@ -1,0 +1,43 @@
+.ReportAndAnalysisCardsMain{
+    height: fit-content;
+    background-color: #fafafa;
+
+}
+.ReportAndAnalysisCardsMain>h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 3%;
+}
+.ReportAndAnalysisCardsdiv{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 4%;
+  
+}
+.ReportAndAnalysisCardsbox{
+width: 40%;
+padding: 30px;
+border-right: 2px solid #ef4c23;
+
+}
+
+.ReportAndAnalysisCardsbox:nth-child(3){
+    border-right: none;
+}
+
+.ReportAndAnalysisCardsimg{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+.ReportAndAnalysisCardsbox>h5{
+text-align: center;
+}
+.ReportAndAnalysisCardsbox>p{
+text-align: justify;
+}

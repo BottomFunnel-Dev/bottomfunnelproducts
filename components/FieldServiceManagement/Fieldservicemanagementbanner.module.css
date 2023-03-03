@@ -1,0 +1,46 @@
+.fieldservicemanagementbannermain{
+    height: fit-content;
+    border: 1px solid transparent;
+    margin-top: 10%;
+}
+
+.fieldservicemanagementbannerflexbox{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.fieldservicemanagementleftbox{
+    width: 50%;
+    height: fit-content;
+}
+
+.fieldservicemanagementleftbox>h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.fieldservicemanagementrightbox{
+    height: 300px;
+    width: 50%;
+
+}
+
+.filedbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .filedbannerbutton:hover {
+    background-color: white;
+   color: #ef4c23;
+  }
