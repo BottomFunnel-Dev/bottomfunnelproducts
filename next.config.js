@@ -19,7 +19,8 @@ module.exports = withBundleAnalyzer({
       {
         source: "/django",
         destination: "https://service.bottomfunnel.net/skills/django",
-        permanent: false,
+        permanent: true,
+        basePath: false,
       },
       {
         source: "/pharmacy",
