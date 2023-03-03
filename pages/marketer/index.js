@@ -22,19 +22,19 @@ const productData = {
     products: [
       {
         dropContent: "Multichannel Engagement",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Email & SMS",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "WhatsApp",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Journeys",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Landing Pages",
@@ -42,7 +42,7 @@ const productData = {
       },
       {
         dropContent: "Shopify Integration",
-        path: "/404",
+        path: "/",
       },
     ],
   },
