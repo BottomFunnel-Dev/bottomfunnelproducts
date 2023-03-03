@@ -1,7 +1,31 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   reactStrictMode: true,
+//   distDir: "build",
+// };
+
+// module.exports = nextConfig;
+
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
+
+module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
-};
 
-module.exports = nextConfig;
+  async redirects() {
+    return [
+      {
+        source: "/django",
+        destination: "https://service.bottomfunnel.net/skills/django",
+        permanent: true,
+      },
+      {
+        source: "/pharmacy",
+        destination: "https://service.bottomfunnel.net/pharmacy",
+        permanent: true,
+      },
+    ];
+  },
+});

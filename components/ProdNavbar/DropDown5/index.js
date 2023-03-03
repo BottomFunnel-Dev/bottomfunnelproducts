@@ -30,7 +30,15 @@ export default function DropDown5({ handleHover, ProdData, postion }) {
                 style={{ width: "75%" }}
                 href={item.path}
               >
-                <p style={{fontSize: "14px", color: "black", fontWeight:"500"}}>{item.dropContent}</p>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    color: "black",
+                    fontWeight: "500",
+                  }}
+                >
+                  {item.dropContent}
+                </p>
               </Link>
             </div>
           </div>
@@ -48,4 +56,4 @@ export default function DropDown5({ handleHover, ProdData, postion }) {
       </div>
     </div>
   );
-};
+}
