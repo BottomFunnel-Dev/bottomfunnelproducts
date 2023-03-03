@@ -14,7 +14,7 @@ export default function DropDown5({ handleHover, ProdData, postion }) {
         right: postion.right ? postion.right : "none",
       }}
     >
-      <div className={styles.dropDownFiveListItems} style={{ width: "100%" }}>
+      <div className={styles.dropDownFiveListItems} style={{ width: "100%"}}>
         {ProdData.data.map((item, i) => (
           <div
             key={i}
@@ -30,15 +30,7 @@ export default function DropDown5({ handleHover, ProdData, postion }) {
                 style={{ width: "75%" }}
                 href={item.path}
               >
-                <p
-                  style={{
-                    fontSize: "14px",
-                    color: "black",
-                    fontWeight: "500",
-                  }}
-                >
-                  {item.dropContent}
-                </p>
+                <p style={{fontSize: "14px", color: "black", fontWeight:"500",marginLeft:"4%"}}>{item.dropContent}</p>
               </Link>
             </div>
           </div>
@@ -47,12 +39,13 @@ export default function DropDown5({ handleHover, ProdData, postion }) {
         {ProdData.more ? (
           <Link
             onClick={() => handleHover("")}
-            href={ProdData.more.path}
+            href={"/allFeatures"}
             className={styles.dropDownFivesAllFeaturesButton}
           >
             <button>{ProdData.more.title}</button>
           </Link>
         ) : null}
+ 
       </div>
     </div>
   );

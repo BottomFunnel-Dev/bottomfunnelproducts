@@ -54,7 +54,7 @@ const productData = {
     products: [
       {
         dropContent: "Product Tours",
-        path: "/",
+        path: "/product-tour",
       },
       {
         dropContent: "Case Studies",
@@ -62,11 +62,11 @@ const productData = {
       },
       {
         dropContent: "What's new",
-        path: "/404",
+        path: "/whatsnew",
       },
       {
         dropContent: "Guide to Shopify",
-        path: "/404",
+        path: "/guideToShopFy",
       },
     ],
   },
