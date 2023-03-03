@@ -1,17 +1,18 @@
 import React from "react";
 import styles from "./WhatsNewBanner.module.css";
 import Image from "next/image";
+
 export default function WhatsNewBanner() {
   return (
     <div className={styles.WhatsNewBannerMain}>
-      <div>
+      <div className={styles.WhatsNewBannertext}>
         <h1>What's New with Bottom Funnel Marketer</h1>
         <p>See highlights from our monthly product updates</p>
-        <button></button>
+        <button>Start a Free Demo</button>
       </div>
-      <div>
+      <div className={styles.WhatsNewBannerimg}>
         <Image
-          src={img}
+          src={"/Images/WhatsNew/Banner/Group 771254.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}

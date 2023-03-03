@@ -36,6 +36,7 @@ export default function funnelDeskReportAndAnalysis() {
       <ReportAndAnalysisReports/>
       <ReportAndAnalysisCards/>
       <ReportAndAnalysisLower/>
+      
       <TrustedBy />
       <LifeBottomFunnel />
       <GetStarted />
