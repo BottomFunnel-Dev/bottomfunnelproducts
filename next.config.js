@@ -11,6 +11,12 @@ const nextConfig = {
         basePath: false,
       },
       {
+        source: "/Logistics",
+        destination: "https://service.bottomfunnel.net/industries/logistics",
+        permanent: true,
+        basePath: false,
+      },
+      {
         source: "/pharmacy",
         destination: "https://service.bottomfunnel.net/pharmacy",
         permanent: true,
