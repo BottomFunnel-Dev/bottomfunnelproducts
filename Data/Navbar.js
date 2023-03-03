@@ -1174,22 +1174,34 @@ export const productSolution = [
   {
     dropContent: "By Use Size",
     productText1: "Enterprise",
-    productText2: "SMB",
     path: "/funneldesk/solutions/enterprise",
   },
+  {
+    productText2: "SMB",
+    path: "/smb",
+  },
+  
   {
     dropContent: "By Use Case",
     productText1: "Self Service",
     path: "/funneldesk/solutions/selfservice",
+  },
+  {
     productText2: "Field Service",
+   path: "/funneldesk/solutions/fieldservicemanagement",
   },
   {
     dropContent: "By Industry",
-    productText1: "Retail & E-commerce",
-    productText2: "Travel & Hospitality",
+    productText1:"Retail & E-commerce",
     path: "/funneldesk/solutions/retailandecommerce",
+
+  },
+  {
+
+    productText2:"Travel & Hospitality",
     path:  "/funneldesk/solutions/travel-and-hospitality"
-}
+    } 
+
  
 ];
 
@@ -1408,11 +1420,11 @@ export const salesIndustries = [
   },
   {
     dropContent: "Education",
-    path: "education",
+    path: "/educationsales",
   },
   {
     dropContent: "Travel Agency",
-    path: "travel",
+    path: "/travelagencysales",
   },
   {
     dropContent: "Law Firm",

@@ -1,0 +1,19 @@
+.Featuresmaindiv{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+
+}
+
+.Featuresmaindivcontent ul li {
+    margin-top: 1%;
+}
+.Featuresmaindivcontentimage{
+    /* border: 2px solid yellow; */
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

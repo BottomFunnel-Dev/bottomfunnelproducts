@@ -1,0 +1,34 @@
+.EducationSalesBannermaindiv{
+    /* border: 2px solid green; */
+    background: url("/Images/Educationsales/bgbanner.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.EducationSalesBannermaindivbutton{
+    /* border: 2px solid yellow; */
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: #ef4c23;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+
+}
+.EducationSalesBannermaindivbutton:hover{
+    border: 1px solid #ef4c23;
+    color: #ef4c23;
+    background-color: white;
+}
+.EducationSalesBannermaindivinner{
+    width: 35%;
+    margin-left: 5%;
+    /* margin: auto; */
+}
