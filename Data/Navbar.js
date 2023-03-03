@@ -997,21 +997,21 @@ export const scaleRightContent = [
 export const product1 = [
   {
     dropContent: "Bottom Funnel Support Desk",
-    navIcons: "Images/navbar/product/desk.png",
+    navIcons: "/Images/navbar/product/desk.png",
     path: "funneldesk",
     title: "Delight Your Customer With Effortless Support Desk Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Chat",
-    navIcons: "Images/navbar/product/Chat.png",
+    navIcons: "/Images/navbar/product/Chat.png",
     path: "bottomfunnel-chat",
     title: "Delight Your Customer With Effortless Bottom Funnel Chat Service",
     productHover: "#a1ffca",
   },
   {
     dropContent: "Bottom Funnel Marketer",
-    navIcons: "Images/navbar/product/Market.png",
+    navIcons: "/Images/navbar/product/Market.png",
     path: "marketer",
     title: "Delight Your Customer With Effortless MarketPlace Service",
     productHover: "#ffcf9c",
@@ -1019,14 +1019,14 @@ export const product1 = [
 
   {
     dropContent: "Bottom Funnel sales",
-    navIcons: "Images/navbar/product/bottomFunnnelSales.png",
+    navIcons: "/Images/navbar/product/bottomFunnnelSales.png",
     path: "/sales",
     title: "Delight Your Customer With Effortless Sales Service",
     productHover: "#ffaf9a",
   },
   {
     dropContent: "Bottom Funnel Service",
-    navIcons: "Images/navbar/product/Service.png",
+    navIcons: "/Images/navbar/product/Service.png",
     path: "/bottomfunnelservice",
     title: "Delight Your Customer With Effortless Service",
     productHover: "#e1e1e1",
@@ -1036,7 +1036,7 @@ export const product1 = [
 export const product2 = [
   {
     dropContent: "Bottom Funnel Omnichannel",
-    navIcons: "Images/navbar/product/omnichannel.png",
+    navIcons: "/Images/navbar/product/omnichannel.png",
     path: "/bottomfunnel-omnichannel",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
@@ -1044,21 +1044,21 @@ export const product2 = [
 
   {
     dropContent: "Bottom Funnel Customer Success",
-    navIcons: "Images/navbar/product/success.png",
+    navIcons: "/Images/navbar/product/success.png",
     path: "customersuccess",
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Contact Center",
-    navIcons: "Images/navbar/product/contact.png",
+    navIcons: "/Images/navbar/product/contact.png",
     path: "contact-center",
     title: "Delight Your Customer With Effortless Contact Center Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Team",
-    navIcons: "Images/navbar/product/Sales.png",
+    navIcons: "/Images/navbar/product/Sales.png",
     path: "/",
     title: "Delight Your Customer With Effortless Team Service",
     productHover: "#ffaf9a",
