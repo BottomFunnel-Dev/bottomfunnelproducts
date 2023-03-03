@@ -19,18 +19,18 @@ module.exports = withBundleAnalyzer({
       {
         source: "/django",
         destination: "https://service.bottomfunnel.net/skills/django",
-        permanent: true,
+        permanent: false,
       },
       {
         source: "/pharmacy",
         destination: "https://service.bottomfunnel.net/pharmacy",
-        permanent: true,
+        permanent: false,
         basePath: false,
       },
       {
         source: "/wearable-app-development",
         destination:"https://service.bottomfunnel.net/wearable-app-development",
-        permanent: true,
+        permanent: false,
         basePath: false,
       },
     ];
