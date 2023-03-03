@@ -4,6 +4,7 @@ import { ServiceExperience } from '../../../../components/FieldServiceManagement
 import { Servicemanagementscreens } from '../../../../components/FieldServiceManagement/Servicemanagementscreens'
 import { Stellerfieldservice } from '../../../../components/FieldServiceManagement/Stellerfieldservice'
 import Navbar from '../../../../components/Navbar/Navbar'
+import { ProductsNavbar } from '../../../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import LifeBottomFunnel from '../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
 import { ProductsFooter } from '../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
 import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
@@ -23,6 +24,13 @@ export default function FieldServiceManagement  ()  {
       logo: false,
     }}
   />
+
+  <ProductsNavbar
+  navproductredux={{
+    color: "black",
+    logo: false,
+  }}
+/>
     <Fieldservicemanagementbanner />
     <ServiceExperience />
     <Servicemanagementscreens/>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../../../components/Navbar/Navbar'
+import { ProductsNavbar } from '../../../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import LifeBottomFunnel from '../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
 import { ProductsFooter } from '../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
 import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
@@ -21,6 +22,13 @@ export default function travelhositality ()  {
       logo: false,
     }}
   />
+
+  <ProductsNavbar
+  navproductredux={{
+    color: "black",
+    logo: false,
+  }}
+/>
     <Travelandhospitalitybanner />
     <TravelHospitalitydashbord />
     <TrustedBy />
