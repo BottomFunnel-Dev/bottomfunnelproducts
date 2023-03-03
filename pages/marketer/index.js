@@ -17,7 +17,7 @@ const productData = {
   width: "45%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/landing-pages" },
+    more: { title: "View more features", path: "/404" },
     position: { right: "35%" },
     products: [
       {
@@ -34,7 +34,7 @@ const productData = {
       },
       {
         dropContent: "Journeys",
-        path: "/",
+        path: "/journey",
       },
       {
         dropContent: "Landing Pages",
@@ -46,7 +46,6 @@ const productData = {
       },
     ],
   },
-
   list4: {
     title: "Resources",
     more: false,
@@ -58,11 +57,11 @@ const productData = {
       },
       {
         dropContent: "Case Studies",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "What's new",
-        path: "/whatsnew",
+        path: "/",
       },
       {
         dropContent: "Guide to Shopify",
@@ -95,7 +94,7 @@ export default function MarketerHomePage() {
       <TrustedBy />
 
       <ReadyStarted />
-      <TalentProfiles />
+      {/* <TalentProfiles /> */}
       <LifeBottomFunnel />
       <ProductsFooter />
     </div>

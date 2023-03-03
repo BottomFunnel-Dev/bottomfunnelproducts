@@ -32,10 +32,12 @@ export default function travelhositality ()  {
     <Travelandhospitalitybanner />
     <TravelHospitalitydashbord />
     <TrustedBy />
-    <Testimonial />
-    <ReadyStarted />
-    <LifeBottomFunnel />
-    <ProductsFooter />
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      {/* <TalentProfiles/> */}
+      <LifeBottomFunnel />
+      <ProductsFooter />
     
     </div>
   )
