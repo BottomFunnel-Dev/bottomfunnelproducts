@@ -22,19 +22,19 @@ const productData = {
     products: [
       {
         dropContent: "Multichannel Engagement",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Email & SMS",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "WhatsApp",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Journeys",
-        path: "/404",
+        path: "/journey",
       },
       {
         dropContent: "Landing Pages",
@@ -42,7 +42,7 @@ const productData = {
       },
       {
         dropContent: "Shopify Integration",
-        path: "/404",
+        path: "/",
       },
     ],
   },
@@ -53,19 +53,19 @@ const productData = {
     products: [
       {
         dropContent: "Product Tours",
-        path: "/404",
+        path: "/product-tour",
       },
       {
         dropContent: "Case Studies",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "What's new",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Guide to Shopify",
-        path: "/404",
+        path: "/guideToShopFy",
       },
     ],
   },
@@ -84,17 +84,17 @@ export default function MarketerHomePage() {
           logo: false,
         }}
       />
+
       <ProdNavbar data={productData} />
       <MarketerHomePageBanner />
       <ConversonalCrm />
       <ForBusiness />
 
       <Testimonial />
-      <TrustedBy/>
-     
-      
+      <TrustedBy />
+
       <ReadyStarted />
-      <TalentProfiles />
+      {/* <TalentProfiles /> */}
       <LifeBottomFunnel />
       <ProductsFooter />
     </div>

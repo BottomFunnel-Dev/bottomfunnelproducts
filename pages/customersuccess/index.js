@@ -16,7 +16,7 @@ export default function CustomerSuccessHome() {
     return (
     <div>
 
-<Navbar
+    <Navbar
       productMount={{
         navMount: true,
       }}
@@ -39,7 +39,7 @@ export default function CustomerSuccessHome() {
        <RequestDemo/>
 
        <Testimonial />
-      <TrustedBy/>
+       <TrustedBy/>
      
       
       <ReadyStarted />
