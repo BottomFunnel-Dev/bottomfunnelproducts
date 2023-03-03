@@ -1187,9 +1187,10 @@ export const productSolution = [
     dropContent: "By Industry",
     productText1: "Retail & E-commerce",
     productText2: "Travel & Hospitality",
-    path: "/funneldesk/solutions/retailandecommerce",
+    path: "/funneldesk/solutions/",
   },
 ];
+
 export const productDesk = [
   {
     dropContent: "Support Desk",
