@@ -1,0 +1,21 @@
+.Solutionmaindiv{
+    /* border: 2px solid green; */
+    background: url("/Images/Educationsales/banner (2).webp");
+    background-position: center;
+
+background-repeat: no-repeat;
+background-size: cover;
+width: 80%;
+margin: auto;
+display: flex;
+height: 340px;
+justify-content: right;
+align-items: center;
+border-radius: 20px;
+margin-top: 4%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Solutionmaindivcontent{
+    /* border: 2px solid red; */
+    width: 50%;
+}

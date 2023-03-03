@@ -1405,11 +1405,11 @@ export const salesIndustries = [
   },
   {
     dropContent: "Education",
-    path: "education",
+    path: "/educationsales",
   },
   {
     dropContent: "Travel Agency",
-    path: "travel",
+    path: "/travelagencysales",
   },
   {
     dropContent: "Law Firm",
