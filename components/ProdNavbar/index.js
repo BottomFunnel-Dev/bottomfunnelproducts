@@ -7,6 +7,7 @@ import DropDown2 from "./DropDown2";
 import { DropDown3 } from "./DropDown3";
 import Image from "next/image";
 import DropDown5 from "./DropDown5";
+import Link from "next/link";
 
 export const ProdNavbar = ({ data }) => {
   const [dropdown, setDropdown] = useState("none");
@@ -49,6 +50,7 @@ export const ProdNavbar = ({ data }) => {
           </span>
           <h5>{data.title}</h5>
         </div>
+
         <div className={prodnav.deskList} style={{ width: data.width }}>
           {data.productsList ? (
             <p
@@ -96,7 +98,7 @@ export const ProdNavbar = ({ data }) => {
             </p>
           ) : null}
 
-          <p>Pricing</p>
+          <p> Pricing </p>
 
           {data.list3 ? (
             <p
@@ -129,38 +131,39 @@ export const ProdNavbar = ({ data }) => {
               ></i>
             </p>
           ) : null}
+
           <p>Sign In</p>
           <button>Free Trial</button>
         </div>
       </div>
 
       {/* service drop down section code start */}
-      {dropdown == "dropDown1" ? (
+      {/* {dropdown == "dropDown1" ? (
         <DropDown1
           handleHover={handleHover}
           scroll={scroll}
           more={data.productsList.more}
           productDesk={data.productsList.products}
         />
-      ) : null}
+      ) : null} */}
 
-      {dropdown == "dropDown2" ? (
+      {/* {dropdown == "dropDown2" ? (
         <DropDown2
           handleHover={handleHover}
           scroll={scroll}
           more={data.list2.more}
           data={data.list2.products}
         />
-      ) : null}
+      ) : null} */}
 
-      {dropdown == "dropDown3" ? (
+      {/* {dropdown == "dropDown3" ? (
         <DropDown3
           handleHover={handleHover}
           scroll={scroll}
           more={data.list3.more}
           data={data.list3.products}
         />
-      ) : null}
+      ) : null} */}
 
       {dropdown == "dropDown4" ? (
         <DropDown5
