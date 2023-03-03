@@ -27,7 +27,7 @@ export const RetailsCustomer = () => {
             </li>
           </ul>
           <h6 className={styles.colored}>
-            Explore freddy, the AI-powerd omnibot
+            Explore Olly, the AI-powerd omnibot
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

@@ -39,11 +39,13 @@
 }
 
 .dropDownFiveData {
-  padding: 10px 0;
-  padding-left: 10px;
+  padding-left:18px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   cursor: pointer;
+  height:60px;
+  /* border: 2px solid red; */
 }
 
 .productlinkP > p {
@@ -59,7 +61,7 @@
 }
 
 .dropDownFiveData:hover {
-  background-color: lightgray;
+  background-color: rgb(242, 238, 238);
   border-left: 3px solid #ef4c23;
 }
 
@@ -90,4 +92,15 @@
   background-color: #ef4c23;
   color: white;
   border: 1px solid #ef4c23;
+}
+
+.prodnavbarDropdownButton{
+  border: 1px solid gray;
+  width: 85%;
+  height: 30px;
+  background-color:white ;
+  border-radius: 7px;
+  margin-bottom: 5%;
+  font-size: 15px;
+  margin-left: 7%;
 }

@@ -1,0 +1,29 @@
+.productTourBannerConatiner{
+    border: 2px solid red;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.productTourBannerText{
+    border: 2px solid red;
+    width: 40%;
+    height: auto;
+    margin-top:10%;
+    margin-left: 10%;
+}
+.productTourBannerText>button{
+    background-color: #EF4C23;
+    border: none;
+    height: 40px;
+    width: 15%;
+    color: white;
+    border-radius: 5px;
+
+}
+.productTourBannerImage{
+    border: 2px solid red;
+    width: 45%;
+    height: 70vh;
+    margin-top: 4%;
+}
