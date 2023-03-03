@@ -1174,9 +1174,11 @@ export const productSolution = [
   {
     dropContent: "By Use Size",
     productText1: "Enterprise",
-    productText2: "SMB",
     path: "/funneldesk/solutions/enterprise",
+    productText2: "SMB",
+    path: "/smb",
   },
+  
   {
     dropContent: "By Use Case",
     productText1: "Self Service",
@@ -1185,11 +1187,12 @@ export const productSolution = [
   },
   {
     dropContent: "By Industry",
-    productText1: "Retail & E-commerce",
-    productText2: "Travel & Hospitality",
+    productText1:"Retail & E-commerce",
     path: "/funneldesk/solutions/retailandecommerce",
+    productText2:"Travel & Hospitality",
     path:  "/funneldesk/solutions/travel-and-hospitality"
-}
+    } 
+
  
 ];
 
