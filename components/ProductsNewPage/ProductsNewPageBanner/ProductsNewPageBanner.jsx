@@ -71,8 +71,7 @@ export const ProductsNewPageBanner = () => {
           <div className={styles.productPageBannerContent}>
             <h1>Build Your Brands presence With BOTTOM FUNNEL</h1>
             <p>
-              Welcome to Bottom Funnel, the world's leading app development
-              company for fintech and startup companies.
+              Customer Service, IT, and CRM software that's incredibly powerful, yet fast, easy and cost effective.
             </p>
           </div>
 

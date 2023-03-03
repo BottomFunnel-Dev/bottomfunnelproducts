@@ -1,0 +1,25 @@
+.CRMedtechmaindiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+justify-content: space-between;
+margin-top: 4%;
+    /* align-items: center; */
+}
+.CRMedtechmaindivimage{
+    /* border: 2px solid red; */
+    width: 42%;
+}
+
+.CRMedtechmaindivcontent{
+    /* border: 2px solid yellow; */
+    width: 50%;
+}
+.CRMedtechmaindivcontent h1{
+    color: #ef4c23;
+}
+.CRMedtechmaindivcontent p{
+    text-align: justify;
+}

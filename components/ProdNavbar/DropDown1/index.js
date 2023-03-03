@@ -24,7 +24,9 @@ export default function DropDown1({ handleHover, scroll, productDesk }) {
               href={item.path}
               className={deskstyle.productlinkP}
             >
-              <h6>{item.dropContent}</h6>
+              <Link href={data.list4.path}>
+                <h6>{item.dropContent}</h6>
+              </Link>
               <p style={{ color: "black" }}>{item.productText1}</p>
             </Link>
           </div>

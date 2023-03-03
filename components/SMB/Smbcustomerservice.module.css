@@ -1,0 +1,48 @@
+.smbcustomerservicemainboxes{
+    height: fit-content;
+    margin-top: 3%;
+}
+.smbcustomerservicemainboxes>h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.smbcustomerdataindi{
+    display: flex;
+    margin-top: 2%;
+}
+
+.smbcustomerdataindi:nth-child(even){
+    flex-direction: row-reverse;
+   width: 95%;
+   margin: auto;
+}
+.smbcustomerdataindi:nth-child(odd){
+    background-color: #f5f5f5;
+}
+
+.smbcustomerindileftbox{
+    height: fit-content;
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+.smbcustomerindileftbox>h6{
+    color: #ef4c23;
+ 
+}
+
+.smbcustomerindirightbox{
+     height: 400px;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+.smbcustomerindiicon{
+    width: 10%;
+    height: 10%;
+
+}

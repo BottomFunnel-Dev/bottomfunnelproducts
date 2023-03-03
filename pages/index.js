@@ -46,8 +46,7 @@ export default function Home() {
         <TrustedBy />
         <ReadyStarted />
         <TalentProfiles />
-    
-        
+
         <LifeBottomFunnel />
         <ProductsFooter />
       </main>
