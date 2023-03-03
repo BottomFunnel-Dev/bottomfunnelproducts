@@ -28,7 +28,7 @@
   color: black;
 }
 .productSolutionsData {
-  height: 85px;
+  height: fit-content;
   padding: 10px;
   /* border: 2px solid red; */
   /* padding-bottom: 2%; */

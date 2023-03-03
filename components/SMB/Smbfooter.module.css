@@ -1,0 +1,60 @@
+.smbfootermainboxes{
+    height: fit-content;
+    margin-top: 3%;
+}
+.smbfootermainboxes>h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.smbfooterdatamappingbox{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.smbfooterdatamappingbox>svg{
+    margin-top: 12%;
+}
+.smbfooterslickerbox{
+    height: 250px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.smbfooterslickerbox:hover{
+    transform: scale(1.05);
+}
+
+.footerbutonsbm {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+  }
+  
+  .footerbutonsbm:hover {
+    background-color: white;
+    color: #ef4c23;
+
+  }
+
+  .footertextbutton{
+  text-align: center;
+  }
+  .footertextbutton>h3{
+    font-size: 40px;
+  }
