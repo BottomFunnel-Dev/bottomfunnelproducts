@@ -17,24 +17,24 @@ export default function WhatsNew() {
     width: "45%",
     list1: {
       title: "Features",
-      more: { title: "View more features", path: "/404" },
+      more: { title: "View more features", path: "/" },
       position: { right: "35%" },
       products: [
         {
           dropContent: "Multichannel Engagement",
-          path: "/404",
+          path: "/",
         },
         {
           dropContent: "Email & SMS",
-          path: "/404",
+          path: "/",
         },
         {
           dropContent: "WhatsApp",
-          path: "/404",
+          path: "/",
         },
         {
           dropContent: "Journeys",
-          path: "/404",
+          path: "/",
         },
         {
           dropContent: "Landing Pages",
@@ -42,7 +42,7 @@ export default function WhatsNew() {
         },
         {
           dropContent: "Shopify Integration",
-          path: "/404",
+          path: "/",
         },
       ],
     },

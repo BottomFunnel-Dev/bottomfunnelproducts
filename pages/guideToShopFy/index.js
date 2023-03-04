@@ -23,7 +23,7 @@ const productData = {
     width: "45%",
     list1: {
       title: "Features",
-      more: { title: "View more features", path: "/404" },
+      more: { title: "View more features", path: "/" },
       position: { right: "35%" },
       products: [
         {
@@ -67,7 +67,7 @@ const productData = {
         },
         {
           dropContent: "What's new",
-          path: "/",
+          path: "/whatsnew",
         },
         {
           dropContent: "Guide to Shopify",

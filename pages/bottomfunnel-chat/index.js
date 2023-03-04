@@ -18,58 +18,58 @@ const productData = {
   width: "65%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/404" },
+    more: { title: "View more features", path: "/" },
     position: { left: "30%" },
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Chatbots",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Team Inbox",
-        path: "/404",
+        path: "/team-inbox",
       },
       {
         dropContent: "Journeys",
-        path: "/404",
+        path: "/",
       },
     ],
   },
   list2: {
     title: "Integrations",
-    more: { title: "View more integrations", path: "/404" },
+    more: { title: "View more integrations", path: "/" },
     products: [
       {
         dropContent: "Instagram DM",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Google Business Messages",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "WhatsApp",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Apple Business Chat",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Facebook Messenger",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "LINE",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "SMS",
-        path: "/404",
+        path: "/",
       },
     ],
   },
@@ -79,57 +79,57 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/404" },
-          { title: "Zero Contact Resolutions", path: "/404" },
-          { title: "Provide convenient customer service", path: "/404" },
-          { title: "Move from costly channels", path: "/404" },
+          { title: "Smart Conversations", path: "/" },
+          { title: "Zero Contact Resolutions", path: "/" },
+          { title: "Provide convenient customer service", path: "/" },
+          { title: "Move from costly channels", path: "/" },
         ],
       },
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/404" },
-          { title: "SMB", path: "/404" },
+          { title: "Enterprise", path: "/" },
+          { title: "SMB", path: "/" },
         ],
       },
     ],
   },
   list4: {
     title: "Resources",
-    more: { title: "View more resources", path: "/404" },
+    more: { title: "View more resources", path: "/" },
     position: { right: "20%" },
     products: [
       {
         dropContent: "Holiday Support",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Case Studies",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Customer Spotlight",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Ebooks",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Blogs",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Product Tours",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "Academy",
-        path: "/404",
+        path: "/",
       },
       {
         dropContent: "What's new",
-        path: "/404",
+        path: "/",
       },
     ],
   },
