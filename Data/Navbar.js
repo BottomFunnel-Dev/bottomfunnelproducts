@@ -1392,7 +1392,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "Hospitality",
-    path: "/",
+    path: "/hospitalitysales",
   },
   {
     dropContent: "Insurance",
@@ -1416,7 +1416,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "HealthCare",
-    path: "/",
+    path: "/healthcaresales",
   },
   {
     dropContent: "Education",

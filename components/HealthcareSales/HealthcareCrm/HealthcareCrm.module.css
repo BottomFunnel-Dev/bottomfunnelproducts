@@ -1,0 +1,25 @@
+.HealthcareCrmdiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.HealthcareCrmdiv h2{
+    color: #ef4c23;
+    /* border: 2px solid green; */
+    margin-left: 2%;
+}
+.HealthcareCrmmaindiv{
+    width: 80%;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 4%;
+}
+.HealthcareCrmdivimage{
+    /* border: 2px solid yellow; */
+    width: 100px ;
+    height: 100px;
+}
