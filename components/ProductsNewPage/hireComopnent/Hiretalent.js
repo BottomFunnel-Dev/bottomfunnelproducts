@@ -299,7 +299,9 @@ export default function Hiretalent() {
             src={roles[dataprint].img}
             alt={roles[dataprint].img}
           />
-          <div className={styles.topcontent}>Click to know More</div>
+
+          {/* <div className={styles.topcontent}>Click to know More</div> */}
+          
           <div className={styles.techstackpart}>
             <h3>{roles[dataprint].title}</h3>
             <div className={styles.relatedtech}>
