@@ -1,0 +1,27 @@
+.developerPortalRegisterContainer{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 320px;
+}
+.developerPortalRegImage{
+    width: 82%;
+    height: 100%;
+    margin-left: 9%;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.developerPortalRegText{
+    /* border: 2px solid red;  */
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.developerPortalRegText>button{
+    color: white;
+    background-color: #EF4C23;
+    border: none;
+    border-radius: 5px;
+    width: 28%;
+    height: 45px;
+    margin-top: 2%;
+}

@@ -10,7 +10,14 @@
     width: 40%;
     height: auto;
     margin-top:8%;
-    margin-left: 7%;
+    margin-left: 5%;
+}
+.developerPortalGrowText>h2{
+    color: #EF4C23;
+}
+.developerPortalGrowText>h3{
+    font-weight: 700;
+    font-size: 35px;
 }
 .developerPortalGrowText>button{
     background-color: #EF4C23;
@@ -23,8 +30,8 @@
 }
 .developerPortalGrowImage{
     /* border: 2px solid red; */
-    width: 32%;
+    width: 28%;
     height: 60vh;
-    margin-top: 4%;
-    margin-left: 10%;
+    margin-top: 1%;
+    margin-left: 15%;
 }

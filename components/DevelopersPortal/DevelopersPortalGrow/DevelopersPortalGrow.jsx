@@ -19,9 +19,10 @@ export const DevelopersPortalGrow = () => {
     </div>
 
     <div className={styles.developerPortalGrowText}>
-        <h1>Grow with us!</h1>
-        <p>Build innovative solutions to deliver customer delight with a secure, serverless, and self-serve platform
-          powered by rich APIs, a robust developer toolkit, and Crayons UI design library.
+        <h2>MarketPlace</h2>
+        <h3>Grow with us!</h3>
+        <p>
+           Publish Your app on Bottom Funnel Marketplace to gain access to a fast growing customer base of 40,000+ Bottom Funnel customers.
         </p>
         <button>Visit Our Marketplace</button>
     </div>

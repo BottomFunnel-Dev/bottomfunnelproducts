@@ -1,0 +1,37 @@
+.developerPortalCasesMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4%;
+}
+.developerPortalCasesMainDiv>h3{
+    color: #EF4C23;
+}
+.developerPortalCaseContainer{
+    /* border: 2px solid gold; */
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+.developerPortalCaseBox{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: 28%;
+    height: 350px;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.developerPortalCaseImage{
+    /* border: 2px solid red; */
+    width: 68%;
+    height: 100px;
+    margin: 16%;
+}
