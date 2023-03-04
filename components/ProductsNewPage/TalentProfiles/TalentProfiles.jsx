@@ -50,7 +50,7 @@ export const TalentProfiles = () => {
       body: `Product Designer`,
       profileLink: `https://www.linkedin.com/in/manav--sharma/`,
       image: "/Images/ProductsPage/TalentProfiles/Manav.png",
-      experience: "Ex: 0-1 years",
+      experience: "Ex: 1-2 years",
       communication: "Communication Score",
       technicalscore: "Technical Score",
       buttondetails: "See more",
