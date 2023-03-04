@@ -1,31 +1,65 @@
 .GuideToShopFyCannelaPrent{
    
-    margin-top: 5%;
+    
+    display: flex;
+   
+    align-items: center;
+  
+   
+   height: 150vh;
+   align-items: center;
+   align-content: center;
+   text-align: center;
+  
+}
+.line{
+width: 80%;
+border: 1px solid gray;
+}
+.GuideToShopFyCannelaPrentHeading{
+    background-color: #FFF8F8;
+    height: 100%;
+    width: 30%;
+}
+.GuideToShopFyCannelaPrentHeading>h1{
+    margin-top: 40%;
+}
+.GuideToShopFyCannelaPrentHeading>p{
+   text-align: center;
+   width: 70%;
+   margin-left: 15%;
+}
+.GuideToShopFyCannelaPrentAlldiv{
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-   background-color: whitesmoke;
-   padding: 2%;
 }
 .GuideToShopFyCannelfirstChild{
   
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+   
 }
 .GuideToShopFyCannelfirstChild>div{
     padding: 0PX;
     width: 25%;
    
    padding: 1%;
-    border-right:  4px  solid white;
+  
    
 }
 .GuideToShopFyCannelfirstChilddiv>div{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 22%;
    
+   
+   
+}
+.GuideToShopFyCannelfirstChild>div{
+    
+    width: 33%;
+    padding: 3%;
 }
 .GuideToShopFyCannelfirstChilddiv>div>h1{
    width: 70%;
@@ -35,8 +69,9 @@
 .GuideToShopFyCannelfirstChilddivone>div{
     display: flex;
     justify-content: space-between;
-    
-    margin-bottom: 25%;
+   
+   
+   
     
 }
 
@@ -44,7 +79,7 @@
     display: flex;
     justify-content: space-between;
     
-    margin-bottom: 25%;
+    ;
     
 }
 .GuideToShopFyCannelfirstChilddivtwo>div>h1{
@@ -56,7 +91,7 @@
 .GuideToShopFyCannelfirstChilddivthree>div{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 23%;
+   
     
 }
 .GuideToShopFyCannelfirstChilddivthree>div>h1{
@@ -69,7 +104,7 @@
     display: flex;
     justify-content: space-between;
    
-    margin-bottom: 20%;
+    
     
 }
 .GuideToShopFyCannelfirstChilddivfour>div>h1{
@@ -84,15 +119,16 @@
 }
 .GuideToShopFyCannelthirdChild>div{
     padding: 0PX;
-    width: 25%;
+   width: 33%;
+   padding: 5%;
    
-   padding: 1%;
-    border-right:  4px  solid white;
+ 
+    
 }
 .GuideToShopFyCannelthirdChilddivone>div{
     display: flex;
    
-    margin-bottom: 22%;
+   
 }
 .GuideToShopFyCannelthirdChilddivone>div>h1{
    width: 70%;
@@ -104,10 +140,11 @@
    
         margin-top: 5%;
         display: flex;
-        
+        flex-direction: column;
         align-items: center;
        background-color: whitesmoke;
        padding: 2%;
+       height: auto;
     }
     .GuideToShopFyCannelfirstChilddivone>div{
         display: flex;
@@ -115,6 +152,11 @@
         
         margin-bottom: 0%;
         
+    }
+    .GuideToShopFyCannelaPrentHeading{
+        background-color: #FFF8F8;
+        height: auto;
+        width: 100%;
     }
     .GuideToShopFyCannelfirstChild{
       
@@ -128,7 +170,7 @@
         width: 100%;
        
        padding: 1%;
-        border-right:  4px  solid white;
+       
        
     }
     .GuideToShopFyCannelfirstChilddiv>div{

@@ -13,9 +13,9 @@ export const GuideToShopFyQueries = () => {
                     <div>
                         <div>
 
-                            <h1>Monitor Shopify store
+                            <h3>Monitor Shopify store
                                 performance in Bottom
-                                Funnel Marketer </h1>
+                                Funnel Marketer </h3>
                             <Image
                                 src={"/Images/GuideToShopFy/icon24.png"}
                                 alt={"img"}
@@ -35,9 +35,9 @@ export const GuideToShopFyQueries = () => {
                     <div>
                         <div>
 
-                            <h1>Monitor Shopify store
+                            <h3>Monitor Shopify store
                                 performance in Bottom
-                                Funnel Marketer</h1>
+                                Funnel Marketer</h3>
                             <Image
                                 src={"/Images/GuideToShopFy/icon25.png"}
                                 alt={"img"}

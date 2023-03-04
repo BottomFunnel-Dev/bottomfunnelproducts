@@ -2,19 +2,30 @@
    
     margin-top: 5%;
     display: flex;
-    flex-direction: column;
+   
     align-items: center;
-   background-color: whitesmoke;
-   padding: 2%;
+  height: 50vh;
+   
+  
+}
+.GuideToShopFyConnectHeading{
+    background-color: #fff8f8;
+    height: 100%;
+    padding: 5%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    width: 30%;
 }
 .GuideToShopFyConnectOnlyChild{
   
     display: flex;
     justify-content: space-around;
+   
+    width: 70%;
 }
 .GuideToShopFyConnectOnlyChild>div{
     width: 30%;
-   border-right: 4px solid white;
+  
     padding: 3%;
 }
 .GuideToShopFyConnectOnlyChilddivone>div{
@@ -22,7 +33,7 @@
     justify-content: space-between;
     
 }
-.GuideToShopFyConnectOnlyChilddivone>div>h1{
+.GuideToShopFyConnectOnlyChilddivone>div>h3{
    width: 50%;
    margin-right: 30%;
 }
@@ -33,7 +44,7 @@
     justify-content: space-between;
     
 }
-.GuideToShopFyConnectOnlyChilddivtwo>div>h1{
+.GuideToShopFyConnectOnlyChilddivtwo>div>h3{
    width: 50%;
 }
 
@@ -44,9 +55,18 @@
     justify-content: space-between;
     
 }
-.GuideToShopFyConnectOnlyChilddivthree>div>h1{
+.GuideToShopFyConnectOnlyChilddivthree>div>h3{
    width: 50%;
 }
+
+
+
+
+
+
+
+
+
 @media(max-width:780px){
     .GuideToShopFyConnectParent{
    
@@ -54,8 +74,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-       background-color: whitesmoke;
+     
        padding: 2%;
+       height: auto;
+    }
+    .GuideToShopFyConnectHeading{
+        height: auto;
+        width: 100%;
     }
     .GuideToShopFyConnectOnlyChild{
       
@@ -63,22 +88,26 @@
         justify-content: space-between;
         flex-direction: column;
         width: 100%;
+        height: auto;
     }
     .GuideToShopFyConnectOnlyChild>div{
         width: 100%;
        border-right: 4px solid white;
+       margin-bottom: 2%;
        
     }
     .GuideToShopFyConnectOnlyChilddivone>div{
         display: flex;
         width: 100%;
+        justify-content: space-between;
+       
      
         
     }
-    .GuideToShopFyConnectOnlyChilddivone>div>h1{
+    .GuideToShopFyConnectOnlyChilddivone>div>h3{
        width: 50%;
       
-       
+     
     }
     
     
@@ -87,7 +116,7 @@
         justify-content: space-between;
         
     }
-    .GuideToShopFyConnectOnlyChilddivtwo>div>h1{
+    .GuideToShopFyConnectOnlyChilddivtwo>div>h3{
        width: 50%;
     }
     
@@ -98,7 +127,7 @@
         justify-content: space-between;
         
     }
-    .GuideToShopFyConnectOnlyChilddivthree>div>h1{
+    .GuideToShopFyConnectOnlyChilddivthree>div>h3{
        width: 50%;
     } 
 }
