@@ -1,0 +1,55 @@
+.developerPortalDiscoverMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+.developerPortalDiscoverBox{
+    border: 1px solid #EF4C23;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.developerPortalDiscoverBox>h2{
+    color: #EF4C23;
+}
+.developerDiscoverContainer{
+    /* border: 2px solid green; */
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.developerDiscoverDataDiv{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.developerDiscoverDataImage1{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin-left: 8%;
+    position: relative;
+}
+.developerDiscoverDataImage2{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin-left: 4%;
+    position: relative;
+}
+.developerPortalImagetext{
+    /* border: 2px solid red; */
+    width: 80%;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    margin: auto;
+    text-align: left;
+}

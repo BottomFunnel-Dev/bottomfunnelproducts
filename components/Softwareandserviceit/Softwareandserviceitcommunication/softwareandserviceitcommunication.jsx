@@ -7,15 +7,16 @@ export const Softwareandserviceitcommunication = () => {
         <div className={styles.softwareandserviceitcommunicationParent}>
 
 <div className={styles.softwareandserviceitcommunicationtwo}>
-                <h1>Engineer wow moments. </h1>
+                <h1>Unify your customer service 
+communications </h1>
 
-                <p>Your technology is mission-critical to your customer’s
-                    business. You need to back it up with responsive, proactive
-                    customer service. Deliver outstanding experiences with the
-                    Freshworks Customer Service Platform.
+                <p>Deliver customer service to your clients on channels of their choice. 
+While urgent queries require a phone call, live-chat is ideal for 
+routine queries and email for long resolutions. Manage all your 
+customer communications from a single platform
                 </p>
                 <ul>
-                    <li> Deliver service via phone, email, social, live-chat and mor</li>
+                    <li>Deliver service via phone, email, social, live-chat and more</li>
                     <li>Use live-chat to support customers right within your SaaS apv</li>
                     <li> Respond to queries faster with omnichannel queue
                         management</li>

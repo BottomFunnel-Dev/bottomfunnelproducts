@@ -1,0 +1,59 @@
+.WhatsNewMonthMain{
+    width: 100%;
+}
+.WhatsNewMonthtext{
+    display: flex;
+    gap: 4%;
+    width: 100%;
+    text-align: center;
+    padding-left: 10%;
+}
+.WhatsNewMonthtext>h2{
+    font-weight: 600;
+    font-size: 35px;
+}
+.WhatsNewMonthtext>p{
+    font-weight: 600;
+    font-size: 35px;
+}
+.WhatsNewMonthtext>span{
+    margin: -1% 2% 0 2%;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ef4c23;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    .WhatsNewMonthMain{
+        width: 100%;
+        margin-top: 7%;
+    }
+    .WhatsNewMonthtext{
+        display: flex;
+        gap: 0%;
+        width: 100%;
+        text-align: center;
+        padding-left: 0%;
+        /* border: 1px solid red; */
+    }
+    .WhatsNewMonthtext>div>h2{
+        width: 90%;
+        font-weight: 500;
+        font-size: 15px;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .WhatsNewMonthtext>p{
+        width: 10%;
+        /* border: 1px solid green; */
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .WhatsNewMonthtext>span{
+        width: 10%;
+        margin: 0% 0% 0 0%;
+        font-weight: 500;
+        font-size: 15px;
+        color: #ef4c23;
+    }
+}

@@ -4,32 +4,7 @@ import Image from "next/image"
 export const GuideToShopFyCoversation = () => {
     return (
         <div className={styles.GuideToShopFyCoversationparent}>
-            <div className={styles.GuideToShopFyCoversationparentfirstchild}>
 
-                <h1>Manage Your Conversation</h1>
-                <p>Bring all your customer conversation from across different channels to one place.</p>
-                <div className={styles.GuideToShopFyCoversationfirstChilddiv}>
-                    <div>
-
-                        <h1>View conversation in one place with Agent inbox </h1>
-                        <Image
-                            src={"/Images/GuideToShopFy/icon18.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "15%", height: "15%" }}
-
-                        />
-
-                    </div>
-
-                    <p>With the agent inbox , Uou get context into customer purhcase history ,thier privious conversation ,itmes in cart , adn more to resove quesries faster</p>
-
-                </div>
-
-            </div>
-            <div className={styles.GuideToShopFyCoversationparentsecchild}>
 
 
 
@@ -77,9 +52,7 @@ export const GuideToShopFyCoversation = () => {
 
                 </div>
 
-
-
-            </div>
+              
 
         </div>
     )

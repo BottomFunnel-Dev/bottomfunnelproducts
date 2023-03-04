@@ -1,0 +1,106 @@
+.TeamInboxFeatureMain{
+    width: 100%;
+    height: fit-content;
+}
+.TeamInboxFeatureMain>h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.TeamInboxFeatureMain>p{
+    padding-top: 2%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+.TeamInboxFeaturediv{
+    display: flex;
+    height: fit-content;
+    padding: 20px;
+    gap: 4%;
+    margin-top: 5%;
+}
+.TeamInboxFeaturediv:nth-child(odd){
+flex-direction: row-reverse;
+background-color: #fafafa;
+}
+.TeamInboxFeatureimg{
+    width: 45%;
+    padding: 4px;
+    height: 400px;
+
+}
+.TeamInboxFeaturetext{
+    width: 50%;
+    padding-top: 6%;
+    padding-left: 5%;
+
+}
+.TeamInboxFeaturetext>h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+.TeamInboxFeaturetext>p{
+    width: 80%;
+    margin-top: 3%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    .TeamInboxFeatureMain{
+        width: 100%;
+        height: fit-content;
+    }
+    .TeamInboxFeatureMain>h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        width: 95%;
+        margin-left: 2.5%;
+
+    }
+    .TeamInboxFeatureMain>p{
+        padding-top: 2%;
+        margin-left: 2%;
+        width: 95%;
+        text-align: center;
+        font-weight: 350;
+        font-size: 20px;
+    }
+    .TeamInboxFeaturediv{
+        display: flex;
+    flex-direction: column;
+        height: fit-content;
+        padding: 20px;
+        gap: 4%;
+        margin-top: 5%;
+    }
+    .TeamInboxFeaturediv:nth-child(odd){
+    flex-direction: column;
+    background-color: #fafafa;
+    }
+    .TeamInboxFeatureimg{
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+    
+    }
+    .TeamInboxFeaturetext{
+        width: 95%;
+        padding-top: 0%;
+        padding-left: 5%;
+    
+    }
+    .TeamInboxFeaturetext>h2{
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .TeamInboxFeaturetext>p{
+        width: 100%;
+        margin-top: 3%;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+}

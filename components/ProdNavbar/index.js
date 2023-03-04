@@ -147,23 +147,23 @@ export const ProdNavbar = ({ data }) => {
         />
       ) : null} */}
 
-      {/* {dropdown == "dropDown2" ? (
+      {dropdown == "dropDown2" ? (
         <DropDown2
           handleHover={handleHover}
           scroll={scroll}
           more={data.list2.more}
           data={data.list2.products}
         />
-      ) : null} */}
+      ) : null}
 
-      {/* {dropdown == "dropDown3" ? (
+      {dropdown == "dropDown3" ? (
         <DropDown3
           handleHover={handleHover}
           scroll={scroll}
           more={data.list3.more}
           data={data.list3.products}
         />
-      ) : null} */}
+      ) : null}
 
       {dropdown == "dropDown4" ? (
         <DropDown5

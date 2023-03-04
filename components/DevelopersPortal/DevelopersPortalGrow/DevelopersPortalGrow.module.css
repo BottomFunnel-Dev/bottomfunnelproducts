@@ -1,0 +1,37 @@
+.developerPortalGrowConatiner{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.developerPortalGrowText{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: auto;
+    margin-top:8%;
+    margin-left: 5%;
+}
+.developerPortalGrowText>h2{
+    color: #EF4C23;
+}
+.developerPortalGrowText>h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+.developerPortalGrowText>button{
+    background-color: #EF4C23;
+    border: none;
+    height: 40px;
+    width: 32%;
+    color: white;
+    border-radius: 5px;
+
+}
+.developerPortalGrowImage{
+    /* border: 2px solid red; */
+    width: 28%;
+    height: 60vh;
+    margin-top: 1%;
+    margin-left: 15%;
+}

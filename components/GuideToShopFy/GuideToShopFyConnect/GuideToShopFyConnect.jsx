@@ -3,13 +3,16 @@ import Image from "next/image"
 export const GuideToShopFyConnect = () => {
     return (
         <div className={styles.GuideToShopFyConnectParent}>
+            <div className={styles.GuideToShopFyConnectHeading} >
             <h1>Connect your store</h1>
             <p>There are two ways to started with bottom funnel marketer for shopify: Shopify marketplace (new user ) and bottom funnel marketplace (current user).</p>
+            </div>
+           
             <div className={styles.GuideToShopFyConnectOnlyChild}>
                 <div className={styles.GuideToShopFyConnectOnlyChilddivone}>
                     <div>
                        
-                        <h1>If you're an existing CRM user </h1>
+                        <h3>If you're an existing CRM user </h3>
                         <Image
                             src={"/Images/GuideToShopFy/icon1.png"}
                             alt={"img"}
@@ -27,7 +30,7 @@ export const GuideToShopFyConnect = () => {
                 <div className={styles.GuideToShopFyConnectOnlyChilddivtwo}>
                     <div>
                        
-                        <h1>If you're an existing CRM user </h1>
+                        <h3>If you're an existing CRM user </h3>
                         <Image
                             src={"/Images/GuideToShopFy/icon2.png"}
                             alt={"img"}
@@ -44,7 +47,7 @@ export const GuideToShopFyConnect = () => {
                 <div className={styles.GuideToShopFyConnectOnlyChilddivthree} >
                     <div>
                        
-                        <h1>If you're an existing CRM user </h1>
+                        <h3>If you're an existing CRM user </h3>
                         <Image
                             src={"/Images/GuideToShopFy/icon3.png"}
                             alt={"img"}

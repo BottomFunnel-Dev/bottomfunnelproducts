@@ -1,0 +1,99 @@
+.CustomerSpotLightBannerParent{
+    display: flex;
+    
+    padding: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.CustomerSpotLightBannerParent>div{
+    width: 45%;
+}
+.CustomerSpotLightBannerParentchildone{
+    display: flex;
+    flex-direction: column;
+}
+.CustomerSpotLightBannerParentchildone>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.CustomerSpotLightBannerParentchildone>button{
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    background-color:#EF4C23 ;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.CustomerSpotLightBannerParentchildone>button:hover{
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    background-color:white ;
+    border-radius: 15px;
+    border: none;
+    color: #EF4C23;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .CustomerSpotLightBannerParent{
+        display: flex;
+        
+        padding: 5%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .CustomerSpotLightBannerParent>div{
+        width: 100%;
+    }
+    .CustomerSpotLightBannerParentchildone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .CustomerSpotLightBannerParentchildone>div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        
+        width: 100%;
+    }
+    .CustomerSpotLightBannerParentchildone>p{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        
+        width: 70%;
+        text-align: center;
+    }
+    .CustomerSpotLightBannerParentchildone>button{
+        margin-top: 5%;
+        width: 200px;
+        height: 40px;
+        background-color:#EF4C23 ;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        margin-bottom: 5%;
+    }
+    .CustomerSpotLightBannerParentchildone>button:hover{
+        margin-top: 5%;
+        width: 200px;
+        height: 40px;
+        background-color:white ;
+        border-radius: 15px;
+        border: none;
+        color: #EF4C23;
+    } 
+}

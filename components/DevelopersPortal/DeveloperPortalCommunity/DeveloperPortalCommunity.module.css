@@ -1,0 +1,50 @@
+.developerPortalCommunityMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+}
+.developerPortalCommunityBox{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: #EF4C23;
+    text-align: center;
+}
+.developerPortalCommunityImage{
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 400px;
+    margin: auto;
+}
+.developerPortalCommunityText{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    color: #393939;
+}
+.developerPortalCommunityInput{
+    border: 1px solid #EF4C23;
+    margin: auto;
+    width: 75%;
+    border-radius: 5px;
+    height: 45px;
+}
+.developerPortalCommunityInput::placeholder{
+    text-align: center;
+    font-size: 17px;
+}
+.developerPortalCommunityBox>button{
+    background-color: #EF4C23;
+    color: white;
+    border: none;
+    width: 40%;
+    height: 45px;
+    text-align: center;
+    border-radius:8px;
+    margin: auto;
+    margin-top: 5%;
+}

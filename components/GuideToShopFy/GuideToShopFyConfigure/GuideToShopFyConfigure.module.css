@@ -1,31 +1,69 @@
 .GuideToShopFyConfigureaPrent{
    
-    margin-top: 5%;
+    
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
    background-color: white;
-   padding: 2%;
+   align-content: center;
+   height: 100vh;
+  
 }
 .GuideToShopFyConfigureOnlyChild{
   
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
 }
-.GuideToShopFyConfigureOnlyChild>div{
-    padding: 0PX;
-    width: 25%;
-   
-   padding: 1%;
-    border-right:  4px  solid whitesmoke;
+.GuideToShopFyConfigureHeading{
+    width: 30%;
+    background-color: #FFF8F8;
+    height: 100%;
+    padding: 3%;
+   text-align: center;
 }
+.line{
+    
+    width: 80%;
+    border: 1px solid gray;
+    margin-bottom: -10%;
+    }
+    .lineone{
+    
+        width: 80%;
+        border: 1px solid gray;
+        margin-top: -20%;
+        margin-bottom: 10%;
+        }
+.GuideToShopFyConfigureHeading>h1{
+    margin-top: 50%;
+}
+.GuideToShopFyConfigureOnlyChildinsidefirstdiv{
+   display: flex;
+   width: 100%;
+}
+.GuideToShopFyConfigureOnlyChildinsidefirstdiv>div{
+  
+    width: 33%;
+    padding: 2%;
+ }
+ .GuideToShopFyConfigureOnlyChildinsidesecdiv{
+    display: flex;
+    width: 100%;
+ }
+ .GuideToShopFyConfigureOnlyChildinsidesecdiv>div{
+    padding: 2%;
+     width: 33%;
+  }
 .GuideToShopFyConfigureOnlyChilddivone>div{
     display: flex;
     justify-content: space-between;
     margin-bottom: 22%;
 }
-.GuideToShopFyConfigureOnlyChilddivone>div>h1{
+.GuideToShopFyConfigureOnlyChilddivone>div>h3{
    width: 70%;
   
 }
@@ -41,7 +79,7 @@
     margin-bottom: 11%;
     
 }
-.GuideToShopFyConfigureOnlyChilddivtwo>div>h1{
+.GuideToShopFyConfigureOnlyChilddivtwo>div>h3{
     width: 70%;
 }
 
@@ -64,11 +102,24 @@
     justify-content: space-between;
     
 }
-.GuideToShopFyConfigureOnlyChilddivfour>div>h1{
+.GuideToShopFyConfigureOnlyChilddivfour>div>h3{
     width: 70%;
 }
 
 @media(max-width:780px){
+    .line{
+    
+        width: 0%;
+        border: none;
+       
+        }
+        .lineone{
+        
+            width: 0%;
+            border: none;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            }
     .GuideToShopFyConfigureaPrent{
    
         margin-top: 5%;
@@ -77,6 +128,17 @@
         align-items: center;
        background-color: white;
        padding: 2%;
+       height: auto;
+    }
+    .GuideToShopFyConfigureHeading{
+        width: 100%;
+        background-color: lightpink;
+        height: 100%;
+        padding: 10%;
+       text-align: center;
+    }
+    .GuideToShopFyConfigureHeading>h1{
+        margin-top: 0%;
     }
     .GuideToShopFyConfigureOnlyChild{
       
@@ -84,6 +146,7 @@
         justify-content: space-around;
         flex-direction: column;
         margin-top: 2%;
+        width: 100%;
     }
     .GuideToShopFyConfigureOnlyChild>div{
         padding: 0PX;
@@ -100,7 +163,7 @@
     
         
     }
-    .GuideToShopFyConfigureOnlyChilddivone>div>h1{
+    .GuideToShopFyConfigureOnlyChilddivone>div>h3{
        width: 70%;
       
     }
@@ -116,11 +179,19 @@
         margin-bottom: 0%;
         
     }
-    .GuideToShopFyConfigureOnlyChilddivtwo>div>h1{
+    .GuideToShopFyConfigureOnlyChilddivtwo>div>h3{
         width: 100%;
     }
     
-    
+    .GuideToShopFyConfigureOnlyChildinsidefirstdiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+     .GuideToShopFyConfigureOnlyChildinsidefirstdiv>div{
+        
+        width: 100%;
+     }
     
     .GuideToShopFyConfigureOnlyChilddivthree>div{
         display: flex;
@@ -139,7 +210,16 @@
         justify-content: space-between;
         
     }
-    .GuideToShopFyConfigureOnlyChilddivfour>div>h1{
+    .GuideToShopFyConfigureOnlyChilddivfour>div>h3{
         width: 100%;
     }  
+    .GuideToShopFyConfigureOnlyChildinsidesecdiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+     .GuideToShopFyConfigureOnlyChildinsidesecdiv>div{
+        padding: 2%;
+         width: 100%;
+      }
 }
