@@ -1,7 +1,7 @@
 .SaaSHomePagebannermainbox {
     height: 100vh;
     width: 100%;
-    border: 3px solid white;
+    border: 1px solid transparent;
     /* margin-top: 120px; */
     background-image: url("/Images/SaaShomepagephotos/SaasBanner.png");
     background-repeat: no-repeat;
