@@ -28,8 +28,8 @@ export default function healthcaresales() {
         />
         <SalesNavbar
           navproductredux={{
-            color: "white",
-            logo: true,
+            color: "black",
+            logo: false,
           }}
     
       />

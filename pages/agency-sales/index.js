@@ -10,6 +10,12 @@ import { Discover } from "../../components/AgencyHomePage/Discover/Discover";
 import { Performing } from "../../components/AgencyHomePage/Performing/Performing";
 import Navbar from "../../components/Navbar/Navbar";
 import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
+import { Trial } from "../../components/AnalyticsofFeature/Trial/Trial";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export default function AgencyHomePage() {
   return (
@@ -39,8 +45,16 @@ export default function AgencyHomePage() {
       <Performing />
 
       <EstateAgency />
-      <SalesWorldwide />
-      <MakeYourDeal />
+      {/* <SalesWorldwide />
+      <MakeYourDeal /> */}
+
+      
+<Trial/>
+        <Testimonial/>
+        <TrustedBy/>
+        <ReadyStarted/>
+      <LifeBottomFunnel/>
+      <ProductsFooter/>
       </div>
     </>
   );

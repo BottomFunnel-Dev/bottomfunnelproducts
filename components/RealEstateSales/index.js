@@ -37,8 +37,8 @@ export default function RealEstateSales() {
         <Productivity/>
         <AccessData/>
         <EstateAgency/>
-        <SalesWorldwide/>
-        <MakeYourDeal/>
+        {/* <SalesWorldwide/>
+        <MakeYourDeal/> */}
        </div>
       </>
     )

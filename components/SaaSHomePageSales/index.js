@@ -12,6 +12,9 @@ import { TrySalesCrm } from './TrySalesCrm/TrySalesCrm'
 export default function  SaaSHomePage() {
     return (
       <>
+
+
+      
      <SaaSHomePageBanner/>
        <SaaSIndustry/> 
        <SaaSBusiness/>
@@ -19,8 +22,8 @@ export default function  SaaSHomePage() {
 
        <SaaSData/>
        <SaaSAgency/>
-       <SalesWorldwide/>
-       <MakeYourDeal/>
+       {/* <SalesWorldwide/>
+       <MakeYourDeal/> */}
         
   
        
