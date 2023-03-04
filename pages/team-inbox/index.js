@@ -42,7 +42,7 @@ const productData = {
     list2: {
       title: "Integrations",
       more: { title: "View more integrations", path: "/" },
-      position: { left: "55%" },
+      position: { left: "75%" },
       products: [
         {
           dropContent: "Instagram DM",

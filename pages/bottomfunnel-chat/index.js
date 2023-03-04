@@ -19,7 +19,7 @@ const productData = {
   list1: {
     title: "Features",
     more: { title: "View more features", path: "/" },
-    position: { left: "30%" },
+    position: { left: "35%" },
     products: [
       {
         dropContent: "Messaging Channels",
@@ -42,10 +42,12 @@ const productData = {
   list2: {
     title: "Integrations",
     more: { title: "View more integrations", path: "/" },
+    position: { left: "75%" },
     products: [
       {
         dropContent: "Instagram DM",
-        path: "/",
+        path: "/instagram-dm",
+
       },
       {
         dropContent: "Google Business Messages",

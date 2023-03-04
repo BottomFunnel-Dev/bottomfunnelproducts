@@ -15,7 +15,7 @@ export const SimplifiedTicketting = () => {
         </div>
         <div className={styles.simplifiedTickettingImage}>
           <img
-            src="/Images/ticketingPhotos/Tickets-4.png"
+            src="/Images/ticketingPhotos/Tickets-4.webp"
             alt="simplifiedTicketting"
           />
         </div>

@@ -7,13 +7,13 @@ export const SelfServiceContent = () => {
       title: "Scale your content along with your product line",
       body: `Create your knowledge base for mulitple products and publish them to your customers on product-focused 
             pages, all from one place.`,
-      image: "/Images/SelfService/TwoThreeHead.png",
+      image: "/Images/SelfService/TwoThreeHead.webp",
       buttondetails: "start free trial",
     },
     {
       title: "Customizee without coding",
       body: `Give your knowledge base page a complete makre-over, so that it adheres to the look and feel of your brand`,
-      image: "/Images/SelfService/OllySolution.png",
+      image: "/Images/SelfService/OllySolution.webp",
       buttondetails: "See pricing",
     },
   ];

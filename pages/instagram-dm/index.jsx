@@ -1,5 +1,7 @@
 import React from "react";
 import InstagramDmBanner from "../../components/InstagramDM/InstagramDmBanner/InstagramDmBanner";
+import InstagramDmBots from "../../components/InstagramDM/InstagramDmBots/InstagramDmBots";
+import InstagramDMCustomers from "../../components/InstagramDM/InstagramDMCustomers/InstagramDMCustomers";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -39,7 +41,7 @@ const productData = {
     list2: {
       title: "Integrations",
       more: { title: "View more integrations", path: "/" },
-      position: { left: "55%" },
+      position: { left: "75%" },
       products: [
         {
           dropContent: "Instagram DM",
@@ -149,8 +151,9 @@ export default function InstagramDm() {
       <ProdNavbar data={productData} />
     
       <InstagramDmBanner/>
+      <InstagramDMCustomers/>
+      <InstagramDmBots/>
       
-
       <TrustedBy />
       <Testimonial />
       <ReadyStarted />

@@ -24,7 +24,7 @@
 }
 
 .ticketingBannerContent > h1 > span {
-  color: #ef4c23;
+  color: #12944D;
 }
 
 .ticketingBannerContent > hr {
@@ -44,15 +44,15 @@
   padding: 10px 50px;
   border-radius: 50px;
   outline: none;
-  border: 2px solid #ef4c23;
-  background: #ef4c23;
+  border: 2px solid #12944D;
+  background: #12944D;
   color: white;
   cursor: pointer;
 }
 
 .ticketingBannerContent > button:hover {
   background: white;
-  color: #ef4c23;
+  color: #12944D;
 }
 
 /* media query for mobile and tablet devices */
