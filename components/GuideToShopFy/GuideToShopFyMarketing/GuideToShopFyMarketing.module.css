@@ -1,24 +1,45 @@
 .GuideToShopFyMarketingaPrent{
    
-    margin-top: 5%;
+   
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
-   background-color: whitesmoke;
-   padding: 2%;
+ 
+  
+   height: 170vh;
+   
+}
+.GuideToShopFyMarketingheading{
+    width: 30%;
+    background-color: #FFF8F8;
+    height: 100%;
+    text-align: center;
+}
+.GuideToShopFyMarketingChild{
+    width: 60%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-bottom: 1px solid grey;
+}
+.GuideToShopFyMarketingheading>h1{
+margin-top: 50%;
 }
 .GuideToShopFyMarketingfirstChild{
   
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+   
+    width: 100%;
+    margin-right: 0px;
+    
 }
 .GuideToShopFyMarketingfirstChild>div{
     padding: 0PX;
-    width: 25%;
+   width: 33%;
+ 
+   padding: 2%;
    
-   padding: 1%;
-    border-right:  4px  solid white;
    
 }
 .GuideToShopFyMarketingfirstChilddiv>div{
@@ -77,6 +98,25 @@ margin-bottom: 25%;
     width: 70%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:780px){
     .GuideToShopFyMarketingaPrent{
    
@@ -86,6 +126,21 @@ margin-bottom: 25%;
         align-items: center;
        background-color: whitesmoke;
        padding: 2%;
+       height: auto;
+    }
+    .GuideToShopFyMarketingheading{
+        width: 100%;
+        background-color: lightpink;
+        height: auto;
+        text-align: center;
+    }
+    .GuideToShopFyMarketingheading>h1{
+        margin-top: 10%;
+    }
+    .GuideToShopFyMarketingChild{
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     .GuideToShopFyMarketingfirstChild{
       

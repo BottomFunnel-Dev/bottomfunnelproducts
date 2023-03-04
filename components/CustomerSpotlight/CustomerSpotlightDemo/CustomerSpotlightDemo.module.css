@@ -1,0 +1,21 @@
+.CustomerSpotlightDemoParent{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.CustomerSpotlightDemoParent>button{
+    margin-top: 3%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #ef4c25;
+    color: white;
+    border-radius: 25px;
+}
+.CustomerSpotlightDemoParent>button:hover{
+background-color:white;
+color:#ef4c25;
+}

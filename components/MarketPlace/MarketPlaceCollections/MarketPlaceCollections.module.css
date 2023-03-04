@@ -1,0 +1,118 @@
+.MarketPlaceCollectionsParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.MarketPlaceCollectionsParentchildone{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 90%;
+}
+.MarketPlaceCollectionsParentchildone>div{
+    width: 28%;
+    height: 380px;
+    padding: 2%;
+}
+.MarketPlaceCollectionsParentchildone>div>h3{
+    margin: 0px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.MarketPlaceCollectionsParentchildone>div>p{
+    margin: 0px;
+    text-align: center;
+}
+.MarketPlaceCollectionsParentchildtwo{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+   
+}
+.MarketPlaceCollectionsParentchildtwo>div{
+    width: 30%;
+   
+    padding: 2%;
+    text-align: center;
+    margin-right: 2%;
+    background-color: white;
+    border-radius: 25px;
+}
+.MarketPlaceCollectionsParentchildtwo>div>h2{
+    margin-bottom: 4%;
+}
+.MarketPlaceCollectionsParentchildtwo>div>button{
+    background-color: #ec4c25;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+@media(max-width:780px){
+    .MarketPlaceCollectionsParent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80%;
+        background-color: whitesmoke;
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
+    .MarketPlaceCollectionsParentchildone{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+       flex-direction: column;
+        width: 100%;
+    }
+    .MarketPlaceCollectionsParentchildone>div{
+        width: 100%;
+        height: 380px;
+        padding: 2%;
+    }
+    .MarketPlaceCollectionsParentchildone>div>h3{
+        margin: 0px;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .MarketPlaceCollectionsParentchildone>div>p{
+        margin: 0px;
+        text-align: center;
+    }
+    .MarketPlaceCollectionsParentchildtwo{
+        margin-top: 2%;
+        display: flex;
+    flex-direction: column;
+        justify-content: center;
+       
+    }
+    .MarketPlaceCollectionsParentchildtwo>div{
+        width: 100%;
+       
+        padding: 2%;
+        text-align: center;
+        margin-right: 2%;
+        background-color: white;
+        border-radius: 25px;
+    }
+    .MarketPlaceCollectionsParentchildtwo>div>h2{
+        margin-bottom: 4%;
+    }
+    .MarketPlaceCollectionsParentchildtwo>div>button{
+        background-color: #ec4c25;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 300px;
+        border-radius: 15px;
+    }
+}

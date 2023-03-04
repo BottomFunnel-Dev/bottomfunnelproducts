@@ -1,0 +1,231 @@
+.MarketPlacePopularParent{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+   margin-top: -10%;
+}
+.line{
+    border: 1px solid #ef4c24;
+    width:80%;
+}
+.MarketPlacePopularChild{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+   
+    justify-content: space-around;
+    
+   
+  
+}
+.MarketPlacePopularChild>div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 300px;
+    padding: 1%;
+}
+.MarketPlacePopularchildiv{
+   
+    display: flex;
+   height: auto;
+}
+.MarketPlacePopularchildiv>div{
+  
+    height: 100%;
+}
+.MarketPlacePopularimg{
+height: 50%;
+width: 30%;
+padding: 5%;
+
+display: flex;
+align-items: center;
+
+}
+.MarketPlacePopularchildsubdiv{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.MarketPlacePopularchildsubdiv>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MarketPlacePopularchildsubdiv>p{
+    margin-top: 5%;
+    font-size: 8px;
+}
+.MarketPlacePopularchildsubdiv>button{
+    width: 90px;
+}
+.MarketPlacePopularchildsubdiv>div>button{
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    background-color: lightgreen;
+    color:  darkgreen;
+    border:2px solid darkgreen;
+    border-radius: 10px;
+}
+.MarketPlacePopularchildsubdiv>button{
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #ef4c24;
+    color: white;
+    border-radius: 5px;
+    border:2px solid rgb(100, 35, 0);
+    
+}
+.MarketPlacePopularchildivtwo{
+    padding: 2%;
+    
+    font-size: 14.5px;
+}
+.MarketPlacePopularimgthird{
+
+  padding: 0px;
+  margin: 0px;
+    width: 50%;
+    
+}
+.MarketPlacePopularchildivthird{
+display: flex;
+
+width: 90%;
+}
+.MarketPlacePopularchildsubdiv>button:hover{
+background-color: white;
+color: #ef4c24;
+
+}
+
+
+
+
+
+
+@media(max-width:780px){
+    .MarketPlacePopularParent{
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+       margin-top: 60%;
+       margin-bottom: -50%;
+    }
+    .line{
+        border: 1px solid #ef4c24;
+        width:80%;
+    }
+    .MarketPlacePopularChild{
+        margin-top: 2%;
+        display: flex;
+        width: 80%;
+       flex-direction: column;
+        justify-content: space-around;
+        
+       
+      
+    }
+    .MarketPlacePopularChild>div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: 300px;
+        padding: 5%;
+    }
+    .MarketPlacePopularchildiv{
+       
+        display: flex;
+       height: auto;
+    }
+    .MarketPlacePopularchildiv>div{
+      
+        height: 100%;
+    }
+    .MarketPlacePopularimg{
+    height: 50%;
+    width: 30%;
+    padding: 5%;
+    
+    display: flex;
+    align-items: center;
+    
+    }
+    .MarketPlacePopularchildsubdiv{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+    .MarketPlacePopularchildsubdiv>div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .MarketPlacePopularchildsubdiv>p{
+        margin-top: 5%;
+        font-size: 8px;
+    }
+    .MarketPlacePopularchildsubdiv>button{
+        width: 90px;
+    }
+    .MarketPlacePopularchildsubdiv>div>button{
+        width: 40px;
+        height: 20px;
+        font-size: 10px;
+        background-color: lightgreen;
+        color:  darkgreen;
+        border:2px solid darkgreen;
+        border-radius: 10px;
+    }
+    .MarketPlacePopularchildsubdiv>button{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+        background-color: #ef4c24;
+        color: white;
+        border-radius: 5px;
+        border:2px solid rgb(100, 35, 0);
+        
+    }
+    .MarketPlacePopularchildivtwo{
+        padding: 2%;
+        
+        font-size: 14.5px;
+    }
+    .MarketPlacePopularimgthird{
+    
+      padding: 0px;
+      margin: 0px;
+        width: 50%;
+        
+    }
+    .MarketPlacePopularchildivthird{
+    display: flex;
+    
+    width: 90%;
+    }
+    .MarketPlacePopularchildsubdiv>button:hover{
+    background-color: white;
+    color: #ef4c24;
+    
+    }  
+}
+
+
