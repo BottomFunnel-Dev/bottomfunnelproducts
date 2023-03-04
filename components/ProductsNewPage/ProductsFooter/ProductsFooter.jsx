@@ -44,45 +44,45 @@ export const ProductsFooter = () => {
                 <div className={styles.productsFooterTagsDiv}>
                     <ul className={styles.productMainProductDivLink}>
                         <h5> SaaS Products </h5>
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/funneldesk"}>
                             <li>
                                 BottomFunnel Desk
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/bottomfunnel-chat"}>
                             <li>
                                 BottomFunnel Chat
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/sales"}>
                             <li>
                                 BottomFunnel Sales
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/marketer"}>
                             <li>
                                 BottomFunnel Marketer
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/bottomfunnelservice"}>
                             <li>
                                 BottomFunnel Service
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/bottomfunnelservice"}>
                             <li>
-                                BottomFunnel Team
+                                BottomFunnel Survey
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/customersuccess"}>
                             <li>
-                                BottomFunnel Survey
+                                BottomFunnel Customer Success
                             </li>
                         </Link>
                     </ul>
@@ -97,7 +97,7 @@ export const ProductsFooter = () => {
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/developers-portal"}>
                             <li>
                                 Developer Portal
                             </li>
@@ -136,18 +136,18 @@ export const ProductsFooter = () => {
 
                     <ul className={styles.productMainProductDivLink}>
                         <h5> Company </h5>
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/about-us"}>
                             <li>
                                 About us
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/career"}>
                             <li> Careers </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li> Vetting Process </li>
+                        <Link className={styles.productFooterLinkTag} href={"/contact-us"}>
+                            <li> Contact Us </li>
                         </Link>
 
                         <Link className={styles.productFooterLinkTag} href={"/"}>
@@ -158,18 +158,53 @@ export const ProductsFooter = () => {
                             <li> Vetting Process </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li> Privacy Policy </li>
+                        <Link className={styles.productFooterLinkTag} href={"/engagement"}>
+                            <li> Engagement Models </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/our-clients"}>
+                            <li> Our Clients </li>
+                        </Link>
+                    </ul>
+
+
+                    <ul className={styles.productMainProductDivLink}>
+                        <h5> Features </h5>
+
+                        <Link className={styles.productFooterLinkTag} href={"/analyticsoffeatures"}>
+                            <li> Analytics </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/neoadmin-center"}>
+                            <li> Neo Admin Center </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/collaboration"}>
+                            <li> Collaboration </li>
                         </Link>
 
                         <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li> Contact Us </li>
+                            <li> Events and Notification </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/unifiedcustomer"}>
+                            <li> Unified Customer Record </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/messagingchannel"}>
+                            <li> Messaging Channels </li>
+                        </Link>
+
+                        <Link className={styles.productFooterLinkTag} href={"/custom-object"}>
+                            <li> Custom Objects </li>
                         </Link>
                     </ul>
 
                     <ul className={styles.productMainProductDivLink}>
 
-                        <h5>Services </h5>
+                        <Link style={{color:"black"}} href={"https://service.bottomfunnel.net/"}>
+                            <h5>Services </h5>
+                        </Link>
 
                         <Link className={styles.productFooterLinkTag} href={"/web-development"}>
                             <li>
@@ -208,37 +243,6 @@ export const ProductsFooter = () => {
                         </Link>
                     </ul>
 
-                    <ul className={styles.productMainProductDivLink}>
-                        <h5> On Demand Solution </h5>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>Real State Solutions</li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>Beauty and salon solutions</li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>Trading App Solutions</li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>Grocery Delivery Solutions</li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>OTT APP solutions</li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>Online Payment App</li>
-                        </Link>
-
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
-                            <li>Car Rental APP Solutions</li>
-                        </Link>
-                    </ul>
                 </div>
 
                 <div className={styles.productFooterBottomDiv}>
