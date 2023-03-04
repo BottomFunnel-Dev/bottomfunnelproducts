@@ -1,5 +1,7 @@
 import React from "react";
+import { DeveloperPortalGetStarted } from "../../components/DevelopersPortal/DeveloperPortalGetStarted/DeveloperPortalGetStarted";
 import { DevelopersPortalBanner } from "../../components/DevelopersPortal/DevelopersPortalBanner/DevelopersPortalBanner";
+import { DevelopersPortalGrow } from "../../components/DevelopersPortal/DevelopersPortalGrow/DevelopersPortalGrow";
 import Navbar from "../../components/Navbar/Navbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
@@ -23,7 +25,8 @@ export default function DevelopersPortal() {
       />
   
      <DevelopersPortalBanner/>
-     
+     <DeveloperPortalGetStarted/>
+     <DevelopersPortalGrow/>
      
       <Testimonial />
       <TrustedBy />
