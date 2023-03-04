@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
@@ -137,7 +139,16 @@ const productData = {
 export default function TeamInbox() {
   return (
     <div>
-    
+    <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+      <ProdNavbar data={productData} />
     
       <TeamInboxBanner />
       <TeamInboxFeatures />
