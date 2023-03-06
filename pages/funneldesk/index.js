@@ -39,9 +39,6 @@ export default function FunnelDesk() {
       <EliteServices />
       <EliteLast />
       <IndustryExperts />
-      {/* <DeskStarted /> */}
-
-      {/* <StoriesSection /> */}
       
       <Testimonial/>
       <TrustedBy />

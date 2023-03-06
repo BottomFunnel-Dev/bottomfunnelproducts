@@ -26,8 +26,8 @@ export const RetailTeam = () => {
       <div className={styles.retailteammainboxesrightboxforimage}>
         <div className={styles.retailteamboxrightforimageonly}>
           <img
-            src="/Images/Retail&ecommerce/Animations/animation4.png"
-            alt="Retail&ecommerce/Animations/animation4.png"
+            src="/Images/Retail&ecommerce/Rectangle 5086.webp"
+            alt="Retail&ecommerce/Rectangle 5086.webp"
           />
         </div>
       </div>

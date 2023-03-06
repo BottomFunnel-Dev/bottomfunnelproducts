@@ -17,7 +17,7 @@ export const RetailEcommerceBanner = () => {
       </div>
       <div className={styles.retailecommercebannerrightbox}>
         <img
-          src="/Images/Retail&ecommerce/banner/Frame.png"
+          src="/Images/Retail&ecommerce/banner/banner.webp"
           alt="Retail&ecommerce/banner/Frame.png"
         />
       </div>

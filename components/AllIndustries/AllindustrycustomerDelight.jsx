@@ -28,7 +28,7 @@ export const AllindustrycustomerDelight = () => {
             icon:"Images/Allindustries/Icons/Group 770901.webp",
             htxt:"TRAVEL & HOSPITALITY",
             stxt:"Empower travel agents to map delightful journeys for avoid travelers.",
-            link:"/"
+            link:"/funneldesk/solutions/travel-and-hospitality"
         },
 
         {

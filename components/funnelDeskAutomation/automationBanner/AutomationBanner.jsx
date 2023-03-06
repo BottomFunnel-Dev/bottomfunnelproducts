@@ -11,6 +11,7 @@ export const AutomationBanner = () => {
         <button>Get started for free</button>
       </div>
       <span>
+        <div className={styles.funneldeskautomationImage}>
         <Image
           src="/Images/funneldeskAutomation/banner.webp"
           alt="Picture of the author"
@@ -19,6 +20,7 @@ export const AutomationBanner = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
+        </div>
       </span>
     </div>
   );
