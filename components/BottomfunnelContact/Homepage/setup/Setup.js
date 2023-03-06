@@ -24,14 +24,22 @@ export default function Setup() {
             </p>
           </div>
           <div className={styles.setupImage}>
-            <Image
+            {/* <Image
               width={"0"}
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
               src={item.img}
               alt={item.img}
-            />
+            /> */}
+              <lottie-player
+                src={item.img}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
           </div>
         </div>
       ))}

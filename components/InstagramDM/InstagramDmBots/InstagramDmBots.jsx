@@ -17,21 +17,18 @@ export default function InstagramDmBots () {
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
             />
         </div>
-        <div className={styles.instagramDmCutomerLeft}>
-            <h4>Manage all your Instagram business accounts from Freshchat </h4>
-            <p>Connect multiple Instagram Business accounts to your Freshchat account in a jiffy! With this native integration (supported by our Neo platform), your agents can:</p>
+        <div className={styles.instagramDmCustomerLeft}>
+            <h4>Handle rush hours with ease using AI-powered bots and automation.</h4>
+            <p>With the Bottom Funnel - Instagram integration:</p>
             <ul>
                 <li>
-                    Converse with Bots through Instagram DMs
+                    Empower your team and bots to work together and provide round-the-clock service on Instagram.
                 </li>
                 <li>
-                    Promptly respond to customer comments with all the context 
+                    Deflect repetitive questions and free-up your agent’s time to solve complex queries. 
                 </li>
                 <li>
-                    Get notified and initiate engaging conversations from story mentions and comments on poststags.
-                </li>
-                <li>
-                   React to Bots’ messages  
+                    Capture customer information, and transfer them to your agents whenever needed.
                 </li>
             </ul>
         </div>

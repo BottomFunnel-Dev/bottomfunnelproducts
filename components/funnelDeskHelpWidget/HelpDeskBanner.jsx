@@ -5,7 +5,7 @@ export const HelpDeskBanner = () => {
   return (
     <div className={styles.helpdekbannermainboxes}>
       <div className={styles.helpDeskBannerImage}>
-        <img src="/Images/helpdesk/Frame-1.png" alt="helpdesk/Frame-1.png" />
+        <img src="/Images/helpdesk/banner.webp" alt="helpdesk/Frame-1.webp" />
       </div>
       <div className={styles.helpdeskbannersometextbox}>
         <h1>Help customers wherever they are</h1>

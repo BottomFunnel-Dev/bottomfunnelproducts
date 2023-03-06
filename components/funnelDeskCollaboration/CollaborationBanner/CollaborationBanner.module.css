@@ -24,7 +24,7 @@
 }
 
 .CollaborationBannerContent > h1 > span {
-  color: #ef4c23;
+  color: #2C8753;
 }
 
 .CollaborationBannerContent > hr {
@@ -44,15 +44,15 @@
   padding: 10px 50px;
   border-radius: 50px;
   outline: none;
-  border: 2px solid #ef4c23;
-  background: #ef4c23;
+  border: 2px solid #2C8753;
+  background: #2C8753;
   color: white;
   cursor: pointer;
 }
 
 .CollaborationBannerContent > button:hover {
   background: white;
-  color: #ef4c23;
+  color: #2C8753;
 }
 
 /* media query for mobile and tablet responsive */

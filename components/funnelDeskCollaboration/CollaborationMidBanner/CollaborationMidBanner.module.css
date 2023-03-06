@@ -25,28 +25,28 @@
   margin: 1%;
   border-radius: 15px;
   cursor: pointer;
-  border: 2px solid #ef4c23;
+  border: 2px solid #2C8753;
   outline: none;
 }
 
 .CollaborationMidBannerContainer button:nth-child(1) {
   color: white;
-  background: #ef4c23;
+  background: #2C8753;
 }
 
 .CollaborationMidBannerContainer button:nth-child(1):hover {
-  color: #ef4c23;
+  color: #2C8753;
   background: transparent;
 }
 
 .CollaborationMidBannerContainer button:nth-child(2) {
   background: transparent;
-  color: #ef4c23;
+  color: #2C8753;
 }
 
 .CollaborationMidBannerContainer button:nth-child(2):hover {
   color: white;
-  background: #ef4c23;
+  background: #2C8753;
 }
 
 /* media query for mobile and tablet devices */

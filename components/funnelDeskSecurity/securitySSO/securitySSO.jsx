@@ -7,7 +7,7 @@ export const SecuritySSO = () => {
     <div className={styles.securitySSOContainer}>
       <span>
         <Image
-          src={"/Images/funneldeskSecurity/animations.gif"}
+          src={"/Images/funneldeskSecurity/animation.webp"}
           alt={"funneldeskSecurity/animations.gif"}
           width={"0"}
           height={"0"}

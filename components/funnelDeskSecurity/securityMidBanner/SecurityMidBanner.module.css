@@ -31,13 +31,13 @@
     font-size: 18px;
     font-weight: 600;
     border-radius: 100px;
-    border: 2px solid #ef4c23;
+    border: 2px solid #2C8753;
     outline: none;
     cursor: pointer;
 }
 
 .securityMidBannerContainer>span>button:nth-child(1) {
-    background: #ef4c23;
+    background: #2C8753;
     color: #fff;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .securityMidBannerContainer>span>button:nth-child(2):hover {
-    background-color: #ef4c23;
+    background-color: #2C8753;
 }
 
 /* media query for mobile and tablet devices */

@@ -19,7 +19,7 @@ export const ReportAndAnalysisTransform = () => {
             </div>
             <div className={Styles.transformimg}>
             <Image
-          src={"/Images/funnelReportanalysis/Vectors/Frame1.webp"}
+          src={"/Images/funnelReportanalysis/Vectors/Group.webp"}
           alt={"report analysis"}
           width={"0"}
           height={"0"}

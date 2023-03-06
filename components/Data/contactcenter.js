@@ -7,7 +7,7 @@ export const contactcenter = [
       "Bring your own carrier (BYOC) or purchase numbers from 90+ countries",
     ],
 
-    img: "/Images/contactCenter/hour.webp",
+    img: "/Animation/contactCenter/one.json",
     directions: true,
   },
   {
@@ -17,7 +17,7 @@ export const contactcenter = [
       "Virtual leaders can monitor call volumes and service level attainment while keeping track of important conversations",
     ],
 
-    img: "/Images/contactCenter/workforce.webp",
+    img: "/Animation/contactCenter/Two.json",
     directions: false,
   },
   {
@@ -27,7 +27,7 @@ export const contactcenter = [
       "Monitor agent performance and keep a pulse on your customer satisfaction with live dashboards.",
     ],
 
-    img: "/Images/contactcenter/batter.webp",
+    img: "/Animation/contactCenter/five.json",
     directions: true,
   },
   {
@@ -38,7 +38,7 @@ export const contactcenter = [
       "Empower your agents to do their best work.",
     ],
 
-    img: "/Images/contactCenter/workload.webp",
+    img: "/Animation/contactCenter/three.json",
     directions: false,
   },
   {
@@ -49,7 +49,7 @@ export const contactcenter = [
       "Continue the conversation across any channel with every customer",
     ],
 
-    img: "/Images/contactCenter/customer.webp",
+    img: "/Animation/contactCenter/four.json",
     directions: true,
   },
 ];

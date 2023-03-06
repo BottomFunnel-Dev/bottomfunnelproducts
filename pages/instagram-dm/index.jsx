@@ -2,6 +2,7 @@ import React from "react";
 import InstagramDmBanner from "../../components/InstagramDM/InstagramDmBanner/InstagramDmBanner";
 import InstagramDmBots from "../../components/InstagramDM/InstagramDmBots/InstagramDmBots";
 import InstagramDMCustomers from "../../components/InstagramDM/InstagramDMCustomers/InstagramDMCustomers";
+import InstagramDmDelighfull from "../../components/InstagramDM/InstagramDmDelighfull/InstagramDmDelighfull";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -153,12 +154,13 @@ export default function InstagramDm() {
       <InstagramDmBanner/>
       <InstagramDMCustomers/>
       <InstagramDmBots/>
+      <InstagramDmDelighfull/>
       
-      <TrustedBy />
-      <Testimonial />
-      <ReadyStarted />
-      <LifeBottomFunnel />
-      <ProductsFooter />
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      <LifeBottomFunnel/>
+      <ProductsFooter/>
     </div>
   );
 }

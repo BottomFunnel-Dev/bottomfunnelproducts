@@ -25,9 +25,9 @@
 .secureFeatureListContainer>div>button {
     font-size: 18px;
     font-weight: 600;
-    background-color: #ef4c23;
+    background-color: #2C8753;
     color: #fff;
-    border: 2px solid #ef4c23;
+    border: 2px solid #2C8753;
     outline: none;
     border-radius: 100px;
     padding: 10px 50px;
@@ -35,5 +35,5 @@
 
 .secureFeatureListContainer>div>button:hover {
     background-color: #fff;
-    color: #ef4c23;
+    color: #2C8753;
 }
