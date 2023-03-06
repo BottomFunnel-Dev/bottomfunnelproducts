@@ -58,8 +58,8 @@
   cursor: pointer;
 }
 .productlinkP > p:hover {
-  background-color: lightgray;
-  border-left: 3px solid #ef4c23;
+  background-color: #DEF0E6;
+  border-left: 3px solid #14944C;
 }
 .productSolutionsData:last-child {
   border-bottom: none;
@@ -80,9 +80,9 @@
 }
 
 .productSolutionsListItems > button:hover {
-  background-color: #ef4c23;
+  background-color: #14944C;
   color: white;
-  border: 1px solid #ef4c23;
+  border: 1px solid #14944C;
 }
 
 .productSolutionsData .productlinkP {

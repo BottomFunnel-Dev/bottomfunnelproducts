@@ -12,8 +12,8 @@ export const FeaturesCardsLeft = ({ cardsData, right }) => {
       <div
         style={{
           background: right
-            ? "linear-gradient(to right, #FA7E52 90%, #fff 10%)"
-            : "linear-gradient(to left, #FA7E52 90%, #fff 10%)",
+            ? "linear-gradient(to right, #DEF0E6 90%, #fff 10%)"
+            : "linear-gradient(to left, #DEF0E6 90%, #fff 10%)",
           alignSelf: right ? "flex-start" : "flex-end",
         }}
       >

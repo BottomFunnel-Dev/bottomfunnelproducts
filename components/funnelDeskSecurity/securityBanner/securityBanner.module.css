@@ -28,17 +28,17 @@
     font-weight: 600;
     padding: 10px 60px;
     margin-top: 5%;
-    background: #ef4c23;
+    background: #2C8753;
     color: white;
     outline: none;
-    border: 2px solid #ef4c23;
+    border: 2px solid #2C8753;
     border-radius: 100px;
     cursor: pointer;
 }
 
 .securityBannerContainer>div>button:hover {
     background-color: white;
-    color: #ef4c23;
+    color: #2C8753;
 }
 
 /* media query for mobile and tablet devices */

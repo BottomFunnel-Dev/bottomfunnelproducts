@@ -27,9 +27,9 @@
     font-weight: 600;
     padding: 10px 60px;
     border-radius: 50px;
-    border: 2px solid black;
+    border: 2px solid #14944C;
     outline: none;
-    background-color: black;
+    background-color:#14944C;
     color: white;
     cursor: pointer;
     margin-top: 3%;
@@ -37,7 +37,7 @@
 
 .AutomationBannerContainer>div>button:hover {
     background-color: white;
-    color: black;
+    color: #14944C;
 }
 
 .AutomationBannerContainer>span {

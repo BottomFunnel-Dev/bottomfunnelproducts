@@ -15,7 +15,7 @@
     margin-top: 27px;
     border: 1px solid transparent;
     color: white;
-    background-color: #ef4c23;
+    background-color: #14944C;
 }
 .IntegrationBannerAnimation>img{
 width: 600px;
@@ -24,8 +24,8 @@ margin-left: 100px;
 }
 .IntegrationbannerButton:hover{
     background-color: #ffff;
-    color: #ef4c23;
-    border: 2px solid #ef4c23;
+    color: #14944C;
+    border: 2px solid #14944C;
 }
 @media only screen and ( min-width:0px) and (max-width:1024px){
     .IntegrationBannermain{

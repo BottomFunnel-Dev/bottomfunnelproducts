@@ -18,7 +18,7 @@
     padding: 10px 40px;
     border-radius: 10px;
     width: 220px;
-    background-color: #ef4c23;
+    background-color: #14944C;
     border: none;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -29,7 +29,7 @@
 }
 .Lowertext>button:hover{
     background-color: white;
-    color: #ef4c23;
-    border: 1px solid #ef4c23;
+    color: #14944C;
+    border: 1px solid #14944C;
 }
 

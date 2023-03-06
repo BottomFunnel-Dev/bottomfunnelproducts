@@ -25,7 +25,7 @@
   padding: 10px 50px;
   border-radius: 100px;
   width: fit-content;
-  background-color: #ef4c23;
+  background-color: #2C8753;
   border: none;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -37,7 +37,7 @@
 
 .button1helpdest:hover {
   background-color: white;
-  color: #ef4c23;
+  color: #2C8753;
 }
 
 /* media query for mobile and tablet devices */

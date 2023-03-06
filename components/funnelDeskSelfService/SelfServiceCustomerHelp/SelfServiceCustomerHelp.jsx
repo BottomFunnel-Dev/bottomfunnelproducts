@@ -13,7 +13,7 @@ export const SelfServiceCustomerHelp = () => {
           </p>
         </div>
         <div className={styles.selfServicesCustomerHelpImageDiv}>
-          <img src="/Images/SelfService/TwoThreeHead.png" alt="image" />
+          <img src="/Images/SelfService/TwoThreeHead.webp" alt="image" />
         </div>
       </div>
     </div>

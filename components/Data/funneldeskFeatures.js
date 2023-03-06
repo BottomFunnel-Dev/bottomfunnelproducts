@@ -2,7 +2,7 @@ export const allfeatures = {
   banner: {
     title: "Exceed customer expectations with Bottom Funnel",
     para: 'Bottom Funnel is the only "visionary" again on the 2021 Gartner Magic Quadrant for the CRM Customer Engagement Center',
-    image: "funneldeskFeature/banner.png",
+    image: "funneldeskFeature/banner.webp",
   },
   ticketing: {
     title: "Ticketing made easy",

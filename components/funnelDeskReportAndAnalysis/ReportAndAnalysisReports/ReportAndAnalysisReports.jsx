@@ -55,7 +55,7 @@ export default function ReportAndAnalysisReports  () {
           );
         })}
         </div>
-        <hr style={{border:"2px solid #ef4c23", width:"40%",backgroundColor:"#ef4c23", }}></hr>
+        <hr style={{border:"2px solid #14944C", width:"40%",backgroundColor:"#14944C", }}></hr>
     </div>
   )
 }

@@ -53,8 +53,8 @@
 }
 .productDeskData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  background-color: lightgray;
-  border-left: 2px solid #ef4c23;
+  background-color: #DEF0E6;
+  border-left: 2px solid #14944C;
 }
 .productDeskData:last-child {
   border-bottom: none;

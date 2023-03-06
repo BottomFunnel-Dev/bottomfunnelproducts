@@ -1,8 +1,9 @@
 .helpdekbannermainboxes {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  /* border: 2px solid red; */
 }
 
 .helpDeskBannerImage {
@@ -28,7 +29,7 @@
 .helpdeskbannerbutton {
   padding: 10px 50px;
   border-radius: 100px;
-  background-color: #ef4c23;
+  background-color: #2C8753;
   border: none;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -40,7 +41,7 @@
 
 .helpdeskbannerbutton:hover {
   background-color: white;
-  color: #ef4c23;
+  color: #2C8753;
 }
 
 /* media query for mobile and tablet devices */

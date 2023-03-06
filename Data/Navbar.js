@@ -1136,7 +1136,7 @@ export const product4 = [
   {
     dropContent: "MarketPlace",
     navIcons: "/Images/navbar/product/MarketPlace.png",
-    path: "/",
+    path: "/market-place",
   },
   {
     dropContent: "Developer Portal",
@@ -1146,7 +1146,7 @@ export const product4 = [
   {
     dropContent: "Customer Spotlight",
     navIcons: "/Images/navbar/product/customer.png",
-    path: "/",
+    path: "/customer-spotlight",
   },
   {
     dropContent: "Customer Service",

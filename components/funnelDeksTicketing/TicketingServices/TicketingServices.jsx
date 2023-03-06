@@ -9,8 +9,8 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="/Images/ticketingPhotos/Tickets-2.png"
-              alt="ticketingPhotos/Tickets-2.png"
+              src="/Images/ticketingPhotos/Tickets-2.webp"
+              alt="ticketingPhotos/Tickets-2.webp"
             />
           </div>
           <h1>Collaborative Ticketing</h1>
@@ -41,8 +41,8 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="/Images/ticketingPhotos/Tickets-3.png"
-              alt="ticketingPhotos/Tickets-3.png"
+              src="/Images/ticketingPhotos/Tickets-3.webp"
+              alt="ticketingPhotos/Tickets-3.webp"
             />
           </div>
           <h1>SLA Management</h1>
@@ -70,8 +70,8 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="/Images/ticketingPhotos/Tickets.png"
-              alt="ticketingPhotos/Tickets.png"
+              src="/Images/ticketingPhotos/Tickets.webp"
+              alt="ticketingPhotos/Tickets.webp"
             />
           </div>
           <h1>Field Service Ticketing</h1>
@@ -101,8 +101,8 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="/Images/ticketingPhotos/Tickets-1.png"
-              alt="ticketingPhotos/Tickets-1.png"
+              src="/Images/ticketingPhotos/Tickets-1.webp"
+              alt="ticketingPhotos/Tickets-1.webp"
             />
           </div>
           <h1>Contextual Ticketing with Custom Objects</h1>

@@ -1,0 +1,28 @@
+.instagramDmDelightfullContainer{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.instagramDmDelightfullDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+.instagramDmCustomerLeft{
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.instagramDmCustomerRight{
+    /* border: 2px solid red; */
+    width: 40%;
+
+}

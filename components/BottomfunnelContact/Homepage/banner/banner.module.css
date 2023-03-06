@@ -42,6 +42,7 @@ font-size: 40px;
 
 .bannerImages {
   width: 70%;
+  /* border: 2px solid red; */
 }
 .bannerImages > img {
   width: 100%;

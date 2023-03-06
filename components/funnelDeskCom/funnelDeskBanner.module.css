@@ -80,7 +80,7 @@
   font-weight: 600;
   margin: 1% 2% 0;
   border-radius: 15px;
-  background-color: #ef4c23;
+  background-color: #14944C;
   border: none;
   color: white;
   cursor: pointer;
@@ -88,12 +88,12 @@
 
 .freetrial:hover {
   background-color: white;
-  color: #ef4c23;
+  color: #14944C;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .demostart:hover {
-  background-color: #ef4c23;
+  background-color: #14944C;
   color: white;
 }
 
@@ -105,7 +105,7 @@
   cursor: pointer;
   border-radius: 15px;
   background-color: white;
-  color: #ef4c23;
+  color: #14944C;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

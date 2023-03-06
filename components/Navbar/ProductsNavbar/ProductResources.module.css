@@ -48,9 +48,9 @@
 }
 .productResourceData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  background-color: lightgray;
-  color: #ef4c23;
-  border-left:3px solid #ef4c23;
+  background-color: #DEF0E6;
+  color: #14944C;
+  border-left:3px solid #14944C;
 }
 
 .productResourceData .productlinkP > p {
@@ -62,7 +62,7 @@
 }
 
 .productResourceData .productlinkP > p:hover {
-  color: #ef4c23;
+  color: #14944C;
 }
 
 .productResourceListItems > button {
@@ -79,7 +79,7 @@
 }
 
 .productResourceListItems > button:hover {
-  background-color: #ef4c23;
+  background-color: #14944C;
   color: white;
-  border: 1px solid #ef4c23;
+  border: 1px solid #14944C;
 }

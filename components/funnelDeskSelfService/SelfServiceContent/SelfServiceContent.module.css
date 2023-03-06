@@ -11,7 +11,7 @@
 }
 
 .selfServicesContentHeadingDiv>h1>span {
-  color: #ef4c23;
+  color: #12944D;
 }
 
 .selfServicesContentContentDiv {
@@ -53,7 +53,7 @@
 }
 
 .selfServicesContentContentButton {
-  color: #ef4c23;
+  color: #12944D;
 }
 
 @media (max-width: 1024px) {

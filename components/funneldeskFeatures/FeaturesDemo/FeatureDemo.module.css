@@ -18,17 +18,17 @@
     font-size: 18px;
     font-weight: 600;
     padding: 15px 60px;
-    background-color: #ef4c23;
+    background-color: #14944C;
     color: white;
     cursor: pointer;
     margin-top: 2%;
     border-radius: 100px;
-    border: 2px solid #ef4c23;
+    border: 2px solid #14944C;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .featureDemoContainer>button:hover {
     background-color: white;
-    color: #ef4c23;
+    color: #14944C;
 }

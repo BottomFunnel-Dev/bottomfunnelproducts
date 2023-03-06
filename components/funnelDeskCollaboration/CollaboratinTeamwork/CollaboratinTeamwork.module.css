@@ -3,7 +3,7 @@
 }
 
 .CollaboratinTeamworkContainer hr {
-  background-color: #ef4c23;
+  background-color: #2C8753;
   height: 20px;
   border: none;
   outline: none;
@@ -69,8 +69,8 @@
     width: 100%;
     margin: 3% auto;
     text-align: center;
-    border-top: 10px solid #ef4c23;
-    border-bottom: 10px solid #ef4c23;
+    border-top: 10px solid #2C8753;
+    border-bottom: 10px solid #2C8753;
   }
 
   .CollaboratinTeamworkImage > img {

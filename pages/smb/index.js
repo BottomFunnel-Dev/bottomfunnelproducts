@@ -23,12 +23,12 @@ export default function SMB  ()  {
     }}
   />
 
-  <ProductsNavbar
-  navproductredux={{
-    color: "black",
-    logo: false,
-  }}
-/>
+     <ProductsNavbar
+        navproductredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
     <Smbbanner />
     <Smbcustomerservice />

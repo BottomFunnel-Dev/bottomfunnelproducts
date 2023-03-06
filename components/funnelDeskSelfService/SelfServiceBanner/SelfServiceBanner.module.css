@@ -10,7 +10,7 @@
 .selfServicesBannerParentDiv button {
   padding: 10px 40px;
   border-radius: 10px;
-  background-color: #ef4c23;
+  background-color: #12944D;
   border: none;
   color: white;
   font-size: 18px;
@@ -19,7 +19,7 @@
 }
 
 .selfServicesBannerParentDiv button:hover {
-  color: #ef4c23;
+  color: #12944D;
   background-color: white;
 }
 

@@ -32,7 +32,7 @@
 }
 
 .CollaborationAboutImages > div {
-  background: #ef4c23;
+  /* background: #2C8753; */
   position: absolute;
   bottom: 0;
   right: 0;
@@ -80,7 +80,7 @@
     width: fit-content;
     position: static;
     width: 50%;
-    border-right: 8px solid #ef4c23;
-    border-bottom: 8px solid #ef4c23;
+    border-right: 8px solid #2C8753;
+    border-bottom: 8px solid #2C8753;
   }
 }
