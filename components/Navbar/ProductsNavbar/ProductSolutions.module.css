@@ -58,7 +58,7 @@
   cursor: pointer;
 }
 .productlinkP > p:hover {
-  background-color: lightgray;
+  background-color: #DEF0E6;
   border-left: 3px solid #14944C;
 }
 .productSolutionsData:last-child {

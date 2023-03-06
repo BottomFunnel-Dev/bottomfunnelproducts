@@ -48,7 +48,7 @@
 }
 .productResourceData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  background-color: lightgray;
+  background-color: #DEF0E6;
   color: #14944C;
   border-left:3px solid #14944C;
 }

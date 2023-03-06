@@ -8,15 +8,6 @@ export const Fieldservicemanagementbanner = () => {
   return (
     <div className={styles.fieldservicemanagementbannermain}>
     <div className={styles.fieldservicemanagementbannerflexbox}>
-    <div className={styles.fieldservicemanagementleftbox}>
-    <h1>Field Service Management</h1>
-    <h3>Go The Extra Miles For Customer Support.</h3>
-    <p>Invite Your Field Workforce For On Site Customer Support.
-    Create Groups And Easily Track The Performance Of The Field Teams.See
-    Trends Analysis And Get Insights On Field Service Data.</p>
-    
-    
-    </div>
     <div className={styles.fieldservicemanagementrightbox}>
     
     <Image
@@ -28,6 +19,15 @@ export const Fieldservicemanagementbanner = () => {
           style={{ width: "100%", height: "100%", objectFit:"contain" }}
         />
 
+    
+    
+    </div>
+    <div className={styles.fieldservicemanagementleftbox}>
+    <h1>Field Service Management</h1>
+    <h3>Go The Extra Miles For Customer Support.</h3>
+    <p>Invite Your Field Workforce For On Site Customer Support.
+    Create Groups And Easily Track The Performance Of The Field Teams.See
+    Trends Analysis And Get Insights On Field Service Data.</p>
     
     
     </div>

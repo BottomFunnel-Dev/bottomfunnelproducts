@@ -36,7 +36,7 @@
     padding: 10px 50px;
     border-radius: 100px;
     width: 220px;
-    background-color: #ef4c23;
+    background-color: #14944C;
     border: none;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -48,7 +48,7 @@
   
   .footerbutonsbm:hover {
     background-color: white;
-    color: #ef4c23;
+    color: #14944C;
 
   }
 

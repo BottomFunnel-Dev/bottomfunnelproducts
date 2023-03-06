@@ -21,7 +21,7 @@
 
 .whyAutomationMain {
     width: 28%;
-    border: 1px solid rgb(242, 162, 142);
+    border: 1px solid #14944C;
     overflow: hidden;
     border-radius: 5px;
     border-bottom-right-radius: 25px;
@@ -38,7 +38,7 @@
 }
 
 .whyAutomationMain>div>img {
-    background-color: #ef4c23;
+    background-color: #14944C;
     padding: 5px 10px 8px 30px;
     border-bottom-right-radius: 20px;
     margin: 0;
