@@ -16,6 +16,7 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import { AgencySales } from "../../components/AgencyHomePage/AgencySales/AgencySales";
 
 export default function AgencyHomePage() {
   return (
@@ -43,8 +44,9 @@ export default function AgencyHomePage() {
       <Discover />
       <AutomateTask />
       <Performing />
+      <AgencySales/>
 
-      <EstateAgency />
+      {/* <EstateAgency /> */}
       {/* <SalesWorldwide />
       <MakeYourDeal /> */}
 

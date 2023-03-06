@@ -21,12 +21,12 @@ justify-content: center;
 .EstateAgencycarddiv{
     /* border: 2px solid green; */
     width: 30%;
-    height: 500px;
+    height: 380px;
     margin: auto;
     justify-content: center;
     text-align: center;
     padding-top:20px;
-    padding-bottom: 20px;
+    padding: 1%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* align-items: center; */
@@ -35,8 +35,8 @@ justify-content: center;
     background-color: #f8e2dd;
 }
 .EstateAgencycarddivimage{
-    width: 80%;
-    margin-left: 12%;
+    width: 50%;
+    margin-left: 22%;
    
 
 }

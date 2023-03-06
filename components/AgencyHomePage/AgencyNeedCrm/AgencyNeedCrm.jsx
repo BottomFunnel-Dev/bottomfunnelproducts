@@ -1,11 +1,21 @@
 import React from 'react'
 import style from "./AgencyNeedCrm.module.css";
+import Image from 'next/image';
 
 export const AgencyNeedCrm = () => {
   return (
     <div className={style.AgencyNeedCrmmaindiv}>
         <div className={style.AgencyNeedCrmimage}>
-            <img src="/Images/Agencyhomepagephotos/agencyneed.png" alt="image" />
+        <Image
+  src={"/Images/Agencyhomepagephotos/agencyneed.webp"}
+  alt={"image"}
+  width={"0"}
+  height={"0"}
+  sizes={"100vw"}
+  style={{ width: "100%", height: "100%" }}
+
+  />
+            {/* <img src="/Images/Agencyhomepagephotos/agencyneed.webp" alt="image" /> */}
         </div>
         <div className={style.AgencyNeedCrmcontain}>
             <h2>Why do agencies need CRM?</h2>

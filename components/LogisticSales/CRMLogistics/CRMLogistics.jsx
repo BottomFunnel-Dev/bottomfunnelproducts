@@ -1,5 +1,6 @@
 import React from 'react'
 import style from "./CRMLogistics.module.css";
+ import Image  from 'next/image';
 
 export const CRMLogistics = () => {
   return (
@@ -7,7 +8,16 @@ export const CRMLogistics = () => {
         <div className={style.CRMLogisticsmaindiv}>
             <div className={style.CRMLogisticsinnerdiv}>
                <div className={style.CRMLogisticsinnerdivimage}>
-                <img src="/images/logisticssalesphotos/question.png" alt="img" />
+               <Image
+                        src={"/Images/Logisticsalesphotos/question.webp"}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+                {/* <img src="/images/logisticssalesphotos/question.png" alt="img" /> */}
                </div>
                <div className={style.CRMLogisticsinnerdivcontain}>
                 <p>
@@ -19,12 +29,23 @@ How can companies ensure customers remain at the core of their business? By adop
             
             </div>
             <div className={style.CRMLogisticsinnerdiv1}>
-                <div>
-                    <img src= "/images/logisticssalesphotos/logibannerit.png" alt="img" />
+                <div className={style.CRMLogisticsinnerdiv1image}>
+                <Image
+                        src={"/Images/Logisticsalesphotos/crm.webp"}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+                    {/* <img src= "/images/logisticssalesphotos/logibannerit.png" alt="img" /> */}
                 </div>
                 <div className={style.CRMLogisticsinnerdiv1contain}>
                     <h2>The needs for a Specialized CRM for Logistics </h2>
                     <p>Be it to track the progress you are making with your prospects, to measure how your business is performing, or to track your shipment status, a CRM for logistics software can ensure that you get a deeper, clearer insight into your overall business performance, while also improving speed, efficiency, and quality of customer interactions.</p>
+                    <p>Be it to track the progress you are making with your prospects, to measure how your business is performing, or to track your shipment status, a CRM for logistics software can ensure that you get a deeper, clearer insight into your overall business performance, while also improving speed, efficiency, and quality of customer interactions.</p>
+
                 </div>
             </div>
 

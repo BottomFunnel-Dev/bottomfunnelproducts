@@ -1,12 +1,22 @@
 import React from 'react'
 import style from "./DigitalTransformation.module.css";
+import Image from 'next/image';
 
 export const DigitalTransformation = () => {
   return (
     <div className={style.DigitalTransformationmaindiv}>
      <div className={style.DigitalTransformationinnerdiv}>
-        <div>
-            <img src="/images/logisticssalesphotos/mobiversion.png" alt="image" />
+        <div className={style.DigitalTransformationinnerdivimage}>
+        <Image
+                        src={"/Images/Logisticsalesphotos/logo1.webp"}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+            {/* <img src="/images/logisticssalesphotos/mobiversion.webp" alt="image" /> */}
         </div>
         <div className={style.DigitalTransformationinnerdivcontain}>
             <h4>Digital Transformation</h4>
@@ -15,21 +25,39 @@ export const DigitalTransformation = () => {
      </div>
 
      <div className={style.DigitalTransformationinnerdiv2}>
-        <div className={style.DigitalTransformationinnerdiv2contain}>
+        <div className={style.DigitalTransformationinnerdivcontain}>
             <h4>New market entrants and new business models</h4>
             <p>Closely linked to the digital disruptions in the industry, the sub-segment of logistics which is facing high competition is 3PL providers. As much as they are on demand, there’s also a slew of new market entrants with better technologies fighting for a share of the market.</p>
 
         </div>
-        <div>
-            <img src="/images/logisticssalesphotos/rocket.png" alt="image" />
+        <div className={style.DigitalTransformationinnerdivimage}>
+        <Image
+                        src={"/Images/Logisticsalesphotos/logo2.webp"}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+            {/* <img src="/images/logisticssalesphotos/rocket.webp" alt="image" /> */}
         </div>
      </div>
 
      <div className={style.DigitalTransformationinnerdiv3}>
-        <div>
-            <img src="/images/logisticssalesphotos/star.png" alt="image" />
+        <div className={style.DigitalTransformationinnerdivimage}>
+        <Image
+                        src={"/Images/Logisticsalesphotos/logo3.webp"}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+            {/* <img src="/images/logisticssalesphotos/star.png" alt="image" /> */}
         </div>
-        <div className={style.DigitalTransformationinnerdiv2contain}>
+        <div className={style.DigitalTransformationinnerdivcontain}>
             <h4>Changing customer expectations</h4>
             <p>You could call it a chain reaction. Today, companies in the manufacturing space are mandated to proactively understand customer needs and increase their go-to-market pace. This, in turn, means logistics companies worldwide need to ensure shipments get delivered quicker, and that their operations are more flexible,more transparent, and affordable.</p>
         </div>

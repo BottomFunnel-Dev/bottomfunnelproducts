@@ -1,38 +1,72 @@
 import React from 'react'
 import style from "./FinanceContaint.module.css";
+import Image from 'next/image';
 
 export const FinanceContaint = () => {
   return (
     <div>
          <div className={style.FinanceContaintmaindiv}>
      <div className={style.FinanceContaintinnerdiv}>
-        <div>
-            <img src="/images/logisticssalesphotos/mobiversion.png" alt="image" />
+        <div className={style.FinanceContaintinnerdivimage}>
+        <Image
+            src={"/Images/financesalesimage/banner (9).webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+
+            />
+         
         </div>
         <div className={style.FinanceContaintinnerdivcontain}>
-            <h4>Digital Transformation</h4>
-            <p>Process optimization, efficiency, speed, and timing have become key metrics for logistics companies to stand out in the market. There are several digital transformations the industry is witnessing today. The first, and most important one, is the emergence of artificial intelligence (AI) and machine learning that help companies wade through heaps of unstructured data and generate patterns and insights that help improve operations. The second is the availability of tracking tools that help trace a shipment from a manufacturing facility to the end-stage delivery. The third is the rapid increase in the number of 3PL (third-party logistics) providers who help control costs and reduce overheards. And lastly, the proliferation of autonomous vehicles and robots that enable companies to manage transportation and storage.</p>
+            <h4>Organize customer data with modern view</h4>
+            <p>By creating customizable views in a click, Freshsales lets you access data on one screen and perform your daily tasks faster than before.
+
+With quick actions and easy access to customer data from one place, you can visualize where each contact stands and spot roadblocks, thus enhancing your team’s productivity and efficiency.</p>
+<p>Using drag-and-drop cards and group fields, you can track your contacts’ progress.
+
+You can visualize and manage your contacts in a list, table, or Kanban view and work the way you like.</p>
         </div>
      </div>
 
-     <div className={style.FinanceContaintinnerdiv2}>
-        <div className={style.FinanceContaintinnerdiv2contain}>
-            <h4>New market entrants and new business models</h4>
-            <p>Closely linked to the digital disruptions in the industry, the sub-segment of logistics which is facing high competition is 3PL providers. As much as they are on demand, there’s also a slew of new market entrants with better technologies fighting for a share of the market.</p>
+     <div className={style.FinanceContaintinnerdiv}>
+        <div className={style.FinanceContaintinnerdivcontain}>
+            <h4>Identify sales-ready leads with AI</h4>
+            <p>Your agents have to secure target accounts. But how do they know if the leads they are reaching out to will convert? This is where a Finance CRM can step in.
+
+Freshsales CRM offers AI-based contact scoring that identifies clients who are best suited for your business with the help of positive and negative scoring signals.</p>
+<p>The CRM tags high-intent contacts as “Likely to Buy” and recommends the next best action to your agents who can further engage with them.</p>
 
         </div>
-        <div>
-            <img src="/images/logisticssalesphotos/rocket.png" alt="image" />
+        <div className={style.FinanceContaintinnerdivimage}>
+        <Image
+            src={"/Images/financesalesimage/banner (10).webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+
+            />
         </div>
      </div>
 
-     <div className={style.FinanceContaintinnerdiv3}>
-        <div>
-            <img src="/images/logisticssalesphotos/star.png" alt="image" />
+     <div className={style.FinanceContaintinnerdiv}>
+        <div className={style.FinanceContaintinnerdivimage} >
+        <Image
+            src={"/Images/financesalesimage/banner (11).webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+
+            />
         </div>
-        <div className={style.FinanceContaintinnerdiv2contain}>
-            <h4>Changing customer expectations</h4>
-            <p>You could call it a chain reaction. Today, companies in the manufacturing space are mandated to proactively understand customer needs and increase their go-to-market pace. This, in turn, means logistics companies worldwide need to ensure shipments get delivered quicker, and that their operations are more flexible,more transparent, and affordable.</p>
+        <div className={style.FinanceContaintinnerdivcontain}>
+            <h4>Make data seamlessly available across platforms</h4>
+            <p>Many financial institutions manage their transaction and repayment schedule history in an external banking software. In order to ensure that you don’t have to shift between multiple software to access and update customer data, you can simply integrate your banking software with the CRM for Finance software, so that all relevant data with respect to each customer is available in the external software, and in their respective lead profiles within the CRM.</p>
         </div>
      </div>
     </div>

@@ -5,17 +5,15 @@
     margin-top: 5%;
 }
 .Performing1stdivimage{
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
     width: 70%;
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
     margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
-.Performing1stdivimage img{
-    width: 100%;
-    height: 100%;
-}
+
 
 
 
@@ -37,8 +35,6 @@
   /* border: 2px solid yellow; */
   width: 50%;
   height: 400px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.Performing2ndpart2 img{
-    width: 100%;
-    height: 100%;
-}
+

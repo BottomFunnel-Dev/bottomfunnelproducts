@@ -1,5 +1,6 @@
 import React from 'react'
 import style from "./Discover.module.css";
+import Image from 'next/image';
 
 export const Discover = () => {
   return (
@@ -12,7 +13,16 @@ export const Discover = () => {
     
     </div>
     <div className={style.Discoverimage}>
-        <img src="/Images/Agencyhomepagephotos/screen1.png" alt="image" />
+    <Image
+  src={"/Images/Agencyhomepagephotos/Activities 01.webp"}
+  alt={"image"}
+  width={"0"}
+  height={"0"}
+  sizes={"100vw"}
+  style={{ width: "100%", height: "100%" }}
+
+  />
+        {/* <img src="/Images/Agencyhomepagephotos/Activities 01.webp" alt="image" /> */}
     </div>
     </div>
   )

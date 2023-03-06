@@ -3,10 +3,12 @@
     width: 100%;
     border: 1px solid transparent;
     /* margin-top: 120px; */
-    background-image: url("/Images/logisticssalesphotos/logicbanners.png");
+    background-image: url("/Images/Logisticsalesphotos/bgbanner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
     /* background-color: #ef4c23; */
     /* margin-top: 100px; */
   }
@@ -17,7 +19,7 @@
     height: 50%;
     width: 37%;
   
-    margin-top: 20%;
+    margin-top: 7%;
     margin-left: 4%;
     /* text-align: center; */
   }
