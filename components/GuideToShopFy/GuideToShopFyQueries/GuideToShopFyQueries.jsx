@@ -5,29 +5,30 @@ export const GuideToShopFyQueries = () => {
         <div className={styles.GuideToShopFyQueriesparent}>
             <div className={styles.GuideToShopFyQueriesparentchild}>
                 <div className={styles.GuideToShopFyQueriesparentchildfirstdiv}>
-                    <h1>Analyze your campaigns</h1>
-                    <p>Monitor your Shopify store performance
+                    <h3>Analyze your campaigns</h3>
+                    <p className={styles.para}>Monitor your Shopify store performance
                         with the e commerce dashboard</p>
                 </div>
                 <div className={styles.GuideToShopFyQueriesparentchildsecdiv}>
                     <div>
                         <div>
 
-                            <h3>Monitor Shopify store
-                                performance in Bottom
-                                Funnel Marketer </h3>
+                            
                             <Image
                                 src={"/Images/GuideToShopFy/icon24.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "15%", height: "15%" }}
+                                style={{ width: "20%", height: "20%" }}
 
                             />
+                            <h5>Monitor Shopify store
+                                performance in Bottom
+                                Funnel Marketer </h5>
                         </div>
 
-                        <p>Monitor Shopify store
+                        <p className={styles.para}>Monitor Shopify store
                             performance in Bottom
                             Funnel Marketer</p>
 
@@ -35,21 +36,22 @@ export const GuideToShopFyQueries = () => {
                     <div>
                         <div>
 
-                            <h3>Monitor Shopify store
-                                performance in Bottom
-                                Funnel Marketer</h3>
+                           
                             <Image
                                 src={"/Images/GuideToShopFy/icon25.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "15%", height: "15%" }}
+                                style={{ width: "20%", height: "20%" }}
 
                             />
+                             <h5>Monitor Shopify store
+                                performance in Bottom
+                                Funnel Marketer</h5>
                         </div>
 
-                        <p>Know how your emails/SMSes are performing.
+                        <p className={styles.para}>Know how your emails/SMSes are performing.
                             Use these insights to improve campaign
                             messages and send better follow ups</p>
 

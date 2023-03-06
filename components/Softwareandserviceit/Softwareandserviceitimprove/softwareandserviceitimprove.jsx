@@ -7,17 +7,7 @@ export const Softwareandserviceitimprove = () => {
         <div className={styles.softwareandserviceitimproveParent}>
 
 
-            <div className={styles.softwareandserviceitimproveone}>
-                <Image
-                    src={"/Images/softwareandserviceit/5.png"}
-                    alt={"img"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "70%", height: "70%" }}
-
-                />
-            </div>
+         
 
 
             <div className={styles.softwareandserviceitimprovetwo}>
@@ -41,6 +31,17 @@ export const Softwareandserviceitimprove = () => {
                     </li>
 
                 </ul>
+            </div>
+            <div className={styles.softwareandserviceitimproveone}>
+                <Image
+                    src={"/Images/softwareandserviceit/5.png"}
+                    alt={"img"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "70%", height: "70%" }}
+
+                />
             </div>
 
         </div>

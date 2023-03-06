@@ -4,63 +4,91 @@
     display: flex;
    
     align-items: center;
+    align-content: center;
   height: 50vh;
-   
   
+    
+  
+}
+.GuideToShopFyConnectHeading>h3{
+    margin-top: 10%;
 }
 .GuideToShopFyConnectHeading{
     background-color: #fff8f8;
-    height: 100%;
-    padding: 5%;
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%;
+    height: 110%;
+   padding: 3%;
+   
     width: 30%;
 }
 .GuideToShopFyConnectOnlyChild{
-  
+  padding: 1%;
     display: flex;
     justify-content: space-around;
-   
-    width: 70%;
+   border-bottom: 3px solid whitesmoke;
+    width: 60%;
+    margin-left: 5%;
+  
 }
 .GuideToShopFyConnectOnlyChild>div{
     width: 30%;
-  
-    padding: 3%;
+ 
+    padding: 2%;
 }
+
 .GuideToShopFyConnectOnlyChilddivone>div{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+   
+ 
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 20px;
+
     
 }
-.GuideToShopFyConnectOnlyChilddivone>div>h3{
-   width: 50%;
-   margin-right: 30%;
+.GuideToShopFyConnectOnlyChilddivone>div>h5{
+   
+    margin-left: 20px;
 }
 
 
 .GuideToShopFyConnectOnlyChilddivtwo>div{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+   
+   
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 20px;
     
 }
-.GuideToShopFyConnectOnlyChilddivtwo>div>h3{
-   width: 50%;
+.GuideToShopFyConnectOnlyChilddivtwo>div>h5{
+    margin-left: 20px;
+  
 }
 
 
 
 .GuideToShopFyConnectOnlyChilddivthree>div{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+   
+   
+  
+   
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 20px;
     
 }
-.GuideToShopFyConnectOnlyChilddivthree>div>h3{
-   width: 50%;
+.GuideToShopFyConnectOnlyChilddivthree>div>h5{
+    margin-left: 20px;
 }
 
 
-
+.GuideToShopFyConnectOnlyChild>div>p{
+text-align: justify;
+}
 
 
 

@@ -9,11 +9,11 @@ export const CaseStudy = () => {
                 <button> Filter </button>
             </div>
             <div className={styles.CaseStudyParentsecchild}>
-
+            
                 <div className={styles.CaseStudyParentsecchilddiv}>
                     <div>
-                        <h1>Blueberry Group
-                        </h1>
+                        <h3>Blueberry Group
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo1.png"}
@@ -21,19 +21,19 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>MARKETPLACE</h3>
+                        <h4>MARKETPLACE</h4>
                         <p>"Bottom Funnel allows us to build
                             custom apps that integrate with our
                             ordering system to see the most
                             recent order, and status of the
                             order.</p>
                     </div>
-                    <div>
-                        <h1>Yanbal</h1>
+                    <div className={styles.CaseStudyParentsecchilddivborder}>
+                        <h3>Yanbal</h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo2.png"}
@@ -41,18 +41,18 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h1>ANALYTICS</h1>
+                        <h4>ANALYTICS</h4>
                         <p>How Blue Nile slashed no-show rates
                             by half with Bottom Funnel Marketer
                         </p>
                     </div>
                     <div className={styles.rightborder}>
-                        <h1>Jambo Shoppe
-                        </h1>
+                        <h3>Jambo Shoppe
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo3.png"}
@@ -60,11 +60,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>COLLABORATION</h3>
+                        <h4>COLLABORATION</h4>
                         <p>How Blue Nile slashed no-show rates
                             by half with Bottom Funnel Marketer
                         </p>
@@ -73,7 +73,7 @@ export const CaseStudy = () => {
                 </div>
                 <div className={styles.CaseStudyParentsecchilddiv}>
                     <div>
-                        <h1>Sportasy</h1>
+                        <h3>Sportasy</h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo4.png"}
@@ -81,11 +81,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>COLLABORATION</h3>
+                        <h4>COLLABORATION</h4>
                         <p>Along with efficient team
                             management, Bottom Funnel Chat
                             helped us develop a stronger
@@ -94,9 +94,9 @@ export const CaseStudy = () => {
                             retail store to an online D2C brand
                             much easier.”</p>
                     </div>
-                    <div>
-                        <h1>Tax Wink
-                        </h1>
+                    <div className={styles.CaseStudyParentsecchilddivborder}>
+                        <h3>Tax Wink
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo5.png"}
@@ -104,11 +104,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h1>MARKETPLACE</h1>
+                        <h4>MARKETPLACE</h4>
                         <p>You can create a dashboard, all of
                             the data that you want to refer to,
                             and just quickly go into that…(it’s)
@@ -116,8 +116,8 @@ export const CaseStudy = () => {
                             administration point of view."</p>
                     </div>
                     <div>
-                        <h1>Next Holidays
-                        </h1>
+                        <h3>Next Holidays
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo6.png"}
@@ -125,11 +125,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>ANALYTICS</h3>
+                        <h4>ANALYTICS</h4>
                         <p>“We wanted to automate as much
                             as possible. Bottom Funnel Service
                             helped us standardize our global
@@ -141,7 +141,7 @@ export const CaseStudy = () => {
                 </div>
                 <div className={styles.CaseStudyParentsecchilddiv}>
                     <div>
-                        <h1>Roshi</h1>
+                        <h3>Roshi</h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo7.png"}
@@ -149,11 +149,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>ANALYTICS</h3>
+                        <h4>ANALYTICS</h4>
                         <p>We wanted to automate as much
                             as possible. Bottom Funnel Service
                             helped us standardize our global
@@ -161,8 +161,8 @@ export const CaseStudy = () => {
                             different support channels into one
                             platform</p>
                     </div>
-                    <div>
-                        <h1>Itv</h1>
+                    <div className={styles.CaseStudyParentsecchilddivborder}>
+                        <h3>Itv</h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo8.png"}
@@ -170,11 +170,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>COLLABORATION</h3>
+                        <h4>COLLABORATION</h4>
                         <p>“Along with efficient team
                             management, Bottom Funnel Chat
                             helped us develop a stronger
@@ -184,8 +184,8 @@ export const CaseStudy = () => {
                             much easier.”</p>
                     </div>
                     <div>
-                        <h1>Jaipur Rugs
-                        </h1>
+                        <h3>Jaipur Rugs
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo9.png"}
@@ -193,11 +193,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>MARKETPLACE</h3>
+                        <h4>MARKETPLACE</h4>
                         <p>"You can create a dashboard, all of
                             the data that you want to refer to,
                             and just quickly go into that…(it’s)
@@ -209,8 +209,8 @@ export const CaseStudy = () => {
                 </div>
                 <div className={styles.CaseStudyParentsecchilddiv}>
                     <div>
-                        <h1>Aanandam
-                        </h1>
+                        <h3>Aanandam
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo10.png"}
@@ -218,20 +218,20 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>MARKETPLACE</h3>
+                        <h4>MARKETPLACE</h4>
                         <p>"Bottom Funnel allows us to build
                             custom apps that integrate with our
                             ordering system to see the most
                             recent order, and status of the
                             order.</p>
                     </div>
-                    <div>
-                        <h1>Travel Flap
-</h1>
+                    <div className={styles.CaseStudyParentsecchilddivborder}>
+                        <h3>Travel Flap
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo11.png"}
@@ -239,18 +239,17 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-
+                                style={{ width: "60%", height: "60%" }}
                             />
                         </div>
-                        <h3>ANALYTICS</h3>
+                        <h4>ANALYTICS</h4>
                         <p>How Blue Nile slashed no-show rates
                             by half with Bottom Funnel Marketer
                         </p>
                     </div>
                     <div>
-                        <h1>Wifistudy
-                        </h1>
+                        <h3>Wifistudy
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo12.png"}
@@ -258,11 +257,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>COLLABORATION</h3>
+                        <h4>COLLABORATION</h4>
                         <p>How Blue Nile slashed no-show rates
                             by half with Bottom Funnel Marketer
                         </p>
@@ -271,7 +270,7 @@ export const CaseStudy = () => {
                 </div>
                 <div className={styles.CaseStudyParentsecchilddiv}>
                     <div>
-                        <h1>Salesbot</h1>
+                        <h3>Salesbot</h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo13.png"}
@@ -279,11 +278,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>COLLABORATION</h3>
+                        <h4>COLLABORATION</h4>
                         <p>Along with efficient team
                             management, Bottom Funnel Chat
                             helped us develop a stronger
@@ -292,9 +291,9 @@ export const CaseStudy = () => {
                             retail store to an online D2C brand
                             much easier.”</p>
                     </div>
-                    <div>
-                        <h1>Younity
-                        </h1>
+                    <div className={styles.CaseStudyParentsecchilddivborder}>
+                        <h3>Younity
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo14.png"}
@@ -302,11 +301,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>MARKETPLACE</h3>
+                        <h4>MARKETPLACE</h4>
                         <p>You can create a dashboard, all of
                             the data that you want to refer to,
                             and just quickly go into that…(it’s)
@@ -314,8 +313,8 @@ export const CaseStudy = () => {
                             administration point of view."</p>
                     </div>
                     <div>
-                        <h1>Tigmoo
-                        </h1>
+                        <h3>Tigmoo
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo15.png"}
@@ -323,11 +322,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>ANALYTICS</h3>
+                        <h4>ANALYTICS</h4>
                         <p>“We wanted to automate as much
                             as possible. Bottom Funnel Service
                             helped us standardize our global
@@ -337,9 +336,9 @@ export const CaseStudy = () => {
                     </div>
 
                 </div>
-                <div className={styles.CaseStudyParentsecchilddiv}>
-                    <div>
-                        <h1>Myteam</h1>
+                <div className={`${styles.CaseStudyParentsecchilddiv} `}  >
+                    <div style={{"border-bottom": "blue"}}>
+                        <h3>Myteam</h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo16.png"}
@@ -347,11 +346,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>ANALYTICS</h3>
+                        <h4>ANALYTICS</h4>
                         <p>We wanted to automate as much
                             as possible. Bottom Funnel Service
                             helped us standardize our global
@@ -359,9 +358,9 @@ export const CaseStudy = () => {
                             different support channels into one
                             platform</p>
                     </div>
-                    <div>
-                        <h1>SPJ Electronics
-</h1>
+                    <div className={`${styles.CaseStudyParentsecchilddivborder} ${styles.CaseStudyParentsecchilddivBorderNone} `}  style={{"border-bottom": "none"}}>
+                        <h3>SPJ Electronics
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo17.png"}
@@ -369,11 +368,13 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
+                   
+
                         </div>
-                        <h3>COLLABORATION</h3>
+                        <h4>COLLABORATION</h4>
                         <p>“Along with efficient team
                             management, Bottom Funnel Chat
                             helped us develop a stronger
@@ -382,9 +383,9 @@ export const CaseStudy = () => {
                             retail store to an online D2C brand
                             much easier.”</p>
                     </div>
-                    <div>
-                        <h1>Amydus
-                        </h1>
+                    <div className={styles.CaseStudyParentsecchilddivBorderNone} style={{"border-bottom": "none"}}>
+                        <h3>Amydus
+                        </h3>
                         <div>
                             <Image
                                 src={"/Images/Customerspotlight/Logo18.png"}
@@ -392,11 +393,11 @@ export const CaseStudy = () => {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
+                                style={{ width: "60%", height: "60%" }}
 
                             />
                         </div>
-                        <h3>MARKETPLACE</h3>
+                        <h4>MARKETPLACE</h4>
                         <p>"You can create a dashboard, all of
                             the data that you want to refer to,
                             and just quickly go into that…(it’s)

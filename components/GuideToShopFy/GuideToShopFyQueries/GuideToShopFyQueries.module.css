@@ -10,40 +10,62 @@
     
      align-items: center;
      align-content: center;
+     height: 500px;
+  
+
     
-   
-     height: 60vh;
  }
- 
+ .para{
+text-align: justify;
+ }
  .GuideToShopFyQueriesparentchildfirstdiv{
     background-color: #FFF8F8;
     width: 30%;
-    height: 100%;
+    height: 510px;
     text-align: center;
+    
+   padding: 2%;
  }
- .GuideToShopFyQueriesparentchildfirstdiv>h1{
- margin-top: 20%;
+ .GuideToShopFyQueriesparentchildfirstdiv>h3{
+   margin-top: 25%;
+   margin-left: 5%;
+  
+   text-align: justify;
 
+ }
+ .GuideToShopFyQueriesparentchildfirstdiv>p{
+   margin-left: 5%;
+ 
  }
 
  .GuideToShopFyQueriesparentchildsecdiv{
-     border-bottom: 1px solid grey;
+    
+    border-bottom: 3px solid whitesmoke;
      display: flex;
-     width: 60%;
+     align-items: center;
+     width: 40%;
      margin-left: 5%;
-     
+    height: 300px;
  }
  .GuideToShopFyQueriesparentchildsecdiv>div{
   
-     padding: 5%
-     
+    width: 50%;
+     padding: 2%;
+     height: 300px;
+    
  }
  .GuideToShopFyQueriesparentchildsecdiv>div>div{
     
      display: flex;
-     justify-content: space-between;
+     
+     align-items: center;
+    margin-bottom: 20px;
     
-     padding: 2%;
+ }
+ .GuideToShopFyQueriesparentchildsecdiv>div>div>h5{
+    width: 70%;
+    margin-left: 20px;
+  
  }
 
 
