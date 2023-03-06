@@ -1,0 +1,61 @@
+
+
+.ManufacturingFeaturesmaindivinner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 4%;
+
+}
+.ManufacturingFeaturesmaindivinnerone{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 4%;
+
+}
+
+
+
+
+.ManufacturingFeaturesmaindivinnerimage{
+  width: 45%;
+}
+
+.ManufacturingFeaturesmaindivinnercontent{
+    width: 40%;
+}
+
+.ManufacturingFeatureslist{
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+
+
+.ManufacturingFeaturesmaindivinnersecond{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 90%;
+    margin: auto;
+    /* justify-content: space-around; */
+    margin-top: 4%;
+    /* border: 2px solid; */
+
+}
+
+.ManufacturingFeaturesmaindivinnerimagesecond{
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  
+ 

@@ -33,7 +33,7 @@ export const CustomerEngage = () => {
         <div className={styles.CustomerEngagelogodiv}>
           <div className={styles.CustomerEngagelogodivimage}>
           <Image
-                        src={"/Images/hospitalitysalesphotos/customer.webp"}
+                        src={"/Images/hospitalitysalesphotos/delivered.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -42,13 +42,13 @@ export const CustomerEngage = () => {
 
                     />
           </div>
-          <h6>Attracting prospects</h6>
+          <h6>Delivering great customer service</h6>
         </div>
 
         <div className={styles.CustomerEngagelogodiv}>
           <div className={styles.CustomerEngagelogodivimage}>
           <Image
-                        src={"/Images/hospitalitysalesphotos/customer.webp"}
+                        src={"/Images/hospitalitysalesphotos/Frame.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -57,13 +57,13 @@ export const CustomerEngage = () => {
 
                     />
           </div>
-          <h6>Attracting prospects</h6>
+          <h6>Retaining customer </h6>
         </div>
 
         <div className={styles.CustomerEngagelogodiv}>
           <div className={styles.CustomerEngagelogodivimage}>
           <Image
-                        src={"/Images/hospitalitysalesphotos/customer.webp"}
+                        src={"/Images/hospitalitysalesphotos/user-engagement.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -72,7 +72,7 @@ export const CustomerEngage = () => {
 
                     />
           </div>
-          <h6>Attracting prospects</h6>
+          <h6>Engaging prospects</h6>
         </div>
         </div>
         </div>

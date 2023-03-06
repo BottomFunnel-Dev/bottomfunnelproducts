@@ -37,7 +37,7 @@ From welcome emails to internal reminders for your team members to complete task
 
           <div className={style.AutomateTaskimage}>
           <Image
-  src={"/Images/Agencyhomepagephotos/contacts.webp"}
+  src={"/Images/Agencyhomepagephotos/Group 1000006414.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}

@@ -1,0 +1,12 @@
+.Businessmaindiv{
+    /* border: 2px solid ; */
+    width: 90%;
+   
+    margin: auto;
+    margin-top: 3%;
+}
+.Businessmaindivimage{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+}

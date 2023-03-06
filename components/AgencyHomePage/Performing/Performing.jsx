@@ -16,7 +16,7 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
         <p>Learn-More</p>
         <div className={style.Performing1stdivimage}>
         <Image
-  src={"/Images/Agencyhomepagephotos/Deals.webp"}
+  src={"/Images/Agencyhomepagephotos/Group 1000006413.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
