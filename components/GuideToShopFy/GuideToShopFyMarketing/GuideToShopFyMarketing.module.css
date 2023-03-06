@@ -4,98 +4,137 @@
     display: flex;
     
     align-items: center;
+
  
-  
-   height: 170vh;
    
+   
+}
+.para{
+text-align: justify;
 }
 .GuideToShopFyMarketingheading{
     width: 30%;
     background-color: #FFF8F8;
-    height: 100%;
-    text-align: center;
+    height: 900px;
+    text-align: left;
+   padding: 2%;
+ 
+   
 }
 .GuideToShopFyMarketingChild{
+   
     width: 60%;
+    display: flex;
+    flex-direction: column;
+   
     margin-left: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    border-bottom: 1px solid grey;
+    border-bottom: 3px solid whitesmoke;
 }
-.GuideToShopFyMarketingheading>h1{
-margin-top: 50%;
+.GuideToShopFyMarketingheading>h3{
+margin-top: 5%;
+
+
 }
 .GuideToShopFyMarketingfirstChild{
-  
+    
+height: 300px;
     display: flex;
     justify-content: space-around;
-   
-    width: 100%;
+  
+    align-items: center;
     margin-right: 0px;
     
 }
 .GuideToShopFyMarketingfirstChild>div{
+   
     padding: 0PX;
    width: 33%;
- 
+ height: 300px;
    padding: 2%;
    
    
 }
-.GuideToShopFyMarketingfirstChilddiv>div{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 22%;
-   
-}
-.GuideToShopFMarketingfirstChilddiv>div>h1{
-   width: 70%;
-  
-  
-}
-
 
 .GuideToShopFyMarketingfirstChilddivone>div{
-display: flex;
-margin-bottom: 25%;
+   
+    display: flex;
+    
+    align-items: center;
+    margin-bottom: 20px;
+    
+   
 }
+.GuideToShopFyMarketingfirstChilddivone>div>h5{
+   width: 70%;
+  margin-left: 20px;
+ 
+}
+
+
 
 
 
 .GuideToShopFyMarketingfirstChilddivtwo>div{
     display: flex;
-    justify-content: space-between;
     
-    margin-bottom: 25%;
+    align-items: center;
+    
+    margin-bottom: 20px;
     
 }
-.GuideToShopFyMarketingfirstChilddivtwo>div>h1{
+.GuideToShopFyMarketingfirstChilddivtwo>div>h5{
     width: 70%;
+    margin-left: 20px;
 }
 
 
 
 .GuideToShopFyMarketingfirstChilddivthree>div{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 23%;
+   
+    margin-bottom: 20px;
+   
+    align-items: center;
     
 }
-.GuideToShopFyMarketingfirstChilddivthree>div>h1{
+.GuideToShopFyMarketingfirstChilddivthree>div>h5{
     width: 70%;
+    margin-left: 20px;
 }
-.GuideToShopFyConfigurefirstChilddivfour{
-    border-right: 4px solid white;
-}
+
 .GuideToShopFyMarketingfirstChilddivfour>div{
     display: flex;
-    justify-content: space-between;
+    
    
-    margin-bottom: 20%;
+    align-items: center;
+    margin-bottom: 20px;
     
 }
-.GuideToShopFyMarketingfirstChilddivfour>div>h1{
+.GuideToShopFyMarketingfirstChilddivfour{
+ 
+   width: 33%;
+   margin-left: -30%;
+   
+}
+.GuideToShopFyMarketingfirstChilddivfouone>div{
+    display: flex;
+    
+  
+    align-items: center;
+    margin-bottom: 20px;
+}
+.GuideToShopFyMarketingfirstChilddivfouone>div>h5{
     width: 70%;
+    width: 70%;
+    margin-left: 20px;
+
+}
+.GuideToShopFyMarketingfirstChilddivfouone{
+    margin-left: -60%;  
+}
+.GuideToShopFyMarketingfirstChilddivfour>div>h5{
+    width: 70%;
+    margin-left: 20px;
 }
 
 

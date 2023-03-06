@@ -9,11 +9,12 @@
 .CustomerSpotlightDemoParent>button{
     margin-top: 3%;
     width: 200px;
-    height: 40px;
+    height: 50px;
     border: none;
     background-color: #ef4c25;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
+    font-size: 23px;
 }
 .CustomerSpotlightDemoParent>button:hover{
 background-color:white;

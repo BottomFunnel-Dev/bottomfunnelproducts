@@ -3,27 +3,22 @@
     padding: 0px;
   }
   
-  .softwareandserviceitcollabrationParent{
+  .GuideToShopFyBannerParent{
      
-    
-    
+     
+      height: 100vh;
       display: flex;
      
-   padding-left: 5%;
- 
-   
-      margin-top: 5%;
+   padding: 5%;
+  
+   padding-left: 7%;
   }
-  .softwareandserviceitcollabrationone{
+  .GuideToShopFyBannerone{
      
       width: 50%;
-   
-    display: flex;
-    align-items: center;
-    align-content: center;
      
   }
-  .softwareandserviceitcollabrationtwo{
+  .GuideToShopFyBannertwo{
     
       width: 50%;
      display: flex;
@@ -32,33 +27,33 @@
    
     margin-bottom: 70px;
     padding-top: 12%;
-   
+ 
    padding-left: 5%;
      
   }
-  .softwareandserviceitcollabrationtwo>h1{
+  .GuideToShopFyBannertwo>h1{
      
-      width: 100%;
+      width: 90%;
       font-weight: 700;
       
   }
-  .softwareandserviceitcollabrationtwo>p{
+  .GuideToShopFyBannertwo>p{
      
       margin-top: 1%;
       width: 70%;
      
     color: #393939;
   }
-  .softwareandserviceitcollabrationtwo>button{
+  .GuideToShopFyBannertwo>button{
       width: 200px;
       height: 40px;
       margin-top: 3%; 
       display: inline-block;
-      background-color:blue;
+      background-color: #EF5122;
       padding: 5px;
       text-align: center;
       border: none;
-      border-radius: 5px;
+      border-radius: 20px;
       text-decoration: white;
     color: aliceblue;
     font-size: 18px;
@@ -66,13 +61,13 @@
     
     
   }
-  .softwareandserviceitcollabrationtwo>button:hover{
+  .GuideToShopFyBannertwo>button:hover{
     background-color: white;
-    color:blue;
+    color: #ef4c23;
     
   }
   @media(max-width:780px){
-    .softwareandserviceitcollabrationParent{
+    .GuideToShopFyBannerParent{
       width: 100%;
       height: auto;
       display: flex;
@@ -81,15 +76,14 @@
     padding: 0px;
   
   }
-  .softwareandserviceitcollabrationone{
+  .GuideToShopFyBannerone{
      
       width: 100%;
       padding-right: 0px;
       margin-right: 0px;
-      padding-left: 15%;
      
   }
-  .softwareandserviceitcollabrationtwo{
+  .GuideToShopFyBannertwo{
     padding-right: 0px;
     margin-right: 0px;
       width: 100%;
@@ -104,13 +98,13 @@
    align-items: center;
      
   }
-  .softwareandserviceitcollabrationtwo>h1{
+  .GuideToShopFyBannertwo>h1{
      
       width: 75%;
       font-weight: 700;
       font-size: 32;
   }
-  .softwareandserviceitcollabrationtwo>p{
+  .GuideToShopFyBannertwo>p{
      
       margin-top: 2%;
       width: 70%;
@@ -120,7 +114,7 @@
   
     
   }
-  .softwareandserviceitcollabrationtwo>button{
+  .GuideToShopFyBannertwo>button{
       width: 200px;
       height: 40px;
       margin-top: 5%; 

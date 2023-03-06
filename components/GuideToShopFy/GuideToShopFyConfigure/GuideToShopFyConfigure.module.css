@@ -4,122 +4,131 @@
     display: flex;
     
     align-items: center;
-   background-color: white;
+    
    align-content: center;
-   height: 100vh;
+  justify-content: space-between;
+ 
   
 }
 .GuideToShopFyConfigureOnlyChild{
-  
+    background-color: white;
     display: flex;
     justify-content: space-around;
-    margin-top: 2%;
+
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 60%;
+   
+   margin-right: 5%;
+    border-bottom: 3px solid #F5F5F5;
 }
 .GuideToShopFyConfigureHeading{
     width: 30%;
     background-color: #FFF8F8;
-    height: 100%;
-    padding: 3%;
-   text-align: center;
+    height: 600px;
+    padding: 30px;
+   text-align: justify;
+   padding-top: 10%;
+   padding-left: 50px;
+   
 }
-.line{
-    
-    width: 80%;
-    border: 1px solid gray;
-    margin-bottom: -10%;
-    }
-    .lineone{
-    
-        width: 80%;
-        border: 1px solid gray;
-        margin-top: -20%;
-        margin-bottom: 10%;
-        }
-.GuideToShopFyConfigureHeading>h1{
-    margin-top: 50%;
+.GuideToShopFyConfigureHeading>h3{
+   
+margin-top: -33%;
 }
+
 .GuideToShopFyConfigureOnlyChildinsidefirstdiv{
    display: flex;
    width: 100%;
+  
+   align-items: center;
 }
 .GuideToShopFyConfigureOnlyChildinsidefirstdiv>div{
-  
-    width: 33%;
+ 
+    
+  height: 300px;
     padding: 2%;
  }
  .GuideToShopFyConfigureOnlyChildinsidesecdiv{
     display: flex;
     width: 100%;
+  
  }
  .GuideToShopFyConfigureOnlyChildinsidesecdiv>div{
     padding: 2%;
      width: 33%;
+    height: 300px;
+  
   }
 .GuideToShopFyConfigureOnlyChilddivone>div{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 22%;
-}
-.GuideToShopFyConfigureOnlyChilddivone>div>h3{
-   width: 70%;
-  
+    
+    
+    align-items: center;
+    margin-bottom: 20px;
 }
 
+
+.GuideToShopFyConfigureOnlyChilddivone>div>h5{
+    margin-left: 20px;
+    width: 70%;
+}
 
 
 
 
 
 .GuideToShopFyConfigureOnlyChilddivtwo>div{
+   
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 11%;
+    margin-bottom: 20px;
+    align-items: center;
+   
     
 }
-.GuideToShopFyConfigureOnlyChilddivtwo>div>h3{
+.GuideToShopFyConfigureOnlyChilddivtwo>div>h5{
     width: 70%;
+    margin-left: 20px;
 }
 
 
 
 .GuideToShopFyConfigureOnlyChilddivthree>div{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 23%;
+   
+    margin-bottom: 20px;
+    align-items: center;
+  
     
 }
-.GuideToShopFyConfigureOnlyChilddivthree>div>h1{
+.GuideToShopFyConfigureOnlyChilddivthree>div>h5{
     width: 70%;
-}
-.GuideToShopFyConfigureOnlyChilddivfour{
-    border-right: 4px solid white;
-}
-.GuideToShopFyConfigureOnlyChilddivfour>div{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.GuideToShopFyConfigureOnlyChilddivfour>div>h3{
-    width: 70%;
+    margin-left: 20px;
 }
 
+.GuideToShopFyConfigureOnlyChilddivfour>div{
+    display: flex;
+   
+    margin-bottom: 20px;
+    align-items: center;
+   
+}
+.GuideToShopFyConfigureOnlyChildinsidefirstdiv>div>p{
+    text-align: justify;
+   
+}
+.GuideToShopFyConfigureOnlyChilddivfour>div>h5{
+    width: 70%;
+    margin-left: 20px;
+}
+.GuideToShopFyConfigureOnlyChildinsidesecdiv>div>p{
+    text-align: justify;
+   
+}  
+
+
 @media(max-width:780px){
-    .line{
-    
-        width: 0%;
-        border: none;
-       
-        }
-        .lineone{
-        
-            width: 0%;
-            border: none;
-            margin-top: 0%;
-            margin-bottom: 0%;
-            }
+   
     .GuideToShopFyConfigureaPrent{
    
         margin-top: 5%;

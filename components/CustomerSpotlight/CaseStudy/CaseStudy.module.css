@@ -4,10 +4,15 @@
     display: flex;
     flex-direction: column;
     margin-top: -10%;
+    align-items: center;
 }
 .CaseStudyParentfirstchild{
     display: flex;
     justify-content: space-between;
+    
+    width: 100%;
+    align-content: center;
+    align-items: center;
 }
 .CaseStudyParentfirstchild>button{
     width: 100px;
@@ -32,6 +37,7 @@
     margin-top: 2%;
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 .CaseStudyParentsecchilddiv{
     display: flex;
@@ -39,21 +45,41 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 370px;
+    height: 330px;
     
 }
 .CaseStudyParentsecchilddiv>div{
-    padding:2%;
+    padding:3%;
     width: 33%;
     justify-content: space-around;
     text-align: center;
-    border-right: 1px solid grey;
-    border-bottom: 1px solid grey;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   
+    border-bottom: 1px solid lightgrey;
+    
     height: 100%;
 
 }
+.CaseStudyParentsecchilddiv>div>p{
+    
+    text-align: justify;
+   
+}
+.CaseStudyParentsecchilddiv>div>h4{
+   
+    margin-top: 17px;
+}
+.CaseStudyParentsecchilddiv>div>h3{
+   
+    margin-bottom: 17px;
+}
+.CaseStudyParentsecchilddivborder{
+border-left: 1px solid lightgrey;
+border-right: 1px solid lightgrey;
+}
 
+.CaseStudyParentsecchilddivBorderNone{
+  border-bottom: 5px solid white;
+}
 
 
 

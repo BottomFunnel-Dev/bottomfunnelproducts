@@ -35,17 +35,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :     ------------------------------------------------- </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :   ------------------------------------------------------------------  </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> :  -------------------------------------------------------  </td>
                             </tr>
                         </table>
                     </div>
@@ -78,17 +76,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :     ------------------------------ </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :   -------------------------------------------------------------------  </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> :  -------------------------------------------------------------------  </td>
                             </tr>
                         </table>
                     </div>
@@ -120,17 +116,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :    ---------------------------------------------- </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :   ------------------------------------------------------------------------ </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> :  -----------------------------------------------------------------------s  </td>
                             </tr>
                         </table>
                     </div>
@@ -152,8 +146,7 @@ export const MarketPlacePopular = () => {
                                 </h6>
                                 <button>Free</button>
                             </div>
-                            <p>Easily schedule and mange meetings by bringing the
-                                power of Google Calender within ...</p>
+                            <p>-------------------------------------------------------------------------</p>
                             <button>Intall</button>
                         </div>
                     </div>
@@ -162,17 +155,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :     ------------------------------------------------------ </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :   ------------------------------------------------------  </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> : ----------------------------------------------------------------------  </td>
                             </tr>
                         </table>
                     </div>
@@ -209,17 +200,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :    ------------------------------------- </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :  -----------------------------------------------------------------  </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> : ------------------------------------------------------------------------  </td>
                             </tr>
                         </table>
                     </div>
@@ -251,17 +240,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :    --------------------------------------- </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :   ---------------------------------------------------------------  </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> : -------------------------------------------------------------</td>
                             </tr>
                         </table>
                     </div>
@@ -292,17 +279,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :   -------------------------------------------- </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :  -------------------------------------------------------------  </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> :  ----------------------------------------------------------------------  </td>
                             </tr>
                         </table>
                     </div>
@@ -334,17 +319,15 @@ export const MarketPlacePopular = () => {
                         <table>
                             <tr>
                                 <td>Suported for    </td>
-                                <td> :     babsjkbskd shdjkas shdja sjdlkas </td>
+                                <td> :   ----------------------------------------- </td>
                             </tr>
                             <tr>
                                 <td>Categories     </td>
-                                <td>   :   babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td>   :   --------------------------------------------------------- </td>
                             </tr>
                             <tr>
                                 <td>Published By   </td>
-                                <td> :  babsjkbskd shdjkas shdja sjdlkas
-                                    kjsdkl asjdkl asdkjks ss  </td>
+                                <td> :  -----------------------------------------------------------------  </td>
                             </tr>
                         </table>
                     </div>

@@ -5,7 +5,7 @@ export const GuideToShopFybots = () => {
         <div className={styles.GuideToShopFybotsaPrent}>
 
             <div className={styles.GuideToShopFybotsHeading}>
-            <h1>Automate queries with bots</h1>
+            <h3>Automate queries with bots</h3>
             <p>Reduce first time response to customer queries with intelligent bots. Set up workflows to handle order and
                 payment related queries; for advanced queries, the bot can assign the conversation to an agent</p>
             </div>
@@ -14,18 +14,19 @@ export const GuideToShopFybots = () => {
                 <div className={styles.GuideToShopFybotsOnlyChilddivone}>
                     <div>
 
-                        <h3>Set up bots with
-                            ready made
-                            templates </h3>
+                        
                         <Image
                             src={"/Images/GuideToShopFy/icon26.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{ width: "15%", height: "15%" }}
+                            style={{ width: "20%", height: "20%" }}
 
                         />
+                        <h5>Set up bots with
+                            ready made
+                            templates </h5>
 
                     </div>
 
@@ -40,19 +41,21 @@ export const GuideToShopFybots = () => {
                 <div className={styles.GuideToShopbotsOnlyChilddivtwo}>
                     <div>
 
-                        <h3>Resolve
-                            queries faster
-                            with FAQs </h3>
+                      
                         <Image
                             src={"/Images/GuideToShopFy/icon27.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{ width: "15%", height: "15%" }}
+                            style={{ width: "20%", height: "20%" }}
 
                         />
+                         <h5>Resolve
+                            queries faster
+                            with FAQs </h5>
                     </div>
+                   
 
                     <p>Speed up your resolution time
                         and deflect common queries with
@@ -65,17 +68,18 @@ export const GuideToShopFybots = () => {
                 <div className={styles.GuideToShopFybotsOnlyChilddivfour} >
                     <div>
 
-                        <h3>Set up
-                            WISMO bots</h3>
+                    
                         <Image
                             src={"/Images/GuideToShopFy/icon29.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{ width: "15%", height: "15%" }}
+                            style={{ width: "20%", height: "20%" }}
 
                         />
+                            <h5>Set up
+                            WISMO bots</h5>
                     </div>
 
                     <p>Set up chat bots to interact with
