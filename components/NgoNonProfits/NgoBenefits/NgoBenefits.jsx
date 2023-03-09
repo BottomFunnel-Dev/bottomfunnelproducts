@@ -74,19 +74,19 @@ export default function NgoBenefits () {
         <div  className={styles.ngoBenefitsData}>
             <div className={styles.ngoBenefitsdataText}>
                 <h2>Facilitate self-help with an exhaustive knowledge base</h2>
-                <p>Using Bottom Funnel, non-profit organization can manage their conversations with clients and donors all in one place,irrrespective of whether it's via email,phone,chat or social media.</p>
+                <p>When you have repeated questions from interested donors or volunteers, a robust knowledge base f  FAQs and step-by-step guides saves time for your team to focus on ppriority issues.</p>
                 <ul>
                     <li>
-                        Manage, Collaborate, and work on incoming emails faster.
+                        Host search-friendly content with appropriate tags, titles and short descriptions.
                     </li>
                     <li>
-                        Deliver instant,conversational support through live chat, whatsApp, or Facebook Messenger.
+                        Own customized self-service portals and community forums.
                     </li>
                     <li>
-                        Set up multi-level IVRs and handle calls efficiently with our cloud-based telephony system.
+                        Auto-suggestions of relevant solution articles deflects support tickets.
                     </li>
                     <li>
-                        Answer donor inquiries on social media platform like twitter or Instagram  from your help desk.
+                        Create articles in multiple languages to serve a global audience.
                     </li>
                 </ul>
             </div>
@@ -117,20 +117,17 @@ export default function NgoBenefits () {
                 </div>
             </div>
             <div className={styles.ngoBenefitsdataText}>
-                <h2>Unify all queries in a single screen</h2>
-                <p>Using Bottom Funnel, non-profit organization can manage their conversations with clients and donors all in one place,irrrespective of whether it's via email,phone,chat or social media.</p>
+                <h2>Monitor volunteers and staff on field service efficiently</h2>
+                <p>Non-Profits and NGOs involve a lotof fieldwork to champion the cause they're commmitted to. Bottom Funnel allows you to give consistent and speedy responses through seamless field service management.</p>
                 <ul>
                     <li>
-                        Manage, Collaborate, and work on incoming emails faster.
+                        Enable research teams to communicate with patients and control groups with ease.
                     </li>
                     <li>
-                        Deliver instant,conversational support through live chat, whatsApp, or Facebook Messenger.
+                        Keep all research teams and lab teams on the same page by sharing ownership of tasks.
                     </li>
                     <li>
-                        Set up multi-level IVRs and handle calls efficiently with our cloud-based telephony system.
-                    </li>
-                    <li>
-                        Answer donor inquiries on social media platform like twitter or Instagram  from your help desk.
+                        Make sure deadlines are met by setting up  multiple SLAs.
                     </li>
                 </ul>
             </div>

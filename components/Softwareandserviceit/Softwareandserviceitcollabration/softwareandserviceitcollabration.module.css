@@ -1,37 +1,27 @@
-.hr{
-    margin: 0px;
-    padding: 0px;
-  }
+
   
   .softwareandserviceitcollabrationParent{
-     
-    
-    
+      /* border: 2px solid red; */
       display: flex;
-     
-   padding-left: 5%;
- 
-   
-      margin-top: 5%;
+      padding-left: 5%;
   }
   .softwareandserviceitcollabrationone{
-     
-      width: 50%;
-   
-    display: flex;
-    align-items: center;
-    align-content: center;
-     
+      /* border: 2px solid gold; */
+      width: 45%;
+      padding-left: 4%;
+      display: flex;
+      align-items: center;
+      align-content: center;
   }
   .softwareandserviceitcollabrationtwo{
-    
+      /* border: 2px solid red; */
       width: 50%;
      display: flex;
      flex-direction: column;
      align-items: left;
    
     margin-bottom: 70px;
-    padding-top: 12%;
+    padding-top: 6%;
    
    padding-left: 5%;
      
@@ -42,30 +32,7 @@
       font-weight: 700;
       
   }
-  .softwareandserviceitcollabrationtwo>p{
-     
-      margin-top: 1%;
-      width: 70%;
-     
-    color: #393939;
-  }
-  .softwareandserviceitcollabrationtwo>button{
-      width: 200px;
-      height: 40px;
-      margin-top: 3%; 
-      display: inline-block;
-      background-color:blue;
-      padding: 5px;
-      text-align: center;
-      border: none;
-      border-radius: 5px;
-      text-decoration: white;
-    color: aliceblue;
-    font-size: 18px;
-    font-weight: 600;
-    
-    
-  }
+ 
   .softwareandserviceitcollabrationtwo>button:hover{
     background-color: white;
     color:blue;

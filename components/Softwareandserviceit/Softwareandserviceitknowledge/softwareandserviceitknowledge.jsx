@@ -5,18 +5,14 @@ export const Softwareandserviceitknowledge = () => {
     return (
 
         <div className={styles.softwareandserviceitknowledgeParent}>
-
-
-
             <div className={styles.softwareandserviceitknowledgeone}>
                 <Image
-                    src={"/Images/softwareandserviceit/2.png"}
+                    src={"/Images/softwareandserviceit/Group1.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "70%", height: "70%" }}
-
                 />
             </div>
 
@@ -32,11 +28,11 @@ export const Softwareandserviceitknowledge = () => {
                     speed.
                 </p>
                 <ul>
-                    <li>  Integrate with business applications like Jira, Salesforce,
-                        Stripe and mor</li>
-                    <li>Automatically route your premium clients to priority queueÃ</li>
+                    <li> Integrate with business applications like Jira, Salesforce,
+                        Stripe and more</li>
+                    <li>Automatically route your premium clients to priority queue</li>
                     <li>  Use product events to predict issues and proactively service
-                        customerÃ</li>
+                        customer</li>
                     <li> Resolve issues faster and better with the right information on
                         hand</li>
                 </ul>

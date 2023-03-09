@@ -1,56 +1,39 @@
-.hr{
-    margin: 0px;
-    padding: 0px;
-  }
+
   
   .softwareandserviceitcommunicationParent{
-     
-    
-    
       display: flex;
-     
-   
-  background-color: whitesmoke;
- 
-  margin-top: 5%;
-  padding-left: 5%;
+      background-color: whitesmoke;
+      /* border: 2px solid red; */
+      /* margin-top: 5%; */
+      padding-left: 5%;
   }
   .softwareandserviceitcommunicationone{
-     
+      /* border: 2px solid red; */
       width: 50%;
-   
-    display: flex;
-    align-items: center;
-    align-content: center;
-   
-    
-     
+      display: flex;
+      align-items: center;
+      align-content: center;
   }
+
   .softwareandserviceitcommunicationtwo{
-    
       width: 50%;
-     display: flex;
-     flex-direction: column;
-     align-items: left;
-   
-    margin-bottom: 70px;
-    padding-top: 12%;
-   
-   padding-left: 5%;
-     
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      margin-bottom: 70px;
+      padding-top: 8%;
+      /* border: 2px solid red; */
+      padding-left: 5%;
   }
   .softwareandserviceitcommunicationtwo>h1{
-     
       width: 75%;
       font-weight: 700;
-      
   }
+
   .softwareandserviceitcommunicationtwo>p{
-     
       margin-top: 1%;
       width: 70%;
-     
-    color: #393939;
+      color: #393939;
   }
   .softwareandserviceitcommunicationtwo>button{
       width: 200px;
@@ -63,11 +46,9 @@
       border: none;
       border-radius: 5px;
       text-decoration: white;
-    color: aliceblue;
-    font-size: 18px;
-    font-weight: 600;
-    
-    
+      color: aliceblue;
+      font-size: 18px;
+      font-weight: 600;
   }
   .softwareandserviceitcommunicationtwo>button:hover{
     background-color: white;

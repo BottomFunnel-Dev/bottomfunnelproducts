@@ -1,52 +1,37 @@
-.hr{
-    margin: 0px;
-    padding: 0px;
-  }
-  
+
   .softwareandserviceitknowledgeParent{
-     
-    
-    
       display: flex;
-     
-   padding-left: 5%;
-     
-      margin-top: 5%;
+      padding-left: 5%;
+      /* margin-top: 5%; */
+      /* border: 2px solid red; */
   }
   .softwareandserviceitknowledgeone{
-     
-      width: 50%;
-   
-    display: flex;
-    align-items: center;
-    align-content: center;
-     
+      width: 40%;
+      margin-left: 5%;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      /* border: 2px solid  red; */
   }
   .softwareandserviceitknowledgetwo{
-    
-      width: 50%;
+     width: 50%;
      display: flex;
      flex-direction: column;
      align-items: left;
-   
-    margin-bottom: 70px;
-    padding-top: 12%;
-   
-   padding-left: 5%;
-     
+     margin-bottom: 70px;
+     padding-top: 6%;
+     padding-left: 5%;
+     /* border: 2px solid red;  */
   }
   .softwareandserviceitknowledgetwo>h1{
-     
       width: 75%;
       font-weight: 700;
-      
+      /* border: 2px solid red; */
   }
   .softwareandserviceitknowledgetwo>p{
-     
       margin-top: 1%;
       width: 70%;
-     
-    color: #393939;
+      color: #393939;
   }
   .softwareandserviceitknowledgetwo>button{
       width: 200px;
