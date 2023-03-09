@@ -1,0 +1,46 @@
+.whatsappbannermainboxes{
+    height: fit-content;
+   display: flex;
+   margin-top: 5%;
+}
+
+.whatsappbannerleftbox{
+    width: 50%;
+  
+}
+
+.whatsappbannerrightboxes{
+    width: 40%;
+    margin-left: 3%;
+    height: fit-content;
+    margin-top: 12%;
+}
+
+.whatsappbannerrightboxes>h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.whatsappbannerrightboxes>p{
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.whatsappbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #f3a955;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .whatsappbutton:hover {
+    background-color: white;
+    color: #f3a955;
+  }

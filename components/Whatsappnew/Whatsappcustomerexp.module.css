@@ -1,0 +1,21 @@
+.whatsappcustomerexpmainboxes{
+    height: fit-content;
+    margin-top: 5%;
+}
+
+.whatsappcustomerexpmainboxes>h2{
+    text-align: center;
+} 
+.whatsappcustomerexpmainboxes>p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.whatsappbotsscreenforimg{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
