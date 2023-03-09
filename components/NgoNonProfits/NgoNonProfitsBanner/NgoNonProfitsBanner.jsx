@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 export default function NgoNonProfitsBanner () {
   return (
-    <div className={styles.instagramDmBannerMain}>
-        <div className={styles.instagramDmBannerimg}>
+    <div className={styles.ngoBannerMain}>
+        <div className={styles.ngoBannerimg}>
         <Image
-          src={"/Images/InstagramDm/Group1.webp"}
+          src={"/Images/ngoandnonProfits/banner.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}
@@ -15,11 +15,10 @@ export default function NgoNonProfitsBanner () {
           style={{ width: "100%", height: "100%", objectFit: "contain" }}
         />
         </div>
-        <div className={styles.instagramDmBannertext}>
-        <h1>Deliver delightfull experience on instagram</h1>
-            <hr></hr>
-            <p>Link multiple instagram Business accounts with Bottom Funnel and drive real-time conversations effortlessly</p>
-            <button>Explore Now</button>
+        <div className={styles.ngoBannertext}>
+            <h1>Effortless help desk software for Non-Profit Organizations</h1>
+            <p>Streamline shipping, improve supply chain visibility, and handle vendors from one place.Deliver effortless logistics customer service with freshdesk omnichannel.</p>
+            <button>Sign up for free</button>
         </div>
     </div>
   )
