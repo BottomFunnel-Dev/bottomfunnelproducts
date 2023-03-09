@@ -1,0 +1,11 @@
+.SmallBusinessManagement{
+    padding: 5%;
+}
+.SmallBusinessManagement>div{
+    display: flex;
+    justify-content: space-between;
+}
+.SmallBusinessManagement>div>div{
+    width: 45%;
+    margin-bottom: 10%;
+}

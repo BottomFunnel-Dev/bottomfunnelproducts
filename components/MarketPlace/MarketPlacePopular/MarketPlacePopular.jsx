@@ -11,14 +11,15 @@ export const MarketPlacePopular = () => {
                 <div>
 
                     <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}><Image
-                            src={"/Images/MarketPlace/Popular1.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "70%" }}
-                        /></div>
+                        <div className={styles.MarketPlacePopularimg}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular1.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "70%" }}
+                            /></div>
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
                                 <h6>Google calender
@@ -146,7 +147,8 @@ export const MarketPlacePopular = () => {
                                 </h6>
                                 <button>Free</button>
                             </div>
-                            <p>-------------------------------------------------------------------------</p>
+                            <p>Easily move all your support tickets, conversations and
+                                more from your Zendesk account to Freshdesk</p>
                             <button>Intall</button>
                         </div>
                     </div>

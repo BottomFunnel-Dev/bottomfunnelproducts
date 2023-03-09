@@ -1,0 +1,53 @@
+.SmallBusinessSupportParent{
+    padding: 5%;
+   
+}
+.SmallBusinessSupportParent>h1{
+    margin-bottom: 2%;
+}
+.SmallBusinessSupportParentonlydiv{
+    margin-top: 2%;
+}
+.SmallBusinessSupportParent>div>div{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 2%;
+}
+.SmallBusinessSupportParent>div>div>div{
+   
+   width: 48%;
+   justify-content: space-between;
+ 
+   padding-bottom: 2%;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.SmallBusinessSupportParentonlydiv>div>div>div{
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 20px;
+}
+.SmallBusinessSupportParentonlydiv>div>div>div>h5{
+    margin-left: 20px;
+}
+.SmallBusinessSupportParentonlydiv>div>div>p{
+   
+    padding: 2%;
+}
+@media(max-width:780px){
+    .SmallBusinessSupportParent>div>div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 2%;
+    }
+    .SmallBusinessSupportParent>div>div>div{
+       
+       width: 100%;
+       justify-content: space-between;
+     
+       padding-bottom: 2%;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}

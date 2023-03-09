@@ -1,0 +1,44 @@
+
+.ContentMarketingServicesUnderstadingParent>div{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+    justify-content: space-between;
+   
+}
+.ContentMarketingServicesUnderstadingParent>div>div{
+    width: 40%;
+}
+.ContentMarketingServicesUnderstadingParentFirstChild{
+    background-color: bisque;
+}
+.ContentMarketingServicesUnderstadingParentthirdChild{
+    background-color: bisque;
+}
+@media(max-width:780px){
+
+    .ContentMarketingServicesUnderstadingParent>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        margin-bottom: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
+        justify-content: space-between;
+       
+    }
+    .ContentMarketingServicesUnderstadingParent>div>div{
+        width: 100%;
+    }
+    .ContentMarketingServicesUnderstadingParentFirstChild{
+        background-color: bisque;
+    }
+    .ContentMarketingServicesUnderstadingParentthirdChild{
+        background-color: bisque;
+    }
+
+}
