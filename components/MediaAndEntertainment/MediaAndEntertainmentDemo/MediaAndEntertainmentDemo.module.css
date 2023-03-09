@@ -1,6 +1,6 @@
-.ContentMarketingServicesSolutionParent{
+.MediaAndEntertainmentDemoParent{
     
-    background-color: #FFF3F0;
+   
     padding: 2%;
     padding-left: 10%;
     padding-right: 10%;
@@ -8,31 +8,33 @@
     flex-direction: column;
     align-items: center;
 }
-.ContentMarketingServicesSolutionParent>h1{
+.MediaAndEntertainmentDemoParent>h1{
     margin-bottom: 1%;
 }
-.ContentMarketingServicesSolutionParent>button{
-    margin-top: 5%;
+.MediaAndEntertainmentDemoParent>button{
+    margin-top: 3%;
     width: 250px;
     height: 60px;
-    background-color: #ec4f25;
+    background-color: #2C444E
+    ;
     color: white;
-    font-size: 28px;
+    font-size: 22px;
     border-radius: 10px;
     border: none;
 
 }
-.ContentMarketingServicesSolutionParent>p{
+.MediaAndEntertainmentDemoParent>p{
+    margin-top: 0%;
     text-align: center;
     width: 70%;
 }
-.ContentMarketingServicesSolutionParent>button:hover{
+.MediaAndEntertainmentDemoParent>button:hover{
     background-color: transparent;
   
-    color: #ec4f25;
+    color: #2C444E;
 }
 @media(max-width:780px){
-    .ContentMarketingServicesSolutionParent{
+    .MediaAndEntertainmentDemoParent{
     
         background-color: bisque;
        
@@ -43,21 +45,21 @@
         align-items: center;
         text-align: center;
     }
-    .ContentMarketingServicesSolutionParent>h1{
+    .MediaAndEntertainmentDemoParent>h1{
         margin-bottom: 2%;
     }
-    .ContentMarketingServicesSolutionParent>button{
+    .MediaAndEntertainmentDemoParent>button{
         margin-top: 5%;
         width: 250px;
         height: 60px;
-        background-color: #ec4f25;
+       
         color: white;
         font-size: 28px;
         border-radius: 10px;
         border: none;
     
     }
-    .ContentMarketingServicesSolutionParent>button:hover{
+    .MediaAndEntertainmentDemoParent>button:hover{
         background-color: transparent;
       
         color: #ec4f25;

@@ -13,10 +13,10 @@
     width: 40%;
 }
 .ContentMarketingServicesUnderstadingParentFirstChild{
-    background-color: bisque;
+    background-color: #FFF3F0;
 }
 .ContentMarketingServicesUnderstadingParentthirdChild{
-    background-color: bisque;
+    background-color: #FFF3F0;
 }
 @media(max-width:780px){
 
@@ -35,10 +35,10 @@
         width: 100%;
     }
     .ContentMarketingServicesUnderstadingParentFirstChild{
-        background-color: bisque;
+        background-color: #FFF3F0;
     }
     .ContentMarketingServicesUnderstadingParentthirdChild{
-        background-color: bisque;
+        background-color: #FFF3F0;
     }
 
 }
