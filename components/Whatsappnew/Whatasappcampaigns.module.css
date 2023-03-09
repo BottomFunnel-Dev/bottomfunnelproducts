@@ -1,0 +1,52 @@
+.whatsappcampaignsmainboxes{
+    height: fit-content;
+
+}
+
+.whatsappcampaignsmainboxes>h2{
+    text-align: center;
+}
+
+.whatsappcampaignsmainboxes>p{
+    text-align: center;
+}
+
+.whatsappcampaigndatabox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-around;
+    height: fit-content;
+    padding: 10px;
+}
+
+.shadowboxes{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 2%;
+width: 30%;
+height: 80px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.shadowboxes:hover{
+    background-color: #ef4c23;
+    color: white;
+}
+
+
+
+.shadowboxes>h4{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.shadowimagedownbox{
+    width: 50%;
+    margin: auto;
+
+}
