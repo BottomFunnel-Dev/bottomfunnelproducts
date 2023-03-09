@@ -106,7 +106,12 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
-
+      {
+        source: "/ecommerce",
+        destination: "https://service.bottomfunnel.net/industries/ecommerce",
+        permanent: true,
+        basePath: false,
+      }
     ];
   },
 };
