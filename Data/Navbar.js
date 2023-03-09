@@ -1384,7 +1384,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "Manufacturing",
-    path: "/",
+    path: "/manufacturingsales",
   },
   {
     dropContent: "SAAS",
