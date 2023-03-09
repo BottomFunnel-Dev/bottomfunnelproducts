@@ -31,7 +31,7 @@ const productData = {
         },
         {
           dropContent: "WhatsApp",
-          path: "/",
+          path: "/whatsapp",
         },
         {
           dropContent: "Journeys",
