@@ -1,0 +1,61 @@
+.InsuranceRespondParent{
+    padding: 5%;
+}
+.InsuranceRespondParent>div{
+display: flex;
+align-items: center;
+justify-content:space-between ;
+margin-bottom: 5%;
+ 
+   
+}
+.InsuranceRespondParent>div>div{
+    width: 47%;
+   
+    align-content: center;
+    
+}
+.InsuranceRespondParentimage{
+    height: 500px;
+}
+.InsuranceRespondParent>div>div>h1{
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .InsuranceRespondParent{
+        padding: 5%;
+      
+    }
+    .InsuranceRespondParent>div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between ;
+    margin-bottom: 5%;
+     
+       
+    }
+    .InsuranceRespondParent>div>div{
+        width: 100%;
+       
+        align-content: center;
+        
+    }
+    .InsuranceRespondParentimage{
+        height: auto;
+    }
+    .InsuranceRespondParent>div>div>h1{
+        margin-bottom: 3%;
+    }  
+}

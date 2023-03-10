@@ -33,20 +33,18 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :     ------------------------------------------------- </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :   ------------------------------------------------------------------  </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> :  -------------------------------------------------------  </td>
-                            </tr>
-                        </table>
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
                     </div>
                 </div>
 
@@ -74,20 +72,18 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :     ------------------------------ </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :   -------------------------------------------------------------------  </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> :  -------------------------------------------------------------------  </td>
-                            </tr>
-                        </table>
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
                     </div>
                 </div>
                 <div>
@@ -114,20 +110,18 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :    ---------------------------------------------- </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :   ------------------------------------------------------------------------ </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> :  -----------------------------------------------------------------------s  </td>
-                            </tr>
-                        </table>
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
                     </div>
                 </div>
                 <div>
@@ -154,20 +148,18 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :     ------------------------------------------------------ </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :   ------------------------------------------------------  </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> : ----------------------------------------------------------------------  </td>
-                            </tr>
-                        </table>
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
                     </div>
                 </div>
 
@@ -199,20 +191,18 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :    ------------------------------------- </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :  -----------------------------------------------------------------  </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> : ------------------------------------------------------------------------  </td>
-                            </tr>
-                        </table>
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
                     </div>
                 </div>
 
@@ -239,20 +229,18 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :    --------------------------------------- </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :   ---------------------------------------------------------------  </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> : -------------------------------------------------------------</td>
-                            </tr>
-                        </table>
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
                     </div>
                 </div>
                 <div>
@@ -278,20 +266,18 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :   -------------------------------------------- </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :  -------------------------------------------------------------  </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> :  ----------------------------------------------------------------------  </td>
-                            </tr>
-                        </table>
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
                     </div>
                 </div>
                 <div>
@@ -318,7 +304,20 @@ export const MarketPlacePopular = () => {
                     </div>
                     <div className={styles.line}></div>
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                        <table>
+
+                    <div className={styles.MarketPlacefortable}>
+                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                    <div className={styles.MarketPlacefortable}>
+                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
+                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                    </div>
+                        {/* <table>
                             <tr>
                                 <td>Suported for    </td>
                                 <td> :   ----------------------------------------- </td>
@@ -331,7 +330,7 @@ export const MarketPlacePopular = () => {
                                 <td>Published By   </td>
                                 <td> :  -----------------------------------------------------------------  </td>
                             </tr>
-                        </table>
+                        </table> */}
                     </div>
                 </div>
 
