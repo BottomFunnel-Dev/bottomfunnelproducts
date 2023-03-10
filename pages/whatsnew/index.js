@@ -30,11 +30,11 @@ export default function WhatsNew() {
         },
         {
           dropContent: "WhatsApp",
-          path: "/",
+          path: "/whatsapp",
         },
         {
           dropContent: "Journeys",
-          path: "/",
+          path: "/journey",
         },
         {
           dropContent: "Landing Pages",

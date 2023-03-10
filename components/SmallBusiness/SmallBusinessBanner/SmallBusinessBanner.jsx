@@ -5,9 +5,11 @@ export const SmallBusinessBanner = () => {
         <div className={styles.SmallBusinessBannerParent}>
             <div className={styles.SmallBusinessBannerParentfirstchind}>
                 <h1>Help desk software for small business </h1>
-                <p className={styles.para}>Build Customers relationship taht fuel business growth using Freashdesk ,an instuitiv an daffordable help desk platform</p>
+                <p className={styles.para}>Build customer relationships that fuel business
+                    growth using Freshdesk, an intuitive and affordable
+                    help desk platform.</p>
                 <p>
-                &#10004; Affordable  &#10004; Right-sized  &#10004;Automated
+                    &#10004; Affordable  &#10004; Right-sized  &#10004;Automated
                 </p>
                 <button>GET STARTED FOR FREE</button>
             </div>

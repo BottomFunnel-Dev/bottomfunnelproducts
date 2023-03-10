@@ -62,7 +62,7 @@ const productData = {
         },
         {
           dropContent: "What's new",
-          path: "/",
+          path: "/whatsnew",
         },
         {
           dropContent: "Guide to Shopify",

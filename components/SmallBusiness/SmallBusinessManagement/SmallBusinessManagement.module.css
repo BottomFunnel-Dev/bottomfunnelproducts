@@ -9,3 +9,22 @@
     width: 45%;
     margin-bottom: 10%;
 }
+.SmallBusinessManagement>div>div>p{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+@media(max-width:780px){
+    .SmallBusinessManagement>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .SmallBusinessManagement>div>div{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .SmallBusinessManagement>div>div>p{
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+}

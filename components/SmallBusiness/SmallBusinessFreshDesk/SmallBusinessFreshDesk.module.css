@@ -14,7 +14,7 @@
 .SmallBusinessFreshDeskParent>div{
     display: flex;
   
-   
+   width: 100%;
     margin-bottom: 5%;
 }
 .SmallBusinessFreshDeskParentfirstChild{
@@ -23,12 +23,23 @@
 .SmallBusinessFreshDeskParent>div>div{
    
     width: 30%;
+   
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid green;
+    border-bottom-right-radius: 20px;
 }
 .SmallBusinessFreshDeskParent>div>div>div{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+   
+}
+.SmallBusinessFreshDeskParent>div>div>div>div{
+    background-color: green;
+    width: 100px;
+    height: 60px;
+    padding-left: 20px;
+    border-bottom-right-radius: 10px;
 }
 .SmallBusinessFreshDeskParent>div>div>div>h5{
     margin-left: 20px;
@@ -39,6 +50,96 @@
     padding: 5%;
 }
 .SmallBusinessFreshDeskParentSecChild{
-    justify-content: space-around;
+    justify-content: center;
+   
+    padding: 0px;
+}
+.SmallBusinessFreshDeskParentSecChild>div{
+   
+    width: 100%;
+   
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+
+    .SmallBusinessFreshDeskParent{
+        padding: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+      margin-top: -10%;
+    }
+    .SmallBusinessFreshDeskParent>h1{
+        margin-bottom: 2%;
+        margin-top: -5%;
+     
+    }
+    .SmallBusinessFreshDeskParent>div{
+        display: flex;
+      flex-direction: column;
+       width: 100%;
+        margin-bottom: 5%;
+    }
+    .SmallBusinessFreshDeskParentfirstChild{
+        justify-content: space-between;
+    }
+    .SmallBusinessFreshDeskParent>div>div{
+       
+        width: 100%;
+       margin-bottom: 2%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border: 1px solid green;
+    }
+    .SmallBusinessFreshDeskParent>div>div>div{
+        display: flex;
+       
+        align-items: center;
+        margin-bottom: 20px;
+       
+    }
+    .SmallBusinessFreshDeskParent>div>div>div>div{
+        background-color: green;
+        width: 100px;
+        height: 60px;
+        padding-left: 20px;
+        border-bottom-right-radius: 10px;
+    }
+    .SmallBusinessFreshDeskParent>div>div>div>h5{
+        margin-left: 20px;
+       
+    }
+    .SmallBusinessFreshDeskParent>div>div>p{
+       
+        padding: 5%;
+    }
+    .SmallBusinessFreshDeskParentSecChild{
+        justify-content: center;
+       
+        padding: 0px;
+    }
+    .SmallBusinessFreshDeskParentSecChild>div{
+       
+        width: 100%;
+       
+        margin-left: 0%;
+        margin-right: 0%;
+    
+    }
+
+}

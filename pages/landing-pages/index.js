@@ -1,7 +1,7 @@
 import { LandingFeature } from "../../components/Landing-Pages/Feature/LandingFeature";
 import { LandingBanner } from "../../components/Landing-Pages/Banner/LandingBanner";
 import { LandingTrafic } from "../../components/Landing-Pages/LandingTrafic/LandingTrafic";
-import { LandingSolution } from "../../components/Landing-Pages/LandingSolution/Landingsolution";
+import { LandingSolution } from "../../components/Landing-Pages/LandingSolution/LandingSolution";
 import { AIPowered } from "../../components/Landing-Pages/AIPowered/AIPowered";
 import { LandingBrand } from "../../components/Landing-Pages/LandingBrand/LandingBrand";
 import { LandingCustomer } from "../../components/Landing-Pages/LandingCustomer/LandingCustomer";
@@ -20,7 +20,7 @@ const productData = {
   width: "45%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/404" },
+    more: { title: "View more features", path: "/" },
     position: { right: "35%" },
     products: [
       {
@@ -64,7 +64,7 @@ const productData = {
       },
       {
         dropContent: "What's new",
-        path: "/",
+        path: "/whatsnew",
       },
       {
         dropContent: "Guide to Shopify",
@@ -75,12 +75,10 @@ const productData = {
   pricing: "",
 };
 
-
 export default function landingPages() {
-    return (
+  return (
     <div>
-
-    <Navbar
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -91,20 +89,20 @@ export default function landingPages() {
       />
       <ProdNavbar data={productData} />
 
-      <LandingBanner/>
-      <LandingFeature/>
-      <LandingTrafic/>
-      <LandingSolution/>
-      <AIPowered/>
-      <LandingBrand/>
-      <LandingCustomer/>
-      <LandingSales/>
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
+      <LandingBanner />
+      <LandingFeature />
+      <LandingTrafic />
+      <LandingSolution />
+      <AIPowered />
+      <LandingBrand />
+      <LandingCustomer />
+      <LandingSales />
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
       {/* <TalentProfiles/> */}
-      <LifeBottomFunnel/>
-      <ProductsFooter/>
+      <LifeBottomFunnel />
+      <ProductsFooter />
     </div>
-    );
-}
+  );
+};

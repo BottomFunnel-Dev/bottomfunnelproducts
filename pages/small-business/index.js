@@ -2,11 +2,30 @@ import { SmallBusinessBanner } from "../../components/SmallBusiness/SmallBusines
 import { SmallBusinessFreshDesk } from "../../components/SmallBusiness/SmallBusinessFreshDesk/SmallBusinessFreshDesk";
 import { SmallBusinessManagement } from "../../components/SmallBusiness/SmallBusinessManagement/SmallBusinessManagement";
 import { SmallBusinessSupport } from "../../components/SmallBusiness/SmallBusinessSupport/SmallBusinessSupport";
-
+import Navbar from "../../components/Navbar/Navbar";
+import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
 
 export default function SmallBusinees() {
     return (
-        <div>
+     <div>
+
+<Navbar
+                productMount={{
+                    navMount: true,
+                }}
+                navredux={{
+                    color: "black",
+                    logo: false,
+                }}
+            />
+
+            <ProductsNavbar
+                navproductredux={{
+                    color: "black",
+                    logo: false,
+                }}
+            />
+
  <SmallBusinessBanner/>
  <SmallBusinessSupport/>
  <SmallBusinessManagement/>

@@ -2,75 +2,116 @@ import styles from "./SmallBusinessSupport.module.css"
 import Image from "next/image";
 export const SmallBusinessSupport = () => {
     return (
-    <div className={styles.SmallBusinessSupportParent} >
-     <h1> why do small business need a help desk software to manage customer support?</h1>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est molestiae ea, similique magnam quam odit sit laboriosam nesciunt animi nisi quidem dignissimos, harum reiciendis voluptates. Ab necessitatibus rem dicta.</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque excepturi assumenda modi sed, culpa accusamus eos non corrupti aliquid molestiae! Dolore tenetur libero quod illo dolor quam labore ipsam?</p>
-     <p> Corrupti laudantium saepe nemo incidunt voluptatem quis temporibus asperiores. Alias, voluptatem distinctio magnam corporis autem odit soluta voluptatum fuga doloremque dolorum illo.</p>
-     <div className={styles.SmallBusinessSupportParentonlydiv}>
-        <div className={styles.SmallBusinessSupportParentonlydivfirstchild}>
-            <div>
-                <div>
-                <Image
-                    src={"/Images/Small-Business/banner.webp"}
-                    alt={"img"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "10%", height: "10%" }}
-                />
-                <h5>Delayed response</h5>
+        <div className={styles.SmallBusinessSupportParent} >
+            <h1> why do small business need a help desk software to manage customer support?</h1>
+            <p>When running a small business, every decision you make shapes your customers' experience and affects their loyalty to your brand.
+                You have to do absolutely everything you can to earn their trust - answer questions, take special requests, and sometimes be there for
+                them round the clock to show them that you care.</p>
+            <p>When operating on a shoestring budget and a lean support team, you might think answering customer questions out of a shared
+                inbox is the most viable option to provide customer support. However, the limitations of using a shared inbox are only discoverable
+                when your business starts to grow</p>
+            <p> When operating on a shoestring budget and a lean support team, you might think answering customer questions out of a shared
+                inbox is the most viable option to provide customer support. However, the limitations of using a shared inbox are only discoverable
+                when your business starts to grow</p>
+            <div className={styles.SmallBusinessSupportParentonlydiv}>
+                <div className={styles.SmallBusinessSupportParentonlydivfirstchild}>
+                    <div>
+                        <div>
+                            <div>
+                                <Image
+                                    src={"/Images/Small-Business/Icon1.png"}
+                                    alt={"img"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "70%", height: "90%" }}
+                                />
+                            </div>
+
+                            <h5>Delayed response</h5>
+                        </div>
+                        <p>When operating on a shoestring budget and a lean support team, you might think answering customer questions out of a shared
+                            inbox is the most viable option to provide customer support. However, the limitations of using a shared inbox are only discoverable
+                            when your business starts to grow</p>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <Image
+                                    src={"/Images/Small-Business/Icon2.png"}
+                                    alt={"img"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "70%", height: "90%" }}
+                                />
+                            </div>
+
+                            <h5>Duplicate agent effort
+                            </h5>
+                        </div>
+                        <p>Shared inboxes do not offer an easy way to keep track of new
+                            customer conversations, t he ones t hat are open, and t he ones
+                            t hat have been resolved. Due to lack of visibility, two agents
+                            might end up responding to t he same customer conversation and
+                            t his can lead to a duplication of effort.
+                        </p>
+                    </div>
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptatem consequatur hic omnis, optio beatae natus eaque! Sint, quis. Sit voluptatum itaque pariatur quidem? Ut accusamus eum nisi laborum libero?</p>
-            </div>
-            <div>
-                <div>
-                <Image
-                    src={"/Images/Small-Business/banner.webp"}
-                    alt={"img"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "10%", height: "10%" }}
-                />
-                <h5>Delayed response</h5>
+                <div className={styles.SmallBusinessSupportParentonlydivsecchild}>
+                    <div>
+                        <div>
+                            <div>
+                                <Image
+                                    src={"/Images/Small-Business/Icon3.png"}
+                                    alt={"img"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "70%", height: "90%" }}
+                                />
+                            </div>
+
+                            <h5>Restrained collaboration
+                            </h5>
+                        </div>
+                        <p>To resolve some customer conversations, you might require
+                            additional help from ot her teams, such as t he product or billing
+                            team. A shared inbox s limited capabilities such as simply
+                            for warding a conversation to t he concerned person might not be
+                            t he most efficient way to collaborate across teams seamlessly.</p>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <Image
+                                    src={"/Images/Small-Business/Icon4.png"}
+                                    alt={"img"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "70%", height: "90%" }}
+                                />
+                            </div>
+
+                            <h5>Reduced agent productivity
+                            </h5>
+                        </div>
+                        <p>Some customer conversations might include repetitive questions
+                            or basic how to doubts. If your team doesn t have an effor t less
+                            way of tackling t hese basic questions, typing out t he same
+                            message over and over again will eat into t heir time
+                        </p>
+                    </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsa non in, eveniet commodi, esse et, modi consequatur quo laborum repudiandae dolore? Molestias aspernatur, voluptatibus a mollitia odit rem assumenda.</p>
             </div>
+            <p>Some customer conversations might include repetitive questions
+                or basic how to doubts. If your team doesn t have an effor t less
+                way of tackling t hese basic questions, typing out t he same
+                message over and over again will eat into t heir time</p>
+            <p>Once you have identified your team s goals, challenges, and expectations, it s time to compare help desk options on a feature level.
+                The ideal help desk software solution for your small business should have the relevant features that make it easier for your support
+                team to offer faster, personalized, and seamless customer experiences</p>
         </div>
-        <div className={styles.SmallBusinessSupportParentonlydivsecchild}>
-        <div>
-                <div>
-                <Image
-                    src={"/Images/Small-Business/banner.webp"}
-                    alt={"img"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "10%", height: "10%" }}
-                />
-                <h5>Delayed response</h5>
-                </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptatem consequatur hic omnis, optio beatae natus eaque! Sint, quis. Sit voluptatum itaque pariatur quidem? Ut accusamus eum nisi laborum libero?</p>
-            </div>
-            <div>
-                <div>
-                <Image
-                    src={"/Images/Small-Business/banner.webp"}
-                    alt={"img"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "10%", height: "10%" }}
-                />
-                <h5>Delayed response</h5>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsa non in, eveniet commodi, esse et, modi consequatur quo laborum repudiandae dolore? Molestias aspernatur, voluptatibus a mollitia odit rem assumenda.</p>
-            </div>
-        </div>
-     </div>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex illum architecto quasi vel quis reprehenderit, exercitationem ipsam tempora incidunt odit temporibus accusantium, ea, earum animi soluta perspiciatis beatae doloribus.</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, deserunt! Incidunt delectus provident enim non obcaecati quaerat, sequi laborum repellendus, voluptas officia, reprehenderit numquam. Quidem ratione nulla doloremque blanditiis ducimus?</p>
-    </div>
     );
 }
