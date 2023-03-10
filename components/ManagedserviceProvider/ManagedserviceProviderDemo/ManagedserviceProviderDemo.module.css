@@ -1,0 +1,17 @@
+.ManagedserviceProviderDemo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.ManagedserviceProviderDemo>button{
+margin-top: 3%;
+width: 250px;
+height: 60px;
+border-radius: 10px;
+background-color: #ec4f25;
+border: none;
+font-size: 28px;
+color: white;
+}
