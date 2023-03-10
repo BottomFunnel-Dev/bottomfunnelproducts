@@ -20,7 +20,7 @@ const productData = {
   width: "45%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/404" },
+    more: { title: "View more features", path: "/" },
     position: { right: "35%" },
     products: [
       {
@@ -75,12 +75,10 @@ const productData = {
   pricing: "",
 };
 
-
 export default function landingPages() {
-    return (
+  return (
     <div>
-
-    <Navbar
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -91,20 +89,20 @@ export default function landingPages() {
       />
       <ProdNavbar data={productData} />
 
-      <LandingBanner/>
-      <LandingFeature/>
-      <LandingTrafic/>
-      <LandingSolution/>
-      <AIPowered/>
-      <LandingBrand/>
-      <LandingCustomer/>
-      <LandingSales/>
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
+      <LandingBanner />
+      <LandingFeature />
+      <LandingTrafic />
+      <LandingSolution />
+      <AIPowered />
+      <LandingBrand />
+      <LandingCustomer />
+      <LandingSales />
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
       {/* <TalentProfiles/> */}
-      <LifeBottomFunnel/>
-      <ProductsFooter/>
+      <LifeBottomFunnel />
+      <ProductsFooter />
     </div>
-    );
-}
+  );
+};
