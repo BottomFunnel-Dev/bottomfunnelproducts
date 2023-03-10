@@ -15,7 +15,7 @@
     margin-top: 3%;
     width: 250px;
     height: 60px;
-    background-color: #2C444E
+    background-color: #14944C
     ;
     color: white;
     font-size: 22px;
@@ -31,7 +31,7 @@
 .MediaAndEntertainmentDemoParent>button:hover{
     background-color: transparent;
   
-    color: #2C444E;
+    color: #14944C;
 }
 @media(max-width:780px){
     .MediaAndEntertainmentDemoParent{

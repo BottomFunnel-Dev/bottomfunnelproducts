@@ -3,13 +3,33 @@ import { MediaAndEntertainmentBanner } from "../../components/MediaAndEntertainm
 import { MediaAndEntertainmentDemo } from "../../components/MediaAndEntertainment/MediaAndEntertainmentDemo/MediaAndEntertainmentDemo";
 import { MediaAndEntertainmentInfo } from "../../components/MediaAndEntertainment/MediaAndEntertainmentInfo/MediaAndEntertainmentInfo";
 import { MediaAndEntertainmentSpotLight } from "../../components/MediaAndEntertainment/MediaAndEntertainmentSpotLight/MediaAndEntertainmentSpotLight";
-export default function mediaAndEntertainment ()  {
-    return (
-        <div>
-          <MediaAndEntertainmentBanner/>
-          <MediaAndEntertainmentInfo/>
-          <MediaAndEntertainmentSpotLight/>
-          <MediaAndEntertainmentDemo/>
-        </div>
-    );
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import Navbar from "../../components/Navbar/Navbar";
+import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
+export default function mediaAndEntertainment() {
+  return (
+    <div>
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+
+      <ProductsNavbar
+        navproductredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+     <MediaAndEntertainmentBanner />
+      <MediaAndEntertainmentInfo />
+      <MediaAndEntertainmentSpotLight />
+      <MediaAndEntertainmentDemo />
+      <ProductsFooter/>
+    </div>
+  );
 }

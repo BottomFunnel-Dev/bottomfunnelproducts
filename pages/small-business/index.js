@@ -4,12 +4,13 @@ import { SmallBusinessManagement } from "../../components/SmallBusiness/SmallBus
 import { SmallBusinessSupport } from "../../components/SmallBusiness/SmallBusinessSupport/SmallBusinessSupport";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export default function SmallBusinees() {
     return (
-     <div>
+        <div>
 
-<Navbar
+            <Navbar
                 productMount={{
                     navMount: true,
                 }}
@@ -26,10 +27,11 @@ export default function SmallBusinees() {
                 }}
             />
 
- <SmallBusinessBanner/>
- <SmallBusinessSupport/>
- <SmallBusinessManagement/>
- <SmallBusinessFreshDesk/>
+            <SmallBusinessBanner />
+            <SmallBusinessSupport />
+            <SmallBusinessManagement />
+            <SmallBusinessFreshDesk />
+            <ProductsFooter />
         </div>
     );
 }
