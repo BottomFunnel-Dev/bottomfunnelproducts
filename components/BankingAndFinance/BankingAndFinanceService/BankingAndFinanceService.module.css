@@ -1,0 +1,58 @@
+.bankingFinanceServiceMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+}
+.bankingFinanceServiceHeading{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.bankingFinanceServiceContainer{
+    /* border: 2px solid gold; */
+    width: 85%;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+.bankingFinanceServiceBox{
+    /* border: 2px solid green; */
+    width: 25%;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-left: 6%;
+}
+.bankingFinanceServiceImages{
+    /* border: 2px solid green; */
+    width: 100px;
+    height: 100px;
+    /* margin: auto; */
+}
+.bankingFinanceServiceHeadings{
+    align-items: center;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.bankingFinanceServiceHeadings>button{
+    border: 2px solid #14944C;
+    width: 12%;
+    background-color: #14944C;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 18px;
+}
+.bankingFinanceServiceHeadings>button:hover{
+    border: 2px solid #14944C;
+    background-color: white;
+    color: #14944C;
+}

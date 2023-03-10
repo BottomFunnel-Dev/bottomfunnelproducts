@@ -67,8 +67,18 @@ export default function BankingAndFinanceScale () {
     <div className={styles.bankingAndFinancescaleMain}>
         <div className={styles.bankingAndFinancescaletext}>
             <h1>Optimize for speed and efficiency </h1>
-            <p>Banking and finance customers expect the highest degree of data privacy, and quick, reliable service. Offer fast and personalized support  with Bottom Funnel, an easy-to-use and secure customer service software.</p>
-            <button>Start Demo</button>
+            <p>Empower agents to deliver assistance faster by getting the mundane and repetitive tasks out of their way. This goes a long way in increasing agent bandwidth without increasing headcount.</p>
+            <ul>
+                <li>
+                    Increase team productivity by automating common tasks such as query assignment, following up, and gathering feedback
+                </li>
+                <li>
+                    Complete complex backend processes such as customer due diligence and validation of financial documents in no time with agent-facing chatbots
+                </li>
+                <li>
+                   Streamline support operations and securely digitize legacy banking processes with flexible APIs and 650+ one-click integrations
+                </li>
+            </ul>
         </div>
         <div className={styles.bankingAndFinancescaleimg}>
             <Image
@@ -94,17 +104,37 @@ export default function BankingAndFinanceScale () {
         />
         </div>
         <div className={styles.bankingAndFinancescaletext}>
-        <h1>Invest in building better customer relationships.</h1>
-        <p>Banking and finance customers expect the highest degree of data privacy, and quick, reliable service. Offer fast and personalized support  with Bottom Funnel, an easy-to-use and secure customer service software.</p>
-        <button>Start Demo</button>
+        <h1>Let data lead the way</h1>
+        <p>Identify roadblocks that are affecting customer experience in the industry, and continuously optimize your operations using live dashboards and advanced analytics to measure progress.</p>
+        <ul>
+            <li>
+                Get key insights instantly with out-of-the-box reports
+            </li>
+            <li>
+                Slice and dice data any way you want, to measure unique metrics
+            </li>
+            <li>
+                Identify outliers in performance by drilling down on individual tickets
+            </li>
+        </ul>
         </div>
     </div>
 
     <div className={styles.bankingAndFinancescaleMain}>
         <div className={styles.bankingAndFinancescaletext}>
-            <h1>Invest in building better customer relationships.</h1>
-            <p>Banking and finance customers expect the highest degree of data privacy, and quick, reliable service. Offer fast and personalized support  with Bottom Funnel, an easy-to-use and secure customer service software.</p>
-            <button>Start Demo</button>
+            <h1>Stay safe with state of the art security</h1>
+            <p>Protecting your customer’s personal information is a top priority. Entrust Freshdesk with the responsibility of keeping your customer’s data safe and secure.</p>
+            <ul>
+                <li>
+                   Host your data in the US, EEA, IND or AU centers
+                </li>
+                <li>
+                    Restrict login access outside of work by whitelisting only office network addresses
+                </li>
+                <li>
+                    Equipped with HIPAA and GDPR-ready features
+                </li>
+            </ul>
         </div>
         <div className={styles.bankingAndFinancescaleimg}>
             <Image
@@ -117,6 +147,7 @@ export default function BankingAndFinanceScale () {
             />
         </div>
     </div>
+    
 </>
   )
 }

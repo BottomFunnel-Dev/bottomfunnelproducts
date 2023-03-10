@@ -2,6 +2,7 @@ import React from "react";
 import BankingAndFinanceBanner from "../../components/BankingAndFinance/BankingAndFinanceBanner/BankingAndFinanceBanner";
 import BankingAndFinanceLandscape from "../../components/BankingAndFinance/BankingAndFinanceLandscape/BankingAndFinanceLandscape";
 import BankingAndFinanceScale from "../../components/BankingAndFinance/BankingAndFinanceScale/BankingAndFinanceScale";
+import BankingAndFinanceService from "../../components/BankingAndFinance/BankingAndFinanceService/BankingAndFinanceService";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -34,6 +35,7 @@ export default function BankingAndFinance() {
       <BankingAndFinanceBanner/>
       <BankingAndFinanceLandscape/>
       <BankingAndFinanceScale/>
+      <BankingAndFinanceService/>
       
       <Testimonial/>
       <TrustedBy/>
