@@ -28,10 +28,10 @@ export default function index() {
         }}
       />
 
-      <Banner />
+      <Banner/>
       <Support/>
       <Setup/>
-     
+      
       <Testimonial/>
       <TrustedBy/>
       <ReadyStarted/>

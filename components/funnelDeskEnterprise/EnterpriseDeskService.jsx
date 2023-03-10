@@ -28,10 +28,14 @@ export const EnterpriseDeskService = () => {
           </h5>
         </div>
         <div className={styles.enterpriseGifSide}>
-          <img
-            src="/Images/Enterprise/Animations/experience.gif"
-            alt="Enterprise/Animations/experience.gif"
-          />
+            <lottie-player
+                src={"/Animation/Enterprise/Comp1.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
       </div>
       <div className={styles.enterpriseDeskServiceReverse}>
@@ -60,10 +64,14 @@ export const EnterpriseDeskService = () => {
           </h5>
         </div>
         <div className={styles.enterpriseGifSide}>
-          <img
-            src="/Images/Enterprise/Animations/power.gif"
-            alt="Enterprise/Animations/power.gif"
-          />
+           <lottie-player
+                src={"/Animation/Enterprise/Comp2.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
       </div>
       <div className={styles.enterpriseDeskService}>
@@ -93,10 +101,14 @@ export const EnterpriseDeskService = () => {
           </h5>
         </div>
         <div className={styles.enterpriseGifSide}>
-          <img
-            src="/Images/Enterprise/Animations/animation.gif"
-            alt="Enterprise/Animations/animation.gif"
-          />
+            <lottie-player
+                src={"/Animation/Enterprise/Comp3.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
       </div>
       <div className={styles.enterpriseDeskServiceReverse}>
@@ -134,10 +146,14 @@ export const EnterpriseDeskService = () => {
           </h5>
         </div>
         <div className={styles.enterpriseGifSide}>
-          <img
-            src="/Images/Enterprise/Animations/vector3.gif"
-            alt="Enterprise/Animations/vector3.gif"
-          />
+           <lottie-player
+                src={"/Animation/Enterprise/Comp4.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
       </div>
       <div className={styles.enterpriseDeskService}>
@@ -173,10 +189,14 @@ export const EnterpriseDeskService = () => {
           </h5>
         </div>
         <div className={styles.enterpriseGifSide}>
-          <img
-            src="/Images/Enterprise/Animations/vector4.gif"
-            alt="Enterprise/Animations/vector4.gif"
-          />
+           <lottie-player
+                src={"/Animation/Enterprise/Comp5.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
       </div>
       <div className={styles.enterpriseDeskServiceReverse}>
@@ -203,10 +223,14 @@ export const EnterpriseDeskService = () => {
           </h5>
         </div>
         <div className={styles.enterpriseGifSide}>
-          <img
-            src="/Images/Enterprise/Animations/chat.gif"
-            alt="Enterprise/Animations/chat.gif"
-          />
+            <lottie-player
+                src={"/Animation/Enterprise/Comp6.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
       </div>
     </div>
