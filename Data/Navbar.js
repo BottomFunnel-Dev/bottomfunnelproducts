@@ -1074,12 +1074,12 @@ export const product3 = [
   {
     dropContent: "Neo Admin Center",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "neoadmin-center",
+    path: "/neoadmin-center",
   },
   {
     dropContent: "Collaboration",
     navIcons: "/Images/navbar/product/bottomfunnelsales.png",
-    path: "collaboration",
+    path: "/collaboration",
   },
   {
     dropContent: "Events and Notification",
@@ -1089,17 +1089,17 @@ export const product3 = [
   {
     dropContent: "Unified Customer Record",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "unifiedcustomer",
+    path: "/unifiedcustomer",
   },
   {
     dropContent: "Messaging Channels",
     navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "messagingchannel",
+    path: "/messagingchannel",
   },
   {
     dropContent: "Custom Objects",
     navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "custom-object",
+    path: "/custom-object",
   },
 ];
 export const resource = [

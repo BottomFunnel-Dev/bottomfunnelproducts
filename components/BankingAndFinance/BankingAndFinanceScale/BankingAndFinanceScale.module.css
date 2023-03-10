@@ -1,0 +1,52 @@
+.bankingAndFinancescaleMain{
+    display: flex;
+    height: 550px;
+    /* border: 2px solid red; */
+}
+.bankingAndFinancescaleimg{
+    width: 50%;
+    height: 450px;
+    margin-top: 4%;
+    margin-left: 3%;
+    /* border: 2px solid red; */
+}
+.bankingAndFinancescaletext{
+    margin-left: 5%;
+    padding: 5%;
+    width: 40%;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+}
+.bankingAndFinancescaletext>h1{
+    font-weight: 700;
+    /* font-size: 40px; */
+}
+.bankingAndFinancescaletext>p{
+    width: 80%;
+    font-weight: 400;
+    /* font-size: 20px; */
+}
+.bankingAndFinancescaletext>button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4%;
+    border-radius: 5px;
+    background-color: #14944C;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.bankingAndFinancescaletext>button:hover{
+    background-color: white;
+    color: #14944C;
+    border: 1px solid #14944C;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bankingAndFinancescaleMain1{
+    display: flex;
+    height: 550px;
+    background-color: #f5f5f5;
+    /* border: 2px solid red; */
+}

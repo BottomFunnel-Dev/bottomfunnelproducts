@@ -1,0 +1,93 @@
+.bankingAndFinanceBannerMain{
+    display: flex;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+.bankingAndFinanceBannerimg{
+    width: 50%;
+    height: 450px;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.bankingAndFinanceBannertext{
+    margin-top: 14%;
+    width: 40%;
+}
+.bankingAndFinanceBannertext>hr{
+    width: 80%;
+}
+.bankingAndFinanceBannertext>h1{
+    font-weight: 700;
+    /* font-size: 40px; */
+}
+.bankingAndFinanceBannertext>p{
+    width: 80%;
+    font-weight: 400;
+    /* font-size: 20px; */
+}
+.bankingAndFinanceBannertext>button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4%;
+    border-radius: 5px;
+    background-color: #14944C;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.bankingAndFinanceBannertext>button:hover{
+    background-color: white;
+    color: #14944C;
+    border: 1px solid #14944C;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    .bankingAndFinanceBannerMain{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        
+    }
+    .bankingAndFinanceBannerimg{
+        width: 70%;
+        height: 450px;
+        margin-top: 10%;
+        margin-left: 14%;
+    }
+    .bankingAndFinanceBannertext{
+        margin-top: 17%;
+        margin-left: 10%;
+        width: 90%;
+    }
+    .bankingAndFinanceBannertext>hr{
+        width: 80%;
+    }
+    .bankingAndFinanceBannertext>h1{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .bankingAndFinanceBannertext>p{
+        width: 90%;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .bankingAndFinanceBannertext>button{
+        padding: 10px 30px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 4% 0% 4% 17%;
+        border-radius: 15px;
+        background-color: #14944C;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .bankingAndFinanceBannertext>button:hover{
+        background-color: white;
+        color: #14944C;
+        border: 1px solid #14944C;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}

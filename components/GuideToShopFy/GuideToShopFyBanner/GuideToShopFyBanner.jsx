@@ -16,7 +16,7 @@ export const GuideToShopFyBanner= () => {
             
             <div className={styles.GuideToShopFyBannerone}>
             <Image
-                    src={"/Images/GuideToShopFy/banner.png"}
+                    src={"/Images/GuideToShopFy/Banner.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
