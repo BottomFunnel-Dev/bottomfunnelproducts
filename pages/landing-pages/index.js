@@ -33,7 +33,7 @@ const productData = {
       },
       {
         dropContent: "WhatsApp",
-        path: "/",
+        path: "/whatsapp",
       },
       {
         dropContent: "Journeys",
@@ -64,7 +64,7 @@ const productData = {
       },
       {
         dropContent: "What's new",
-        path: "/",
+        path: "/whatsnew",
       },
       {
         dropContent: "Guide to Shopify",

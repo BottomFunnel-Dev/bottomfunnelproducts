@@ -1,15 +1,18 @@
 .MarketPlaceFeatureChild{
    
-    height: 60vh;
-  
+    height: 40vh;
+   
+}
+.parentss{
+   
 }
 .MarketPlaceFeatureParent{
     margin-top: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: -10%;
-
+   
+  
 }
 .line{
     border: 1px solid #f0a491;
@@ -23,14 +26,12 @@
     margin-top: 5%;
 }
 .MarketPlaceFeatureChild>div{
-    border: 1px solid blue;
+    
     width: 20%;
     display: flex;
     flex-direction: column;
-   height: 60%;
-    align-items: center;
-    border: 1px solid #EF4C23;
-    padding: 1%;
+   height: 100%;
+    align-items: center;  padding: 1%;
    
     
     border-radius: 25px;
@@ -39,6 +40,7 @@
 }
 .MarketPlaceFeatureimg{
     margin-bottom: 10%;
+  
 }
 .MarketPlaceFeatureChild>div>h3{
     text-align: center;

@@ -5,11 +5,6 @@ export const Softwareandserviceitchatbots = () => {
     return (
 
         <div className={styles.softwareandserviceitchatbotsParent}>
-
-
-
-
-
             <div className={styles.softwareandserviceitchatbotstwo}>
                 <h1>Deploy chatbots with ease</h1>
 
@@ -30,13 +25,12 @@ export const Softwareandserviceitchatbots = () => {
             </div>
             <div className={styles.softwareandserviceitchatbotsone}>
                 <Image
-                    src={"/Images/softwareandserviceit/3.png"}
+                    src={"/Images/softwareandserviceit/Group3.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "70%", height: "70%" }}
-
                 />
             </div>
         </div>

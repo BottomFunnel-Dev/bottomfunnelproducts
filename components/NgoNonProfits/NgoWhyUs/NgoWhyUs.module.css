@@ -1,0 +1,73 @@
+.ngoWhyUsMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.ngoWhyUsImageDiv{
+    /* border: 2px solid  red; */
+    width: 100%;
+    position: relative;
+}
+.ngoWhyusContainerbox{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
+.ngoWhyusContainer{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.ngoWhyusDataBox{
+    /* border: 2px solid  green; */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.ngoWhyusData{
+    border: 1px solid #14944C;
+    width: 25%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px; */
+    border-radius: 0px 0px 20px 0px;
+}
+.ngoWhyusData>h2{
+    padding: 1px 15px 1px 15px;
+}
+.ngoWhyusData>p{
+    padding: 1px 15px 1px 15px;
+}
+
+.ngoWhyDataImage{
+    /* border: 2px solid red; */
+    width: 35%;
+    height: 100px;
+    border-radius: 0px 0px 20px  0px;
+    background-color: #14944C;
+    padding: 20px;
+}
+.ngoWhyusDataBox1{
+    /* border: 2px solid  green; */
+    width: 70%;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.ngoWhyusData1{
+    border: 1px solid #14944C;
+    width: 35%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 20px 0px;
+}

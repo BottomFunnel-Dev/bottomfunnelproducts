@@ -9,7 +9,7 @@ export const Softwareandserviceitcollabration = () => {
 
             <div className={styles.softwareandserviceitcollabrationone}>
                 <Image
-                    src={"/Images/softwareandserviceit/4.png"}
+                    src={"/Images/softwareandserviceit/Group2.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

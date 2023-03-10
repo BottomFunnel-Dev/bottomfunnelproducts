@@ -5,7 +5,7 @@
     margin-top: 2%;
     background-color: whitesmoke;
     padding-bottom: 5%;
-    padding-top: 2%;border: 1px solid green;
+    padding-top: 2%;
 }
 .MarketPlaceCollectionsParentchildone{
     margin-top: 5%;
@@ -18,12 +18,14 @@
     width: 28%;
     height: 380px;
     padding: 2%;
+    
 }
 .MarketPlaceCollectionsParentchildone>div>h3{
     margin: 0px;
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    
 }
 .MarketPlaceCollectionsParentchildone>div>p{
     margin: 0px;

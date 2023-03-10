@@ -1,0 +1,61 @@
+.whatsappbotsmainboxes{
+    height: fit-content;
+    margin-top: 2%;
+}
+
+.whatsappbotsmainboxes>h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.whatsappbotsmainboxes>p{
+    text-align: center;
+}
+.whatsappdatamapping{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.whatsappindiimgbox{
+    height: 220px;
+    width: 100%;
+}
+
+.whatsappinditxtbox{
+    margin-top: 5%;
+    height: fit-content;
+    margin-left: 5%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.whatsappinditxtbox>h4,.whatsappinditxtbox p{
+    text-align: center;
+}
+
+.mappingbtn {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+    margin-left: 14%;
+  }
+  
+  .mappingbtn:hover {
+    background-color: white;
+    color: #ef4c23;
+
+  }

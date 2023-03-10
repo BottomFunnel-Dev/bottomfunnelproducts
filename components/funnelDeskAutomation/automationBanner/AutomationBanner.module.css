@@ -4,11 +4,15 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 30px 0;
+    /* border: 2px solid red; */
+    margin-top: 5%;
 }
 
 .AutomationBannerContainer>div {
     width: 45%;
     text-align: left;
+    margin-left: 8%;
+    /* border: 2px solid red; */
 }
 
 .AutomationBannerContainer>div>h1 {
@@ -44,7 +48,10 @@
     height: fit-content;
     width: 45%;
 }
-
+.funneldeskautomationImage{
+    width: 80%;
+    height: 80%;
+}
 /* media query for mobile and tablets */
 @media (max-width: 1024px) {
     .AutomationBannerContainer {

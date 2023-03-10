@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./softwareandserviceitbanner.module.css"
 import Image from "next/image";
+
 export const Softwareandserviceitbanner = () => {
     return (
 
         <div className={styles.softwareandserviceitbannerParent}>
             <div className={styles.softwareandserviceitbannertwo}>
-                <h1>Engineer wow moments. </h1>
+                <h2>Engineer wow moments. </h2>
 
                 <p>Your technology is mission-critical to your customer’s
                     business. You need to back it up with responsive, proactive
@@ -19,7 +20,7 @@ export const Softwareandserviceitbanner = () => {
 
             <div className={styles.softwareandserviceitbannerone}>
                 <Image
-                    src={"/Images/softwareandserviceit/banner.png"}
+                    src={"/Images/softwareandserviceit/banner.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

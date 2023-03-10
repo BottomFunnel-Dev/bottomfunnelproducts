@@ -1,0 +1,93 @@
+.ngoBannerMain{
+    display: flex;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+.ngoBannerimg{
+    width: 50%;
+    height: 450px;
+    margin-top: 10%;
+
+}
+.ngoBannertext{
+    margin-top: 17%;
+    width: 40%;
+}
+.ngoBannertext>hr{
+    width: 80%;
+}
+.ngoBannertext>h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.ngoBannertext>p{
+    width: 80%;
+    font-weight: 400;
+    font-size: 20px;
+}
+.ngoBannertext>button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4%;
+    border-radius: 5px;
+    background-color: #393939;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.ngoBannertext>button:hover{
+    background-color: white;
+    color: #393939;
+    border: 1px solid #393939;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    .ngoBannerMain{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        
+    }
+    .ngoBannerimg{
+        width: 70%;
+        height: 450px;
+        margin-top: 10%;
+        margin-left: 14%;
+    }
+    .ngoBannertext{
+        margin-top: 17%;
+        margin-left: 10%;
+        width: 90%;
+    }
+    .ngoBannertext>hr{
+        width: 80%;
+    }
+    .ngoBannertext>h1{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .ngoBannertext>p{
+        width: 90%;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .ngoBannertext>button{
+        padding: 10px 30px;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 4% 0% 4% 17%;
+            border-radius: 15px;
+            background-color: #ef4c23;
+            border: none;
+            color: white;
+            cursor: pointer;
+    }
+    .ngoBannertext>button:hover{
+        background-color: white;
+        color: #ef4c23;
+        border: 1px solid #ef4c23;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}

@@ -1,28 +1,20 @@
-.hr{
-    margin: 0px;
-    padding: 0px;
-  }
+
   
   .softwareandserviceitchatbotsParent{
-     
-    background-color: whitesmoke;
-    
+      /* border: 2px solid red; */
+      background-color: whitesmoke;
       display: flex;
-     
-   
- 
       padding-left: 5%;
       padding-right: 5%;
-      margin-top: 5%;
+      /* margin-top: 5%; */
   }
   .softwareandserviceitchatbotsone{
-     
-      width: 50%;
-   
-    display: flex;
-    align-items: center;
-    align-content: center;
-     
+      width: 45%;
+      /* border: 2px solid red; */
+      display: flex;
+      align-items: center;
+      align-content: center;
+      margin-left: 5%;
   }
   .softwareandserviceitchatbotstwo{
     
@@ -32,7 +24,7 @@
      align-items: left;
    
     margin-bottom: 70px;
-    padding-top: 12%;
+    padding-top: 6%;
    
    padding-left: 5%;
      

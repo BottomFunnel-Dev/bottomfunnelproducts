@@ -1,0 +1,57 @@
+.MediaAndEntertainmentBannerParent{
+    display: flex;
+    
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+ padding-top: 5%;
+  
+   align-items: center;
+  
+}
+.MediaAndEntertainmentBannerParentSecChild{
+   
+    padding-left: 2%;
+    margin-right: 5%;
+}
+.MediaAndEntertainmentBannerParent>div{
+    width: 50%;
+   
+}
+.MediaAndEntertainmentBannerParentFirstChild{
+    text-align: justify;
+   
+    padding-left: 6%;
+}
+.MediaAndEntertainmentBannerParentFirstChild>h1{
+    margin-bottom: 1%;
+}
+.MediaAndEntertainmentBannerParentFirstChild>button{
+    margin-top: 7%;
+width: 300px;
+height: 70px;
+background-color: #2C444E;
+color: white;
+font-size: 22px;
+border-radius: 10px;
+border: none;
+}
+.MediaAndEntertainmentBannerParentFirstChild>button:hover{
+    background-color: white;
+    color: #2C444E;
+    background: none;
+
+}
+@media(max-width:780px){
+    .MediaAndEntertainmentBannerParent{
+        display: flex;
+        background-image: url("/Images/ContentMarketingServices/bannerbackground.webp");
+       padding: 5%;
+      flex-direction: column;
+       align-items: center;
+      
+    }
+    .MediaAndEntertainmentBannerParent>div{
+        width: 100%;
+        
+    }  
+}

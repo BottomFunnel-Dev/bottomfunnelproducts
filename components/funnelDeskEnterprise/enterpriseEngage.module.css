@@ -25,7 +25,9 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.engageCardInner:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .engageCardInner>h5 {
   margin: 12% auto;
   color: #14944C;

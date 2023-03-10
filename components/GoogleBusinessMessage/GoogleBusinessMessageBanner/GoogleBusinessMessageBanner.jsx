@@ -4,8 +4,8 @@ import Image from "next/image";
 export const GoogleBusinessMessageBanner = () => {
     return (
 
-        <div className={styles.GuideToShopFyBannerParent}>
-            <div className={styles.GuideToShopFyBannerone}>
+        <div className={styles.googleBusinessBannerParent}>
+            <div className={styles.googleBusinessBannerone}>
                 <Image
                     src={"/Images/GoogleBusiness/banner.webp"}
                     alt={"img"}
@@ -13,10 +13,9 @@ export const GoogleBusinessMessageBanner = () => {
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-
                 />
             </div>
-            <div className={styles.GuideToShopFyBannertwo}>
+            <div className={styles.googleBusinessBannertwo}>
                 <h1>Support customers at their moment
                     of need with Google’s Business
                     Messages </h1>

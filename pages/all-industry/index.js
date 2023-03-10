@@ -3,7 +3,7 @@ import { AllIndustriesBanner } from "../../components/AllIndustries/AllIndustrie
 import { AllindustrycustomerDelight } from "../../components/AllIndustries/AllindustrycustomerDelight";
 import { Allindustryfooter } from "../../components/AllIndustries/Allindustryfooter";
 import Navbar from "../../components/Navbar/Navbar";
-import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
+import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
 
 export default function Allindustry() {
   return (
@@ -18,12 +18,12 @@ export default function Allindustry() {
       logo: false,
     }}
   />
-  <SalesNavbar
-    navproductredux={{
-      color: "black",
-      logo: false,
-    }}
-  />
+      <ProductsNavbar
+        navproductredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
       <AllIndustriesBanner />
       <AllindustrycustomerDelight />

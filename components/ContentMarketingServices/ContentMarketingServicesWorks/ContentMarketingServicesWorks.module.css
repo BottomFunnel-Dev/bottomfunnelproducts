@@ -1,0 +1,68 @@
+.ContentMarketingServicesWorksParent{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 50%;
+margin-left: 25%;
+}
+.ContentMarketingServicesWorksParentonlychild{
+    display: flex;
+    align-items: center;
+    height: 200px;
+ margin-top: 5%;
+  width: 100%;
+}
+.ContentMarketingServicesWorksParentonlychild>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+    height: 100%;
+  
+}
+.ContentMarketingServicesWorksParentonlychild>div>div{
+   
+    display: flex;
+    margin-top: 5%;
+}
+.ContentMarketingServicesWorksParentonlychildsecchild{
+    border-left: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+}
+@media(max-width:780px){
+   
+    
+    .ContentMarketingServicesWorksParent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin-left: 25%;
+        }
+        .ContentMarketingServicesWorksParentonlychild{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+         margin-top: 5%;
+          width: 100%;
+        }
+        .ContentMarketingServicesWorksParentonlychild>div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 5%;
+          
+        }
+        .ContentMarketingServicesWorksParentonlychild>div>div{
+           
+            display: flex;
+            margin-top: 5%;
+        }
+        .ContentMarketingServicesWorksParentonlychildsecchild{
+            border-left: 0px solid whitesmoke;
+            border-right: 0px solid whitesmoke;
+        }
+}

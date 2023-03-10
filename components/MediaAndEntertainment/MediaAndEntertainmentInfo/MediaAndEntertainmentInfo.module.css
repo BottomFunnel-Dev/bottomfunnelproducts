@@ -1,0 +1,8 @@
+.MediaAndEntertainmentInfoParent{
+    padding: 5%;
+}
+.MediaAndEntertainmentInfoParent>p{
+    font-weight: 600px;
+    
+    font-size: 20px;
+}

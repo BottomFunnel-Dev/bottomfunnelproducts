@@ -47,11 +47,10 @@ const productData = {
       {
         dropContent: "Instagram DM",
         path: "/instagram-dm",
-
       },
       {
         dropContent: "Google Business Messages",
-        path: "/",
+        path: "/google-business",
       },
       {
         dropContent: "WhatsApp",

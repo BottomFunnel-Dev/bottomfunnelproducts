@@ -1,0 +1,67 @@
+.MediaAndEntertainmentDemoParent{
+    
+   
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MediaAndEntertainmentDemoParent>h1{
+    margin-bottom: 1%;
+}
+.MediaAndEntertainmentDemoParent>button{
+    margin-top: 3%;
+    width: 250px;
+    height: 60px;
+    background-color: #2C444E
+    ;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+
+}
+.MediaAndEntertainmentDemoParent>p{
+    margin-top: 0%;
+    text-align: center;
+    width: 70%;
+}
+.MediaAndEntertainmentDemoParent>button:hover{
+    background-color: transparent;
+  
+    color: #2C444E;
+}
+@media(max-width:780px){
+    .MediaAndEntertainmentDemoParent{
+    
+        background-color: bisque;
+       
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .MediaAndEntertainmentDemoParent>h1{
+        margin-bottom: 2%;
+    }
+    .MediaAndEntertainmentDemoParent>button{
+        margin-top: 5%;
+        width: 250px;
+        height: 60px;
+       
+        color: white;
+        font-size: 28px;
+        border-radius: 10px;
+        border: none;
+    
+    }
+    .MediaAndEntertainmentDemoParent>button:hover{
+        background-color: transparent;
+      
+        color: #ec4f25;
+    }  
+}

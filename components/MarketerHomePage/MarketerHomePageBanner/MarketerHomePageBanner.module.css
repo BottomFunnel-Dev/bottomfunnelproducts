@@ -45,36 +45,38 @@ height: 80%;
     border: 1px solid #F78F1E;
     border-radius: 5px;
     width: 200px;
-    color: #F78F1E;
+    background-color: #F78F1E;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 10px 10px 10px ;
     margin-left: 1%;
-    background: white;
+    color: white;
     margin-top: 3%;
 
 }
 .MarketerHomePageBannermaindivbutton1{
     border: 1px solid #F78F1E;
     border-radius: 5px;
-    color: #F78F1E;
+    background-color: #F78F1E;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 10px 10px 10px ;
     width: 200px;
     margin-left: 2%;
-    background: white;
+    color: white;
     margin-top: 3%;
 
 }
 .MarketerHomePageBannermaindivbutton1:hover{
-    background:#F78F1E;
-    color: white;
+    color:#F78F1E;
+    background-color: white;
+    border: 1px solid #F78F1E;
 
 }
 
 .MarketerHomePageBannermaindivbutton:hover{
-    background:#F78F1E;
-    color: white;
+    color:#F78F1E;
+    background-color: white;
+    border: 1px solid #F78F1E;
 
 }

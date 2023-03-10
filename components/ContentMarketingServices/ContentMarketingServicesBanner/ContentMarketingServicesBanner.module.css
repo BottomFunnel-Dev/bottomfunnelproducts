@@ -1,0 +1,57 @@
+.ContentMarketingserviceParent{
+    display: flex;
+    background-image: url("/Images/ContentMarketingServices/bannerbackground.webp");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+ padding-top: 5%;
+  
+   align-items: center;
+  
+}
+.ContentMarketingserviceParentSecChild{
+   
+    padding-left: 5%;
+    margin-right: 5%;
+}
+.ContentMarketingserviceParent>div{
+    width: 50%;
+   
+}
+.ContentMarketingserviceParentFirstChild{
+    text-align: justify;
+   
+    padding-left: 6%;
+}
+.ContentMarketingserviceParentFirstChild>h1{
+    margin-bottom: 3%;
+}
+.ContentMarketingserviceParentFirstChild>button{
+    margin-top: 7%;
+width: 300px;
+height: 40px;
+background-color: #ec4f25;
+color: white;
+font-size: 21px;
+border-radius: 35px;
+border: none;
+}
+.ContentMarketingserviceParentFirstChild>button:hover{
+    background-color: white;
+    color: #ec4f25;
+    background: none;
+
+}
+@media(max-width:780px){
+    .ContentMarketingserviceParent{
+        display: flex;
+        background-image: url("/Images/ContentMarketingServices/bannerbackground.webp");
+       padding: 5%;
+      flex-direction: column;
+       align-items: center;
+      
+    }
+    .ContentMarketingserviceParent>div{
+        width: 100%;
+        
+    }  
+}

@@ -3,7 +3,7 @@
     padding: 0px;
   }
   
-  .GuideToShopFyBannerParent{
+  .googleBusinessBannerParent{
      
      
       height: 100vh;
@@ -13,12 +13,11 @@
   
    padding-left: 7%;
   }
-  .GuideToShopFyBannerone{
-     
-      width: 50%;
-     
+  .googleBusinessBannerone{
+      width: 45%;
+      height: 550px;
   }
-  .GuideToShopFyBannertwo{
+  .googleBusinessBannertwo{
     
       width: 50%;
      display: flex;
@@ -31,20 +30,20 @@
    padding-left: 5%;
      
   }
-  .GuideToShopFyBannertwo>h1{
+  .googleBusinessBannertwo>h1{
      
       width: 90%;
       font-weight: 700;
       
   }
-  .GuideToShopFyBannertwo>p{
+  .googleBusinessBannertwo>p{
      
       margin-top: 1%;
       width: 70%;
      
     color: #393939;
   }
-  .GuideToShopFyBannertwo>button{
+  .googleBusinessBannertwo>button{
       width: 200px;
       height: 40px;
       margin-top: 3%; 
@@ -61,13 +60,13 @@
     
     
   }
-  .GuideToShopFyBannertwo>button:hover{
+  .googleBusinessBannertwo>button:hover{
     background-color: white;
     color: #ef4c23;
     
   }
   @media(max-width:780px){
-    .GuideToShopFyBannerParent{
+    .googleBusinessBannerParent{
       width: 100%;
       height: auto;
       display: flex;
@@ -76,14 +75,14 @@
     padding: 0px;
   
   }
-  .GuideToShopFyBannerone{
+  .googleBusinessBannerone{
      
       width: 100%;
       padding-right: 0px;
       margin-right: 0px;
      
   }
-  .GuideToShopFyBannertwo{
+  .googleBusinessBannertwo{
     padding-right: 0px;
     margin-right: 0px;
       width: 100%;
@@ -98,13 +97,13 @@
    align-items: center;
      
   }
-  .GuideToShopFyBannertwo>h1{
+  .googleBusinessBannertwo>h1{
      
       width: 75%;
       font-weight: 700;
       font-size: 32;
   }
-  .GuideToShopFyBannertwo>p{
+  .googleBusinessBannertwo>p{
      
       margin-top: 2%;
       width: 70%;
@@ -114,7 +113,7 @@
   
     
   }
-  .GuideToShopFyBannertwo>button{
+  .googleBusinessBannertwo>button{
       width: 200px;
       height: 40px;
       margin-top: 5%; 

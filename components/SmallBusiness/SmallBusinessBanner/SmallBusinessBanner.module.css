@@ -1,0 +1,54 @@
+.SmallBusinessBannerParent{
+    display: flex;
+    padding: 5%;
+   
+}
+.SmallBusinessBannerParent>div{
+width: 50%;
+
+
+}
+
+.SmallBusinessBannerParentfirstchind>button{
+    width: 250px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+   
+    border-radius: 10px;
+}
+@media(max-width:780px){
+    .SmallBusinessBannerParent{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        align-items: center;
+       
+    }
+    .SmallBusinessBannerParent>div{
+    width: 100%;
+    
+   
+    }
+    .para{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .SmallBusinessBannerParentfirstchind{
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .SmallBusinessBannerParentfirstchind>button{
+        width: 250px;
+        height: 60px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+       
+        border-radius: 10px;
+    } 
+}
