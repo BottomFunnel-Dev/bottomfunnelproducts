@@ -6,7 +6,8 @@
     margin-bottom: 2%;
 }
 .SmallBusinessSupportParentonlydiv{
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 .SmallBusinessSupportParent>div>div{
     display: flex;
@@ -16,17 +17,26 @@
 }
 .SmallBusinessSupportParent>div>div>div{
    
-   width: 48%;
+   width: 47%;
    justify-content: space-between;
- 
+ border: 1px solid green;
+ border-bottom-right-radius: 20px;
    padding-bottom: 2%;
    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .SmallBusinessSupportParentonlydiv>div>div>div{
     display: flex;
-   
+  
     align-items: center;
     margin-bottom: 20px;
+}
+.SmallBusinessSupportParentonlydiv>div>div>div>div{
+   
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    border-bottom-right-radius: 15px;
+    padding-left: 20px;
 }
 .SmallBusinessSupportParentonlydiv>div>div>div>h5{
     margin-left: 20px;

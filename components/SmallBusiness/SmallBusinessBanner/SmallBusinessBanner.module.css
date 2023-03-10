@@ -1,14 +1,21 @@
 .SmallBusinessBannerParent{
     display: flex;
     padding: 5%;
-   
+    align-items: center;
+   justify-content: space-between;
 }
 .SmallBusinessBannerParent>div{
-width: 50%;
+width: 47%;
 
 
 }
-
+.SmallBusinessBannerParentfirstchind{
+padding: 5%;
+}
+.SmallBusinessBannerParentfirstchind>h1{
+    font-weight: 700;
+    margin-bottom: 3%;
+}
 .SmallBusinessBannerParentfirstchind>button{
     width: 250px;
     height: 60px;

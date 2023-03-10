@@ -7,49 +7,67 @@ export const SmallBusinessFreshDesk = () => {
             <div className={styles.SmallBusinessFreshDeskParentfirstChild}>
                 <div>
                     <div>
-                        <Image
-                            src={"/Images/Small-Business/image1.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "10%", height: "10%" }}
-                        />
-                        <h5>Transparent</h5>
+                        <div>
+                            <Image
+                                src={"/Images/Small-Business/Icon5.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "70%", height: "90%" }}
+                            />
+                        </div>
+
+                        <h5>Transparent pricing</h5>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis enim illo corrupti obcaecati </p>
+                    <p>What you see is what you get. No
+                        hidden charges or unexpected
+                        add-ons</p>
                 </div>
 
 
                 <div>
                     <div>
-                        <Image
-                            src={"/Images/Small-Business/image1.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "10%", height: "10%" }}
-                        />
-                        <h5>Transparent</h5>
+                        <div>
+                            <Image
+                                src={"/Images/Small-Business/Icon6.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "70%", height: "90%" }}
+                            />
+                        </div>
+
+                        <h5>Robust integrations
+                        </h5>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis enim illo corrupti obcaecati </p>
+                    <p>Extend your capabilities with
+                        flexible APIs and 650+ one-click
+                        integrations from our
+                        marketplace. </p>
                 </div>
 
 
                 <div>
                     <div>
-                        <Image
-                            src={"/Images/Small-Business/image1.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "10%", height: "10%" }}
-                        />
-                        <h5>Transparent</h5>
+                        <div>
+                            <Image
+                                src={"/Images/Small-Business/Icon7.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "70%", height: "90%" }}
+                            />
+                        </div>
+
+                        <h5>Intuitive UI
+                        </h5>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis enim illo corrupti obcaecati </p>
+                    <p>Go live in no time with the intuitive
+                        in-built onboarding process
+                    </p>
                 </div>
             </div>
 
@@ -59,33 +77,44 @@ export const SmallBusinessFreshDesk = () => {
 
                 <div>
                     <div>
-                        <Image
-                            src={"/Images/Small-Business/image1.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "10%", height: "10%" }}
-                        />
-                        <h5>Transparent</h5>
+                        <div>
+                            <Image
+                                src={"/Images/Small-Business/Icon8.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "70%", height: "90%" }}
+                            />
+                        </div>
+
+                        <h5>Support at every
+
+                            step</h5>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis enim illo corrupti obcaecati </p>
+                    <p>Our team of experts is available to
+                        help you around the clock</p>
                 </div>
 
 
                 <div>
                     <div>
-                        <Image
-                            src={"/Images/Small-Business/image1.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "10%", height: "10%" }}
-                        />
-                        <h5>Transparent</h5>
+                        <div>
+                            <Image
+                                src={"/Images/Small-Business/Icon9.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "70%", height: "90%" }}
+                            />
+                        </div>
+
+                        <h5>Perfect for flexible
+                            workforces</h5>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis enim illo corrupti obcaecati </p>
+                    <p>Freshdesk can be scaled up or down
+                        based on your business needs. </p>
                 </div>
             </div>
         </div>
