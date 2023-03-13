@@ -38,7 +38,7 @@ export default function BottomFunnelOmnichannel () {
 
 {/* <StoriesSection/> */}
       
-<Testimonial />
+      <Testimonial />
       <TrustedBy/>
       <ReadyStarted />
       <LifeBottomFunnel/>

@@ -46,10 +46,14 @@ export const RetailInsights = () => {
           </div>
         </div>
         <div className={styles.retailshopupperboximageright}>
-          <img
-            src="/Images/Retail&ecommerce/Animations/animation5.gif"
-            alt="Retail&ecommerce/Animations/animation5.gif"
-          />
+          <lottie-player
+                  src={"/Animation/RetailAndEcommerce/four.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+          </lottie-player>
         </div>
       </div>
     </div>

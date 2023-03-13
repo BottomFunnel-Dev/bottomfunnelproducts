@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../../components/BottomfunnelContact/Homepage/banner/Banner";
 import Setup from "../../components/BottomfunnelContact/Homepage/setup/Setup";
 import Support from "../../components/BottomfunnelContact/Homepage/support/Support";
+import { IntegrationFooter } from "../../components/FeaturedIntegrationPage/Integrationfooter/IntegrationFooter";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -31,6 +32,7 @@ export default function index() {
       <Banner/>
       <Support/>
       <Setup/>
+      <IntegrationFooter/>
       
       <Testimonial/>
       <TrustedBy/>

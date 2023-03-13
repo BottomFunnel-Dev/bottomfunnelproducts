@@ -6,9 +6,10 @@
   position: fixed;
   z-index: 1000;
   /* background: #ef4c23; */
+  /* margin-top: 5%; */
   align-items: center;
   box-sizing: border-box;
-
+  /* border: 2px solid yellow; */
   transition: all 0.2s linear;
 }
 

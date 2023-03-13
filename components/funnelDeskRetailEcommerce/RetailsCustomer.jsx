@@ -6,10 +6,14 @@ export const RetailsCustomer = () => {
     <div className={styles.retailcustomermainboxes}>
       <div className={styles.retailcustomerleftrightboxflextype}>
         <div className={styles.retailcustomerleftboxflextype}>
-          <img
-            src="/Images/Retail&ecommerce/Animations/animation3.gif"
-            alt="Retail&ecommerce/Animations/animation3.gif"
-          />
+            <lottie-player
+                src={"/Animation/RetailAndEcommerce/three.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
         <div className={styles.retailcustomerrightboxflextype}>
           <h1>Scale Your Customer service with AI and bots</h1>

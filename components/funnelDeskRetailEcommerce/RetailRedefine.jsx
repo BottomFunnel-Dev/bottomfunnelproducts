@@ -29,10 +29,14 @@ export const RetailRedefine = () => {
       </div>
       <div className={styles.retailredefinemainboxesrightboxforimage}>
         <div className={styles.retailredefinedboxrightforimageonly}>
-          <img
-            src="/Images/Retail&ecommerce/Animations/Animation 2.gif"
-            alt="Retail&ecommerce/Animations/Animation 2.gif"
-          />
+            <lottie-player
+                src={"/Animation/RetailAndEcommerce/two.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
         </div>
       </div>
     </div>

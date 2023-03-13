@@ -14,6 +14,7 @@ import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStart
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import {IntegrationFooter} from "../../components/FeaturedIntegrationPage/Integrationfooter/IntegrationFooter";
 
 export default function FunnelDesk() {
   return (
@@ -39,7 +40,8 @@ export default function FunnelDesk() {
       <EliteServices />
       <EliteLast />
       <IndustryExperts />
-      
+      <IntegrationFooter/>
+
       <Testimonial/>
       <TrustedBy />
       <ReadyStarted/>
