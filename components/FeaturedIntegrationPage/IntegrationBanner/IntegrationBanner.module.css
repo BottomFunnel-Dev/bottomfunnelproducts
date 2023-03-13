@@ -6,7 +6,8 @@
 }
 .IntegrationBannercontain{
     margin-top: 250px;
-    margin-left: 100px;
+    margin-left: 2%;
+
 }
 .IntegrationbannerButton{
     font-size: 15px;
@@ -17,10 +18,8 @@
     color: white;
     background-color: #14944C;
 }
-.IntegrationBannerAnimation>img{
-width: 600px;
-margin-top: 10%;
-margin-left: 100px;
+.IntegrationBannerAnimation{
+    margin-left: 5%;
 }
 .IntegrationbannerButton:hover{
     background-color: #ffff;

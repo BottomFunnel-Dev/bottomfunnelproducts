@@ -7,7 +7,15 @@ export const CustomerValue = () => {
         <div className={styles.CustomerValuemaindiv}>
             <div  className={styles.CustomerValuemaindivinner} >
                 <div className={styles.CustomerValuemaindivimage}>
-                    <img src="/Images/customersuccesshomepagephotos/screen1.png" alt="" />
+
+                   <lottie-player
+                        src={"/Animation/customerSucess/third.json"}
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                        >
+                    </lottie-player>
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
                     <h3>Effortlesly grow customer value</h3>
@@ -18,7 +26,14 @@ export const CustomerValue = () => {
 
             <div  className={styles.CustomerValuemaindivinner1} >
                 <div className={styles.CustomerValuemaindivimage}>
-                    <img src="/Images/customersuccesshomepagephotos/screen2.png" alt="" />
+                   <lottie-player
+                        src={"/Animation/customerSucess/second.json"}
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                        >
+                    </lottie-player>
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
                     <h3>Effortlesly grow customer value</h3>
@@ -29,7 +44,14 @@ export const CustomerValue = () => {
 
             <div  className={styles.CustomerValuemaindivinner} >
                 <div className={styles.CustomerValuemaindivimage}>
-                    <img src="/Images/customersuccesshomepagephotos/screen3.png" alt="" />
+                   <lottie-player
+                        src={"/Animation/customerSucess/fourth.json"}
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                        >
+                    </lottie-player>
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
                     <h3>Effortlesly grow customer value</h3>
@@ -39,7 +61,15 @@ export const CustomerValue = () => {
             </div>
             <div  className={styles.CustomerValuemaindivinner1} >
                 <div className={styles.CustomerValuemaindivimage}>
-                    <img src="/Images/customersuccesshomepagephotos/screen4.png" alt="" />
+                   <lottie-player
+                        src={"/Animation/customerSucess/first.json"}
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                        >
+                    </lottie-player>
+                    {/* <img src="/Images/customersuccesshomepagephotos/screen4.png" alt="" /> */}
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
                     <h3>Effortlesly grow customer value</h3>

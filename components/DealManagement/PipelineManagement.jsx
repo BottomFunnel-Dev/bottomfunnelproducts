@@ -33,7 +33,7 @@ export const PipelineManagement = () => {
 
    <div className={styles.pipelinesmanagementrightbox}>
    <Image
-   src={"/Images/Deal management/Screens/ha/handle deal.webp"}
+   src={"/Images/Deal management/Screens/ha/accelerate sales.webp"}
    alt={"images"}
    width={"0"}
    height={"0"}

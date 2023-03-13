@@ -24,8 +24,47 @@ export default function Setup() {
             </p>
           </div>
           <div className={styles.setupImage}>
-              <lottie-player
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src={item.img}
+              alt="Image"
+            />
+              {/* <lottie-player
                 src={item.img}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player> */}
+          </div>
+        </div>
+      ))}
+      
+      <div className={styles.setupContent}>
+          <div className={styles.leftcontent}>
+            <h2>Continue the conversation on any channel</h2>
+            <ul>
+              <li>
+                 Bottomfunnel Contact Center is a part of the Bottomfunnel Ominichannel- a leader in effortless conversations.
+              </li>
+              <li>
+                 Make calls within Bottomfunnel and convert a call to a ticket with a single click.
+              </li>
+              <li>
+                Continue the conversation across any channel with every customer.
+              </li>
+            </ul>
+            <p>
+              Learn more <i class="bi bi-arrow-right"></i>
+            </p>
+          </div>
+          <div className={styles.setupImage}>
+              <lottie-player
+                src={"/Animation/contactCenter/three.json"}
                 background="transparent"
                 speed="1"
                 loop
@@ -34,7 +73,6 @@ export default function Setup() {
             </lottie-player>
           </div>
         </div>
-      ))}
     </div>
   );
 }

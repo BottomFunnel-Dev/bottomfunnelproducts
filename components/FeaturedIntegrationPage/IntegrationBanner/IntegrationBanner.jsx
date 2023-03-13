@@ -5,7 +5,14 @@ export const IntegrationBanner = () => {
   return (
     <div className={style.IntegrationBannermain}>
         <div className={style.IntegrationBannerAnimation}>
-            <img src="/Images/featuredintegration/integrationbanner/banner-animation.gif" alt='bannergif'/>
+          <lottie-player
+                  src={"/Animation/Integration/one.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+          </lottie-player>
         </div>
         <div className={style.IntegrationBannercontain}>
             <h1>Freshdesk Support Desk integrations</h1>

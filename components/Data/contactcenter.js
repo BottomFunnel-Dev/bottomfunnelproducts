@@ -7,7 +7,7 @@ export const contactcenter = [
       "Bring your own carrier (BYOC) or purchase numbers from 90+ countries",
     ],
 
-    img: "/Animation/contactCenter/one.json",
+    img: "/Images/contactcenter/batter.webp",
     directions: true,
   },
   {
@@ -17,7 +17,7 @@ export const contactcenter = [
       "Virtual leaders can monitor call volumes and service level attainment while keeping track of important conversations",
     ],
 
-    img: "/Animation/contactCenter/Two.json",
+    img: "/Images/contactcenter/hour.webp",
     directions: false,
   },
   {
@@ -27,7 +27,7 @@ export const contactcenter = [
       "Monitor agent performance and keep a pulse on your customer satisfaction with live dashboards.",
     ],
 
-    img: "/Animation/contactCenter/five.json",
+    img: "/Images/contactcenter/workforce.webp",
     directions: true,
   },
   {
@@ -38,18 +38,18 @@ export const contactcenter = [
       "Empower your agents to do their best work.",
     ],
 
-    img: "/Animation/contactCenter/three.json",
+    img: "/Images/contactcenter/workload.webp",
     directions: false,
   },
-  {
-    title: "Continue the conversation on any channel",
-    desc: [
-      "Bottomfunnel Contact Center is a part of the Bottomfunnel Ominichannel- a leader in effortless conversations.",
-      "Make calls within Bottomfunnel and convert a call to a ticket with a single click",
-      "Continue the conversation across any channel with every customer",
-    ],
+  // {
+  //   title: "Continue the conversation on any channel",
+  //   desc: [
+  //     "Bottomfunnel Contact Center is a part of the Bottomfunnel Ominichannel- a leader in effortless conversations.",
+  //     "Make calls within Bottomfunnel and convert a call to a ticket with a single click",
+  //     "Continue the conversation across any channel with every customer",
+  //   ],
 
-    img: "/Animation/contactCenter/four.json",
-    directions: true,
-  },
+  //   img: "/Images/contactcenter/four.json",
+  //   directions: true,
+  // },
 ];

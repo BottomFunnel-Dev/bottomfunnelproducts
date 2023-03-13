@@ -17,8 +17,8 @@ export const SelfServiceBanner = () => {
       </div>
       <div className={styles.selfServicesBannerImageDiv}>
         <img
-          src="/Images/SelfService/SelfServiceBannerAnimation.gif"
-          alt="SelfService/SelfServiceBannerAnimation.gif"
+          src="/Images/SelfService/banner.webp"
+          alt="image"
         />
       </div>
     </div>

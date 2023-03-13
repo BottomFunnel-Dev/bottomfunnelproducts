@@ -1,6 +1,6 @@
 .requestdemomaindiv{
-    border: 2pxs olid yellow;
-    background-color: #ef4c23;
+    /* border: 2px solid yellow; */
+    background-color: #14944C;
     color: white;
     text-align: center;
     padding: 2%;
@@ -12,12 +12,12 @@
     width: 220px;
     border-radius: 10px;
     height: 40px;
-    color: #ef4c23;
+    color: #14944C;
     font-size: 18px;
 
 }
 .requestdemomaindivbutton:hover{
     color: white;
-    background: #ef4c23;
+    background: #14944C;
     border: 1px solid white;
 }

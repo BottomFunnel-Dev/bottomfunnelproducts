@@ -14,7 +14,14 @@ export const CustomerSuccessBanner = () => {
         </div>
     </div>
     <div className={styles.CustomerSuccesshomepageBannermaindivimage} >
-        <img src="/Images/customersuccesshomepagephotos/banner.png" alt="banner" />
+           <lottie-player
+                  src={"/Animation/customerSucess/banner.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+           </lottie-player>
     </div>
 </div>
 
