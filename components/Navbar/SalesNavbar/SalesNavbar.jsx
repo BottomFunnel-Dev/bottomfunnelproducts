@@ -5,6 +5,7 @@ import { SalesProduct } from "./SalesProduct";
 import { SalesFeature } from "./SalesFeature";
 import { SalesResources } from "./SalesResources";
 import { SalesIndustries } from "./SalesIndustries";
+import { useRouter } from "next/router";
 
 export const SalesNavbar = ({ navproductredux }) => {
   // const navigate = useNavigate();
@@ -16,6 +17,7 @@ export const SalesNavbar = ({ navproductredux }) => {
   // const navproductredux = useSelector((state) => state);
   const [navbar, setNabvar] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const router = useRouter();
 
   const skillProductHoverIn = () => {
     setproductNabvar(true);
@@ -142,9 +144,7 @@ export const SalesNavbar = ({ navproductredux }) => {
         </li>
 
         <li
-          onMouseEnter={skillProductHoverIn}
-          onMouseLeave={skillProductHoverOut}
-          // onClick={() => navigate("/pricing")}
+          onClick={() => router.push("/pricing")}
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Pricing

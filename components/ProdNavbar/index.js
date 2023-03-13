@@ -12,6 +12,7 @@ import Link from "next/link";
 export const ProdNavbar = ({ data }) => {
   const [dropdown, setDropdown] = useState("none");
   const [scroll, setScroll] = useState(false);
+  const router = useRouter();
 
   function handleHover(input) {
     setDropdown(() => input);
@@ -98,7 +99,7 @@ export const ProdNavbar = ({ data }) => {
             </p>
           ) : null}
 
-          <p> Pricing </p>
+          <p onClick={() => router.push("/pricing")}> Pricing </p>
 
           {data.list3 ? (
             <p
