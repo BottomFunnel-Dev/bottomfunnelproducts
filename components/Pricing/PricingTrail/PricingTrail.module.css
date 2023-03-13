@@ -1,0 +1,380 @@
+.PricingTrailParent {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.PricingTrailParent>div {
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 140vh;
+    padding-bottom: 5%;
+
+}
+
+.PricingTrailParent>div>div {
+    display: flex;
+
+}
+
+.PricingTrailParentfirstchild {
+    background-image: url('/Images/Pricing/TrailOrange.Webp');
+    border-right: 0.5px solid lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.PricingTrailParentSecchild {
+    background-image: url('/Images/Pricing/TrailOrange.Webp');
+    border-right: 0.5px solid lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.PricingTrailParentthirdchild {
+    background-image: url('/Images/Pricing/TrailGreen.Webp');
+    border-right: 0.5px solid lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.PricingTrailParentfourthchild {
+    background-image: url('/Images/Pricing/TrailOrange.Webp');
+    border-right: 0.5px solid lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.line {
+    width: 70%;
+    height: px;
+    border: none;
+    background-color: #ec4f25;
+    margin-top: 40px;
+
+}
+
+.linetwo {
+    width: 70%;
+    height: 2px;
+    border: none;
+    background-color: #ec4f25;
+    margin-top: 25px;
+}
+
+.PricingTrailParent>div>p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.PricingTrailButtonone {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #ec4f25;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.PricingTrailButtonone:hover {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: #ec4f25;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.PricingTrailButtonthird {
+    width: 150px;
+    height: 40px;
+    border: none;
+  
+    background-color:#54dd4a;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.PricingTrailButtonthird:hover {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: rgb(47, 255, 50);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.PricingTrailcheckdiv {
+    margin-left: 15%;
+
+    width: 85%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.PricingTrailcheckdiv>h6 {
+
+    margin-right: 5%;
+    text-align: left;
+}
+
+
+
+
+
+.PricingTrailParentchildheading {
+
+    margin-top: 13%;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10%;
+
+}
+
+.PricingTrailParentchildheading>h4 {
+    color: white;
+    padding-right: 8%;
+
+}
+
+.PricingTrailParentchildheading>h6 {
+    width: 60%;
+}
+
+.PricingTrailButtontwo {
+    width: 150px;
+    color: #ec4f25;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+
+.PricingTrailfooterline {
+    margin-top: 1.5%;
+    display: flex;
+    margin-left: 7.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .PricingTrailParent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+    
+    .PricingTrailParent>div {
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding-bottom: 10%;
+    
+    }
+    
+    .PricingTrailParent>div>div {
+        display: flex;
+    
+    }
+    
+    .PricingTrailParentfirstchild {
+        background-image: url('/Images/Pricing/TrailOrange.Webp');
+        border-right: 0.5px solid lightgray;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+    }
+    
+    .PricingTrailParentSecchild {
+        background-image: url('/Images/Pricing/TrailOrange.Webp');
+        border-right: 0.5px solid lightgray;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    .PricingTrailParentthirdchild {
+        background-image: url('/Images/Pricing/TrailGreen.Webp');
+        border-right: 0.5px solid lightgray;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    .PricingTrailParentfourthchild {
+        background-image: url('/Images/Pricing/TrailOrange.Webp');
+        border-right: 0.5px solid lightgray;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    .line {
+        width: 70%;
+        height: 2px;
+        border: none;
+        background-color: #ec4f25;
+        margin-top: 40px;
+    
+    }
+    
+    .linetwo {
+        width: 70%;
+        height: 2px;
+        border: none;
+        background-color: #ec4f25;
+        margin-top: 25px;
+    }
+    
+    .PricingTrailParent>div>p {
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    
+    .PricingTrailButtonone {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: #ec4f25;
+        color: white;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .PricingTrailButtonone:hover {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        color: #ec4f25;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .PricingTrailButtonthird {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: rgb(47, 255, 50);
+        color: white;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .PricingTrailButtonthird:hover {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        color: rgb(47, 255, 50);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .PricingTrailcheckdiv {
+        margin-left: 15%;
+    
+        width: 85%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    
+    }
+    
+    .PricingTrailcheckdiv>h6 {
+    
+        margin-right: 5%;
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    .PricingTrailParentchildheading {
+    
+        margin-top: 13%;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10%;
+    
+    }
+    
+    .PricingTrailParentchildheading>h4 {
+        color: white;
+        padding-right: 8%;
+    
+    }
+    
+    .PricingTrailParentchildheading>h6 {
+        width: 60%;
+    }
+    
+    .PricingTrailButtontwo {
+        width: 150px;
+        color: #ec4f25;
+        background-color: transparent;
+        border: none;
+        margin-top: 25px;
+    }
+    .PricingTrailButtontwo:hover{
+        width: 150px;
+        color: #ec4f25;
+        background-color: transparent;
+        border: none;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+    .PricingTrailfooterline {
+        margin-top: 0%;
+        display: flex;
+        margin-left: 7.5%;
+    }
+    
+    
+}
