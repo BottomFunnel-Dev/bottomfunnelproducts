@@ -18,9 +18,9 @@ export const CustomerValue = () => {
                     </lottie-player>
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
-                    <h3>Effortlesly grow customer value</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur est totam quam maxime doloribus reiciendis, sed, necessitatibus a magnam, officia suscipit recusandae consequatur voluptate praesentium qui rerum soluta accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maiores debitis et porro, fuga veniam illum voluptate distinctio repellendus excepturi sapiente, eligendi commodi repudiandae blanditiis. Dolores accusantium perferendis quisquam error.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, culpa alias. Ipsam, eaque at dicta perspiciatis id nobis dolorum nemo ex! Reprehenderit sed impedit libero placeat! Voluptatibus facere repellat corrupti!</p>
+                    <h3>Proactively manage ‘At Risk’ customers</h3>
+                    <p>Quickly see customer health with powerful alert rules that automatically identify which accounts require attention. When did your customer last log on? How active is each user? Any open tickets?  Are they behind on a payment? Instantly discover where your customers require attention.</p>
+                    <p>Support at-risk accounts before they churn and always be prepared with everything you need to know about your customer’s health.</p>
                     </div>
             </div>
 
@@ -36,9 +36,9 @@ export const CustomerValue = () => {
                     </lottie-player>
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
-                    <h3>Effortlesly grow customer value</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur est totam quam maxime doloribus reiciendis, sed, necessitatibus a magnam, officia suscipit recusandae consequatur voluptate praesentium qui rerum soluta accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maiores debitis et porro, fuga veniam illum voluptate distinctio repellendus excepturi sapiente, eligendi commodi repudiandae blanditiis. Dolores accusantium perferendis quisquam error.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, culpa alias. Ipsam, eaque at dicta perspiciatis id nobis dolorum nemo ex! Reprehenderit sed impedit libero placeat! Voluptatibus facere repellat corrupti!</p>
+                    <h3>Transform firefighting into delight</h3>
+                    <p>Underlying customer issues can fester for weeks, which is often too late. Reorient teams as time-killer firefighters to champions of customer delight with more alerts, workflows, and knowledge.</p>
+                    <p>Move from reactive support to anticipating customer needs by capturing massive amounts of account data without compromising performance.</p>
                     </div>
             </div>
 
@@ -55,8 +55,8 @@ export const CustomerValue = () => {
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
                     <h3>Effortlesly grow customer value</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur est totam quam maxime doloribus reiciendis, sed, necessitatibus a magnam, officia suscipit recusandae consequatur voluptate praesentium qui rerum soluta accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maiores debitis et porro, fuga veniam illum voluptate distinctio repellendus excepturi sapiente, eligendi commodi repudiandae blanditiis. Dolores accusantium perferendis quisquam error.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, culpa alias. Ipsam, eaque at dicta perspiciatis id nobis dolorum nemo ex! Reprehenderit sed impedit libero placeat! Voluptatibus facere repellat corrupti!</p>
+                    <p>Easily manage key milestones in the customer lifecycle that impact your bottom line, such as churn, renewal, and expansion trends. Quickly understand the effectiveness of customer support programs in order to grow account usage and revenue.</p>
+                    <p>Automate recurring account processes like onboarding, check-ins, and business reviews that prioritize and grow customer value.</p>
                     </div>
             </div>
             <div  className={styles.CustomerValuemaindivinner1} >
@@ -72,9 +72,9 @@ export const CustomerValue = () => {
                     {/* <img src="/Images/customersuccesshomepagephotos/screen4.png" alt="" /> */}
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
-                    <h3>Effortlesly grow customer value</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur est totam quam maxime doloribus reiciendis, sed, necessitatibus a magnam, officia suscipit recusandae consequatur voluptate praesentium qui rerum soluta accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maiores debitis et porro, fuga veniam illum voluptate distinctio repellendus excepturi sapiente, eligendi commodi repudiandae blanditiis. Dolores accusantium perferendis quisquam error.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, culpa alias. Ipsam, eaque at dicta perspiciatis id nobis dolorum nemo ex! Reprehenderit sed impedit libero placeat! Voluptatibus facere repellat corrupti!</p>
+                    <h3>Help leaders discover actionable customer trends</h3>
+                    <p>Arm customer support leaders with key account trends that are critical to business performance such as product adoption, support effectiveness, and financial health.</p>
+                    <p>Quickly understand where customers stand in meeting their goals and optimize support coverage in order to deliver customer delight!</p>
                     </div>
             </div>
         </div>

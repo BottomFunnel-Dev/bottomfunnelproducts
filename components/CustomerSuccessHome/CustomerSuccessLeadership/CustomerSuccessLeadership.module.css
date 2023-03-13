@@ -1,0 +1,20 @@
+.CustomerSuccessLeadershipMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.CustomerSuccessLeadershipImage{
+    /* border: 2px solid  red; */
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+    height: auto;
+}
+.CustomerSuccessLeadershipImage>img{
+    width: 80%;
+    height: 420px;
+    margin: auto;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { ActiveGoals } from '../../components/CustomerSuccessHome/ActiveGoals/ActiveGoals'
 import { CustomerSuccessBanner } from '../../components/CustomerSuccessHome/CustomerSuccessBanner/CustomerSuccessBanner'
+import { CustomerSuccessLeadership } from '../../components/CustomerSuccessHome/CustomerSuccessLeadership/CustomerSuccessLeadership'
 import { CustomerValue } from '../../components/CustomerSuccessHome/CustomerValue/CustomerValue'
 import { RequestDemo } from '../../components/CustomerSuccessHome/RequestDemo/RequestDemo'
 import Navbar from '../../components/Navbar/Navbar'
@@ -32,8 +33,8 @@ export default function CustomerSuccessHome() {
       }}
     />
 
-
        <CustomerSuccessBanner/>
+       <CustomerSuccessLeadership/>
        <ActiveGoals/>
        <CustomerValue/>
        <RequestDemo/>
@@ -41,8 +42,7 @@ export default function CustomerSuccessHome() {
        <Testimonial />
        <TrustedBy/>
      
-      
-      <ReadyStarted />
+       <ReadyStarted />
       {/* <TalentProfiles/> */}
       
       <LifeBottomFunnel />
