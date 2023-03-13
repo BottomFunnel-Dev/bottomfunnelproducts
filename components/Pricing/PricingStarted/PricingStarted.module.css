@@ -1,0 +1,89 @@
+.PricingStartedParent{
+    background-image: url('/Images/Pricing/StarterBackground.png');
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+    padding: 3%;
+}
+.PricingStartedParentfirstchild{
+width: 55%;
+
+margin-left: 5%;
+}
+.PricingStartedParentfirstchild>p{
+    margin-top: 2%;
+    text-align: justify;
+}
+.PricingStartedParentfirstchild>button{
+    margin-top: 5%;
+    width: 220px;
+    height: 50px;
+    background-color: #ec4f25;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.PricingStartedParentfirstchild>button:hover{
+    margin-top: 5%;
+    width: 220px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: #ec4f25;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+.PricingStartedParentSecchild{
+    width: 30%;
+    
+}
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .PricingStartedParent{
+        background-image: url('/Images/Pricing/StarterBackground.png');
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+      align-items: center;
+        padding: 5%;
+    }
+    .PricingStartedParentfirstchild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+    }
+    .PricingStartedParentfirstchild>p{
+        margin-top: 2%;
+        text-align: justify;
+    }
+    .PricingStartedParentfirstchild>button{
+        margin-top: 5%;
+        width: 220px;
+        height: 50px;
+        background-color: #ec4f25;
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .PricingStartedParentSecchild{
+        width: 100%;
+        
+    }  
+}

@@ -1,0 +1,252 @@
+.PricingAddOnsParent{
+    margin-top: 3%;
+    
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+   
+}
+.PricingAddOnsParent>h3{
+ 
+    width: 40%; 
+}
+.PricingAddOnsParent>div>button{
+   
+    height: 35px;
+    border: none;
+    background-color: #54dd4a;
+    color: white;
+    border-radius: 7px;
+    margin-top: 3%;
+}
+
+.PricingAddOnsParent>div>button:hover{
+   
+    height: 35px;
+    border: none;
+    background-color:transparent;
+    color:  lightgreen;
+    border-radius: 7px;
+    margin-top: 3%;
+}
+.PricingAddOnsParentChild{
+    margin-top: 1%;
+   
+    display: flex;
+   justify-content: space-between;
+}
+.PricingAddOnsParentChildfirst{
+  
+    height: 70vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.PricingAddOnsParentChildfirst>div{
+    width: 350px;
+    background-image: url('/Images/Pricing/Addonssmall.webp');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 18%;
+
+    padding: 5%;
+}
+.PricingAddOnsParentChildfirst>div:hover{
+    background-image: none;
+    background-color: #ec4f25;
+    color: white;
+}
+.PricingAddOnsParentChildsec{
+    width: 60%;
+    background-image: url('/Images/Pricing/Addonlarge.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 10px;
+   
+}
+.PricingAddOnsParentChildsec>h3{
+    margin-top: 5%;
+}
+.PricingAddOnsParentChildsec>div{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 3%;
+}
+.PricingAddOnsParentChildsec>div>div{
+    display: flex;
+}
+.PricingAddOnsforspace{
+   
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+.PricingAddOnsParentChildsec>button{
+    margin-top: 9%;
+    width:180px;
+    height: 50px;
+    background-color: #ec4f25;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.PricingAddOnsParentChildsec>button:hover{
+    margin-top: 9%;
+    width:180px;
+    height: 40px;
+    background-color:transparent ;
+    color: #ec4f25;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+   
+    
+
+
+    .PricingAddOnsParent{
+        margin-top: 5%;
+        
+        margin-left: 0%;
+        margin-right: 0%;
+     
+       
+    }
+    .PricingAddOnsParent>h3{
+     
+        width: 100%; 
+    }
+    .PricingAddOnsParent>div>button{
+       
+        height: 35px;
+        border: none;
+        background-color: lightgreen;
+        color: white;
+        border-radius: 7px;
+        margin-top: 3%;
+    }
+    
+    .PricingAddOnsParent>div>button:hover{
+       
+        height: 35px;
+        border: none;
+        background-color:transparent;
+        color:  lightgreen;
+        border-radius: 7px;
+        margin-top: 3%;
+    }
+    .PricingAddOnsParentChild{
+        margin-top: 1%;
+       
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+    }
+    .PricingAddOnsParentChildfirst{
+      
+        height: auto;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .PricingAddOnsParentChildfirst>div{
+        width: 100%;
+        background-image: url('/Images/Pricing/Addonssmall.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 18%;
+    margin-bottom: 2%;
+        padding: 0%;
+        align-content: center;
+    }
+    .PricingAddOnsParentChildfirst>div:hover{
+        background-image: none;
+        background-color: #ec4f25;
+        color: white;
+    }
+    .PricingAddOnsParentChildsec{
+        width: 100%;
+        background-image: url('/Images/Pricing/Addonlarge.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        border-radius: 10px;
+       
+    }
+    .PricingAddOnsParentChildsec>h3{
+        margin-top: 5%;
+    }
+    .PricingAddOnsParentChildsec>div{
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 3%;
+    }
+    .PricingAddOnsParentChildsec>div>div{
+        display: flex;
+    }
+    .PricingAddOnsforspace{
+       
+        width: 120px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .PricingAddOnsParentChildsec>button{
+        margin-top: 9%;
+        width:180px;
+        height: 40px;
+        background-color: #ec4f25;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .PricingAddOnsParentChildsec>button:hover{
+        margin-top: 9%;
+        width:180px;
+        height: 40px;
+        background-color:transparent ;
+        color: #ec4f25;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    
+}
