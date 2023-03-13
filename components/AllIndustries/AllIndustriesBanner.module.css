@@ -4,24 +4,25 @@
     background: url("/Images/Allindustries/banner/Group 1000005976.webp");
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: bottom;
+    /* background-position-y: bottom; */
+    margin-top: 4%
 }
 
 .allindustrybannerfortextbox{
-    width: 50%;
+    width: 40%;
     height: fit-content;
-    
+    /* border: 2px solid red; */
     margin-top: 12%;
     margin-left: 5%;
 }
 
 .allindustrybannerfortextbox h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
 }
 
 .allindustrybannerfortextbox p{
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
 }
 
@@ -29,18 +30,18 @@
 .allindustriesbannerbutton {
     font-size: 18px;
     font-weight: 600;
-    background: #ef4c23;
+    background: #14944C;
     color: white;
     cursor: pointer;
     margin-top: 2%;
     padding: 10px 50px;
     border-radius: 100px;
-    border: 2px solid #ef4c23;
+    border: 2px solid #14944C;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   
   .allindustriesbannerbutton:hover {
-    color: #ef4c23;
+    color: #14944C;
     background: white;
   }

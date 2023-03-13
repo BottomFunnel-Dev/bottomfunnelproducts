@@ -5,7 +5,7 @@
     background-image: url("/Images/Bottomfunnelomnichannelphotos/bannerbg.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 15%;
     margin-top: 50px;
 }
 .BottomFunnelOmnichannelBannerinnerdiv{
@@ -16,8 +16,8 @@
     width: 85%;
     margin: auto;
     justify-content: space-between;
-align-items: center;
-padding-top: 7%;
+    align-items: center;
+    padding-top: 7%;
 /* margin-top: 20%; */
 
 }
@@ -30,15 +30,14 @@ padding-top: 7%;
     height: 40px;
     border-radius: 10px;
     color: white;
-    background-color: #ef4c23;
-
-
+    background-color: #14944C;
+    margin-top: 5%;
 }
 
 .BottomFunnelOmnichannelBannerbutton:hover{
     background: white;
-    color: #ef4c23;
-    border: 1px solid #ef4c23;
+    color: #14944C;
+    border: 1px solid #14944C;
 }
 .BottomFunnelOmnichannelBannerimage{
     /* border: 2px solid yellow; */
@@ -48,13 +47,16 @@ padding-top: 7%;
 .BottomFunnelOmnichannelBannercontent{
     /* border: 2px solid green; */
     /* margin: auto; */
-    width: 35%;
+    height: 300px;
+    width: 45%;
     margin-left: 2%;
-}
-.BottomFunnelOmnichannelBannercontent h1{
-    margin: 0%;
+    margin-top: 5%;
 }
 
+.BottomFunnelOmnichannelBannercontent p{
+    margin-top: 7%;
+    color: white;
+}
 
 @media (max-width: 1024px) {
     .BottomFunnelOmnichannelBannermaindiv{
@@ -63,7 +65,7 @@ padding-top: 7%;
         height: fit-content;
         background-image: none;
         /* background-image: url("/Images/Bottomfunnelomnichannelphotos/bannerbg.webp"); */
-        background: linear-gradient(to top,#ebcf35, #ef4c23  );
+        background: linear-gradient(to top,#ebcf35, #14944C  );
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -94,20 +96,19 @@ padding-top: 7%;
         height: 40px;
         border-radius: 10px;
         color: white;
-        background-color: #ef4c23;
+        background-color: #14944C;
         /* padding-bottom: 10px; */
-    
+        border: 2px solid red;
     
     }
     
     .BottomFunnelOmnichannelBannerbutton:hover{
         background: white;
-        color: #ef4c23;
-        border: 1px solid #ef4c23;
+        color: #14944C;
+        border: 1px solid #14944C;
     }
     .BottomFunnelOmnichannelBannerimage{
-        /* border: 2px solid yellow; */
-        
+        border: 2px solid yellow;
         width: 90%;
     }
     .BottomFunnelOmnichannelBannercontent{

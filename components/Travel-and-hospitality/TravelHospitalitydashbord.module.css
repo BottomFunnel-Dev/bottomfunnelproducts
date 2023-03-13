@@ -1,11 +1,12 @@
 .travelhositalitydasmainboxes{
     height: fit-content;
-
+    /* border: 2px solid red; */
 }
 
 .travelhospitalitydasdatamappingondi{
     display: flex;
     margin: 2%;
+    /* border: 2px solid red; */
 }
 .travelhospitalitydasdatamappingondi:nth-child(3){
     display: flex;
@@ -47,6 +48,8 @@
 }
 
 .travelhospitalitydashrightbox{
-    width: 50%;
-    height: 70vh;
+    width: 35%;
+    height: 50vh;
+    margin-left: 10%;
+    /* border: 2px solid red; */
 }

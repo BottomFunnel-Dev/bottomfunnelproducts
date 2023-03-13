@@ -17,11 +17,11 @@
   text-align: center;
   width: 25%;
   border-radius: 10px;
-  background-color: #f9e4cc;
+  background-color: #c6eed7;
 }
 .supportbox > div p {
   line-height: 20px;
 }
 .supportbox > div:hover {
-  background-color: #f0cece;
+  background-color: #b8f2d1;
 }

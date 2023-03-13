@@ -103,13 +103,13 @@ export const TravelHospitalitydashbord = () => {
             </div>
             <div className={styles.travelhospitalitydashrightbox}>
             <Image
-          src={e.img}
-          alt={"img"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%", objectFit:"contain", padding:"5px" }}
-        />
+                src={e.img}
+                alt={"img"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%", objectFit:"contain", padding:"5px" }}
+                />
             </div>
             
             </div>

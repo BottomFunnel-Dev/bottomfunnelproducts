@@ -49,11 +49,6 @@ export default function FunnelDesk() {
       <LifeBottomFunnel />
       {/* <GetStarted /> */}
       <ProductsFooter />
-
-
-
-
-
     </div>
   );
 }

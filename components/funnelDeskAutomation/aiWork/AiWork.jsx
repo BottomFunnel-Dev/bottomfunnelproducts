@@ -20,14 +20,14 @@ export const AiWork = () => {
             </p>
           </div>
           <span>
-            <Image
-              src={"/Images/funneldeskAutomation/aiwork.gif"}
-              alt="funneldeskAutomation/aiwork.gif"
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
+          <lottie-player
+                  src={"/Animation/Automation/three.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+          </lottie-player>
           </span>
         </div>
       </div>

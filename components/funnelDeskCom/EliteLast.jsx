@@ -25,7 +25,14 @@ export const EliteLast = () => {
           <h5>Explore now</h5>
         </div>
         <div className={styles.rightGifSide}>
-          <img src="Images/BottomFunnelDeskPhotos/chats.gif" alt="queries" />
+            <lottie-player
+                  src={"/Animation/Supportdesk/chat.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
         </div>
       </div>
     </div>

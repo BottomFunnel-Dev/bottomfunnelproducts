@@ -28,7 +28,14 @@ export const EliteServices = () => {
           <h5>Explore now</h5>
         </div>
         <div className={styles.gifSide}>
-          <img src="Images/BottomFunnelDeskPhotos/queries.gif" alt="queries" />
+            <lottie-player
+                  src={"/Animation/Supportdesk/supportdesk.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
         </div>
       </div>
 
@@ -50,7 +57,14 @@ export const EliteServices = () => {
           <h5>Explore now</h5>
         </div>
         <div className={styles.gifSide}>
-          <img src="Images/BottomFunnelDeskPhotos/desktop.gif" alt="queries" />
+           <lottie-player
+                  src={"/Animation/Supportdesk/feildservice.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
         </div>
       </div>
 
@@ -72,7 +86,14 @@ export const EliteServices = () => {
           <h5>Explore now</h5>
         </div>
         <div className={styles.gifSide}>
-          <img src="Images/BottomFunnelDeskPhotos/problems.gif" alt="queries" />
+            <lottie-player
+                  src={"/Animation/Supportdesk/contactcentre.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
         </div>
       </div>
     </div>

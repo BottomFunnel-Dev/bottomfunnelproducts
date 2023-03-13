@@ -21,9 +21,10 @@
     width: 15%;
     margin: 2%;
     padding: 10px;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: black;
     border-radius: 10px;
+    /* border: 2px solid red; */
 }
 
 .customerdelightdatamapingindi:hover{
@@ -50,4 +51,11 @@
 
 .customerdelightdatamappingtxt{
     text-align: center;
+    /* border: 2px solid red; */
+}
+.customerdelightdatamappingtxt>p{
+    font-size:14px;
+}
+.customerdelightdatamappingtxt>h4{
+    font-size:18px;
 }

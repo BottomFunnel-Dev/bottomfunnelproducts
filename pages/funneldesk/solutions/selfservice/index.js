@@ -14,6 +14,7 @@ import { GetStarted } from "../../../../components/ProductsNewPage/GetStarted/Ge
 import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import { IntegrationFooter } from "../../../../components/FeaturedIntegrationPage/Integrationfooter/IntegrationFooter";
 
 export default function funnelDeskSelfService() {
   return (
@@ -38,7 +39,8 @@ export default function funnelDeskSelfService() {
       <SelfServiceCustomerAnswer />
       <SelfServiceContent />
       <SelfServiceCustomerHelp />
-
+      <IntegrationFooter/>
+      
       <Testimonial/>
       <TrustedBy/>
       <ReadyStarted/>

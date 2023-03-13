@@ -16,29 +16,28 @@ export const OmnichannelSolution = () => {
                 <h5>Delight customers effortlessly</h5>
                 <div className={styles.OmnichannelSolutionimage}>
                 <Image
-          src={"/Images/Bottomfunnelomnichannelphotos/logo1.webp"}
-          alt={"Image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+                  src={"/Images/Bottomfunnelomnichannelphotos/logo1.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
                 </div>
                 <p>Simplify every experience and put customers back in control by offering the support they expect, in their channel of choice.</p>
-
             </div>
 
             <div className={styles.OmnichannelSolutioncards}>
                 <h5>Make every agent a customer champion</h5>
                 <div className={styles.OmnichannelSolutionimage}>
                 <Image
-          src={"/Images/Bottomfunnelomnichannelphotos/logo2.webp"}
-          alt={"Image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+                  src={"/Images/Bottomfunnelomnichannelphotos/logo2.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
                 </div>
                 <p>Give agents more context and automation to proactively understand customer needs and offer the next-best-action.</p>
 
