@@ -1,5 +1,6 @@
 .FeatureListMain{
     display: flex;
+    /* border: 2px solid red; */
 }
 .FeatureListimg{
     margin: auto;
@@ -10,8 +11,7 @@
     
 }
 .FeatureListcontain{
-    margin-right: 80px;
-    
+    margin: auto;
 }
 .FeatureListcontain>button{
     margin: 0;

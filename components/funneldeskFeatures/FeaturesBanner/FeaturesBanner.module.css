@@ -9,14 +9,6 @@
     width: 45%;
 }
 
-.featuresBannerContainer>div>h1 {
-    font-size: 40px;
-}
-
-.featuresBannerContainer>div>p {
-    font-size: 20px;
-}
-
 .featuresBannerContainer>div>button {
     font-size: 18px;
     font-weight: 600;

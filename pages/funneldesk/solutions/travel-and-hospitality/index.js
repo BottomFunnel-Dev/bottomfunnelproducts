@@ -1,4 +1,5 @@
 import React from 'react'
+import { IntegrationFooter } from '../../../../components/FeaturedIntegrationPage/Integrationfooter/IntegrationFooter'
 import Navbar from '../../../../components/Navbar/Navbar'
 import { ProductsNavbar } from '../../../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import LifeBottomFunnel from '../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
@@ -31,13 +32,14 @@ export default function travelhositality ()  {
 />
     <Travelandhospitalitybanner />
     <TravelHospitalitydashbord />
-    <TrustedBy />
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      {/* <TalentProfiles/> */}
-      <LifeBottomFunnel />
-      <ProductsFooter />
+ 
+    <IntegrationFooter/>
+    <Testimonial/>
+    <TrustedBy/>
+    <ReadyStarted/>
+    {/* <TalentProfiles/> */}
+    <LifeBottomFunnel />
+    <ProductsFooter />
     
     </div>
   )

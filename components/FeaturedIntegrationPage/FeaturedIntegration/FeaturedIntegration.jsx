@@ -17,7 +17,7 @@ export const FeaturedIntegration = () => {
                 <img src={img.src} alt={img.alt}></img>
               </div>
               <div className={style.FeaturedIntegrationcontain}>
-                <h2>{title}</h2>
+                <h4>{title}</h4>
                 <p>{para}</p>
                 <p className={style.FeaturedIntegrationcontainpar}>
                   {point.one}

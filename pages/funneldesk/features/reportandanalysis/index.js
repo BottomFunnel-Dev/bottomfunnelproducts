@@ -14,6 +14,7 @@ import ReportAndAnalysisLower from "../../../../components/funnelDeskReportAndAn
 import ReportAndAnalysisCards from "../../../../components/funnelDeskReportAndAnalysis/ReportAndAnalysisCards/ReportAndAnalysisCards";
 import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import { IntegrationFooter } from "../../../../components/FeaturedIntegrationPage/Integrationfooter/IntegrationFooter";
 
 export default function funnelDeskReportAndAnalysis() {
   return (
@@ -37,8 +38,7 @@ export default function funnelDeskReportAndAnalysis() {
       <ReportAndAnalysisTransform/>
       <ReportAndAnalysisReports/>
       <ReportAndAnalysisCards/>
-      <ReportAndAnalysisLower/>
-    
+      <IntegrationFooter/>
 
       <Testimonial/>
       <TrustedBy/>
