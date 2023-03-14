@@ -28,20 +28,37 @@
 
 
 .allindustriesbannerbutton {
-    font-size: 18px;
-    font-weight: 600;
     background: #14944C;
+    width: 30%;
+    height: 45px;
     color: white;
     cursor: pointer;
     margin-top: 2%;
-    padding: 10px 50px;
-    border-radius: 100px;
+    border-radius: 5px;
     border: 2px solid #14944C;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   
   .allindustriesbannerbutton:hover {
+    color: #14944C;
+    background: white;
+  }
+  .allindustriesbannerbutton1 {
+    background: #14944C;
+    width: 30%;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 5px;
+    border: 2px solid #14944C;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .allindustriesbannerbutton1:hover {
     color: #14944C;
     background: white;
   }
