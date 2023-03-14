@@ -26,7 +26,7 @@ export const CustomerValue = () => {
 
             <div  className={styles.CustomerValuemaindivinner1} >
                 <div className={styles.CustomerValuemaindivimage}>
-                   <lottie-player
+                    <lottie-player
                         src={"/Animation/customerSucess/second.json"}
                         background="transparent"
                         speed="1"
@@ -69,7 +69,6 @@ export const CustomerValue = () => {
                         autoplay
                         >
                     </lottie-player>
-                    {/* <img src="/Images/customersuccesshomepagephotos/screen4.png" alt="" /> */}
                 </div>
                 <div className={styles.CustomerValuemaindivcontain} >
                     <h3>Help leaders discover actionable customer trends</h3>

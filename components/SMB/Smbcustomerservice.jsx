@@ -9,15 +9,15 @@ export const Smbcustomerservice = () => {
             htxt:"Unify customer conversations",
             stxt:"Bring all customer issues from email,chat, phone or social media into bottom funnel, keep customers happy by creating fast, personalized customer experiences across channels.",
             link:"Learn more about multichannel support",
-            img:"/Images/SMB/SMB-1 Animation.gif",
+            img:"/Animation/SMB/one.json",
             icon:"/Images/SMB/Rectangle 9.webp",
         },
 
         {
-            htxt:"Spped up resolutions",
+            htxt:"Speed up resolutions",
             stxt:"Save time by automating routine, time-consuming actions, including routing customer request,following up, and gathering feedback.Answer questions in a click with canned responses.",
             link:"Increase agent productivity and engagement",
-            img:"/Images/SMB/SMB-2 Animation.gif",
+            img:"/Animation/SMB/two.json",
             icon:"/Images/SMB/Rectangle 10-1.webp",
         },
 
@@ -25,17 +25,17 @@ export const Smbcustomerservice = () => {
             htxt:"Help Customers help themselves",
             stxt:"Enable customers to find answer on their own by publishing an on-brand FAQ portal.Self-service",
             link:"Offer self-service with FAQ portals",
-            img:"/Images/SMB/SMB-3 Animation.gif",
+            img:"/Animation/SMB/three.json",
             icon:"/Images/SMB/Rectangle 11.webp",
         },
 
-        {
-            htxt:"Get actionable insights",
-            stxt:"Track key metrics such as customer satisfaction score and average response time using customizable dashboards and reports to measure performance, increase accountability and make better decisions.",
-            link:"Utilize reports to support better",
-            img:"/Images/SMB/Group 46.webp",
-            icon:"/Images/SMB/Rectangle 10.webp",
-        },
+        // {
+        //     htxt:"Get actionable insights",
+        //     stxt:"Track key metrics such as customer satisfaction score and average response time using customizable dashboards and reports to measure performance, increase accountability and make better decisions.",
+        //     link:"Utilize reports to support better",
+        //     img:"/Images/SMB/Group 46.webp",
+        //     icon:"/Images/SMB/Rectangle 10.webp",
+        // },
     ]
   return (
     <div className={styles.smbcustomerservicemainboxes}>
@@ -65,14 +65,14 @@ export const Smbcustomerservice = () => {
             
             </div>
             <div className={styles.smbcustomerindirightbox}>
-            <Image
-            src={e.img}
-            alt={"images"}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" , objectFit:"contain", padding:"5px"}}
-          />
+              <lottie-player
+                src={e.img}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+              </lottie-player>
             
             
             </div>            

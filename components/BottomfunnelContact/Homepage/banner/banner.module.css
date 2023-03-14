@@ -12,6 +12,8 @@
 .bannercontent {
   width: 30%;
   position: relative;
+  /* border: 2px solid red; */
+  margin-top: 5%;
 }
 .bannercontent > div {
   width: 100%;

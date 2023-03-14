@@ -11,10 +11,10 @@
 .setupContent p {
   display: flex;
   align-items: center;
-  font-size: 18px;
   text-decoration: underline;
   cursor: pointer;
   color: #14944C;
+  margin-left: 32px;
 }
 
 .setupContent p>i {

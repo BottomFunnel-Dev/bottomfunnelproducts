@@ -1,46 +1,40 @@
-.fieldservicemanagementbannermain{
-    height: fit-content;
-    border: 1px solid transparent;
-    margin-top: 10%;
-}
-
-.fieldservicemanagementbannerflexbox{
+.fieldServiceBannerMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height:100vh;
     display: flex;
-    margin-top: 2%;
-    margin-left: 3%;
+    flex-direction: row;
+    /* margin-top: 7%; */
 }
-
-.fieldservicemanagementleftbox{
-    width: 50%;
-    height: fit-content;
+.fieldServiceBannerHeadings{
+    /* border: 2px solid red; */
+    width: 40%;
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 20%;
 }
-
-.fieldservicemanagementleftbox>h1{
-    font-weight: 700;
-    font-size: 35px;
+.fieldServiceBannerImage{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 450px;
+    margin: auto;
+    margin-top: 12%;
 }
-
-.fieldservicemanagementrightbox{
-    height: 300px;
-    width: 50%;
-    border-bottom: 3px solid #14944C;
-}
-
-.filedbannerbutton {
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: fit-content;
-    background-color: #14944C;
-    border: none;
+.fieldServiceBannerHeadings > button {
+    width: 25%;
+    height: 45px;
+    border-radius: 5px;
     outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
+    border: 2px solid #12944D;
+    background: #12944D;
     color: white;
-    margin-top: 4%;
+    cursor: pointer;
   }
   
-  .filedbannerbutton:hover {
-    background-color: white;
-   color: #14944C;
+.fieldServiceBannerHeadings > button:hover {
+    background: white;
+    color: #12944D;
   }
+.fieldserviceBannerButton{
+    margin-left: 2%;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Fieldservicemanagementbanner } from '../../../../components/FieldServiceManagement/Fieldservicemanagementbanner'
+import { FieldservicemanagementExperience } from '../../../../components/FieldServiceManagement/FieldservicemanagementExperience'
 import { ServiceExperience } from '../../../../components/FieldServiceManagement/ServiceExperience'
 import { Servicemanagementscreens } from '../../../../components/FieldServiceManagement/Servicemanagementscreens'
 import { Stellerfieldservice } from '../../../../components/FieldServiceManagement/Stellerfieldservice'
@@ -33,6 +34,7 @@ export default function FieldServiceManagement  ()  {
 />
     
     <Fieldservicemanagementbanner />
+    <FieldservicemanagementExperience/>
     <Servicemanagementscreens/>
     <Stellerfieldservice />
     

@@ -17,6 +17,7 @@ export const CollaborationBanner = () => {
           provide quick and consistent answers to your customers.
         </p>
         <button>Get Started</button>
+        <button className={styles.collabBannerButtton}>Request Demo</button>
       </div>
     </div>
   );

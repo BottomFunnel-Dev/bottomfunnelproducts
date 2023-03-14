@@ -17,12 +17,6 @@ export const Servicemanagementscreens = () => {
             img:"/Images/Feild Service Management/Screens/Intelligently engage.webp",
         },
 
-        {
-            htxt:"Stay connected with iOS and Android apps",
-            stxt:"Enable field employees to access customer information even when offline and deliver customer service anywhere.",
-            img:"/Images/Feild Service Management/Screens/Stay connected with iOS.webp",
-        },
-
     ]
   return (
     <div className={styles.servicemanagementscreensmainbox}>{servicemanagementscreensdata.map((e)=>{
@@ -51,7 +45,35 @@ export const Servicemanagementscreens = () => {
             </div>
         )
     })}
+    
+            <div className={styles.servicemanaindiflexbox}>
+            <div className={styles.servicemainindileftboxes}>
+            <h1>Stay connected with iOS and Android apps</h1>
+            <p>Enable field employees to access customer information even when offline and deliver customer service anywhere.</p>
+            
+            </div>
 
+            <div className={styles.servicemainindirightboxes}>
+            <Image
+                src={"/Images/Feild Service Management/Screens/Stay connected with iOS.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" ,objectFit:"contain"}}
+                />
+           <Image
+                src={"/Images/Feild Service Management/Screens/model-1.png"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" ,objectFit:"contain"}}
+                />
+            
+            </div>
+            
+            </div>
     
     </div>
   )

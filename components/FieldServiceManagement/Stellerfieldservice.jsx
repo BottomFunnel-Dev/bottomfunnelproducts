@@ -29,7 +29,7 @@ export const Stellerfieldservice = () => {
     ]
   return (
     <div className={styles.stellerfieldservicemainboxes}>
-    <h1>Everything you need to deliver stellar field service</h1>
+    <h3>Everything you need to deliver stellar field service</h3>
     <div className={styles.stellerfieldservicedatamaping}>{stellerfielddata.map((e)=>{
         return (
             <div className={styles.stellerfieldserviceindi}>
@@ -55,7 +55,7 @@ export const Stellerfieldservice = () => {
     })}</div>
     
 
-    <h1>Go the extra mile for your customers.Literally.</h1>
+    <h3>Go the extra mile for your customers.Literally.</h3>
     <button className={styles.stellerservicebutton}>TRY FIELD SERVICE MANAGEMENT FOR FREE</button>
 
 

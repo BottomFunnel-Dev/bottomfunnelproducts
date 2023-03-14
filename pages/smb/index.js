@@ -8,6 +8,7 @@ import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonia
 import { Smbbanner } from '../../components/SMB/Smbbanner'
 import { Smbcustomerservice } from '../../components/SMB/Smbcustomerservice'
 import { Smbfooter } from '../../components/SMB/Smbfooter'
+import { SmbInsight } from '../../components/SMB/SmbInsight'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 
 export default function SMB  ()  {
@@ -32,6 +33,7 @@ export default function SMB  ()  {
 
     <Smbbanner />
     <Smbcustomerservice />
+    <SmbInsight/>
     <Smbfooter />
 
     <TrustedBy />
