@@ -2,47 +2,34 @@
     height: 100vh;
     width: 100%;
     border: 1px solid transparent;
-    /* margin-top: 120px; */
-    background-image: url("/Images/financesalesimage/bannerbg.webp");
-    
+    background-image: url("/Images/realestatesales/Sales banner background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    /* background-color: #ef4c23; */
-    /* margin-top: 100px; */
+    justify-content: space-around;
+  
+  }
+  .FinanceHomebannerannimation{
+    width: 45%;
   }
 
-
-  
-  .FinanceHomebannermainboxinnertextdiv {
-    /* height: 50%; */
-    width: 37%;
-  
-    /* margin-top: 20%; */
-    margin-left: 5%;
-    /* text-align: center; */
+.FinanceHomebannermainboxinnertextdiv {
+ width: 40%;
   }
   
   .FinanceHomebannermainboxinnertextdiv > h1 {
-    color: white;
     font-size: 40px;
-    /* font-weight: 600; */
-
-  }
-  .FinanceHomebannermainboxinnertextdiv > p {
-    color: white;
-    margin-top: 5%;
-    font-size: 19px;
-    /* font-weight: 500; */
-  }
+   }
+ 
   
   .FinanceHomebannerbutton {
-    padding: 10px 50px;
+  
     border-radius: 10px;
-    width: 250px;
-    height: 50px;
+    width: 220px;
+    height: 40px;
     background-color: #ef4c23;
     border: none;
     outline: none;
@@ -56,5 +43,6 @@
   .FinanceHomebannerbutton:hover {
     background-color: white;
     color: #ef4c23;
+    border: 1px solid #ef4c23;
   }
   

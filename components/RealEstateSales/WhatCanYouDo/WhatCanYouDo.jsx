@@ -25,7 +25,7 @@ export const WhatCanYouDo = () => {
            
             <p className={style.WhatCanYouDomore}>Learn More</p>
             <div className={style.WhatCanYouDoimagediv}>
-                <img src="Images/realestatesales/solution.png" alt="image" />
+                <img src="Images/realestatesales/solution1.webp" alt="image" />
             </div>
         
        
@@ -39,7 +39,7 @@ export const WhatCanYouDo = () => {
          
           <p className={style.WhatCanYouDomore}>Learn More</p>
             <div className={style.WhatCanYouDoimagediv}>
-                <img src="Images/realestatesales/revanue1.png" alt="image" />
+                <img src="Images/realestatesales/revanue2.webp" alt="image" />
             </div>
         
        

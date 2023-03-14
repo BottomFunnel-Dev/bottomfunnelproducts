@@ -1,16 +1,17 @@
 .EducationSalesBannermaindiv{
-    /* border: 2px solid green; */
-    background: url("/Images/Educationsales/bgbanner.webp");
+
+    background: url("/Images/realestatesales/Sales banner background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    color: white;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-around;
 }
 .EducationSalesBannermaindivbutton{
-    /* border: 2px solid yellow; */
+ 
     width: 220px;
     height: 40px;
     color: white;
@@ -28,7 +29,10 @@
     background-color: white;
 }
 .EducationSalesBannermaindivinner{
-    width: 35%;
-    margin-left: 5%;
-    /* margin: auto; */
+    width: 40%;
+   
 }
+.EducationSalesBannerannimation{
+    width: 45%;
+}
+
