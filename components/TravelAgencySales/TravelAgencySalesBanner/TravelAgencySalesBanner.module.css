@@ -1,13 +1,18 @@
 .TravelAgencySalesBannermaindiv{
     /* border: 2px solid green; */
-    background: url("/Images/Travelagencysales/bgbanner.webp");
+    background: url("/Images/Travelagencysales/Banner Travel Agency.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    color: white;
+    /* color: white; */
     display: flex;
     align-items: center;
+    justify-content: right;
+}
+.TravelAgencySalesBannermaindivinner{
+    margin-right: 10%;
+    margin-bottom: 4%
 }
 .TravelAgencySalesBannermaindivbutton{
     /* border: 2px solid yellow; */

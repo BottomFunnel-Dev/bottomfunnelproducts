@@ -3,13 +3,14 @@
     width: 100%;
     /* border: 1px solid transparent; */
     /* margin-top: 120px; */
-    background-image: url("/Images/Agencyhomepagephotos/agencybanner.webp");
+    background-image: url("/Images/Agencyhomepagephotos/Banner agency.webp");
     
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
+    justify-content: right;
     /* background-color: #ef4c23; */
     /* margin-top: 100px; */
   }
@@ -21,18 +22,18 @@
     width: 37%;
   
     margin-top: 4%;
-    margin-left: 4%;
+    margin-right: 4%;
     /* text-align: center; */
   }
   
   .AgencySalesbannermainboxinnertextdiv > h1 {
-    color: white;
+    /* color: w; */
     font-size: 40px;
     /* font-weight: 600; */
 
   }
   .AgencySalesbannermainboxinnertextdiv > p {
-    color: white;
+    /* color: white; */
     margin-top: 5%;
     font-size: 19px;
     /* font-weight: 500; */
