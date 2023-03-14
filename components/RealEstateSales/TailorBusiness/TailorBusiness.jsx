@@ -15,7 +15,7 @@ export const TailorBusiness = () => {
            
             <p className={style.TailorBusinessmore}>Learn More</p>
             <div className={style.TailorBusinessimagediv}>
-                <img src="Images/realestatesales/tailor.png" alt="image" />
+                <img src="Images/realestatesales/tailor1.webp" alt="image" />
             </div>
         
        
@@ -28,7 +28,7 @@ export const TailorBusiness = () => {
           <p>Bottom Funnel Sales  real estate CRM can also auto-assign your prospects to the right agent based on the geography, lead source, etc., in a fair and round-robin fashion. Now, you do not only get rid of manually assigning leads, but you can also boost your lead response time.</p>
           <p className={style.TailorBusinessmore}>Learn More</p>
             <div className={style.TailorBusinessimagediv}>
-                <img src="Images/realestatesales/cpture.png" alt="image" />
+                <img src="Images/realestatesales/cpture1.webp" alt="image" />
             </div>
         
        

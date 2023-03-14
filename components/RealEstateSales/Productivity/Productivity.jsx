@@ -35,7 +35,7 @@ export const Productivity = () => {
           <p>Bottom Funnel Sales software for real estate gives you real-time insights into business-critical metrics in a single dashboard and analyzes performance. You can create custom dashboards for sales to view the numbers at a glance anytime or automate to send the reports to your inbox at regular intervals. </p>
           <p className={style.Productivitymore}>Learn More</p>
             <div className={style.Productivityimagediv}>
-                <img src="Images/realestatesales/insightful.png" alt="image" />
+                <img src="Images/realestatesales/insightful1.webp" alt="image" />
             </div>
         
        
