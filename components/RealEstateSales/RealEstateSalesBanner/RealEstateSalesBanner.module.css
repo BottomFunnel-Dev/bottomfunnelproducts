@@ -1,41 +1,27 @@
 .RealEstateSalesbannermainbox {
     height: 100vh;
     width: 100%;
-    border: 3px solid white;
-    /* margin-top: 120px; */
-    background-image: url("/Images/realestatesales/banner.png");
+    border: 1px solid white;
+    background-image: url("/Images/realestatesales/Sales banner background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* margin-top: 100px; */
-  }
-
-
-  
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    }
   .RealEstateSalesbannermainboxinnertextdiv {
-    height: 50%;
-    width: 37%;
-  
-    margin-top: 18%;
-    margin-left: 3%;
-    /* text-align: center; */
+   width: 40%;
+    }
+  .RealEstateSalesbannermainboxannimation{
+   width: 45%;
   }
-  
   .RealEstateSalesbannermainboxinnertextdiv > h1 {
-    color: white;
     font-size: 40px;
-    /* font-weight: 600; */
-
-  }
-  .RealEstateSalesbannermainboxinnertextdiv > p {
-    color: white;
-    margin-top: 7%;
-    font-size: 16px;
-    /* font-weight: 500; */
-  }
-  
-  .RealEstateSalesbannerbutton {
-    padding: 10px 50px;
+   }
+   .RealEstateSalesbannerbutton {
+    height: 40px;
     border-radius: 10px;
     width: 220px;
     background-color: #ef4c23;
@@ -47,9 +33,9 @@
     color: white;
     margin-top: 22px;
   }
-  
   .RealEstateSalesbannerbutton:hover {
     background-color: white;
     color: #ef4c23;
+    border: 1px solid #ef4c23;
   }
   

@@ -9,8 +9,18 @@ export const HealthcareSalesBanner = () => {
    <div className={styles.HealthcareSalesBannermaindivinner}>
     <h1 >Healthcare CRM </h1>
     <p>Manage appointments, keep track of patient records, get visibility into the status of every bill, and retain patients by building trust with a modern healthcare CRM.</p>
-   <button className={styles.HealthcareSalesBannermaindivbutton}>Try for Free</button>
+   <button className={styles.HealthcareSalesBannermaindivbutton}>Start your Free Trial</button>
    </div>
+   <div className={styles.HealthcareSalesBannerannimation}>
+     <lottie-player
+                  src={"/Animation/salesindustriesanimation/Health care.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
+  </div>
     </div>
     </div>
   )

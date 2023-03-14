@@ -8,8 +8,18 @@ export const SaaSHomePageBanner = () => {
     <div className={style.SaaSHomePagebannermainboxinnertextdiv}>
     <h1>Bottom Funnel for SaaS Business</h1>
     <p>No more juggling between multiple tools to view customer data. Sales & marketing automation, predictive contact scoring, behavioral analytics, telephony, email, and chat—all, in one solution. </p>
-    <button className={style.SaaSHomePagebannerbutton}>TRY FOR FREE</button>
+    <button className={style.SaaSHomePagebannerbutton}>Start Your Free Trial</button>
     </div>
+    <div className={style.SaaSHomePagebannerannimation}>
+     <lottie-player
+                  src={"/Animation/salesindustriesanimation/SaaS.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
+  </div>
   </div>
   </div>
   )

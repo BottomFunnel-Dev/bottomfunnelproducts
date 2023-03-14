@@ -13,8 +13,19 @@ export const LogisticSalesBanner = () => {
     <div className={style.LogisticSalesbannermainboxinnertextdiv}>
     <h1>CRM for Logistics</h1>
     <p>Improve speed, time, and quality of customer service with a  frist-rate CRM for Logistics </p>
-    <button className={style.LogisticSalesbannerbutton}>TRY FOR FREE</button>
+    <button className={style.LogisticSalesbannerbutton}>Start Your Free Trial</button>
     </div>
+
+    <div className={style.LogisticSalesbannerannimation}>
+     <lottie-player
+                  src={"/Animation/salesindustriesanimation/Logistics.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
+  </div>
   </div>
 
     </div>
