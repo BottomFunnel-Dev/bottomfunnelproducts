@@ -4,27 +4,25 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   /* border: 2px solid green; */
 }
 
 .SalesPageBannermainboxinnertextdiv {
-  height: 50%;
-  width: 50%;
-  margin-top: 15%;
-  margin-left: 3%;
+  
+  width: 40%;
+  
+ 
 
 }
 .SalesPageBannermainboximage {
   width: 40%;
-  margin-top: 5%;
-  margin-top: 8%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ 
+
 }
 .SalesPageBannermainboxinnertextdiv > h1 {
   color: black;
-  font-size: 42px;
+  font-size: 40px;
 }
 .SalesPageBannermainboxinnertextdiv > p {
   color: black;
