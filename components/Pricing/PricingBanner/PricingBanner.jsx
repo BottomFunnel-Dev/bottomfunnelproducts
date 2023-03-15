@@ -9,7 +9,7 @@ export const PricingBanner = () => {
             <button>Sign Up For Free</button>
             <div className={styles.PricingBannerParentonlychild}>
                
-                <button className={styles.PricingBannerParentbuttonborder}>Bottom Funnel Desk </button>
+                <button className={styles.PricingBannerParentbuttonborder}  >Bottom Funnel Desk </button>
                 <button className={styles.PricingBannerParentbuttonborder}>Bottom Funnel Chat </button>
                 <button className={styles.PricingBannerParentbuttonborder}>Bottom Funnel Sales</button>
                 <button className={styles.PricingBannerParentbuttonborder}>Bottom Funnel Services</button>

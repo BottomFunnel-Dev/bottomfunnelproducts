@@ -1,0 +1,8 @@
+
+.AllProductsBannerparent{
+    background-image: url('/Images/AllProducts/Banner.Webp');
+    
+
+    width: 100%;
+    height: 100vh;
+}
