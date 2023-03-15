@@ -24,7 +24,7 @@ const nextConfig = {
       },
       {
         source: "/mongodb",
-        destination:"https://service.bottomfunnel.net/skills/mongodb",
+        destination: "https://service.bottomfunnel.net/skills/mongodb",
         permanent: true,
         basePath: false,
       },
@@ -102,7 +102,8 @@ const nextConfig = {
       },
       {
         source: "/wearable-app-development",
-        destination: "https://service.bottomfunnel.net/wearable-app-development",
+        destination:
+          "https://service.bottomfunnel.net/wearable-app-development",
         permanent: true,
         basePath: false,
       },
@@ -111,7 +112,7 @@ const nextConfig = {
         destination: "https://service.bottomfunnel.net/industries/ecommerce",
         permanent: true,
         basePath: false,
-      }
+      },
     ];
   },
 };
