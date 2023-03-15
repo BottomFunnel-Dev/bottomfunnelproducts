@@ -1,0 +1,207 @@
+.CrmProductsmaindiv{
+    background-color: whitesmoke;
+    border: 1px solid transparent;
+    padding-bottom: 2%;
+    margin-top: 4%;
+    
+}
+
+.CrmProductsinnersecond{
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+    padding: 2%;
+    /* border: 2px solid; */
+    margin-top: 5%;
+
+}
+.CrmProductsinnersecondbutton{
+     color: white;
+     background-color: #ef4c23;
+     border:none;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: 600;
+     width: 110px;
+     height: 40px;
+}
+.CrmProductsinnersecondbutton:hover{
+    background-color: white;
+
+}
+.CrmProductsinnerthird{
+    display: flex;
+    flex-direction: row;
+     margin: auto;
+    width: 87%;
+    /* border: 2px solid; */
+    margin-top: 5%;
+}
+.CrmProductsinnerthirdcards{
+    /* border: 2px solid red; */
+    padding: 3.5%;
+    width: 24%;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.CrmProductsinnerthirdcardslogo{
+    width: 80px;
+    height: 80px;
+   position: absolute;
+   margin-top: -25%;
+}
+.CrmProductsinnerthirdcardscontent{
+    text-align: center;
+    margin-top: 8%;
+}
+.CrmProductsinnerthirdcardsbutton{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.CrmProductsinnerthirdcardsbutton1{
+margin-top: 8%;
+color: white;
+background-color: #129748;
+font-size: 18px;
+font-weight: 600;
+border: none;
+width: 120px;
+height: 40px;
+border-radius:5px ;
+/* padding: 10px; */
+}
+.CrmProductsinnerthirdcardsbutton1:hover{
+    background-color: white;
+    color: #129748;
+
+    border: 1px solid #129748;
+}
+
+.CrmProductsinnerthirdcardsbutton2{
+    margin-top: 8%;
+    text-decoration: underline;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.CrmProductsinnerthirdone{
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+  
+}
+.CrmProductsinnerthirdoneinner{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    /* border: 2px solid red; */
+    /* margin: auto; */
+}
+.CrmProductsinnerthirdcards1{
+    /* border: 2px solid red; */
+    padding: 3.5%;
+    width: 33.5%;
+    /* margin: auto; */
+    position: relative;
+    background-color: white;
+    height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.CrmProductsinnerthirdcards2{
+    /* border: 2px solid red; */
+    padding: 3.5%;
+    width: 33%;
+    margin-left: 12.5%;
+    /* margin: auto; */
+    position: relative;
+    background-color: white;
+    height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.CrmProductsinnerthirdcardsbutton1a{
+    margin-top: 8%;
+    color: white;
+    background-color:#01c557;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius:5px ;
+}
+.CrmProductsinnerthirdcardsbutton1a:hover{
+    background-color: white;
+    color: #01c557;
+
+    border: 1px solid #01c557;
+}
+
+.CrmProductsinnerthirdcardsbutton1b{
+    margin-top: 8%;
+    color: white;
+    background-color:#e84f23;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius:5px ;
+}
+.CrmProductsinnerthirdcardsbutton1b:hover{
+    background-color: white;
+    color: #e84f23;
+
+    border: 1px solid #e84f23;
+}
+
+.CrmProductsinnerthirdcardsbutton1c{
+    margin-top: 8%;
+    color: white;
+    background-color:#ef4e22;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius:5px ;
+}
+.CrmProductsinnerthirdcardsbutton1c:hover{
+    background-color: white;
+    color: #ef4e22;
+
+    border: 1px solid #ef4e22;
+}
+
+.CrmProductsinnerthirdcardsbutton1d{
+    margin-top: 8%;
+    color: white;
+    background-color:#fa9018;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius:5px ;
+}
+.CrmProductsinnerthirdcardsbutton1d:hover{
+    background-color: white;
+    color: #fa9018;
+
+    border: 1px solid #fa9018;
+}
