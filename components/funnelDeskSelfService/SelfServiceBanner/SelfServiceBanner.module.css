@@ -39,7 +39,9 @@
   object-fit: contain;
   margin-top: 13%;
 }
-
+.selfServiceBannerButton{
+  margin-left: 2%;
+}
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
   .selfServicesBannerParentDiv {

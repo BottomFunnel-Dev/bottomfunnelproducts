@@ -11,6 +11,7 @@
 .smbcustomerdataindi{
     display: flex;
     margin-top: 2%;
+    /* border: 2px solid red; */
 }
 
 .smbcustomerdataindi:nth-child(even){
@@ -28,6 +29,7 @@
     width: 50%;
     margin-left: 5%;
     margin-right: 1%;
+    /* border: 2px solid red; */
 }
 .smbcustomerindileftbox>h6{
     color: #14944C;
@@ -44,5 +46,5 @@
 .smbcustomerindiicon{
     width: 10%;
     height: 10%;
-
+    /* border: 2px solid red; */
 }

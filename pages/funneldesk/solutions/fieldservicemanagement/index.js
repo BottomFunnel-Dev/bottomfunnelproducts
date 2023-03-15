@@ -11,19 +11,18 @@ import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/Re
 import Testimonial from '../../../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../../../components/TrustedByProductsPage/TrustedBy'
 
-export default function FieldServiceManagement  ()  {
+export default function FieldServiceManagement() {
   return (
     <div>
-
-    <Navbar
-    productMount={{
-      navMount: false,
-    }}
-    navredux={{
-      color: "black",
-      logo: false,
-    }}
-  />
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
   <ProductsNavbar
   navproductredux={{
@@ -44,5 +43,5 @@ export default function FieldServiceManagement  ()  {
       <LifeBottomFunnel />
       <ProductsFooter />
     </div>
-  )
+  );
 }

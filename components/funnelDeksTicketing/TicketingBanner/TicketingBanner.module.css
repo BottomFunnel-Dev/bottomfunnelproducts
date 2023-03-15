@@ -17,6 +17,7 @@
 
 .ticketingBannerContent {
   width: 45%;
+  /* border: 2px solid red; */
 }
 
 .ticketingBannerContent > h1 {
@@ -38,11 +39,10 @@
   font-size: 20px;
 }
 
-.ticketingBannerContent > button {
-  font-size: 18px;
-  font-weight: 600;
-  padding: 10px 50px;
-  border-radius: 50px;
+.ticketingBannerButtons > button {
+  width: 25%;
+  height: 45px;
+  border-radius: 5px;
   outline: none;
   border: 2px solid #12944D;
   background: #12944D;
@@ -50,11 +50,27 @@
   cursor: pointer;
 }
 
-.ticketingBannerContent > button:hover {
+.ticketingBannerButtons > button:hover {
   background: white;
   color: #12944D;
 }
 
+.ticketingBannerButtons1{
+  width: 25%;
+  height: 45px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #12944D;
+  background: #12944D;
+  color: white;
+  cursor: pointer;
+  margin-left: 2%;
+}
+
+.ticketingBannerButtons1:hover {
+  background: white;
+  color: #12944D;
+}
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
   .ticketingBannerContainer {

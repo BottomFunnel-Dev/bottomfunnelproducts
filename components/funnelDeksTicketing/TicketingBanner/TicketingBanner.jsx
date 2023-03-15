@@ -20,7 +20,10 @@ export const TicketingBanner = () => {
           Prioritize, categories and assign tickets to right agents and leverage
           the power of your entire organization to deliver customer delight
         </p>
+        <div className={styles.ticketingBannerButtons}>
         <button>Get Started</button>
+        <button className={styles.ticketingBannerButtons1}>Request Demo</button>
+        </div>
       </div>
     </div>
   );

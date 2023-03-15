@@ -1,7 +1,7 @@
 .retailteammainboxes {
   height: fit-content;
-
-  margin-top: 1%;
+  /* border: 2px solid red; */
+  margin-top: 5%;
   display: flex;
 }
 
@@ -16,16 +16,18 @@
 .retailteammainboxesrightboxforimage {
   height: 400px;
   width: 50%;
-
-  background: url("/Images/Retail&ecommerce/Animations/animation4.webp");
+  /* border: 2px solid red; */
+  /* background: url("/Images/Retail&ecommerce/Animations/animation4.w ebp"); */
   background-repeat: no-repeat;
   background-position-x: right;
 }
 
 .retailteamboxrightforimageonly {
-  height: 95%;
+  height: 97%;
   width: 97%;
-
+  margin-left: 1%;
+  margin-top: 0%;
+  /* border: 2px solid red; */
   background-color: white;
 }
 

@@ -91,7 +91,7 @@ export const ProductsFooter = () => {
 
                         <h5> Platform </h5>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/market-place"}>
                             <li>
                                 Marketplace
                             </li>
@@ -103,7 +103,7 @@ export const ProductsFooter = () => {
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/customer-spotlight"}>
                             <li>
                                 Customer Spotlight
                             </li>
@@ -206,19 +206,19 @@ export const ProductsFooter = () => {
                             <h5>Services </h5>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/web-development"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/web-development"}>
                             <li>
                                 Web Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/mobile-app-development"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/mobile-app-development"}>
                             <li>
                                 Mobile App Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/Digital-marketing"}>
+                        <Link className={styles.productFooterLinkTag} href={"/https://service.bottomfunnel.net/Digital-marketing"}>
                             <li>
                                 Digital Marketing
                             </li>

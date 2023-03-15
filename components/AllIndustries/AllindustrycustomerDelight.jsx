@@ -127,6 +127,7 @@ export const AllindustrycustomerDelight = () => {
            <div className={styles.customerdelightdatamappingimg}> <img src={e.icon} alt="image" /></div>
             <div className={styles.customerdelightdatamappingtxt}><h4>{e.htxt}</h4>
             <p>{e.stxt}</p>
+            <p>Learn more <i class="bi bi-arrow-right"></i></p>
             </div>
             </div>
         )
