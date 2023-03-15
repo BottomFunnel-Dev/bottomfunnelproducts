@@ -25,7 +25,7 @@ export const whyBottom = [
   {
     dropContent: "Vetting Process",
     navIcons: "/Images/navbar/aboutImage/vetting.png",
-    path: "vetting-process",
+    path: "/vetting-process",
   },
   {
     dropContent: "Our Clients",
@@ -1408,7 +1408,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "Retail",
-    path: "/",
+    path: "/retailSales",
   },
   {
     dropContent: "Finance",

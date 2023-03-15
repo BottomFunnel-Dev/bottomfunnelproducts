@@ -102,7 +102,7 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
           </div>
           
           <Link
-            href="/"
+            href="/allproducts"
             onClick={productHoverOut}
             style={{ textDecoration: "none" }}
           >

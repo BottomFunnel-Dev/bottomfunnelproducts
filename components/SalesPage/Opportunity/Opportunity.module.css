@@ -8,6 +8,7 @@
 .Opportunityinnerdiv{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 95%;
     justify-content: space-evenly;
     border-top-right-radius: 20px;
@@ -15,10 +16,12 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* border: 2px solid yellow; */
     margin-top: 3%;
+    padding: 1%;
      
 }
 .Opportunityinnerdivheading{
     width: 55%;
+    /* border: 2px solid; */
    
 }
 
@@ -47,10 +50,16 @@
 
 }
 .Opportunityimagedivinner{
-   width: 90%;
-    height: 80%;
+   /* width: 90%; */
+    /* height: 80%; */
     margin: auto;
     
+}
+
+.Opportunityimagedivinner:hover{
+    transition: all 0.2s linear;
+
+    transform: translateY(-10px);
 }
 .Opportunitylogodivupper{
    width: 64%;
@@ -76,6 +85,7 @@ margin-top: 1%;
     display: flex;
     align-self: flex-end;
    flex-direction: row-reverse;
+   align-items: center;
     width: 95%;
     justify-content: space-evenly;
     border-top-left-radius: 20px;
@@ -83,6 +93,7 @@ margin-top: 1%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* border: 2px solid yellow; */
     margin-top: 3%;
+    padding: 2%;
      
 }
 

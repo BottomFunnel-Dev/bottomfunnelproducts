@@ -1,14 +1,16 @@
 .travelandhospitalitybannermainboxes{
     height: 100vh;
-    border: 5px solid transparent;
+    /* border: 2px solid red; */
     display: flex;
+
 }
 
 .travelandhospitalitybennerleftbox{
     width: 50%;
     height: fit-content;
-    margin-top: 18%;
+    margin-top: 15%;
     margin-left: 5%;
+    /* border: 2px solid red; */
 }
 
 .travelandhospitalitybennerleftbox>h1{
@@ -31,7 +33,7 @@
     font-size: 18px;
     font-weight: 600;
     color: white;
-  
+    
   }
   
   .travelandhospbanbutton:hover {
@@ -43,5 +45,5 @@
 .travelandhospitalitybennerrightbox{
     width: 50%;
     /* border: 2px solid red;    */
-    margin-top: 10%;
+    margin-top: 3%;
 }

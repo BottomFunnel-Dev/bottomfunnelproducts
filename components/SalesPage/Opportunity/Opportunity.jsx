@@ -9,8 +9,8 @@ export const Opportunity = () => {
 
 <div className={style.Opportunityinnerdiv}>
         <div className={style.Opportunityinnerdivheading}>
-          <h1>Focus on the best leads
-          Generate more Opportunity.</h1>
+          <h2>Focus on the best leads
+          Generate more Opportunity.</h2>
           <h6>
           Website prospects are the most engaged. Run Chat campaigns,and turn
             your website into a lead generation machine.{" "}
@@ -86,8 +86,8 @@ export const Opportunity = () => {
 
 <div className={style.Opportunityinnerdiv1}>
         <div className={style.Opportunityinnerdivheading}>
-          <h1>Have Conversation with context
-          Shorten your Sales cycle.</h1>
+          <h2>Have Conversation with context
+          Shorten your Sales cycle.</h2>
           <h6>
           Surface the best leads, communicate across a customers preferred
             channel, and personalize messages based on behaviour.{" "}
@@ -167,8 +167,8 @@ export const Opportunity = () => {
 
       <div className={style.Opportunityinnerdiv}>
         <div className={style.Opportunityinnerdivheading}>
-          <h1>Drive deals to closure, faster. 
-          Improve Sales conversions with AI-powered insights</h1>
+          <h2>Drive deals to closure, faster. 
+          Improve Sales conversions with AI-powered insights</h2>
           <h6>
             Enid AI helps you Focus on the right deals that will drive revenue.
             Get insight Across the funnel from lead to revenue{" "}
@@ -229,6 +229,81 @@ export const Opportunity = () => {
         <Image
           src={"/Images/SalesPagePhotos/insight.webp"}
           alt={"/Images/SalesPagePhotos/insight.webp"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+        </div>
+
+         
+        </div>
+      </div>
+
+
+
+      <div className={style.Opportunityinnerdiv1}>
+        <div className={style.Opportunityinnerdivheading}>
+          <h2>Customer 360° view made easy. Grow customer value with integrated sales and support.</h2>
+          <h6>
+          Develop long-lasting relationships with customers. Enable sales and support to work together to help the customer seamlessly.{" "}
+          </h6>
+          <h4>Top Features:</h4>
+          <div className={style.Opportunitylogodivupper}>
+          <div className={style.Opportunitylogodiv}>
+          <Image
+          src={"/Images/SalesPagePhotos/Vector-1.webp"}
+          alt={"/Images/SalesPagePhotos/Vector-1.webp"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+        </div>
+
+          <div className={style.Opportunitylogodivcontain}>
+            <p>Bring sales and support functionalities together with the Freshdesk Integration</p>
+            </div>
+          </div>
+          <div className={style.Opportunitylogodivupper}>
+          <div className={style.Opportunitylogodiv}>
+          <Image
+          src={"/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
+          alt={"/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+        </div>
+            <div className={style.Opportunitylogodivcontain}>
+            <p>Understand your customers inside-out with a 360° customer view</p>
+            </div>  
+          </div>
+          <div className={style.Opportunitylogodivupper}>
+          <div className={style.Opportunitylogodiv}>
+          <Image
+          src={"/Images/SalesPagePhotos/Vector-2.webp"}
+          alt={"/Images/SalesPagePhotos/Vector-2.webp"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+        </div>
+          <div className={style.Opportunitylogodivcontain}>
+            <p>Upsell and cross-sell to your customer base with automated sales campaigns</p>
+          </div>
+          </div>
+          <div className={style.Opportunityptag}>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className={style.Opportunityimagediv}>
+          <div className={style.Opportunityimagedivinner}>
+        <Image
+          src={"/Images/SalesPagePhotos/360view.png"}
+          alt={"/Images/SalesPagePhotos/360view.png"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
