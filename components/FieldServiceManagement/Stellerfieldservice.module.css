@@ -2,10 +2,10 @@
     height: fit-content;
 }
 
-.stellerfieldservicemainboxes>h1{
+.stellerfieldservicemainboxes>h3{
     text-align: center;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 30px;
     margin-top: 3%;
 }
 
@@ -14,15 +14,16 @@
     width: 80%;
     margin: auto;
     margin-top: 5%;
-
+    /* border: 2px solid red; */
     justify-content: space-around;
 }
 .stellerfieldserviceindi{
-    width: 30%;
-    height: 300px;
+    width: 28%;
+    height: 250px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    /* border: 2px solid red; */
 }
 
 .stellerfieldserviceindi:hover{
@@ -48,7 +49,7 @@
 
 .stellerservicebutton {
     padding: 10px 50px;
-    border-radius: 100px;
+    border-radius: 10px;
     width: fit-content;
     background-color: #14944C;
     border: none;
@@ -57,12 +58,13 @@
     font-size: 18px;
     font-weight: 600;
     color: white;
-  margin-left: 35%;
+    margin-left: 35%;
     margin-top: 4%;
     margin-bottom: 3%;
   }
   
   .stellerservicebutton:hover {
     background-color: white;
-  color: #14944C;
+    color: #14944C;
+    border: 2px solid #14944C;
   }

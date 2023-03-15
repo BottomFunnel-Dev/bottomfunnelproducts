@@ -14,12 +14,17 @@ export const SelfServiceBanner = () => {
           a web widget to help your customers find answers faster.
         </p>
         <button> Start Free Trial </button>
+        <button className={styles.selfServiceBannerButton}> Request Demo </button>
       </div>
       <div className={styles.selfServicesBannerImageDiv}>
-        <img
-          src="/Images/SelfService/banner.webp"
-          alt="image"
-        />
+            <lottie-player
+                src={"/Animation/selfService/banner.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
       </div>
     </div>
   );

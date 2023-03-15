@@ -7,9 +7,9 @@ export const PricingTrail = () => {
 
                 <div className={styles.PricingTrailParentfirstchild}>
 
-                    <div className={styles.PricingTrailParentchildheading}>
+                    <div className={styles.PricingTrailParentchildheadingone}>
                         <h6>For Getting Started</h6>
-                        <h4>Starter</h4>
+                        <h5>Starter</h5>
                     </div>
                     <hr className={styles.line} />
                     <h1>&#8377; 1,399</h1>
@@ -91,9 +91,9 @@ export const PricingTrail = () => {
 
 
                 <div className={styles.PricingTrailParentSecchild}>
-                    <div className={styles.PricingTrailParentchildheading}>
+                    <div className={styles.PricingTrailParentchildheadingtwo}>
                         <h6>For Bussiness Across thier LOBs</h6>
-                        <h4>Starter</h4>
+                        <h5>Growth</h5>
                     </div>
                     <hr className={styles.line} />
                     <h1>&#8377; 3,599</h1>
@@ -183,9 +183,9 @@ export const PricingTrail = () => {
 
                 <div className={styles.PricingTrailParentthirdchild}>
 
-                    <div className={styles.PricingTrailParentchildheading}>
+                    <div className={styles.PricingTrailParentchildheadingthree}>
                         <h6>For Large Organization</h6>
-                        <h4>Starter</h4>
+                        <h5>Pro</h5>
                     </div>
                     <hr className={styles.line} />
                     <h1>&#8377; 1,399</h1>
@@ -273,9 +273,9 @@ export const PricingTrail = () => {
 
                 <div className={styles.PricingTrailParentfourthchild}>
 
-                    <div className={styles.PricingTrailParentchildheading}>
+                    <div className={styles.PricingTrailParentchildheadingfour}>
                         <h6>For Enterprises</h6>
-                        <h4>Starter</h4>
+                        <h5>Enterprice</h5>
                     </div>
                     <hr className={styles.line} />
                     <h1>&#8377; 1,399</h1>

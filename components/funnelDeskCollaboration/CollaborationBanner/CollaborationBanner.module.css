@@ -39,13 +39,12 @@
 }
 
 .CollaborationBannerContent > button {
-  font-size: 18px;
-  font-weight: 600;
-  padding: 10px 50px;
-  border-radius: 50px;
+  width: 25%;
+  height: 45px;
+  border-radius: 5px;
   outline: none;
-  border: 2px solid #2C8753;
-  background: #2C8753;
+  border: 2px solid #12944D;
+  background: #12944D;
   color: white;
   cursor: pointer;
 }
@@ -54,7 +53,9 @@
   background: white;
   color: #2C8753;
 }
-
+.collabBannerButtton{
+  margin-left: 2%;
+}
 /* media query for mobile and tablet responsive */
 @media (max-width: 1024px) {
   .CollaborationBannerContainer {

@@ -15,14 +15,14 @@ export default function Banner() {
        </div>
       </div>
       <div className={styles.bannerImages}>
-        <Image
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-          src="/Images/contactcenter/banner.webp"
-          alt="/Images/contactcenter/banner.webp"
-        />
+           <lottie-player
+                src={"/Animation/contactCenter/banner.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
       </div>
     </div>
   );

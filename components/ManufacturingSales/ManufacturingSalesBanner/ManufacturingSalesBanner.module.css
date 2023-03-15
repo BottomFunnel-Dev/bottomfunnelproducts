@@ -1,21 +1,19 @@
 .ManufacturingSalesBannermaindiv{
-    /* border: 2px solid green; */
-    background: url("/Images/manufacturingsales/Banner Manufacturing.webp");
+  background: url("/Images/realestatesales/Sales banner background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /* color: white; */
-    display: flex;
+     display: flex;
+     flex-direction: row-reverse;
     align-items: center;
-    justify-content: right;
+    justify-content: space-around;
 }
-.ManufacturingSalesBannermaindivinner{
-    margin-right: 10%;
-    margin-bottom:4% ;
+.ManufacturingSalesBannerannimation{
+    width: 45%;
 }
 .ManufacturingSalesBannermaindivbutton{
-    /* border: 2px solid yellow; */
+   
     width: 220px;
     height: 40px;
     color: white;
@@ -34,6 +32,5 @@
 }
 .ManufacturingSalesBannermaindivinner{
     width: 35%;
-    margin-left: 5%;
-    /* margin: auto; */
-}
+     /* border: 2px solid; */
+   }

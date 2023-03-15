@@ -9,6 +9,7 @@ export const AutomationBanner = () => {
         <h1>Customer support, minus the repetitive tasks</h1>
         <p>AI powered automations to streamline your teams' workflows</p>
         <button>Get started for free</button>
+        <button className={styles.automationbannerButton}>Request Demo</button>
       </div>
       <span>
         <div className={styles.funneldeskautomationImage}>

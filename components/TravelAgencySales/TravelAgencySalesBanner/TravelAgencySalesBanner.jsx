@@ -11,6 +11,17 @@ export const TravelAgencySalesBanner = () => {
     <p>Understand your customers, engage in meaningful conversations, curate personalized trips, and keep them coming back for more with the leading CRM for travel.</p>
    <button className={styles.TravelAgencySalesBannermaindivbutton}>Start Your Free Trial</button>
    </div>
+
+   <div className={styles.TravelAgencySalesBannerannimation}>
+     <lottie-player
+                  src={"/Animation/salesindustriesanimation/Travel Agency.json"}
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                  >
+            </lottie-player>
+  </div>
     </div>
     
   )

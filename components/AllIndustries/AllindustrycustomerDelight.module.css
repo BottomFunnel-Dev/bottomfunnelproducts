@@ -11,17 +11,16 @@
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
-     justify-content: center;
-     margin-left: 2%;
-     margin-top: 5%;
-
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 5%;
 }
 
 .customerdelightdatamapingindi{
     width: 15%;
     margin: 2%;
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: black;
     border-radius: 10px;
     /* border: 2px solid red; */

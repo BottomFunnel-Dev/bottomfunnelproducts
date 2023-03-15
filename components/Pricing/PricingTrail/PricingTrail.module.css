@@ -8,52 +8,53 @@
 }
 
 .PricingTrailParent>div {
-    width: 20%;
+    width: 23%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 140vh;
-    padding-bottom: 5%;
+    height: 930px;
+   
 
 }
 
 .PricingTrailParent>div>div {
     display: flex;
-
+}
+.PricingTrailParent>div>div>h6{
+    font-weight: 400;
 }
 
 .PricingTrailParentfirstchild {
     background-image: url('/Images/Pricing/TrailOrange.Webp');
-    border-right: 0.5px solid lightgray;
+   
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 100% 100%;
 
 }
 
 .PricingTrailParentSecchild {
     background-image: url('/Images/Pricing/TrailOrange.Webp');
-    border-right: 0.5px solid lightgray;
+    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 
 }
 
 .PricingTrailParentthirdchild {
     background-image: url('/Images/Pricing/TrailGreen.Webp');
-    border-right: 0.5px solid lightgray;
+    background-clip: border-box;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 
 }
 
 .PricingTrailParentfourthchild {
     background-image: url('/Images/Pricing/TrailOrange.Webp');
-    border-right: 0.5px solid lightgray;
+   
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 
 }
 
@@ -140,7 +141,7 @@
 
 
 
-.PricingTrailParentchildheading {
+.PricingTrailParentchildheadingone {
 
     margin-top: 13%;
     width: 100%;
@@ -151,13 +152,79 @@
 
 }
 
-.PricingTrailParentchildheading>h4 {
+.PricingTrailParentchildheadingone>h5 {
+    color: white;
+    padding-right: 12%;
+
+}
+
+.PricingTrailParentchildheadingone>h6 {
+    width: 60%;
+}
+
+.PricingTrailParentchildheadingtwo {
+
+    margin-top: 13%;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10%;
+
+}
+
+.PricingTrailParentchildheadingtwo>h5 {
+    color: white;
+    padding-right: 12%;
+
+}
+
+.PricingTrailParentchildheadingtwo>h6 {
+    width: 60%;
+}
+
+
+.PricingTrailParentchildheadingthree {
+
+    margin-top: 13%;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10%;
+
+}
+
+.PricingTrailParentchildheadingthree>h5 {
+    color: white;
+    padding-right: 20%;
+
+}
+
+.PricingTrailParentchildheadingthree>h6 {
+    width: 60%;
+}
+
+
+
+.PricingTrailParentchildheadingfour {
+
+    margin-top: 13%;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10%;
+
+}
+
+.PricingTrailParentchildheadingfour>h5 {
     color: white;
     padding-right: 8%;
 
 }
 
-.PricingTrailParentchildheading>h6 {
+.PricingTrailParentchildheadingfour>h6 {
     width: 60%;
 }
 
@@ -166,7 +233,8 @@
     color: #ec4f25;
     background-color: transparent;
     border: none;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -15%;
 }
 
 
