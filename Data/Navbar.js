@@ -1178,7 +1178,7 @@ export const productSolution = [
   },
   {
     productText2: "SMB",
-    path: "/smb",
+    path: "/funneldesk/solutions/smb",
   },
   
   {
