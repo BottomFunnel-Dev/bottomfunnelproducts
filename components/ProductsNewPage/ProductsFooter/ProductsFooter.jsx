@@ -224,7 +224,7 @@ export const ProductsFooter = () => {
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/https://service.bottomfunnel.net/trending-technologies"}>
                             <li>
                                 Trending Technologies
                             </li>
