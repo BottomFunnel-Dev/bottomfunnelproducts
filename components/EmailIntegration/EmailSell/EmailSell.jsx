@@ -1,38 +1,109 @@
 import React from 'react'
 import styles from "./EmailSell.module.css";
+import Image from 'next/image';
 
 
 export const EmailSell = () => {
   return (
     <div className={styles.EmailSelltopdiv}>
         <div className={styles.EmailSellmaindiv}>
-            <h3>
+            <h2>
                 Everythings you need to send emails that sell
-            </h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure quae officia doloremque incidunt saepe doloribus fugiat est voluptate voluptatem, hic consequatur praesentium, rerum labore at repellendus cum sed obcaecati ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam sit omnis voluptas ipsa atque? Qui, doloremque! Inventore repellat harum nisi eveniet illo animi, numquam autem odit voluptates minima nemo nam?</p>
-        <div className={styles.EmailSelllistdiv}>
-            <div className={styles.EmailSelllistdivinner}>
-                <ul>
-                    <li><h4>Schedule emails</h4></li>
-                    <p>Set your campaigns to go out at a specific date and time when your customers are most likely to read them.</p>
-                    <li><h4>Set up real-time alerts</h4></li>
-                    <p>Get real-time alerts on email opens, link clicks, and new emails, and connect with your prospects at the right time.</p>
-                    <li><h4>Forward emails</h4></li>
-                    <p>Sell from any inbox, forward or BCC emails, and follow up on conversations right from your CRM account.</p>
-                </ul>
+            </h2>
+            <p>Create and send sales emails that get read. With Freshsales, gain unmatched deliverability rates and productivity-boosting features that help you deliver the right emails at the right time. Make your email outreach more effective and speed up your sales cycle.</p>
+           <div  className={styles.EmailSellmaincarddiv}>
+            <div className={styles.EmailSellmaincarddivinner}>
+                <h5>Schedule emails</h5>
+                <div  className={styles.EmailSellmaincarddivinnerimage}>
+                <Image
+          src={"/Images/EmailIntegrationphotos/bannerr (3).webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        /> 
+                </div>
+                <p>Set your campaigns to go out at a specific date and time when your customers are most likely to read them.</p>
             </div>
 
-            <div  className={styles.EmailSelllistdivinner}>
-                <ul>
-                    <li><h4>Schedule emails</h4></li>
-                    <p>Set your campaigns to go out at a specific date and time when your customers are most likely to read them.</p>
-                    <li><h4>Set up real-time alerts</h4></li>
-                    <p>Get real-time alerts on email opens, link clicks, and new emails, and connect with your prospects at the right time.</p>
-                    <li><h4>Forward emails</h4></li>
-                    <p>Sell from any inbox, forward or BCC emails, and follow up on conversations right from your CRM account.</p>
-                </ul>
+            <div className={styles.EmailSellmaincarddivinner}>
+                <h5>Set up real-time alerts</h5>
+                <div  className={styles.EmailSellmaincarddivinnerimage}>
+                <Image
+          src={"/Images/EmailIntegrationphotos/bannerr (5).webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        /> 
+                </div>
+                <p>Get real-time alerts on email opens, link clicks, and new emails, and connect with your prospects at the right time.</p>
             </div>
-        </div>
+
+            <div className={styles.EmailSellmaincarddivinner}>
+                <h5>Forward emails</h5>
+                <div  className={styles.EmailSellmaincarddivinnerimage}>
+                <Image
+          src={"/Images/EmailIntegrationphotos/bannerr (4).webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        /> 
+                </div>
+                <p>Sell from any inbox, forward or BCC emails, and follow up on conversations right from your CRM account.</p>
+            </div>
+           </div>
+
+           <div  className={styles.EmailSellmaincarddiv}>
+            <div className={styles.EmailSellmaincarddivinner}>
+                <h5>Customize emails</h5>
+                <div  className={styles.EmailSellmaincarddivinnerimage}>
+                <Image
+          src={"/Images/EmailIntegrationphotos/bannerr (6).webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        /> 
+                </div>
+                <p>Switch things up and capture your prospects’ attention with attractive colors and fonts using custom HTML code.</p>
+            </div>
+
+            <div className={styles.EmailSellmaincarddivinner}>
+                <h5>Automate email communication</h5>
+                <div  className={styles.EmailSellmaincarddivinnerimage}>
+                <Image
+          src={"/Images/EmailIntegrationphotos/bannerr (8).webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        /> 
+                </div>
+                <p>Use Sales Sequences and Workflows in Freshsales to automate your outbound email campaigns.</p>
+            </div>
+
+            <div className={styles.EmailSellmaincarddivinner}>
+                <h5>Share email templates</h5>
+                <div  className={styles.EmailSellmaincarddivinnerimage}>
+                <Image
+          src={"/Images/EmailIntegrationphotos/bannerr (7).webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        /> 
+                </div>
+                <p>Identify the emails that bring in the most responses and share the templates with your team for their reference.</p>
+            </div>
+           </div>
         
         </div>
     </div>

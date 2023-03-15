@@ -8,7 +8,7 @@ export const EmailIntegrationBanner = () => {
       <div className={styles.EmailIntegrationBannermaindiv}>
         <div className={styles.EmailIntegrationBannerimagediv}>
         <Image
-          src={"/Images/EmailIntegrationphotos/Frame.webp"}
+          src={"/Images/EmailIntegrationphotos/bannerrbg.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

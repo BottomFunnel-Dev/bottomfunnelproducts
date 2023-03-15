@@ -1,0 +1,21 @@
+.LookingSolutionmaindiv{
+    border: 3px solid #ef4c23;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.LookingSolutionmaindivcontent{
+    width: 50%;
+}
+
+.LookingSolutionmaindivimage{
+    width: 350px;
+    height: 300px;
+}

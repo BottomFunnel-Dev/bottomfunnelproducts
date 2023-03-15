@@ -21,3 +21,40 @@
     /* border: 2px solid blue; */
     width: 47%;
 }
+
+.EmailSellmaincarddiv{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.EmailSellmaincarddivinner{
+    width: 25%;
+    text-align: center;
+    /* border: 2px solid; */
+    padding: 1%;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 3%;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.EmailSellmaincarddivinner:hover{
+    transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}
+.EmailSellmaincarddivinnerimage{
+    width: 80px;
+    height: 80px;
+   margin: auto;
+   margin-top: 5%;
+    
+}
+.EmailSellmaincarddivinner p{
+    margin-top: 3%;
+}
