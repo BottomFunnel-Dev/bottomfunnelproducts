@@ -1,0 +1,35 @@
+.AllproductsBannermaindiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url("/Images/Allproductsphotos/banner.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.AllproductsBannermaindivbutton{
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ef4c23;
+    width: 220px;
+    margin-top: 4%;
+    border: none;
+   margin-left: 25%;
+}
+.AllproductsBannermaindivbutton:hover{
+    border: 1px solid #ef4c23;
+    background-color: white;
+    color: #ef4c23;
+}
+.AllproductsBannermaindivinner h1{
+    font-size: 40px;
+}
+.AllproductsBannermaindivinner p{
+    font-size: 18px;
+}
