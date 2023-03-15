@@ -17,15 +17,22 @@ export const Travelandhospitalitybanner = () => {
 
     <div className={styles.travelandhospitalitybennerrightbox}>
     
-    <Image
+    {/* <Image
           src={"/Images/Travel & hospitality/Bannersbackgrounds/Group770588.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%", objectFit:"contain" }}
-        />
-
+        /> */}
+              <lottie-player
+                src={"/Animation/travelandhospitality/banner.json"}
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                >
+            </lottie-player>
     
     
     </div>

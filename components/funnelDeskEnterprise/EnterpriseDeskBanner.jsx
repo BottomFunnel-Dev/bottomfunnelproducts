@@ -16,7 +16,7 @@ export const EnterpriseDeskBanner = () => {
       </div>
       <div className={styles.enterBanner}>
         <img
-          src="/Images/Enterprise/banner/Banner.webp"
+          src="/Images/Enterprise/banner/Banner.png"
           alt="banner/Banner.png"
         />
       </div>
