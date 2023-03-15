@@ -150,11 +150,11 @@ export const ProductsFooter = () => {
                             <li> Contact Us </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/our-development-process"}>
                             <li> Our Development Process </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/vetting-process"}>
                             <li> Vetting Process </li>
                         </Link>
 

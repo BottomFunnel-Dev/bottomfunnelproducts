@@ -32,7 +32,7 @@ export default function allproducts() {
    
 
 
-    <Testimonial />
+      <Testimonial />
       <TrustedBy/>
      
       
