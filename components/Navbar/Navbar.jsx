@@ -269,83 +269,98 @@ const Navbar = ({ navredux, productMount }) => {
               Free Trial
             </button>
 
-            <button
-              className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
-              onClick={() => router.push("https://service.bottomfunnel.net/")}
-            >
-              Services
-            </button>
+            <a target="_blank" href="https://service.bottomfunnel.net/">
+              <button
+                className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
+              // onClick={() => router.push("https://service.bottomfunnel.net/")}
+              >
+                Services
+              </button>
+            </a>
           </div>
-        )}
+        )
+        }
 
-        {mobres && (
-          <DropdownResp
+        {
+          mobres && (
+            <DropdownResp
+              homeHoverIn={homeHoverIn}
+              homeHoverOut={homeHoverOut}
+              resHoverIn={resHoverIn}
+              resHoverOut={resHoverOut}
+              solHoverIn={solHoverIn}
+              solHoverOut={solHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+              productHoverIn={productHoverIn}
+              productHoverOut={productHoverOut}
+              platformHoverIn={platformHoverIn}
+              platformHoverOut={platformHoverOut}
+            />
+          )
+        }
+      </nav >
+
+      {/* about drop down section code start */}
+      {
+        aboutH ? (
+          <WhoWeAre
             homeHoverIn={homeHoverIn}
             homeHoverOut={homeHoverOut}
-            resHoverIn={resHoverIn}
-            resHoverOut={resHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        ) : null
+      }
+      {/* about drop down section code end */}
+
+      {/* solutions drop down section code start */}
+      {
+        solution ? (
+          <NavIndustries
             solHoverIn={solHoverIn}
             solHoverOut={solHoverOut}
             scroll={scroll}
             productMount={productMount}
-            productHoverIn={productHoverIn}
-            productHoverOut={productHoverOut}
-            platformHoverIn={platformHoverIn}
-            platformHoverOut={platformHoverOut}
           />
-        )}
-      </nav>
-
-      {/* about drop down section code start */}
-      {aboutH ? (
-        <WhoWeAre
-          homeHoverIn={homeHoverIn}
-          homeHoverOut={homeHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null}
-      {/* about drop down section code end */}
-
-      {/* solutions drop down section code start */}
-      {solution ? (
-        <NavIndustries
-          solHoverIn={solHoverIn}
-          solHoverOut={solHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null}
+        ) : null
+      }
 
       {/* product drop down section code start */}
 
-      {product ? (
-        <Products
-          productHoverIn={productHoverIn}
-          productHoverOut={productHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null}
+      {
+        product ? (
+          <Products
+            productHoverIn={productHoverIn}
+            productHoverOut={productHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        ) : null
+      }
 
-      {platform ? (
-        <Platform
-          platformHoverIn={platformHoverIn}
-          platformHoverOut={platformHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null}
+      {
+        platform ? (
+          <Platform
+            platformHoverIn={platformHoverIn}
+            platformHoverOut={platformHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        ) : null
+      }
 
-      {resource ? (
-        <Resource
-          resHoverIn={resHoverIn}
-          resHoverOut={resHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null}
-    </div>
+      {
+        resource ? (
+          <Resource
+            resHoverIn={resHoverIn}
+            resHoverOut={resHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        ) : null
+      }
+    </div >
   );
 };
 
