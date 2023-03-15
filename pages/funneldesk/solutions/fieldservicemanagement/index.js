@@ -1,6 +1,5 @@
 import React from 'react'
 import { Fieldservicemanagementbanner } from '../../../../components/FieldServiceManagement/Fieldservicemanagementbanner'
-import { FieldservicemanagementExperience } from '../../../../components/FieldServiceManagement/FieldservicemanagementExperience'
 import { ServiceExperience } from '../../../../components/FieldServiceManagement/ServiceExperience'
 import { Servicemanagementscreens } from '../../../../components/FieldServiceManagement/Servicemanagementscreens'
 import { Stellerfieldservice } from '../../../../components/FieldServiceManagement/Stellerfieldservice'
@@ -12,19 +11,18 @@ import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/Re
 import Testimonial from '../../../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../../../components/TrustedByProductsPage/TrustedBy'
 
-export default function FieldServiceManagement  ()  {
+export default function FieldServiceManagement() {
   return (
     <div>
-
-    <Navbar
-    productMount={{
-      navMount: false,
-    }}
-    navredux={{
-      color: "black",
-      logo: false,
-    }}
-  />
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
   <ProductsNavbar
   navproductredux={{
@@ -34,7 +32,6 @@ export default function FieldServiceManagement  ()  {
 />
     
     <Fieldservicemanagementbanner />
-    <FieldservicemanagementExperience/>
     <Servicemanagementscreens/>
     <Stellerfieldservice />
     
@@ -46,5 +43,5 @@ export default function FieldServiceManagement  ()  {
       <LifeBottomFunnel />
       <ProductsFooter />
     </div>
-  )
+  );
 }
