@@ -11,7 +11,6 @@ export default function EngagementModel() {
     <div>
       <Head>
         <title>
-         
           Engagement Models - Fixed Price, Time Material, Dedicated Resource |
           Bottom Funnel
         </title>
@@ -20,7 +19,17 @@ export default function EngagementModel() {
           content="Bottom Funnel is a modern, efficient way to meet customer's needs. We offer multiple engagement models and pricing options to meet client needs. Bottom Funnel's experienced staff understand how to design engaging websites that will keep visitors interested. Our team can also assist with marketing strategies so your business can reach the maximum number of visitors possible!"
         />
       </Head>
+
       <main>
+        {/* <Navbar
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        /> */}
         <EngagementBanner />
         <EngagementProcess />
         <EngagementRanges />
@@ -28,4 +37,4 @@ export default function EngagementModel() {
       </main>
     </div>
   );
-}
+};

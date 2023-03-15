@@ -21,6 +21,7 @@ export default function PressMedia() {
       </Head>
 
       <main>
+        
         <NewsEventBanner />
         <NewsEventSection />
         <MediaSection />
