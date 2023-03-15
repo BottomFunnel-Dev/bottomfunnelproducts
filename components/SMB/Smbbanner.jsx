@@ -16,7 +16,9 @@ export const Smbbanner = () => {
         />
       </div>
       <div className={styles.smbBannerHeadings}>
-        
+        <h2>Customer support software for SMBs</h2>
+        <p>Bottom Funnel takes the chaos out of your support process so you can focus on growing your business instead. Take control of your customer support and start delivering excellent customer service!</p>
+        <button>Sign up for free</button>
       </div>
     </div>
   )
