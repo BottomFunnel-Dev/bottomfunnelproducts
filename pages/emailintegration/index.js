@@ -4,6 +4,7 @@ import { BoostProductivity } from '../../components/EmailIntegration/BoostProduc
 import { EmailIntegrationBanner } from '../../components/EmailIntegration/EmailIntegrationBanner/EmailIntegrationBanner'
 import { EmailIntegrationCards } from '../../components/EmailIntegration/EmailIntegrationCards/EmailIntegrationCards'
 import { EmailSell } from '../../components/EmailIntegration/EmailSell/EmailSell'
+import { LookingSolution } from '../../components/EmailIntegration/LookingSolution/LookingSolution'
 import Navbar from '../../components/Navbar/Navbar'
 import { SalesNavbar } from '../../components/Navbar/SalesNavbar/SalesNavbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
@@ -36,6 +37,7 @@ export default function emailintegration() {
         <BoostProductivity/>
         <EmailIntegrationCards/>
         <EmailSell/>
+        <LookingSolution/>
 
         <TrustedBy />
         <Trial/>
