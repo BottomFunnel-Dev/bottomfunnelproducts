@@ -23,7 +23,7 @@ export const TickettingInbox = () => {
               <div className={styles.tickettingInboxDataDiv2}>
                   See who else is viewing or replying to the ticket.
               </div>
-              <div className={styles.tickettingInboxDataDiv3}>
+              <div className={styles.tickettingInboxDataDivarrow}>
               <Image
                 src={"/Images/ticketingPhotos/Arrow1.png"}
                 alt={"icon"}
@@ -59,7 +59,7 @@ export const TickettingInbox = () => {
               <div className={styles.tickettingInboxDataDiv2}>
                   Get notified within the tool about ticket updates.
               </div>
-              <div className={styles.tickettingInboxDataDiv3}>
+              <div className={styles.tickettingInboxDataDivarrow}>
               <Image
                 src={"/Images/ticketingPhotos/Arrow1.png"}
                 alt={"icon"}
@@ -95,7 +95,7 @@ export const TickettingInbox = () => {
               <div className={styles.tickettingInboxDataDiv2}>
                   Merge tickets about the same issues into one.
               </div>
-              <div className={styles.tickettingInboxDataDiv3}>
+              <div className={styles.tickettingInboxDataDivarrow}>
               <Image
                 src={"/Images/ticketingPhotos/Arrow1.png"}
                 alt={"icon"}
