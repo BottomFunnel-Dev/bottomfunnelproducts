@@ -1408,7 +1408,7 @@ export const salesIndustries = [
   },
   {
     dropContent: "Retail",
-    path: "/",
+    path: "/retailSales",
   },
   {
     dropContent: "Finance",
