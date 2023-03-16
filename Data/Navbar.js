@@ -1428,6 +1428,6 @@ export const salesIndustries = [
   },
   {
     dropContent: "Law Firm",
-    path: "/",
+    path: "/lawfrim",
   },
 ];

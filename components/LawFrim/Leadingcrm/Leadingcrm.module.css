@@ -1,0 +1,39 @@
+.Leadingcrmmaindiv{
+
+
+   
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.Leadingcrmmaindivbutton{
+ 
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: #ef4c23;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+
+}
+.Leadingcrmmaindivbutton:hover{
+    border: 1px solid #ef4c23;
+    color: #ef4c23;
+    background-color: white;
+}
+.Leadingcrmmaindivinner{
+    width: 35%;
+   
+}
+.Leadingcrmimage{
+    width: 35%;
+}
+
+.Leadingcrmmaindivinner h2{
+    color: #ef4c23;
+}
+
