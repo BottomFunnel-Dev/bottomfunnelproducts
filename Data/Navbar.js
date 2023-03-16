@@ -1049,6 +1049,7 @@ export const product2 = [
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
+  
   {
     dropContent: "Bottom Funnel Contact Center",
     navIcons: "/Images/navbar/product/contact.png",

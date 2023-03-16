@@ -41,18 +41,11 @@ export default function logisticsales() {
         <LogisticSalesBanner />
         <LogisticsContain />
 
-<<<<<<< HEAD
       
        <DigitalTransformation/>
         <CRMLogistics/>
         <Screens/>
         <Engagement/>
-=======
-        <DigitalTransformation />
-        <CRMLogistics />
-        <Screens />
-        <Engagement />
->>>>>>> 61cc5e80492b9c9889a6e7f60ec26159169c4d9f
 
         <Trial />
         <Testimonial />

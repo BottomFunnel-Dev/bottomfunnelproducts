@@ -23,7 +23,7 @@ const productData = {
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/",
+        path: "/messagingchannel",
       },
       {
         dropContent: "Chatbots",

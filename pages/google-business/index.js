@@ -9,6 +9,7 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+
 export default function guideToShopfy() {
 
   const productData = {
@@ -22,7 +23,7 @@ export default function guideToShopfy() {
       products: [
         {
           dropContent: "Messaging Channels",
-          path: "/",
+          path: "/messagingchannel",
         },
         {
           dropContent: "Chatbots",

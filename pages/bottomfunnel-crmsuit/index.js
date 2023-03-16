@@ -22,12 +22,12 @@ export default function bottomfunnelCrmSuit() {
         logo: false,
       }}
     />
-    <ProductsNavbar
+    {/* <ProductsNavbar
       navproductredux={{
         color: "black",
         logo: false,
       }}
-    />
+    /> */}
        
 <BottomFunnelTeamBanner/>
 <BottomFunnelTeamCards/>
