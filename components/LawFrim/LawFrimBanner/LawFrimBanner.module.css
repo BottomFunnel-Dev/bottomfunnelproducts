@@ -1,0 +1,38 @@
+.LawFrimBannermaindiv{
+
+    background: url("/Images/realestatesales/Sales banner background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.LawFrimBannermaindivbutton{
+ 
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: #ef4c23;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+
+}
+.LawFrimBannermaindivbutton:hover{
+    border: 1px solid #ef4c23;
+    color: #ef4c23;
+    background-color: white;
+}
+.LawFrimBannermaindivinner{
+    width: 40%;
+   
+}
+.LawFrimBannerannimation{
+    width: 45%;
+}
+
