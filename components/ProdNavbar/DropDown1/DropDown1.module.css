@@ -39,7 +39,7 @@
     align-items: flex-start;
     justify-content: space-between;
     cursor: pointer;
-    /* border: 2px solid ; */
+    border: 2px solid red;
 }
 
 .productDeskData .productlinkP>h6 {

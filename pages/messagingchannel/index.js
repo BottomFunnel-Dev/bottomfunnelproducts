@@ -4,6 +4,9 @@ import { Messagincommunication } from '../../components/Messaginchannel/Messagin
 import { Messagingchannellowerbanner } from '../../components/Messaginchannel/Messagingchannellowerbanner'
 import { Messagingplatforms } from '../../components/Messaginchannel/Messagingplatforms'
 import Navbar from '../../components/Navbar/Navbar'
+import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
+
+
 
 export default function messaginchannel ()  {
   return (
@@ -22,6 +25,7 @@ export default function messaginchannel ()  {
     <Messagincommunication />
     <Messagingplatforms />
     <Messagingchannellowerbanner />
+    <ProductsFooter/>
     
     </div>
   )

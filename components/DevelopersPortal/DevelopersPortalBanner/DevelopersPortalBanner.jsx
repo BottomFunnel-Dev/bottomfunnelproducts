@@ -15,7 +15,7 @@ export const DevelopersPortalBanner = () => {
     </div>
     <div className={styles.developerPortalBannerImage}>
         <Image
-            src={"/Images/developerPortal/Group8.webp"}
+            src={"/Images/developerPortal/Group8.png"}
             alt={"image"}
             width={"0"}
             height={"0"}

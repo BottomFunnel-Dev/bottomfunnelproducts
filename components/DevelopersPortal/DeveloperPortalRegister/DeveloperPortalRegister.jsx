@@ -8,7 +8,7 @@ export const DeveloperPortalRegister = () => {
      <div className={styles.developerPortalRegisterContainer}>
         <div className={styles.developerPortalRegImage}>
             <Image
-                src={"/Images/developerPortal/Group11.webp"}
+                src={"/Images/developerPortal/Group11.png"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

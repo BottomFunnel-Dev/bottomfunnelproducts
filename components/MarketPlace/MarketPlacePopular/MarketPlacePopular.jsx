@@ -4,338 +4,367 @@ import Image from "next/image";
 export const MarketPlacePopular = () => {
     return (
         <div className={styles.MarketPlacePopularParent}>
-            <h1>Popular Apps</h1>
+            <h1> Popular apps </h1>
+
             <div className={styles.line}></div>
             <div className={styles.MarketPlacePopularChild}>
 
                 <div>
-
-                    <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}>
+                    <div className={styles.MarketPlacePopularchildivthird}>
+                        <div className={styles.MarketPlacePopularimgthird}>
                             <Image
                                 src={"/Images/MarketPlace/Popular1.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "70%" }}
-                            /></div>
+                                style={{ width: "70%", height: "70%" }}
+                            />
+                        </div>
+
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
-                                <h6>Google calender
-                                </h6>
-                                <button>Free</button>
+                                <h6> Google Calender </h6>
+                                <button> Free </button>
                             </div>
-                            <p>Easily schedule and mange meetings by bringing the
-                                power of Google Calender within ...</p>
-                            <button>Intall</button>
+
+                            <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
+
+                            <button> Intall </button>
                         </div>
                     </div>
-                    <div className={styles.line}></div>
+
+
+
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
                     </div>
                 </div>
 
                 <div>
-
-                    <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}><Image
-                            src={"/Images/MarketPlace/Popular2.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "70%" }}
-                        /></div>
-                        <div className={styles.MarketPlacePopularchildsubdiv}>
-                            <div >
-                                <h6>Google calender
-                                </h6>
-                                <button>Free</button>
-                            </div>
-                            <p>Easily schedule and mange meetings by bringing the
-                                power of Google Calender within ...</p>
-                            <button>Intall</button>
-                        </div>
-                    </div>
-                    <div className={styles.line}></div>
-                    <div className={styles.MarketPlacePopularchildivtwo}>
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    </div>
-                </div>
-                <div>
-
                     <div className={styles.MarketPlacePopularchildivthird}>
-                        <div className={styles.MarketPlacePopularimgthird}><Image
-                            src={"/Images/MarketPlace/Popular3.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "70%", height: "70%" }}
-                        /></div>
+                        <div className={styles.MarketPlacePopularimgthird}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular2.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "80%", height: "70%", objectFit: "contain" }}
+                            />
+                        </div>
+
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
-                                <h6>Zendesk
-                                </h6>
-                                <button>Free</button>
+                                <h6> Omnichannel Suite </h6>
+                                <button> Free </button>
                             </div>
-                            <p>Easily move all your support tickets, conversations and
-                                more from your Zendesk account to Freshdesk</p>
-                            <button>Intall</button>
+
+                            <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
+
+                            <button> Intall </button>
                         </div>
                     </div>
-                    <div className={styles.line}></div>
+
+
+
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
                     </div>
                 </div>
+
                 <div>
+                    <div className={styles.MarketPlacePopularchildivthird}>
+                        <div className={styles.MarketPlacePopularimgthird}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular3.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "70%", height: "70%" }}
+                            />
+                        </div>
 
-                    <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}><Image
-                            src={"/Images/MarketPlace/Popular4.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "70%" }}
-                        /></div>
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
-                                <h6>Contact Center
-                                </h6>
-                                <button>Free</button>
+                                <h6> Zendesk </h6>
+                                <button> Free </button>
                             </div>
-                            <p>Easily move all your support tickets, conversations and
-                                more from your Zendesk account to Freshdesk</p>
-                            <button>Intall</button>
+
+                            <p> Easily move all your support tickets, conversations and more from your Zendesk account to
+                                Freshdesk </p>
+
+                            <button> Intall </button>
                         </div>
                     </div>
-                    <div className={styles.line}></div>
+
+
+
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
                     </div>
                 </div>
 
+                <div>
+                    <div className={styles.MarketPlacePopularchildivthird}>
+                        <div className={styles.MarketPlacePopularimgthird}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular4.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "80%", height: "70%", objectFit: "contain" }}
+                            />
+                        </div>
+
+                        <div className={styles.MarketPlacePopularchildsubdiv}>
+                            <div >
+                                <h6> Contact Center </h6>
+                                <button> Free </button>
+                            </div>
+
+                            <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
+
+                            <button> Intall </button>
+                        </div>
+                    </div>
+
+                    <div className={styles.MarketPlacePopularchildivtwo}>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+
             <div className={styles.MarketPlacePopularChild}>
 
                 <div>
+                    <div className={styles.MarketPlacePopularchildivthird}>
+                        <div className={styles.MarketPlacePopularimgthird}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular5.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "80%", height: "70%", objectFit: "contain" }}
+                            />
+                        </div>
 
-                    <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}><Image
-                            src={"/Images/MarketPlace/Popular5.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "120%" }}
-                        /></div>
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
-                                <h6>Support Desk
-                                </h6>
-                                <button>Free</button>
+                                <h6> Support Desk </h6>
+                                <button> Free </button>
                             </div>
-                            <p>Easily schedule and mange meetings by bringing the
-                                power of Google Calender within ...</p>
-                            <button>Intall</button>
+
+                            <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
+
+                            <button> Intall </button>
                         </div>
                     </div>
-                    <div className={styles.line}></div>
+
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
                     </div>
                 </div>
 
                 <div>
+                    <div className={styles.MarketPlacePopularchildivthird}>
+                        <div className={styles.MarketPlacePopularimgthird}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular7.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "80%", height: "70%", objectFit: "contain" }}
+                            />
+                        </div>
 
-                    <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}><Image
-                            src={"/Images/MarketPlace/Popular6.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "70%" }}
-                        /></div>
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
-                                <h6>Google Analytics
-                                </h6>
-                                <button>Free</button>
+                                <h6> Mail Chimp </h6>
+                                <button> Free </button>
                             </div>
-                            <p>Google Analytics</p>
-                            <button>Intall</button>
+
+                            <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
+
+                            <button> Intall </button>
                         </div>
                     </div>
-                    <div className={styles.line}></div>
+
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
                     </div>
                 </div>
+
                 <div>
+                    <div className={styles.MarketPlacePopularchildivthird}>
+                        <div className={styles.MarketPlacePopularimgthird}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular6.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "80%", height: "70%", objectFit: "contain" }}
+                            />
+                        </div>
 
-                    <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}><Image
-                            src={"/Images/MarketPlace/Popular7.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
-                        /></div>
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
-                                <h6>Mailchimp
-                                </h6>
-                                <button>Free</button>
+                                <h6> Google Analytics </h6>
+                                <button> Free </button>
                             </div>
-                            <p>Mailchimp </p>
-                            <button>Intall</button>
+
+                            <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
+
+                            <button> Intall </button>
                         </div>
                     </div>
-                    <div className={styles.line}></div>
+
                     <div className={styles.MarketPlacePopularchildivtwo}>
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
                     </div>
                 </div>
+
                 <div>
+                    <div className={styles.MarketPlacePopularchildivthird}>
+                        <div className={styles.MarketPlacePopularimgthird}>
+                            <Image
+                                src={"/Images/MarketPlace/Popular8.png"}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "80%", height: "70%", objectFit: "contain" }}
+                            />
+                        </div>
 
-                    <div className={styles.MarketPlacePopularchildiv}>
-                        <div className={styles.MarketPlacePopularimg}><Image
-                            src={"/Images/MarketPlace/Popular8.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "70%" }}
-                        /></div>
                         <div className={styles.MarketPlacePopularchildsubdiv}>
                             <div >
-                                <h6>Marketer
-                                </h6>
-                                <button>Free</button>
+                                <h6> Marketer </h6>
+                                <button> Free </button>
                             </div>
-                            <p>Sync marketing leads from Mailchimp with your
-                                Freshsales leads or contacts.</p>
-                            <button>Intall</button>
+
+                            <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
+
+                            <button> Intall </button>
                         </div>
                     </div>
-                    <div className={styles.line}></div>
-                    <div className={styles.MarketPlacePopularchildivtwo}>
 
-                    <div className={styles.MarketPlacefortable}>
-                        <p className={styles.MarketPlacefortablefirstp}>Suported for   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Categories   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                    <div className={styles.MarketPlacefortable}>
-                    <p className={styles.MarketPlacefortablefirstp} >Published By   :</p>
-                        <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
-                    </div>
-                        {/* <table>
-                            <tr>
-                                <td>Suported for    </td>
-                                <td> :   ----------------------------------------- </td>
-                            </tr>
-                            <tr>
-                                <td>Categories     </td>
-                                <td>   :   --------------------------------------------------------- </td>
-                            </tr>
-                            <tr>
-                                <td>Published By   </td>
-                                <td> :  -----------------------------------------------------------------  </td>
-                            </tr>
-                        </table> */}
+                    <div className={styles.MarketPlacePopularchildivtwo}>
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp}> Suported for   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Categories   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
+
+                        <div className={styles.MarketPlacefortable}>
+                            <p className={styles.MarketPlacefortablefirstp} > Published By   :</p>
+                            <p className={styles.MarketPlacefortablesecp}>------------------------------------------------------</p>
+                        </div>
                     </div>
                 </div>
-
 
             </div>
         </div>
-    )
-}
+    );
+};

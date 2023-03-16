@@ -16,10 +16,17 @@ export const AdditionalProduct = () => {
       <h1>
         Additional <span>Product</span> security features
       </h1>
-      <div>
-        {cardsData.map((elem) => (
-          <span key={elem}>{elem}</span>
-        ))}
+      <div className={styles.securityadditionDiv}>
+          <div className={styles.securityDataDiv}>
+            <h3>Click-jacking prevention</h3>
+            <h3>SHA 256 encoding</h3>
+            <h3>JWT authentication for APIs</h3>
+          </div>
+          <div className={styles.securityDataDiv}>
+            <h3>Granular app management</h3>
+            <h3>Data encryption at rest</h3>
+            <h3>Cross-site mitigation</h3>
+          </div>
       </div>
     </div>
   );

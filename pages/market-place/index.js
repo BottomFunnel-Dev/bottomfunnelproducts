@@ -12,9 +12,8 @@ import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonia
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 export default function MarketPlace() {
-    return ( 
+  return (
     <div>
-      
       <Navbar
         productMount={{
           navMount: true,
@@ -24,20 +23,20 @@ export default function MarketPlace() {
           logo: false,
         }}
       />
-  
-  <MarketPlaceBanner/>
-  <MarketPlaceFeature/>
-  <MarketPlacePopular/>
-  <MarketPlaceNewly/>
-  <MarketPlaceCollections/>
 
-      <Testimonial/>
-      <TrustedBy/>
+      <MarketPlaceBanner />
+      <MarketPlaceFeature />
+      <MarketPlacePopular />
+      <MarketPlaceNewly />
+      <MarketPlaceCollections />
 
-      <ReadyStarted/>
-      <TalentProfiles/>
-      <LifeBottomFunnel/>
-      <ProductsFooter/>
+      <Testimonial />
+      <TrustedBy />
+
+      <ReadyStarted />
+      <TalentProfiles />
+      <LifeBottomFunnel />
+      <ProductsFooter />
     </div>
-    );
-}
+  );
+};

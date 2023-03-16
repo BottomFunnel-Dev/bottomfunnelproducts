@@ -17,7 +17,7 @@ export const DeveloperPortalDiscover = () => {
                  <div className={styles.developerDiscoverDataDiv}>
                     <div className={styles.developerDiscoverDataImage1}>
                        <Image
-                            src={"/Images/developerPortal/Group3.webp"}
+                            src={"/Images/developerPortal/Group3.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -33,7 +33,7 @@ export const DeveloperPortalDiscover = () => {
 
                     <div className={styles.developerDiscoverDataImage2}>
                        <Image
-                            src={"/Images/developerPortal/Group6.webp"}
+                            src={"/Images/developerPortal/Group6.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -51,7 +51,7 @@ export const DeveloperPortalDiscover = () => {
                  <div className={styles.developerDiscoverDataDiv}>
                     <div className={styles.developerDiscoverDataImage1}>
                        <Image
-                            src={"/Images/developerPortal/Group5.webp"}
+                            src={"/Images/developerPortal/Group5.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -67,7 +67,7 @@ export const DeveloperPortalDiscover = () => {
 
                     <div className={styles.developerDiscoverDataImage2}>
                        <Image
-                            src={"/Images/developerPortal/Group4.webp"}
+                            src={"/Images/developerPortal/Group4.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
