@@ -10,7 +10,7 @@ import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadySta
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 
-export default function bottomfunnelteam() {
+export default function bottomfunnelCrmSuit() {
     return (
       <div>
       <Navbar

@@ -41,8 +41,8 @@ export default function logisticsales() {
 
       
        <DigitalTransformation/>
-       <CRMLogistics/>
-       <Screens/>
+        <CRMLogistics/>
+        <Screens/>
         <Engagement/>
 
         <Trial/>
