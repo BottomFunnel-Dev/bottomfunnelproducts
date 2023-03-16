@@ -1,5 +1,6 @@
-
-     {/* <CRMLogistics/> */}
+{
+  /* <CRMLogistics/> */
+}
 
 import React from "react";
 import { Trial } from "../../components/AnalyticsofFeature/Trial/Trial";
@@ -20,8 +21,7 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 export default function logisticsales() {
   return (
     <>
-         <div style={{ color: "#393939" }}>
- 
+      <div style={{ color: "#393939" }}>
         <Navbar
           productMount={{
             navMount: true,
@@ -31,26 +31,27 @@ export default function logisticsales() {
             logo: false,
           }}
         />
-          <SalesNavbar  navproductredux={{
-              color: "black",
-              logo: false,
-            }}/> 
+        <SalesNavbar
+          navproductredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
-            <LogisticSalesBanner/>
-            <LogisticsContain/>
+        <LogisticSalesBanner />
+        <LogisticsContain />
 
-      
-       <DigitalTransformation/>
-       <CRMLogistics/>
-       <Screens/>
-        <Engagement/>
+        <DigitalTransformation />
+        <CRMLogistics />
+        <Screens />
+        <Engagement />
 
-        <Trial/>
-        <Testimonial/>
-        <TrustedBy/>
-        <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ProductsFooter/>
+        <Trial />
+        <Testimonial />
+        <TrustedBy />
+        <ReadyStarted />
+        <LifeBottomFunnel />
+        <ProductsFooter />
       </div>
     </>
   );

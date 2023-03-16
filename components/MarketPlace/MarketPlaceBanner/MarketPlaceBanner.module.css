@@ -1,89 +1,93 @@
-.MarketPlaceBannerParent{
-   
-    background-image: url("/Images/MarketPlace/Banner.webp");
-   
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 59vh;
-
-
-}
-.MarketPlaceBannerSearchdiv{
-   
-    width: 100%;
-  
-}
-.MarketPlaceBannerParent>h1{
-    color: white;
-    width: 35%;
-  
-    text-align: center;
-    margin-top: 160px;
-
-}
-
-.MarketPlaceBannerCheckbox{
-    display: flex;
-    
+.MarketPlaceBannerParent {
+  background-image: url("/Images/MarketPlace/Banner.webp");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 59vh;
+  object-fit: contain;
   position: relative;
-  margin-top: 7%;
-  width: 400px;
-  left: 25%;
+}
+
+.MarketPlaceBannerSearchdiv {
+  width: 100%;
+  /* border: 2px solid black; */
+  height: fit-content;
+  margin-top: 3.5%;
+  /* display: flex;
+  flex-direction: column; */
+  /* position: absolute; */
+  /* top: 50%; */
+}
+
+.MarketPlaceBannerParent > h1 {
+  /* border: 2px solid red; */
+  color: white;
+  width: 32%;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.MarketPlaceBannerBotttomFunnel {
+  color: #ef4c23;
+  font-weight: 500;
+}
+
+.MarketPlaceBannerCheckbox {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 63%;
+  align-items: center;
+  justify-content: center;
   align-items: center;
   align-content: center;
-  justify-content: flex-start;
-  
+}
 
+.MarketPlaceBannerCheckbox > div {
+  display: flex;
+  width: 90px;
+  height: 25px;
 }
-.MarketPlaceBannerCheckbox>div{
-    display: flex;
-    width: 90px;
-    height: 25px;
-   
-}
-.MarketPlaceBannerCheckbox>div>p{
-    color: white;
-    font-size: 14px;
-   
+
+.MarketPlaceBannerCheckbox > div > p {
+  color: white;
+  font-size: 14px;
+  padding-left: 5px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-
-
-.MarketPlaceBannerSearch {
-  width: 100%;
-  position: relative;
-  display: flex;
-  
-}
-.MarketPlaceBannerBotttomFunnel{
-    color: #EF4C23;
-    
-}
 
 .MarketPlaceBannerSearchTerm {
   width: 100%;
   border: 1px solid #121314;
   border-right: none;
   padding: 5px;
-  height: 60px;
-  border-radius: 5px 0 0 5px;
+  height: 70px;
+  border-radius: 10px 0 0 10px;
   outline: none;
-  color: #9DBFAF;
-  
+  color: #9dbfaf;
 }
 
-.MarketPlaceBannerSearchTerm:focus{
-  color: #00B4CC;
+.MarketPlaceBannerSearchTerm::placeholder {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 600;
+  color: lightgray;
+  opacity: 1;
+}
+
+.MarketPlaceBannerSearchTerm:focus {
+  color: #00b4cc;
 }
 
 .MarketPlaceBannerSearchButton {
-  width: 60px;
-  height: 60px;
-  border: 1px solid #EF4C23;
-  background: #EF4C23;
+  width: 10%;
+  height: 70px;
+  border: 1px solid #ef4c23;
+  background: #ef4c23;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -92,123 +96,112 @@ height: 59vh;
 }
 
 /*Resize the wrap to see the search bar change!*/
-.MarketPlaceBannerWrap{
+.MarketPlaceBannerWrap {
+  /* border: 2px solid red; */
   width: 50%;
-  position: absolute;
-  top: 59%;
+  position: relative;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.MarketPlaceBannerSearch {
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
 
-
-
-
-
-
-
-
-
-@media(max-width:780px){
-  .MarketPlaceBannerParent{
-   
+@media (max-width: 780px) {
+  .MarketPlaceBannerParent {
     background-image: url("/Images/MarketPlace/Banner.webp");
-   
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+  }
 
-}
-.MarketPlaceBannerSearchdiv{
-   
+  .MarketPlaceBannerSearchdiv {
     width: 100%;
-  
-}
-.MarketPlaceBannerParent>h1{
+  }
+
+  .MarketPlaceBannerParent > h1 {
     color: white;
     width: 70%;
-  
     text-align: center;
     margin-top: 180px;
+  }
 
-}
-
-.MarketPlaceBannerCheckbox{
+  .MarketPlaceBannerCheckbox {
     display: flex;
-    
-  position: relative;
-  margin-top: 10%;
-  width: 400px;
-  left: 25%;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-start;
-  
+    position: relative;
+    margin-top: 10%;
+    width: 400px;
+    left: 25%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+  }
 
-}
-.MarketPlaceBannerCheckbox>div{
+  .MarketPlaceBannerCheckbox > div {
     display: flex;
     width: 90px;
     height: 25px;
+  }
 
-}
-.MarketPlaceBannerCheckbox>div>p{
+  .MarketPlaceBannerCheckbox > div > p {
     color: white;
     font-size: 14px;
-}
+  }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+  .MarketPlaceBannerSearch {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
 
+  .MarketPlaceBannerBotttomFunnel {
+    color: #ef4c23;
+  }
 
-.MarketPlaceBannerSearch {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-.MarketPlaceBannerBotttomFunnel{
-    color: #EF4C23;
-}
+  .MarketPlaceBannerSearchTerm {
+    width: 100%;
+    border: 1px solid #121314;
+    border-right: none;
+    padding: 5px;
+    height: 60px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9dbfaf;
+  }
 
-.MarketPlaceBannerSearchTerm {
-  width: 100%;
-  border: 1px solid #121314;
-  border-right: none;
-  padding: 5px;
-  height: 60px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-}
+  .MarketPlaceBannerSearchTerm:focus {
+    color: #00b4cc;
+  }
 
-.MarketPlaceBannerSearchTerm:focus{
-  color: #00B4CC;
-}
+  .MarketPlaceBannerSearchButton {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ef4c23;
+    background: #ef4c23;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
 
-.MarketPlaceBannerSearchButton {
-  width: 60px;
-  height: 60px;
-  border: 1px solid #EF4C23;
-  background: #EF4C23;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.MarketPlaceBannerWrap{
-  width: 50%;
-  position: absolute;
-  top:40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.MarketPlaceBannerCheckboxone>input{
+  /*Resize the wrap to see the search bar change!*/
+  .MarketPlaceBannerWrap {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .MarketPlaceBannerCheckboxone > input {
     border-radius: 100px;
     border: none;
-    
-}
+  }
 }
