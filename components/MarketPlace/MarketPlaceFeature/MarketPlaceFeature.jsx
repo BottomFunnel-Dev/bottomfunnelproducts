@@ -6,17 +6,17 @@ export const MarketPlaceFeature = () => {
         <div className={styles.MarketPlaceFeatureParent}>
             <h1>Featured apps</h1>
             <div className={styles.line}></div>
-            
+
             <div className={styles.MarketPlaceFeatureChild}>
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>
                         <Image className="marketplaceSectionImage"
-                            src={"/Images/MarketPlace/Feature1.png"}
+                            src={"/Images/MarketPlace/feature1.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{ width: "100%", height: "100%", marginBottom: "15%" }}
+                            style={{ width: "100%", height: "100%" }}
                         />
                     </div>
 
@@ -27,7 +27,7 @@ export const MarketPlaceFeature = () => {
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>
                         <Image
-                            src={"/Images/MarketPlace/Feature2.png"}
+                            src={"/Images/MarketPlace/feature2.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -43,7 +43,7 @@ export const MarketPlaceFeature = () => {
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>
                         <Image
-                            src={"/Images/MarketPlace/Feature3.png"}
+                            src={"/Images/MarketPlace/feature3.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -59,7 +59,7 @@ export const MarketPlaceFeature = () => {
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>
                         <Image
-                            src={"/Images/MarketPlace/Feature4.png"}
+                            src={"/Images/MarketPlace/feature4.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
