@@ -3,9 +3,10 @@
 
    
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: 4%;
 }
 .Leadingcrmmaindivbutton{
  

@@ -5,9 +5,11 @@
     justify-content: space-around;
     padding: 2%;
     margin-top: 2%;
+    align-items: center;
 }
 .WhatMoremaindivimage{
     width: 30%;
+    height: 300px;
 }
 .WhatMoremaindivcontent{
     width: 50%;
