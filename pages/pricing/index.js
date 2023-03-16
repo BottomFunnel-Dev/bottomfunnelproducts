@@ -20,8 +20,8 @@ export default function Pricing() {
                 navMount: false,
             }}
             navredux={{
-                color: "white",
-                logo: true,
+                color: "black",
+                logo: false,
             }}
             />
 

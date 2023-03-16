@@ -20,7 +20,7 @@ export const InsuranceSalesData = () => {
             <p className={style.Productivitymore}>Learn More</p>
             </div>
             <div className={style.InsuranceSalesDatamainimagediv}>
-                <img src="/Images/InsuranceSalesphotos/screen3.webp" alt="screen1" />
+                <img src="/Images/InsuranceSalesphotos/screen31.webp" alt="screen1" />
 
             </div>
 
@@ -34,7 +34,7 @@ export const InsuranceSalesData = () => {
         <div className={style.InsuranceSalesDatamaindiv}>
 
         <div className={style.InsuranceSalesDatamainimagediv1}>
-                <img src="/Images/InsuranceSalesphotos/screen4.webp" alt="screen1" />
+                <img src="/Images/InsuranceSalesphotos/screen41.webp" alt="screen1" />
 
             </div>
             <div className={style.InsuranceSalesDatamaincontaindiv1}>

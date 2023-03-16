@@ -17,7 +17,7 @@ For example, if you need to send a reminder to a customer whose policy is up for
             <p className={style.Productivitymore}>Learn More</p>
             </div>
             <div className={style.InsuranceSalesScreensmainimagediv}>
-                <img src="Images/InsuranceSalesphotos/screen1.webp" alt="screen1" />
+                <img src="Images/InsuranceSalesphotos/screen11.webp" alt="screen1" />
 
             </div>
 
@@ -59,7 +59,7 @@ For example, if you need to send a reminder to a customer whose policy is up for
             <p className={style.Productivitymore}>Learn More</p>
             </div>
             <div className={style.InsuranceSalesScreensmainimagediv}>
-                <img src="/Images/InsuranceSalesphotos/screen2.webp" alt="screen1" />
+                <img src="/Images/InsuranceSalesphotos/screen21.webp" alt="screen1" />
 
             </div>
 

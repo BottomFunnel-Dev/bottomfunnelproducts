@@ -1,0 +1,57 @@
+.Implementationmaindiv{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    margin-top: 5%;
+}
+.Implementationmaindivtext{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.Implementationinnerdiv{
+    display: flex;
+    flex-direction: row;
+    /* width: %; */
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.Implementationinnerdivcontent{
+    width: 40%;
+    margin: auto;
+}
+.Implementationinnerdivcontent p{
+   text-align: justify;  
+}
+.Implementationinnerdivimage{
+    width: 40%;
+}
+.Implementationmaindivbutton{
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    background-color: #ef4c23;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.Implementationmaindivbutton:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+}
+
+.Implementationinnerdivone{
+     display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.Implementationinnerdivcontentone{
+    width: 40%;
+}
+.Implementationinnerdivcontentone p{
+    text-align: justify;
+}
