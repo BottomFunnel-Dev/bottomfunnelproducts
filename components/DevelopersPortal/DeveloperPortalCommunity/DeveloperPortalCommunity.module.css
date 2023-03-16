@@ -2,10 +2,11 @@
     /* border: 2px solid red; */
     width: 100%;
     height: auto;
+    margin-top: 3%;
 }
 .developerPortalCommunityBox{
     /* border: 2px solid red; */
-    width: 50%;
+    width: 80%;
     height: auto;
     margin: auto;
     display: flex;
@@ -13,11 +14,15 @@
     color: #EF4C23;
     text-align: center;
 }
+.developerPortalCommunityBox>h2{
+    font-size: 40px;
+}
 .developerPortalCommunityImage{
     /* border: 2px solid red; */
     width: 65%;
-    height: 400px;
+    height: 600px;
     margin: auto;
+    margin-top: 2%;
 }
 .developerPortalCommunityText{
     /* border: 2px solid red; */

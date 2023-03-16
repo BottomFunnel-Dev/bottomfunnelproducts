@@ -6,11 +6,11 @@ export const DeveloperPortalCommunity = () => {
   return (
      
     <div className={styles.developerPortalCommunityMainDiv}>
-       <div className={styles.developerPortalCommunityBox}>
+       <div className={styles.developerPortalCommunityBox}> 
            <h2>Community</h2>
            <div className={styles.developerPortalCommunityImage}>
                 <Image
-                    src={"/Images/developerPortal/Group7.webp"}
+                    src={"/Images/developerPortal/Group7.png"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

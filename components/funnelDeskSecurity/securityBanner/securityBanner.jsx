@@ -6,14 +6,14 @@ export const SecurityBanner = () => {
   return (
     <div className={styles.securityBannerContainer}>
       <span>
-        <Image
-          src={"/Images/funneldeskSecurity/banner.webp"}
-          alt="funneldeskSecurity/banner.webp"
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+        <lottie-player
+            src={"/Animation/Security/banner.json"}
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            >
+        </lottie-player>
       </span>
       <div>
         <h1>Safeguard your helpdesk data with Supportdesk</h1>
@@ -23,6 +23,7 @@ export const SecurityBanner = () => {
           checks. Freskdesk is a globally secure platform
         </p>
         <button>Get Started</button>
+        <button className={styles.securityBannerButton}>Request Demo</button>
       </div>
     </div>
   );

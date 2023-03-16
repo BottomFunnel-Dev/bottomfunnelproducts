@@ -6,7 +6,7 @@
 }
 .developerPortalDiscoverBox{
     border: 1px solid #EF4C23;
-    width: 75%;
+    width: 85%;
     height: auto;
     margin: auto;
     border-radius: 5px;
@@ -14,19 +14,23 @@
 }
 .developerPortalDiscoverBox>h2{
     color: #EF4C23;
+    font-size: 40px;
+}
+.developerPortalDiscoverBox>h4{
+    font-size: 35px;
 }
 .developerDiscoverContainer{
     /* border: 2px solid green; */
-    width: 85%;
+    width: 95%;
     height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
 .developerDiscoverDataDiv{
-    /* border: 2px solid gold; */
+    /* border: 2px solid gold;  */
     width: 100%;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: row;
     margin-top: 3%;
@@ -35,20 +39,22 @@
 .developerDiscoverDataImage1{
     /* border: 2px solid red; */
     width: 40%;
+    height: 450px;
     margin-left: 8%;
     position: relative;
 }
 .developerDiscoverDataImage2{
     /* border: 2px solid red; */
     width: 40%;
+    height: 450px;
     margin-left: 4%;
     position: relative;
 }
 .developerPortalImagetext{
-    /* border: 2px solid red; */
+    /* border: 2px solid yellow; */
     width: 80%;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 15%;
     margin: auto;
     text-align: left;

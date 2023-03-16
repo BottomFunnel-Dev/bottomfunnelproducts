@@ -9,7 +9,7 @@ export const DevelopersPortalGrow = () => {
     
     <div className={styles.developerPortalGrowImage}>
         <Image
-            src={"/Images/developerPortal/Frame1.webp"}
+            src={"/Images/developerPortal/Frame1.png"}
             alt={"image"}
             width={"0"}
             height={"0"}

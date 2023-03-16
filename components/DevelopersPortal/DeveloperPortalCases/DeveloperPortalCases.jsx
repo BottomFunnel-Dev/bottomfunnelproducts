@@ -12,7 +12,7 @@ export const DeveloperPortalCases = () => {
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage}>
                    <Image
-                        src={"/Images/developerPortal/NT.webp"}
+                        src={"/Images/developerPortal/NT.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -27,7 +27,7 @@ export const DeveloperPortalCases = () => {
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage}>
                    <Image
-                        src={"/Images/developerPortal/SPJ.webp"}
+                        src={"/Images/developerPortal/SPJ.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -42,7 +42,7 @@ export const DeveloperPortalCases = () => {
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage}>
                    <Image
-                        src={"/Images/developerPortal/BBG.webp"}
+                        src={"/Images/developerPortal/BBG.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
