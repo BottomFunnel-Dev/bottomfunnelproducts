@@ -21,6 +21,11 @@
     border-radius: 5px;
 
 }
+.developerPortalBannerText>button:hover{
+    border: 2px solid #EF4C23;
+    color: #EF4C23;
+    background-color: white;
+}
 .developerPortalBannerImage{
     /* border: 2px solid red; */
     width: 42%;

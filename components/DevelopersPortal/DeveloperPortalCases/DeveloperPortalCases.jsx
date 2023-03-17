@@ -10,7 +10,7 @@ export const DeveloperPortalCases = () => {
         <h2>Learn how business solve complex problems with apps</h2>
         <div className={styles.developerPortalCaseContainer}>
             <div className={styles.developerPortalCaseBox}>
-                <div className={styles.developerPortalCaseImage}>
+                <div className={styles.developerPortalCaseImage1}>
                    <Image
                         src={"/Images/developerPortal/NT.png"}
                         alt={"image"}
@@ -25,7 +25,7 @@ export const DeveloperPortalCases = () => {
                 <h3>Read full case study</h3>
             </div>
             <div className={styles.developerPortalCaseBox}>
-                <div className={styles.developerPortalCaseImage}>
+                <div className={styles.developerPortalCaseImage2}>
                    <Image
                         src={"/Images/developerPortal/SPJ.png"}
                         alt={"image"}
@@ -51,7 +51,7 @@ export const DeveloperPortalCases = () => {
                     />
                 </div>
                 <h3>Case Study</h3>
-                <p>MTN Cameroon delivers EPICCX with Bottom Funnel</p>
+                <p>MTN Cameroon delivers EPICCX with Us</p>
                 <h3>Read full case study</h3>
             </div>
         </div>
