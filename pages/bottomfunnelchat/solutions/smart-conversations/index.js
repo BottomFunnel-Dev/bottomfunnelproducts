@@ -81,7 +81,7 @@ const productData = {
         dropContent: "By Use Size",
         list: [
           { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-          { title: "Zero Contact Resolutions", path: "/" },
+          { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
           { title: "Provide convenient customer service", path: "/" },
           { title: "Move from costly channels", path: "/" },
         ],

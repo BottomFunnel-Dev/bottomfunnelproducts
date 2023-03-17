@@ -1110,7 +1110,7 @@ export const resource = [
   },
   {
     dropContent: "Academy",
-    path: "/",
+    path: "/academy",
   },
   {
     dropContent: "Videos",
