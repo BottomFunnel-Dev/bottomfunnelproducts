@@ -46,7 +46,7 @@
     /* border: 2px solid green; */
     font-size: 18px;
     font-weight: 600;
-    background: #ef4c23;
+    background: #03C457;
     color: white;
     width: 220px;
     border-radius: 10px;
@@ -56,8 +56,8 @@
 
 }
 .BottomfunnelchatBannerbutton:hover{
-    border: 1px solid #ef4c23;
-    color: #ef4c23;
+    border: 1px solid #03C457;
+    color: #03C457;
     background-color: white;
 }
 
@@ -118,7 +118,7 @@
     /* border: 2px solid green; */
     font-size: 18px;
     font-weight: 600;
-    background: #ef4c23;
+    background: #03C457;
     color: white;
     width: 220px;
     border-radius: 10px;
@@ -128,8 +128,8 @@
 
 }
 .BottomfunnelchatBannerbutton:hover{
-    border: 1px solid #ef4c23;
-    color: #ef4c23;
+    border: 1px solid #03C457;
+    color: #03C457;
     background-color: white;
 }
 }

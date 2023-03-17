@@ -23,7 +23,7 @@ const productData = {
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/",
+        path: "/messagingchannel",
       },
       {
         dropContent: "Chatbots",
@@ -80,7 +80,7 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/" },
+          { title: "Smart Conversations", path: "//bottomfunnelchat/solutions/smart-conversations" },
           { title: "Zero Contact Resolutions", path: "/" },
           { title: "Provide convenient customer service", path: "/" },
           { title: "Move from costly channels", path: "/" },

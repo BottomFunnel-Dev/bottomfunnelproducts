@@ -7,14 +7,14 @@ export const AgencyNeedCrm = () => {
     <div className={style.AgencyNeedCrmmaindiv}>
         <div className={style.AgencyNeedCrmimage}>
         <Image
-  src={"/Images/Agencyhomepagephotos/agencyneed.webp"}
-  alt={"image"}
-  width={"0"}
-  height={"0"}
-  sizes={"100vw"}
-  style={{ width: "100%", height: "100%" }}
+          src={"/Images/Agencyhomepagephotos/agencyneed.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
 
-  />
+          />
             {/* <img src="/Images/Agencyhomepagephotos/agencyneed.webp" alt="image" /> */}
         </div>
         <div className={style.AgencyNeedCrmcontain}>

@@ -35,7 +35,19 @@
 }
 .developerPortalCaseImage{
     /* border: 2px solid red; */
-    width: 62%;
+    width: 55%;
     height: 90px;
-    margin: 16%;
+    margin: 12% 10% 10% 22%;
+}
+.developerPortalCaseImage1{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 65px;
+    margin: 15% 10% 10% 16%;
+}
+.developerPortalCaseImage2{
+    /* border: 2px solid red; */
+    width: 62%;
+    height: 75px;
+    margin: 15% 10% 10% 18%;
 }

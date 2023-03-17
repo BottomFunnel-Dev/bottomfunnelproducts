@@ -49,7 +49,7 @@ export const DeveloperPortalGetStarted = () => {
                 <div className={styles.developerPortalData2}>
                     <div className={styles.developerPortalLogo}>
                     <Image
-                        src={"/Images/developerPortal/Rectangle-1.png"}
+                        src={"/Images/developerPortal/Rectangle2.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -67,7 +67,7 @@ export const DeveloperPortalGetStarted = () => {
                 <div className={styles.developerPortalData3}>
                     <div className={styles.developerPortalLogo}>
                     <Image
-                        src={"/Images/developerPortal/Rectangle1.png"}
+                        src={"/Images/developerPortal/Rectangle3.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -84,7 +84,7 @@ export const DeveloperPortalGetStarted = () => {
                 <div className={styles.developerPortalData4}>
                     <div className={styles.developerPortalLogo}>
                     <Image
-                        src={"/Images/developerPortal/Rectangle-1.png"}
+                        src={"/Images/developerPortal/Rectangle4.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}

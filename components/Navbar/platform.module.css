@@ -17,7 +17,6 @@
 }
 
 .platformDropdownSection {
-  /* border: 1px solid rebeccapurple; */
   width: 100%;
   margin: 0 auto;
   margin-top: -1%;
@@ -27,7 +26,6 @@
   box-sizing: border-box;
   justify-content: space-around;
   box-sizing: border-box;
-  /* height: fit; */
   /* border: 2px solid green; */
 }
 

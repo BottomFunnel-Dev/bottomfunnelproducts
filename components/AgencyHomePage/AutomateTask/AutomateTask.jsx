@@ -37,14 +37,14 @@ From welcome emails to internal reminders for your team members to complete task
 
           <div className={style.AutomateTaskimage}>
           <Image
-  src={"/Images/Agencyhomepagephotos/Group 1000006414.webp"}
-  alt={"image"}
-  width={"0"}
-  height={"0"}
-  sizes={"100vw"}
-  style={{ width: "100%", height: "100%" }}
+              src={"/Images/Agencyhomepagephotos/agency.png"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
 
-  />
+              />
              {/* <img src="/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
             </div>
             <div className={style.AutomateTaskdiv2}>

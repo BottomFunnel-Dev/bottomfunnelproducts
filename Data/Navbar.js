@@ -1049,6 +1049,7 @@ export const product2 = [
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
+  
   {
     dropContent: "Bottom Funnel Contact Center",
     navIcons: "/Images/navbar/product/contact.png",
@@ -1057,9 +1058,9 @@ export const product2 = [
     productHover: "#d6ffe8",
   },
   {
-    dropContent: "Bottom Funnel Team",
+    dropContent: "Bottom Funnel CRM Suit",
     navIcons: "/Images/navbar/product/Sales.png",
-    path: "/",
+    path: "/bottomfunnel-crmsuit",
     title: "Delight Your Customer With Effortless Team Service",
     productHover: "#ffaf9a",
   },
@@ -1105,7 +1106,7 @@ export const product3 = [
 export const resource = [
   {
     dropContent: "Blog",
-    path: "/",
+    path: "/blogs",
   },
   {
     dropContent: "Academy",
@@ -1148,26 +1149,26 @@ export const product4 = [
     navIcons: "/Images/navbar/product/customer.png",
     path: "/customer-spotlight",
   },
-  {
-    dropContent: "Customer Service",
-    navIcons: "/Images/navbar/product/Customerservice.png",
-    path: "/",
-  },
-  {
-    dropContent: "IT Enterprises",
-    navIcons: "/Images/navbar/product/IT.png",
-    path: "/",
-  },
-  {
-    dropContent: "Engagement",
-    navIcons: "/Images/navbar/product/users.png",
-    path: "/",
-  },
-  {
-    dropContent: "Olly AI",
-    navIcons: "/Images/navbar/product/olly.png",
-    path: "/",
-  },
+  // {
+  //   dropContent: "Customer Service",
+  //   navIcons: "/Images/navbar/product/Customerservice.png",
+  //   path: "/",
+  // },
+  // {
+  //   dropContent: "IT Enterprises",
+  //   navIcons: "/Images/navbar/product/IT.png",
+  //   path: "/",
+  // },
+  // {
+  //   dropContent: "Engagement",
+  //   navIcons: "/Images/navbar/product/users.png",
+  //   path: "/",
+  // },
+  // {
+  //   dropContent: "Olly AI",
+  //   navIcons: "/Images/navbar/product/olly.png",
+  //   path: "/",
+  // },
 ];
 
 export const productSolution = [
@@ -1428,6 +1429,6 @@ export const salesIndustries = [
   },
   {
     dropContent: "Law Firm",
-    path: "/",
+    path: "/lawfrim",
   },
 ];

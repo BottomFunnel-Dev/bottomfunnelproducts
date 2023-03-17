@@ -1,0 +1,61 @@
+.smartConversationsDownloadMain{
+    display: flex;
+    height: 500px;
+    /* border: 2px solid red; */
+    background-color: #393939;
+}
+.smartConversationsDownloadimg{
+    width: 50%;
+    height: 350px;
+    margin-top: 5%;
+}
+
+.smartConversationsDownloadtext{
+    margin-top: 8%;
+    width: 50%;
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.smartConversationsDownloadtext>hr{
+    width: 80%;
+}
+.smartConversationsDownloadtext>h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.smartConversationsDownloadtext>p{
+    width: 80%;
+    font-weight: 400;
+    font-size: 20px;
+}
+.smartConversationInput{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 35%;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+}
+.smartConversationsDownloadtext>button{
+    width: 25%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #03C457;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 3%;
+    padding-left:1%;
+}
+
+.smartConversationsDownloadtext>button:hover{
+    background-color: white;
+    color: #03C457;
+    border: 1px solid #03C457;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
