@@ -1,0 +1,95 @@
+.smartConversationsChangesMain{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+}
+.smartConversationsChangesimg{
+    width: 50%;
+    height: 450px;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+}
+.smartConversationsChangestext{
+    margin-top: 3%;
+    width: 50%;
+    /* border: 2px solid red; */
+    padding: 5%;
+}
+.smartConversationsChangestext>hr{
+    width: 80%;
+}
+.smartConversationsChangestext>h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.smartConversationsChangestext>p{
+    width: 80%;
+    font-weight: 400;
+    font-size: 20px;
+}
+.smartConversationsChangestext>button{
+    width: 25%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #03C457;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.smartConversationsChangestext>button:hover{
+    background-color: white;
+    color: #03C457;
+    border: 1px solid #03C457;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    .smartConversationsChangesMain{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        
+    }
+    .smartConversationsChangesimg{
+        width: 70%;
+        height: 450px;
+        margin-top: 10%;
+        margin-left: 14%;
+    }
+    .smartConversationsChangestext{
+        margin-top: 17%;
+        margin-left: 10%;
+        width: 90%;
+    }
+    .smartConversationsChangestext>hr{
+        width: 80%;
+    }
+    .smartConversationsChangestext>h1{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .smartConversationsChangestext>p{
+        width: 90%;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .smartConversationsChangestext>button{
+        padding: 10px 30px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 2% 0% 4% 17%;
+        border-radius: 15px;
+        background-color: #03C457;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .smartConversationsChangestext>button:hover{
+        background-color: white;
+        color: #03C457;
+        border: 1px solid #03C457;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}

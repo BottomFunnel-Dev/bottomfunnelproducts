@@ -6,7 +6,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* color: #EF4C23; */
+}
+.developerPortalResourceMainDiv>h2{
     color: #EF4C23;
+    font-size: 40px;
+}
+.developerPortalResourceMainDiv>h3{
+    font-size: 40px;
 }
 .developerResourceContainer{
     /* border: 2px solid yellow; */

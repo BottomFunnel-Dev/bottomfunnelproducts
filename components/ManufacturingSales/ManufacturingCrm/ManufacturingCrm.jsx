@@ -25,7 +25,7 @@ One way is to adopt modern CRM software for the manufacturing industry.</p>
             <div className={styles.ManufacturingCrmmaindivrowboxdiv}>
               <div className={styles.ManufacturingCrmmaindivrowboxdivimage}>
               <Image
-                        src={"/Images/manufacturingsales/tap 1.webp"}
+                        src={"/Images/Manufacturing/tap 1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -41,7 +41,7 @@ One way is to adopt modern CRM software for the manufacturing industry.</p>
             <div className={styles.ManufacturingCrmmaindivrowboxdiv}>
               <div className={styles.ManufacturingCrmmaindivrowboxdivimage}>
               <Image
-                        src={"/Images/manufacturingsales/ai 1.webp"}
+                        src={"/Images/Manufacturing/ai 1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -57,7 +57,7 @@ One way is to adopt modern CRM software for the manufacturing industry.</p>
             <div className={styles.ManufacturingCrmmaindivrowboxdiv}>
               <div className={styles.ManufacturingCrmmaindivrowboxdivimage}>
               <Image
-                        src={"/Images/manufacturingsales/growth 1.webp"}
+                        src={"/Images/Manufacturing/growth 1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

@@ -6,7 +6,8 @@ export const DeveloperResource = () => {
   return (
      
     <div className={styles.developerPortalResourceMainDiv}>
-        <h1>Resource</h1>
+        <h2>Resource</h2>
+        <h3>Explore Tools and Guide</h3>
         <div className={styles.developerResourceContainer}>
 
           <div className={styles.developerResourceMainDiv}>

@@ -16,14 +16,14 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
         <p>Learn-More</p>
         <div className={style.Performing1stdivimage}>
         <Image
-  src={"/Images/Agencyhomepagephotos/Group 1000006413.webp"}
-  alt={"image"}
-  width={"0"}
-  height={"0"}
-  sizes={"100vw"}
-  style={{ width: "100%", height: "100%" }}
+            src={"/Images/Agencyhomepagephotos/agency1.png"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
 
-  />
+            />
             {/* <img src="/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
         </div>
         <div className={style.Performing2ndinnerdiv}>
@@ -37,14 +37,14 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
 
             <div className={style.Performing2ndpart2}>
             <Image
-  src={"/Images/Agencyhomepagephotos/Activities 2.webp"}
-  alt={"image"}
-  width={"0"}
-  height={"0"}
-  sizes={"100vw"}
-  style={{ width: "100%", height: "100%" }}
+                src={"/Images/Agencyhomepagephotos/Activities 2.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
 
-  />
+                />
                 {/* <img src="/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
             </div>
         </div>
