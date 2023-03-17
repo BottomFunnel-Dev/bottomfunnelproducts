@@ -5,17 +5,16 @@ import styles from "./ManufacturingFeatures.module.css";
 export const ManufacturingFeatures = () => {
   return (
     <div>
-        <div >
+        <div>
         <div className={styles.ManufacturingFeaturesmaindivinner}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
-            <Image
-                        src={"/Images/manufacturingsales/01.webp"}
+                   <Image
+                        src={"/Images/Manufacturing/manufacturing.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
                         sizes={"100vw"}
                         style={{ width: "100%", height: "100%" }}
-
                     />
             </div>
             <div className={styles.ManufacturingFeaturesmaindivinnercontent}>
@@ -42,7 +41,7 @@ export const ManufacturingFeatures = () => {
         <div className={styles.ManufacturingFeaturesmaindivinnerone}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
             <Image
-                        src={"/Images/manufacturingsales/41.webp"}
+                        src={"/Images/Manufacturing/41.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -78,7 +77,7 @@ export const ManufacturingFeatures = () => {
         <div className={styles.ManufacturingFeaturesmaindivinner}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
             <Image
-                        src={"/Images/manufacturingsales/42.webp"}
+                        src={"/Images/Manufacturing/42.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -113,7 +112,7 @@ export const ManufacturingFeatures = () => {
         <div className={styles.ManufacturingFeaturesmaindivinnerone}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
             <Image
-                        src={"/Images/manufacturingsales/43.webp"}
+                        src={"/Images/Manufacturing/43.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -166,7 +165,7 @@ export const ManufacturingFeatures = () => {
 
         <div className={styles.ManufacturingFeaturesmaindivinnerimagesecond}>
             <Image
-                        src={"/Images/manufacturingsales/44.webp"}
+                        src={"/Images/Manufacturing/44.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -176,9 +175,6 @@ export const ManufacturingFeatures = () => {
                     />
             </div>
             </div>
-
-
-
         </div>
     </div>
   )

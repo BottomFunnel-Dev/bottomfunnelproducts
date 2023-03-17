@@ -33,7 +33,6 @@ export const Screens = () => {
             <p>Work smart, not hard could be an apt statement here. While digital transformation and technology adoption could be the major factors that will make your business stand out among competitors, the speed and quality of engagement with customers also play a vital role.</p>
             <p>If your teams are going to spend a large portion of their day on manual tasks, it translates to lesser time spent in understanding and engaging with their customer better. A CRM for Logistics software can offer a simple workaround for this and save you hours of manual work by simply automating a large chunk of your tasks.</p>
             <p>Reports can help you track the nitty-gritty of how your teams and the overall company are performing across different parameters and help you develop relevant strategies to improve your business.</p>
-
         </div>
         <div className={style.Screensmaininnerdivimage}>
         <Image
@@ -48,7 +47,6 @@ export const Screens = () => {
         </div>
 
         </div>
-
 
         <div className={style.Screensmaininnerdiv}> 
         <div className={style.Screensmaininnerdivcontent}>

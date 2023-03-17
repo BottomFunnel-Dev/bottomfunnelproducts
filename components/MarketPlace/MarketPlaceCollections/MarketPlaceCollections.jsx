@@ -18,6 +18,7 @@ export const MarketPlaceCollections = () => {
                     <p>Powerful & feature-rich apps engineered by
                         Bottom Funnel</p>
                 </div>
+                
                 <div>
                     <Image
                         src={"/Images/MarketPlace/Collection2.webp"}
@@ -31,6 +32,7 @@ export const MarketPlaceCollections = () => {
                     <p>Provide superior support to your E-commerce
                         customers </p>
                 </div>
+
                 <div>
                     <Image
                         src={"/Images/MarketPlace/Collection3.webp"}
@@ -44,22 +46,20 @@ export const MarketPlaceCollections = () => {
                     <p>Easy & secure remote desktop support </p>
                 </div>
             </div>
+
             <div className={styles.MarketPlaceCollectionsParentchildtwo}>
                 <div>
-                    <h2>Build and publish your app on
-                        Bottom funnel Marketplace</h2>
-                    <p>Join a growing community of developers
-                        and start building.</p>
-                    <button>VISIT OUR DEVELOPER PORTAL</button>
+                    <h2> Build and publish your app on Bottom funnel Marketplace </h2>
+                    <p> Join a growing community of developers and start building. </p>
+                    <button> VISIT OUR DEVELOPER PORTAL </button>
                 </div>
+
                 <div>
-                    <h2>Join a growing community of
-                        developers and start building.</h2>
-                    <p>Start a free trial now. No credit card
-                        required</p>
-                    <button>VIEW ALL PRODUCTS</button>
+                    <h2> Join a growing community of developers and start building. </h2>
+                    <p> Start a free trial now. No credit card required </p>
+                    <button> VIEW ALL PRODUCTS </button>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

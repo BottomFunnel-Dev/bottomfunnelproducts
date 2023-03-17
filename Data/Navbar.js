@@ -25,7 +25,7 @@ export const whyBottom = [
   {
     dropContent: "Vetting Process",
     navIcons: "/Images/navbar/aboutImage/vetting.png",
-    path: "vetting-process",
+    path: "/vetting-process",
   },
   {
     dropContent: "Our Clients",
@@ -1049,6 +1049,7 @@ export const product2 = [
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
+  
   {
     dropContent: "Bottom Funnel Contact Center",
     navIcons: "/Images/navbar/product/contact.png",
@@ -1057,9 +1058,9 @@ export const product2 = [
     productHover: "#d6ffe8",
   },
   {
-    dropContent: "Bottom Funnel Team",
+    dropContent: "Bottom Funnel CRM Suit",
     navIcons: "/Images/navbar/product/Sales.png",
-    path: "/",
+    path: "/bottomfunnel-crmsuit",
     title: "Delight Your Customer With Effortless Team Service",
     productHover: "#ffaf9a",
   },
@@ -1428,6 +1429,6 @@ export const salesIndustries = [
   },
   {
     dropContent: "Law Firm",
-    path: "/",
+    path: "/lawfrim",
   },
 ];

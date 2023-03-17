@@ -14,7 +14,13 @@ export const Servicemanagementscreens = () => {
         {
             htxt:"Intelligently engage with customers using bots",
             stxt:"Use Freddy AI to interact with customers, respond to queries and set up appointments automatically-saving you from repetitive tasks while reducing cost and time.",
-            img:"/Images/Feild Service Management/Screens/Intelligently engage.webp",
+            img:"/Images/Feild Service Management/Screens/Frame4.png",
+        },
+
+        {
+            htxt:"Stay connected with iOS and Android apps",
+            stxt:"Enable field employees to access customer information even when offline and deliver customer service anywhere.",
+            img:"/Images/Feild Service Management/Screens/andriodIos.png",
         },
 
     ]
@@ -46,34 +52,7 @@ export const Servicemanagementscreens = () => {
         )
     })}
     
-            <div className={styles.servicemanaindiflexbox}>
-            <div className={styles.servicemainindileftboxes}>
-            <h1>Stay connected with iOS and Android apps</h1>
-            <p>Enable field employees to access customer information even when offline and deliver customer service anywhere.</p>
-            
-            </div>
-
-            <div className={styles.servicemainindirightboxes}>
-            <Image
-                src={"/Images/Feild Service Management/Screens/Stay connected with iOS.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" ,objectFit:"contain"}}
-                />
-           <Image
-                src={"/Images/Feild Service Management/Screens/model-1.png"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" ,objectFit:"contain"}}
-                />
-            
-            </div>
-            
-            </div>
+        
     
     </div>
   )

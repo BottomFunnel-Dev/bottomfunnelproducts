@@ -12,7 +12,10 @@ export const BoostProductivity = () => {
         <hr/>
         <hr/>
         
-        <p>Emails are the most preferred means of communication for sales teams. It can be cumbersome and time-consuming for a salesperson to toggle between their email inbox and sales CRM to send emails and record their prospects’ responses. With Freshsales, you can access and manage your third-party email account(s) directly from your CRM account without ever having to leave the system. </p>
+        <p>Emails are the most preferred means of communication for sales teams. It can be cumbersome and time-consuming for a 
+          salesperson to toggle between their email inbox and sales CRM to send emails and record their prospects’ responses. With
+           Freshsales, you can access and manage your third-party email account(s) directly from your CRM account without ever having to
+            leave the system. </p>
     </div>
   )
 }

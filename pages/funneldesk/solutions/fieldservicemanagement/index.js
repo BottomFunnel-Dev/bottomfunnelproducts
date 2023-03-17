@@ -32,6 +32,7 @@ export default function FieldServiceManagement() {
 />
     
     <Fieldservicemanagementbanner />
+    <ServiceExperience/>
     <Servicemanagementscreens/>
     <Stellerfieldservice />
     

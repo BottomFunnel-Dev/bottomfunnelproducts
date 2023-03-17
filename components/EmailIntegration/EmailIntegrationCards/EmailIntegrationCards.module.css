@@ -9,32 +9,34 @@
 .EmailIntegrationCardsmainbox{
     display: flex;
     flex-direction: row;
-    /* width: 90%; */
+    width: 90%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    /* border: 2px solid; */
+    margin-top: 3%;
 
 }
 
 .EmailIntegrationCardsmainbox1{
     display: flex;
     flex-direction: row-reverse;
-    /* width: 90%; */
+    width: 90%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
+    /* border: 2px solid; */
+    margin-top: 3%;
 }
 .EmailIntegrationCardsmaincontent{
     /* border: 2px solid red; */
-    width: 50%;
-    margin-left: 5%;
+    width: 40%;
+    /* margin-left: 5%; */
+}
+.EmailIntegrationCardsmaincontent p{
+    text-align: justify;
 }
 .EmailIntegrationCardsimage{
-    width: 35%;
+    width: 45%;
 }
-.EmailIntegrationCardsmaincontent1{
-    /* border: 2px solid red; */
-    width: 50%;
-    margin-right: 5%;
-}
+

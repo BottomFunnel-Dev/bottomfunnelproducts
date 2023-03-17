@@ -9,6 +9,10 @@
 }
 .developerPortalCasesMainDiv>h3{
     color: #EF4C23;
+    font-size: 35px;
+}
+.developerPortalCasesMainDiv>h2{
+    font-size: 35px;
 }
 .developerPortalCaseContainer{
     /* border: 2px solid gold; */
@@ -23,15 +27,27 @@
     border: 1px solid lightgray;
     border-radius: 15px;
     width: 28%;
-    height: 350px;
+    height: auto;
     margin-left: 4%;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
-
 .developerPortalCaseImage{
     /* border: 2px solid red; */
-    width: 68%;
-    height: 100px;
-    margin: 16%;
+    width: 55%;
+    height: 90px;
+    margin: 12% 10% 10% 22%;
+}
+.developerPortalCaseImage1{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 65px;
+    margin: 15% 10% 10% 16%;
+}
+.developerPortalCaseImage2{
+    /* border: 2px solid red; */
+    width: 62%;
+    height: 75px;
+    margin: 15% 10% 10% 18%;
 }

@@ -17,13 +17,13 @@ export default function Pricing() {
         <div>
 
             <Navbar
-                productMount={{
-                    navMount: false,
-                }}
-                navredux={{
-                    color: "white",
-                    logo: true,
-                }}
+            productMount={{
+                navMount: false,
+            }}
+            navredux={{
+                color: "white",
+                logo: true,
+            }}
             />
 
             <PricingBanner addOn={<PricingAddOns />} />
