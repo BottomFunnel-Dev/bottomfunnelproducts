@@ -1,0 +1,40 @@
+.ZeroContactmaindiv{
+    /* border: 2px solid ; */
+    margin-top: 3%;
+}
+.ZeroContactmaindivheading{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+.ZeroContactmaindivcards{
+    width: 90%;
+    /* border-bottom: 1px solid lightgrey; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.ZeroContactmaindivcardsbox{
+    /* border: 1px solid lightgrey; */
+    width: 40%;
+    height: 550px;
+    padding: 1%;
+    margin-top: 3%;
+}
+.ZeroContactmaindivcardsboximage{
+    width: 70%;
+    height: 320px;
+    /* padding: 20px; */
+    margin: auto;
+    /* border: 2px solid; */
+}
+.ZeroContactmaindivcardsboximage1{
+    width: 50%;
+    border: 2px solid;
+}
