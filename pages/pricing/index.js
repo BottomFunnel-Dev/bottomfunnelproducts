@@ -1,9 +1,10 @@
 import Navbar from "../../components/Navbar/Navbar";
 import { PricingAddOns } from "../../components/Pricing/PricingAddOns/PricingAddOns";
+
 import { PricingBanner } from "../../components/Pricing/PricingBanner/PricingBanner";
 import { PricingQuestion } from "../../components/Pricing/PricingQuestion/PricingQuestion";
 import { PricingStarted } from "../../components/Pricing/PricingStarted/PricingStarted";
-import { PricingTrail } from "../../components/Pricing/PricingTrail/PricingTrail";
+
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
@@ -16,21 +17,20 @@ export default function Pricing() {
         <div>
 
             <Navbar
-            productMount={{
-                navMount: false,
-            }}
-            navredux={{
-                color: "white",
-                logo: true,
-            }}
+                productMount={{
+                    navMount: false,
+                }}
+                navredux={{
+                    color: "white",
+                    logo: true,
+                }}
             />
 
-            <PricingBanner />
-            <PricingTrail/>
-            <PricingAddOns/>
-            <PricingQuestion/>
-            <PricingStarted/>
-            
+            <PricingBanner addOn={<PricingAddOns />} />
+           
+            <PricingQuestion />
+            <PricingStarted />
+
             <Testimonial />
             <TrustedBy />
             <ReadyStarted />

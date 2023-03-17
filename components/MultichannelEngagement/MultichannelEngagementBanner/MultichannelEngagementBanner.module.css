@@ -1,0 +1,40 @@
+.MultichannelEngagementBannerParent{
+    display: flex;
+    align-items: end;
+    padding: 5%;
+}
+.MultichannelEngagementBannerParent>div{
+   
+    width: 47%;
+   
+   
+   
+}
+.MultichannelEngagementBannerParentOnlydiv{
+    margin-left: 6%;
+    
+}
+.MultichannelEngagementBannerParentOnlydiv>h1{
+margin-bottom: 5%;
+font-weight: 700;
+font-size: 54px;
+line-height: 70px;
+}
+.MultichannelEngagementBannerParentOnlydiv>h6{
+    margin-bottom: 7%;
+    font-weight: 600;
+    font-size: 20px;
+    width: 90%;
+    text-align: left;
+    line-height: 30px;
+}
+.MultichannelEngagementBannerParentOnlydiv>button{
+    width: 250px;
+    height: 60px;
+    background-color: #ec4f25;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-size: 28px;
+}
