@@ -46,10 +46,10 @@
     width: 350px;
     background-image: url('/Images/Pricing/Addonssmall.webp');
     background-position: center;
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 18%;
-margin-bottom: 2%;
+  margin-bottom: 3%;
     padding: 5%;
 }
 .PricingAddOnsParentChildfirst>div:hover{
@@ -58,20 +58,19 @@ margin-bottom: 2%;
     color: white;
 }
 .PricingAddOnsParentChildsec{
-    width: 60%;
+    width: 70%;
     background-image: url('/Images/Pricing/Addonlarge.webp');
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 69vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2%;
     padding-left: 5%;
     padding-right: 5%;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    
     border-radius: 10px;
    
 }
