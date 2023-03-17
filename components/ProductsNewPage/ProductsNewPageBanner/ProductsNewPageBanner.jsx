@@ -4,6 +4,8 @@ import { IconContext } from "react-icons/lib";
 import { BsPlayCircle } from "react-icons/bs";
 import { useRouter } from "next/router";
 
+// import video from "next/Video";
+
 export const ProductsNewPageBanner = () => {
   const data = [
     {
@@ -82,11 +84,11 @@ export const ProductsNewPageBanner = () => {
         </div>
 
         <div className={styles.productsBannerBannerImageDiv}>
-          <IconContext.Provider
+          {/* <IconContext.Provider
             value={{ className: styles.productBannerPlayIcon }}
           >
             <BsPlayCircle />
-          </IconContext.Provider>
+          </IconContext.Provider> */}
 
           <lottie-player
             src="/Animation/white.json"
@@ -96,11 +98,14 @@ export const ProductsNewPageBanner = () => {
             autoplay
           ></lottie-player>
 
-          <img
+          {/* <img
             className={styles.mainImage}
             src="/Images/ProductsPage/ProductBannerimage.png"
             alt="image"
-          />
+          /> */}
+          <video className={styles.mainImage} autoPlay loop muted controls preload="true" poster="one-does-not-simply-placeholder.jpg">
+            <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/webm" />
+          </video>
         </div>
       </div>
 
@@ -112,17 +117,22 @@ export const ProductsNewPageBanner = () => {
             globe to exceed customer and employess expectations.
           </h3>
           <div className={styles.productsimg}>
-            <IconContext.Provider
+            {/* <IconContext.Provider
               value={{ className: styles.productBannerPlay }}
             >
               <BsPlayCircle />
-            </IconContext.Provider>
+            </IconContext.Provider> */}
 
-            <img
-              className={styles.mainImagesecond}
-              src="/Images/productsmainpage/Components/prods.png"
-              alt="image"
-            />
+            {/* <img
+                className={styles.mainImagesecond}
+                src="/Images/productsmainpage/Components/prods.png"
+                alt="image"
+              /> */}
+
+            <video className={styles.mainImagesecond} style={{outline: "none", border: "none"}} autoPlay loop muted controls preload="auto" poster="one-does-not-simply-placeholder.jpg">
+              <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/webm" />
+            </video>
+
             <div className={styles.backImagesecond}>
               <lottie-player
                 src="/Animation/backorangeproductpage.json"

@@ -57,8 +57,7 @@ export const MarketPlaceFeature = () => {
                 </div>
 
                 <div>
-                    <div className={styles.MarketPlaceFeatureimg}>
-                        <Image
+                    <div className={styles.MarketPlaceFeatureimg}>                        <Image
                             src={"/Images/MarketPlace/feature4.png"}
                             alt={"img"}
                             width={"0"}
