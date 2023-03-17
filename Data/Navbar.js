@@ -1106,7 +1106,7 @@ export const product3 = [
 export const resource = [
   {
     dropContent: "Blog",
-    path: "/",
+    path: "/blogs",
   },
   {
     dropContent: "Academy",
@@ -1149,26 +1149,26 @@ export const product4 = [
     navIcons: "/Images/navbar/product/customer.png",
     path: "/customer-spotlight",
   },
-  {
-    dropContent: "Customer Service",
-    navIcons: "/Images/navbar/product/Customerservice.png",
-    path: "/",
-  },
-  {
-    dropContent: "IT Enterprises",
-    navIcons: "/Images/navbar/product/IT.png",
-    path: "/",
-  },
-  {
-    dropContent: "Engagement",
-    navIcons: "/Images/navbar/product/users.png",
-    path: "/",
-  },
-  {
-    dropContent: "Olly AI",
-    navIcons: "/Images/navbar/product/olly.png",
-    path: "/",
-  },
+  // {
+  //   dropContent: "Customer Service",
+  //   navIcons: "/Images/navbar/product/Customerservice.png",
+  //   path: "/",
+  // },
+  // {
+  //   dropContent: "IT Enterprises",
+  //   navIcons: "/Images/navbar/product/IT.png",
+  //   path: "/",
+  // },
+  // {
+  //   dropContent: "Engagement",
+  //   navIcons: "/Images/navbar/product/users.png",
+  //   path: "/",
+  // },
+  // {
+  //   dropContent: "Olly AI",
+  //   navIcons: "/Images/navbar/product/olly.png",
+  //   path: "/",
+  // },
 ];
 
 export const productSolution = [

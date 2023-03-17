@@ -1,16 +1,16 @@
 import React from "react";
-import { BottomfunnelchatBanner } from "../../components/BottomFunnelChat/BottomfunnelchatBanner/BottomfunnelchatBanner";
-import { ConversationalEngagement } from "../../components/BottomFunnelChat/ConversationalEngagement/ConversationalEngagement";
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import { DeskStarted } from "../../components/funnelDeskCom/DeskStarted";
-import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
-import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import { TalentProfiles } from "../../components/ProductsNewPage/TalentProfiles/TalentProfiles";
-import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import Navbar from "../../../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../../../components/ProdNavbar";
+import LifeBottomFunnel from "../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
+import SmartConversationsBanner from "../../../../components/SmartConversations/SmartConversationsBanner/SmartConversationsBanner";
+import SmartConversationsBusiness from "../../../../components/SmartConversations/SmartConversationsBusiness/SmartConversationsBusiness";
+import SmartConversationsChanges from "../../../../components/SmartConversations/SmartConversationsChanges/SmartConversationsChanges";
+import SmartConversationsDownload from "../../../../components/SmartConversations/SmartConversationsDownload/SmartConversationsDownload";
+import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
+
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -80,7 +80,7 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "//bottomfunnelchat/solutions/smart-conversations" },
+          { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
           { title: "Zero Contact Resolutions", path: "/" },
           { title: "Provide convenient customer service", path: "/" },
           { title: "Move from costly channels", path: "/" },
@@ -137,10 +137,10 @@ const productData = {
   pricing: "",
 };
 
-export default function BottomFunnelChat() {
+export default function SmartConversation() {
   return (
     <div>
-      <Navbar
+    <Navbar
         productMount={{
           navMount: true,
         }}
@@ -150,26 +150,17 @@ export default function BottomFunnelChat() {
         }}
       />
       <ProdNavbar data={productData} />
-      <BottomfunnelchatBanner />
-      {/* <TrustedBy /> */}
-      <ConversationalEngagement />
-      {/* <DeskStarted /> */}
-
     
-      <Testimonial />
-      <TrustedBy />
-     
+     <SmartConversationsBanner/>
+     <SmartConversationsBusiness/>
+     <SmartConversationsChanges/>
+     <SmartConversationsDownload/>
       
-      <ReadyStarted />
-      <TalentProfiles />
-      <LifeBottomFunnel />
-      <ProductsFooter />
-
-
-
-      
-        
-        
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      <LifeBottomFunnel/>
+      <ProductsFooter/>
     </div>
   );
 }
