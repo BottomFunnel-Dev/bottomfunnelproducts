@@ -1,15 +1,44 @@
 .blogsData{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
+    margin-bottom: 5%;
 }
 .blogsDataContainer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 90%;
-    height: 400px;
     margin: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+.blogsDataDiv{
+    border: 1px solid lightgray;
+    width: 27%;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+}
+.blogsDataHeading>h2{
+    margin-top: 4%;
+}
+.blogsDataImage{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.blogsDataHeading>p{
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    padding: 15px;
+}
+.blogsDataHeading>h4{
+    /* border: 2px solid red; */
+    color: #EF4C23;
 }

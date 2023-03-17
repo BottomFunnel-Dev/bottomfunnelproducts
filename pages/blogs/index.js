@@ -23,8 +23,8 @@ export default function Blog() {
       />
      
       <BlogsBanner/>
-      {/* <BlogsData/> */}
-
+      <BlogsData/>
+      
       <Testimonial/>
       <TrustedBy/>
       <ReadyStarted/>
