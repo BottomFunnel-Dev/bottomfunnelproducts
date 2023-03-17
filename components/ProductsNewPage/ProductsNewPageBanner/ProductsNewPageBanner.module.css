@@ -453,6 +453,8 @@
     position: static;
     transform: none;
     margin-top: 3%;
+    outline: none;
+    border: none;
   }
 
   .productright{
