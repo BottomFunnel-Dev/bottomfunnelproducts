@@ -28,7 +28,7 @@ export const TopTickets = () => {
             </div>
             <span>
               <Image
-                src={"/Images/funneldeskAutomation/Tickets.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/Tickets.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

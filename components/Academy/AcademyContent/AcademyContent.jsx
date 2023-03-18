@@ -10,7 +10,7 @@ export default function AcademyContent () {
             <div className={styles.academyContentDiv}>
                 <div className={styles.academyContentDivImage}>
                  <Image
-                    src={"/Images/academy/Group1.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/academy/Group1.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -26,7 +26,7 @@ export default function AcademyContent () {
             <div className={styles.academyContentDiv}>
                 <div className={styles.academyContentDivImage}>
                  <Image
-                    src={"/Images/academy/Group2.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/academy/Group2.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

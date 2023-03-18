@@ -323,7 +323,7 @@
 @media (max-width: 480px) {
   .productsBannerBannerParentDiv {
     flex-direction: column-reverse;
-    height: fit-content;
+    height: 430px;
     align-items: center;
     margin-top: 0;
     width: 100%;
@@ -345,7 +345,7 @@
   }
   .productsBannerButtonsDiv > div {
     font-size: 14px;
-    padding: 6px 15px;
+    padding: 6px 5px;
   }
 
   .productsBannerTrialsButton {
@@ -447,7 +447,6 @@
     display: none;
   }
 
-
   .mainImagesecond {
     width: 100%;
     position: static;
@@ -457,26 +456,26 @@
     border: none;
   }
 
-  .productright{
+  .productright {
     width: 100%;
     padding: 0;
   }
 
-  .productsLogo{
+  .productsLogo {
     width: 29%;
     padding: 4px;
     border: 0.5px solid #f1ecec;
   }
-  .productsLogo>p{
-   font-size: 14px;
+  .productsLogo > p {
+    font-size: 14px;
   }
 
-  .logoProduct{
+  .logoProduct {
     width: 60px;
     height: 50px;
     margin: auto;
   }
-  .logoProduct>img{
+  .logoProduct > img {
     width: 80%;
     height: 90%;
   }

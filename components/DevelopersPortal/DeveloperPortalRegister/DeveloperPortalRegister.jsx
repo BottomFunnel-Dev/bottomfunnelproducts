@@ -8,7 +8,7 @@ export const DeveloperPortalRegister = () => {
      <div className={styles.developerPortalRegisterContainer}>
         <div className={styles.developerPortalRegImage}>
             <Image
-                src={"/Images/developerPortal/Group11.png"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group11.png"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

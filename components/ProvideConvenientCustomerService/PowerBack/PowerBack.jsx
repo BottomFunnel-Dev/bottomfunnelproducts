@@ -13,7 +13,7 @@ export const PowerBack = () => {
 </div>
 <div className={styles.PowerBackmaindivheadingimage}>
 <Image
-                        src={"/Images/ProvideConvenientCustomerServicephotos/3-1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/3-1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -31,7 +31,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"/Images/ProvideConvenientCustomerServicephotos/3-2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/3-2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -49,7 +49,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"/Images/ProvideConvenientCustomerServicephotos/3-3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/3-3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -68,7 +68,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"/Images/ProvideConvenientCustomerServicephotos/3-4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/3-4.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -86,7 +86,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"/Images/ProvideConvenientCustomerServicephotos/3-5.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/3-5.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

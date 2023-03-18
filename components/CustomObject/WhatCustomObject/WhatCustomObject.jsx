@@ -14,7 +14,7 @@ export const WhatCustomObject = () => {
                 <div className={styles.WhatCustomObjectonediv}>
                     <div className={styles.bannerimageone}>
                         <Image
-                            src={"/Images/customObject/whatCustomObjectone.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/whatCustomObjectone.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -39,7 +39,7 @@ export const WhatCustomObject = () => {
 
                     <div className={styles.bannerimagetwo}>
                         <Image
-                            src={"/Images/customObject/whatCustomObjectsec.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/whatCustomObjectsec.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -56,7 +56,7 @@ export const WhatCustomObject = () => {
                 <div className={styles.WhatCustomObjectthirddiv}>
                     <div className={styles.bannerimagethree}>
                         <Image
-                            src={"/Images/customObject/whatCustomObjectthird.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/whatCustomObjectthird.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

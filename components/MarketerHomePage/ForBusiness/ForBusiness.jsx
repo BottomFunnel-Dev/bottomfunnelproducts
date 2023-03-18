@@ -10,7 +10,7 @@ export const ForBusiness = () => {
         <div className={styles.ForBusinessdivcard}>
             <div className={styles.ForBusinessdivcardinnerdiv}>
                 <div className={styles.ForBusinessdivcardimage}>
-                    <img src="/Images/MarketerHomePagephotos/Frame.png" alt="logo" />
+                    <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/Frame.png" alt="logo" />
                 </div>
                 <div className={styles.ForBusinessdivcardimagecontain}>
                     <h5>Conversational marketing and support</h5>
@@ -19,7 +19,7 @@ export const ForBusiness = () => {
             </div>
             <div className={styles.ForBusinessdivcardinnerdiv}>
                 <div className={styles.ForBusinessdivcardimage}>
-                    <img src="/Images/MarketerHomePagephotos/Frame1.png" alt="logo" />
+                    <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/Frame1.png" alt="logo" />
                 </div>
                 <div className={styles.ForBusinessdivcardimagecontain}>
                     <h5>Conversational marketing and support</h5>
@@ -28,7 +28,7 @@ export const ForBusiness = () => {
             </div>
             <div className={styles.ForBusinessdivcardinnerdiv}>
                 <div className={styles.ForBusinessdivcardimage}>
-                    <img src="/Images/MarketerHomePagephotos/Frame2.png" alt="logo" />
+                    <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/Frame2.png" alt="logo" />
                 </div>
                 <div className={styles.ForBusinessdivcardimagecontain}>
                     <h5>Conversational marketing and support</h5>

@@ -18,7 +18,7 @@ export const Automation = () => {
                         <h4>Work flows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -38,7 +38,7 @@ export const Automation = () => {
                         <h4>Work flows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -61,7 +61,7 @@ export const Automation = () => {
                         <h4>Workflows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -80,7 +80,7 @@ export const Automation = () => {
                         <h4>Workflows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -106,7 +106,7 @@ export const Automation = () => {
                         <h4>Work flows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -149,7 +149,7 @@ export const Automation = () => {
                         <h4>Work flows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -176,7 +176,7 @@ export const Automation = () => {
                         <h4>Work flows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -196,7 +196,7 @@ export const Automation = () => {
                         <h4>Work flows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -219,7 +219,7 @@ export const Automation = () => {
                         <h4>Workflows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -238,7 +238,7 @@ export const Automation = () => {
                         <h4>Workflows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

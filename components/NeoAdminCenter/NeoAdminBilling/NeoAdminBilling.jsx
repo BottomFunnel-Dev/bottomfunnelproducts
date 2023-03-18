@@ -12,7 +12,7 @@ export const NeoAdminBilling = () => {
         <div className={styles.neoAdminBillingPassword}>
             <div className={styles.neoAdminBillingImage}>
                 <Image
-                    src={"/Images/neoAdmin/Group2.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Group2.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -47,7 +47,7 @@ export const NeoAdminBilling = () => {
             </div>
             <div className={styles.neoAdminBillingImage1}>
                 <Image
-                    src={"/Images/neoAdmin/Frame3.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Frame3.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -59,7 +59,7 @@ export const NeoAdminBilling = () => {
         <div className={styles.neoAdminBillingPassword}>
             <div className={styles.neoAdminBillingImage}>
                 <Image
-                    src={"/Images/neoAdmin/Group3.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Group3.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

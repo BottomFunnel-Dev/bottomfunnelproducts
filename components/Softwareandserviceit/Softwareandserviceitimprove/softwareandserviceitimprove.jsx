@@ -34,7 +34,7 @@ export const Softwareandserviceitimprove = () => {
             </div>
             <div className={styles.softwareandserviceitimproveone}>
                 <Image
-                    src={"/Images/softwareandserviceit/5.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/softwareandserviceit/5.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

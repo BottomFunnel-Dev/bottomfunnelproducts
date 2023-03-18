@@ -9,55 +9,55 @@ import { useRouter } from "next/router";
 export const ProductsNewPageBanner = () => {
   const data = [
     {
-      img: "/Images/productsmainpage/Components/desk.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/desk.png",
       title: "Bottomfunnel Desk",
       path: "funneldesk",
       color: "#d6ffe8",
     },
     {
-      img: "/Images/productsmainpage/Components/teams.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/teams.png",
       title: "Bottomfunnel Team",
       path: "/",
       color: "#ffaf9c",
     },
     {
-      img: "/Images/productsmainpage/Components/service.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/service.png",
       title: "Bottomfunnel Services",
       path: "/",
       color: "#e1e1e1",
     },
     {
-      img: "/Images/productsmainpage/Components/marketer.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/marketer.png",
       title: "Bottomfunnel Marketer",
       path: "marketer",
       color: "#ffcf9c",
     },
     {
-      img: "/Images/productsmainpage/Components/sales.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/sales.png",
       title: "Bottomfunnel Sales",
       path: "sales",
       color: "#ffaf9a",
     },
     {
-      img: "/Images/productsmainpage/Components/chat.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/chat.png",
       title: "Bottomfunnel Chat",
       path: "/",
       color: "#a1ffca",
     },
     {
-      img: "/Images/productsmainpage/Components/omnichannel.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/omnichannel.png",
       title: "Bottomfunnel Omnichannel",
       path: "/",
       color: "#d6ffe8",
     },
     {
-      img: "/Images/productsmainpage/Components/contact.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/contact.png",
       title: "Bottomfunnel Contact Center",
       path: "/",
       color: "#d6ffe8",
     },
     {
-      img: "/Images/productsmainpage/Components/customersuccess.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/customersuccess.png",
       title: "Bottomfunnel Customer Success",
       path: "customersuccess",
       color: "#d6ffe8",
@@ -100,7 +100,7 @@ export const ProductsNewPageBanner = () => {
 
           {/* <img
             className={styles.mainImage}
-            src="/Images/ProductsPage/ProductBannerimage.png"
+            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/ProductBannerimage.png"
             alt="image"
           /> */}
           <video className={styles.mainImage} autoPlay loop muted controls preload="true" poster="one-does-not-simply-placeholder.jpg">
@@ -125,7 +125,7 @@ export const ProductsNewPageBanner = () => {
 
             {/* <img
                 className={styles.mainImagesecond}
-                src="/Images/productsmainpage/Components/prods.png"
+                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/prods.png"
                 alt="image"
               /> */}
 

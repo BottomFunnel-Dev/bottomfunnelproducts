@@ -18,7 +18,7 @@ export const NeoAdminBanner = () => {
         </div>
         <div className={styles.neoAdminBannerImage}>
             <Image
-                src={"/Images/neoAdmin/OBJECTS.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/OBJECTS.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

@@ -12,7 +12,7 @@ export const CRMSystem = () => {
             
             <div className={styles.CRMSystemmaindivimage}>
             <Image
-                        src={"/Images/Educationsales/banner (10).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/banner (10).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

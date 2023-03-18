@@ -5,10 +5,10 @@ export const AboutusBanner = () => {
   return (
     <div className={styles.aboutusBanner}>
       <div className={styles.aboutusbannerimage}>
-        <img src="/Images/aboutusImage/banner.jpg" alt="About us banner" />
-      
+        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/banner.jpg" alt="About us banner" />
       </div>
-  <div className={styles.aboutusbannercontent}>
+      
+      <div className={styles.aboutusbannercontent}>
         <h1>
           Build Your Brands presence With{" "}
           <span className={styles.aboutusanimatedtitle}>BOTTOM FUNNEL</span>
@@ -20,7 +20,7 @@ export const AboutusBanner = () => {
           unparalleled value to our partners, through our experience and
           expertise in the field.
         </p>
-  <button>Get Started</button>
+        <button>Get Started</button>
       </div>
     </div>
   );

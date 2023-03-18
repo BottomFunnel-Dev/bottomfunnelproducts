@@ -17,7 +17,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>E-commerce Dashboard</h3>
                                 <div className={styles.allFeaturesPerformanceImage1}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle21.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle21.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -39,7 +39,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>Email & SMS performance dashboard</h3>
                                 <div className={styles.allFeaturesPerformanceImage2}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle22.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle22.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -60,7 +60,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>Revenue attribution</h3>
                                 <div className={styles.allFeaturesPerformanceImage3}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle23.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle23.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -81,7 +81,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>Conversion Rate Optimization</h3>
                                 <div className={styles.allFeaturesPerformanceImage4}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle24.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle24.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}

@@ -17,7 +17,7 @@ export const AllFeaturesReach = () => {
                                 <h3>Marketing Segments</h3>
                                 <div className={styles.allFeaturesReachImage1}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle11.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle11.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -38,7 +38,7 @@ export const AllFeaturesReach = () => {
                                 <h3>Shopify-based Segments</h3>
                                 <div className={styles.allFeaturesReachImage2}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle12.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle12.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -59,7 +59,7 @@ export const AllFeaturesReach = () => {
                                 <h3>Anonymous Website Visitors</h3>
                                 <div className={styles.allFeaturesReachImage3}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle13.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle13.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}

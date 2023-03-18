@@ -16,7 +16,7 @@ export const CollaboratinTeamwork = () => {
         </div>
         <div className={styles.CollaboratinTeamworkImage}>
           <img
-            src="/Images/collaborationPhotos/CollaboratinTeamwork.webp"
+            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/collaborationPhotos/CollaboratinTeamwork.webp"
             alt="CollaboratinTeamwork.webp"
           />
         </div>

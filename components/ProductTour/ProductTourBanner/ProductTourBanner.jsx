@@ -12,7 +12,7 @@ export const ProductTourBanner = () => {
         </div>
         <div className={styles.productTourBannerImage}>
             <Image
-                src={"/Images/productTour/banner.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/banner.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

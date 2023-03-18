@@ -13,7 +13,7 @@ export default function SmartConversationsBusiness () {
                     <p>Enable business leaders to achieve more with less improve agent productivity, save on hirring costs</p>
                     <div className={styles.smartConversationsBusinesspic}>
                         <Image
-                            src={"/Images/smartConversations/one.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/smartConversations/one.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -27,7 +27,7 @@ export default function SmartConversationsBusiness () {
                     <p>Offer customer support through intuitive <br/> self-service</p>
                     <div className={styles.smartConversationsBusinesspic}>
                         <Image
-                            src={"/Images/smartConversations/two.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/smartConversations/two.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -44,7 +44,7 @@ export default function SmartConversationsBusiness () {
                     <p>talk to customers on their preferred messaging channels & unify their experience.</p>
                     <div className={styles.smartConversationsBusinesspic}>
                         <Image
-                            src={"/Images/smartConversations/three.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/smartConversations/three.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -58,7 +58,7 @@ export default function SmartConversationsBusiness () {
                     <p>Help agents onboard quickly and deliver delightful customer experience.</p>
                     <div className={styles.smartConversationsBusinesspic}>
                         <Image
-                            src={"/Images/smartConversations/four.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/smartConversations/four.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

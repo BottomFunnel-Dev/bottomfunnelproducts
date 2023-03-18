@@ -9,7 +9,7 @@ export const Softwareandserviceitcollabration = () => {
 
             <div className={styles.softwareandserviceitcollabrationone}>
                 <Image
-                    src={"/Images/softwareandserviceit/Group2.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/softwareandserviceit/Group2.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

@@ -16,7 +16,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo1.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo1.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -36,7 +36,7 @@ export const CaseStudy = () => {
                         <h3>Yanbal</h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo2.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo2.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -55,7 +55,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo3.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo3.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -76,7 +76,7 @@ export const CaseStudy = () => {
                         <h3>Sportasy</h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo4.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo4.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -99,7 +99,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo5.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo5.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -120,7 +120,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo6.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo6.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -144,7 +144,7 @@ export const CaseStudy = () => {
                         <h3>Roshi</h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo7.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo7.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -165,7 +165,7 @@ export const CaseStudy = () => {
                         <h3>Itv</h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo8.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo8.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -188,7 +188,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo9.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo9.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -213,7 +213,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo10.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo10.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -234,7 +234,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo11.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo11.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -252,7 +252,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo12.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo12.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -273,7 +273,7 @@ export const CaseStudy = () => {
                         <h3>Salesbot</h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo13.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo13.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -296,7 +296,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo14.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo14.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -317,7 +317,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo15.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo15.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -341,7 +341,7 @@ export const CaseStudy = () => {
                         <h3>Myteam</h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo16.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo16.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -363,7 +363,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo17.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo17.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -388,7 +388,7 @@ export const CaseStudy = () => {
                         </h3>
                         <div>
                             <Image
-                                src={"/Images/Customerspotlight/Logo18.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Logo18.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

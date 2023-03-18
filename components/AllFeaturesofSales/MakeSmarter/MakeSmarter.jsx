@@ -19,7 +19,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -39,7 +39,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -59,7 +59,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -82,7 +82,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -101,7 +101,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -121,7 +121,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -160,7 +160,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -180,7 +180,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -200,7 +200,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -223,7 +223,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -242,7 +242,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -262,7 +262,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -300,7 +300,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -320,7 +320,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -340,7 +340,7 @@ export const MakeSmarter = () => {
                         <h4>Work flows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -363,7 +363,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -382,7 +382,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -402,7 +402,7 @@ export const MakeSmarter = () => {
                         <h4>Workflows</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

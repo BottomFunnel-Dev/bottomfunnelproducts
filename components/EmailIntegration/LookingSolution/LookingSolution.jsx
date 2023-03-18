@@ -17,7 +17,7 @@ export const LookingSolution = () => {
      </div>
      <div className={styles.LookingSolutionmaindivimage}>
      <Image
-          src={"/Images/EmailIntegrationphotos/bannerr (12).webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (12).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

@@ -20,7 +20,7 @@ export const Softwareandserviceitbanner = () => {
 
             <div className={styles.softwareandserviceitbannerone}>
                 <Image
-                    src={"/Images/softwareandserviceit/banner.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/softwareandserviceit/banner.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

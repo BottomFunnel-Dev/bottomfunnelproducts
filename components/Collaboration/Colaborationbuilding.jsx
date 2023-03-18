@@ -11,21 +11,21 @@ export const Colaborationbuilding = () => {
         {
             htxt:"Focus more on tasks",
             stxt:"Share full context of what you are working on - support ticket, sales deal, service request and more - with teammates.",
-            icon:"/Images/Collaboration/components/image 52.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 52.webp",
 
         },
 
         {
             htxt:"Forget switching tabs",
             stxt:"Stay on top of conversations without shuffling between Freshworks products and other team collaboration tools.",
-            icon:"/Images/Collaboration/components/image 53.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 53.webp",
 
         },
 
         {
             htxt:"Build Customer trust",
             stxt:"Get help right where you are working with collaboration UI that's native to your favorite Freshworks Products. ",
-            icon:"/Images/Collaboration/components/image 54.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 54.webp",
 
         },
 

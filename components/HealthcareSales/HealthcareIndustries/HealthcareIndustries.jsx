@@ -12,7 +12,7 @@ export const HealthcareIndustries = () => {
              <div className={styles.HealthcareIndustriesmaindivinnerdivcell}>
                 <div className={styles.HealthcareIndustriesmaindivimage}>
                 <Image
-                        src={"/Images/healthcaresales/collection1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/collection1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -26,7 +26,7 @@ export const HealthcareIndustries = () => {
              <div className={styles.HealthcareIndustriesmaindivinnerdivcell}>
                 <div className={styles.HealthcareIndustriesmaindivimage}>
                 <Image
-                        src={"/Images/healthcaresales/collection2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/collection2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -41,7 +41,7 @@ export const HealthcareIndustries = () => {
              <div className={styles.HealthcareIndustriesmaindivinnerdivcell}>
                 <div className={styles.HealthcareIndustriesmaindivimage}>
                 <Image
-                        src={"/Images/healthcaresales/collection3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/collection3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

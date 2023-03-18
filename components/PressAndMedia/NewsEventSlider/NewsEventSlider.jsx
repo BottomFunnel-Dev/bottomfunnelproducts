@@ -7,37 +7,37 @@ export const NewsEventSlider = () => {
   const cardsData = [
     {
       title: "Jaipur becoming Silicon Valley",
-      image: "/Images/pressmediaPhotos/bbc-news.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/bbc-news.png",
       link: "",
     },
     {
       title: "Blueberry's New Sub Startup Bottom Funnel",
-      image: "/Images/pressmediaPhotos/cnn-logo.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/cnn-logo.png",
       link: "",
     },
     {
       title: "Bottom Funnel New Tech Solution Of Jaipur",
-      image: "/Images/pressmediaPhotos/india-today.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/india-today.png",
       link: "",
     },
     {
       title: "Best Mobile App Development Companies 2022 by G2",
-      image: "/Images/pressmediaPhotos/g2-crowd.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/g2-crowd.png",
       link: "",
     },
     {
       title: "Bottom Funnel New Tech Solution Of Jaipur",
-      image: "/Images/pressmediaPhotos/nbc-social.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/nbc-social.png",
       link: "",
     },
     {
       title: "Top Mobile App Development Companies India",
-      image: "/Images/pressmediaPhotos/themanifest.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/themanifest.png",
       link: "",
     },
     {
       title: "Jaipur Next New Silicon Valley Of India",
-      image: "/Images/pressmediaPhotos/zee-business.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/zee-business.png",
       link: "",
     },
   ];

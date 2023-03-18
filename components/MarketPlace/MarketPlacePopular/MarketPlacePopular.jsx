@@ -13,7 +13,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular1.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular1.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -58,7 +58,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular2.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular2.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -103,7 +103,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular3.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular3.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -149,7 +149,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular4.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular4.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -196,7 +196,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular5.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular5.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -239,7 +239,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular7.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular7.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -282,7 +282,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular6.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular6.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -325,7 +325,7 @@ export const MarketPlacePopular = () => {
                     <div className={styles.MarketPlacePopularchildivthird}>
                         <div className={styles.MarketPlacePopularimgthird}>
                             <Image
-                                src={"/Images/MarketPlace/Popular8.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Popular8.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

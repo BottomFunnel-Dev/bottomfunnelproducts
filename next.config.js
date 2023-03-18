@@ -2,6 +2,20 @@
 const nextConfig = {
   reactStrictMode: true,
   distDir: "build",
+  
+  images: {
+    reactStrictMode: true,
+    domains: ["bottom-funnel-product.s3.ap-south-1.amazonaws.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "bottom-funnel-product.s3.ap-south-1.amazonaws.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
+  },
+
   async redirects() {
     return [
       {

@@ -9,21 +9,21 @@ export const UnifiedPersonalized = () => {
         {
             htxt:"For Sales",
             stxt:"Accelerate your pipeline and engage your prospect with a holistic view of lead data from multiple touchpoints/sources.",
-            icon:"/Images/unified customer record/Components/business-and-finance.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/business-and-finance.webp",
 
         },
 
         {
             htxt:"For Marketers",
             stxt:"Generate higher marketing ROI and drive lead conversion through targeted and personalized multi-channel campaigns.",
-            icon:"/Images/unified customer record/Components/image 41.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/image 41.webp",
 
         },
 
         {
             htxt:"For Support Teams",
             stxt:"Exceed customer expectations leading to higher retention and upsell with a proactive view of the customer engagement history.",
-            icon:"/Images/unified customer record/Components/image 42.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/image 42.webp",
 
         },
 
@@ -93,7 +93,7 @@ export const UnifiedPersonalized = () => {
 
 <div className={styles.unifiedpersonalflexleftbox}>
 <Image
-src={"/Images/unified customer record/Components/Frame.webp"}
+src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/Frame.webp"}
 alt={"image"}
 width={"0"}
 height={"0"}

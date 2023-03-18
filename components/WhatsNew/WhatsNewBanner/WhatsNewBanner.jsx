@@ -12,7 +12,7 @@ export default function WhatsNewBanner() {
       </div>
       <div className={styles.WhatsNewBannerimg}>
         <Image
-          src={"/Images/WhatsNew/Banner/Group 771254.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/WhatsNew/Banner/Group 771254.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}

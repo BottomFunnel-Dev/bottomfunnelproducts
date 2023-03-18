@@ -11,7 +11,7 @@ export const EdtechIndustries = () => {
              <div className={styles.EdtechIndustriesmaindivinnerdivcell}>
                 <div className={styles.EdtechIndustriesmaindivimage}>
                 <Image
-                        src={"/Images/Educationsales/banner (8).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/banner (8).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -25,7 +25,7 @@ export const EdtechIndustries = () => {
              <div className={styles.EdtechIndustriesmaindivinnerdivcell}>
                 <div className={styles.EdtechIndustriesmaindivimage}>
                 <Image
-                        src={"/Images/Educationsales/banner (12).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/banner (12).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -44,7 +44,7 @@ export const EdtechIndustries = () => {
              <div className={styles.EdtechIndustriesmaindivinnerdivcell}>
                 <div className={styles.EdtechIndustriesmaindivimage}>
                 <Image
-                        src={"/Images/Educationsales/banner (9).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/banner (9).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -58,7 +58,7 @@ export const EdtechIndustries = () => {
              <div className={styles.EdtechIndustriesmaindivinnerdivcell}>
                 <div className={styles.EdtechIndustriesmaindivimage}>
                 <Image
-                        src={"/Images/Educationsales/banner (13).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/banner (13).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

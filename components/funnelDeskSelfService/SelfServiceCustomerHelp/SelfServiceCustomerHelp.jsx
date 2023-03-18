@@ -13,7 +13,7 @@ export const SelfServiceCustomerHelp = () => {
           </p>
         </div>
         <div className={styles.selfServicesCustomerHelpImageDiv}>
-          <img src="/Images/SelfService/TwoThreeHead.webp" alt="image" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SelfService/TwoThreeHead.webp" alt="image" />
         </div>
       </div>
     </div>

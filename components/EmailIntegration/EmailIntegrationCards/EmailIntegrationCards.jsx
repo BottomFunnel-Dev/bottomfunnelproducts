@@ -15,7 +15,7 @@ export const EmailIntegrationCards = () => {
                 <div className={styles.EmailIntegrationCardsimage}>
                     <div>
                     <Image
-          src={"/Images/EmailIntegrationphotos/bannerr (13).webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (13).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -38,7 +38,7 @@ Using workflow templates, you can enable a workflow by simply clicking a button 
                 <div className={styles.EmailIntegrationCardsimage}>
                     <div>
                     <Image
-          src={"/Images/EmailIntegrationphotos/bannerr (14).webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (14).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -59,7 +59,7 @@ Using workflow templates, you can enable a workflow by simply clicking a button 
                 <div className={styles.EmailIntegrationCardsimage}>
                     <div>
                     <Image
-          src={"/Images/EmailIntegrationphotos/bannerr (16).webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (16).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -82,7 +82,7 @@ Using workflow templates, you can enable a workflow by simply clicking a button 
                 <div className={styles.EmailIntegrationCardsimage}>
                     <div>
                     <Image
-          src={"/Images/EmailIntegrationphotos/bannerr (15).webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (15).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

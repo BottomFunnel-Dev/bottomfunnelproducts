@@ -7,7 +7,7 @@ export default function TeamInboxBanner () {
     <div className={styles.TeamInboxBannerMain}>
         <div className={styles.TeamInboxBannerimg}>
         <Image
-          src={"/Images/MarketerTeamInbox/components/Frame.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerTeamInbox/components/Frame.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}

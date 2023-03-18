@@ -12,7 +12,7 @@ export const EventsAdvantages = () => {
                 <div>
                     <div>
                         <Image
-                            src={"/Images/Event/iconone.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconone.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -27,7 +27,7 @@ export const EventsAdvantages = () => {
                 <div>
                     <div>
                         <Image
-                            src={"/Images/Event/icontwo.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/icontwo.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -42,7 +42,7 @@ export const EventsAdvantages = () => {
                 <div>
                     <div>
                         <Image
-                            src={"/Images/Event/iconthree.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconthree.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

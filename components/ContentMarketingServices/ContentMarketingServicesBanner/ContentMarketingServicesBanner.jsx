@@ -17,7 +17,7 @@ export const ContentMarketingServicesBanner = () => {
             </div>
             <div className={styles.ContentMarketingserviceParentSecChild}>
             <Image
-          src={"/Images/ContentMarketingServices/banner.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/banner.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

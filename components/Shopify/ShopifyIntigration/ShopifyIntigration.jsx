@@ -9,19 +9,19 @@ const shopifyintegrationdata = [
     {
         htxt:"Shopify customizations",
         stxt:"Pre-built shopify playbooks, behavior segments and performance insights to boost sales and improve conversions.",
-        icon:"/Images/Shopify/icon/vector 1.webp",
+        icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/icon/vector 1.webp",
     },
 
     {
         htxt:"Conversational marketing and support ",
         stxt:"All your shopify online store data in one place for teams to understand customers and provide contextual experiences.",
-        icon:"/Images/Shopify/icon/image 1.webp",
+        icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/icon/image 1.webp",
     },
 
     {
         htxt:"Multichannel engagement",
         stxt:"WhatsApp, SMS, Email & Chat in one solution to speak with customers in one solution to speak with customers in a channel of their choise with targeted messages.",
-        icon:"/Images/Shopify/icon/image 2.webp",
+        icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/icon/image 2.webp",
     },
 
    

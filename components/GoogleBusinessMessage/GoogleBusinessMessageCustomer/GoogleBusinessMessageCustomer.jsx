@@ -25,7 +25,7 @@ export const GoogleBusinessMessageCustomer = () => {
                     </div>
                     <div className={styles.GoogleBusinessMessageCustomerOnlyChilddivoneimage}>
                         <Image
-                            src={"/Images/GoogleBusiness/one.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GoogleBusiness/one.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -39,7 +39,7 @@ export const GoogleBusinessMessageCustomer = () => {
 
                     <div className={styles.GoogleBusinessMessageCustomerOnlyChilddivoneimage}>
                         <Image
-                            src={"/Images/GoogleBusiness/two.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GoogleBusiness/two.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -78,7 +78,7 @@ export const GoogleBusinessMessageCustomer = () => {
                     </div>
                     <div className={styles.GoogleBusinessMessageCustomerOnlyChilddivoneimage}>
                         <Image
-                            src={"/Images/GoogleBusiness/three.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GoogleBusiness/three.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

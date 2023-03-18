@@ -12,7 +12,7 @@ export const JourneyPersonalized = () => {
             <div className={styles.JourneyPersonizedOnlyChild}>
                 <div className={styles.bannerimage}>
                 <Image
-                    src={"/Images/Journey/7791.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/7791.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

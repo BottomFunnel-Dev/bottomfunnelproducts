@@ -8,28 +8,28 @@ export const SalesWorldwide = () => {
         <h1>Trusted by businesses worldwide</h1>
         <div className={style.SalesWorldwideimagebox}>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/multichoice.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/multichoice.png" alt="logo" />
             </div>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/brewdog.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/brewdog.png" alt="logo" />
             </div>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/Bridge.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Bridge.png" alt="logo" />
             </div>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/fiverr.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/fiverr.png" alt="logo" />
             </div>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/klarna.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/klarna.png" alt="logo" />
             </div>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/bluenile.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/bluenile.png" alt="logo" />
             </div>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/itv.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/itv.png" alt="logo" />
             </div>
             <div className={style.SalesWorldwideimage}>
-                <img src="/Images/SalesPagePhotos/travix.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/travix.png" alt="logo" />
             </div>
         </div>
 

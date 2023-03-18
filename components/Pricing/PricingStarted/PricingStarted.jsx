@@ -22,7 +22,7 @@ export const PricingStarted = () => {
             </div>
             <div  className={styles.PricingStartedParentSecchild}>
                 <Image
-                    src={"/Images/Pricing/Starter.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Starter.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

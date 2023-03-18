@@ -16,7 +16,6 @@
 .navbarSection.active {
   background: white;
   position: fixed;
-
 }
 
 .navbarSection {
@@ -50,15 +49,14 @@
   justify-content: space-between;
 }
 
-.dropdownBar>div {
+.dropdownBar > div {
   height: fit-content;
   width: 70%;
   display: flex;
   align-items: center;
 }
 
-.dropdownBar>div li {
-
+.dropdownBar > div li {
   width: 30%;
   text-align: center;
   padding: 29px 5px;
@@ -70,12 +68,12 @@
   justify-content: center;
 }
 
-.dropdownBar>div li>p {
+.dropdownBar > div li > p {
   margin: 0;
   padding: 0;
 }
 
-.dropdownBar>div li:hover {
+.dropdownBar > div li:hover {
   text-decoration: underline;
   text-decoration-color: #ef4c23;
   text-underline-offset: 10px;
@@ -85,7 +83,6 @@
 .serviceButton {
   border: 1px solid #ef4c23;
   border-radius: 20px;
-
 }
 
 .serviceButton:hover {
@@ -132,31 +129,31 @@
   cursor: pointer;
 }
 
-.navbarSection.active .dropdownBar>div li:nth-child(8) {
+.navbarSection.active .dropdownBar > div li:nth-child(8) {
   color: white !important;
   background-color: #ef4c23;
   border: 1px solid #ef4c23;
 }
 
-.navbarSection.active .dropdownBar>div li {
+.navbarSection.active .dropdownBar > div li {
   color: black;
 }
 
-.navbarSection.active .dropdownBar>div li:hover {
+.navbarSection.active .dropdownBar > div li:hover {
   color: #ef4c23 !important;
 }
 
-.navbarSection.active .dropdownBar>div li:nth-child(8):hover {
+.navbarSection.active .dropdownBar > div li:nth-child(8):hover {
   background-color: white !important;
 }
 
-.navbarSection.active .dropdownBar>div li:nth-child(9) {
+.navbarSection.active .dropdownBar > div li:nth-child(9) {
   color: white !important;
   background-color: #ef4c23;
   border: 1px solid #ef4c23;
 }
 
-.navbarSection.active .dropdownBar>div li:nth-child(9):hover {
+.navbarSection.active .dropdownBar > div li:nth-child(9):hover {
   background-color: white !important;
   color: #ef4c23 !important;
 }
@@ -179,17 +176,17 @@
   border-radius: 50%;
 }
 
-.innerList>p {
+.innerList > p {
   font-weight: 500;
   font-size: 16px;
   margin: 0;
 }
 
-.innerList>ul {
+.innerList > ul {
   padding: 30px;
 }
 
-.innerList>ul>li {
+.innerList > ul > li {
   list-style-type: disc;
   font-size: 15px;
 }
@@ -221,7 +218,7 @@
   align-items: flex-end;
 }
 
-.solutionCat>p {
+.solutionCat > p {
   font-size: 15px;
   width: 170px;
   box-sizing: border-box;
@@ -243,7 +240,7 @@
   padding: 10px;
 }
 
-.solutionType>div {
+.solutionType > div {
   width: 20%;
   padding: 10px;
   display: flex;
@@ -251,7 +248,7 @@
   column-gap: 10px;
 }
 
-.solutionType>div>p {
+.solutionType > div > p {
   font-size: 15px;
   color: black;
   font-weight: 500;
@@ -273,7 +270,6 @@
 
 .solutionTypeIndustries {
   width: 100%;
-
 }
 
 .solutionTypeIndustries {
@@ -288,7 +284,7 @@
   padding: 10px;
 }
 
-.solutionTypeIndustries>div {
+.solutionTypeIndustries > div {
   width: 20%;
   padding: 10px;
   display: flex;
@@ -297,7 +293,7 @@
   column-gap: 10px;
 }
 
-.solutionTypeIndustries>div>p {
+.solutionTypeIndustries > div > p {
   font-size: 15px;
   color: black;
   font-weight: 500;
@@ -321,7 +317,7 @@
   height: 100%;
 }
 
-.aboutDropdownContent>h4 {
+.aboutDropdownContent > h4 {
   color: #ef4c23;
   margin-left: 10px;
   font-size: 18px;
@@ -393,37 +389,37 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.imageIconDivSection>p {
+.imageIconDivSection > p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.backendimageIconDivSection>p {
+.backendimageIconDivSection > p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.imageIconDivSection>div {
+.imageIconDivSection > div {
   width: 18%;
   border-left: 2px solid white;
   height: 30px;
 }
 
-.backendimageIconDivSection>div {
+.backendimageIconDivSection > div {
   width: 45px;
   border-left: 2px solid white;
   height: 30px;
 }
 
-.imageIconDivSection>div>img {
+.imageIconDivSection > div > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.backendimageIconDivSection>div>img {
+.backendimageIconDivSection > div > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -439,12 +435,12 @@
   color: black;
 }
 
-.servicesP>p:hover {
+.servicesP > p:hover {
   text-decoration: none;
   color: #ef4c23;
 }
 
-.listItems>p:hover {
+.listItems > p:hover {
   margin: 0;
   color: #ef4c23;
   cursor: pointer;
@@ -481,7 +477,7 @@
   row-gap: 20px;
 }
 
-.sideNav>div {
+.sideNav > div {
   width: 100%;
   padding: 10px 5px;
   box-sizing: border-box;
@@ -497,13 +493,13 @@
   background-color: white;
 }
 
-.activetoggle>h6 {
+.activetoggle > h6 {
   color: black;
   font-size: 18px;
   transition: all 0.2s linear;
 }
 
-.sideNav>div>h6 {
+.sideNav > div > h6 {
   margin: 0;
 }
 
@@ -535,7 +531,7 @@
   width: 20%;
 }
 
-.serviceDropdownContent>h4 {
+.serviceDropdownContent > h4 {
   color: #ef4c23;
 }
 
@@ -548,7 +544,7 @@
   flex-direction: column;
 }
 
-.trendListItems>p {
+.trendListItems > p {
   margin: 0;
   padding: 4px;
 }
@@ -581,25 +577,25 @@
   border-left: 3px solid #ef4c23;
 }
 
-.trendImageIconDivSection>p {
+.trendImageIconDivSection > p {
   width: 80%;
   font-size: 14px;
 
   margin: 0;
 }
 
-.trendImageIconDivSection>p:hover {
+.trendImageIconDivSection > p:hover {
   color: #ef4c23;
 }
 
-.trendImageIconDivSection>div {
+.trendImageIconDivSection > div {
   width: 18%;
   /* background-color: #fce7e2; */
   border-left: 2px solid white;
   height: 30px;
 }
 
-.trendImageIconDivSection>div>img {
+.trendImageIconDivSection > div > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -639,7 +635,7 @@
   box-sizing: border-box;
 }
 
-.industryContent>h4 {
+.industryContent > h4 {
   color: #ef4c23;
 }
 
@@ -656,7 +652,7 @@
   flex-direction: column;
 }
 
-.industryListItems>p {
+.industryListItems > p {
   margin: 0;
   width: 49%;
   padding: 5px 5px;
@@ -664,7 +660,7 @@
   text-decoration: none !important;
 }
 
-.industryListItems>p:hover {
+.industryListItems > p:hover {
   margin: 0;
   color: #ef4c23;
   cursor: pointer;
@@ -754,7 +750,7 @@
   /* background-color: aquamarine; */
 }
 
-.discoverleftbottom>h3 {
+.discoverleftbottom > h3 {
   margin: 0;
   /* background-color: aquamarine; */
 }
@@ -791,78 +787,6 @@
     display: none;
   }
 
-  .dropdownBar>div li {
-    margin: 5px;
-    padding: 2px;
-  }
-
-  .dropdownBar>div li:nth-child(1) {
-    padding: 5px;
-  }
-
-  #checkbox:checked~.dropdownBar {
-    left: 0;
-  }
-
-  #bar {
-    display: block;
-    color: white;
-  }
-
-  .navbarSection.active .bars {
-    color: #ef4c23;
-  }
-
-  .bars {
-    display: block;
-    font-size: 24px;
-    color: white;
-  }
-
-
-  .mobDown {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    height: 100vh;
-    top: 60px;
-    background: green;
-    left: 0;
-  }
-
-  /* .callToAction {
-    padding: 7px !important;
-    margin: 5px !important;
-    width: 150px;
-    text-align: center;
-    display: none;
-  } */
-}
-
-/* Media Query for low resolution  Tablets, Ipads */
-
-/* @media (min-width: 481px) and (max-width: 1024px) {
-  .navbarSection {
-    background: #ef4c23;
-    justify-content: space-between;
-    padding: 0 20px;
-    height: 60px;
-  }
-
-  .logoSection {
-    width: 145px;
-  }
-
-  .dropdownBar {
-    position: fixed;
-    top: 60px;
-    left: -100%;
-    flex-direction: column;
-    width: 100%;
-    background-color: green;
-  }
-
   .dropdownBar > div li {
     margin: 5px;
     padding: 2px;
@@ -891,46 +815,21 @@
     color: white;
   }
 
-  .callToAction {
-    padding: 7px !important;
-    margin: 5px !important;
-    width: 150px;
-    text-align: center;
+  .mobDown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    top: 60px;
+    background: green;
+    left: 0;
   }
-} */
+}
+
 
 /* Media Query for Tablets Ipads portrait mode */
 
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
 
-/* Media Query for Laptops and Desktops */
-
-/* @media (min-width: 1025px) and (max-width: 1280px) {
-  .navbarSection {
-    background: #ef4c23;
-    justify-content: space-between;
-    padding: 0 30px;
-  }
-
-  .logoSection {
-    width: 150px;
-    height: 50%;
-    margin-top: 4px;
-  }
-
-  .dropdownBar {
-    width: 78%;
-  }
-
-  .dropdownBar > div li {
-    font-size: 14px;
-  }
-
-  .callToAction {
-    padding: 5px 10px;
-    margin: 0;
-    font-size: 15px;
-  }
-} */
-
-/* Media Query for Large screens */
