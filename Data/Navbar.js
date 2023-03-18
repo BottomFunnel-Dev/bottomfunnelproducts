@@ -1085,7 +1085,7 @@ export const product3 = [
   {
     dropContent: "Events and Notification",
     navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
-    path: "/",
+    path: "/events-and-notifications",
   },
   {
     dropContent: "Unified Customer Record",

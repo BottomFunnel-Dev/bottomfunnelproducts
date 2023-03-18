@@ -1,6 +1,7 @@
 import React from "react";
 import AcademyBanner from "../../components/Academy/AcademyBanner/AcademyBanner";
 import AcademyContent from "../../components/Academy/AcademyContent/AcademyContent";
+import WhyAcademy from "../../components/Academy/WhyAcademy/WhyAcademy";
 import Navbar from "../../components/Navbar/Navbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
@@ -24,6 +25,7 @@ export default function Academy() {
      
       <AcademyBanner/>
       <AcademyContent/>
+      <WhyAcademy/>
       
       <Testimonial/>
       <TrustedBy/>
