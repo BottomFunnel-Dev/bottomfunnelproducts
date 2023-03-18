@@ -1,0 +1,40 @@
+.enterpriseBFChatScale{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.enterpriseBFChatScaleImage{
+    /* border: 2px solid red; */
+    width:45%;
+    height: 650px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.enterpriseBFChatHeading{
+    /* border: 2px solid red; */
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.enterpriseBFChatHeadingDiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+.enterpriseBFChatHeadingDiv>p{
+    font-size: 20px;
+}
+
+.enterpriseBFChatHeadingDiv>h5{
+    color: #03C457;
+    text-decoration: underline;
+}

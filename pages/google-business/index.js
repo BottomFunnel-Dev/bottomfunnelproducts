@@ -89,7 +89,7 @@ export default function guideToShopfy() {
         {
           dropContent: "By Use Size",
           list: [
-            { title: "Enterprise", path: "/" },
+            { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
             { title: "SMB", path: "/" },
           ],
         },

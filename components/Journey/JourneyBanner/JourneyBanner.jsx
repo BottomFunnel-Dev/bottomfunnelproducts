@@ -18,7 +18,7 @@ export const JourneyBanner= () => {
             </lottie-player>
             </div>
             <div className={styles.journeytwo}>
-                <h1>Automate Your <span style={{color:"#EF5122"}}> e-commerce marketing</span> campaigns across channels </h1>
+                <h1>Automate Your <span style={{color:"#F88F1F"}}> e-commerce marketing</span> campaigns across channels </h1>
                 <hr className={styles.hr} style={{width:"80%"}}/>
                 
                <p>Engage with customers at every stage of the buying cycle through personalized,multichannel journeys</p>

@@ -52,14 +52,14 @@
     border: none;
     height: 35px;
     font-weight: 600;
-    background-color: #ef4c23;
+    background-color: #04C354;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .deskList>button:hover {
     background-color: white;
-    color: #ef4c23;
+    color: #04C354;
 }
 
 .deskList p {
@@ -79,9 +79,9 @@
 }
 
 .deskList>p:hover {
-    color: #ef4c23 !important;
+    color: #04C354 !important;
     text-decoration: underline;
-    text-decoration-color: #ef4c23;
+    text-decoration-color: #04C354;
     text-underline-offset: 10px;
     cursor: pointer;
 }
