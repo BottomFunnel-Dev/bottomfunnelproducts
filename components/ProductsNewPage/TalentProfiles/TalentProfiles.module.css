@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-.productsTalentProfilesHeadingDiv>h1>span {
+.productsTalentProfilesHeadingDiv > h1 > span {
   color: #ef4c23;
 }
 
@@ -39,19 +39,18 @@
   position: relative;
 }
 
-.sliderinner>div {
+.sliderinner > div {
   width: 100%;
   padding: 20px 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
 }
 
-
-.sliderinner>h3 {
+.sliderinner > h3 {
   margin: 0;
 }
 
-.productsTalentProfilesContentDiv>div {
+.productsTalentProfilesContentDiv > div {
   width: 100%;
   text-align: center;
 }
@@ -62,13 +61,13 @@
   margin: auto;
 }
 
-.profile>img {
+.profile > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.productsTalentProfilesContentDiv>div>div {
+.productsTalentProfilesContentDiv > div > div {
   width: 100%;
 }
 
@@ -78,7 +77,7 @@
   right: 5%;
 }
 
-.productsTalentProfilesLinkdinDiv>a {
+.productsTalentProfilesLinkdinDiv > a {
   color: inherit;
 }
 
@@ -128,8 +127,8 @@
   justify-content: center;
 }
 
-.productsTalentCommunication>p {
-  font-size: 12px;
+.productsTalentCommunication > p {
+  font-size: 11px;
   font-weight: 500;
 }
 
@@ -176,21 +175,21 @@
     margin: auto;
   }
 
-  .profile>img {
+  .profile > img {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
 
-  .productsTalentProfilesHeadingDiv>h1 {
+  .productsTalentProfilesHeadingDiv > h1 {
     font-size: 24px;
   }
 
-  .productsTalentProfilesHeadingDiv>p {
+  .productsTalentProfilesHeadingDiv > p {
     font-size: 14px;
   }
 
-  .productsTalentProfilesHeadingDiv>h1>span {
+  .productsTalentProfilesHeadingDiv > h1 > span {
     color: #ef4c23;
   }
 
@@ -209,7 +208,7 @@
     column-gap: 25px;
   }
 
-  .productsTalentProfilesContentDiv>div {
+  .productsTalentProfilesContentDiv > div {
     width: 85%;
     border-radius: 10px;
     padding: 0%;
@@ -222,7 +221,7 @@
     margin: auto;
   }
 
-  .productsTalentProfilesContentDiv>div:hover {
+  .productsTalentProfilesContentDiv > div:hover {
     cursor: pointer;
     transition: all 0.2s linear;
     transform: none;
@@ -231,7 +230,7 @@
     color: black;
   }
 
-  .productsTalentProfilesContentDiv>div>div {
+  .productsTalentProfilesContentDiv > div > div {
     width: 100%;
     position: relative;
   }
@@ -242,14 +241,13 @@
     right: 10%;
   }
 
-  .productsTalentProfilesLinkdinDiv>a {
+  .productsTalentProfilesLinkdinDiv > a {
     color: inherit;
   }
 
   .productsTalentProfilesContentDiv h5 {
     font-size: 20px;
     color: black;
-
   }
 
   .productsTalentProfilesContentDiv h3 {
@@ -260,7 +258,6 @@
   .productsTalentProfilesContentDiv h6 {
     font-size: 18px;
     color: black;
-
   }
 
   .productsTalentCommunication {
@@ -272,23 +269,21 @@
     flex-direction: row;
     color: black;
     justify-content: space-around;
-
   }
 
-  .productsTalentCommunication>p {
+  .productsTalentCommunication > p {
     font-size: 14px;
   }
 
-  .sliderinner>div {
-
+  .sliderinner > div {
     box-sizing: border-box;
   }
 
-  .sliderinner>div:hover {
+  .sliderinner > div:hover {
     transform: none;
   }
 
-  .productsTalentProfilesContentDiv>div:hover {
+  .productsTalentProfilesContentDiv > div:hover {
     cursor: pointer;
     transition: all 0.2s linear;
     transform: none;
@@ -301,9 +296,6 @@
     background-color: #f08034 !important;
     color: white !important;
   }
-
-
-
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -321,7 +313,7 @@
     justify-content: center;
   }
 
-  .productsTalentProfilesHeadingDiv>h1>span {
+  .productsTalentProfilesHeadingDiv > h1 > span {
     color: #ef4c23;
   }
 
@@ -343,7 +335,7 @@
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   }
 
-  .productsTalentProfilesContentDiv>div {
+  .productsTalentProfilesContentDiv > div {
     /* border: 1px solid red; */
     width: 25%;
     border-radius: 10px;
@@ -359,7 +351,7 @@
     position: relative;
   }
 
-  .productsTalentProfilesContentDiv>div:hover {
+  .productsTalentProfilesContentDiv > div:hover {
     cursor: pointer;
     /* margin-top: 0; */
     transition: all 0.2s linear;
@@ -370,7 +362,7 @@
     color: white;
   }
 
-  .productsTalentProfilesContentDiv>div>div {
+  .productsTalentProfilesContentDiv > div > div {
     /* border: 1px solid red; */
     width: 100%;
     position: relative;
@@ -383,7 +375,7 @@
     right: 0%;
   }
 
-  .productsTalentProfilesLinkdinDiv>a {
+  .productsTalentProfilesLinkdinDiv > a {
     color: inherit;
   }
 
@@ -405,7 +397,7 @@
     border-radius: 18px;
   }
 
-  .productsTalentProfilesContentDiv>div>div>img {
+  .productsTalentProfilesContentDiv > div > div > img {
     /* height: 65%; */
     width: 50%;
     object-fit: contain;
@@ -414,7 +406,7 @@
     margin-bottom: 0%;
   }
 
-  .productsTalentProfilesContentDiv>div>h3 {
+  .productsTalentProfilesContentDiv > div > h3 {
     /* border: 1px solid red; */
     font-size: 25px;
     font-weight: 600;
@@ -422,14 +414,14 @@
     margin-bottom: 0%;
   }
 
-  .productsTalentProfilesContentDiv>div>h4 {
+  .productsTalentProfilesContentDiv > div > h4 {
     /* border: 1px solid green; */
     font-size: 15px;
     margin-bottom: 0%;
     margin-top: 0%;
   }
 
-  .productsTalentProfilesContentDiv>div>h6 {
+  .productsTalentProfilesContentDiv > div > h6 {
     /* border: 1px solid black; */
     font-size: 14px;
     font-weight: 400;
@@ -448,7 +440,7 @@
     /* border: 1px solid blue; */
   }
 
-  .productsTalentCommunication>p {
+  .productsTalentCommunication > p {
     font-size: 12px;
     font-weight: 500;
     margin-top: 2%;
