@@ -9,8 +9,8 @@
     align-items: center;
     padding-top: 2%;
     margin-top: 2%;
-   
 }
+
 .JourneyTrialpatrent>div{
     margin-top: 1%;
     width: 30%;
@@ -35,13 +35,13 @@
 }
 .JourneyTrialbuttontwo:hover{
     background-color: white;
-    color: #ef4c23;
-    border: 1px solid #ef4c23;
+    color: #F88F1F;
+    border: 1px solid #F88F1F;
 }
 .JourneyTrialbuttonone:hover{
     background-color: white;
-    color: #ef4c23;
-    border: 1px solid #ef4c23;
+    color: #F88F1F;
+    border: 1px solid #F88F1F;
 }
 
 @media (max-width:780px){

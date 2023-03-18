@@ -12,7 +12,7 @@ export const ProductTourBanner = () => {
         </div>
         <div className={styles.productTourBannerImage}>
             <Image
-                src={"/Images/productTour/banner.webp"}
+                src={"/Images/productTour/banner.png"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

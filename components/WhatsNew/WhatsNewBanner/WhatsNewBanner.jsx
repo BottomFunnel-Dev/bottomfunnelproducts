@@ -12,7 +12,7 @@ export default function WhatsNewBanner() {
       </div>
       <div className={styles.WhatsNewBannerimg}>
         <Image
-          src={"/Images/WhatsNew/Banner/Group 771254.webp"}
+          src={"/Images/WhatsNew/banner.png"}
           alt={"img"}
           width={"0"}
           height={"0"}

@@ -89,7 +89,7 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/" },
+          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
           { title: "SMB", path: "/" },
         ],
       },
@@ -136,6 +136,7 @@ const productData = {
   },
   pricing: "",
 };
+
 export default function TeamInbox() {
   return (
     <div>

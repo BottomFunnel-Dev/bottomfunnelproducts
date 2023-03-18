@@ -155,7 +155,7 @@ export const PricingQuestion = () => {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingEleven">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-                                    What is a Freddy Suggestion?
+                                    What is a Olly AI Suggestion?
 
                                 </button>
                             </h2>

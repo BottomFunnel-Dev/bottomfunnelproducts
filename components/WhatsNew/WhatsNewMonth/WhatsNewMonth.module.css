@@ -20,7 +20,7 @@
     margin: -1% 2% 0 2%;
     font-weight: 700;
     font-size: 50px;
-    color: #ef4c23;
+    color: #F88F1F;
 }
 
 @media only screen and (min-width:0px) and (max-width:600px){
@@ -54,6 +54,6 @@
         margin: 0% 0% 0 0%;
         font-weight: 500;
         font-size: 15px;
-        color: #ef4c23;
+        color: #F88F1F;
     }
 }
