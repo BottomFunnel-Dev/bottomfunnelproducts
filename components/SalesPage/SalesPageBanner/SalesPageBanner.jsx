@@ -18,8 +18,7 @@ export const SalesPageBanner = () => {
             </lottie-player>
         </div>
         <div className={style.SalesPageBannermainboxinnertextdiv}>
-          <h1>Accelerate your revenue </h1>
-          <h1>with context-driven sales </h1>
+          <h1>Accelerate your revenue with context-driven sales </h1>
           <p>
             Personalize engagement, shorten your sales cycle, and grow your
             business with Bottom Funnel sales.

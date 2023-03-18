@@ -1,0 +1,60 @@
+.DeliverStellarmaindiv{
+    /* border: 2px solid; */
+    margin-top: 3%;
+}
+.DeliverStellarmaindivheading{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+.DeliverStellarmaindivcards{
+    width: 90%;
+    border-bottom: 1px solid lightgrey;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.DeliverStellarmaindivcardsbox{
+    border-right: 1px solid lightgrey;
+    width: 25%;
+    padding: 2%;
+    position: relative;
+}
+
+.DeliverStellarmaindivcardsboxinnerimage{
+    /* border:2px solid green ; */
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    background-color: rgb(216, 246, 236);
+margin-left: 30%;
+}
+.DeliverStellarmaindivcardsboximage{
+    width: 40px;
+    height: 40px;
+    
+   
+}
+.DeliverStellarmaindivcardsboxinner{
+    border: 2px solid rgb(216, 246, 236) ;
+    /* border-radius: 10px; */
+    padding: 3%;
+    margin-top: 13%;
+    height: 200px;
+}
+
+.DeliverStellarmaindivcardsboxinner h6{
+    margin-top: 15%;
+}

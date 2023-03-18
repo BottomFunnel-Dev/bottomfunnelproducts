@@ -6,13 +6,13 @@ export const BottomfunnelchatBanner = () => {
   return (
     <div>
         <div className={styles.BottomfunnelchatBannermaindiv}>
-            <div className={styles.BottomfunnelchatBannerouterdiv}>
+            
                 <div className={styles.BottomfunnelchatBannerinnercontentdiv}>
-                  <div className={styles.BottomfunnelchatBannerheading}>
+                 
                     <h1>Grow Customer Love with Smarter Conversations</h1>
                     <p>Today's reletionships are digital, and always on. Power your business with intuitive and intelligent conversations. </p>
                     <button className={styles.BottomfunnelchatBannerbutton}>Start A Free Demo</button>
-                    </div>
+                    
                 </div>
                 <div className={styles.BottomfunnelchatBannerimagemaindiv}>
                     <div className={styles.BottomfunnelchatBannerimageinnerdiv}>
@@ -27,7 +27,7 @@ export const BottomfunnelchatBanner = () => {
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        
+   </div>
   )
 }

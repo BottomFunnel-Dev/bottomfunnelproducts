@@ -1,0 +1,41 @@
+.ScaleEfficientlymaindiv{
+    /* border: 2px solid ; */
+    margin-top: 3%;
+}
+.ScaleEfficientlymaindivheading{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+.ScaleEfficientlymaindivcards{
+    width: 90%;
+    /* border-bottom: 1px solid lightgrey; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.ScaleEfficientlymaindivcardsbox{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 460px;
+    padding: 1%;
+    margin-top: 3%;
+}
+.ScaleEfficientlymaindivcardsboximage{
+    width: 65%;
+    height: 300px;
+    /* padding: 20px; */
+    margin: auto;
+    /* border: 2px solid; */
+    margin-top: 5%;
+}
+.ScaleEfficientlymaindivcardsboximage1{
+    width: 50%;
+    border: 2px solid;
+}
