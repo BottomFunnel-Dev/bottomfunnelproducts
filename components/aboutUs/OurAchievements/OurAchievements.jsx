@@ -28,7 +28,7 @@ export const OurAchievements = () => {
       </div>
       <div className={styles.OurAchievementsimage}>
         <img
-          src="Images/aboutusImage/our-achievements.jpg"
+          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/our-achievements.jpg"
           alt="Our Achievement"
         />
       </div>
