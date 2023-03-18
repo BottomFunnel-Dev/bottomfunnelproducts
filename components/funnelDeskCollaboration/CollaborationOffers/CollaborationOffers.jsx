@@ -38,7 +38,7 @@ export const CollaborationOffers = () => {
             <span></span>
             <div className={styles.CollaborationOffersImage}>
               <img
-                src={`/Images/collaborationPhotos/${image}`}
+                src={`https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/collaborationPhotos/${image}`}
                 alt={`collaborationPhotos/${image}`}
               />
             </div>

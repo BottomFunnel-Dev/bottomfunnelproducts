@@ -1,5 +1,5 @@
 .PricingBannerParent{
-    background-image: url('/Images/Pricing/Banner.Webp');
+    background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Banner.Webp');
 background-position: Center;  
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,7 @@ background-position: Center;
     border-radius: 10px;
 }
 .PricingBannerParentonlychild{
-   background-image: url('/Images/Pricing/BannerButtonBackground.png');
+   background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/BannerButtonBackground.png');
    
     width: 90%;
     margin-top: 12%;
@@ -90,7 +90,7 @@ background-color: transparent;
 @media(max-width:780px){
 
     .PricingBannerParent{
-        background-image: url('/Images/Pricing/Banner.Webp');
+        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Banner.Webp');
     background-position: Center;  
       background-repeat: no-repeat;
       background-size: cover;
@@ -134,7 +134,7 @@ background-color: transparent;
         border-radius: 10px;
     }
     .PricingBannerParentonlychild{
-       background-image: url('/Images/Pricing/BannerButtonBackground.png');
+       background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/BannerButtonBackground.png');
        
         width: 100%;
         margin-top: 8%;

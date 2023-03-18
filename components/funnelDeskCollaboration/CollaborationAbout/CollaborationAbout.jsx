@@ -5,7 +5,7 @@ export const CollaborationAbout = () => {
   return (
     <div className={styles.CollaborationAboutContainer}>
       <div className={styles.CollaborationAboutImages}>
-        <img src="/Images/collaborationPhotos/about.webp" alt="about.webp" />
+        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/collaborationPhotos/about.webp" alt="about.webp" />
         <div></div>
       </div>
       <div className={styles.CollaborationAboutContent}>

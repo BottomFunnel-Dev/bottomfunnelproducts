@@ -7,7 +7,7 @@ export const CustomObjectBanner = () => {
             <div className={styles.CustomObjectParent}>
                 <div className={styles.CustomObjectone}>
                     <Image
-                        src={"/Images/customObject/Banner.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/Banner.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

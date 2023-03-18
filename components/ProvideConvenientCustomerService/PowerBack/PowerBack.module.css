@@ -1,0 +1,61 @@
+.PowerBackmaindiv{
+    /* border: 2px solid ; */
+    margin-top: 3%;
+}
+.PowerBackmaindivheading{
+  display: flex;
+    width: 90%;
+    margin: auto;
+   flex-direction: row;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+}
+.PowerBackmaindivheadingcontent{
+    width: 40%;
+}
+.PowerBackmaindivheadingimage{
+    width: 45%;
+}
+.PowerBackmaindivcards{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   
+    
+
+}
+.PowerBackmaindivcardsbg{
+    background-color: whitesmoke;
+}
+
+.PowerBackmaindivcardsbox{
+    /* border: 1px solid lightgrey; */
+    width: 40%;
+    height: 500px;
+    padding: 1%;
+    margin-top: 3%;
+}
+.PowerBackmaindivcardsboximage{
+    width: 70%;
+    height: 300px;
+    /* padding: 20px; */
+    margin: auto;
+    /* border: 2px solid; */
+}
+
+
+.PowerBackmaindivcardsbox hr{
+    /* margin: 0%; */
+    border: 1px solid;
+    color: cyan;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+}

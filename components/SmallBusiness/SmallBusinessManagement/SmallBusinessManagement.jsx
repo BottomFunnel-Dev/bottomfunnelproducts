@@ -17,7 +17,7 @@ export const SmallBusinessManagement = () => {
                 </div>
                 <div>
                     <Image
-                        src={"/Images/Small-Business/image1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -32,7 +32,7 @@ export const SmallBusinessManagement = () => {
 
                 <div>
                     <Image
-                        src={"/Images/Small-Business/image2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -60,7 +60,7 @@ export const SmallBusinessManagement = () => {
                 </div>
                 <div>
                     <Image
-                        src={"/Images/Small-Business/image3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -76,7 +76,7 @@ export const SmallBusinessManagement = () => {
 
                 <div>
                     <Image
-                        src={"/Images/Small-Business/image4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image4.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -108,7 +108,7 @@ export const SmallBusinessManagement = () => {
                 </div>
                 <div>
                     <Image
-                        src={"/Images/Small-Business/image5.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image5.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

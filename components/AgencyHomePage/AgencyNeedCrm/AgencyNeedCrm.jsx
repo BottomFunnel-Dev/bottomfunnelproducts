@@ -7,7 +7,7 @@ export const AgencyNeedCrm = () => {
     <div className={style.AgencyNeedCrmmaindiv}>
         <div className={style.AgencyNeedCrmimage}>
         <Image
-          src={"/Images/Agencyhomepagephotos/agencyneed.png"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/agencyneed.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -15,7 +15,7 @@ export const AgencyNeedCrm = () => {
           style={{ width: "100%", height: "100%" }}
 
           />
-            {/* <img src="/Images/Agencyhomepagephotos/agencyneed.webp" alt="image" /> */}
+            {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/agencyneed.webp" alt="image" /> */}
         </div>
         <div className={style.AgencyNeedCrmcontain}>
             <h2>Why do agencies need CRM?</h2>

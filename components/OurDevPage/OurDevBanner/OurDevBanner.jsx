@@ -8,7 +8,7 @@ export const OurDevBanner = () => {
       <div className={styles.ourDevBannerImage}>
         
         <Image
-            src={"/Images/ourDevPhotos/banner.webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ourDevPhotos/banner.webp"}
             alt={"bannerimage"}
             width={"0"}
             height={"0"}

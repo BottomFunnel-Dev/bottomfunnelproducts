@@ -6,7 +6,7 @@ export const Whatasappcampaigns = () => {
     const [colorchange, Setcolorchange] = useState(false)
 
 
-    const [imageChange, setImageChange]= useState("/Images/whatsapp/components/camp.webp")
+    const [imageChange, setImageChange]= useState("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/camp.webp")
 
     const handleImagechange = (imagepath) =>{
         setImageChange(() => imagepath)
@@ -15,29 +15,29 @@ export const Whatasappcampaigns = () => {
     const whatsappcampaignsdata = [
         {
             xtt:"Create and lunch code-free whatsApp Campaigns",
-            img:"/Images/whatsapp/components/camp.webp"
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/camp.webp"
         },
 
         {
             xtt:"Measure campaign's performance with Analytics & Reports",
             
-            img:"/Images/whatsapp/components/Measure.webp"
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Measure.webp"
         },
 
         {
             xtt:"Reach the right customers with advanced Segmentation",
             
-            img:"/Images/whatsapp/components/Reach the right.webp"
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Reach the right.webp"
         },
 
         {
             xtt:"Drive better engagement with rich multimedia messages",
-            img:"/Images/whatsapp/components/Drivebetter.webp"
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Drivebetter.webp"
         },
 
         {
             xtt:"Automate Your engagement with Journeys",
-            img:"/Images/whatsapp/components/Automate your engagement with  Journeys.webp"
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Automate your engagement with  Journeys.webp"
         },
 
     ]

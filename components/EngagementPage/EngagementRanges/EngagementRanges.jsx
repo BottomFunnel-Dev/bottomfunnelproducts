@@ -7,17 +7,17 @@ export const EngagementRanges = () => {
     {
       title: "FULL-TIME HIRE",
       body: "One of the most popular options under our Hire a Developer model. Most clients perfer this option as it employs direct and clear communication with the person working on the project and to provide them full control over the development process. You can hire expertx in web development, web desinging, mobile app development and SEO throughout the duration of your project development.",
-      icons: "/Images/engagementPhotos/light.png",
+      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/light.png",
     },
     {
       title: "PART-TIME HIRE",
       body: "As the name implies, in part-time hiring model, we provide you with an expert who will work for a minimum of 80 hours monthly towards your project, expoyed for 5 days/week.",
-      icons: "/Images/engagementPhotos/stopwatch.png",
+      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/stopwatch.png",
     },
     {
       title: "HOURLY HIRE",
       body: "For small projects and to cater to small business needs, we have yet another model that works on an hourly basis. You can hire our expert based on the number of working hours. The hiring period is minimum 25 hours, which can be further extended to a decent number of hours as per development requirements and busniess process.",
-      icons: "/Images/engagementPhotos/clock.png",
+      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/clock.png",
     },
   ];
 
@@ -67,7 +67,7 @@ export const EngagementRanges = () => {
         </p>
 
         <div>
-          <img src="/Images/engagementPhotos/greeting.png" alt="greeting.png" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/greeting.png" alt="greeting.png" />
         </div>
 
       </div>
@@ -76,7 +76,7 @@ export const EngagementRanges = () => {
       
       <div className={styles.engagementRangesMain}>
         <div>
-          <img src="/Images/engagementPhotos/phone.png" alt="phone.png" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/phone.png" alt="phone.png" />
         </div>
 
         <p>

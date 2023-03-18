@@ -19,7 +19,7 @@ export const OurDevProcess = () => {
           <div>
            
             <Image
-            src={"/Images/ourDevPhotos/flowchart.webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ourDevPhotos/flowchart.webp"}
             alt={"chartimage"}
             width={"0"}
             height={"0"}

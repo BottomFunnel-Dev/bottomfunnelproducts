@@ -1,0 +1,65 @@
+.HowSeekingmaindiv{
+    border-bottom: 50px solid  #209b2a;
+    margin-top: 3%;
+    height: 700px;
+    background-color: whitesmoke;
+}
+.HowSeekingmaindivheading{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+.HowSeekingmaindivcards{
+    width: 90%;
+    /* border-bottom: 1px solid lightgrey; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.HowSeekingmaindivcardsbox{
+    /* border: 1px solid rgb(218, 54, 54); */
+    width: 25%;
+    height: 280px;
+    padding: 1%;
+    position: relative;
+}
+
+.HowSeekingmaindivcardsboxinnerimage{
+    /* border:2px solid lightgray ; */
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4%;
+    background-color: whitesmoke;
+margin-left: 30%;
+}
+.HowSeekingmaindivcardsboximage{
+    width: 70px;
+    height: 70px;
+    
+   
+}
+.HowSeekingmaindivcardsboxinner{
+    border: 1px solid lightgray ;
+    background-color: white;
+    /* border-radius: 10px; */
+    padding: 2%;
+    height: 200px;
+    margin-top: 10%;
+
+}
+
+.HowSeekingmaindivcardsboxinner h6{
+    margin-top: 15%;
+}

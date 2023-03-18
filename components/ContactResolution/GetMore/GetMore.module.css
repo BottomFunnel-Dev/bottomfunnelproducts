@@ -1,14 +1,14 @@
-.ResolutionWaymaindiv{
+.GetMoremaindiv{
     /* border: 2px solid; */
     margin-top: 3%;
 }
-.ResolutionWaymaindivheading{
+.GetMoremaindivheading{
     text-align: center;
     width: 60%;
     margin: auto;
     padding: 2%;
 }
-.ResolutionWaymaindivcards{
+.GetMoremaindivcards{
     width: 90%;
     border-bottom: 1px solid lightgrey;
     margin: auto;
@@ -20,14 +20,14 @@
     
 
 }
-.ResolutionWaymaindivcardsbox{
+.GetMoremaindivcardsbox{
     border-right: 1px solid lightgrey;
     width: 25%;
     padding: 2%;
     position: relative;
 }
 
-.ResolutionWaymaindivcardsboxinnerimage{
+.GetMoremaindivcardsboxinnerimage{
     /* border:2px solid green ; */
     border-radius: 100px;
     width: 70px;
@@ -41,19 +41,19 @@
     background-color: rgb(216, 246, 236);
 margin-left: 30%;
 }
-.ResolutionWaymaindivcardsboximage{
+.GetMoremaindivcardsboximage{
     width: 40px;
     height: 40px;
     
    
 }
-.ResolutionWaymaindivcardsboxinner{
+.GetMoremaindivcardsboxinner{
     border: 2px solid rgb(216, 246, 236) ;
     border-radius: 10px;
     padding: 2%;
     margin-top: 13%;
 }
 
-.ResolutionWaymaindivcardsboxinner h6{
+.GetMoremaindivcardsboxinner h6{
     margin-top: 15%;
 }

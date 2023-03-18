@@ -9,7 +9,7 @@ export const ManufacturingFeatures = () => {
         <div className={styles.ManufacturingFeaturesmaindivinner}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
                    <Image
-                        src={"/Images/Manufacturing/manufacturing.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/manufacturing.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -41,7 +41,7 @@ export const ManufacturingFeatures = () => {
         <div className={styles.ManufacturingFeaturesmaindivinnerone}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
             <Image
-                        src={"/Images/Manufacturing/41.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/41.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -77,7 +77,7 @@ export const ManufacturingFeatures = () => {
         <div className={styles.ManufacturingFeaturesmaindivinner}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
             <Image
-                        src={"/Images/Manufacturing/42.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/42.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -112,7 +112,7 @@ export const ManufacturingFeatures = () => {
         <div className={styles.ManufacturingFeaturesmaindivinnerone}>
             <div className={styles.ManufacturingFeaturesmaindivinnerimage}>
             <Image
-                        src={"/Images/Manufacturing/43.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/43.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -165,7 +165,7 @@ export const ManufacturingFeatures = () => {
 
         <div className={styles.ManufacturingFeaturesmaindivinnerimagesecond}>
             <Image
-                        src={"/Images/Manufacturing/44.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/44.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

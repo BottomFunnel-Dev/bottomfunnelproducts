@@ -7,7 +7,7 @@ export default function BlogsBanner () {
     <div className={styles.blogsBanner}>
 
         <Image
-          src={"/Images/blogs/banner.png"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/banner.png"}
           alt={"img"}
           width={"0"}
           height={"0"}

@@ -7,25 +7,25 @@ const cardFlex = {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "/Images/card/Images",
+      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
     },
     {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "/Images/card/Images",
+      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
     },
     {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "/Images/card/Images",
+      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
     },
     {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "/Images/card/Images",
+      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
     },
   ],
 };

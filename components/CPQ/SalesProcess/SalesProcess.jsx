@@ -12,7 +12,7 @@ export const SalesProcess = () => {
                     <div className={styles.SalesProcessrow}>
                         <div className={styles.SalesProcessrowimage}>
                         <Image
-          src={"/Images/cpqimage/Business Target.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/Business Target.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -30,7 +30,7 @@ export const SalesProcess = () => {
                     <div className={styles.SalesProcessrow}>
                         <div className={styles.SalesProcessrowimage}>
                         <Image
-          src={"/Images/cpqimage/sales (1) 1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/sales (1) 1.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -46,7 +46,7 @@ export const SalesProcess = () => {
                     <div className={styles.SalesProcessrow}>
                         <div className={styles.SalesProcessrowimage}>
                         <Image
-          src={"/Images/cpqimage/Group.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/Group.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -70,7 +70,7 @@ export const SalesProcess = () => {
                     <div className={styles.SalesProcessrow1}>
                         <div className={styles.SalesProcessrowimage}>
                         <Image
-          src={"/Images/cpqimage/Group.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/Group.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -85,7 +85,7 @@ export const SalesProcess = () => {
                     <div className={styles.SalesProcessrow2}>
                         <div className={styles.SalesProcessrowimage}>
                         <Image
-          src={"/Images/cpqimage/save-time 1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/save-time 1.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

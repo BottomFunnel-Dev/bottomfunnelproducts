@@ -37,7 +37,7 @@ export const InsuranceRespond = () => {
                 <div  className={styles.InsuranceRespondParentimage} >
 
                     <Image
-                        src={"/Images/Insurance/Image1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/Image1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -55,7 +55,7 @@ export const InsuranceRespond = () => {
                 <div className={styles.InsuranceRespondParentimage}>
 
                     <Image
-                        src={"/Images/Insurance/Image2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/Image2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -128,7 +128,7 @@ export const InsuranceRespond = () => {
                 <div className={styles.InsuranceRespondParentimage}>
 
                     <Image
-                        src={"/Images/Insurance/Image3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/Image3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -146,7 +146,7 @@ export const InsuranceRespond = () => {
                 <div className={styles.InsuranceRespondParentimage}>
 
                     <Image
-                        src={"/Images/Insurance/Image4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/Image4.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

@@ -11,7 +11,7 @@ export const MarketPlaceFeature = () => {
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>
                         <Image className="marketplaceSectionImage"
-                            src={"/Images/MarketPlace/feature1.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature1.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -27,7 +27,7 @@ export const MarketPlaceFeature = () => {
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>
                         <Image
-                            src={"/Images/MarketPlace/feature2.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature2.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -43,7 +43,7 @@ export const MarketPlaceFeature = () => {
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>
                         <Image
-                            src={"/Images/MarketPlace/feature3.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature3.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -58,7 +58,7 @@ export const MarketPlaceFeature = () => {
 
                 <div>
                     <div className={styles.MarketPlaceFeatureimg}>                        <Image
-                            src={"/Images/MarketPlace/feature4.png"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature4.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

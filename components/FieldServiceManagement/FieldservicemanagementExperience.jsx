@@ -8,21 +8,21 @@ export const FieldservicemanagementExperience = () => {
         {
             htxt:"Omnichannel customer engagement",
             stxt:"Engage with customers via their prefrered channels, set up appointments, and build bettre customer relationship with an omnichannel brand presence.",
-            icon:"/Images/Feild Service Management/Icons/Rectangle 4.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 4.webp",
 
         },
 
         {
             htxt:"save time and resources",
             stxt:"Expand your service coverage area, improve field team response time, and provide the tools your team needs to resolve queries efficiently.",
-            icon:"/Images/Feild Service Management/Icons/Rectangle 4-2.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 4-2.webp",
 
         },
 
         {
             htxt:"Empower your field teams",
             stxt:"Expand your service coverage area, improve field team response time, and provide the tools your team needs to resolve queries efficiently.",
-            icon:"/Images/Feild Service Management/Icons/Rectangle 4-1.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 4-1.webp",
         },
 
     ]

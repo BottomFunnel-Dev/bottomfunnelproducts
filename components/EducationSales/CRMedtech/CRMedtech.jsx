@@ -9,7 +9,7 @@ export const CRMedtech = () => {
     <div   className={styles.CRMedtechmaindiv}>
        <div className={styles.CRMedtechmaindivimage}>
        <Image
-                        src={"/Images/Educationsales/banner (7).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/banner (7).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

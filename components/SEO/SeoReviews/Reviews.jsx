@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Reviews.module.css';
-// import Volkswagen from "../../ImageSection/Volkswagen.jpg"  
+// import Volkswagen from "../..https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Imagesection/Volkswagen.jpg"  
 import { AiOutlineStar } from 'react-icons/ai';
 import { AiFillStar } from 'react-icons/ai';
 import { IconContext } from "react-icons/lib";

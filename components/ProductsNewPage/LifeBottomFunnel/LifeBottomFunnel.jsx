@@ -27,7 +27,7 @@ const LifeBottomFunnel = () => {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/productsmainpage/Components/lifeimage1.png"
+              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/lifeimage1.png"
               alt="Components/lifeimage1.png"
             />
            
@@ -45,7 +45,7 @@ const LifeBottomFunnel = () => {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/productsmainpage/Components/model.png"
+              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/model.png"
               alt="image"
             />
           </div>
@@ -62,7 +62,7 @@ const LifeBottomFunnel = () => {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/productsmainpage/Components/lifeimage.png"
+              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/lifeimage.png"
               alt="image"
             />
           </div>

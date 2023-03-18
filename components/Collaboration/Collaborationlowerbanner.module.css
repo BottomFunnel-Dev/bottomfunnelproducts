@@ -1,7 +1,7 @@
 .messaginglowerbannermainboxes{
     height: 40vh;
     border: 1px solid transparent;
-    background: url("/Images/Messaging channels/components/Group 1000006017.webp");
+    background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/Group 1000006017.webp");
     background-repeat: no-repeat;
     }
     
@@ -42,7 +42,7 @@
     .messaginglowerbannermainboxes{
     height: 30vh;
     border: 1px solid transparent;
-    background: url("/Images/Messaging channels/components/Group 1000006017.webp");
+    background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/Group 1000006017.webp");
     background-repeat: no-repeat;
     }
     

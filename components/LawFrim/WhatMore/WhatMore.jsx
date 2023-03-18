@@ -8,7 +8,7 @@ export const WhatMore = () => {
         <div className={styles.WhatMoremaindiv}>
             <div className={styles.WhatMoremaindivimage}>
             <Image
-                        src={"/Images/lawfrimphotos/sideimage.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/sideimage.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -21,7 +21,7 @@ export const WhatMore = () => {
                 <div className={styles.WhatMoremaindivcontentinner}>
                     <div className={styles.WhatMoremaindivcontentinnerimage}>  
                         <Image
-                        src={"/Images/lawfrimphotos/business-card 1.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/business-card 1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -41,7 +41,7 @@ export const WhatMore = () => {
                 <div className={styles.WhatMoremaindivcontentinner}>
                     <div className={styles.WhatMoremaindivcontentinnerimage}>  
                         <Image
-                        src={"/Images/lawfrimphotos/notepad.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/notepad.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -61,7 +61,7 @@ export const WhatMore = () => {
                 <div className={styles.WhatMoremaindivcontentinner}>
                     <div className={styles.WhatMoremaindivcontentinnerimage}>  
                         <Image
-                        src={"/Images/lawfrimphotos/chat (6).png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/chat (6).png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

@@ -13,7 +13,7 @@ export const ContentMarketingServicesWorks = () => {
                     <div>
 
                         <div><Image
-                            src={"/Images/ContentMarketingServices/Message1.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Message1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -21,7 +21,7 @@ export const ContentMarketingServicesWorks = () => {
                             style={{ width: "100%", height: "100%" }} /></div>
                         <div> 
                         <Image
-                            src={"/Images/ContentMarketingServices/Message2.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Message2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -31,7 +31,7 @@ export const ContentMarketingServicesWorks = () => {
                     </div>
                     <div>
                     <div><Image
-                            src={"/Images/ContentMarketingServices/Message3.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Message3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -39,7 +39,7 @@ export const ContentMarketingServicesWorks = () => {
                             style={{ width: "100%", height: "100%" }} /></div>
                         <div> 
                         <Image
-                            src={"/Images/ContentMarketingServices/Message4.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Message4.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -55,7 +55,7 @@ export const ContentMarketingServicesWorks = () => {
                     <h5>Documents and Projects </h5>
                     <div>
                     <div><Image
-                            src={"/Images/ContentMarketingServices/Document1.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Document1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -63,7 +63,7 @@ export const ContentMarketingServicesWorks = () => {
                             style={{ width: "100%", height: "100%" }} /></div>
                         <div> 
                         <Image
-                            src={"/Images/ContentMarketingServices/Document2.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Document2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -72,7 +72,7 @@ export const ContentMarketingServicesWorks = () => {
                     </div>
                     <div>
                     <div><Image
-                            src={"/Images/ContentMarketingServices/Document3.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Document3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -80,7 +80,7 @@ export const ContentMarketingServicesWorks = () => {
                             style={{ width: "100%", height: "100%" }} /></div>
                         <div> 
                         <Image
-                            src={"/Images/ContentMarketingServices/Document4.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Document4.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -99,7 +99,7 @@ export const ContentMarketingServicesWorks = () => {
                     <h5>Social Media </h5>
                     <div>
                     <div><Image
-                            src={"/Images/ContentMarketingServices/Social1.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Social1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -107,7 +107,7 @@ export const ContentMarketingServicesWorks = () => {
                             style={{ width: "100%", height: "100%" }} /></div>
                         <div> 
                         <Image
-                            src={"/Images/ContentMarketingServices/Social2.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Social2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -116,7 +116,7 @@ export const ContentMarketingServicesWorks = () => {
                     </div>
                     <div>
                     <div><Image
-                            src={"/Images/ContentMarketingServices/Social3.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Social3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -124,7 +124,7 @@ export const ContentMarketingServicesWorks = () => {
                             style={{ width: "100%", height: "100%" }} /></div>
                         <div> 
                         <Image
-                            src={"/Images/ContentMarketingServices/Social4.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Social4.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

@@ -12,11 +12,11 @@ const KeyFeatures = () => {
         <div className={styles.customerImages}>
           
           <div className={styles.backfeature}>
-            <img src="/Images/ondemandHome/shape1.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/shape1.png" alt="images" />
           </div>
 
           <div className={styles.customerphone}>
-            <img src="/Images/ondemandHome/customerapp.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/customerapp.png" alt="images" />
           </div>
         </div>
 
@@ -50,13 +50,13 @@ const KeyFeatures = () => {
 
         <div className={styles.adminImage}>
           <div className={styles.backadmin}>
-            <img src="/Images/ondemandHome/shape2.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/shape2.png" alt="images" />
           </div>
           <div className={styles.backadmindown}>
-            <img src="/Images/ondemandHome/shape2.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/shape2.png" alt="images" />
           </div>
           <div className={styles.adminpanelimage}>
-            <img src="/Images/ondemandHome/adminpanel.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/adminpanel.png" alt="images" />
           </div>
         </div>
       </div>
@@ -64,10 +64,10 @@ const KeyFeatures = () => {
       <div className={styles.serviceApp}>
         <div className={styles.serviceImage}>
           <div className={styles.serviceappback}>
-            <img src="/Images/ondemandHome/shape3.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/shape3.png" alt="images" />
           </div>
           <div className={styles.serviceappmobile}>
-            <img src="/Images/ondemandHome/serviceproviderpanel.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/serviceproviderpanel.png" alt="images" />
           </div>
         </div>
         <div className={styles.serviceapptext}>
@@ -102,10 +102,10 @@ const KeyFeatures = () => {
 
         <div className={styles.serviceProviderImage}>
           <div className={styles.serviceproviderback}>
-            <img src="/Images/ondemandHome/shape4.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/shape4.png" alt="images" />
           </div>
           <div className={styles.serviceprovideradminpanel}>
-            <img src="/Images/ondemandHome/serviceproviderpanel.png" alt="images" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemandHome/serviceproviderpanel.png" alt="images" />
           </div>
         </div>
       </div>

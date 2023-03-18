@@ -1,0 +1,65 @@
+.WhatMoremaindiv{
+    /* border-bottom: 50px solid  #209b2a; */
+    margin-top: 3%;
+    height: 700px;
+    background-color: whitesmoke;
+}
+.WhatMoremaindivheading{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+.WhatMoremaindivcards{
+    width: 90%;
+    /* border-bottom: 1px solid lightgrey; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.WhatMoremaindivcardsbox{
+    /* border: 1px solid rgb(218, 54, 54); */
+    width: 23%;
+    height: 280px;
+    padding: 2%;
+    position: relative;
+}
+
+.WhatMoremaindivcardsboxinnerimage{
+    /* border:2px solid lightgray ; */
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 6%;
+    background-color: whitesmoke;
+margin-left: 30%;
+}
+.WhatMoremaindivcardsboximage{
+    width: 70px;
+    height: 70px;
+    
+   
+}
+.WhatMoremaindivcardsboxinner{
+    border: 1px solid lightgray ;
+    background-color: white;
+    /* border-radius: 10px; */
+    padding: 2%;
+    height: 200px;
+    margin-top: 10%;
+
+}
+
+.WhatMoremaindivcardsboxinner h6{
+    margin-top: 15%;
+}

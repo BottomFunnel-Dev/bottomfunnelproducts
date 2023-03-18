@@ -7,7 +7,7 @@ export const MarketPlaceCollections = () => {
             <div className={styles.MarketPlaceCollectionsParentchildone}>
                 <div>
                     <Image
-                        src={"/Images/MarketPlace/Collection1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Collection1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -21,7 +21,7 @@ export const MarketPlaceCollections = () => {
                 
                 <div>
                     <Image
-                        src={"/Images/MarketPlace/Collection2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Collection2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -35,7 +35,7 @@ export const MarketPlaceCollections = () => {
 
                 <div>
                     <Image
-                        src={"/Images/MarketPlace/Collection3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Collection3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

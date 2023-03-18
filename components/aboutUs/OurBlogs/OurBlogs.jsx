@@ -6,22 +6,23 @@ export const OurBlogs = () => {
     {
       title: "How much does it cost to develop a mobile application",
       body: "The cost of developing a mobile application can vary depending on the size and scope of the project.",
-      image: "Images/aboutusImage/explaining.jpg",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/explaining.jpg",
       date: "Nov 21st, 2022",
     },
     {
       title: "How much does it cost to web development services",
       body: "Web development services can vary greatly in price, so it is important to do your research before making a decision.",
-      image: "Images/aboutusImage/talking.jpg",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/talking.jpg",
       date: "Nov 21st, 2022",
     },
     {
       title: "Grab world best digital marketers for all your marketing needs",
       body: "If you're looking for a reliable and affordable digital marketing team, then you should consider hiring world best digital marketers.",
-      image: "Images/aboutusImage/meeting.jpg",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/meeting.jpg",
       date: "Nov 21st, 2022",
     },
   ];
+
   return (
     <div className={styles.OurBlogscontainer}>
       <h1>

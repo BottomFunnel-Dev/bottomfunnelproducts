@@ -34,7 +34,7 @@ Here’s more good news: When it comes to making phone calls within the CRM, you
             </div>
             <div className={style.FinanceTaskimage}>
             <Image
-            src={"/Images/financesalesimage/banner (7).webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (7).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -52,7 +52,7 @@ Here’s more good news: When it comes to making phone calls within the CRM, you
 
           <div className={style.FinanceTaskimageone}>
           <Image
-            src={"/Images/financesalesimage/banner (3).webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (3).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -76,7 +76,7 @@ Here’s more good news: When it comes to making phone calls within the CRM, you
 
 <div className={style.FinanceTaskimageone}>
 <Image
-  src={"/Images/financesalesimage/banner (8).webp"}
+  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (8).webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -115,7 +115,7 @@ Here’s more good news: When it comes to making phone calls within the CRM, you
             </div>
             <div className={style.FinanceTaskimage}>
             <Image
-            src={"/Images/financesalesimage/banner (4).webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (4).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -133,7 +133,7 @@ Here’s more good news: When it comes to making phone calls within the CRM, you
 
           <div className={style.FinanceTaskimageone}>
           <Image
-            src={"/Images/financesalesimage/banner (6).webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (6).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -157,7 +157,7 @@ Here’s more good news: When it comes to making phone calls within the CRM, you
 
 <div className={style.FinanceTaskimageone}>
 <Image
-  src={"/Images/financesalesimage/banner (5).webp"}
+  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (5).webp"}
   alt={"image"}
   width={"0"}
   height={"0"}

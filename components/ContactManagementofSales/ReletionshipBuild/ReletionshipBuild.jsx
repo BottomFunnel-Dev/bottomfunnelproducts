@@ -13,7 +13,7 @@ export const ReletionshipBuild = () => {
               
               <div  className={styles.ReletionshipBuildmaindivimage}>
               <Image
-          src={"/Images/contactmanagementofsalesphotos/Contacts.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactmanagementofsalesphotos/Contacts.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

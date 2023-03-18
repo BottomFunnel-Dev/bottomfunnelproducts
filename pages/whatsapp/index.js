@@ -16,7 +16,7 @@ import { Whatsappcustomerexp } from '../../components/Whatsappnew/Whatsappcustom
 
 const productData = {
   title: "Bottom Funnel Marketer",
-  logo: "/Images/navbar/product/Market.png",
+  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
   width: "45%",
   list1: {
     title: "Features",

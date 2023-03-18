@@ -14,7 +14,7 @@ export const PipelineManagement = () => {
    <div className={styles.pipelinesmanagementleftbox}>
    
    <Image
-          src={"/Images/Deal management/banners & background/ha/Group 1000003851.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Deal management/banners & background/ha/Group 1000003851.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}
@@ -33,7 +33,7 @@ export const PipelineManagement = () => {
 
    <div className={styles.pipelinesmanagementrightbox}>
    <Image
-   src={"/Images/Deal management/Screens/ha/accelerate sales.webp"}
+   src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Deal management/Screens/ha/accelerate sales.webp"}
    alt={"images"}
    width={"0"}
    height={"0"}

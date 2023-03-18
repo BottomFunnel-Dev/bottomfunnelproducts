@@ -16,7 +16,7 @@ export const ReportAndAnalysisBanner = () => {
       </div>
       <div className={styles.reportAndAnalysisBannerimg}>
         <Image
-          src={"/Images/funnelReportanalysis/Vectors/Group-1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funnelReportanalysis/Vectors/Group-1.webp"}
           alt={"report analysis"}
           width={"0"}
           height={"0"}

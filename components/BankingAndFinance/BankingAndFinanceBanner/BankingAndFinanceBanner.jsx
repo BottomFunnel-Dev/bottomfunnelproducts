@@ -7,7 +7,7 @@ export default function BankingAndFinanceBanner () {
     <div className={styles.bankingAndFinanceBannerMain}>
         <div className={styles.bankingAndFinanceBannerimg}>
         <Image
-          src={"/Images/bankingandfinance/banner.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/banner.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}

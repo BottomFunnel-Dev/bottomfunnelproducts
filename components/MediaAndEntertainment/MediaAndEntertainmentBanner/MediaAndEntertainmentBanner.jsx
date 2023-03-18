@@ -16,7 +16,7 @@ and fast customer support.</p>
             </div>
             <div className={styles.MediaAndEntertainmentBannerParentSecChild}>
                 <Image
-                    src={"/Images/MediaAndEntertainment/banner.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/banner.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

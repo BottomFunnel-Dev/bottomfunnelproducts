@@ -5,7 +5,7 @@ export const ConversonalCrm = () => {
   return (
     <div className={styles.ConversonalCrmmaindiv}>
         <div className={styles.ConversonalCrmmaindivcontain}>
-            <h1>A Dependable Phone System for the EnterpriseEmpower Your Teams to Engage Throung Theonly Multichannel, Conversational CRM </h1>
+            <h2>A Dependable Phone System for the EnterpriseEmpower Your Teams to Engage Throung Theonly Multichannel, Conversational CRM </h2>
         </div>
         <div className={styles.ConversonalCrmcarddiv}>
             <div className={styles.ConversonalCrmcarddivinner}>

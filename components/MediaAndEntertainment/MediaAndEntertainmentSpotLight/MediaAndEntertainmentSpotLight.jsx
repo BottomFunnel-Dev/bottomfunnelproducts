@@ -28,7 +28,7 @@ export const MediaAndEntertainmentSpotLight = () => {
                 </div>
                 <div>
                     <Image
-                        src={"/Images/MediaAndEntertainment/Image1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image1.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -39,7 +39,7 @@ export const MediaAndEntertainmentSpotLight = () => {
             <div className={styles.MediaAndEntertainmentSpotLightParentsecChild}>
                 <div>
                     <Image
-                        src={"/Images/MediaAndEntertainment/Image2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image2.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -87,7 +87,7 @@ export const MediaAndEntertainmentSpotLight = () => {
                 </div>
                 <div>
                     <Image
-                        src={"/Images/MediaAndEntertainment/Image3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image3.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -98,7 +98,7 @@ export const MediaAndEntertainmentSpotLight = () => {
             <div className={styles.MediaAndEntertainmentSpotLightParentFfourthChild}>
                 <div>
                     <Image
-                        src={"/Images/MediaAndEntertainment/Image4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image4.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
