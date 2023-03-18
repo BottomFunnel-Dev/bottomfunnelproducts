@@ -90,13 +90,13 @@ export const ProductsNewPageBanner = () => {
             <BsPlayCircle />
           </IconContext.Provider> */}
 
-          <lottie-player
+          {/* <lottie-player
             src="/Animation/white.json"
             background="transparent"
             speed="1.5"
             loop
             autoplay
-          ></lottie-player>
+          ></lottie-player> */}
 
           {/* <img
             className={styles.mainImage}
@@ -133,7 +133,7 @@ export const ProductsNewPageBanner = () => {
               <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/webm" />
             </video>
 
-            <div className={styles.backImagesecond}>
+            {/* <div className={styles.backImagesecond}>
               <lottie-player
                 src="/Animation/backorangeproductpage.json"
                 background="transparent"
@@ -145,7 +145,7 @@ export const ProductsNewPageBanner = () => {
                   heigth: "700px",
                 }}
               ></lottie-player>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className={styles.productright}>
