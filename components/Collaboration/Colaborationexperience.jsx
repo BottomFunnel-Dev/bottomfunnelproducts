@@ -11,7 +11,7 @@ export const Colaborationexperience = () => {
     <div className={styles.colaborationexperienceimagebox}>
     
     <Image
-          src={"/Images/Collaboration/components/Group 1000006029.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/Group 1000006029.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

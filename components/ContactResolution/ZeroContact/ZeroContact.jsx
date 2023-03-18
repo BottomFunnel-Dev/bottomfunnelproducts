@@ -17,7 +17,7 @@ presented today by Freshchat</h2>
      <h6>Offer ZCR for continuous conversations at scale</h6>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/OBJECTS.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/OBJECTS.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -35,7 +35,7 @@ presented today by Freshchat</h2>
      <h6>Serve ZCR everywhere</h6>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/Frame.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/Frame.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -56,7 +56,7 @@ presented today by Freshchat</h2>
      <h6>Deliver ZCR to enhance your customer experience</h6>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/OBJECTS (1).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/OBJECTS (1).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -76,7 +76,7 @@ presented today by Freshchat</h2>
      <h6>Your customers expect uncomplicated solutions</h6>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/Illustration.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/Illustration.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

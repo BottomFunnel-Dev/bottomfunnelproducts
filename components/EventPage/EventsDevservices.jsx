@@ -6,10 +6,10 @@ export const EventsDevservices = () => {
     <div className={styles.eventsdevservices}>
       <div className={styles.eventsdevserviceImage}>
         <div className={styles.eventsbackImage}>
-          <img src="/Images/Eventpage/eventserviceback.png" alt="images" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Eventpage/eventserviceback.png" alt="images" />
         </div>
         <div className={styles.eventstopImage}>
-          <img src="/Images/Eventpage/eventservicetop.png" alt="images" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Eventpage/eventservicetop.png" alt="images" />
         </div>
       </div>
       <div className={styles.eventsdevserviceText}>

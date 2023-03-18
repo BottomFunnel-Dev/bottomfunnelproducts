@@ -2,7 +2,7 @@
   padding: 5% 3% 5% 3%;
 
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/Images/NFTDevPhotos/mid-banner.png");
+    url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/NFTDevPhotos/mid-banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

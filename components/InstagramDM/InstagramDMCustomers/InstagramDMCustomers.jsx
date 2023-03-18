@@ -28,7 +28,7 @@ export default function InstagramDMCustomers () {
         </div>
         <div className={styles.instagramDmCustomerRight}>
             <Image
-                src={"/Images/InstagramDm/Group2.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/InstagramDm/Group2.webp"}
                 alt={"img"}
                 width={"0"}
                 height={"0"}

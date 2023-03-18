@@ -15,7 +15,7 @@ export default function BankingAndFinanceLandscape () {
                 <h4>On-Hold NO MORE</h4>
                 <div className={styles.bankingFinanceImages}>
                     <Image
-                        src={"/Images/bankingandfinance/Rectangle4.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/Rectangle4.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -30,7 +30,7 @@ export default function BankingAndFinanceLandscape () {
                 <h4>Safety First</h4>
                 <div className={styles.bankingFinanceImages}>
                     <Image
-                        src={"/Images/bankingandfinance/Rectangle5.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/Rectangle5.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -45,7 +45,7 @@ export default function BankingAndFinanceLandscape () {
                 <h4>In with the new</h4>
                 <div className={styles.bankingFinanceImages}>
                     <Image
-                        src={"/Images/bankingandfinance/Rectangle3.png"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/Rectangle3.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

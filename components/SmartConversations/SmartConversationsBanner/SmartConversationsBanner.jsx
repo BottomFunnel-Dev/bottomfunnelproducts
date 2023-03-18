@@ -7,7 +7,7 @@ export default function SmartConversationsBanner () {
     <div className={styles.smartConversationsBannerMain}>
         <div className={styles.smartConversationsBannerimg}>
         <Image
-          src={"/Images/smartConversations/Isolation_Mode.png"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/smartConversations/Isolation_Mode.png"}
           alt={"img"}
           width={"0"}
           height={"0"}

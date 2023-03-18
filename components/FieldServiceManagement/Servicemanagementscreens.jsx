@@ -8,19 +8,19 @@ export const Servicemanagementscreens = () => {
         {
             htxt:"Reduce downtime with efficient scheduling",
             stxt:"A powerful scheduling Dashboard makes managing appointments, balancing workloads, and responding to emergencies easy - saving time and improving efficiency.",
-            img:"/Images/Feild Service Management/Screens/Reduce downtime.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Screens/Reduce downtime.webp",
         },
 
         {
             htxt:"Intelligently engage with customers using bots",
             stxt:"Use Freddy AI to interact with customers, respond to queries and set up appointments automatically-saving you from repetitive tasks while reducing cost and time.",
-            img:"/Images/Feild Service Management/Screens/Frame4.png",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Screens/Frame4.png",
         },
 
         {
             htxt:"Stay connected with iOS and Android apps",
             stxt:"Enable field employees to access customer information even when offline and deliver customer service anywhere.",
-            img:"/Images/Feild Service Management/Screens/andriodIos.png",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Screens/andriodIos.png",
         },
 
     ]

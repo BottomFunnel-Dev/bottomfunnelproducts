@@ -18,7 +18,7 @@ export const Travelandhospitalitybanner = () => {
     <div className={styles.travelandhospitalitybennerrightbox}>
     
     {/* <Image
-          src={"/Images/Travel & hospitality/Bannersbackgrounds/Group770588.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travel & hospitality/Bannersbackgrounds/Group770588.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

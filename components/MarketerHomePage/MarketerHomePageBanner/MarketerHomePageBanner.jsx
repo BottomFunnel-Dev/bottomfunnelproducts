@@ -16,7 +16,7 @@ export const MarketerHomePageBanner = () => {
           </div>
         </div>
         <div className={styles.MarketerHomePageBannermaindivimage}>
-          <img src="/Images/MarketerHomePagephotos/bannerimage.png" alt="bannerimage" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/bannerimage.png" alt="bannerimage" />
         </div>
       </div>
     </div>

@@ -6,15 +6,15 @@ import styles from "./UnifiedUCRaction.module.css"
 export const UnifiedUCRaction = () => {
     const unifieducrdata = [
         {
-            img:"/Images/unified customer record/Components/Group 3322.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/Group 3322.webp",
         },
 
         {
-            img:"/Images/unified customer record/Components/Group 3329.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/Group 3329.webp",
         },
 
         {
-            img:"/Images/unified customer record/Components/Group 3327.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/Group 3327.webp",
         },
 
     ]

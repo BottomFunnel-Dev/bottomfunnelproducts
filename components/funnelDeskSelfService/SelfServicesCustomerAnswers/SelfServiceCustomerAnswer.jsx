@@ -15,12 +15,12 @@ export const SelfServiceCustomerAnswer = () => {
           <button> Explore Olly Ai </button>
         </div>
         <div className={styles.selfServicesCustomerAnswerImageDiv}>
-          <img src="/Images/SelfService/HelpCustomer.webp" alt="image" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SelfService/HelpCustomer.webp" alt="image" />
         </div>
       </div>
       <div className={styles.selfServicesCustomerAnswerInnerDiv}>
         <div className={styles.selfServicesCustomerAnswerImageDiv}>
-          <img src="/Images/SelfService/SocialLanguage.webp" alt="image" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SelfService/SocialLanguage.webp" alt="image" />
         </div>
         <div className={styles.selfServicesCustomerAnswerContentDiv}>
           <h1>Empower customers in multiple languages</h1>

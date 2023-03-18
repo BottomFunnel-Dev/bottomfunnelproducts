@@ -13,7 +13,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly1.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly1.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -29,7 +29,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly2.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly2.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -45,7 +45,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly2.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly2.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -61,7 +61,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly4.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly4.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -81,7 +81,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly1.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly1.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -97,7 +97,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly6.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly6.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -113,7 +113,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly7.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly7.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -129,7 +129,7 @@ export const MarketPlaceNewly = () => {
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image
-                                src={"/Images/MarketPlace/Newly8.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly8.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

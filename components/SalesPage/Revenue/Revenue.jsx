@@ -13,35 +13,35 @@ export const Revenue = () => {
         <div className={style.Revenueinnerdiv}>
             <div className={style.Revenueinnerdivimage}>
             <Image
-          src={"/Images/SalesPagePhotos/view1.webp"}
-          alt={"/Images/SalesPagePhotos/view1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view1.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view1.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="/Images/SalesPagePhotos/view1.png" alt="logo" /> */}
+                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view1.png" alt="logo" /> */}
             </div>
             <h5>Improve seller effectiveness by streamlining your sales process</h5>
         </div>
 
         {/* <div className=Revenue-innerdiv>
             <div>
-                <img src="/Images/SalesPagePhotos/360view.png" alt="logo" />
+                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.png" alt="logo" />
             </div>
             <p>Close deals faster with a  360° view of customers </p>
         </div> */}
         <div className={style.Revenueinnerdiv}>
             <div className={style.Revenueinnerdivimage}>
             <Image
-          src={"/Images/SalesPagePhotos/360view.webp"}
-          alt={"/Images/SalesPagePhotos/360view.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="/Images/SalesPagePhotos/360view.png" alt="logo" /> */}
+                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.png" alt="logo" /> */}
             </div>
             <h5> Close deals faster with a  360° view of customers </h5>
         </div>
@@ -49,14 +49,14 @@ export const Revenue = () => {
         <div className={style.Revenueinnerdiv}>
             <div className={style.Revenueinnerdivimage}>
             <Image
-          src={"/Images/SalesPagePhotos/view.webp"}
-          alt={"/Images/SalesPagePhotos/view.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="/Images/SalesPagePhotos/view.png" alt="logo" /> */}
+                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view.png" alt="logo" /> */}
             </div>
             <h5>Reduce IT Complexity & cost with a comprehensive solution</h5>
         </div>

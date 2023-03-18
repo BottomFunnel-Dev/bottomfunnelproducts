@@ -9,7 +9,7 @@ export const FinanceContaint = () => {
      <div className={style.FinanceContaintinnerdiv}>
         <div className={style.FinanceContaintinnerdivimage}>
         <Image
-            src={"/Images/financesalesimage/banner (9).webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (9).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -41,7 +41,7 @@ Freshsales CRM offers AI-based contact scoring that identifies clients who are b
         </div>
         <div className={style.FinanceContaintinnerdivimage}>
         <Image
-            src={"/Images/financesalesimage/banner (10).webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (10).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -55,7 +55,7 @@ Freshsales CRM offers AI-based contact scoring that identifies clients who are b
      <div className={style.FinanceContaintinnerdiv}>
         <div className={style.FinanceContaintinnerdivimage} >
         <Image
-            src={"/Images/financesalesimage/banner (11).webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (11).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}

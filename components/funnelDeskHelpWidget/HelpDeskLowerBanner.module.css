@@ -2,7 +2,7 @@
   height: fit-content;
   padding: 2% 0;
 
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/helpdesk/Component 69.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/helpdesk/Component 69.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

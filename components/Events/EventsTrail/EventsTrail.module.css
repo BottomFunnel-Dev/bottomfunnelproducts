@@ -1,6 +1,6 @@
 
 .eventsTrailparent{
-    background-image: url('/Images/Event/background.webp');
+    background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/background.webp');
     margin-top: 5%;
  
     display: flex;
@@ -57,7 +57,7 @@
 @media(max-width:780px){
 
     .eventsTrailparent{
-        background-image: url('/Images/Event/background.webp');
+        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/background.webp');
         margin-top: 5%;
      
         display: flex;

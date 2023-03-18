@@ -23,7 +23,7 @@ export const ContentMarketingServicesUnderstading = () => {
                 </div>
                 <div>
                     <Image
-                        src={"/Images/ContentMarketingServices/Image1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Image1.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -34,7 +34,7 @@ export const ContentMarketingServicesUnderstading = () => {
             <div className={styles.ContentMarketingServicesUnderstadingParentsecChild}>
                 <div>
                     <Image
-                        src={"/Images/ContentMarketingServices/Image2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Image2.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -82,7 +82,7 @@ export const ContentMarketingServicesUnderstading = () => {
                 </div>
                 <div>
                     <Image
-                        src={"/Images/ContentMarketingServices/Image3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Image3.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -93,7 +93,7 @@ export const ContentMarketingServicesUnderstading = () => {
             <div className={styles.ContentMarketingServicesUnderstadingParentFfourthChild}>
                 <div>
                     <Image
-                        src={"/Images/ContentMarketingServices/Image4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Image4.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}

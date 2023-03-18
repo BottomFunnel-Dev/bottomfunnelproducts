@@ -14,7 +14,7 @@ export const DeveloperResource = () => {
             <div className={styles.developerResourceBox}>
               <div className={styles.developerPortalResourceImage}>
                 <Image
-                  src={"/Images/developerPortal/Group9.png"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group9.png"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -38,7 +38,7 @@ export const DeveloperResource = () => {
             <div className={styles.developerResourceBox}>
               <div className={styles.developerPortalResourceImage}>
                 <Image
-                  src={"/Images/developerPortal/Group1.png"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group1.png"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -62,7 +62,7 @@ export const DeveloperResource = () => {
             <div className={styles.developerResourceBox}>
               <div className={styles.developerPortalResourceImage}>
                 <Image
-                  src={"/Images/developerPortal/Group10.png"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group10.png"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}

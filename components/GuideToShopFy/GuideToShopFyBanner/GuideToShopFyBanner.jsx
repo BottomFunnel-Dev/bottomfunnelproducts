@@ -16,7 +16,7 @@ export const GuideToShopFyBanner= () => {
             
             <div className={styles.GuideToShopFyBannerone}>
             <Image
-                    src={"/Images/GuideToShopFy/Banner.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/Banner.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

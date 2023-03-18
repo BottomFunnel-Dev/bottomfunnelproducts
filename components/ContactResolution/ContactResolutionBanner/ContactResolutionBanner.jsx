@@ -15,7 +15,7 @@ Enable your customers to get answers to their questions by themselves for faster
    </div>
    <div className={styles.ContactResolutionBannerimage}>
    <Image
-                        src={"/Images/contactresolutionphotos/icon.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/icon.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

@@ -15,7 +15,7 @@ export const InsuranceBanner = () => {
             </div>
             <div>
                 <Image
-                    src={"/Images/Insurance/banner.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/banner.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

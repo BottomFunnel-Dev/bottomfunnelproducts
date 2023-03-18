@@ -9,19 +9,19 @@ export const Messagincommunication = () => {
         {
             htxt:"Connect across apps",
             stxt:"Simplify communication across Google's Business Messages.Apple Messages for Business, WhatApp and more.",
-            icon:"/Images/Messaging channels/components/image 46.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 46.webp",
         },
 
         {
             htxt:"Be Available",
             stxt:"Engage with your customers on their preferred messaging channels and build meaningful relationships wherever they are.",
-            icon:"/Images/Messaging channels/components/image 47.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 47.webp",
         },
 
         {
             htxt:"Build customer trust",
             stxt:"Stay dependable and help your customers when they need you using our secure and reliable Messaging API.",
-            icon:"/Images/Messaging channels/components/image 48.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 48.webp",
         },
     ]
 
@@ -53,7 +53,7 @@ export const Messagincommunication = () => {
 <p>Increase your agent productivity and improve your customer experience with contextual conversations across popular messaging applications.</p>
 <div className={styles.messagingexperienceimagebox}>
         <Image
-          src={"/Images/Messaging channels/components/messaging channels.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/messaging channels.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

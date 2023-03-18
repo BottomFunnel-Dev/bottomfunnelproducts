@@ -81,19 +81,19 @@ export default function Testimonial() {
       name: "Leslie al",
       degination: "CEO, SPJ Electronics",
       desc: "it was a seamless experience with bottom funnel team, they built our consumer electronics brand spj electronics in the terms of web development and mobile applications development. we recommend bottom funnel team to everybody who have some technical requirements. at the same time it was a fun and great experience with the team",
-      image: "/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
     },
     {
       name: "Leslie al",
       degination: "CEO, Next Holidays",
       desc: "It was an great expreience with bottom funnel team. they have complete our D2C travel brand name called  Next Holidays We glad that we connect to the bottom funnel technical team. It was an insane experience with the team.",
-      image: "/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
     },
     {
       name: "Leslie al",
       degination: "CEO, Digital PT",
       desc: "It was a wonderfull experience with the Bottom funnel developers team they build our B2C B2B Mobile app development & website development As per our requirement they were so calm & patient we thankfull for their efforts time & energy I hope will get an oppurtunity to work with the team again in future cheers.",
-      image: "/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
     },
   ];
 

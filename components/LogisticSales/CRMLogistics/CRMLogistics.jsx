@@ -9,7 +9,7 @@ export const CRMLogistics = () => {
             <div className={style.CRMLogisticsinnerdiv}>
                <div className={style.CRMLogisticsinnerdivimage}>
                <Image
-                        src={"/Images/Logisticsalesphotos/question.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/question.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -17,7 +17,7 @@ export const CRMLogistics = () => {
                         style={{ width: "100%", height: "100%" }}
 
                     />
-                {/* <img src="/images/logisticssalesphotos/question.png" alt="img" /> */}
+                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/question.png" alt="img" /> */}
                </div>
                <div className={style.CRMLogisticsinnerdivcontain}>
                 <p>
@@ -31,7 +31,7 @@ How can companies ensure customers remain at the core of their business? By adop
             <div className={style.CRMLogisticsinnerdiv1}>
                 <div className={style.CRMLogisticsinnerdiv1image}>
                 <Image
-                        src={"/Images/Logisticsalesphotos/crm.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/crm.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -39,7 +39,7 @@ How can companies ensure customers remain at the core of their business? By adop
                         style={{ width: "100%", height: "100%" }}
 
                     />
-                    {/* <img src= "/images/logisticssalesphotos/logibannerit.png" alt="img" /> */}
+                    {/* <img src= "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/logibannerit.png" alt="img" /> */}
                 </div>
                 <div className={style.CRMLogisticsinnerdiv1contain}>
                     <h2>The needs for a Specialized CRM for Logistics </h2>

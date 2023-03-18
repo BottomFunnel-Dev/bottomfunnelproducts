@@ -5,7 +5,7 @@ export const ContactUSBanner = () => {
   return (
     <div className={styles.contactUsBannermain}>
       <div className={styles.ContactUsBannerimage}>
-        <img src="/Images/ContactUS/banner.png" alt="Contact us banner" />
+        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContactUS/banner.png" alt="Contact us banner" />
       </div>
 
       <div className={styles.ContactUsBannerContent}>

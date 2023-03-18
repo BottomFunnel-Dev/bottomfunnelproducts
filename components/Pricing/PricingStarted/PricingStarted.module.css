@@ -1,5 +1,5 @@
 .PricingStartedParent{
-    background-image: url('/Images/Pricing/StarterBackground.png');
+    background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/StarterBackground.png');
     display: flex;
    justify-content: space-between;
    align-items: center;
@@ -53,7 +53,7 @@ margin-left: 5%;
 
 @media(max-width:780px){
     .PricingStartedParent{
-        background-image: url('/Images/Pricing/StarterBackground.png');
+        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/StarterBackground.png');
         display: flex;
         flex-direction: column;
        justify-content: space-between;

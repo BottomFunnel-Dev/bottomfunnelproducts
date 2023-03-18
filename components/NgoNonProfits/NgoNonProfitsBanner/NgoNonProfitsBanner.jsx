@@ -7,7 +7,7 @@ export default function NgoNonProfitsBanner () {
     <div className={styles.ngoBannerMain}>
         <div className={styles.ngoBannerimg}>
         <Image
-          src={"/Images/ngoandnonProfits/banner.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/banner.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}

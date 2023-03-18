@@ -7,7 +7,7 @@ export const JourneyCustomerExperience = () => {
             <div className={styles.JourneyCustomerExperienceOnlyChild}>
                  <div className={styles.JourneyCustomerExperienceImage}> 
                 <Image
-                    src={"/Images/Journey/7793.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/7793.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

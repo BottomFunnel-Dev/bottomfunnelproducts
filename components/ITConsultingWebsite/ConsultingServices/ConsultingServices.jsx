@@ -7,41 +7,41 @@ export const ConsultingServices = () => {
             title: "Business Processes and Cost Optimization",
             body: `As an IT Consulting company, we have extensive experience in digitally transforming our client's businesses, giving them key insights into different industires.
             Our consultants leverage their experience to analyze your technology spending, optimize IT costs,  and enhance business processes.`,
-            image: "/Images/ItConsulting/Component 98.png",
+            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Component 98.png",
         },
         {
             title: "Architecture and Security",
             body: `As an IT Consulting company, we have extensive experience in digitally transforming our client's businesses, giving them key insights into different industires.
             Our consultants leverage their experience to analyze your technology spending, optimize IT costs,  and enhance business processes.`,
-            image: "/Images/ItConsulting/Vector-1.png",
+            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Vector-1.png",
         },
         {
             title: "Digital Technology Integration",
             body: `As an IT Consulting company, we have extensive experience in digitally transforming our client's businesses, giving them key insights into different industires.
             Our consultants leverage their experience to analyze your technology spending, optimize IT costs,  and enhance business processes.`,
-            image: "/Images/ItConsulting/Group.png",
+            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Group.png",
         },
         {
             title: "Program and Project Management",
             body: `As an IT Consulting company, we have extensive experience in digitally transforming our client's businesses, giving them key insights into different industires.
             Our consultants leverage their experience to analyze your technology spending, optimize IT costs,  and enhance business processes.`,
-            image: "/Images/ItConsulting/Vector.png",
+            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Vector.png",
         },
         {
             title: "IT Solution Consulting",
             body: `As an IT Consulting company, we have extensive experience in digitally transforming our client's businesses, giving them key insights into different industires.
             Our consultants leverage their experience to analyze your technology spending, optimize IT costs,  and enhance business processes.`,
-            image: "/Images/ItConsulting/Component 99.png",
+            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Component 99.png",
         },
         // {
         //     title: "Promote Your Business Effectively",
         //     body: "Meter per second provied 100% Transparent Service which means all parts are opened right in front of you while performing service and no more surprised or extra spares or costs.",
-        //     image: "/Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage6.png",
+        //     image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage6.png",
         // },
         // {
         //     title: "Lighting Solution Implementation",
         //     body: "Salesforce is leading the pack with its platform as a service. The Lightning platform is the first PaaS for developers and has proved to be immensely popular among enterprises.",
-        //     image: "/Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage1.png",
+        //     image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage1.png",
         // },
     ];
 
@@ -57,7 +57,7 @@ export const ConsultingServices = () => {
             </div>
 
             {/* <div className='consultingServicesBackImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedMeatBackground.png' alt='image' />
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/banners & backgrounds/PlantBasedMeatBackground.png' alt='image' />
             </div> */}
 
             <div className={styles.consultingServicesWeOffers}>
