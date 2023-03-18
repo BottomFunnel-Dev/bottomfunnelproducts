@@ -1,0 +1,42 @@
+.ProvideConvenientBannermaindiv{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4%;
+    height: 100vh;
+}
+.ProvideConvenientBannermaindivbutton{
+ 
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: #209b4a;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+
+}
+.ProvideConvenientBannermaindivbutton:hover{
+    border: 1px solid #209b4a;
+    color: #209b4a;
+    background-color: white;
+}
+.ProvideConvenientBannermaindivinner{
+    width: 35%;
+   
+}
+.ProvideConvenientBannerimage{
+    width: 35%;
+}
+.ProvideConvenientBannermaindivinner h1{
+    font-size: 40px;
+}
+
+
+
+
+
+

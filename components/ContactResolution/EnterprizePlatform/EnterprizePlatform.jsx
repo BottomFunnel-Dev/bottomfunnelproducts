@@ -14,7 +14,7 @@ export const EnterprizePlatform = () => {
 </p>
 <button className={styles.EnterprizePlatformdivbutton}>Learn More</button>
         </div>
-        {/* <div  className={styles.EnterprizePlatformcarddiv}>
+        <div  className={styles.EnterprizePlatformcarddiv}>
             <h2>Businesses use Freshchat to wow their customers</h2>
             <div className={styles.EnterprizePlatformcarddivinner}>
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
@@ -30,10 +30,42 @@ export const EnterprizePlatform = () => {
                     />
                     </div>
                     <p>Klarna delights its 80M customers with rapid resolutions. </p>
-                    <button>Read More</button>
+                    <button className={styles.EnterprizePlatformcarddivinnerboxbutton}>Read More</button>
+                </div>
+
+                <div className={styles.EnterprizePlatformcarddivinnerbox}>
+                    <div className={styles.EnterprizePlatformcarddivinnerboximage}>
+                    <Image
+                        src={"/Images/contactresolutionphotos/supr daily.webp"}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+                    </div>
+                    <p>SuperDaily uses Whatsapp to serve 70,000 Customer daily </p>
+                    <button className={styles.EnterprizePlatformcarddivinnerboxbutton}>Read More</button>
+                </div>
+
+                <div className={styles.EnterprizePlatformcarddivinnerbox}>
+                    <div className={styles.EnterprizePlatformcarddivinnerboximage}>
+                    <Image
+                        src={"/Images/contactresolutionphotos/sens.webp"}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+                    </div>
+                    <p>SENS Group achieves a 5/5 CSAT rating with Bottom-funnel-whatsapp </p>
+                    <button className={styles.EnterprizePlatformcarddivinnerboxbutton}>Read More</button>
                 </div>
             </div>
-        </div> */}
+        </div>
     </div>
   )
 }
