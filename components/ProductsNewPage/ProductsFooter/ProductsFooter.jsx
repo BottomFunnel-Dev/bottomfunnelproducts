@@ -20,21 +20,15 @@ export const ProductsFooter = () => {
 
 
                 <div className={styles.productsFooterSideButtons}>
-                    <button
-                        className={styles.productsFooterCallToAction}
-                    >
+                    <button className={styles.productsFooterCallToAction}>
                         Hire a Talent
                     </button>
 
-                    <button
-                        className={styles.productsFooterCallToAction}
-                    >
+                    <button className={styles.productsFooterCallToAction}>
                         Apply as a Talent
                     </button>
 
-                    <button
-                        className={styles.productsFooterCallToActionLogin}
-                    >
+                    <button className={styles.productsFooterCallToActionLogin}>
                         Login
                     </button>
                 </div>
