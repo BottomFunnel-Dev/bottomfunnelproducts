@@ -1,6 +1,6 @@
 /* for any type of laptop and wide range of screen responsive */
 
-@media only screen and (min-width:769px){
+
 .OurAchievementsmain {
   padding: 2%;
   width: 90%;
@@ -60,20 +60,21 @@
 .OurAchievementsimage > img {
   width: 100%;
 }
-}
 
 
 /* for any type of mobile screen responsive */
-@media only screen and (min-width:0px) and (max-width:376px){
+@media (min-width:0px) and (max-width:480px){
 
 
   .OurAchievementsmain {
     padding: 2%;
     width: 90%;
     margin: auto;
- 
+    flex-direction: column-reverse;
   }
-  
+  .OurAchievementscontent {
+    width: 98%;
+  }
 
   
   .OurAchievementscontent > h1 {
@@ -98,14 +99,13 @@
   .OurAchievementscontent > button {
     font-size: 18px;
     font-weight: 600;
-    margin-top: 3%;
+    margin-top: 6%;
     padding: 10px 20px;
     cursor: pointer;
-  width: 200px;
-  height: fit-content;
+    width: 200px;
+    height: fit-content;
     background-color: #ef4c23;
     color: white;
-  
     border-radius: 100px;
     border: 2px solid #ef4c23;
     outline: none;
@@ -133,7 +133,7 @@
 
 /* for any type of tablet responsive */
 
-@media only screen and ( min-width:377px) and (max-width:769px){
+@media ( min-width:481px) and (max-width:1024px){
 
   .OurAchievementsmain {
     padding: 2%;

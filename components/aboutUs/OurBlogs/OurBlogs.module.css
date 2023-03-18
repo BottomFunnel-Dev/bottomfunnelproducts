@@ -1,5 +1,4 @@
 /* for any type of laptop and wide range of screen responsive */
-@media only screen and (min-width:769px){
 .OurBlogscontainer {
   text-align: center;
 
@@ -71,22 +70,21 @@
 .OurBlogscardsimage > img {
   width: 100%;
 }
-}
 
 
 /* for any type of mobile screens responsive */
 
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width:0px) and (max-width:480px){
 
   .OurBlogscontainer {
     text-align: center;
-   margin: 2% auto 2% auto;
+   margin: 4% auto 2% auto;
   }
   
   .OurBlogscontainer > h1 {
-    /* font-size: 32px;
+    /* font-size: 32px;*/
     margin-top: 0;
-    margin-bottom: 2%; */
+    margin-bottom: 2%; 
  
     font-size: 25px;
   }
@@ -109,7 +107,7 @@
   
     display: flex;
     justify-content: space-between; */
-  
+    flex-direction: column;
     width: 90%;
     margin: auto;
   }
@@ -164,7 +162,7 @@
 
 /* for any type of tab responsive */
 
-@media only screen and ( min-width:377px) and (max-width:769px){
+@media only screen and ( min-width:481px) and (max-width:1024px){
 
   .OurBlogscontainer {
     text-align: center;

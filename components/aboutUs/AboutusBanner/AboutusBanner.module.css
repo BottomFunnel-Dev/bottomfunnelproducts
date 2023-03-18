@@ -1,6 +1,6 @@
 /* for any type of laptp and wide range of screens */
 
-@media only screen and (min-width:900px){
+
 .aboutusBanner {
   height: 100vh;
   padding: 10px;
@@ -88,7 +88,7 @@
   height: 100%;
   background-color: #f4f4f4;
   color: #393939;
-  animation: animateTitle 10s linear infinite, caret 1s infinite;
+  animation: animateTitle 19s linear infinite, caret 1s infinite;
 }
 
 @keyframes animateTitle {
@@ -105,32 +105,26 @@
   }
 }
 
-}
+
 
 /* for any type of mobile responsive */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media  (max-width:480px){
 
   .aboutusBanner {
-    /* height: 100vh;
-    padding: 10px;
+    height: 100vh;
+    padding: 20px;
     background: #f4f4f4;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 0px; */
-    height: 80vh;
-  margin-bottom: 5%;
-
+    margin-top: 10%;
+    flex-direction: column;
   }
   
   .aboutusbannercontent {
-    /* width: 45%;
+    width: 90% ;
     height: fit-content;
-    border: 1px solid; */
-
-    margin: auto;
-    height: fit-content;
+    
    
   }
   
@@ -166,7 +160,7 @@
   .aboutusbannercontent > button {
     background-color: #ef4c23;
     color: white;
-    margin-top: 2%;
+    margin-top: 5%;
     padding: 10px 10px;
     cursor: pointer;
     font-size: 14px;
@@ -176,6 +170,7 @@
     border-radius: 100px;
     height: fit-content;
     width: 200px;
+    margin-bottom: 5%;
     margin-left: 15%;
   }
   
@@ -211,7 +206,7 @@
     position: absolute;
     font-size: 20px;
     right: 0;
-    width: 30%;
+    width: 70%;
     height: 100%;
     background-color: white;
     color: #393939;
@@ -238,7 +233,7 @@
 
 /* for any type of tablet screen responsive */
 
-@media only screen and ( min-width:377px) and (max-width:769px){
+@media (min-width:481px) and (max-width:1024px){
 
   .aboutusBanner {
     height: 70vh;

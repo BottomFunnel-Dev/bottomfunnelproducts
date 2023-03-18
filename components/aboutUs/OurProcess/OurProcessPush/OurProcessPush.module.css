@@ -1,5 +1,5 @@
 /* for any type of laptop and wide range of screens */
-@media only screen and (min-width:769px){
+
 .OurProcessPushmain {
   text-align: center;
   margin-top: 2%;
@@ -62,11 +62,11 @@
   font-size: 16px;
   text-align: justify;
 }
-}
+
 
 /* for any type of mobile screens responsive */
 
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width:0px) and (max-width:480px){
 .OurProcessPushmain {
   text-align: center;
   margin-top: 2%;
@@ -99,11 +99,14 @@
 .innovatoraboutusptag{
   text-align: justify;
 
-  width: 90%;
+  width: 80% !important;
   margin: auto;
 }
 
-
+.OurProcessPushmain > div{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .OurProcessPushmain > div > div {
   /* width: 30%;
@@ -113,15 +116,10 @@
   justify-content: center; */
   /* border: 5px solid green; */
   display: flex;
-  width: 80%;
+  width: 95%;
 }
 
-.OurProcessPushmain > div > div:nth-child(even) {
 
-width: 80%;
-margin-left: 15%;
-
-}
 .OurProcessPushmain > div > div > h1 {
   /* font-size: 80px;
   margin-top: 0px;
@@ -159,7 +157,7 @@ margin-left: 15%;
 
 /* for any type of tablet screen responsive */
 
-@media only screen and ( min-width:377px) and (max-width:769px){
+@media ( min-width:481px) and (max-width:1024px){
 
   .OurProcessPushmain {
     text-align: center;

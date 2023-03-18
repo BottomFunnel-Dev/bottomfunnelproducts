@@ -5,15 +5,26 @@
 }
 
 .careerMainBackgroundBlackcolor {
-  height: 80vh;
+  height: 180vh;
   background: #000;
 }
 
 .careerMainContent {
-  width: 80%;
+  width: 90%;
   position: absolute;
   top: -5%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+}
+@media  (max-width:480px){
+  .careerMainContainer {
+    position: relative;
+    height: 185vh;
+    background-color: #f5f5f5;
+  }
+  .careerMainBackgroundBlackcolor {
+    height: 240vh;
+    background: #000;
+  }
 }

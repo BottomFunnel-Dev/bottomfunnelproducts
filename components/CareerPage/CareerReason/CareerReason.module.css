@@ -66,3 +66,69 @@
 .careerReasonImage > img {
   width: 100%;
 }
+@media  (max-width:480px){
+  .careerReasonContainer {
+    width: 100%;
+    padding-top: 2%;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .careerReasonContainer > span {
+    font-size: 17px;
+    padding-left: 5%;
+  }
+  .careerReasonContainer > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .careerReasonContainer > h1 {
+    font-size: 35px;
+    width: 96%;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  
+  .careerReasonContainer > h1 > span {
+    color: #ef4c23;
+  }
+  .careerReasonContent {
+    width: 85%;
+  }
+  
+  .careerReasonContent > p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  .careerReasonContent > button {
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    margin-left: 13%;
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 2px solid #ef4c23;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+    background-color: #ef4c23;
+    color: white;
+  }
+  
+  .careerReasonContent > button:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+  
+  .careerReasonImage {
+    margin-bottom: 3%;
+    width: 55%;
+  }
+  
+  
+}
