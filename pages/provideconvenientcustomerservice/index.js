@@ -1,4 +1,5 @@
 import React from 'react'
+import { EnterprizePlatform } from '../../components/ContactResolution/EnterprizePlatform/EnterprizePlatform'
 import Navbar from '../../components/Navbar/Navbar'
 import { ProdNavbar } from '../../components/ProdNavbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
@@ -7,6 +8,8 @@ import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadySta
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import { Banner } from '../../components/ProvideConvenientCustomerService/Banner/Banner'
 import { HowSeeking } from '../../components/ProvideConvenientCustomerService/HowSeeking/HowSeeking'
+import { PowerBack } from '../../components/ProvideConvenientCustomerService/PowerBack/PowerBack'
+import { WhatMore } from '../../components/ProvideConvenientCustomerService/WhatMore/WhatMore'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 
 
@@ -152,6 +155,9 @@ export default function index() {
       <ProdNavbar data={productData} />
         <Banner/>
         <HowSeeking/>
+        <PowerBack/>
+        <WhatMore/>
+        <EnterprizePlatform/>
 
 
          

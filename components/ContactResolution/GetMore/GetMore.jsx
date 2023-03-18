@@ -5,17 +5,17 @@ import Image from 'next/image'
 export const GetMore = () => {
   return (
     <div>
-    <div  className={styles.ResolutionWaymaindiv}>
-        <div  className={styles.ResolutionWaymaindivheading}>
+    <div  className={styles.GetMoremaindiv}>
+        <div  className={styles.GetMoremaindivheading}>
         <h2 >First contact resolution is no longer enough.
 Zero contact resolution is the way to go</h2>
 </div>
 
-<div className={styles.ResolutionWaymaindivcards } >
-    <div className={styles.ResolutionWaymaindivcardsbox}>
-        <div className={styles.ResolutionWaymaindivcardsboxinner}>
-            <div className={styles.ResolutionWaymaindivcardsboxinnerimage}>
-        <div className={styles.ResolutionWaymaindivcardsboximage}>
+<div className={styles.GetMoremaindivcards } >
+    <div className={styles.GetMoremaindivcardsbox}>
+        <div className={styles.GetMoremaindivcardsboxinner}>
+            <div className={styles.GetMoremaindivcardsboxinnerimage}>
+        <div className={styles.GetMoremaindivcardsboximage}>
      <Image
                         src={"/Images/contactresolutionphotos/smartphone 1.webp"}
                         alt={"img"}
@@ -32,10 +32,10 @@ Zero contact resolution is the way to go</h2>
      
      </div>
     </div>
-    <div className={styles.ResolutionWaymaindivcardsbox}>
-    <div className={styles.ResolutionWaymaindivcardsboxinner}>
-            <div className={styles.ResolutionWaymaindivcardsboxinnerimage}>
-        <div className={styles.ResolutionWaymaindivcardsboximage}>
+    <div className={styles.GetMoremaindivcardsbox}>
+    <div className={styles.GetMoremaindivcardsboxinner}>
+            <div className={styles.GetMoremaindivcardsboxinnerimage}>
+        <div className={styles.GetMoremaindivcardsboximage}>
      <Image
                         src={"/Images/contactresolutionphotos/chat-bot 1.webp"}
                         alt={"img"}
@@ -52,10 +52,10 @@ Zero contact resolution is the way to go</h2>
      <p>AI-powered automations that delight customers and get their intent - helping with faster, zero contact resolution.</p>
      </div>
     </div>
-    <div className={styles.ResolutionWaymaindivcardsbox} style={{border:"none"}}>
-    <div className={styles.ResolutionWaymaindivcardsboxinner}>
-            <div className={styles.ResolutionWaymaindivcardsboxinnerimage}>
-        <div className={styles.ResolutionWaymaindivcardsboximage}>
+    <div className={styles.GetMoremaindivcardsbox} style={{border:"none"}}>
+    <div className={styles.GetMoremaindivcardsboxinner}>
+            <div className={styles.GetMoremaindivcardsboxinnerimage}>
+        <div className={styles.GetMoremaindivcardsboximage}>
      <Image
                         src={"/Images/contactresolutionphotos/smartphone 1 (1).webp"}
                         alt={"img"}
@@ -73,11 +73,11 @@ Zero contact resolution is the way to go</h2>
      </div>
     </div>
 </div>
-<div className={styles.ResolutionWaymaindivcards} style={{border:"none"}}>
-    <div className={styles.ResolutionWaymaindivcardsbox}>
-    <div className={styles.ResolutionWaymaindivcardsboxinner}>
-            <div className={styles.ResolutionWaymaindivcardsboxinnerimage}>
-        <div className={styles.ResolutionWaymaindivcardsboximage}>
+<div className={styles.GetMoremaindivcards} style={{border:"none"}}>
+    <div className={styles.GetMoremaindivcardsbox}>
+    <div className={styles.GetMoremaindivcardsboxinner}>
+            <div className={styles.GetMoremaindivcardsboxinnerimage}>
+        <div className={styles.GetMoremaindivcardsboximage}>
      <Image
                         src={"/Images/contactresolutionphotos/smartphone 1 (2).webp"}
                         alt={"img"}
@@ -94,10 +94,10 @@ Zero contact resolution is the way to go</h2>
      <p>Reach out to customers with proactive campaigns, targeted emails, in-app and push messages to your customers, before they reach you.</p>
      </div>
     </div>
-    <div className={styles.ResolutionWaymaindivcardsbox} style={{border:"none"}}>
-    <div className={styles.ResolutionWaymaindivcardsboxinner}>
-            <div className={styles.ResolutionWaymaindivcardsboxinnerimage}>
-        <div className={styles.ResolutionWaymaindivcardsboximage}>
+    <div className={styles.GetMoremaindivcardsbox} style={{border:"none"}}>
+    <div className={styles.GetMoremaindivcardsboxinner}>
+            <div className={styles.GetMoremaindivcardsboxinnerimage}>
+        <div className={styles.GetMoremaindivcardsboximage}>
      <Image
                         src={"/Images/contactresolutionphotos/smartphone 1 (3).webp"}
                         alt={"img"}

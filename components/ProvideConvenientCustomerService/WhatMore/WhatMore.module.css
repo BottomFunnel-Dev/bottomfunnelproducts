@@ -1,16 +1,16 @@
-.HowSeekingmaindiv{
-    border-bottom: 50px solid  #209b2a;
+.WhatMoremaindiv{
+    /* border-bottom: 50px solid  #209b2a; */
     margin-top: 3%;
     height: 700px;
     background-color: whitesmoke;
 }
-.HowSeekingmaindivheading{
+.WhatMoremaindivheading{
     text-align: center;
     width: 60%;
     margin: auto;
     padding: 2%;
 }
-.HowSeekingmaindivcards{
+.WhatMoremaindivcards{
     width: 90%;
     /* border-bottom: 1px solid lightgrey; */
     margin: auto;
@@ -22,15 +22,15 @@
     
 
 }
-.HowSeekingmaindivcardsbox{
+.WhatMoremaindivcardsbox{
     /* border: 1px solid rgb(218, 54, 54); */
-    width: 25%;
+    width: 23%;
     height: 280px;
-    padding: 1%;
+    padding: 2%;
     position: relative;
 }
 
-.HowSeekingmaindivcardsboxinnerimage{
+.WhatMoremaindivcardsboxinnerimage{
     /* border:2px solid lightgray ; */
     border-radius: 100px;
     width: 70px;
@@ -40,17 +40,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 4%;
+    top: 6%;
     background-color: whitesmoke;
 margin-left: 30%;
 }
-.HowSeekingmaindivcardsboximage{
+.WhatMoremaindivcardsboximage{
     width: 70px;
     height: 70px;
     
    
 }
-.HowSeekingmaindivcardsboxinner{
+.WhatMoremaindivcardsboxinner{
     border: 1px solid lightgray ;
     background-color: white;
     /* border-radius: 10px; */
@@ -60,6 +60,6 @@ margin-left: 30%;
 
 }
 
-.HowSeekingmaindivcardsboxinner h6{
+.WhatMoremaindivcardsboxinner h6{
     margin-top: 15%;
 }
