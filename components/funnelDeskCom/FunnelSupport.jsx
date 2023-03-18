@@ -16,15 +16,15 @@ export const FunnelSupport = () => {
 
       <div className={styles.deskImage}>
         <img
-          src="/Images/BottomFunnelDeskPhotos/point-1.png"
+          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/BottomFunnelDeskPhotos/point-1.png"
           alt="BottomFunnelDeskPhotos/point-1.png"
         />
         <img
-          src="/Images/BottomFunnelDeskPhotos/point-2.png"
+          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/BottomFunnelDeskPhotos/point-2.png"
           alt="BottomFunnelDeskPhotos/point-2.png"
         />
         <img
-          src="/Images/BottomFunnelDeskPhotos/point-3.png"
+          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/BottomFunnelDeskPhotos/point-3.png"
           alt="BottomFunnelDeskPhotos/point-3.png"
         />
       </div>

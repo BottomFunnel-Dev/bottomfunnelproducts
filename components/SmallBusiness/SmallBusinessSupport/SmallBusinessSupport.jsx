@@ -19,7 +19,7 @@ export const SmallBusinessSupport = () => {
                         <div>
                             <div>
                                 <Image
-                                    src={"/Images/Small-Business/Icon1.png"}
+                                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon1.png"}
                                     alt={"img"}
                                     width={"0"}
                                     height={"0"}
@@ -38,7 +38,7 @@ export const SmallBusinessSupport = () => {
                         <div>
                             <div>
                                 <Image
-                                    src={"/Images/Small-Business/Icon2.png"}
+                                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon2.png"}
                                     alt={"img"}
                                     width={"0"}
                                     height={"0"}
@@ -63,7 +63,7 @@ export const SmallBusinessSupport = () => {
                         <div>
                             <div>
                                 <Image
-                                    src={"/Images/Small-Business/Icon3.png"}
+                                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon3.png"}
                                     alt={"img"}
                                     width={"0"}
                                     height={"0"}
@@ -85,7 +85,7 @@ export const SmallBusinessSupport = () => {
                         <div>
                             <div>
                                 <Image
-                                    src={"/Images/Small-Business/Icon4.png"}
+                                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon4.png"}
                                     alt={"img"}
                                     width={"0"}
                                     height={"0"}

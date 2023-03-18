@@ -44,7 +44,7 @@ export const ManagedserviceProviderSupport = () => {
                     </div>
                     <div>
                         <Image
-                            src={"/Images/ManagedServiceProvider/Image1.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Image1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -66,7 +66,7 @@ export const ManagedserviceProviderSupport = () => {
                 <div>
                     <div>
                         <Image
-                            src={"/Images/ManagedServiceProvider/Image2.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Image2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -153,7 +153,7 @@ export const ManagedserviceProviderSupport = () => {
                     </div>
                     <div>
                         <Image
-                            src={"/Images/ManagedServiceProvider/Image3.webp"}
+                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Image3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

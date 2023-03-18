@@ -1,6 +1,6 @@
 .ContentMarketingserviceParent{
     display: flex;
-    background-image: url("/Images/ContentMarketingServices/bannerbackground.webp");
+    background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/bannerbackground.webp");
     background-repeat: no-repeat;
   background-size: 100% 100%;
  padding-top: 5%;
@@ -44,7 +44,7 @@ border: none;
 @media(max-width:780px){
     .ContentMarketingserviceParent{
         display: flex;
-        background-image: url("/Images/ContentMarketingServices/bannerbackground.webp");
+        background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/bannerbackground.webp");
        padding: 5%;
       flex-direction: column;
        align-items: center;

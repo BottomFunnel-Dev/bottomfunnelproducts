@@ -165,8 +165,8 @@ const Navbar = ({ navredux, productMount }) => {
             <img
               src={
                 navredux.logo && !navbar
-                  ? "/Images/navbar/whitelogobottom.png"
-                  : "/Images/navbar/blacklogo.png"
+                  ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
+                  : "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/blacklogo.png"
               }
               alt="image"
             />

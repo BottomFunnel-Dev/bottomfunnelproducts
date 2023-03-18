@@ -1,0 +1,155 @@
+.sMBMoreParent {
+    padding-left: 8%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.sMBMoreParent>h1 {
+    font-weight: 700;
+}
+
+.sMBMoreParentChild {
+    display: flex;
+    margin-top: 5%;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+}
+
+.sMBMoreParentChildchild {
+    width: 43%;
+
+}
+
+.sMBMoreImage {
+
+    display: flex;
+    width: 50%;
+    align-items: first baseline;
+    margin-top: -8%;
+}
+
+.sMBMoreParentChildchild {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.sMBMoreParentChildchild>div {
+    width: 45%;
+}
+
+.sMBMoreParentChildchild>div>div {
+    height: 220px;
+    border: 1px solid lightgrey;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #F4FFF9   ;
+
+
+}
+
+.sMBMoreParentChildchild>div>div>div {
+    width: 25%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+
+
+
+    .sMBMoreParent {
+        padding-left: 8%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .sMBMoreParent>h1 {
+        font-weight: 700;
+    }
+    
+    .sMBMoreParentChild {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        align-items: flex-start;
+        justify-content: space-between;
+    
+    
+    }
+    
+    .sMBMoreParentChildchild {
+        width: 100%;
+    
+    }
+    
+    .sMBMoreImage {
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: first baseline;
+        margin-top: -8%;
+    }
+    
+    .sMBMoreParentChildchild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+    
+    }
+    
+    .sMBMoreParentChildchild>div {
+        width: 100%;
+    }
+    
+    .sMBMoreParentChildchild>div>div {
+        height: auto;
+        border: 1px solid lightgrey;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: #F4FFF9   ;
+    
+    
+    }
+    
+    .sMBMoreParentChildchild>div>div>div {
+        width: 100%;
+    
+    
+    
+    }
+    
+}

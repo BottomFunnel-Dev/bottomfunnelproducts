@@ -1,0 +1,153 @@
+.journeysEnagementParent {
+
+    margin-top: 2%;
+
+}
+
+.journeysEnagementParentfirstchild {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: whitesmoke;
+}
+
+.journeysEnagementParentfirstchild>div>div {
+    width: 45%;
+}
+
+.journeysEnagementParent>div>h2 {
+    font-weight: 700;
+}
+
+.journeysEnagementParent>div>div>div>p {
+    font-weight: 450;
+
+    font-size: 18px;
+}
+
+.journeysEnagementParentfirstchilddiv {
+    display: flex;
+    align-items: center;
+
+    margin-top: 4%;
+
+}
+
+.journeysEnagementParentfirstchilddivcontent {
+    margin-left: 5%;
+
+}
+
+.journeysEnagementParentsecchilddivcontent>p {
+    font-weight: 450;
+
+    font-size: 18px;
+}
+
+.journeysEnagementParentsecchilddivImage {
+    margin-left: 5%;
+}
+
+.journeysEnagementParentsecchild {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.journeysEnagementParentsecchild>div>div {
+    width: 45%;
+}
+
+.journeysEnagementParentsecchilddiv {
+    display: flex;
+    align-items: center;
+
+    margin-top: 4%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .journeysEnagementParent{
+
+        margin-top: 2%;
+        
+        }
+        .journeysEnagementParentfirstchild{
+            padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        background-color: whitesmoke;
+        }
+        .journeysEnagementParentfirstchild>div>div{
+            width: 100%;
+            margin-top: 5%;
+        }
+        .journeysEnagementParent>div>h2{
+            font-weight: 700;
+        }
+        .journeysEnagementParent>div>div>div>p{
+        font-weight: 450;
+        
+        font-size: 18px;
+        }
+        .journeysEnagementParentfirstchilddiv{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            margin-top: 4%;
+        
+        }
+        .journeysEnagementParentfirstchilddivcontent{
+            margin-left: 5%;
+          
+        }
+        .journeysEnagementParentsecchilddivcontent>p{
+            font-weight: 450;
+        
+            font-size: 18px;
+        }
+        .journeysEnagementParentsecchilddivImage{
+            margin-left: 5%;
+        }
+        .journeysEnagementParentsecchild{
+            padding-left: 10%;
+        padding-right: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 4%;
+        }
+        .journeysEnagementParentsecchild>div>div{
+            width: 100%;
+            margin-top: 5%;
+        }
+        .journeysEnagementParentsecchilddiv{
+            display: flex;
+            align-items: center;
+          flex-direction: column;
+            margin-top: 4%;
+        
+        }
+}

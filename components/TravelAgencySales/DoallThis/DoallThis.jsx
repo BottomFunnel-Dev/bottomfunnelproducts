@@ -11,7 +11,7 @@ export const DoallThis = () => {
              <div className={styles.DoallThismaindivinnerdivcell}>
                 <div className={styles.DoallThismaindivimage}>
                 <Image
-                        src={"/Images/Travelagencysales/logo1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/logo1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -25,7 +25,7 @@ export const DoallThis = () => {
              <div className={styles.DoallThismaindivinnerdivcell}>
                 <div className={styles.DoallThismaindivimage}>
                 <Image
-                        src={"/Images/Travelagencysales/logo2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/logo2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -40,7 +40,7 @@ export const DoallThis = () => {
              <div className={styles.DoallThismaindivinnerdivcell}>
                 <div className={styles.DoallThismaindivimage}>
                 <Image
-                        src={"/Images/Travelagencysales/logo3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/logo3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

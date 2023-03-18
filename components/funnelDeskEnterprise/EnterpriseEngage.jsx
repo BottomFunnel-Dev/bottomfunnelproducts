@@ -4,32 +4,32 @@ import styles from "./enterpriseEngage.module.css";
 export const EnterpriseEngage = () => {
   const engageData = [
     {
-      icon: "/Images/Enterprise/icons/image9.png",
+      icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Enterprise/icons/image9.png",
       boldtext: "3.5 billion",
       para: "Daily Tecket interection",
     },
     {
-      icon: "/Images/Enterprise/icons/image10.png",
+      icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Enterprise/icons/image10.png",
       boldtext: "120+ Countries",
       para: "Where customers are served",
     },
     {
-      icon: "/Images/Enterprise/icons/image11.png",
+      icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Enterprise/icons/image11.png",
       boldtext: "42 Languages",
       para: "Supported",
     },
     {
-      icon: "/Images/Enterprise/icons/image12.png",
+      icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Enterprise/icons/image12.png",
       boldtext: "13 offices",
       para: "Acorss 4 Continents",
     },
     {
-      icon: "/Images/Enterprise/icons/image13.png",
+      icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Enterprise/icons/image13.png",
       boldtext: "4000+ ",
       para: "Employees",
     },
     {
-      icon: "/Images/Enterprise/icons/image14.png",
+      icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Enterprise/icons/image14.png",
       boldtext: "1+ billion",
       para: "API calls serviced every day",
     },

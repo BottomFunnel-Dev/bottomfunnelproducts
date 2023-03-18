@@ -26,7 +26,7 @@ export const CpqScreens = () => {
             </div>
             <div  className={styles.CpqScreensmaindivinnerimage}>
             <Image
-          src={"/Images/cpqimage/Associate products.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/Associate products.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -55,7 +55,7 @@ export const CpqScreens = () => {
             </div>
             <div  className={styles.CpqScreensmaindivinnerimage}>
             <Image
-          src={"/Images/cpqimage/Eliminate pricing.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/Eliminate pricing.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -86,7 +86,7 @@ export const CpqScreens = () => {
             </div>
             <div  className={styles.CpqScreensmaindivinnerimage}>
             <Image
-          src={"/Images/cpqimage/sync document.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/sync document.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

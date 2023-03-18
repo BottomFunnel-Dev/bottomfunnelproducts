@@ -3,9 +3,9 @@
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 // import "./Seoblogs.css";
-// import blog1 from '../../ImageSection/Blog1.jpg';
-// import blog2 from '../../ImageSection/Blog2.jpg';
-// import blog3 from '../../ImageSection/Blog3.jpg';
+// import blog1 from '../..https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Imagesection/Blog1.jpg';
+// import blog2 from '../..https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Imagesection/Blog2.jpg';
+// import blog3 from '../..https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Imagesection/Blog3.jpg';
 // export default function Seoblogs() {
 
 //     return (

@@ -1,7 +1,7 @@
 .shopifybannermainboxes{
     height: 100vh;
     border: 1px solid white;
-    background: url("/Images/Shopify/Banner/Frame 40253.webp");
+    background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/Banner/Frame 40253.webp");
     background-repeat: no-repeat;
     background-size: 60% 100%;
     background-position-x: right;
@@ -49,7 +49,7 @@
 .shopifybannermainboxes{
     height: fit-content;
     border: 1px solid white;
-    background: url("/Images/Shopify/Banner/Frame 40253.webp");
+    background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/Banner/Frame 40253.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;

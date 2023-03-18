@@ -35,11 +35,7 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                 }}
               >
                 <div>
-                  <img
-                    className={prods.productLogoImages}
-                    src={item.navIcons}
-                    alt="image"
-                  />
+                  <img className={prods.productLogoImages} src={item.navIcons} alt="image" />
                 </div>
 
                 <Link
@@ -57,12 +53,8 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
           </div>
         </div>
 
-        <div
-          className={prods.productDropdownContent}>
-          <div
-            className={prods.listItems}
-            style={{ width: "100%", margin: "13% 0" }}
-          >
+        <div className={prods.productDropdownContentTwo}>
+          <div className={prods.listItems} style={{ width: "100%", margin: "13% 0" }} >
             {product2.map((item, i) => (
               <div
                 key={i}
@@ -74,13 +66,13 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                 style={{
                   height: "60px",
                   width: "100%",
-                  marginTop: "-3%",
+                  marginTop: "-2%",
                   "--i": item.productHover,
                 }}
               >
                 <div>
                   <img
-                    // className={prods.productLogoImages}
+                    className={prods.productLogoImagesSecond}
                     src={item.navIcons}
                     alt="image"
                   // style={{ width: "90px", height: "60px" }}
@@ -101,12 +93,8 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
             ))}
           </div>
           
-          <Link
-            href="/allproducts"
-            onClick={productHoverOut}
-            style={{ textDecoration: "none" }}
-          >
-            <p className={prods.viewAllButton}>View All Products</p>
+          <Link href="/allproducts" onClick={productHoverOut} style={{ textDecoration: "none" }} >
+            <p className={prods.viewAllButton}> View All Products </p>
           </Link>
         </div>
 

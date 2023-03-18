@@ -7,7 +7,7 @@ export const CustomerSpotLightBanner = () => {
                 <div>
                     <h1>Bottom Funnel Neo </h1>
                     <div><Image
-                        src={"/Images/Customerspotlight/BannerLogo.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/BannerLogo.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -23,7 +23,7 @@ export const CustomerSpotLightBanner = () => {
             </div>
             <div className={styles.CustomerSpotLightBannerParentchildtwo}>
             <Image
-                        src={"/Images/Customerspotlight/Banner.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Customerspotlight/Banner.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

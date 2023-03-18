@@ -15,7 +15,7 @@ export const DealManagementHandle = () => {
     <div className={styles.dealmanagementhanlelerightbox}>
     
     <Image
-          src={"/Images/Deal management/Screens/ha/handle deal.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Deal management/Screens/ha/handle deal.webp"}
           alt={"handle"}
           width={"0"}
           height={"0"}

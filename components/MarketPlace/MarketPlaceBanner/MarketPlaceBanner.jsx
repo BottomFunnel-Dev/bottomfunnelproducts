@@ -25,7 +25,7 @@ export const MarketPlaceBanner = () => {
                         <input type="text" className={styles.MarketPlaceBannerSearchTerm} placeholder="Search Apps" />
                         <button type="submit" className={styles.MarketPlaceBannerSearchButton}>
                             <Image
-                                src={"/Images/MarketPlace/Search.png"}
+                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Search.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

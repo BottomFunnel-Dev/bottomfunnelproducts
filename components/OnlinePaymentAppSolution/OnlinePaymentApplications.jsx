@@ -25,7 +25,7 @@ export const OnlinePaymentApplications = () => {
             <div className={styles.onlinepaymentmobileapplicationleftbox}>
 
                 <div className={styles.onlinepaymentmobileapplicationleftboxformobileimage}>
-                    <img src='/Images/onlinepaymentpage/contactless mobile payments.png' alt='images' />
+                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/onlinepaymentpage/contactless mobile payments.png' alt='images' />
                 </div>
             </div>
 

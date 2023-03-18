@@ -7,7 +7,7 @@ export const Softwareandserviceitknowledge = () => {
         <div className={styles.softwareandserviceitknowledgeParent}>
             <div className={styles.softwareandserviceitknowledgeone}>
                 <Image
-                    src={"/Images/softwareandserviceit/Group1.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/softwareandserviceit/Group1.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

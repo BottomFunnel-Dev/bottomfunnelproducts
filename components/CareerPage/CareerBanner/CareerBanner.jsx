@@ -5,7 +5,7 @@ export const CareerBanner = () => {
   return (
     <div className={career.careerBannerMain}>
       <div className={career.careerBannerImage}>
-        <img src="/Images/careerPhotos/banner.png" alt="Career banner" />
+        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/careerPhotos/banner.png" alt="Career banner" />
       </div>
 
       <div className={career.careerBannerContent}>

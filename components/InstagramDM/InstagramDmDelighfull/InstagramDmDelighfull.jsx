@@ -10,7 +10,7 @@ export default function InstagramDmDelighfull () {
       <div className={styles.instagramDmDelightfullDiv}>
         <div className={styles.instagramDmCustomerRight}>
             <Image
-                src={"/Images/InstagramDm/Group4.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/InstagramDm/Group4.webp"}
                 alt={"img"}
                 width={"0"}
                 height={"0"}

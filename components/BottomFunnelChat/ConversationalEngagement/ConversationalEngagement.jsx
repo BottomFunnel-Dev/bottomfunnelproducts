@@ -15,7 +15,7 @@ export const ConversationalEngagement = () => {
             <div className={styles.ConversationalEngagementimageinnerdiv} >
                 <div className={styles.ConversationalEngagementimageinnerdivmain}>
                 <Image
-          src={"/Images/BottomFunnelChatphotos/screen1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/BottomFunnelChatphotos/screen1.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -43,7 +43,7 @@ export const ConversationalEngagement = () => {
             <div className={styles.ConversationalEngagementimageinnerdiv} >
                 <div className={styles.ConversationalEngagementimageinnerdivmain}>
                 <Image
-          src={"/Images/BottomFunnelChatphotos/screen2.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/BottomFunnelChatphotos/screen2.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -71,7 +71,7 @@ export const ConversationalEngagement = () => {
             <div className={styles.ConversationalEngagementimageinnerdiv} >
                 <div className={styles.ConversationalEngagementimageinnerdivmain}>
                 <Image
-          src={"/Images/BottomFunnelChatphotos/screen3.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/BottomFunnelChatphotos/screen3.webp"}
           alt={""}
           width={"0"}
           height={"0"}

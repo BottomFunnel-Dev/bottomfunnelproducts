@@ -1,0 +1,43 @@
+.enterpriseBFChatToolsMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.enterpriseBFChatToolsheading{
+    text-align: center;
+}
+.enterpriseBFChatToolsImage{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 60%;
+    height: 600px;
+    position: relative;
+}
+.enterpriseBFChatToolsdata{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    right: 90%;
+}
+.enterpriseBFChatToolsdata>h5{
+    color: #03C457;
+}
+.enterpriseBFChatToolsdata>p{
+    margin-top: 10%;
+}
+.enterpriseBFChatToolsdata1{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    left: 90%;
+}
+.enterpriseBFChatToolsdata1>h5{
+    color: #03C457;
+}
+.enterpriseBFChatToolsdata1>p{
+    margin-top: 10%;
+}

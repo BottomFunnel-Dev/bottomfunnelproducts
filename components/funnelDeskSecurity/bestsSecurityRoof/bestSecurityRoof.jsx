@@ -9,7 +9,7 @@ export const BestSecurityRoof = () => {
       <div className={styles.customSSLCertificatesContainer}>
         <span>
           <Image
-            src={"/Images/funneldeskSecurity/bestSecurityRoof.webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskSecurity/bestSecurityRoof.webp"}
             alt="funneldeskSecurity/bestSecurityRoof.webp"
             width={"0"}
             height={"0"}
@@ -36,7 +36,7 @@ export const BestSecurityRoof = () => {
       <div className={styles.ipWhitelistingContainer}>
         <span>
           <Image
-            src={"/Images/funneldeskSecurity/ipWhitelisting.webp"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskSecurity/ipWhitelisting.webp"}
             alt="funneldeskSecurity/ipWhitelisting.webp"
             width={"0"}
             height={"0"}

@@ -1,0 +1,108 @@
+.journeysBannerParent{
+    display: flex;
+    padding: 5%;
+    padding-right: 5%;
+    align-items: center;
+   padding-left: 0%;
+    justify-content: space-between;
+background-color: whitesmoke;
+}
+.journeysBannerParent>div{
+    width: 49%;
+}
+.journeysBannerContent>h1{
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.journeysBannerContent>h4{
+    font-weight: 480;
+}
+.journeysBannerContent>hr{
+    width: 93%;
+}
+.journeysBannerContent>button{
+    margin-top: 3%;
+    width: 220px;
+    height: 50px;
+    background-color: #54dd4a;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+}
+.journeysBannerContent>button:hover{
+    margin-top: 3%;
+    width: 220px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    color: #54dd4a;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .journeysBannerParent{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        padding-right: 5%;
+        align-items: center;
+       padding-left: 0%;
+        justify-content: space-between;
+    background-color: whitesmoke;
+    text-align: center;
+    }
+    .journeysBannerParent>div{
+        width: 100%;
+    }
+    .journeysBannerContent>h1{
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    .journeysBannerContent>h4{
+        font-weight: 480;
+    }
+    .journeysBannerContent>hr{
+        width: 100%;
+    }
+    .journeysBannerContent>button{
+        margin-top: 3%;
+        width: 220px;
+        height: 50px;
+        background-color: #54dd4a;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-size: 22px;
+    }
+    .journeysBannerContent>button:hover{
+        margin-top: 3%;
+        width: 220px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        border-radius: 20px;
+        color: #54dd4a;
+        font-size: 22px;
+    }
+}

@@ -9,14 +9,16 @@
 .LandingSalesPerent>button{
     border-radius: 10px;
     margin-top: 2%;
-    background-color: #EF4C23;
+    background-color: #F88F1F;
     width: 200px;
     height: 50px;
     border: none;
+    color: white;
 }
 .LandingSalesPerent>button:hover{
     background-color: whitesmoke;
-    color: #EF4C23;
+    color: #F88F1F;
+    border: 2px solid #F88F1F;
 }
 @media(max-width:780px){
     .LandingSalesPerent>h1{

@@ -6,7 +6,7 @@ export const logisticsCustomer = {
           alt: "Search image",
         },
         icon: {
-          src: "/Images/realestatephotos/search.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/search.png",
           alt: " Search logo",
         },
         title: "Easy To Search ",
@@ -14,11 +14,11 @@ export const logisticsCustomer = {
       },
       {
         img: {
-          src: "/Images/realestatephotos/screen1.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/screen1.png",
           alt: "Schedule",
         },
         icon: {
-          src: "/Images/realestatephotos/access.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/access.png",
           alt: "image",
         },
         title: "Easy Access",
@@ -26,11 +26,11 @@ export const logisticsCustomer = {
       },
       {
         img: {
-          src: "/Images/realestatephotos/screen3.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/screen3.png",
           alt: " Reminder image",
         },
         icon: {
-          src: "/Images/realestatephotos/reminder.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/reminder.png",
           alt: "image",
         },
         title: "Reminder Alert",
@@ -39,11 +39,11 @@ export const logisticsCustomer = {
   
       {
         img: {
-          src: "/Images/realestatephotos/screen2.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/screen2.png",
           alt: "costing image",
         },
         icon: {
-          src: "/Images/realestatephotos/reminder2.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/reminder2.png",
           alt: "image",
         },
         title: "Real Time Costing ",
@@ -61,11 +61,11 @@ export const logisticsCustomer = {
     driverdata: [
       {
         img: {
-          src: "/Images/realestatephotos/logistic/screen2.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatephotos/logistic/screen2.png",
           alt: "Register image",
         },
         icon: {
-          src: "/Images/PlantBasedMeat/icons/history.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/history.png",
           alt: "image",
         },
         title: "Check Your History",
@@ -78,7 +78,7 @@ export const logisticsCustomer = {
           alt: "Schedule",
         },
         icon: {
-          src: "/Images/PlantBasedMeat/icons/daily.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/daily.png",
 
           alt: "Schedule logo",
         },
@@ -91,7 +91,7 @@ export const logisticsCustomer = {
           alt: "Multiple Payment Option image",
         },
         icon: {
-          // src: "/Images/PlantBasedMeat/icons/anaysis.png",
+          // src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/anaysis.png",
           alt: "image",
         },
         title: "Basis Analysis",
@@ -103,8 +103,8 @@ export const logisticsCustomer = {
           alt: "Track Order image",
         },
         icon: {
-          // src: "/Images/PlantBasedMeat/icons/update.png",
-          src: "/Images/logistic/update.png",
+          // src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/update.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logistic/update.png",
           alt: "image",
         },
         title: "New Updates",
@@ -113,7 +113,7 @@ export const logisticsCustomer = {
     ],
     sectionTitle: "Drive's App",
     background:
-      "/public/Images/logistic/bg2.png",
+      "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logistic/bg2.png",
   };
 
   export const plantBaseMeatAdmin = {
@@ -124,7 +124,7 @@ export const logisticsCustomer = {
           alt: "Register image",
         },
         icon: {
-          src: "/Images/PlantBasedMeat/icons/prototyping-10.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-10.png",
           alt: "image",
         },
         title: "Dashboard",
@@ -136,7 +136,7 @@ export const logisticsCustomer = {
           alt: "Schedule",
         },
         icon: {
-          src: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-7.png",
           alt: "image",
         },
         title: "Reports & Analytics",
@@ -148,7 +148,7 @@ export const logisticsCustomer = {
           alt: "Multiple Payment Option image",
         },
         icon: {
-          src: "/Images/PlantBasedMeat/icons/prototyping-6.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-6.png",
           alt: "Multiple Payment Option logo",
         },
         title: "Managing Order",
@@ -160,7 +160,7 @@ export const logisticsCustomer = {
           alt: "Track Order image",
         },
         icon: {
-          src: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-5.png",
           alt: "image",
         },
         title: "Reviews Dashboard",
@@ -169,6 +169,6 @@ export const logisticsCustomer = {
     ],
   
     sectionTitle: "Admin's Panel",
-    background: "/public/Images/logistic/bg3.png",
+    background: "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logistic/bg3.png",
   };
   

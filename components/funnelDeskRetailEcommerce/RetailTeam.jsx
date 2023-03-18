@@ -26,7 +26,7 @@ export const RetailTeam = () => {
       <div className={styles.retailteammainboxesrightboxforimage}>
         <div className={styles.retailteamboxrightforimageonly}>
           <img
-            src="/Images/Retail&ecommerce/Rectangle 5086.webp"
+            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Retail&ecommerce/Rectangle 5086.webp"
             alt="Retail&ecommerce/Rectangle 5086.webp"
           />
         </div>

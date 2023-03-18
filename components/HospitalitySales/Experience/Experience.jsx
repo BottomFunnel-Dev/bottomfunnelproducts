@@ -10,7 +10,7 @@ export const Experience = () => {
         <div className={styles.Experiencemaindivinner}>
             <div className={styles.Experiencemaindivinnerimage}>
             <Image
-                        src={"/Images/hospitalitysalesphotos/06.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/06.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -44,7 +44,7 @@ Among other things, they need to capture the details of all their potential cust
         <div className={styles.Experiencemaindivinnerone}>
             <div className={styles.Experiencemaindivinnerimage}>
             <Image
-                        src={"/Images/hospitalitysalesphotos/41.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/41.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -67,7 +67,7 @@ Among other things, they need to capture the details of all their potential cust
         <div className={styles.Experiencemaindivinner}>
             <div className={styles.Experiencemaindivinnerimage}>
             <Image
-                        src={"/Images/hospitalitysalesphotos/01.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/01.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -98,7 +98,7 @@ Among other things, they need to capture the details of all their potential cust
         <div className={styles.Experiencemaindivinnerone}>
             <div className={styles.Experiencemaindivinnerimage}>
             <Image
-                        src={"/Images/hospitalitysalesphotos/44-1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/44-1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -125,7 +125,7 @@ Among other things, they need to capture the details of all their potential cust
         <div className={styles.Experiencemaindivinner}>
             <div className={styles.Experiencemaindivinnerimage}>
             <Image
-                        src={"/Images/hospitalitysalesphotos/44.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/44.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -151,7 +151,7 @@ Among other things, they need to capture the details of all their potential cust
         <div className={styles.Experiencemaindivinnersecond}>
             <div className={styles.Experiencemaindivinnerimagesecond}>
             <Image
-                        src={"/Images/hospitalitysalesphotos/45.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/45.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

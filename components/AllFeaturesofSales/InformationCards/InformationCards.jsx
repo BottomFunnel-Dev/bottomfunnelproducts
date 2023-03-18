@@ -18,7 +18,7 @@ export const InformationCards = () => {
                      <h4>Table and kanban view</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/10.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/10.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -37,7 +37,7 @@ export const InformationCards = () => {
                      <h4>Activity Timeline</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/11.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/11.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -56,7 +56,7 @@ export const InformationCards = () => {
                      <h4>Details Section</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/22.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/22.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -75,7 +75,7 @@ export const InformationCards = () => {
                      <h4>Highlight Cards</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/33.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/33.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -109,7 +109,7 @@ export const InformationCards = () => {
                      <h4>Custom Sales Activities</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/44.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/44.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -128,7 +128,7 @@ export const InformationCards = () => {
                      <h4>Contact Lifecycle Stages</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/55.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/55.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -147,7 +147,7 @@ export const InformationCards = () => {
                      <h4>Layout Customization</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/66.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/66.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -166,7 +166,7 @@ export const InformationCards = () => {
                      <h4>Multi-Currency and Multi-Language</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/77.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/77.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -200,7 +200,7 @@ export const InformationCards = () => {
                      <h4>Role-based Access</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/88.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/88.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -219,7 +219,7 @@ export const InformationCards = () => {
                      <h4>Record Types</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/99.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/99.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -238,7 +238,7 @@ export const InformationCards = () => {
                      <h4>Scope and permissions </h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/a.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/a.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -257,7 +257,7 @@ export const InformationCards = () => {
                      <h4>Audit Logs</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"/Images/allfeaturessales/b.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/b.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

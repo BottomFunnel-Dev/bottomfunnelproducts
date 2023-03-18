@@ -1,0 +1,50 @@
+.enterpriseBFChatService{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 35px solid #03C457;
+}
+.enterpriseBFChatServiceImage{
+    /* border: 2px solid red; */
+    width:35%;
+    height: 500px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.enterpriseBFChatHeading{
+    /* border: 2px solid red; */
+    width: 45%;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.enterpriseBFChatHeading>h3{
+    font-size: 30px;
+}
+.enterpriseBFChatHeading>p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.enterpriseBFChatHeading>ul>li{
+    font-size: 17px;
+    font-weight: 500;
+}
+.enterpriseBFChatHeading>button{
+    background-color: #03C457;
+    color: white;
+    border: none;
+    /* border: 2px solid #EF4C23; */
+    width: 30%;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 4%;
+}
+.enterpriseBFChatHeading>button:hover{
+    background-color: transparent;
+    border: 2px solid #03C457;
+    color: #03C457;
+}
+.enterpriseBFChatButton{
+    margin-left: 2%;
+}

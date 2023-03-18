@@ -17,7 +17,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.OmniChannelSlidsinnerdivcardsimage}>
         <Image
-          src={"/Images/Bottomfunnelomnichannelphotos/bannerbagground 9.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/bannerbagground 9.webp"}
           alt={"Image"}
           width={"0"}
           height={"0"}
@@ -43,7 +43,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.OmniChannelSlidsinnerdivcardsimage}>
         <Image
-          src={"/Images/Bottomfunnelomnichannelphotos/bannerbagground 10.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/bannerbagground 10.webp"}
           alt={"Image"}
           width={"0"}
           height={"0"}
@@ -69,7 +69,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.OmniChannelSlidsinnerdivcardsimage}>
         <Image
-          src={"/Images/Bottomfunnelomnichannelphotos/bannerbagground 11.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/bannerbagground 11.webp"}
           alt={"Image"}
           width={"0"}
           height={"0"}
@@ -95,7 +95,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.OmniChannelSlidsinnerdivcardsimage}>
         <Image
-          src={"/Images/Bottomfunnelomnichannelphotos/bannerbagground 12.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/bannerbagground 12.webp"}
           alt={"Image"}
           width={"0"}
           height={"0"}

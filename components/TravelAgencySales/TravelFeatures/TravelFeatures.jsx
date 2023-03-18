@@ -16,7 +16,7 @@ export const TravelFeatures= () => {
     </div>
     <div className={styles.TravelFeaturesmaindivcontentimage}>
     <Image
-                        src={"/Images/Travelagencysales/Travel agency 1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/Travel agency 1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -44,7 +44,7 @@ export const TravelFeatures= () => {
     </div>
     <div className={styles.TravelFeaturesmaindivcontentimage}>
     <Image
-                        src={"/Images/Travelagencysales/Travel agency 2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/Travel agency 2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -71,7 +71,7 @@ export const TravelFeatures= () => {
     </div>
     <div className={styles.TravelFeaturesmaindivcontentimage}>
     <Image
-                        src={"/Images/Travelagencysales/Travel agency 3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/Travel agency 3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -99,7 +99,7 @@ export const TravelFeatures= () => {
     </div>
     <div className={styles.TravelFeaturesmaindivcontentimage}>
     <Image
-                        src={"/Images/Travelagencysales/Travel agency 4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/Travel agency 4.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -122,7 +122,7 @@ export const TravelFeatures= () => {
     </div>
     <div className={styles.TravelFeaturesmaindivcontentimage}>
     <Image
-                        src={"/Images/Travelagencysales/Travel agency 5.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/Travel agency 5.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

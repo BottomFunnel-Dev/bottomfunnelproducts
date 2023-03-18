@@ -6,7 +6,7 @@ export const NewsEventSection = () => {
   const cardsData = [
     {
       title: "Top Web App Developers & Development Companies India 2022",
-      image: "/Images/pressmediaPhotos/clutch.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/clutch.png",
       date: "10 / Sept / 2022",
       link: "",
       description:
@@ -14,7 +14,7 @@ export const NewsEventSection = () => {
     },
     {
       title: "Top Web App Development Agency 2022",
-      image: "/Images/pressmediaPhotos/tabbyawards.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/tabbyawards.png",
       date: "16 / Sept / 2022",
       link: "",
       description:
@@ -22,7 +22,7 @@ export const NewsEventSection = () => {
     },
     {
       title: "New Jaipur Startup Of Jaipur Open for Hiring",
-      image: "/Images/pressmediaPhotos/zeenews.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/zeenews.png",
       date: "29 / Sept / 2022",
       link: "",
       description:
@@ -30,7 +30,7 @@ export const NewsEventSection = () => {
     },
     {
       title: "New Jaipur Startup Growing Fast",
-      image: "/Images/pressmediaPhotos/aaj-tak.png",
+      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/aaj-tak.png",
       date: "9 / Oct / 2022",
       link: "",
       description:

@@ -7,7 +7,7 @@ export const Shopifyframes = () => {
 
     const shopifyframesdata = [
         {
-            img:"/Images/Shopify/Screens/Group 771177.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/Screens/Group 771177.webp",
             htxt:"Get more of the right customers,across multiple channels",
             stxt:{
                 one:"Attract customers with segmented multichannel compaigns.",
@@ -18,7 +18,7 @@ export const Shopifyframes = () => {
         },
 
         {
-            img:"/Images/Shopify/Screens/Group 771194.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/Screens/Group 771194.webp",
             htxt:"Have meaningful conversations to drive engagement",
             stxt:{
                 one:"Have conversations with customers across channels like Whatsapp,SMS email chat.",
@@ -29,7 +29,7 @@ export const Shopifyframes = () => {
         },
 
         {
-            img:"/Images/Shopify/Screens/Group 771197.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/Screens/Group 771197.webp",
             htxt:"Accelerate revenue round the clock with powerful automation.",
             stxt:{
                 one:"upsell and cross-sell with over 20+ pre-built shopify Playbooks.",
@@ -40,7 +40,7 @@ export const Shopifyframes = () => {
         },
 
         {
-            img:"/Images/Shopify/Screens/Group 771200.webp",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Shopify/Screens/Group 771200.webp",
             htxt:"Delight customers through contextial multichannel support",
             stxt:{
                 one:"support customers in real-time wth 1:1 live chat and 24*7 through chatbots.",

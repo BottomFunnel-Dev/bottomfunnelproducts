@@ -18,7 +18,7 @@ export const LandingBrand = () => {
               <div className={styles.LandingBrandPhotos}>
                 <div className={styles.LandingBrandPhotosfirstdiv}>
                     <div><Image
-                    src={"/Images/LandingPages/Rectangleone.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectangleone.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -27,7 +27,7 @@ export const LandingBrand = () => {
                     
                 /></div>
                     <div><Image
-                    src={"/Images/LandingPages/Rectangletwo.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectangletwo.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -36,7 +36,7 @@ export const LandingBrand = () => {
                     
                 /></div>
                     <div><Image
-                    src={"/Images/LandingPages/Rectanglethree.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectanglethree.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -45,7 +45,7 @@ export const LandingBrand = () => {
                     
                 /></div>
                     <div><Image
-                    src={"/Images/LandingPages/Rectanglefour.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectanglefour.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -56,7 +56,7 @@ export const LandingBrand = () => {
                 </div>
                 <div className={styles.LandingBrandPhotossecdiv}>
                     <div><Image
-                    src={"/Images/LandingPages/Rectangleonefive.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectangleonefive.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -65,7 +65,7 @@ export const LandingBrand = () => {
                     
                 /></div>
                     <div><Image
-                    src={"/Images/LandingPages/Rectangleonesix.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectangleonesix.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -74,7 +74,7 @@ export const LandingBrand = () => {
                     
                 /></div>
                     <div><Image
-                    src={"/Images/LandingPages/Rectangleoneseven.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectangleoneseven.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -83,7 +83,7 @@ export const LandingBrand = () => {
                     
                 /></div>
                     <div><Image
-                    src={"/Images/LandingPages/Rectangleoneeigth.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Rectangleoneeigth.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

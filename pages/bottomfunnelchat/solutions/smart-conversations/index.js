@@ -14,7 +14,7 @@ import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
 
 const productData = {
   title: "Bottom Funnel Chat",
-  logo: "/Images/navbar/product/Chat.png",
+  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Chat.png",
   width: "65%",
   list1: {
     title: "Features",
@@ -89,7 +89,7 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/" },
+          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
           { title: "SMB", path: "/" },
         ],
       },

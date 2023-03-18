@@ -66,7 +66,7 @@
 
 .dropdownthreeList>p:hover {
     background-color: lightgray;
-    border-left: 3px solid #ef4c23;
+    border-left: 3px solid #04C354;
 }
 
 .productSolutionsData:last-child {
@@ -89,9 +89,9 @@
 }
 
 .productSolutionsListItems>button:hover {
-    background-color: #ef4c23;
+    background-color: #04C354;
     color: white;
-    border: 1px solid #ef4c23;
+    border: 1px solid #04C354;
 }
 
 .productSolutionsData .dropdownthreeList {

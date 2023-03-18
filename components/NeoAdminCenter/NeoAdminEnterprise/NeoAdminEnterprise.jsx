@@ -12,7 +12,7 @@ export const NeoAdminEnterprise = () => {
         <div className={styles.neoAdminEnterprisePassword}>
             <div className={styles.neoAdminEnterpriseImage}>
                 <Image
-                    src={"/Images/neoAdmin/Group7.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Group7.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -50,7 +50,7 @@ export const NeoAdminEnterprise = () => {
             </div>
             <div className={styles.neoAdminEnterpriseImage1}>
                 <Image
-                    src={"/Images/neoAdmin/Group1.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Group1.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -62,7 +62,7 @@ export const NeoAdminEnterprise = () => {
         <div className={styles.neoAdminEnterprisePassword}>
             <div className={styles.neoAdminEnterpriseImage3}>
                 <Image
-                    src={"/Images/neoAdmin/Frame1.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Frame1.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -98,7 +98,7 @@ export const NeoAdminEnterprise = () => {
             </div>
             <div className={styles.neoAdminEnterpriseImage1}>
                 <Image
-                    src={"/Images/neoAdmin/Frame2.webp"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Frame2.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

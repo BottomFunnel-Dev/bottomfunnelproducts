@@ -23,7 +23,7 @@ export const EngagementProcess = () => {
           </p>
 
           <div>
-            <img src="/Images/engagementPhotos/meeting.png" alt="image" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/meeting.png" alt="image" />
           </div>
         </div>
 
@@ -34,7 +34,7 @@ export const EngagementProcess = () => {
 
         <div className={styles.engagementProcessMain}>
           <div>
-            <img src="/Images/engagementPhotos/discuss.png" alt="image" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/discuss.png" alt="image" />
           </div>
 
           <ul>

@@ -15,14 +15,14 @@ export const CustomerTrust = () => {
             </p>
 
             <div className={styles.productsPartnersImagesDiv}>
-                {/* <img src='/Images/ProductsPage/bluenile.jpg' alt='image' /> */}
-                <img src='/Images/ProductsPage/fiverr.png' alt='image' />
-                <img src='/Images/ProductsPage/Diechman.png' alt='image' />
-                <img src='/Images/ProductsPage/bluenile.png' alt='image' />
-                <img src='/Images/ProductsPage/klarna.png' alt='image' />
-                <img src='/Images/ProductsPage/pearson.png' alt='image' />
-                <img src='/Images/ProductsPage/scholler albert.png' alt='image' />
-                <img src='/Images/ProductsPage/bridgestone.png' alt='image' />
+                {/* <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/bluenile.jpg' alt='image' /> */}
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/fiverr.png' alt='image' />
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Diechman.png' alt='image' />
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/bluenile.png' alt='image' />
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/klarna.png' alt='image' />
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/pearson.png' alt='image' />
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/scholler albert.png' alt='image' />
+                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/bridgestone.png' alt='image' />
             </div>
         </div>
     );

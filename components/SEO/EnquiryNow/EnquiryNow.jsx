@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./EnquiryNow.module.css";
-import Enq from "../../ImageSection/EnquiryNow.jpg";
-// import Enq from "../../ImageSection/EnquiryNow.jpg";
+import Enq from "../..https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Imagesection/EnquiryNow.jpg";
+// import Enq from "../..https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Imagesection/EnquiryNow.jpg";
 
 export default function EnquiryNow() {
   return (
     <div className={styles._EnquiryNowMaindiv}>
       <div className={styles._EnquiryNow}>
-        <img src="../../ImageSection/EnquiryNow.jpg" alt="enq.img" />
+        <img src="../..https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Imagesection/EnquiryNow.jpg" alt="enq.img" />
         {/* <img src={Enq} alt="enq.img" /> */}
       </div>
       <div className={styles._EnquiryNow}>

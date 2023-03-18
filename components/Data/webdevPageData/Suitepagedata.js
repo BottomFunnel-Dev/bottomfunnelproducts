@@ -1,6 +1,6 @@
 export const featuredata=[
     {
-        img:"/Images/SuitePage/Screens/Rectangle 5252.webp",
+        img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/Screens/Rectangle 5252.webp",
         title:"Attract the best leads. Generate 10X more opportunities.",
         para:"Attract visitors, convert them into leads, run campaigns, and turn your website into a lead generation machine.",
         fetr:"Top features:",
@@ -12,7 +12,7 @@ export const featuredata=[
         }
     },
     {
-        img:"/Images/SuitePage/Screens/Rectangle 5253.webp",
+        img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/Screens/Rectangle 5253.webp",
         title:"Deliver personalized experiences at scale. Improve lead engagement.",
         para:"Build tailored campaigns and optimize them with real-time data for better engagement.  ",
         fetr:"Top features:",
@@ -26,7 +26,7 @@ export const featuredata=[
 ]
 export const dealsdata=[ 
     {
-        img:"/Images/SuitePage/Screens/Deal 1.webp",
+        img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/Screens/Deal 1.webp",
         title:"Drive deals to closure, faster. Improve sales conversions by 50%.",
         para:"Freddy AI helps you focus on the right deals that will drive revenue. Get insights across the funnel from lead to revenue with multi-touch attribution.",
         fetr:"Top features:",
@@ -38,7 +38,7 @@ export const dealsdata=[
         }
     },
     {
-        img:"/Images/SuitePage/Screens/Group 1000003853.webp",
+        img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/Screens/Group 1000003853.webp",
         title:"Develop nurture campaigns that delight customers. Increase repeat purchases by over 50%.",
         para:"Nurture leads along the funnel with targeted campaigns, support customers with educational content, and build deeper relationships. ",
         fetr:"Top features:",

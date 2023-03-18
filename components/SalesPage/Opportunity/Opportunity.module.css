@@ -97,5 +97,106 @@ margin-top: 1%;
      
 }
 
+@media  (max-width:1024px){
+    .Opportunitymaindiv{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        /* border: 2px solid green; */
+    
+    }
+    .Opportunityinnerdiv{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* border: 2px solid yellow; */
+        margin-top: 3%;
+        padding: 1%;
+         
+    }
+    .Opportunityinnerdivheading{
+        width: 95%;
+        /* border: 2px solid; */
+       
+    }
+    
+    .Opportunityinnerdivheading h6{
+        margin: 0%;
+    }
+    .Opportunitylogodiv{
+        
+      width: 40px;
+      height: 40px;
+     margin-top: 1%;
+       
+    
+    }
+    .Opportunitylogodivcontain{
+        margin-left: 2%;
+       
+    }
+    .Opportunitylogodivcontain p{
+        margin: 1%;
+    }
+    .Opportunityimagediv{
+        width: 90%;
+        padding-top: 4%;
+        
+    
+    }
+    .Opportunityimagedivinner{
+       /* width: 90%; */
+        /* height: 80%; */
+        margin: auto;
+        
+    }
+    
+    .Opportunityimagedivinner:hover{
+        transition: all 0.2s linear;
+    
+        transform: translateY(-10px);
+    }
+    .Opportunitylogodivupper{
+       width: 64%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    
+    .Opportunityinnerdivheading h4{
+    color: #ef2c30;
+    margin-top: 1%;
+    }
+    
+    
+    .Opportunityptag{
+        margin-top: 1%;
+        text-decoration: underline;
+        color: blue;
+        
+    }
+    .Opportunityinnerdiv1{
+        display: flex;
+        align-self: flex-end;
+       flex-direction: column-reverse;
+       align-items: center;
+        width: 95%;
+        justify-content: space-evenly;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* border: 2px solid yellow; */
+        margin-top: 3%;
+        padding: 2%;
+         
+    }
+}
+
 
 

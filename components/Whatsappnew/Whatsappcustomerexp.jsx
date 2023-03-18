@@ -17,7 +17,7 @@ conversations by delivering the right messages at the right time.
 <div className={styles.whatsappbotsscreenforimg}>
 
 <Image
-          src={"/Images/whatsapp/components/Drivebetter.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Drivebetter.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}

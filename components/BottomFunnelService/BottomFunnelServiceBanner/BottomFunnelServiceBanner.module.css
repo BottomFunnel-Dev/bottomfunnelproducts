@@ -2,7 +2,7 @@
     border: 2px solid transparent;
     width: 100%;
     height: 97vh;
-    background-image: url("/Images/bottomfunnelservicephotos/background.webp");
+    background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/background.webp");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -55,4 +55,75 @@ border: 1px solid #ef4c23;
     width: 80%;
     margin: auto;
     margin-bottom: 4%;
+}
+
+@media  (max-width:1024px){
+    .BottomFunnelServiceBannermaindiv{
+        border: 2px solid transparent;
+        width: 100%;
+        height: fit-content;
+        background: none;
+        /* background-image: url("/Images/bottomfunnelservicephotos/background.webp"); */
+        background-position: top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    
+    }
+    .BottomFunnelServiceouterdiv{
+        /* border: 2px solid blue; */
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 11%;
+        /* height: fit-content; */
+    }
+    
+    .BottomFunnelServiceBannerinnerdiv{
+        /* border: 2px solid green; */
+        width: 90%;
+        padding-top: 1%;
+        text-align: center;
+        margin: auto;
+        margin-top: 4%;
+    }
+    .BottomFunnelServiceBannerinnerdiv p{
+        text-align: justify;
+        
+    }
+    .BottomFunnelServiceBannerinnerdiv h1{
+        font-size: 32px;
+    }
+    .BottomFunnelServiceBannerimage{
+       /* border: 2px solid yellow; */
+       width: 80%;
+       margin: auto;
+    }
+    .BottomFunnelServicebutton{
+        width: 220px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #ef4c23;
+        color: white;
+        border: none;
+        margin-top: 1%;
+    
+    }
+    .BottomFunnelServicebutton:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+    }
+    .BottomFunnelServiceBannernextdiv{
+        /* border: 2px solid yellow; */
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 4%;
+    }
+    
 }
