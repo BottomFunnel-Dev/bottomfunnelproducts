@@ -1,0 +1,142 @@
+.journeysChatPerent{
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    text-align: center;
+}
+.journeysChatheading>h2{
+    font-weight: 700;
+}
+.journeysChatheading>p{
+    font-weight: 450;
+}
+.journeysChatdivone{
+    margin-top: 2%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.journeysChatdivoneImage{
+    width: 40%;
+}
+.journeysChatdivonecontent{
+    width: 57%;
+}
+.journeysChatdivonecontent>h2{
+    font-weight: 700;
+    text-align: left;
+}
+.journeysChatdivonecontent>p{
+    font-weight: 450;
+    text-align: left;
+    width: 100%;
+}
+.journeysChatdivtwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.journeysChatdivtwoImage{
+    width: 48%;
+  
+    margin-top: -4%;
+}
+.journeysChatdivtwocontent{
+    width: 50%;
+    
+}
+.journeysChatdivtwocontent>h2{
+    font-weight: 700;
+    text-align: left;
+    
+    
+   
+}
+.journeysChatdivtwocontent>p{
+    font-weight: 450;
+    text-align: left;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .journeysChatPerent{
+        padding-left: 8%;
+        padding-right: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1%;
+        text-align: center;
+        
+        text-align: center;
+    }
+    .journeysChatdivone{
+        margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+    .journeysChatdivoneImage{
+        width: 100%;
+    }
+    .journeysChatdivonecontent{
+        width: 100%;
+    }
+    .journeysChatdivonecontent>h2{
+        font-weight: 700;
+        text-align: left;
+    }
+    .journeysChatdivonecontent>p{
+        font-weight: 500;
+        text-align: left;
+        width: 100%;
+    }
+    .journeysChatdivtwo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .journeysChatdivtwoImage{
+        width: 100%;
+      
+        margin-top: -0%;
+    }
+    .journeysChatdivtwocontent{
+        width: 100%;
+        
+    }
+    .journeysChatdivtwocontent>h2{
+        font-weight: 700;
+        text-align: left;
+        
+        
+       
+    }
+    .journeysChatdivtwocontent>p{
+        font-weight: 500;
+        text-align: left;
+        width: 80%;
+    }
+    
+      
+}

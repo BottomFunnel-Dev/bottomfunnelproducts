@@ -38,22 +38,17 @@
 .eventsAdvantagesContentDiv>div {
 
     padding-right: 7%;
-
-}
-
-.eventsAdvantagesContentDiv>div:nth-child(3) {
-
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     padding-right: 5%;
     padding-bottom: 5%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+ 
     padding-left: 2%;
+    width: 31%;
     border-radius: 20px;
-    width: 45%;
 }
 
-.eventsAdvantagesContentDiv>div:nth-child(3)>h3 {
-    margin-top: 20px;
-}
+
+
 
 .eventsAdvantagesContentDiv>div>h3 {
     font-weight: 700;

@@ -40,7 +40,14 @@ export const JourneyPersonalized = () => {
                 </div>
 
                 <div className={styles.bannerimage}> 
-                
+                <Image
+                    src={"/Images/Journey/7792.png"}
+                    alt={"img"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
                </div>
                 
             </div>

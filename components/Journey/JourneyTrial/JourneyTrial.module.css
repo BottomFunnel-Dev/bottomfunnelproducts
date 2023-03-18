@@ -18,7 +18,7 @@
 .JourneyTrialbuttonone{
     width: 200px;
     height: 40px;
-    background-color: brown;
+    background-color: #ec4f25;
     color: white;
     border-radius: 20px;
     
@@ -34,12 +34,12 @@
    
 }
 .JourneyTrialbuttontwo:hover{
-    background-color: white;
+    background-color: transparent;
     color: #ef4c23;
     border: 1px solid #ef4c23;
 }
 .JourneyTrialbuttonone:hover{
-    background-color: white;
+    background-color: transparent;
     color: #ef4c23;
     border: 1px solid #ef4c23;
 }

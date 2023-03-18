@@ -65,7 +65,7 @@ export const EventsScale = () => {
                     <div div className={styles.eventsScalecontentthree}>
                         <h2>Make Better Decision With Sentiments Analysis and ML</h2>
                         <p>
-                            AI can better understand customer intent and elevate your customer experience ,and increase employee productivity .No apply ML to support events to provide sentiments analysis that can be leveraged for automated self -service.
+                            AI can better understand customer intent and elevate your customer experience and increase employee productivity .No apply ML to support events to provide sentiments analysis that can be leveraged for automated self -service.
                         </p>
                     </div>
                 </div>
