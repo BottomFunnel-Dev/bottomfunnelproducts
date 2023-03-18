@@ -4,7 +4,7 @@
 
   color: white;
   background: linear-gradient(to Right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Images/ticketingPhotos/banner.png");
+    url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

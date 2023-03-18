@@ -20,7 +20,6 @@
   width: 200%;
 }
 
-
 .productDropdownSection {
   width: 100%;
   margin: 0 auto;
@@ -75,6 +74,7 @@
   border-left: 3px solid white;
   /* column-gap: 8px; */
   padding: 5px;
+  margin-top: -4%;
 }
 
 .productimageIconDivSection:hover {
@@ -93,15 +93,13 @@
 }
 .productimageIconDivSection > div {
   width: 18%;
-  /* border-left: 2px solid white; */
-  /* background-color: #fce7e2; */
-  /* height: 30px; */
 }
-.productimageIconDivSection > div > img {
+
+/* .productimageIconDivSection > div > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-}
+} */
 
 .hoveringDiv:hover {
   background-color: var(--i);
@@ -131,7 +129,6 @@
 .productSaasRow > p:hover {
   background-color: transparent;
 }
-
 
 .productSolutionsData {
   height: 90px;
@@ -164,8 +161,11 @@
 .productLogoImages {
   /* margin-top: -30%; */
   /* border: 1px solid red; */
-  width: 5px;
-  height: 10px;
+  width: 70% !important;
+}
+
+.productLogoImagesSecond {
+  width: 60% !important;
 }
 
 @media (max-width: 480px) {
@@ -173,7 +173,6 @@
     display: flex;
     width: 100%;
     box-sizing: border-box;
-
     height: 470px;
     position: static;
     overflow-y: scroll;
@@ -197,6 +196,30 @@
     padding-top: 0;
   }
 
+  .listItems > div {
+    /* border: 1px solid black; */
+    margin-top: 0%;
+  }
+
+  .listItems > div > div {
+    /* border: 1px solid black; */
+    height: 40px;
+    margin-right: 3%;
+    object-fit: cover;
+  }
+
+  .productLogoImages {
+    /* margin-top: -30%; */
+    width: 100% !important;
+    height: 40px; 
+    object-fit: contain;
+  }
+
+  .productLogoImagesSecond {
+    width: 115% !important;
+    object-fit: contain;
+  }
+
   .viewAllButton {
     cursor: pointer;
     margin: 10% auto;
@@ -208,6 +231,10 @@
     /* text-align: center; */
     border: 1px solid #ef4c23;
   }
+
+ .productDropdownContentTwo > .productimageIconDivSection {
+  border: 1px solid black !important;
+ }
 
   .productimageIconDivSection > div {
     width: 11%;

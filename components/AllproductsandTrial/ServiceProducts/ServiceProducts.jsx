@@ -20,7 +20,7 @@ export const ServiceProducts = () => {
                 <div  className={styles.ServiceProductsinnerthirdcards}>
                  <div className={styles.ServiceProductsinnerthirdcardslogo}>
                  <Image
-          src={"/Images/Allproductsphotos/chat.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/chat.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -43,7 +43,7 @@ export const ServiceProducts = () => {
                 <div  className={styles.ServiceProductsinnerthirdcards}>
                  <div className={styles.ServiceProductsinnerthirdcardslogo}>
                  <Image
-          src={"/Images/Allproductsphotos/supportdesk.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/supportdesk.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -66,7 +66,7 @@ export const ServiceProducts = () => {
                 <div  className={styles.ServiceProductsinnerthirdcards}>
                  <div className={styles.ServiceProductsinnerthirdcardslogo}>
                  <Image
-          src={"/Images/Allproductsphotos/omnichannel.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/omnichannel.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -92,7 +92,7 @@ export const ServiceProducts = () => {
                 <div  className={styles.ServiceProductsinnerthirdcards1}>
                  <div className={styles.ServiceProductsinnerthirdcardslogo}>
                  <Image
-          src={"/Images/Allproductsphotos/contectcenter.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/contectcenter.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -115,7 +115,7 @@ export const ServiceProducts = () => {
                 <div  className={styles.ServiceProductsinnerthirdcards2}>
                  <div className={styles.ServiceProductsinnerthirdcardslogo}>
                  <Image
-          src={"/Images/Allproductsphotos/customersucess.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/customersucess.webp"}
           alt={""}
           width={"0"}
           height={"0"}

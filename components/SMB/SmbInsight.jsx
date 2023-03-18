@@ -12,7 +12,7 @@ export const SmbInsight = () => {
             <div className={styles.smbinsightindileftbox}>
             <div className={styles.smbinsightindiicon}>
             <Image
-                src={"/Images/SMB/logoinsight.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/logoinsight.webp"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}
@@ -32,7 +32,7 @@ export const SmbInsight = () => {
             </div>
             <div className={styles.smbinsightindirightbox}>
             <Image
-                src={"/Images/SMB/Rectangle 10.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 10.webp"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}

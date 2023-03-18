@@ -22,19 +22,19 @@ export const ContactMain = ({ bgcolor, textcolor }) => {
       <div>
         <div>
           <span>
-            <img src="/Images/contactNavbar/india.png" alt="India flag" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactNavbar/india.png" alt="India flag" />
             <a style={{ color: textcolor }} href="tel:+918209366227">
               +918209366227
             </a>
           </span>
           <span>
-            <img src="/Images/contactNavbar/usa.png" alt="USA flag" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactNavbar/usa.png" alt="USA flag" />
             <a style={{ color: textcolor }} href="tel:+19176956550 ">
               +19176956550{" "}
             </a>
           </span>
           <span>
-            <img src="/Images/contactNavbar/uae.png" alt="UAE flag" />
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactNavbar/uae.png" alt="UAE flag" />
             <a style={{ color: textcolor }} href="tel:+971 58 597 8776">
               +971 58 597 8776
             </a>

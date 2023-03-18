@@ -20,7 +20,7 @@ export const Features = () => {
     </div>
     <div className={styles.Featuresmaindivcontentimage}>
     <Image
-                        src={"/Images/Educationsales/Education 1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/Education 1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -48,7 +48,7 @@ export const Features = () => {
     </div>
     <div className={styles.Featuresmaindivcontentimage}>
     <Image
-                        src={"/Images/Educationsales/Education 2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/Education 2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -75,7 +75,7 @@ export const Features = () => {
     </div>
     <div className={styles.Featuresmaindivcontentimage}>
     <Image
-                        src={"/Images/Educationsales/Education 3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/Education 3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -105,7 +105,7 @@ With sales sequences in a course management software like Freshsales, you can</p
     </div>
     <div className={styles.Featuresmaindivcontentimage}>
     <Image
-                        src={"/Images/Educationsales/Education 4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/Education 4.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -135,7 +135,7 @@ With sales sequences in a course management software like Freshsales, you can</p
     </div>
     <div className={styles.Featuresmaindivcontentimage}>
     <Image
-                        src={"/Images/Educationsales/Education 5.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Educationsales/Education 5.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

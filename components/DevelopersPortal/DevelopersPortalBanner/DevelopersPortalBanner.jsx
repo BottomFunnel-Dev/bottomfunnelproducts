@@ -15,7 +15,7 @@ export const DevelopersPortalBanner = () => {
     </div>
     <div className={styles.developerPortalBannerImage}>
         <Image
-            src={"/Images/developerPortal/Group8.png"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group8.png"}
             alt={"image"}
             width={"0"}
             height={"0"}

@@ -8,7 +8,7 @@ export const CRMTravel = () => {
 <div   className={styles.CRMTravelmaindiv}>
        <div className={styles.CRMTravelmaindivimage}>
        <Image
-                        src={"/Images/Travelagencysales/crmt.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/crmt.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

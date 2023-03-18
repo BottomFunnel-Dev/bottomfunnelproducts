@@ -1,0 +1,42 @@
+.CostlyChannelBannermaindiv{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4%;
+    height: 100vh;
+}
+.CostlyChannelBannermaindivbutton{
+ 
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: #209b4a;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+
+}
+.CostlyChannelBannermaindivbutton:hover{
+    border: 1px solid #209b4a;
+    color: #209b4a;
+    background-color: white;
+}
+.CostlyChannelBannermaindivinner{
+    width: 35%;
+   
+}
+.CostlyChannelBannerimage{
+    width: 35%;
+}
+.CostlyChannelBannermaindivinner h1{
+    font-size: 40px;
+}
+
+
+
+
+
+

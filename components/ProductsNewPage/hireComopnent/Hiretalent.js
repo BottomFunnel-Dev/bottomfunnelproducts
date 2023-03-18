@@ -41,7 +41,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/svelte",
         },
       ],
-      img: "/Images/productsmainpage/Components/frontend.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/frontend.png",
     },
     {
       title: "Backend Developers",
@@ -87,7 +87,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/skills/revel",
         },
       ],
-      img: "/Images/productsmainpage/Components/backend.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/backend.png",
     },
 
     {
@@ -114,7 +114,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/cakephp",
         },
       ],
-      img: "/Images/productsmainpage/Components/productdesign.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/productdesign.png",
     },
     {
       title: "Software Engineers",
@@ -160,7 +160,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/skills/revel",
         },
       ],
-      img: "/Images/productsmainpage/Components/sde.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/sde.png",
     },
 
     {
@@ -187,7 +187,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/cakephp",
         },
       ],
-      img: "/Images/productsmainpage/Components/salesforce.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/salesforce.png",
     },
     {
       title: "Digital Marketing",
@@ -221,7 +221,7 @@ export default function Hiretalent() {
         //   path: "https://service.bottomfunnel.net/emailmarketing-services",
         // },
       ],
-      img: "/Images/productsmainpage/Components/digital.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/digital.png",
     },
 
     {
@@ -248,7 +248,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/kotlin-development",
         },
       ],
-      img: "/Images/productsmainpage/Components/crossdev.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/crossdev.png",
     },
     {
       title: "Native app Developers",
@@ -271,7 +271,7 @@ export default function Hiretalent() {
           path: "https://service.bottomfunnel.net/flutter-development",
         },
       ],
-      img: "/Images/productsmainpage/Components/native.png",
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/native.png",
     },
   ];
 

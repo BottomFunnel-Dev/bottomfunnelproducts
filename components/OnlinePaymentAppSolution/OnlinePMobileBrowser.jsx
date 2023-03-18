@@ -21,7 +21,7 @@ export const OnlinePMobileBrowser = () => {
         <div className={styles.onlinepmobilebrowsermainboxes}>
             <div className={styles.onlinepmobilebrowserleftbox}>
                 <div className={styles.onlinemobilepbrowserleftboxoutermobilebox}>
-                    <img src='/Images/onlinepaymentpage/in app mobile payments.png' alt='mobile' />
+                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/onlinepaymentpage/in app mobile payments.png' alt='mobile' />
                 </div>
 
 

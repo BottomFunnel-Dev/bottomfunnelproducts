@@ -1,5 +1,5 @@
 .JourneyTrialpatrent{
-    background-image: url('/Images/Journey/background.png');
+    background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/background.png');
     height: 30vh;
     border: 1px solid blue;
     color: white;
@@ -46,7 +46,7 @@
 
 @media (max-width:780px){
     .JourneyTrialpatrent{
-        background-image: url('/Images/Journey/background.png');
+        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/background.png');
         height: 30vh;
         border: 1px solid blue;
         color: white;
@@ -93,7 +93,7 @@
         
     }
     .JourneyTrialpatrent{
-        background-image: url('/Images/Journey/background.png');
+        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/background.png');
         height: 30vh;
         border: 1px solid blue;
         color: white;

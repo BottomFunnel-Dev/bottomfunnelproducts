@@ -12,7 +12,7 @@ export const AgencySales = () => {
                 <h4>Service customers on the go</h4>
                 <div className={style.AgencySalescarddivimage}>
                 <Image
-                    src={"/Images/Agencyhomepagephotos/logo1.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/logo1.png"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -27,7 +27,7 @@ export const AgencySales = () => {
                 <h4>Customize your CRM with integrations</h4>
                 <div className={style.AgencySalescarddivimage}>
                 <Image
-                    src={"/Images/Agencyhomepagephotos/logo2.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/logo2.png"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -43,7 +43,7 @@ export const AgencySales = () => {
                 <h4>Qualify leads with lead scoring</h4>
                 <div className={style.AgencySalescarddivimage}>
                 <Image
-                    src={"/Images/Agencyhomepagephotos/logo3.png"}
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/logo3.png"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

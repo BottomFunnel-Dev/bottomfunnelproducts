@@ -23,7 +23,7 @@ export const VettingHiring = () => {
           <div>
             <div className={styles.vettingHiringImage}>
               <Image
-                src={"/Images/VettingPhotos/points.webp"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/points.webp"}
                 alt={"pointsimage"}
                 width={"0"}
                 height={"0"}

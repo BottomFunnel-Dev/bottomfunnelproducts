@@ -13,7 +13,7 @@ export const PopularFeatures = () => {
             <div className= {styles.PopularFeatureinnerbox}>
                 <div className= {styles.PopularFeatureimagebox}>
                 <Image
-          src={"/Images/bottomfunnelservicephotos/customer-service (1).webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/customer-service (1).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -31,7 +31,7 @@ export const PopularFeatures = () => {
             <div className= {styles.PopularFeatureinnerbox}>
                 <div className= {styles.PopularFeatureimagebox}>
                 <Image
-          src={"/Images/bottomfunnelservicephotos/customer-service (2).webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/customer-service (2).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -49,7 +49,7 @@ export const PopularFeatures = () => {
             <div className= {styles.PopularFeatureinnerbox}>
                 <div className= {styles.PopularFeatureimagebox}>
                 <Image
-          src={"/Images/bottomfunnelservicephotos/project-management.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/project-management.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

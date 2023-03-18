@@ -14,7 +14,7 @@ export const MortarDead = () => {
                 </div>
                 <div>
                 <Image
-                        src={"/Images/Travelagencysales/ststem.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/ststem.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

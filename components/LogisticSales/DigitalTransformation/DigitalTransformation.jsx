@@ -8,7 +8,7 @@ export const DigitalTransformation = () => {
             <div className={style.DigitalTransformationinnerdiv}>
                 <div className={style.DigitalTransformationinnerdivimage}>
                     <Image
-                        src={"/Images/Logisticsalesphotos/logo1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/logo1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -16,7 +16,7 @@ export const DigitalTransformation = () => {
                         style={{ width: "100%", height: "100%" }}
 
                     />
-                    {/* <img src="/images/logisticssalesphotos/mobiversion.webp" alt="image" /> */}
+                    {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/mobiversion.webp" alt="image" /> */}
                 </div>
                 <div className={style.DigitalTransformationinnerdivcontain}>
                     <h4>Digital Transformation</h4>
@@ -32,7 +32,7 @@ export const DigitalTransformation = () => {
                 </div>
                 <div className={style.DigitalTransformationinnerdivimage}>
                     <Image
-                        src={"/Images/Logisticsalesphotos/logo2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/logo2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -40,14 +40,14 @@ export const DigitalTransformation = () => {
                         style={{ width: "100%", height: "100%" }}
 
                     />
-                    {/* <img src="/images/logisticssalesphotos/rocket.webp" alt="image" /> */}
+                    {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/rocket.webp" alt="image" /> */}
                 </div>
             </div>
 
             <div className={style.DigitalTransformationinnerdiv3}>
                 <div className={style.DigitalTransformationinnerdivimage}>
                     <Image
-                        src={"/Images/Logisticsalesphotos/logo3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/logo3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -55,7 +55,7 @@ export const DigitalTransformation = () => {
                         style={{ width: "100%", height: "100%" }}
 
                     />
-                    {/* <img src="/images/logisticssalesphotos/star.png" alt="image" /> */}
+                    {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/star.png" alt="image" /> */}
                 </div>
                 <div className={style.DigitalTransformationinnerdivcontain}>
                     <h4>Changing customer expectations</h4>

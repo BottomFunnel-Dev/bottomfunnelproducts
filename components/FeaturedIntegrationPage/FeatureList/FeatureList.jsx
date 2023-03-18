@@ -4,7 +4,7 @@ export const FeatureList = () => {
   return (
     <div className={style.FeatureListMain}>
         <div className={style.FeatureListimg}>
-            <img src="/Images/featuredintegration/integrationfooterimage/Group 1000006015.png" alt=''/>
+            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/featuredintegration/integrationfooterimage/Group 1000006015.png" alt=''/>
         </div>
         <div className={style.FeatureListcontain}>
             <h2>Get the complete Supportdesk feature list</h2>

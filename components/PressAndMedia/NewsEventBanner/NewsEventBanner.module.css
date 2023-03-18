@@ -1,7 +1,7 @@
 .newsEventBannerMain {
   height: 500px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/Images/pressmediaPhotos/banner.jpg");
+    url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/pressmediaPhotos/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

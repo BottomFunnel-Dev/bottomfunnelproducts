@@ -17,7 +17,7 @@ Zero contact resolution is the way to go</h2>
      <h6>Scaling issues for growing businesses</h6>
      <div className={styles.ResolutionWaymaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/increase 1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/increase 1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -32,7 +32,7 @@ Zero contact resolution is the way to go</h2>
      <h6>Complicated support systems</h6>
      <div className={styles.ResolutionWaymaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/increase 1 (1).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/increase 1 (1).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -47,7 +47,7 @@ Zero contact resolution is the way to go</h2>
      <h6>Customer irks</h6>
      <div className={styles.ResolutionWaymaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/increase 1 (2).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/increase 1 (2).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -64,7 +64,7 @@ Zero contact resolution is the way to go</h2>
      <h6>Customers expect simple solutions</h6>
      <div className={styles.ResolutionWaymaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/increase 1 (3).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/increase 1 (3).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -79,7 +79,7 @@ Zero contact resolution is the way to go</h2>
      <h6>Reactive support is too slow</h6>
      <div className={styles.ResolutionWaymaindivcardsboximage}>
      <Image
-                        src={"/Images/contactresolutionphotos/increase 1 (4).webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/increase 1 (4).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

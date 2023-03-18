@@ -32,7 +32,7 @@ export const VettingTalent = () => {
         <div className={styles.vettingTalentimage}>
           
           <Image
-          src={"/Images/VettingPhotos/human.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/human.webp"}
           alt={"humanimage"}
           width={"0"}
           height={"0"}
@@ -46,7 +46,7 @@ export const VettingTalent = () => {
             <div>
               <div className={styles.vettingTalentDots}>
               <Image
-              src={"/Images/VettingPhotos/dot.webp"}
+              src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/dot.webp"}
               alt={"dotimage"}
               width={"0"}
               height={"0"}

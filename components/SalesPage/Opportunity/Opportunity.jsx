@@ -19,8 +19,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Vector.webp"}
-          alt={"/Images/SalesPagePhotos/Vector.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -35,8 +35,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/logo1.webp"}
-          alt={"/Images/SalesPagePhotos/logo1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/logo1.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/logo1.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -50,8 +50,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Group.webp"}
-          alt={"/Images/SalesPagePhotos/Group.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Group.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Group.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -70,8 +70,8 @@ export const Opportunity = () => {
         <div className={style.Opportunityimagediv}>
           <div className={style.Opportunityimagedivinner}>
         <Image
-          src={"/Images/SalesPagePhotos/textimage.webp"}
-          alt={"/Images/SalesPagePhotos/textimage.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/textimage.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/textimage.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -96,8 +96,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Vector-1.webp"}
-          alt={"/Images/SalesPagePhotos/Vector-1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-1.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-1.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -113,8 +113,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
-          alt={"/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -128,8 +128,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Vector-2.webp"}
-          alt={"/Images/SalesPagePhotos/Vector-2.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-2.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-2.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -147,8 +147,8 @@ export const Opportunity = () => {
         <div className={style.Opportunityimagediv}>
           <div className={style.Opportunityimagedivinner}>
         <Image
-          src={"/Images/SalesPagePhotos/insight2.webp"}
-          alt={"/Images/SalesPagePhotos/insight2.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/insight2.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/insight2.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -177,8 +177,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Vector-3.webp"}
-          alt={"/Images/SalesPagePhotos/Vector-3.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-3.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-3.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -193,8 +193,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Vector-4.webp"}
-          alt={"/Images/SalesPagePhotos/Vector-4.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-4.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-4.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -208,8 +208,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Group.webp"}
-          alt={"/Images/SalesPagePhotos/Group.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Group.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Group.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -227,8 +227,8 @@ export const Opportunity = () => {
         <div className={style.Opportunityimagediv}>
           <div className={style.Opportunityimagedivinner}>
         <Image
-          src={"/Images/SalesPagePhotos/insight.webp"}
-          alt={"/Images/SalesPagePhotos/insight.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/insight.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/insight.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -252,8 +252,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Vector-1.webp"}
-          alt={"/Images/SalesPagePhotos/Vector-1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-1.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-1.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -268,8 +268,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
-          alt={"/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/ic_outline-credit-score.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -283,8 +283,8 @@ export const Opportunity = () => {
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
           <Image
-          src={"/Images/SalesPagePhotos/Vector-2.webp"}
-          alt={"/Images/SalesPagePhotos/Vector-2.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-2.webp"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/Vector-2.webp"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -302,8 +302,8 @@ export const Opportunity = () => {
         <div className={style.Opportunityimagediv}>
           <div className={style.Opportunityimagedivinner}>
         <Image
-          src={"/Images/SalesPagePhotos/360view.png"}
-          alt={"/Images/SalesPagePhotos/360view.png"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.png"}
+          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.png"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}

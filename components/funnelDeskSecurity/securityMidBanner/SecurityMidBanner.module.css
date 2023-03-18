@@ -1,7 +1,7 @@
 .securityMidBannerContainer {
     padding: 20px 0;
     text-align: center;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/funneldeskSecurity/midbanner.webp");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskSecurity/midbanner.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

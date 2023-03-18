@@ -20,7 +20,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"/Images/contactresolutionphotos/Rectangle 1067611.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/Rectangle 1067611.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -36,7 +36,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"/Images/contactresolutionphotos/supr daily.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/supr daily.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -52,7 +52,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"/Images/contactresolutionphotos/sens.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/sens.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

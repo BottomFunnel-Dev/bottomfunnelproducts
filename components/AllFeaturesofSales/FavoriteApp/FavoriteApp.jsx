@@ -18,7 +18,7 @@ export const FavoriteApp = () => {
                 <h4>Table and kanban view</h4>
                 <div className={styles.FavoriteAppmaindivimage}>
                 <Image
-          src={"/Images/allfeaturessales/c.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/c.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -36,7 +36,7 @@ export const FavoriteApp = () => {
                 <h4>Table and kanban view</h4>
                 <div className={styles.FavoriteAppmaindivimage}>
                 <Image
-          src={"/Images/allfeaturessales/d.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

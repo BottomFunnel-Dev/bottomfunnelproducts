@@ -19,7 +19,7 @@ export const DealManagementperformance = () => {
         <div className={styles.dealmanagementhanlelerightbox}>
         
         <Image
-              src={"/Images/Deal management/Screens/ha/quantifyteam.webp"}
+              src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Deal management/Screens/ha/quantifyteam.webp"}
               alt={"handle"}
               width={"0"}
               height={"0"}

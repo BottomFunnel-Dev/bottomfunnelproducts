@@ -18,7 +18,7 @@ export const AllFeaturesTime = () => {
                                 <h3>Email Campaigns</h3>
                                 <div className={styles.allFeaturesImage1}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle25.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle25.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -39,7 +39,7 @@ export const AllFeaturesTime = () => {
                                 <h3>SMS Campaigns</h3>
                                 <div className={styles.allFeaturesImage2}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle27.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle27.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -60,7 +60,7 @@ export const AllFeaturesTime = () => {
                                 <h3>WhatsApp Campaigns</h3>
                                 <div className={styles.allFeaturesImage3}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle26.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle26.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -81,7 +81,7 @@ export const AllFeaturesTime = () => {
                                 <h3>Transactional Emails</h3>
                                 <div className={styles.allFeaturesImage4}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle28.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle28.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -105,7 +105,7 @@ export const AllFeaturesTime = () => {
                                 <h3>Chatbots</h3>
                                 <div className={styles.allFeaturesImage9}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle29.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle29.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -127,7 +127,7 @@ export const AllFeaturesTime = () => {
                                 <h3>Chat Campaigns</h3>
                                 <div className={styles.allFeaturesImage10}>
                                     <Image
-                                        src={"/Images/allFeatures/Rectangle30.webp"}
+                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle30.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}

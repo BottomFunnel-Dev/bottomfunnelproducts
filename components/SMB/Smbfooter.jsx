@@ -8,17 +8,17 @@ export const Smbfooter = () => {
         {
             htxt:"collaborate with context",
             stxt:"Huddle with team members within a ticket to discuss possible solutions and answer without stepping on each other's toes.",
-            icon:"/Images/SMB/Rectangle 12.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 12.webp",
         },
         {
             htxt:"Gather Customer Feedback",
             stxt:"Send out satisfaction surveys to your customers so they can tell you what they like about your service or when you need to put in that extra effort.",
-            icon:"/Images/SMB/Rectangle 12-1.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 12-1.webp",
         },
         {
             htxt:"Streamline customer data",
             stxt:"Huddle with team members within a ticket to discuss possible solutions and answers without stepping on each other's toes.",
-            icon:"/Images/SMB/Rectangle 12-2.webp",
+            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 12-2.webp",
         },
     ]
   return (

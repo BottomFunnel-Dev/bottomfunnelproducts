@@ -27,7 +27,7 @@ you need to focus on each day.Know how much business you are likely to close in 
 <div className={styles.dealbusinesshealthrighttboxes}>
 
 <Image
-          src={"/Images/Deal management/Screens/ha/deals in pipeline.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Deal management/Screens/ha/deals in pipeline.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

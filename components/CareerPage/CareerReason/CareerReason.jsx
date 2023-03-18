@@ -27,7 +27,7 @@ export const CareerReason = () => {
         </div>
 
         <div className={career.careerReasonImage}>
-          <img src="/Images/careerPhotos/reason.png" alt="whyBF.png" />
+          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/careerPhotos/reason.png" alt="whyBF.png" />
         </div>
       </div>
     </div>

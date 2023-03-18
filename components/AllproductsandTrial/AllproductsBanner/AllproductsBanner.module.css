@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: url("/Images/Allproductsphotos/banner.webp");
+    background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/banner.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;

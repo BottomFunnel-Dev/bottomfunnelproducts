@@ -17,7 +17,7 @@ export const Insight = () => {
                   <div className={styles.Insightinnerdivimagebox}>
                     <div className={styles.Insightinnerdivimage}>
                   <Image
-          src={"/Images/Analyticsoffeatureimage/screen1.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen1.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -35,7 +35,7 @@ export const Insight = () => {
                   <div className={styles.Insightinnerdivimagebox}>
                     <div className={styles.Insightinnerdivimage}>
                   <Image
-          src={"/Images/Analyticsoffeatureimage/screen2.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen2.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -53,7 +53,7 @@ export const Insight = () => {
                   <div className={styles.Insightinnerdivimagebox}>
                     <div className={styles.Insightinnerdivimage}>
                   <Image
-          src={"/Images/Analyticsoffeatureimage/screen3.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen3.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -71,7 +71,7 @@ export const Insight = () => {
                   <div className={styles.Insightinnerdivimagebox}>
                     <div className={styles.Insightinnerdivimage}>
                   <Image
-          src={"/Images/Analyticsoffeatureimage/screen4.webp"}
+          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen4.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
