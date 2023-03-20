@@ -13,31 +13,30 @@ import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonia
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 export default function Pricing() {
-    return (
-        <div>
+  return (
+    <div>
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
-            <Navbar
-            productMount={{
-                navMount: false,
-            }}
-            navredux={{
-                color: "white",
-                logo: true,
-            }}
-            />
+      <PricingBanner addOn={<PricingAddOns />} />
 
-            <PricingBanner addOn={<PricingAddOns />} />
-           
-            <PricingQuestion />
-            <PricingStarted />
+      <PricingQuestion />
+      <PricingStarted />
 
-            <Testimonial />
-            <TrustedBy />
-            <ReadyStarted />
-            <TalentProfiles />
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <TalentProfiles />
 
-            <LifeBottomFunnel />
-            <ProductsFooter />
-        </div>
-    );
+      <LifeBottomFunnel />
+      <ProductsFooter />
+    </div>
+  );
 }

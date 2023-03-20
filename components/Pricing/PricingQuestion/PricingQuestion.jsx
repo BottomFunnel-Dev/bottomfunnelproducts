@@ -14,10 +14,7 @@ export const PricingQuestion = () => {
                     <h3>We have answers.</h3>
                 </div>
 
-
                 <div className={styles.PricingQuestionParentonlychildsec}>
-
-
                     <div className="accordion accordion-flush" id="accordionFlushExampleOne">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingOne">
@@ -29,7 +26,6 @@ export const PricingQuestion = () => {
                                 <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                             </div>
                         </div>
-
 
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingTwo">
@@ -52,7 +48,6 @@ export const PricingQuestion = () => {
                             </div>
                         </div>
 
-
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingFour">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
@@ -65,7 +60,6 @@ export const PricingQuestion = () => {
                             </div>
                         </div>
 
-
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingFive">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
@@ -77,6 +71,7 @@ export const PricingQuestion = () => {
                                 <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                             </div>
                         </div>
+
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingSix">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
@@ -88,19 +83,10 @@ export const PricingQuestion = () => {
                                 <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                             </div>
                         </div>
-
                     </div>
-
-
                 </div>
 
-
-
-
-
                 <div className={styles.PricingQuestionParentonlychildthird}>
-
-
                     <div className="accordion accordion-flush" id="accordionFlushExampleTwo">
 
                         <div className="accordion-item">
@@ -151,7 +137,6 @@ export const PricingQuestion = () => {
                             </div>
                         </div>
 
-
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingEleven">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
@@ -164,7 +149,6 @@ export const PricingQuestion = () => {
                             </div>
                         </div>
 
-
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingTwelve">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
@@ -175,28 +159,9 @@ export const PricingQuestion = () => {
                                 <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                             </div>
                         </div>
-
-
                     </div>
-
-
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
-
-
         </div >
     );
-}
+};

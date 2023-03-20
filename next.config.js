@@ -127,6 +127,12 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
+      {
+        source: "/neoadmin-center",
+        destination: "/neo-admin-center",
+        permanent: true,
+        basePath: false,
+      },
     ];
   },
 };

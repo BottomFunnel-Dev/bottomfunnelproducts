@@ -1,6 +1,6 @@
 import React from "react";
-import prodstyle from  "./SalesProduct.module.css";
-import Link  from "next/link";
+import prodstyle from "./SalesProduct.module.css";
+import Link from "next/link";
 import { salesProduct } from "../../../Data/Navbar";
 export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
   return (
@@ -16,7 +16,7 @@ export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
             key={i}
             onClick={() => {
               // navigate(`/${item.path}`);
-              solHoverOut();
+              // solHoverOut();
             }}
             className={prodstyle.saleProductData}
           >
