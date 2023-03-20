@@ -1,5 +1,6 @@
 import React from "react";
 import career from "./CareerBanner.module.css";
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 
 export const CareerBanner = () => {
   return (
@@ -20,7 +21,39 @@ export const CareerBanner = () => {
           more and more digital by the day. Join us and become part of our next
           big thing.
         </p>
-        <button>Get Started</button>
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">Get Started</button>
+
+        <div>
+          <div
+            className="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 import awards from "./AwardsBanner.module.css";
 
 export const AwardsBanner = () => {
@@ -13,7 +14,39 @@ export const AwardsBanner = () => {
             awarded the Bar of Success badge, which, as a result, increases our
             level of excellence. We sync daily.
           </p>
-          <button>Contact us</button>
+          <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">Contact us</button>
+
+          <div>
+            <div
+              className="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div>
+                    <PopupForm />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         <div className={awards.awardsbannerImage}>
