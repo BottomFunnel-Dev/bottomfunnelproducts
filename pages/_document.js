@@ -15,12 +15,15 @@ export default function Document() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         {/* lottie-player cdn */}
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      </Head>
 
-      {/* script for the page loader */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+        {/* cdn for the slick carousel */}
+        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+
+        {/* script for the page loader */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
                 document.onreadystatechange = function () {
                   if (document.readyState === "loading") {
                     document.body.classList.add("loading");
@@ -31,8 +34,9 @@ export default function Document() {
                   }
                 }
               `,
-        }}
-      />
+          }}
+        />
+      </Head>
 
       <body>
         <Main />

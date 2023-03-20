@@ -1,5 +1,5 @@
-import "../styles/globals.css";
-import "slick-carousel/slick/slick.css";
+// import "../styles/globals.css";
+// import "slick-carousel/slick/slick.css";
 import React, { useState } from "react";
 import Loader from "../components/Loader";
 

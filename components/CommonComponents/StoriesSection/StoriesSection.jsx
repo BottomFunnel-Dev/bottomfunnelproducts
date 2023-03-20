@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./StoriesSection.module.css";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import { BsPlayCircle, BsArrowRight } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
 import { useState } from "react";
