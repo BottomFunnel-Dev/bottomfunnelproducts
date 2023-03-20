@@ -1,35 +1,122 @@
-.PricingBannerParent{
-    background-image: url('/Images/Pricing/Banner.webp');
-    background-position: Center;  
+.PricingBannerParent {
+  background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Banner.webp");
+  background-position: Center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.PricingBannerParent > h1 {
+  margin-top: 15%;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.PricingBannerParent > h4 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.PricingBannerParent > button {
+  margin-top: 50px;
+  width: 250px;
+  height: 60px;
+  background-color: #ec4f25;
+  border: none;
+  font-size: 23px;
+  color: white;
+  border-radius: 10px;
+}
+
+.PricingBannerParent > button:hover {
+  margin-top: 50px;
+  width: 250px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  font-size: 23px;
+  color: #ec4f25;
+  border-radius: 10px;
+}
+.PricingBannerParentonlychild {
+  background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/BannerButtonBackground.png");
+
+  width: 90%;
+  margin-top: 12%;
+
+  border-bottom: 1px solid lightgray;
+  border-radius: 20px;
+}
+.PricingBannerParentonlychild > button {
+  width: 20%;
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  background-color: transparent;
+}
+.PricingBannerParentbuttonborder {
+  border: none;
+  border-right: 1px solid black;
+}
+.PricingBannerParentbuttonoborder {
+  border: none;
+}
+.PricingBannerParentonlychild > button:hover {
+  background-color: #ec4f25;
+  color: white;
+  border: none;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top-left-radius: 10px;
+  border: none;
+}
+
+.backround {
+  background-color: #ec4f25;
+}
+
+@media (max-width: 780px) {
+  .PricingBannerParent {
+    background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Banner.Webp");
+    background-position: Center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-}
-.PricingBannerParent>h1{
+    padding: 5%;
+    text-align: center;
+  }
+  .PricingBannerParent > h1 {
     margin-top: 15%;
     font-weight: 700;
     font-size: 44px;
-}
-.PricingBannerParent>h4{
+  }
+  .PricingBannerParent > h4 {
     font-weight: 300;
     margin-top: 10px;
-}
-.PricingBannerParent>button{
+  }
+  .PricingBannerParent > button {
     margin-top: 50px;
     width: 250px;
-    height: 60px;
+    height: 70px;
     background-color: #ec4f25;
     border: none;
     font-size: 23px;
     color: white;
     border-radius: 10px;
-}
-.PricingBannerParent>button:hover{
+  }
+  .PricingBannerParent > button:hover {
     margin-top: 50px;
     width: 250px;
     height: 70px;
@@ -38,36 +125,32 @@
     font-size: 23px;
     color: #ec4f25;
     border-radius: 10px;
-}
-.PricingBannerParentonlychild{
-   background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/BannerButtonBackground.png');
-   
-    width: 90%;
-    margin-top: 12%;
-    
-   
-  border-bottom: 1px solid lightgray;
-   border-radius: 20px;
-}
-.PricingBannerParentonlychild>button{
-width: 20%;
-font-size: 20px;
-margin-top: 1%;
-margin-bottom: 1%;
+  }
+  .PricingBannerParentonlychild {
+    background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/BannerButtonBackground.png");
 
+    width: 100%;
+    margin-top: 8%;
 
-background-color: transparent;
+    border-bottom: 1px solid lightgray;
+    border-radius: 20px;
+  }
+  .PricingBannerParentonlychild > button {
+    width: 20%;
+    font-size: 12px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 
-}
-.PricingBannerParentbuttonborder{
+    background-color: transparent;
+  }
+  .PricingBannerParentbuttonborder {
     border: none;
     border-right: 1px solid black;
-    
-}
-.PricingBannerParentbuttonoborder{
+  }
+  .PricingBannerParentbuttonoborder {
     border: none;
-}
-.PricingBannerParentonlychild>button:hover{
+  }
+  .PricingBannerParentonlychild > button:hover {
     background-color: #ec4f25;
     color: white;
     border: none;
@@ -75,104 +158,5 @@ background-color: transparent;
     margin-top: 0px;
     margin-bottom: 0px;
     border-top-left-radius: 10px;
-    border: none;
-
-}
-
-
-.backround{
-    background-color: #ec4f25;
-}
-
-
-
-@media(max-width:780px){
-
-    .PricingBannerParent{
-        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Banner.Webp');
-    background-position: Center;  
-      background-repeat: no-repeat;
-      background-size: cover;
-        height: auto;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        padding: 5%;
-        text-align: center;
-      
-    }
-    .PricingBannerParent>h1{
-        margin-top: 15%;
-        font-weight: 700;
-        font-size: 44px;
-    }
-    .PricingBannerParent>h4{
-        font-weight: 300;
-        margin-top: 10px;
-    }
-    .PricingBannerParent>button{
-        margin-top: 50px;
-        width: 250px;
-        height: 70px;
-        background-color: #ec4f25;
-        border: none;
-        font-size: 23px;
-        color: white;
-        border-radius: 10px;
-    }
-    .PricingBannerParent>button:hover{
-        margin-top: 50px;
-        width: 250px;
-        height: 70px;
-        background-color: transparent;
-        border: none;
-        font-size: 23px;
-        color: #ec4f25;
-        border-radius: 10px;
-    }
-    .PricingBannerParentonlychild{
-       background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/BannerButtonBackground.png');
-       
-        width: 100%;
-        margin-top: 8%;
-        
-       
-      border-bottom: 1px solid lightgray;
-       border-radius: 20px;
-    }
-    .PricingBannerParentonlychild>button{
-    width: 20%;
-    font-size: 12px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    
-    
-    background-color: transparent;
-    
-    }
-    .PricingBannerParentbuttonborder{
-        border: none;
-        border-right: 1px solid black;
-        
-    }
-    .PricingBannerParentbuttonoborder{
-        border: none;
-    }
-    .PricingBannerParentonlychild>button:hover{
-        background-color: #ec4f25;
-        color: white;
-        border: none;
-        height: 100%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        border-top-left-radius: 10px;
-        
-    }
-
-
-
-
-
+  }
 }

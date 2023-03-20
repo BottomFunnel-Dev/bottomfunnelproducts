@@ -177,7 +177,7 @@ export const ProductsFooter = () => {
                             <li> Collaboration </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/events-and-notifications"}>
                             <li> Events and Notification </li>
                         </Link>
 
@@ -196,7 +196,7 @@ export const ProductsFooter = () => {
 
                     <ul className={styles.productMainProductDivLink}>
 
-                        <Link style={{color:"black"}} href={"https://service.bottomfunnel.net/"}>
+                        <Link style={{ color: "black" }} href={"https://service.bottomfunnel.net/"}>
                             <h5>Services </h5>
                         </Link>
 
