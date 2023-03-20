@@ -14,7 +14,7 @@ export const ManufacturingSalesBanner = () => {
 
    <div className={styles.ManufacturingSalesBannerannimation}>
      <lottie-player
-                  src={"/Animation/salesindustriesanimation/Manufacturing.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/salesindustriesanimation/Manufacturing.json"}
                   background="transparent"
                   speed="1"
                   loop

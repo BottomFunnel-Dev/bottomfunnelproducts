@@ -1,6 +1,17 @@
 import "../styles/globals.css";
 import "slick-carousel/slick/slick.css";
+import React, { useState } from "react";
+import Loader from "../components/Loader";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function App({ Component, pageProps }) {
+  const [loading, setLoading] = useState(false);
+
+  return (
+    <>
+      {loading && <Loader />}
+      <Component {...pageProps} />;
+    </>
+  );
 }
+
+export default App;

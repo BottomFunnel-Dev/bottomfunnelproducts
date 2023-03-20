@@ -28,14 +28,14 @@ export const EliteServices = () => {
           <h5>Explore now</h5>
         </div>
         <div className={styles.gifSide}>
-            <lottie-player
-                  src={"/Animation/Supportdesk/supportdesk.json"}
-                  background="transparent"
-                  speed="1"
-                  loop
-                  autoplay
-                  >
-            </lottie-player>
+          <lottie-player
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/supportdesk.json"}
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          >
+          </lottie-player>
         </div>
       </div>
 
@@ -57,14 +57,14 @@ export const EliteServices = () => {
           <h5>Explore now</h5>
         </div>
         <div className={styles.gifSide}>
-           <lottie-player
-                  src={"/Animation/Supportdesk/feildservice.json"}
-                  background="transparent"
-                  speed="1"
-                  loop
-                  autoplay
-                  >
-            </lottie-player>
+          <lottie-player
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/feildservice.json"}
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          >
+          </lottie-player>
         </div>
       </div>
 
@@ -86,14 +86,14 @@ export const EliteServices = () => {
           <h5>Explore now</h5>
         </div>
         <div className={styles.gifSide}>
-            <lottie-player
-                  src={"/Animation/Supportdesk/contactcentre.json"}
-                  background="transparent"
-                  speed="1"
-                  loop
-                  autoplay
-                  >
-            </lottie-player>
+          <lottie-player
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/contactcentre.json"}
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          >
+          </lottie-player>
         </div>
       </div>
     </div>

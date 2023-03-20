@@ -16,7 +16,7 @@ export default function Banner() {
       </div>
       <div className={styles.bannerImages}>
            <lottie-player
-                src={"/Animation/contactCenter/banner.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/contactCenter/banner.json"}
                 background="transparent"
                 speed="1"
                 loop

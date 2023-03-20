@@ -9,7 +9,7 @@ export const Smbcustomerservice = () => {
             htxt:"Unify customer conversations",
             stxt:"Bring all customer issues from email,chat, phone or social media into bottom funnel, keep customers happy by creating fast, personalized customer experiences across channels.",
             link:"Learn more about multichannel support",
-            img:"/Animation/SMB/one.json",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/SMB/one.json",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 9.webp",
         },
 
@@ -17,7 +17,7 @@ export const Smbcustomerservice = () => {
             htxt:"Speed up resolutions",
             stxt:"Save time by automating routine, time-consuming actions, including routing customer request,following up, and gathering feedback.Answer questions in a click with canned responses.",
             link:"Increase agent productivity and engagement",
-            img:"/Animation/SMB/two.json",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/SMB/two.json",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 10-1.webp",
         },
 
@@ -25,7 +25,7 @@ export const Smbcustomerservice = () => {
             htxt:"Help Customers help themselves",
             stxt:"Enable customers to find answer on their own by publishing an on-brand FAQ portal.Self-service",
             link:"Offer self-service with FAQ portals",
-            img:"/Animation/SMB/three.json",
+            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/SMB/three.json",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 11.webp",
         },
 

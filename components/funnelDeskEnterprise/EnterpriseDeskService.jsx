@@ -29,7 +29,7 @@ export const EnterpriseDeskService = () => {
         </div>
         <div className={styles.enterpriseGifSide}>
             <lottie-player
-                src={"/Animation/Enterprise/Comp1.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Enterprise/Comp1.json"}
                 background="transparent"
                 speed="1"
                 loop
@@ -65,7 +65,7 @@ export const EnterpriseDeskService = () => {
         </div>
         <div className={styles.enterpriseGifSide}>
            <lottie-player
-                src={"/Animation/Enterprise/Comp2.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Enterprise/Comp2.json"}
                 background="transparent"
                 speed="1"
                 loop
@@ -102,7 +102,7 @@ export const EnterpriseDeskService = () => {
         </div>
         <div className={styles.enterpriseGifSide}>
             <lottie-player
-                src={"/Animation/Enterprise/Comp3.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Enterprise/Comp3.json"}
                 background="transparent"
                 speed="1"
                 loop
@@ -147,7 +147,7 @@ export const EnterpriseDeskService = () => {
         </div>
         <div className={styles.enterpriseGifSide}>
            <lottie-player
-                src={"/Animation/Enterprise/Comp4.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Enterprise/Comp4.json"}
                 background="transparent"
                 speed="1"
                 loop
@@ -190,7 +190,7 @@ export const EnterpriseDeskService = () => {
         </div>
         <div className={styles.enterpriseGifSide}>
            <lottie-player
-                src={"/Animation/Enterprise/Comp5.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Enterprise/Comp5.json"}
                 background="transparent"
                 speed="1"
                 loop
@@ -224,7 +224,7 @@ export const EnterpriseDeskService = () => {
         </div>
         <div className={styles.enterpriseGifSide}>
             <lottie-player
-                src={"/Animation/Enterprise/Comp6.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Enterprise/Comp6.json"}
                 background="transparent"
                 speed="1"
                 loop

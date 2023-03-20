@@ -127,7 +127,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.gifSideOmnichannel}>
             <lottie-player
-                  src={"/Animation/Supportdesk/supportdesk.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/supportdesk.json"}
                   background="transparent"
                   speed="1"
                   loop
@@ -156,7 +156,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.gifSideOmnichannel}>
             <lottie-player
-                  src={"/Animation/Supportdesk/feildservice.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/feildservice.json"}
                   background="transparent"
                   speed="1"
                   loop
@@ -185,7 +185,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.gifSideOmnichannel}>
             <lottie-player
-                  src={"/Animation/Supportdesk/contactcentre.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/contactcentre.json"}
                   background="transparent"
                   speed="1"
                   loop
@@ -214,7 +214,7 @@ export const OmniChannelSlids = () => {
         </div>
         <div className={styles.gifOmnichannel}>
             <lottie-player
-                  src={"/Animation/Supportdesk/chat.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/chat.json"}
                   background="transparent"
                   speed="1"
                   loop

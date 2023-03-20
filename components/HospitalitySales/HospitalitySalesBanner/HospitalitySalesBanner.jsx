@@ -12,7 +12,7 @@ export const HospitalitySalesBanner = () => {
    </div>
    <div className={styles.HospitalitySalesBannerannimation}>
      <lottie-player
-                  src={"/Animation/salesindustriesanimation/Hotels & Hospitality.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/salesindustriesanimation/Hotels & Hospitality.json"}
                   background="transparent"
                   speed="1"
                   loop

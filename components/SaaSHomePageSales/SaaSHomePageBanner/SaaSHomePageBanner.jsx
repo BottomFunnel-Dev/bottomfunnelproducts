@@ -12,7 +12,7 @@ export const SaaSHomePageBanner = () => {
     </div>
     <div className={style.SaaSHomePagebannerannimation}>
      <lottie-player
-                  src={"/Animation/salesindustriesanimation/SaaS.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/salesindustriesanimation/SaaS.json"}
                   background="transparent"
                   speed="1"
                   loop

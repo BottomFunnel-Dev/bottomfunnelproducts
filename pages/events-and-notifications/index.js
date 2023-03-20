@@ -8,9 +8,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export default function events() {
-    return (
-        <div>
-             <Navbar
+  return (
+    <div>
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -19,12 +19,12 @@ export default function events() {
           logo: false,
         }}
       />
-            <EventsBanner />
-            <EventsAdvantages/>
-            <EventsAmazon/>
-            <EventsScale/>
-            <EventsTrail/>
-            <ProductsFooter />
-        </div>
-    )
+      <EventsBanner />
+      <EventsAdvantages />
+      <EventsAmazon />
+      <EventsScale />
+      <EventsTrail />
+      <ProductsFooter />
+    </div>
+  );
 }

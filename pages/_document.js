@@ -16,6 +16,24 @@ export default function Document() {
         {/* lottie-player cdn */}
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
+
+      {/* script for the page loader */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+                document.onreadystatechange = function () {
+                  if (document.readyState === "loading") {
+                    document.body.classList.add("loading");
+                  } else if (document.readyState === "interactive") {
+                    document.body.classList.add("loading");
+                  } else if (document.readyState === "complete") {
+                    document.body.classList.remove("loading");
+                  }
+                }
+              `,
+        }}
+      />
+
       <body>
         <Main />
         <NextScript />

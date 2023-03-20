@@ -18,7 +18,7 @@ export const SelfServiceBanner = () => {
       </div>
       <div className={styles.selfServicesBannerImageDiv}>
             <lottie-player
-                src={"/Animation/selfService/banner.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/selfService/banner.json"}
                 background="transparent"
                 speed="1"
                 loop

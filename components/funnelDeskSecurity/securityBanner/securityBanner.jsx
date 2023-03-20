@@ -7,7 +7,7 @@ export const SecurityBanner = () => {
     <div className={styles.securityBannerContainer}>
       <span>
         <lottie-player
-            src={"/Animation/Security/banner.json"}
+            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Security/banner.json"}
             background="transparent"
             speed="1"
             loop

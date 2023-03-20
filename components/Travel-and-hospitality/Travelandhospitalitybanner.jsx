@@ -26,7 +26,7 @@ export const Travelandhospitalitybanner = () => {
           style={{ width: "100%", height: "100%", objectFit:"contain" }}
         /> */}
               <lottie-player
-                src={"/Animation/travelandhospitality/banner.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/travelandhospitality/banner.json"}
                 background="transparent"
                 speed="1"
                 loop

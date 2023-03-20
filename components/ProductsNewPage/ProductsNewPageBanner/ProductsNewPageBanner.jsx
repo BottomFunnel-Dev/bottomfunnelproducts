@@ -91,7 +91,7 @@ export const ProductsNewPageBanner = () => {
           </IconContext.Provider> */}
 
           {/* <lottie-player
-            src="/Animation/white.json"
+            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/white.json"
             background="transparent"
             speed="1.5"
             loop
@@ -135,7 +135,7 @@ export const ProductsNewPageBanner = () => {
 
             {/* <div className={styles.backImagesecond}>
               <lottie-player
-                src="/Animation/backorangeproductpage.json"
+                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/backorangeproductpage.json"
                 background="transparent"
                 speed="1.5"
                 loop

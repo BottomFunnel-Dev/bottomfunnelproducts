@@ -7,7 +7,7 @@ export const RetailsCustomer = () => {
       <div className={styles.retailcustomerleftrightboxflextype}>
         <div className={styles.retailcustomerleftboxflextype}>
             <lottie-player
-                src={"/Animation/RetailAndEcommerce/three.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/RetailAndEcommerce/three.json"}
                 background="transparent"
                 speed="1"
                 loop

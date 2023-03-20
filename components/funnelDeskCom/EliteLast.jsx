@@ -26,7 +26,7 @@ export const EliteLast = () => {
         </div>
         <div className={styles.rightGifSide}>
             <lottie-player
-                  src={"/Animation/Supportdesk/chat.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/chat.json"}
                   background="transparent"
                   speed="1"
                   loop

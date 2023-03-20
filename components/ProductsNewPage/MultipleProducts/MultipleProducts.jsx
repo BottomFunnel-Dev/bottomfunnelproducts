@@ -12,7 +12,7 @@ export default function MultipleProducts() {
             <div className={styles.multipleProductseLearning}>
 
                 <div className={styles.multiProductsImageDiv}>
-                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/ProductsLogo/animation.gif' alt='animation' />
+                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/ProductsLogohttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation.gif' alt='animation' />
                 </div>
 
                 <div className={styles.solright}>

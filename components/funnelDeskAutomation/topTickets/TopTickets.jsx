@@ -44,7 +44,7 @@ export const TopTickets = () => {
             </div>
             <span>
              <lottie-player
-                  src={"/Animation/Automation/four.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Automation/four.json"}
                   background="transparent"
                   speed="1"
                   loop

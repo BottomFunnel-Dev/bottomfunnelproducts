@@ -6,7 +6,7 @@ export const IntegrationBanner = () => {
     <div className={style.IntegrationBannermain}>
         <div className={style.IntegrationBannerAnimation}>
           <lottie-player
-                  src={"/Animation/Integration/one.json"}
+                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Integration/one.json"}
                   background="transparent"
                   speed="1"
                   loop

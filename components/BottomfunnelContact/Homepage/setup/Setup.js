@@ -64,7 +64,7 @@ export default function Setup() {
           </div>
           <div className={styles.setupImage}>
               <lottie-player
-                src={"/Animation/contactCenter/three.json"}
+                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/contactCenter/three.json"}
                 background="transparent"
                 speed="1"
                 loop
