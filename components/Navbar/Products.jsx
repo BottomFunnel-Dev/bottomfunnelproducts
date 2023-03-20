@@ -84,10 +84,10 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                   className={prods.productSaasRow}
                 // style={{ width: "100%", marginLeft: "10%", marginTop: "0%"}}
                 >
-                  <p style={{ fontWeight: "500", fontSize: "14px" }}>
+                  <p style={{ fontWeight: "500", fontSize: "14px",marginLeft:"-4%" }}>
                     {item.dropContent}
                   </p>
-                  <p style={{ fontSize: "11px", fontWeight: "500" }}>{item.title}</p>
+                  <p style={{ fontSize: "11px", fontWeight: "500",marginLeft:"-4%"  }}>{item.title}</p>
                 </Link>
               </div>
             ))}

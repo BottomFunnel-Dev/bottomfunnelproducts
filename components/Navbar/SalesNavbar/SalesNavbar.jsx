@@ -169,11 +169,11 @@ export const SalesNavbar = ({ navproductredux }) => {
           style={{ color: productnavbar ? "black" : navproductredux.color }}
         >
           Industries{" "}
-          <img
+          {/* <img
             className={navsales.deskdownIcon}
             src="Images/Logos/downarrow.png"
             alt="image"
-          />
+          /> */}
         </li>
 
         <li>Sign In</li>

@@ -67,7 +67,7 @@ export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMou
               columnGap: "5px",
             }}
           >
-            <img height="40px" src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Neo.png" />
+            <img height="30px" src="Images/Neo.png" />
             <h5> Bottom Funnel Neo</h5>
 
           </div>

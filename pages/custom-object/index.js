@@ -26,6 +26,7 @@ export default function Custom() {
       <WhatCustomObject />
       <CustomBenefit />
       <CustomObjectSupport />
+      
       <TrustedBy />
       <Testimonial />
       <ReadyStarted />

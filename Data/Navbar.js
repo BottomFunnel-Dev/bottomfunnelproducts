@@ -1114,7 +1114,7 @@ export const resource = [
   },
   {
     dropContent: "Videos",
-    path: "/",
+    path: "/videos",
   },
   {
     dropContent: "Community",
@@ -1149,26 +1149,26 @@ export const product4 = [
     navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/customer.png",
     path: "/customer-spotlight",
   },
-  // {
-  //   dropContent: "Customer Service",
-  //   navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Customerservice.png",
-  //   path: "/",
-  // },
-  // {
-  //   dropContent: "IT Enterprises",
-  //   navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/IT.png",
-  //   path: "/",
-  // },
-  // {
-  //   dropContent: "Engagement",
-  //   navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/users.png",
-  //   path: "/",
-  // },
-  // {
-  //   dropContent: "Olly AI",
-  //   navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/olly.png",
-  //   path: "/",
-  // },
+  {
+    dropContent: "Customer Service",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Customerservice.png",
+    path: "/",
+  },
+  {
+    dropContent: "IT Enterprises",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/IT.png",
+    path: "/",
+  },
+  {
+    dropContent: "Engagement",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/users.png",
+    path: "/",
+  },
+  {
+    dropContent: "Olly AI",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/olly.png",
+    path: "/",
+  },
 ];
 
 export const productSolution = [

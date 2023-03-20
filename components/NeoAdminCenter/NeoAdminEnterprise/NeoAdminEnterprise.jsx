@@ -20,7 +20,7 @@ export const NeoAdminEnterprise = () => {
                     style={{ width: "100%", height: "100%" }}
                     />
             </div>
-            <div className={styles.neoAdminEnterpriseText}>
+            <div className={styles.neoAdminEnterpriseTextMain}>
                 <h1>
                     Customizable password <br/>
                     policy

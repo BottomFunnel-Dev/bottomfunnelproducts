@@ -1,0 +1,59 @@
+.videoExploreMainDiv{
+    /* border: 2px solid  red; */
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.videoExploreDiv{
+    border: 2px solid #ef4c23;
+    width: 85%;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.videoExploreImage1{
+    /* border: 2px solid  red; */
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    left: 3%;
+    bottom: 0%;
+}
+.videoExploreImage2{
+    /* border: 2px solid  red; */
+    width: 24%;
+    height: 300px;
+    position: absolute;
+    right: 2%;
+    top: 8%;
+}
+.videoExploreText{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    position: absolute;
+    left: 30%;
+}
+
+.videoExploreText>button{
+    width: 45%;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: auto;
+    margin-left: 20%;
+    background-color: #ef4c23;
+    color: white;
+    border: 2px solid #ef4c23;
+}
+.videoExploreText>button:hover{
+    background-color: white;
+    color: #ef4c23;
+}

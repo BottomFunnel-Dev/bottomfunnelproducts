@@ -1,7 +1,7 @@
 .unifiedsystemmainboxes{
     height: fit-content;
     margin-top: 2%;
- border-bottom: 20px solid #ef4c23;
+    border-bottom: 20px solid #ef4c23;
 }
 
 .unifiedsystemmainboxes>h2{
@@ -13,24 +13,25 @@
     margin: auto;
     margin-top: 2%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: 2px solid red; */
 }
 
-.unifiedsystemdataindi{
+.unifiedsystemdataindiv{
     margin-left: 2%;
     width: 100%;
-    margin-top: 5%;
- 
+    /* margin-top: 5%; */
+    /* border: 2px solid red; */
 }
-.unifiedsystemdataindi>h4{
+.unifiedsystemdataindiv>h5{
     color: #ef4c23;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
-.unifiedsystemdataindi>p{
-    font-size: 20px;
-    text-align: justify;
+.unifiedsystemdataindiv>p{
+    font-size: 17px;
+    text-align: center;
  
 }

@@ -15,7 +15,8 @@
     /* border: 2px solid red; */
     width: 80%;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 18%;
+    margin-left: 15%;
 }
 .neoAdminBannerContent>button{
     background-color: #EE4C23;
@@ -34,7 +35,7 @@
 }
 .neoAdminBannerImage{
     /* border: 2px solid red; */
-    width: 45%;
+    width: 43%;
     height: 60vh;
-    margin-top: 8%;
+    margin-top: 6%;
 }

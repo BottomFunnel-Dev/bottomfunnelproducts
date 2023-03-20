@@ -16,7 +16,7 @@ export const Unifiedsystem = () => {
         },
 
         {
-            htxt:"Persinalized engagement",
+            htxt:"Personalized engagement",
             stxt:"Createand manage detailed customer segments and execute targeted multi-channel,capaigns that delight customers.",
         },
 
@@ -26,8 +26,8 @@ export const Unifiedsystem = () => {
     <h2>UCR: The unified system of intelligence for customer delight</h2>
     <div className={styles.unifiedsystemdatamappingboxes}>{unifiedsystemdata.map((e)=>{
         return (
-            <div className={styles.unifiedsystemdataindi}>
-            <h4>{e.htxt}</h4>
+            <div className={styles.unifiedsystemdataindiv}>
+            <h5>{e.htxt}</h5>
             <p>{e.stxt}</p>
             </div>
         )

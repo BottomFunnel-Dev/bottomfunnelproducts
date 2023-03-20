@@ -23,7 +23,8 @@ width: 35%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 margin: 1%;
 border-radius: 10px;
-padding: 10px;
+padding: 25px;
+/* border: 2px solid red; */
 }
 .unifiedpersonaldataindiin>p{
 text-align: justify;
@@ -31,7 +32,8 @@ text-align: justify;
 .unifiedpersonalindiixon{
 height: 30%;
 width: 30%;
-margin: 5%;
+margin: 2%;
+/* border: 2px solid red; */
 }
 .unifiedpersonalanotherboxe{
 height: 300px;
@@ -42,13 +44,16 @@ display: flex;
 .unifiedpersonalflexleftbox{
 width: 30%;
 margin-top: 2%;
+margin-left: 5%;
+/* border: 2px solid red; */
 }
 .unifiedpersonalflexrighttbox{
-width: 50%;
-margin-left: 10%;
+width: 55%;
+margin-left: 15%;
 display: flex;
 flex-wrap: wrap;
 margin-top: 3%;
+/* border: 2px solid red; */
 }
 .unifiedpersonalflexrighttbox>div{
 width: 35%;
@@ -61,12 +66,12 @@ font-weight: 700;
 }
 .explorenowbutton{
 position: absolute;
-margin-left: 59%;
+margin-left: 69%;
 margin-top: 13%;
 }
 .explorenowbutton {
 padding: 10px 10px;
-border-radius: 100px;
+border-radius: 10px;
 width: 180px;
 background-color: #ef4c23;
 border: none;
@@ -79,6 +84,7 @@ color: white;
 .explorenowbutton:hover {
 background-color: white;
 color:  #ef4c23;
+border: 2px solid #ef4c23;
 }
 
 @media only screen and (min-width:0px) and (max-width:600px){
