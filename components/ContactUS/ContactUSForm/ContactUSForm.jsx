@@ -27,7 +27,7 @@ export const ContactUSForm = () => {
         </div>
 
         <p>Email id :-</p>
-        <div className={contact.ContactUSForminfo}>
+        <div className={contact.ContactUSFormEmailinfo}>
           <h2>hr@bottomfunnel.net</h2>
           <h2>info@bottomfunnel.net</h2>
         </div>

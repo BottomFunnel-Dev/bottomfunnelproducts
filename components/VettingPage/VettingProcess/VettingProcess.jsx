@@ -9,10 +9,12 @@ export const VettingProcess = () => {
         <h1>
           Our <span>Vetting</span> Process
         </h1>
+        
         <h2>
           Over 5000 talents apply every month, but only 4% make it to the
           network.
         </h2>
+
         <p>
           Surveys show that more and more companies are turning to brand-new
           vetting methods in order to make a hiring decision. But you know what
@@ -20,8 +22,8 @@ export const VettingProcess = () => {
           everything you need to know about your new employee before you hire
           them.
         </p>
-        <div>
-          
+
+        <div>  
           <Image
           src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/flowchart.webp"}
           alt={"chartimage"}
