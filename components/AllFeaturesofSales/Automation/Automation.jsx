@@ -6,8 +6,8 @@ export const Automation = () => {
   return (
     <div>
         <div className={styles.Automationheading}>
-        <h2>Get a 360-degree view of customer's information</h2>
-            <p>Empower sales teams with a single view of the customer to deliver stellar experience</p>
+        <h2>Improve sales productivity with automation</h2>
+            <p>Boost your teams’ efficiency by automating repetitive and complex tasks</p>
 
         </div>
         <div className={styles.Automationmaindiv}>
@@ -18,7 +18,7 @@ export const Automation = () => {
                         <h4>Work flows</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/productvity1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -28,17 +28,16 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                      <p>Automate sales processes and reduce manual effort using conditions or event-based triggers.</p>
                     </div>
                 </div>
 
                 <div className={styles.Automationmaindivinnerbox}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Sales Sequences</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/productvity2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -48,8 +47,7 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Set up engaging outreach campaigns with day-based or behavior-based trigger and also manage follow-ups and reminders.</p>
                     </div>
                 </div>
 
@@ -58,10 +56,10 @@ export const Automation = () => {
             <div className={styles.Automationmaindivinner}>
                 <div className={styles.Automationmaindivinnerbox}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Territory Management </h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/productvity5.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -71,16 +69,15 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                      <p>Segment and prioritize prospects according to rules, and identify key territories with built-in metrics.</p>
                     </div>
                 </div>
                 <div className={styles.Automationmaindivinnerbox}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Auto-profile Enrichment</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/productvity3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -90,8 +87,7 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Get better context about your prospects with accurate, auto-filled data on their social and publicly available information.</p>
                     </div>
                 </div>
             </div>
@@ -103,10 +99,10 @@ export const Automation = () => {
             <div className={styles.Automationmaindivinner}>
                 <div className={styles.Automationmaindivinnerbox1}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>IntelliAssign </h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/productvity4.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -116,8 +112,7 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                   <p>Auto-route conversations to the right customer expert or team based on skill level, conversation limits, and other factors.</p>
                     </div>
                 </div>
 
@@ -137,8 +132,8 @@ export const Automation = () => {
 
 
         <div className={styles.Automationheading}>
-        <h2>Get a 360-degree view of customer's information</h2>
-            <p>Empower sales teams with a single view of the customer to deliver stellar experience</p>
+        <h2>Close deals and grow revenue </h2>
+            <p>Build and track fully customized sales processes for your organization</p>
 
         </div>
         <div className={styles.Automationmaindivone}>
@@ -146,10 +141,10 @@ export const Automation = () => {
             <div className={styles.Automationmaindivinner}>
                 <div className={styles.Automationmaindivinnerbox1one}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Weighted Pipeline</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -159,8 +154,7 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                        <p>Assign probability across stages, track your deals’ conversion and forecast revenue. </p>
                     </div>
                 </div>
 
@@ -173,10 +167,10 @@ export const Automation = () => {
             <div className={styles.Automationmaindivinner}>
                 <div className={styles.Automationmaindivinnerbox}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Activity Goals</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -186,17 +180,16 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                        <p>Define and track goals for your sales teams based on the number of closed deals and revenue, on a daily, weekly, or quarterly basis.</p>
                     </div>
                 </div>
 
                 <div className={styles.Automationmaindivinnerbox}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Product Catalog</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue4.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -206,8 +199,7 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                        <p>Maintain your product inventory and configure pricing models, tax brackets and discounts in multiple currencies. </p>
                     </div>
                 </div>
 
@@ -216,10 +208,10 @@ export const Automation = () => {
             <div className={styles.Automationmaindivinner}>
                 <div className={styles.Automationmaindivinnerbox}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Connect with Slack</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue5.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -229,16 +221,15 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                        <p>Auto-sync conversations about deals between Slack and Freshsales and collaborate across your teams. </p>
                     </div>
                 </div>
                 <div className={styles.Automationmaindivinnerbox}>
                     <div className={styles.Automationmaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Multiple Sales Pipelines</h4>
                         <div className={styles.Automationmaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -248,8 +239,7 @@ export const Automation = () => {
                         </div>
                     </div>
                     <div className={styles.Automationmaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                      <p>Create custom pipelines to visualize deal progress and define sales stages to align with your business needs.</p>
                     </div>
                 </div>
             </div>

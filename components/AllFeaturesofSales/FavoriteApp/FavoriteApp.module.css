@@ -7,7 +7,7 @@
     height: 45vh;
     display: flex;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 3%;
    
 
 }
@@ -37,9 +37,14 @@
     align-items: center;
 
 }
+.FavoriteAppmaindivinnerbox p{
+    margin-top: 6%;
+    /* border: 2px solid blue; */
+}
 .FavoriteAppmaindivheading{
     text-align: center;
-    padding-top: 3%;
+    padding-top: 4%;
+    /* border: 2px solid; */
 }
 .FavoriteAppmaindivimage{
     width: 50px;

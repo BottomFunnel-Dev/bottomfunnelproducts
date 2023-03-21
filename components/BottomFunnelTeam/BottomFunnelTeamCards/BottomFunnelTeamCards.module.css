@@ -44,3 +44,55 @@
 
   transform: translateY(-10px);
 }
+
+@media (max-width: 1024px) {
+    .BottomFunnelTeamCardsmaindiv{
+        /* border: 2px solid red; */
+        text-align: center;
+        margin-top: 3%;
+    
+    }
+    .BottomFunnelTeamCardsinnerdiv{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 3%;
+    
+    }
+    .BottomFunnelTeamCardsinnerdivimage{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        
+      
+    }
+    .BottomFunnelTeamCardsinnerdivimage:hover{
+        transition: all 0.2s linear;
+    
+        transform: translateY(-10px);
+    }
+    .BottomFunnelTeamCardsinnerdivcards{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        border: 1px solid pink;
+        padding: 1%;
+        border-radius: 20px;
+        height: 200px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-top: 3%;
+    
+    }
+    .BottomFunnelTeamCardsinnerdivcards h5{
+      margin-top: 5%;
+    }
+    .BottomFunnelTeamCardsinnerdivcards:hover{
+        transition: all 0.2s linear;
+    
+      transform: translateY(-10px);
+    }
+    
+}

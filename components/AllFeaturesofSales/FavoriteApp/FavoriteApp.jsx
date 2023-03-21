@@ -6,8 +6,8 @@ export const FavoriteApp = () => {
   return (
     <div>
      <div className={styles.FavoriteAppmaindivheading}>
-     <h2>Get a 360-degree view of customer's information</h2>
-            <p>Empower sales teams with a single view of the customer to deliver stellar experience</p>
+     <h2>Connect the CRM with your favorite apps</h2>
+            <p>Bottom-funnel is built to integrate with applications that you use every day</p>
 
      </div>
 
@@ -15,10 +15,10 @@ export const FavoriteApp = () => {
         <div className={styles.FavoriteAppmaindivinner}>
             <div className={styles.FavoriteAppmaindivinnerbox}>
              <div className={styles.FavoriteAppmaindivinnerboxlogo}>
-                <h4>Table and kanban view</h4>
+                <h4>API Access</h4>
                 <div className={styles.FavoriteAppmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/c.webp"}
+          src={"/Images/allfeaturessales/connect1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -28,15 +28,15 @@ export const FavoriteApp = () => {
                 </div>
              </div>
              <div>
-             <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+              <p>Integrate your account with third-party applications and connect to multiple data sources.</p>
              </div>
             </div>
             <div className={styles.FavoriteAppmaindivinnerbox}>
              <div className={styles.FavoriteAppmaindivinnerboxlogo}>
-                <h4>Table and kanban view</h4>
+                <h4>Marketplace</h4>
                 <div className={styles.FavoriteAppmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/connect2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -46,7 +46,7 @@ export const FavoriteApp = () => {
                 </div>
              </div>
              <div>
-             <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+              <p>Scale with the Freshworks platform. Bring in Slack, Gong, G Suite, Xero, Outlook, and other apps into your CRM.</p>
              </div>
             </div>
         </div>
