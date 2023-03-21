@@ -3,6 +3,7 @@ import { EnterprizePlatform } from '../../components/ContactResolution/Enterpriz
 import { CostlyChannelBanner } from '../../components/MoveFromCostlyChannel/CostlyChannelBanner/CostlyChannelBanner'
 import { DeliverStellar } from '../../components/MoveFromCostlyChannel/DeliverStellar/DeliverStellar'
 import { ScaleEfficiently } from '../../components/MoveFromCostlyChannel/ScaleEfficiently/ScaleEfficiently'
+import { SupportChannel } from '../../components/MoveFromCostlyChannel/SupportChannel/SupportChannel'
 import Navbar from '../../components/Navbar/Navbar'
 import { ProdNavbar } from '../../components/ProdNavbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
@@ -156,6 +157,7 @@ export default function movefromcostlychannel() {
         <ScaleEfficiently/>
         <DeliverStellar/>
         <EnterprizePlatform/>
+        <SupportChannel/>
 
 
         <Testimonial/>
