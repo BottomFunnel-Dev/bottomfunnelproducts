@@ -11,55 +11,55 @@ export const Revenue = () => {
     </div>
     <div className={style.Revenuediv}>
         <div className={style.Revenueinnerdiv}>
+          <h5>Close deals faster with a 360° view 
+of your customers</h5>
             <div className={style.Revenueinnerdivimage}>
             <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view1.webp"}
-          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view1.webp"}
+          src={"/Images/SalesPagePhotos/Rectangle 4.png"}
+          alt={"/Images/SalesPagePhotos/Rectangle 4.png"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view1.png" alt="logo" /> */}
             </div>
-            <h5>Improve seller effectiveness by streamlining your sales process</h5>
+            <p>Get a complete view of your customer’s interactions to deliver personalized experiences. Leverage data to drive revenue.</p>
         </div>
+       
 
-        {/* <div className=Revenue-innerdiv>
-            <div>
-                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.png" alt="logo" />
-            </div>
-            <p>Close deals faster with a  360° view of customers </p>
-        </div> */}
         <div className={style.Revenueinnerdiv}>
+          <h5> Improve seller effectiveness by 
+streamlining  your sales process</h5>
             <div className={style.Revenueinnerdivimage}>
             <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.webp"}
-          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.webp"}
+          src={"/Images/SalesPagePhotos/Rectangle 4-1.png"}
+          alt={"/Images/SalesPagePhotos/Rectangle 4-1.png"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/360view.png" alt="logo" /> */}
             </div>
-            <h5> Close deals faster with a  360° view of customers </h5>
+            <p>Have conversations with context, automate time-consuming tasks, and spend valuable time selling and not on mundane legwork.</p>
         </div>
 
         <div className={style.Revenueinnerdiv}>
+          <h5>Reduce IT complexity & cost with 
+a comprehensive solution</h5>
             <div className={style.Revenueinnerdivimage}>
             <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view.webp"}
-          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view.webp"}
+          src={"/Images/SalesPagePhotos/Rectangle 4-2.png"}
+          alt={"/Images/SalesPagePhotos/Rectangle 4-2.png"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SalesPagePhotos/view.png" alt="logo" /> */}
             </div>
-            <h5>Reduce IT Complexity & cost with a comprehensive solution</h5>
+            <p>Keep teams happy with a solution that is easy to implement, and easier to use. Increase adoption, reduce costs, and boost morale.</p>
         </div>
+      
+       
     </div>
 
     </div>

@@ -7,8 +7,8 @@ export const MakeSmarter = () => {
     <div>
 
 <div className={styles.MakeSmarterheading}>
-        <h2>Get a 360-degree view of customer's information</h2>
-            <p>Empower sales teams with a single view of the customer to deliver stellar experience</p>
+        <h2>Make smarter decisions with in-depth analytics and AI</h2>
+            <p>Measure performance with visual reports and enhance your productivity with AI-powered predictions</p>
 
         </div>
         <div className={styles.MakeSmartermaindiv}>
@@ -16,10 +16,10 @@ export const MakeSmarter = () => {
             <div className={styles.MakeSmartermaindivinner}>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Contact Scoring</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -29,17 +29,16 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                     <p>Identify and prioritize the most sales-ready prospects with scores assigned by Freddy AI based on positive and negative signals.</p>
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Deal Insights</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -49,17 +48,16 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Predict deal closure with Freddy AI insights based on historical sales data, engagement, and activities.</p>
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Next Best Action </h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -69,8 +67,7 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Use smart suggestions from Freddy AI to detect OOO, manage calendars, reschedule appointments, and set up tasks.</p>
                     </div>
                 </div>
 
@@ -79,10 +76,10 @@ export const MakeSmarter = () => {
             <div className={styles.MakeSmartermaindivinner}>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Sales Forecasting</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue4.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -92,16 +89,15 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                      <p>Predict sales performance and revenue and target high-intent deals based on past sales data.</p>
                     </div>
                 </div>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Reports and Dashboards </h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -111,17 +107,16 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Stay on top of key metrics and make data-led decisions with pre-built or custom reports and visual dashboards.</p>
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Sales Reports</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/revenue5.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -131,8 +126,7 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                     <p>Track team performance and identify bottlecks with sales cycle, velocity, and activity reports</p>
                     </div>
                 </div>
             </div>
@@ -148,8 +142,8 @@ export const MakeSmarter = () => {
 
 
         <div className={styles.MakeSmarterheading}>
-        <h2>Get a 360-degree view of customer's information</h2>
-            <p>Empower sales teams with a single view of the customer to deliver stellar experience</p>
+        <h2>Connect with your customers where they are </h2>
+            <p>Engage with context on the customer's preferred channel from the CRM</p>
 
         </div>
         <div className={styles.MakeSmartermaindivone}>
@@ -157,10 +151,10 @@ export const MakeSmarter = () => {
             <div className={styles.MakeSmartermaindivinner}>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Email</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/customers1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -170,17 +164,16 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Connect your inbox and Freshsales with two-way email sync and map incoming emails with the right contacts. Create and send customized campaigns with ready-to-use email templates.</p>
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Chat Campaigns</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/customers2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -190,17 +183,16 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Deliver personalized messages on chat with trigger-based campaigns. Generate and qualify leads and reduce chat drop-off with custom chatbots.</p>
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Phone (Holiday Routing)</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/customers3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -210,8 +202,7 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                     <p>Handle voice interactions with high-quality calls, auto-log and record calls, and monitor metrics. Plan and manage call routing, greetings, and voicemails during holidays. </p>
                     </div>
                 </div>
 
@@ -220,10 +211,10 @@ export const MakeSmarter = () => {
             <div className={styles.MakeSmartermaindivinner}>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Messenger </h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/customers4.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -233,16 +224,15 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                        <p>Interact with customers and provide real-time support across channels like WhatsApp, Apple Business Chat, Facebook Messenger, and LINE.</p>
                     </div>
                 </div>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>SMS integration</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/customers5.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -252,17 +242,16 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                   <p>Connect Freshsales with your SMS provider to  send updates on SMSand boost team productivity with workflows and bots.</p>
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Zoom</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/customers6.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -272,8 +261,7 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                    <p>Integrate Freshsales and Zoom to schedule, host, and join virtual meetings right from your CRM.</p>
                     </div>
                 </div>
             </div>
@@ -288,8 +276,8 @@ export const MakeSmarter = () => {
 
 
         <div className={styles.MakeSmarterheading}>
-        <h2>Get a 360-degree view of customer's information</h2>
-            <p>Empower sales teams with a single view of the customer to deliver stellar experience</p>
+        <h2>Run your sales from your phone</h2>
+            <p>Close more deals on the go</p>
 
         </div>
         <div className={styles.MakeSmartermaindiv}>
@@ -297,10 +285,10 @@ export const MakeSmarter = () => {
             <div className={styles.MakeSmartermaindivinner}>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Call Logs and Voice Notes</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/run1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -310,17 +298,36 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                     <p>Automatically log calls, associate them with contacts, and take notes for context in future.</p>
+                    </div>
+                </div>
+
+                <div className={styles.MakeSmartermaindivinnerbox}>
+                    <div className={styles.MakeSmartermaindivinnerlogo}>
+                        <h4>Offline Mode</h4>
+                        <div className={styles.MakeSmartermaindivinnerlogoimage}>
+                        <Image
+          src={"/Images/allfeaturessales/run2.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        /> 
+                        </div>
+                    </div>
+                    <div className={styles.MakeSmartermaindivcontent}>
+                        <p>Access data even when you are offline or have poor connectivity and sync it when back online.</p>
 
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
+                        <h4>Quick Links and Notifications </h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/run3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -330,27 +337,7 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
-                    </div>
-                </div>
-
-                <div className={styles.MakeSmartermaindivinnerbox}>
-                    <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Work flows</h4>
-                        <div className={styles.MakeSmartermaindivinnerlogoimage}>
-                        <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        /> 
-                        </div>
-                    </div>
-                    <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Instantly access documents with quick links and get real-time push notifications for meeting and upcoming tasks.</p>
 
                     </div>
                 </div>
@@ -360,10 +347,10 @@ export const MakeSmarter = () => {
             <div className={styles.MakeSmartermaindivinner}>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Google Maps & Uber</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/run4.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -373,16 +360,15 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
-
+                        <p>Locate your contact easily and hail an Uber for your on-site meetings right from the mobile app.</p>
                     </div>
                 </div>
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>SMS</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/run5.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -392,17 +378,17 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Send personalized SMS in bulk or to individuals and receive responses via Twilio, Zipwhip, and ClickSend.</p>
 
                     </div>
                 </div>
 
                 <div className={styles.MakeSmartermaindivinnerbox}>
                     <div className={styles.MakeSmartermaindivinnerlogo}>
-                        <h4>Workflows</h4>
+                        <h4>Zoom Meetings</h4>
                         <div className={styles.MakeSmartermaindivinnerlogoimage}>
                         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/d.webp"}
+          src={"/Images/allfeaturessales/run6.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -412,7 +398,7 @@ export const MakeSmarter = () => {
                         </div>
                     </div>
                     <div className={styles.MakeSmartermaindivcontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Schedule or join Zoom meetings from your mobile device.</p>
 
                     </div>
                 </div>

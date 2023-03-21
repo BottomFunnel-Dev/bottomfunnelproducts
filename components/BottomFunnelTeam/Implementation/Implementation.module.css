@@ -55,3 +55,68 @@
 .Implementationinnerdivcontentone p{
     text-align: justify;
 }
+
+@media (max-width: 1024px) {
+    .Implementationmaindiv{
+        /* border: 2px solid red; */
+        /* text-align: center; */
+        margin-top: 5%;
+    }
+    .Implementationmaindivtext{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .Implementationmaindivtext p{
+        text-align: justify;
+    }
+    .Implementationinnerdiv{
+        display: flex;
+        flex-direction: column-reverse;
+        /* width: %; */
+        margin: auto;
+        align-items: center;
+        margin-top: 3%;
+        justify-content: space-between;
+    }
+    .Implementationinnerdivcontent{
+        width: 95%;
+        margin: auto;
+    }
+    .Implementationinnerdivcontent p{
+       text-align: justify;  
+    }
+    .Implementationinnerdivimage{
+        width: 90%;
+    }
+    .Implementationmaindivbutton{
+        font-size: 18px;
+        width: 200px;
+        height: 40px;
+        background-color: #ef4c23;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+    .Implementationmaindivbutton:hover{
+        background-color: white;
+        color: #ef4c23;
+        border: 1px solid #ef4c23;
+    }
+    
+    .Implementationinnerdivone{
+         display: flex;
+        flex-direction:column-reverse;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .Implementationinnerdivcontentone{
+        width: 95%;
+        margin: auto;
+    }
+    .Implementationinnerdivcontentone p{
+        text-align: justify;
+    }
+}

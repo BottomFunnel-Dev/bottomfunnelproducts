@@ -18,7 +18,7 @@ export const InformationCards = () => {
                      <h4>Table and kanban view</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/10.webp"}
+          src={"/Images/allfeaturessales/Rectangle 5295.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -37,7 +37,7 @@ export const InformationCards = () => {
                      <h4>Activity Timeline</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/11.webp"}
+          src={"/Images/allfeaturessales/Rectangle 5295-1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -56,7 +56,7 @@ export const InformationCards = () => {
                      <h4>Details Section</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/22.webp"}
+          src={"/Images/allfeaturessales/Rectangle 5295-2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -75,7 +75,7 @@ export const InformationCards = () => {
                      <h4>Highlight Cards</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/33.webp"}
+          src={"/Images/allfeaturessales/Rectangle 5295-3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -109,7 +109,7 @@ export const InformationCards = () => {
                      <h4>Custom Sales Activities</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/44.webp"}
+          src={"/Images/allfeaturessales/modifie1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -128,7 +128,7 @@ export const InformationCards = () => {
                      <h4>Contact Lifecycle Stages</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/55.webp"}
+          src={"/Images/allfeaturessales/modifie2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -138,7 +138,7 @@ export const InformationCards = () => {
                      </div>
                     </div>
                     <div>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Track a prospect through their buying journey with unique contact lifecycle stages and sub-stages.</p>
                     </div>
                 </div>
 
@@ -147,7 +147,7 @@ export const InformationCards = () => {
                      <h4>Layout Customization</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/66.webp"}
+          src={"/Images/allfeaturessales/modifie3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -157,7 +157,7 @@ export const InformationCards = () => {
                      </div>
                     </div>
                     <div>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Create custom fields,  groups, and modules to align with your business process and capture relevant information.</p>
                     </div>
                 </div>
 
@@ -166,7 +166,7 @@ export const InformationCards = () => {
                      <h4>Multi-Currency and Multi-Language</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/77.webp"}
+          src={"/Images/allfeaturessales/modifie4.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -176,7 +176,7 @@ export const InformationCards = () => {
                      </div>
                     </div>
                     <div className={styles.InformationCardsdivimagecontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>View and manage data in your preferred language and handle transactions in 150+ currencies.</p>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@ export const InformationCards = () => {
                      <h4>Role-based Access</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/88.webp"}
+          src={"/Images/allfeaturessales/define1.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -210,7 +210,7 @@ export const InformationCards = () => {
                      </div>
                     </div>
                     <div>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Manage and regulate data access to your team by creating roles and setting permissions at record level.</p>
                     </div>
                 </div>
 
@@ -219,7 +219,7 @@ export const InformationCards = () => {
                      <h4>Record Types</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/99.webp"}
+          src={"/Images/allfeaturessales/define2.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -229,7 +229,7 @@ export const InformationCards = () => {
                      </div>
                     </div>
                     <div>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Define data types across modules to help users update and consume information according to their roles</p>
                     </div>
                 </div>
 
@@ -238,7 +238,7 @@ export const InformationCards = () => {
                      <h4>Scope and permissions </h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/a.webp"}
+          src={"/Images/allfeaturessales/define3.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -248,7 +248,7 @@ export const InformationCards = () => {
                      </div>
                     </div>
                     <div>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Configure permissions for individual fields and govern data access to critical data with global, restricted, or territory access.</p>
                     </div>
                 </div>
 
@@ -257,7 +257,7 @@ export const InformationCards = () => {
                      <h4>Audit Logs</h4>
                      <div className={styles.InformationCardsdivimage}>
                      <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/b.webp"}
+          src={"/Images/allfeaturessales/define4.png"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -267,7 +267,7 @@ export const InformationCards = () => {
                      </div>
                     </div>
                     <div className={styles.InformationCardsdivimagecontent}>
-                    <p>Visualize data as a table, list or kanban board, or get a summary and access quick actions to perform tasks at scale.</p>
+                        <p>Track and filter all actions like edits, deletions, or configuration changes made in a chronological order.</p>
                     </div>
                 </div>
             </div>
