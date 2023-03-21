@@ -7,14 +7,15 @@ export const OurWholeLeft = ({ data }) => {
     <div className={styles.ourWholeLeftContainer}>
       <div className={styles.ourWholeLeftImage}>
         <Image
-            src={data.image}
-            alt={"image"}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-            />
+          src={data.image}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
+      
       <div className={styles.ourWholeLeftContent}>
         <div>
           <p>{data.body}</p>

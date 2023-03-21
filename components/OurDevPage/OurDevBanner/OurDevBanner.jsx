@@ -7,7 +7,6 @@ export const OurDevBanner = () => {
   return (
     <div className={styles.ourDevBannerContainer}>
       <div className={styles.ourDevBannerImage}>
-
         <Image
           src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ourDevPhotos/banner.webp"}
           alt={"bannerimage"}

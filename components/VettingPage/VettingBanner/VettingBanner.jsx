@@ -7,7 +7,6 @@ export const VettingBanner = () => {
   return (
     <div className={styles.vettingBannerContainer}>
       <div className={styles.vettingBannerImage}>
-
         <Image
           src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/banner.webp"}
           alt={"Humanimage"}

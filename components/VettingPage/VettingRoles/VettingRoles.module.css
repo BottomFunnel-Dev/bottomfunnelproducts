@@ -23,7 +23,6 @@
 .vettingRolesContent {
   width: 85%;
   margin: auto;
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -35,7 +34,6 @@
   height: 120px;
   margin-bottom: 2%;
   background-color: white;
-
   overflow: hidden;
   border-radius: 10px;
   cursor: pointer;
@@ -45,7 +43,6 @@
 .vettingRolesContent > div > span {
   width: 85%;
   height: fit-content;
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,12 +68,10 @@
   height: 2%;
   background: #ef4c23;
   overflow: hidden;
-
   position: absolute;
   bottom: 25%;
   left: 5%;
   border-radius: 10px;
-
   transition: bottom 0.1s linear, height 0.2s linear 0.4s, width 0.2s linear;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -87,7 +82,6 @@
   width: 90%;
   margin: auto;
   opacity: 0;
-
   transition: opacity 0.2s linear;
 }
 
@@ -96,7 +90,6 @@
   width: 100%;
   bottom: 0;
   left: 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,5 +102,119 @@
 
 .vettingRolesCardsIconsImages {
   height: 60px;
-  
+}
+
+/* for any type of mobile responsive */
+
+@media (max-width: 480px) {
+  .vettingRolesMain {
+    width: 95%;
+    margin: auto;
+  }
+
+  .vettingRolesMain > h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 2% auto;
+  }
+
+  .vettingRolesMain > h1 > span {
+    color: #ef4c23;
+  }
+
+  .vettingRolesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .vettingRolesContent {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .vettingRolesContent > div {
+    width: 50%;
+    height: 120px;
+    margin-bottom: 2%;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .vettingRolesContent > div > span {
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    transition: opacity 0.4s linear;
+    height: 30%;
+    opacity: 1;
+  }
+
+  .vettingRolesContent > div > span > h4 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .vettingRolesContent > div:hover span {
+    opacity: 0;
+  }
+
+  .vettingRolesContent > div > div {
+    width: 30%;
+    height: 2%;
+    background: #ef4c23;
+    overflow: hidden;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    border-radius: 10px;
+    transition: bottom 0.1s linear, height 0.2s linear 0.4s, width 0.2s linear;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .vettingRolesContent > div > div > p {
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+  }
+
+  .vettingRolesContent > div:hover div {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vettingRolesContent > div:hover div > p {
+    text-align: justify;
+    opacity: 1;
+  }
+
+  .vettingRolesCardsIconsImages {
+    height: 60px;
+  }
+}
+
+/* for any type of tablet screen responsive */
+
+@media (min-width: 481px) and (max-width: 1024px) {
 }

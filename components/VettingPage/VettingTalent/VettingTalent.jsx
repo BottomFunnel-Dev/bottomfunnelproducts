@@ -28,9 +28,9 @@ export const VettingTalent = () => {
         Every <span>talent</span> in our network is pre-vetted and qualified on
         below parameters.
       </h1>
+      
       <div className={styles.vettingTalentMain}>
         <div className={styles.vettingTalentimage}>
-          
           <Image
           src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/human.webp"}
           alt={"humanimage"}

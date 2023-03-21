@@ -22,6 +22,7 @@ export default function Awards() {
           logo: false,
         }}
       />
+      
       <AwardsBanner />
       <AwardsSection />
 

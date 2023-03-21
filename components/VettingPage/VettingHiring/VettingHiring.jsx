@@ -31,6 +31,7 @@ export const VettingHiring = () => {
                 style={{ width: "100%", height: "100%" }}
               />
             </div>
+            
             <div className={styles.vettingHiringContent}>
               <h2>{title}</h2>
               <p>{body}</p>

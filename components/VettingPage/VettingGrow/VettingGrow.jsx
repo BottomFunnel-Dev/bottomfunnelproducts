@@ -9,6 +9,7 @@ export const VettingGrow = () => {
     { title: "Cost Advantage", stats: "Upto 40%" },
     { title: "Time Zone Available", stats: "5+ Time Zones" },
   ];
+
   return (
     <div className={styles.vettingGrowContainer}>
       <h1>
@@ -25,6 +26,7 @@ export const VettingGrow = () => {
             </div>
           ))}
         </div>
+        
         <p>
           Want to know about the project before committing resources? We do 95%
           of our business in less than 24 hours. Take a second and let us know a
