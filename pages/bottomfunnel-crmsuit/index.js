@@ -8,6 +8,7 @@ import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import { SalesFooter } from "../../components/SalesFooter/SalesFooter";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 export default function bottomfunnelCrmSuit() {
@@ -22,12 +23,7 @@ export default function bottomfunnelCrmSuit() {
           logo: false,
         }}
       />
-      {/* <ProductsNavbar
-      navproductredux={{
-        color: "black",
-        logo: false,
-      }}
-    /> */}
+
 
       <BottomFunnelTeamBanner />
       <BottomFunnelTeamCards />
@@ -39,7 +35,7 @@ export default function bottomfunnelCrmSuit() {
       <ReadyStarted />
       {/* <TalentProfiles /> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <SalesFooter />
     </div>
   );
 }

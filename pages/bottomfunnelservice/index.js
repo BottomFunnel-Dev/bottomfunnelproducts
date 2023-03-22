@@ -13,6 +13,7 @@ import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import { TalentProfiles } from '../../components/ProductsNewPage/TalentProfiles/TalentProfiles'
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
+import { ServiceFooter } from '../../components/ServiceFooter/ServiceFooter'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 
 export default function bottomfunnelservice () {
@@ -29,32 +30,27 @@ export default function bottomfunnelservice () {
             logo: false,
           }}
         />
-        <SalesNavbar
-          navproductredux={{
-            color: "black",
-            logo: false,
-          }}
-        />
+    
        
 
 
-<BottomFunnelServiceBanner/>
-{/* <TrustedBy/> */}
-<BetterService/>
-<ServiceTools/>
-<PopularFeatures/>
-<ServiceWalk/>
+      <BottomFunnelServiceBanner/>
+      {/* <TrustedBy/> */}
+      <BetterService/>
+      <ServiceTools/>
+      <PopularFeatures/>
+      <ServiceWalk/>
 
 {/* <DeskStarted/> */}
 
-<Testimonial />
+      <Testimonial />
       <TrustedBy/>
      
       
       <ReadyStarted />
       <TalentProfiles/>
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <ServiceFooter />
 
 
       

@@ -1,6 +1,5 @@
 import React from "react";
-import BlogsBanner from "../../components/Blogs/BlogsBanner/BlogsBanner";
-import BlogsData from "../../components/Blogs/BlogsData/BlogsData";
+import CommunityBanner from "../../components/Community/CommunityBanner/CommunityBanner";
 import Navbar from "../../components/Navbar/Navbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
@@ -9,7 +8,7 @@ import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonia
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 
-export default function Blog() {
+export default function Community() {
   return (
     <div>
     <Navbar
@@ -23,8 +22,7 @@ export default function Blog() {
         }}
       />
      
-      <BlogsBanner/>
-      <BlogsData/>
+      <CommunityBanner/>
       
       <Testimonial/>
       <TrustedBy/>

@@ -1,4 +1,5 @@
 import React from "react";
+import { MarketerFooter } from "../../components/MarketerFooter/Marketer";
 import { ConversonalCrm } from "../../components/MarketerHomePage/ConversonalCrm/ConversonalCrm";
 import { ForBusiness } from "../../components/MarketerHomePage/ForBusiness/ForBusiness";
 import { MarketerHomePageBanner } from "../../components/MarketerHomePage/MarketerHomePageBanner/MarketerHomePageBanner";
@@ -96,7 +97,7 @@ export default function MarketerHomePage() {
       <ReadyStarted />
       {/* <TalentProfiles /> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <MarketerFooter />
     </div>
   );
 }

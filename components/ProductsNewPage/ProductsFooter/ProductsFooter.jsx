@@ -18,7 +18,6 @@ export const ProductsFooter = () => {
                     <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
                 </div>
 
-
                 <div className={styles.productsFooterSideButtons}>
                     <button className={styles.productsFooterCallToAction}>
                         Hire a Talent
@@ -196,7 +195,7 @@ export const ProductsFooter = () => {
 
                     <ul className={styles.productMainProductDivLink}>
 
-                        <Link style={{ color: "black" }} href={"https://service.bottomfunnel.net/"}>
+                        <Link style={{ color: "black",textDecoration:"none" }} href={"https://service.bottomfunnel.net/"}>
                             <h5>Services </h5>
                         </Link>
 

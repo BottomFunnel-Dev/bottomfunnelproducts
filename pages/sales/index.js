@@ -13,6 +13,7 @@ import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadySta
 import { TalentProfiles } from "../../components/ProductsNewPage/TalentProfiles/TalentProfiles";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import { SalesFooter } from "../../components/SalesFooter/SalesFooter";
 
 export default function SalesPage() {
   return (
@@ -48,7 +49,7 @@ export default function SalesPage() {
       <ReadyStarted />
       <TalentProfiles />
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <SalesFooter />
       </div>
     </>
   );

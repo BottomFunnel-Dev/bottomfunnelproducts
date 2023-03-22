@@ -122,21 +122,24 @@
 }
 
 .productFooterBottomDivContentDiv {
-  /* border: 1px solid black; */
-  width: 50%;
-  margin-left: 4%;
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 2%;
 }
 
 .productsFooterSocialMediaLogos {
-  /* border: 1px solid gold; */
-  width: 40%;
+   /* border: 1px solid gold; */
+   margin-top: 8%;
+   display: flex;
+   flex-direction: row;
 }
 
 .productsFooterSocialMediaLogos > p {
-  margin-top: 0%;
-  margin-bottom: 0%;
+  margin-top: 1%;
   font-weight: 600;
-  margin-left: -8%;
+  /* margin-left: -5%; */
+  /* border: 2px solid red; */
+  width: 50%;
 }
 
 .productsfooterSocialMediaSection {
@@ -144,8 +147,8 @@
   width: 100%;
   justify-content: center;
   margin: 5px 0;
-  /* margin-top: 13%; */
   column-gap: 16px;
+  /* border: 2px solid yellow; */
 }
 
 .productPagesocialIcons {
@@ -220,6 +223,8 @@
   width: 50%;
   display: flex;
   margin-left: 20%;
+  flex-direction: row;
+  /* margin-top: 2%; */
 }
 
 .productFooterBottomDivPaymentImage > p {
@@ -229,7 +234,7 @@
 .productFooterBottomDivPaymentImage > img {
   width: 70%;
   height: 50%;
-  margin-top: 2.5%;
+  /* margin-top: 2.5%; */
   margin-left: 1%;
   object-fit: contain;
 }
