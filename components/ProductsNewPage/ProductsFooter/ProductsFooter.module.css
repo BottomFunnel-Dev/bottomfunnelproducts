@@ -217,6 +217,7 @@
   width: 50%;
   display: flex;
   margin-left: 20%;
+  margin-top: 1%;
 }
 
 .productFooterBottomDivPaymentImage > p {
@@ -226,7 +227,7 @@
 .productFooterBottomDivPaymentImage > img {
   width: 70%;
   height: 50%;
-  margin-top: 2.5%;
+  /* margin-top: 0.5%; */
   margin-left: 1%;
   object-fit: contain;
 }
