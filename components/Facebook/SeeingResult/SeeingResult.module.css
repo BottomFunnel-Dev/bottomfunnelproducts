@@ -1,0 +1,108 @@
+.SeeingResultcomponnent{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+    background-color: whitesmoke;
+    padding: 2%;
+}
+.SeeingResultcomponnent p{
+    width: 45%;
+    margin: auto;
+}
+.SeeingResultcomponnentimage{
+    width: 40%;
+    margin: auto;
+
+}
+.SeeingResultmaindiv{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+    justify-content: space-around;
+
+}
+.SeeingResultmaindivrows{
+    /* border: 2px solid; */
+    width: 25%;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.SeeingResultmaindivrows h5{
+    margin-top: 5%;
+}
+
+.SeeingResultmaindivrows:hover{
+    transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}
+.SeeingResultmaindivrowsimage{
+    width: 60px;
+    height: 60px;
+}
+.SeeingResultcomponnentheading{
+    text-align: center;
+    margin-top: 4%;
+}
+
+@media  (max-width:1024px){
+    .SeeingResultcomponnent{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 4%;
+        background-color: whitesmoke;
+        padding: 1%;
+    }
+    .SeeingResultcomponnent p{
+        width: 95%;
+        margin: auto;
+    }
+    .SeeingResultcomponnentimage{
+        width: 60%;
+        margin: auto;
+    
+    }
+    .SeeingResultmaindiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        margin-top: 4%;
+        justify-content: space-around;
+    
+    }
+    .SeeingResultmaindivrows{
+        /* border: 2px solid; */
+        width: 90%;
+        border-radius: 10px;
+        padding: 2%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: auto;
+        margin-top: 5%;
+    
+    }
+    .SeeingResultmaindivrows h5{
+        margin-top: 5%;
+    }
+    
+    .SeeingResultmaindivrows:hover{
+        transition: all 0.2s linear;
+    
+      transform: translateY(-10px);
+    }
+    .SeeingResultmaindivrowsimage{
+        width: 60px;
+        height: 60px;
+    }
+    .SeeingResultcomponnentheading{
+        text-align: center;
+        margin-top: 4%;
+    }
+    
+}
