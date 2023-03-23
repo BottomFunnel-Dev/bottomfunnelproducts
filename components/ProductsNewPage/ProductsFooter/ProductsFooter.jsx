@@ -195,7 +195,7 @@ export const ProductsFooter = () => {
 
                     <ul className={styles.productMainProductDivLink}>
 
-                        <Link style={{ color: "black" }} href={"https://service.bottomfunnel.net/"}>
+                        <Link style={{ color: "black",textDecoration:"none" }} href={"https://service.bottomfunnel.net/"}>
                             <h5>Services </h5>
                         </Link>
 

@@ -4,6 +4,7 @@ import { CustomerSuccessBanner } from '../../components/CustomerSuccessHome/Cust
 import { CustomerSuccessLeadership } from '../../components/CustomerSuccessHome/CustomerSuccessLeadership/CustomerSuccessLeadership'
 import { CustomerValue } from '../../components/CustomerSuccessHome/CustomerValue/CustomerValue'
 import { RequestDemo } from '../../components/CustomerSuccessHome/RequestDemo/RequestDemo'
+import { DeskFooter } from '../../components/DeskFooter/DeskFooter'
 import Navbar from '../../components/Navbar/Navbar'
 import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
@@ -46,7 +47,7 @@ export default function CustomerSuccessHome() {
       {/* <TalentProfiles/> */}
       
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter />
     </div>
   )
 }

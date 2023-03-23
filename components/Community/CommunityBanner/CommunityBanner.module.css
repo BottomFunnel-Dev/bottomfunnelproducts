@@ -1,0 +1,35 @@
+.communityBanner{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+.communityHeading{
+    position: absolute;
+    /* border: 2px solid red; */
+    color: #393939;
+    top: 35%;
+    width: 40%;
+    right: 12%;
+}
+.communityHeading>h2{
+    font-size: 55px;
+    font-weight: 600;
+}
+.communityHeading>input{
+    border: 1px solid #ef4c23;
+    width: 80%;
+    height: 55px;
+    border-radius: 15px;
+    padding-left: 10%;
+    margin-top: 4%;
+    position: relative;
+    z-index: 0;
+}
+.communityHeading>i{
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+    bottom: 7%;
+    color: #ef4c23;
+}

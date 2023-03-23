@@ -96,12 +96,12 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
-      {
-        source: "/our-clients",
-        destination: "https://service.bottomfunnel.net/our-clients",
-        permanent: true,
-        basePath: false,
-      },
+      // {
+      //   source: "/our-clients",
+      //   destination: "https://service.bottomfunnel.net/our-clients",
+      //   permanent: true,
+      //   basePath: false,
+      // },
       {
         source: "/website-builder-app",
         destination: "https://service.bottomfunnel.net/website-builder-app",

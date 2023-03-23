@@ -1,0 +1,404 @@
+.desksFooterParentDiv {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+  }
+  
+  .desksFooterTopImagesMainDiv {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin-left: 3%;
+  }
+  
+  .deskFooterLogoDiv {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-top: -0.5%;
+    height: fit-content;
+  }
+  
+  .deskFooterLogoDiv > img {
+    width: 35%;
+    margin-left: 7%;
+    object-fit: cover;
+  }
+  
+  .desksFooterSideButtons {
+    /* border: 1px solid red; */
+    width: 48%;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 20%;
+  }
+  
+  .desksFooterCallToAction {
+    background-color: #ffeae5;
+    border: 1px solid #ef4c23;
+    color: #ef4c23;
+    padding: 8px 25px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 5px;
+  }
+  
+  .desksFooterCallToAction:hover {
+    color: #ef4c23;
+    /* border: 1px solid #ef4c23; */
+    background-color: white;
+    cursor: pointer;
+    /* border: 1px solid white; */
+  }
+  
+  .desksFooterCallToActionLogin {
+    background-color: #ef4c23;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 5px;
+    border: none;
+  }
+  
+  .desksFooterCallToActionLogin:hover {
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+    background-color: white;
+    cursor: pointer;
+    /* border: 1px solid white; */
+  }
+  
+  .desksFooterContentMainDiv {
+    /* border: 1px solid gold; */
+    margin-left: 3%;
+  }
+  
+  .desksFooterTagsDiv {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  
+  .deskMaindeskDivLink {
+    /* border: 1px solid red; */
+    width: 24%;
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  .deskMaindeskDivLink > h5 {
+    /* border: 1px solid red; */
+    margin-bottom: 1%;
+  }
+  
+  .deskFooterLinkTag {
+    text-decoration: none;
+    color: #393939;
+    /* margin-top: 2%; */
+    /* border: 1px solid red; */
+    /* height: 20px; */
+  }
+  
+  .deskFooterLinkTag:hover {
+    color: #ef4c23;
+    cursor: pointer;
+  }
+  
+  .deskFooterLinkTag > li {
+    /* border: 1px solid red; */
+    margin-top: 3%;
+    font-size: 15px;
+  }
+  
+  .deskFooterBottomDiv {
+    /* border-bottom: 1px solid black; */
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+  }
+  
+  .deskFooterBottomDivContentDiv {
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 4%;
+  }
+  
+  .desksFooterSocialMediaLogos {
+    /* border: 1px solid gold; */
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .desksFooterSocialMediaLogos > p {
+    margin-top: 1%;
+    font-weight: 600;
+    margin-left: -5%;
+  }
+  
+  .desksfooterSocialMediaSection {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 5px 0;
+    /* margin-left: 13%; */
+    column-gap: 16px;
+    /* border: 2px solid red; */
+  }
+  
+  .deskPagesocialIcons {
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 6px;
+    color: white;
+    border-radius: 25px;
+    margin-left: 35%;
+    background-color: #ef4c23;
+  }
+  
+  .deskPagesocialIcons:hover {
+    font-size: 32px;
+    /* border: 1px solid white; */
+    padding: 6px;
+    color: white;
+    background-color: #ef4c23;
+    border-radius: 18px;
+  }
+  
+  .deskFooterBottomDivImagesDiv {
+    /* border: 1px solid gold; */
+    width: 50%;
+    margin-left: 16%;
+  }
+  
+  .deskFooterBottomDivImagesDiv > p {
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 35%;
+    font-weight: 500;
+  }
+  
+  .deskFooterBottomDivImagesDiv > div {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-left: 35%;
+  }
+  
+  .deskFooterBottomDivImagesDiv > div > img {
+    margin-right: 4%;
+    width: 40%;
+    /* margin-left: 15%; */
+    object-fit: contain;
+    /* margin-right: 3%; */
+  }
+  
+  .deskFooterBottomContentDiv {
+    border-top: 1px solid black;
+    height: 60px;
+    display: flex;
+    width: 89%;
+    margin-left: 2%;
+    margin-top: 1%;
+    flex-direction: row;
+  }
+  
+  .deskFooterBottomDivHeading {
+    /* border: 1px solid green; */
+    width: 40%;
+  }
+  
+  .deskFooterBottomDivHeading > p {
+    /* border: 1px solid red; */
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .deskFooterBottomDivPaymentImage {
+    /* border: 1px solid gold; */
+    width: 50%;
+    display: flex;
+    margin-left: 20%;
+  }
+  
+  .deskFooterBottomDivPaymentImage > p {
+    font-weight: 600;
+  }
+  
+  .deskFooterBottomDivPaymentImage > img {
+    width: 70%;
+    height: 50%;
+    /* margin-top: 2.5%; */
+    margin-left: 1%;
+    object-fit: contain;
+  }
+  
+  /* this css is for the responsive of the pages f0r the mobile and web responsive */
+  
+  /* Media query for the Mobile Device */
+  
+  @media (max-width: 480px) {
+    .desksFooterContentMainDiv {
+      margin: 0;
+      padding: 10px;
+      height: fit-content;
+    }
+  
+    .desksFooterParentDiv {
+      width: 100%;
+      height: fit-content;
+    }
+  
+    .desksFooterTopImagesMainDiv {
+      /* border: 2px solid black; */
+      margin: 0;
+      margin-top: 10%;
+      height: fit-content;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .deskFooterLogoDiv {
+      width: 27%;
+    }
+    .deskFooterLogoDiv > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  
+    .desksFooterTagsDiv {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+      row-gap: 10px;
+    }
+  
+    .deskFooterLinkTag > li {
+      font-size: 10px;
+    }
+  
+    .deskMaindeskDivLink {
+      margin: 0;
+      width: 40%;
+      padding: 0;
+    }
+  
+    .desksFooterSideButtons {
+      margin: 0;
+      width: 67%;
+      display: flex;
+      column-gap: 5px;
+    }
+  
+    .desksFooterCallToAction {
+      /* border: 1px solid black; */
+      margin: 0;
+      padding: 0;
+      width: 34%;
+      height: 35px;
+      font-size: 10px;
+    }
+  
+    .desksFooterCallToActionLogin {
+      padding: 0;
+      margin: 0;
+      height: 35px;
+      width: 30%;
+    }
+  
+    .deskFooterBottom {
+      height: fit-content;
+    }
+  
+    .deskFooterBottomDiv {
+      flex-direction: column;
+      height: fit-content;
+    }
+  
+    .deskFooterBottomDivContentDiv {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .desksFooterSocialMediaLogos > p {
+      margin: 0;
+    }
+  
+    .desksFooterSocialMediaLogos {
+      width: 100%;
+      justify-content: space-around;
+      padding: 5px 0;
+    }
+  
+    .desksfooterSocialMediaSection {
+      justify-content: space-around;
+    }
+  
+    .deskPagesocialIcons {
+      margin: 0;
+    }
+  
+    .deskFooterBottomDivImagesDiv {
+      margin: 0;
+      width: 100%;
+      display: flex;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+  
+    .deskFooterBottomDivImagesDiv > p {
+      margin: 0;
+    }
+  
+    .deskFooterBottomDivImagesDiv > div {
+      margin: 0;
+      text-align: center;
+    }
+  
+    .deskFooterBottomContentDiv {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .deskFooterBottomDivHeading {
+      /* border: 1px solid green; */
+      width: 100%;
+      margin-top: 2%;
+    }
+  
+    .deskFooterBottomDivHeading > p {
+      /* border: 1px solid red; */
+      font-size: 12px;
+      font-weight: 600;
+    }
+  
+    .deskFooterBottomDivPaymentImage {
+      margin: 0;
+      flex-direction: column;
+      padding: 5px 0;
+      row-gap: 5px;
+      width: 100%;
+      display: flex;
+    }
+  
+    .deskFooterBottomDivPaymentImage > p {
+      margin: 0;
+    }
+  
+    .deskFooterBottomDivPaymentImage > img {
+      width: 100%;
+      height: 50%;
+      margin-top: 2.5%;
+      margin-left: 1%;
+      object-fit: contain;
+    }
+  }
+  
