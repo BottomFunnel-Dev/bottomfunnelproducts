@@ -4,13 +4,11 @@ import { BottomFunnelOmnichannelBanner } from '../../components/BottomFunnelOmni
 import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import { OmnichannelSolution } from '../../components/BottomFunnelOmnichannel/OmnichannelSolution/OmnichannelSolution'
 import { OmniChannelSlids } from '../../components/BottomFunnelOmnichannel/OmniChannelSlids/OmniChannelSlids'
-import StoriesSection from '../../components/CommonComponents/StoriesSection/StoriesSection'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
-import { GetStarted } from '../../components/ProductsNewPage/GetStarted/GetStarted'
-import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
 import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
+import {DeskFooter} from "../../components/DeskFooter/DeskFooter";
 
 export default function BottomFunnelOmnichannel () {
     return (
@@ -44,7 +42,7 @@ export default function BottomFunnelOmnichannel () {
       <LifeBottomFunnel/>
       {/* <GetStarted/> */}
      
-      <ProductsFooter/>
+      <DeskFooter/>
     
       
     </div>

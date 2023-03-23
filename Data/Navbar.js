@@ -1018,7 +1018,7 @@ export const product1 = [
   },
 
   {
-    dropContent: "Bottom Funnel sales",
+    dropContent: "Bottom Funnel Sales",
     navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/bottomFunnnelSales.png",
     path: "/sales",
     title: "Delight Your Customer With Effortless Sales Service",
@@ -1058,7 +1058,7 @@ export const product2 = [
     productHover: "#d6ffe8",
   },
   {
-    dropContent: "Bottom Funnel CRM Suit",
+    dropContent: "Bottom Funnel CRM Suite",
     navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Sales.png",
     path: "/bottomfunnel-crmsuit",
     title: "Delight Your Customer With Effortless Team Service",
@@ -1118,7 +1118,7 @@ export const resource = [
   },
   {
     dropContent: "Community",
-    path: "/",
+    path: "/community",
   },
   {
     dropContent: "Services",

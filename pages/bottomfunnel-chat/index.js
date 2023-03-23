@@ -1,6 +1,7 @@
 import React from "react";
 import { BottomfunnelchatBanner } from "../../components/BottomFunnelChat/BottomfunnelchatBanner/BottomfunnelchatBanner";
 import { ConversationalEngagement } from "../../components/BottomFunnelChat/ConversationalEngagement/ConversationalEngagement";
+import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import { DeskStarted } from "../../components/funnelDeskCom/DeskStarted";
 import Navbar from "../../components/Navbar/Navbar";
@@ -163,7 +164,7 @@ export default function BottomFunnelChat() {
       <ReadyStarted />
       <TalentProfiles />
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <ChatFooter />
 
 
 
