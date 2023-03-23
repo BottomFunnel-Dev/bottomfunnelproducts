@@ -148,6 +148,7 @@ export const ProductsNewPageBanner = () => {
             </div> */}
           </div>
         </div>
+        
         <div className={styles.productright}>
           {data.map((item, index) => (
             <div
