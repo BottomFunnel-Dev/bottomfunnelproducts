@@ -8,6 +8,7 @@ import { DeskStarted } from '../../components/funnelDeskCom/DeskStarted'
 import Navbar from '../../components/Navbar/Navbar'
 import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import { SalesNavbar } from '../../components/Navbar/SalesNavbar/SalesNavbar'
+import { ServiceNavbar } from '../../components/Navbar/ServiceNavbar/ServiceNavbar'
 import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
 import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
 import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
@@ -31,6 +32,12 @@ export default function bottomfunnelservice () {
           }}
         />
     
+        <ServiceNavbar
+          navproductredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
        
 
 

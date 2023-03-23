@@ -23,7 +23,7 @@ export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
             <img src={item.navIcons} alt="Product logo" />
             <Link
               onClick={saleProOut}
-              style={{ width: "75%" }}
+              style={{ width: "75%",textDecoration:"none" }}
               href={item.path}
               className={prodstyle.productlinkP}
             >
