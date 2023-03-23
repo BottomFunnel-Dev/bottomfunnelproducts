@@ -1448,7 +1448,7 @@ export const serviceFeature = [
   },
   {
     dropContent: "ITSM",
-    path: "/",
+    path: "/itms-Service",
   },
   {
     dropContent: "SLA",
@@ -1456,7 +1456,7 @@ export const serviceFeature = [
   },
   {
     dropContent: "AI-Powered Service Management",
-    path: "/",
+    path: "/aIServiceMangement",
   },
   {
     dropContent: "Reporting",
