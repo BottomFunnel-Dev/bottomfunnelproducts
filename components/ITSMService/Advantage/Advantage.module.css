@@ -1,0 +1,31 @@
+.Advantagemaindiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.Advantagemaindivinner{
+    /* border: 2px solid; */
+    width: 30%;
+    height: 220px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+/* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+}
+.Advantagemaindivinner h5{
+  margin-top: 6%;
+}
+.Advantagemaindivimage{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.Advantagemaindivheading{
+    text-align: center;
+    margin-top: 4%;
+}

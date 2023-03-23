@@ -1,0 +1,28 @@
+.AIScreensmaindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 1%;
+
+}
+
+.AIScreensmaindivcontent{
+    width: 40%;
+}
+
+.AIScreensmaindivimage{
+    width: 35%;
+}
+.AIScreensmaindivone{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    padding: 1%;
+
+}
