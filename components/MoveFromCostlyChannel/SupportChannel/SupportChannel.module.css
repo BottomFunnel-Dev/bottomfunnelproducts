@@ -1,0 +1,53 @@
+.SupportChannelmaindiv{
+    /* border:  2px solid red; */
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    
+}
+
+.SupportChannelinnerdiv{
+border: 2px solid rgb(214, 240, 231) ;
+border-bottom-right-radius:20px ;
+width: 25%;
+text-align: center;
+/* margin: auto; */
+}
+.SupportChannelinnerdivlogo{
+    display: flex;
+    flex-direction: row;
+    /* width: 60px; */
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+.SupportChannelinnerdivlogoimage{
+    /* border: 2px solid; */
+    width: 70px;
+    padding: 2%;
+    /* height: 50px; */
+    border-bottom-right-radius:15px ;
+    background-color: rgb(214, 240, 231);
+}
+.SupportChannelinnerdivlogoheading{
+    text-align: center;
+    /* border: 2px solid; */
+    width: 80%;
+}
+.SupportChannelinnerdivcontent{
+    margin-top: 8%;
+    /* border: 2px solid; */
+    padding: 1%;
+
+}
+.SupportChannelmaindivheading{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 3%; */
+}

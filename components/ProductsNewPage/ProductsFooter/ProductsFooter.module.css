@@ -98,9 +98,6 @@
 .productFooterLinkTag {
   text-decoration: none;
   color: #393939;
-  /* margin-top: 2%; */
-  /* border: 1px solid red; */
-  /* height: 20px; */
 }
 
 .productFooterLinkTag:hover {
@@ -224,7 +221,7 @@
   display: flex;
   margin-left: 20%;
   flex-direction: row;
-  /* margin-top: 2%; */
+  margin-top: 1%;
 }
 
 .productFooterBottomDivPaymentImage > p {
@@ -234,7 +231,6 @@
 .productFooterBottomDivPaymentImage > img {
   width: 70%;
   height: 50%;
-  /* margin-top: 2.5%; */
   margin-left: 1%;
   object-fit: contain;
 }
@@ -251,7 +247,7 @@
   }
 
   .productsFooterParentDiv {
-    width: 100%;
+    width: 96%;
     height: fit-content;
   }
 

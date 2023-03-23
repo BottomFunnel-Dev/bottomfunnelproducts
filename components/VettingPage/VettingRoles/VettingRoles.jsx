@@ -45,21 +45,24 @@ export const VettingRoles = () => {
       <div className={styles.vettingRolesContainer}>
         <div className={styles.vettingRolesContent}>
           {cardData.map(({ title, body, icons }, idx) => {
+            
             return (
               <div key={idx}>
                 <span>
                   <h4>{title}</h4>
-                <div className={styles.vettingRolesCardsIconsImages}>
-                <Image
-                src={icons}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
-                </div>
+
+                  <div className={styles.vettingRolesCardsIconsImages}>
+                    <Image
+                      src={icons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                  </div>
                 </span>
+
                 <div>
                   <p>{body}</p>
                 </div>

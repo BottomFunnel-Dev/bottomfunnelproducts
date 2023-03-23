@@ -9,6 +9,7 @@ export const AwardsCardes = ({ data }) => {
           <img src={data.image} alt="Awards images" />
         </div>
       </div>
+      
       <div className={awards.awardsCardesContent}>
         <h2>{data.title}</h2>
       </div>

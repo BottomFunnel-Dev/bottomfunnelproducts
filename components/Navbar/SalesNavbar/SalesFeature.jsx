@@ -25,7 +25,13 @@ export const SalesFeature = ({ saleFeaIn, saleFeaOut, scroll }) => {
             </Link>
           </div>
         ))}
-        <button>View all features</button>
+         <Link
+          onClick={saleFeaOut}
+          href={"/all-Features-Sales"}
+          className={salestyle.salesnavbutton}
+        >
+          <button>View all features</button>
+        </Link>
       </div>
     </div>
   );

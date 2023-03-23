@@ -21,9 +21,9 @@
     background-color: white;
     text-align: center;
      width: 25%;
-    height: 35vh;
+    height: 40vh;
     margin: auto;
-    padding-top: 2%;
+    padding: 1%;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-top: 2%;
@@ -37,9 +37,10 @@
 }
 .Revenueinnerdivimage{
     /* border: 2px solid red; */
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin: auto;
+    margin-top: 2%;
    
    
 }

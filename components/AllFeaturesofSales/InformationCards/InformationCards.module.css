@@ -1,7 +1,7 @@
 .InformationCardsdiv{
     /* border: 2px solid green; */
     text-align: center;
-    padding-top: 3%;
+    padding-top: 5%;
 }
 
 .InformationCardsmaindiv{
@@ -14,7 +14,7 @@
     height: 45vh;
     display: flex;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 3%;
    
 
 }
@@ -29,7 +29,7 @@
     height: 45vh;
     display: flex;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 3%;
    
 
 }
@@ -66,6 +66,10 @@
     width: 120px;
     /* height: 50px; */
     /* border: 2px solid goldenrod; */
+}
+.InformationCardsmaindivcards p{
+    /* border: 2px solid; */
+    margin-top: 6%;
 }
 
 .InformationCardsdivimage{

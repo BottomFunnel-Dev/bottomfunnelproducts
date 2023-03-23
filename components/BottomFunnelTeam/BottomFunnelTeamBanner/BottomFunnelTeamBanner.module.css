@@ -29,3 +29,37 @@
     color: #ef4c23;
     border: 1px solid #ef4c23;
 }
+@media (max-width: 1024px) {
+    .BottomFunnelTeamBannermaindiv{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .BottomFunnelTeamBannercontent{
+        width: 95%;
+        text-align: center;
+    }
+    .BottomFunnelTeamBannerimage{
+        width: 90%;
+    }
+    .BottomFunnelTeamBannerbutton{
+        width: 220px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ef4c23;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+    .BottomFunnelTeamBannerbutton:hover{
+        background-color: white;
+        color: #ef4c23;
+        border: 1px solid #ef4c23;
+    } 
+}

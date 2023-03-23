@@ -211,13 +211,13 @@ export const ProductsFooter = () => {
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/https://service.bottomfunnel.net/Digital-marketing"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/Digital-marketing"}>
                             <li>
                                 Digital Marketing
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/https://service.bottomfunnel.net/trending-technologies"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/trending-technologies"}>
                             <li>
                                 Trending Technologies
                             </li>

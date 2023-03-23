@@ -65,7 +65,7 @@
     border-left: 2px solid #ef4c23
   }
   
-  .productFeatureListItems > button {
+  .salesnavbutton>button {
     border: 1px solid #393939;
     background: transparent;
     width: 80%;
@@ -78,9 +78,10 @@
     font-weight: 500;
     outline: none;
     cursor: pointer;
+    margin-left: 10%;
   }
   
-  .productFeatureListItems > button:hover {
+  .salesnavbutton > button:hover {
     background-color: #ef4c23;
     color: white;
     border: 1px solid #ef4c23;

@@ -21,3 +21,31 @@
     background: #14944C;
     border: 1px solid white;
 }
+
+@media (max-width: 1024px) {
+    .requestdemomaindiv{
+        /* border: 2px solid yellow; */
+        background-color: #14944C;
+        color: white;
+        text-align: center;
+        padding: 2%;
+        margin-top: 4%;
+    
+    
+    }
+    .requestdemomaindivbutton{
+        border: none;
+        width: 220px;
+        border-radius: 10px;
+        height: 40px;
+        color: #14944C;
+        font-size: 18px;
+    
+    }
+    .requestdemomaindivbutton:hover{
+        color: white;
+        background: #14944C;
+        border: 1px solid white;
+    }
+    
+}

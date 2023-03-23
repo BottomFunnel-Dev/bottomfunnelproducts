@@ -1,0 +1,24 @@
+.Limitationmaundiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+.Limitationmaundivinner{
+    text-align: center;
+
+    width: 25%;
+ display: flex;
+ flex-direction: column;
+ border-left: 2px solid lightgray;
+}
+.Limitationmaundivinner:hover{
+    background-color: rgb(214, 240, 231);
+}
+.Limitationmaundivheading{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+}

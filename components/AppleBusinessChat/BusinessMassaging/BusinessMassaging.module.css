@@ -1,0 +1,170 @@
+.BusinessMassagingmaindiv{
+    /* border: 2px solid; */
+    margin-top: 3%;
+}
+.BusinessMassagingmaindivheading{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+.BusinessMassagingmaindivcards{
+    width: 90%;
+    /* border-bottom: 1px solid lightgrey; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.BusinessMassagingmaindivcardsbox{
+    /* border-right: 1px solid lightgrey; */
+    width: 25%;
+    padding: 2%;
+    position: relative;
+}
+
+.BusinessMassagingmaindivcardsboxinnerimage{
+    /* border:2px solid green ; */
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    background-color: rgb(216, 246, 236);
+margin-left: 30%;
+}
+.BusinessMassagingmaindivcardsboximage{
+    width: 40px;
+    height: 40px;
+    
+   
+}
+.BusinessMassagingmaindivcardsboxinner{
+    border: 2px solid rgb(156, 219, 198) ;
+    /* border-radius: 10px; */
+    padding: 3%;
+    margin-top: 13%;
+    height: 200px;
+}
+
+.BusinessMassagingmaindivcardsboxinner h6{
+    margin-top: 15%;
+}
+.BusinessMassagingsingup{
+    /* border: 2px solid; */
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+.BusinessMassagingsingupbutton{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #04C354;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    margin-top: 2%;
+}
+.BusinessMassagingsingupbutton:hover{
+    border: 1px solid #04C354;
+    background-color: white;
+    color: #04C354;
+}
+
+@media  (max-width:1024px){
+    .BusinessMassagingmaindiv{
+        /* border: 2px solid; */
+        margin-top: 3%;
+    }
+    .BusinessMassagingmaindivheading{
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        padding: 2%;
+    }
+    .BusinessMassagingmaindivcards{
+        width: 95%;
+        /* border-bottom: 1px solid lightgrey; */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    
+    }
+    .BusinessMassagingmaindivcardsbox{
+        /* border-right: 1px solid lightgrey; */
+        width: 95%;
+        padding: 2%;
+        position: relative;
+    }
+    
+    .BusinessMassagingmaindivcardsboxinnerimage{
+        /* border:2px solid green ; */
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+        margin: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 10%;
+        background-color: rgb(216, 246, 236);
+    margin-left: 30%;
+    }
+    .BusinessMassagingmaindivcardsboximage{
+        width: 40px;
+        height: 40px;
+        
+       
+    }
+    .BusinessMassagingmaindivcardsboxinner{
+        border: 2px solid rgb(156, 219, 198) ;
+        /* border-radius: 10px; */
+        padding: 3%;
+        margin-top: 13%;
+        height: 200px;
+    }
+    
+    .BusinessMassagingmaindivcardsboxinner h6{
+        margin-top: 15%;
+    }
+    .BusinessMassagingsingup{
+        /* border: 2px solid; */
+        background-color: whitesmoke;
+        text-align: center;
+        padding: 2%;
+        margin-top: 2%;
+    }
+    .BusinessMassagingsingupbutton{
+        width: 200px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #04C354;
+        color: white;
+        border-radius: 10px;
+        height: 40px;
+        border: none;
+        margin-top: 2%;
+    }
+    .BusinessMassagingsingupbutton:hover{
+        border: 1px solid #04C354;
+        background-color: white;
+        color: #04C354;
+    }
+    
+}

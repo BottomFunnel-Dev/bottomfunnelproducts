@@ -54,3 +54,63 @@ font-size: 40px;
   width: 100%;
   height: 100%;
 }
+@media (max-width: 1024px) {
+
+.banner {
+  width: 100%;
+  height: fit-content;
+  margin-top: 10vh;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.bannercontent {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  position: static;
+  /* border: 2px solid red; */
+  margin-top: 5%;
+}
+.bannercontent > div {
+  width: 100%;
+  position: static;
+  right: 0%;
+  top: 0%;
+}
+.bannercontent > div h1 {
+font-size: 32px;
+}
+.bannercontent > div p {
+  line-height: 20px;
+}
+.bannercontent > div button {
+  font-size: 16px;
+  padding: 10px 25px;
+  font-weight: 600;
+  margin: 4% 0;
+  background-color: #14944C;
+  /* border: 2px solid #14944C; */
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.bannercontent > div button:hover {
+  background-color: transparent;
+  border: 2px solid #14944C;
+  color: #14944C;
+}
+
+.bannerImages {
+  width: 90%;
+  height: fit-content;
+  margin-right: 8%;
+  /* border: 2px solid red; */
+}
+.bannerImages > img {
+  width: 100%;
+  height: 100%;
+}
+}

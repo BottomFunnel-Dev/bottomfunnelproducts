@@ -46,3 +46,52 @@
     margin: auto;
 }
 
+@media (max-width: 1024px) {
+    .CustomerValuemaindiv{
+        /* border: 2px solid green; */
+        margin-top: 4%;
+    
+    }
+    .CustomerValuemaindivinner{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customersuccesshomepagephotos/bg1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+        margin: auto;
+        margin-top: 3%;
+    
+    }
+    
+    .CustomerValuemaindivinner1{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        
+        height: 60vh;
+        margin: auto;
+        margin-top: 3%;
+    
+    }
+    .CustomerValuemaindivimage{
+       /* border: 2px solid yellow; */
+       width: 95%;
+       height: 400px;
+       margin: auto;
+       margin-right: 2%;
+    }
+    
+    .CustomerValuemaindivcontain{
+        /* border: 2px solid red; */
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .CustomerValuemaindivcontain p{
+        text-align: justify;
+    }
+}
+

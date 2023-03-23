@@ -74,7 +74,7 @@
     .BottomFunnelOmnichannelBannerinnerdiv{
         /* border: 2px solid red; */
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         /* height: 80vh; */
         width: 100%;
         margin: auto;
@@ -98,7 +98,7 @@
         color: white;
         background-color: #14944C;
         /* padding-bottom: 10px; */
-        border: 2px solid red;
+        /* border: 2px solid red; */
     
     }
     
@@ -108,7 +108,7 @@
         border: 1px solid #14944C;
     }
     .BottomFunnelOmnichannelBannerimage{
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         width: 90%;
     }
     .BottomFunnelOmnichannelBannercontent{
