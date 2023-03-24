@@ -1,6 +1,6 @@
 
 .SMBTrailparent{
-    background-image: url('/Images/Event/background.webp');
+    background-image: url('/Images/sbm/background.png');
     margin-top: 5%;
  
     display: flex;
@@ -9,6 +9,7 @@
     padding: 1%;
     padding-bottom: 3%;
     padding-top: 2%;
+    border: 1px solid green;
 }
 .SMBTrailparent>h1{
     font-weight: 700;

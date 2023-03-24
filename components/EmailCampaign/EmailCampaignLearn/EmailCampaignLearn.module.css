@@ -1,0 +1,69 @@
+.emailCampaignLearnParent{
+padding: 5%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.emailCampaignLearnParentchiledimage{
+    width: 30%;
+}
+.emailCampaignLearnParentchiledcontent{
+    width: 60%;
+}
+.emailCampaignLearnParentchiledcontent>h3{
+    font-weight: 700;
+}
+.Learnbutton{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #ec4f25;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .emailCampaignLearnParent{
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5%;
+        text-align: center;
+        }
+        .emailCampaignLearnParentchiledimage{
+            width: 100%;
+        }
+        .emailCampaignLearnParentchiledcontent{
+            width: 100%;
+            margin-top: 5%;
+        }
+        .emailCampaignLearnParentchiledcontent>h3{
+            font-weight: 700;
+        }
+        .Learnbutton{
+            width: 200px;
+            height: 40px;
+            background-color: transparent;
+            border: 2px solid #ec4f25;
+            font-size: 16px;
+            border-radius: 10px;
+            margin-top: 5%;
+        }
+        
+        
+}

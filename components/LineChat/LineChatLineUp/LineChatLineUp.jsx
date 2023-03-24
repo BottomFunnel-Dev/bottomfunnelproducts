@@ -3,10 +3,10 @@ import styles from "./LineChatLineUp.module.css";
 import Image from 'next/image';
 export const LineChatLineUp = () => {
     return (
-        <div className={styles.smbcustomerParent}>
+        <div className={styles.lineupcustomerParent}>
             <h1>Messaging is the new way to interact with your customers</h1>
-            <div className={styles.smbcustomerParentfirstchild}>
-                <div className={styles.smbcustomerParentfirstchildImage}>
+            <div className={styles.lineupcustomerParentfirstchild}>
+                <div className={styles.lineupcustomerParentfirstchildImage}>
                     <Image
                         src={"/Images/LineChat/imageone.webp"}
                         alt={"img"}
@@ -16,28 +16,26 @@ export const LineChatLineUp = () => {
                         style={{ width: "100%", height: "100%" }}
                     />
                 </div>
-                <div className={styles.smbcustomerParentfirstchildContent}>
-                    <h2>Serve customers proactively</h2>
-                    <p>Let your customers know you're there by triggering the
-                        right messages at the right time on different channes like web, mobile and whatsapp. Use images,GIFs and videos to creaete compelling messages and follow up with intelligent engagement to drive quike resolution
-                        right messages at the right time on different channes like web, mobile and whatsapp. Use images,GIFs and videos to creaete compelling messages and follow up with intelligent engagement to drive quike resolution
-
+                <div className={styles.lineupcustomerParentfirstchildContent}>
+                    <h2>Automate with bots</h2>
+                    <p>
+                        Deploye your chatbots on LINE so tour customers can get instant responses to thier question 20*7. Engage and delight your customers by automateing resolution .With seamliss and contextual agent handovers,you can save time for both customers and agent .
                     </p>
-                  
+
                 </div>
             </div>
 
 
-            <div className={styles.smbcustomerParentsecchild}>
+            <div className={styles.lineupcustomerParentsecchild}>
 
-                <div className={styles.smbcustomerParentsecchildContent}>
-                    <h2>Provide convenient customer services</h2>
-                    <p> Leaverage integration with multiple channels like web, mobile, Whatsapp, Messenger, Apple Bussiness Chat call volumes and costts by giveng customers faster ways to get in touch with you.
-                        Leaverage integration with multiple channels like web, mobile, Whatsapp, Messenger, Apple Bussiness Chat call volumes and costts by giveng customers faster ways to get in touch with you.
+                <div className={styles.lineupcustomerParentsecchildContent}>
+                    <h2>Provide efoortless experiences</h2>
+                    <p>
+                        Connect your LINE accounts and bring all your LINE conversation , including images and hyperlinks, into your Fresschat.Handle all your conversions from one place with 'Team inbox' View and prioritize conversation that neend immediate attention -let you customers know you're there for them
                     </p>
-                  
+
                 </div>
-                <div className={styles.smbcustomerParentsecchildImage}>
+                <div className={styles.lineupcustomerParentsecchildImage}>
                     <Image
                         src={"/Images/LineChat/imagetwo.webp"}
                         alt={"img"}
@@ -51,8 +49,8 @@ export const LineChatLineUp = () => {
 
 
 
-            <div className={styles.smbcustomerParentthirdchild}>
-                <div className={styles.smbcustomerParentthirdchildImage}>
+            <div className={styles.lineupcustomerParentthirdchild}>
+                <div className={styles.lineupcustomerParentthirdchildImage}>
                     <Image
                         src={"/Images/LineChat/imagethree.webp"}
                         alt={"img"}
@@ -62,14 +60,13 @@ export const LineChatLineUp = () => {
                         style={{ width: "100%", height: "100%" }}
                     />
                 </div>
-                <div className={styles.smbcustomerParentthirdchildContent}>
-                    <h2>Scale with smart self -service</h2>
+                <div className={styles.lineupcustomerParentthirdchildContent}>
+                    <h2>Keep it contextual</h2>
                     <p>
-                        Use our no-code builder to build and automate intricate decision trees. Guide your customers to a zero contact resolution,By helping them find right answers to thier question instantly.
-                        Use our no-code builder to build and automate intricate decision trees. Guide your customers to a zero contact resolution,By helping them find right answers to thier question instantly.
+                        map every LINE account to the relevant Topic and Group inside Bottom Funnel chat so the conversations are routed to the right agents agents in your team. This way customers reaches your suppot for billing-related issues are  utomating routed to the Bitting group.
 
                     </p>
-                   
+
                 </div>
             </div>
 

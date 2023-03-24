@@ -1,0 +1,22 @@
+.allIntegrationTrailParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/Images/journey/background.png');
+    color: white;
+    padding: 2%;
+}
+.allIntegrationTrailParentButton{
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.allIntegrationTrailParentButton>button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}

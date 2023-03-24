@@ -1,0 +1,130 @@
+.smsbannerParent {
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding-bottom: 2%;
+    margin-top: 6%;
+    padding-top: 2%;
+}
+
+.smsbannerImage {
+    width: 40%;
+}
+
+.smsbannerContent {
+    width: 55%;
+}
+
+.smsbannerContent>h1 {
+    font-weight: 700;
+}
+
+.smsbannerContent>h5 {
+    font-weight: 450;
+    margin-top: 3%;
+    line-height: 25px;
+}
+
+.smsbannerContent>button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #54dd4a;
+    color: white;
+    border-radius: 30px;
+    font-size: 22px;
+
+    margin-top: 4%;
+}
+
+.smsbannerContent>button:hover {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    color: #54dd4a;
+    border-radius: 20px;
+    font-size: 22px;
+
+    margin-top: 4%;
+}
+.smsbannerContent>hr{
+    width:95%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 780px) {
+
+    .smsbannerParent {
+        margin-top: 13%;
+       
+        padding-left: 2%;
+        padding-right: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+
+    .smsbannerContent {
+        width: 100%;
+    }
+
+    .smsbannerContent {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .smsbannerContent>h1 {
+        font-weight: 700;
+    }
+
+    .smsbannerContent>h5 {
+        font-weight: 450;
+        margin-top: 3%;
+        line-height: 25px;
+    }
+
+    .smsbannerContent>button {
+        width: 150px;
+        height: 50px;
+        border: none;
+        background-color: #54dd4a;
+        color: white;
+        border-radius: 30px;
+        font-size: 22px;
+
+        margin-top: 4%;
+    }
+
+    .smsbannerContent>button:hover {
+        width: 150px;
+        height: 50px;
+        border: none;
+        background-color: transparent;
+        color: #54dd4a;
+        border-radius: 20px;
+        font-size: 22px;
+
+        margin-top: 4%;
+    }
+
+
+}

@@ -1,0 +1,146 @@
+
+.emailCampaignExploreParent{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.emailCampaignExploreParentHeading{
+    font-weight: 700;
+    text-align: center;
+
+}
+.emailCampaignExploreParentfirstchild{
+    margin-top: 5%;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+ 
+}
+.emailCampaignExploreParentfirstchildccards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 2%;
+    border-radius: 10%;
+}
+.emailCampaignExplorelogo{
+    width: 20%;
+    height: 50%;
+}
+.emailCampaignExplorecontent{
+    width: 75%;
+}
+.emailCampaignExploreParentsecchild{
+    margin-top: 5%;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.emailCampaignExploreButtondiv{
+
+
+    margin-top: 5%;
+}
+.emailCampaignExploreButton{
+    width: 20%;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #ec4f25;
+    border-radius: 10px;
+    font-size: 22px;
+   margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .emailCampaignExploreParent{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .emailCampaignExploreParentHeading{
+        font-weight: 700;
+        text-align: center;
+    
+    }
+    .emailCampaignExploreParentfirstchild{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+     
+    }
+    .emailCampaignExploreParentfirstchildccards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        padding: 2%;
+        border-radius: 10%;
+        margin-top: 5%;
+    }
+    .emailCampaignExplorelogo{
+        width: 20%;
+        height: 50%;
+       
+    }
+    .emailCampaignExplorecontent{
+        width: 75%;
+    }
+    .emailCampaignExploreParentsecchild{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .emailCampaignExploreButtondiv{
+    
+    
+        margin-top: 5%;
+        text-align: center;
+    }
+    .emailCampaignExploreButton{
+        width: auto;
+        height: 50px;
+        border: none;
+        color: white;
+        background-color: #ec4f25;
+        border-radius: 10px;
+        font-size: 22px;
+       margin-left: 0%;
+       padding: 1%;
+    }
+
+
+    .emailCampaignExploreButton:hover{
+        width: auto;
+        height: 50px;
+        border: 1px solid #ec4f25 ;
+        color: #ec4f25;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: 22px;
+       margin-left: 0%;
+       padding: 1%;
+    }
+}

@@ -1,0 +1,122 @@
+
+.SMSTrailparent{
+    background-image: url('/Images/sbm/background.png');
+  
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-between;
+    padding-bottom: 3%;
+    padding-top: 2%;
+ 
+
+}
+.SMSTrailparent>h1{
+    font-weight: 700;
+    color: white;
+}
+
+.SMSTrailparent>p{
+    font-weight: 450;
+    font-size: 18px;
+    color: white;
+}
+.SMSTrailparent>div{
+   
+    width: 25%;
+    display: flex;
+    margin-top: 1%;
+   
+}
+.SMSTrailparent>div>button{
+    width: 47%;
+    height: 50px;
+  font-size: 16px;
+  border: none;
+  background-color: #54dd4a;
+  color: white;
+  border-radius: 20px;
+
+}
+
+.SMSTrailparent>div>button:hover{
+    width: 47%;
+    height: 50px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #54dd4a;
+  border-radius: 20px;
+
+}
+.SMSTrailparent>div>button:nth-child(2){
+    margin-left: 6%;
+}
+
+
+
+
+@media(max-width:780px){
+
+    .SMSTrailparent{
+        background-image: url('/Images/sbm/background.png');
+      
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: space-between;
+        padding-bottom: 3%;
+        padding-top: 2%;
+     text-align: center;
+    
+    }
+    .SMSTrailparent>h1{
+        font-weight: 700;
+        color: white;
+    }
+    
+    .SMSTrailparent>p{
+        font-weight: 450;
+        font-size: 18px;
+        color: white;
+    }
+    .SMSTrailparent>div{
+       
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        align-items: center;
+       
+    }
+    .SMSTrailparent>div>button{
+        width: 200px;
+        height: auto;
+      font-size: 16px;
+      border: none;
+      background-color: #54dd4a;
+      color: white;
+      border-radius: 20px;
+      margin-bottom: 5%;
+      padding: 2%;
+    
+    }
+    
+    .SMSTrailparent>div>button:hover{
+        width: 200px;
+        height: auto;
+      font-size: 16px;
+      border: none;
+      background-color: transparent;
+      color: #54dd4a;
+      border-radius: 20px;
+    
+    }
+    .SMSTrailparent>div>button:nth-child(2){
+        margin-left: 6%;
+    }
+    
+    
+}

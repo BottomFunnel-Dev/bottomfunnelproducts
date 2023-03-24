@@ -3949,7 +3949,7 @@ export const PricingBanner = ({ props }) => {
                         </div>
                         <h6> Sandbox</h6>
                     </div>
-                    
+
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
@@ -3976,44 +3976,107 @@ export const PricingBanner = ({ props }) => {
 
     const [state, setstate] = useState(DeskTrail)
     const [addOn, setaddOn] = useState(<PricingAddOns />)
-
+    const [isActive, setIsActive] = useState(true);
+    const [secbutton, setsecbutton] = useState(false);
+    const [thirdbutton, setthirdbutton] = useState(false);
+    const [forthbutton, setforthbutton] = useState(false);
+    const [fiftbutton, setfiftbutton] = useState(false);
     const BottomFunnelDesk = () => {
         setstate(DeskTrail)
         setaddOn(<PricingAddOns />)
+        setIsActive(true);
+        setsecbutton(false);
+        setthirdbutton(false);
+        setforthbutton(false);
+        setfiftbutton(false)
     }
 
     const BottomFunnelChat = () => {
         setstate(ChatTrail)
         setaddOn(<PricingAddOnsChat />)
+        setIsActive(false);
+        setsecbutton(true);
+        setthirdbutton(false);
+        setforthbutton(false);
+        setfiftbutton(false)
     }
 
     const BottomFunnelsales = () => {
         setstate(SalesTrail)
         setaddOn(<PricingAddOnsSales />)
+        setIsActive(false);
+        setsecbutton(false);
+        setthirdbutton(true);
+        setforthbutton(false);
+        setfiftbutton(false)
     }
 
     const BottomFunnelservices = () => {
         setstate(ServicesTrail)
         setaddOn(<PricingAddOnsServices />)
+        setIsActive(false);
+        setsecbutton(false);
+        setthirdbutton(false);
+        setforthbutton(true);
+        setfiftbutton(false)
     }
 
     const BottomFunnelMarketer = () => {
         setstate(MarketrsTrail)
         setaddOn(<PricingAddOnsmarketers />)
+        setIsActive(false);
+        setsecbutton(false);
+        setthirdbutton(false);
+        setforthbutton(false);
+        setfiftbutton(true)
     }
 
     return (
         <>
             <div className={styl.PricingBannerParent}>
-                <h1>Bottom Funnel Service Pricing</h1>
-                <h4>Right-size Your IT Service Management</h4>
-                <button>Sign Up For Free</button>
+
                 <div className={styl.PricingBannerParentonlychild}>
-                    <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelDesk}>Bottom Funnel Desk </button>
-                    <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelChat}>Bottom Funnel Chat </button>
-                    <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelsales}>Bottom Funnel Sales</button>
-                    <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelservices}>Bottom Funnel Services</button>
-                    <button className={styl.PricingBannerParentbuttonoborder} onClick={BottomFunnelMarketer}>Bottom Funnel Marketer</button>
+                    <button className={styl.PricingBannerParentbuttonborder} id="buttonOne" onClick={BottomFunnelDesk}
+                        style={{
+                            backgroundColor: isActive ? '#ec4f25' : 'whitesmoke',
+                            color: isActive ? 'white' : 'black', 'margin-top': '0px',
+                            'margin-bottom': '0px', 'border-top-left-radius': '10px',
+                            'border-rigth': 'none',
+                        }}
+                    >Bottom Funnel Desk </button>
+                    <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelChat}
+                        style={{
+                            backgroundColor: secbutton ? '#ec4f25' : 'whitesmoke',
+                            color: secbutton ? 'white' : 'black', 'margin-top': '0px',
+                            'margin-bottom': '0px', 
+                            'border-rigth': 'none',
+                        }}
+                    >Bottom Funnel Chat </button>
+                    <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelsales}
+                        style={{
+                            backgroundColor: thirdbutton ? '#ec4f25' : 'whitesmoke',
+                            color: thirdbutton ? 'white' : 'black', 'margin-top': '0px',
+                            'margin-bottom': '0px',
+                            'border-rigth': 'none',
+                        }}
+                    >
+                        Bottom Funnel Sales</button>
+                    <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelservices}
+                        style={{
+                            backgroundColor: forthbutton ? '#ec4f25' : 'whitesmoke',
+                            color: forthbutton ? 'white' : 'black', 'margin-top': '0px',
+                            'margin-bottom': '0px', 
+                            'border-rigth': 'none',
+                        }}
+                    >Bottom Funnel Services</button>
+                    <button className={styl.PricingBannerParentbuttonoborder} onClick={BottomFunnelMarketer}
+                        style={{
+                            backgroundColor: fiftbutton ? '#ec4f25' : 'whitesmoke',
+                            color: fiftbutton ? 'white' : 'black', 'margin-top': '0px','border-radius':'none',
+                            'margin-bottom': '0px', 'border-top-rigth-radius': '10px',
+                            'border-rigth': 'none',
+                        }}
+                    >Bottom Funnel Marketer</button>
                 </div>
             </div>
             <PricingTrail data={state} />

@@ -1,0 +1,65 @@
+.chatbotscustomersparent{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chatbotscustomersparent>p{
+    width: 50%;
+    text-align: center;
+    
+}
+.chatbotscustomersparentfirstchild{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: center;
+}
+.chatbotcustoemrscontent{
+    width: 45%;
+}
+.chatbotcustoemrsimage{
+    width: 50%;
+}
+.hfontwiegth{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+@media(max-width:780px){
+    .chatbotscustomersparent{
+        margin-top: 8%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .chatbotscustomersparent>p{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .chatbotscustomersparentfirstchild{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10%;
+        align-items: center;
+    }
+    .chatbotcustoemrscontent{
+        width: 100%;
+    }
+    .chatbotcustoemrsimage{
+        width: 100%;
+    }
+    .hfontwiegth{
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+   
+}
