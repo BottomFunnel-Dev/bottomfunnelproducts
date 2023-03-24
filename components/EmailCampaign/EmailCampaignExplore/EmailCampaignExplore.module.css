@@ -57,6 +57,16 @@
 }
 
 
+.emailCampaignExploreButton:hover{
+    width: 20%;
+    height: 50px;
+    border: 1px solid #ec4f25 ;
+    color: #ec4f25;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-left: 40%;
+}
 
 
 

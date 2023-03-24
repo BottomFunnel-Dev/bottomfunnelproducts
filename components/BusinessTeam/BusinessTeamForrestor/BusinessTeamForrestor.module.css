@@ -1,0 +1,57 @@
+.businessTeamForrestorParent{
+    margin-top: 3%;
+    display:flex ;
+    padding: 2% 5%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.businessTeamForrestorParentHeading{
+    color: green;
+    font-weight: 700;
+}
+.businessTeamForrestorParentCintent{
+    margin-top: 1%;
+    width: 50%;
+}
+.businessTeamForrestorParentBtton{
+    margin-top: 2%;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 10px;
+
+}
+
+
+@media(max-width:780px){
+    .businessTeamForrestorParent{
+        margin-top: 3%;
+        display:flex ;
+        padding: 2% 5%;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: whitesmoke;
+        text-align: center;
+        text-align: center;
+    }
+    .businessTeamForrestorParentHeading{
+        color: green;
+        font-weight: 700;
+    }
+    .businessTeamForrestorParentCintent{
+        margin-top: 1%;
+        width: 100%;
+    }
+    .businessTeamForrestorParentBtton{
+        margin-top: 2%;
+        padding: 7px;
+        background-color: transparent;
+        border: 1px solid green;
+        border-radius: 10px;
+    
+    } 
+}

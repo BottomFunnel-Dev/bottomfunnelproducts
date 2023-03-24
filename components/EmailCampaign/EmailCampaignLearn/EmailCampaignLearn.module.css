@@ -25,6 +25,16 @@ justify-content: space-between;
 
 
 
+.Learnbutton:hover{
+    width: 200px;
+    height: 40px;
+    background-color: #ec4f25;
+    border: 2px solid none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 5%;
+    color: white;
+}
 
 
 
