@@ -1,0 +1,36 @@
+.incidentManageServicesBannerParent{
+    display: flex;
+    align-items: center;
+    background-image: url('/Images/incidentmanagementservice/backgroundbanner.webp');
+    background-size: 100% 100%;
+    padding: 5%;
+    justify-content: space-between;
+}
+.incidentManageServicesBannerParent>div{
+    width: 45%;
+}
+.incidentManageServicesBannercontent>h1{
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 2%;
+}
+.incidentManageServicesBannercontent>h5{
+    font-weight: 400;
+    line-height:30px;
+    margin-bottom: 10%;
+   
+}
+.incidentManageServicesBannercontent>button{
+    width: 200px;
+    height: 60px;
+    background-color: #ec4f25;
+    color: white;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.blowheading{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: 700;
+}

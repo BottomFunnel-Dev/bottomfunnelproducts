@@ -4,6 +4,7 @@ import { PricingAddOns } from "../../components/Pricing/PricingAddOns/PricingAdd
 import { PricingBanner } from "../../components/Pricing/PricingBanner/PricingBanner";
 import { PricingQuestion } from "../../components/Pricing/PricingQuestion/PricingQuestion";
 import { PricingStarted } from "../../components/Pricing/PricingStarted/PricingStarted";
+import { PricingTopBanner } from "../../components/Pricing/PricingTopBanner/PricingTopBanner";
 
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
@@ -24,7 +25,7 @@ export default function Pricing() {
           logo: false,
         }}
       />
-
+      <PricingTopBanner />
       <PricingBanner addOn={<PricingAddOns />} />
 
       <PricingQuestion />

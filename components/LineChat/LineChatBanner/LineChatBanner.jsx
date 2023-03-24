@@ -17,10 +17,10 @@ export const LineChatBanner = () => {
                 />
             </div>
             <div className={styles.LineChatBannerContent}>
-                <h1>Automate customer engagement with proactive messaging</h1>
-               <hr />
-               <h4>Proactively engage your visitors and customers wherever they are the Journeys.</h4>
-               <button>Explore Now</button>
+                <h1>No more waiting in line !</h1>
+              
+               <h4>Instant and personalized responses and resolution for your customers on LINE</h4>
+               <button>Sign up</button>
             </div>
         </div>
     )

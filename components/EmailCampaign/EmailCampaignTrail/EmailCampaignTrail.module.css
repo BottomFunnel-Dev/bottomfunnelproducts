@@ -1,0 +1,69 @@
+.emailCampaignTrailParent{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+}
+.emailCampaignTrailParent>h2{
+    font-weight: 700;
+}
+
+.emailCampaignTrailParent>button
+{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ec4f25;
+    color: white;
+    margin-top: 3%;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.emailCampaignTrailParent>button:hover
+{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    color: #ec4f25;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: 1px solid #ec4f25;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .emailCampaignTrailParent{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 15%;
+        text-align: center;
+    }
+    .emailCampaignTrailParent>h2{
+        font-weight: 700;
+    }
+    
+    .emailCampaignTrailParent>button
+    {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: #ec4f25;
+        color: white;
+        margin-top: 3%;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,91 @@
+.lineChatMorePerent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+   
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.lineChatMorePerent>div{
+    display: flex;
+   flex-direction: column;
+   margin-top: 10%;
+   
+}
+.lineChatMorePerent>div>div{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    margin-bottom: 10%;
+}
+.lineChatMorePerent>div>div>div{
+  
+    width: 30%;
+    height: 250px;
+    position: relative;
+    padding: 3%;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    border: 1px solid #04C358;
+
+}
+.lineChatMorePerent>div>div>div>div{
+    width: 30%;
+   
+    position: absolute;
+    top: -20%;
+   left: 35%;
+}
+
+
+@media(max-width:780px){
+    .lineChatMorePerent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+       
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+    .lineChatMorePerent>div{
+        display: flex;
+       flex-direction: column;
+       margin-top: 15%;
+       
+    }
+    .lineChatMorePerent>div>div{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+       
+        margin-bottom: 0%;
+    }
+    .lineChatMorePerent>div>div>div{
+      
+        width: 80%;
+        height: 280px;
+        position: relative;
+        padding: 3%;
+        padding-top: 25%;
+        padding-bottom: 3%;
+        border: 1px solid #04C358;
+        margin-bottom: 20%;
+    
+    }
+    .lineChatMorePerent>div>div>div>div{
+        width: 30%;
+       
+        position: absolute;
+        top: -15%;
+       left: 35%;
+    }
+    
+}

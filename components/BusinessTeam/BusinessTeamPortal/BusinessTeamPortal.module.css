@@ -1,0 +1,64 @@
+.businessTeamPortalParent{
+    margin-top: 5%;
+    padding: 0% 5%;
+}
+.businessTeamPortalParentchild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.businessTeamPortalParentchildFirstDiv{
+    width:45%;
+}
+.businessTeamPortalParentchildFirstDivheading{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.businessTeamPortalParentchildFirstDivpara{
+    margin-top: 3%;
+}
+.businessTeamPortalParentchildFirstDivButton{
+    border: none;
+    color: #ec4f25;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+
+
+@media(max-width:780px){
+    .businessTeamPortalParent{
+        margin-top: 5%;
+        padding: 0% 5%;
+    }
+    .businessTeamPortalParentchild{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    .businessTeamPortalParentchildFirstDiv{
+        width:100%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .businessTeamPortalParentchildFirstDivheading{
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 3%;
+       
+    }
+    .businessTeamPortalParentchildFirstDivpara{
+        margin-top: 3%;
+    }
+    .businessTeamPortalParentchildFirstDivButton{
+        border: none;
+        color: #ec4f25;
+        background-color: transparent;
+        font-size: 20px;
+    }
+     
+}
