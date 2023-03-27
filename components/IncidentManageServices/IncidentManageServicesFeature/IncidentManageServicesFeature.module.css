@@ -30,3 +30,51 @@
 .incidentManageServicesFeaturewieght{
     font-weight: 700;
 }
+
+
+@media(max-width:780px){
+
+    .incidentManageServicesFeatureParent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .incidentManageServicesFeatureParentchild{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      margin-top: 5%;
+    }
+    .incidentManageServicesFeatureParentchildchild{
+        width: 80%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 2%;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+    .imagediv{
+        width: 30%;
+        height: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .incidentManageServicesFeaturewieght{
+        font-weight: 700;
+    }
+    
+
+
+
+
+
+
+
+}
