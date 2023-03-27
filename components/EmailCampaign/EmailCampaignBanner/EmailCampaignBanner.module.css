@@ -1,0 +1,105 @@
+.emailCampaignBannerparent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.emailCampaignBannerparent>div {
+    width: 47%;
+}
+
+.emailCampaignBannercontentone {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.emailCampaignBannercontenthfive {
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.emailCampaignBannercontentbutton {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: #F78F1E;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+.emailCampaignBannercontentbutton:hover {
+    width: 180px;
+    height: 40px;
+    border: 1px solid #F78F1E;
+    background-color: transparent;
+    color: #F78F1E;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+.line{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: red;
+    height: 2px;
+    border: none;
+    
+}
+
+
+
+
+
+
+@media(max-width:780px){
+    .emailCampaignBannerparent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .emailCampaignBannerparent>div {
+        width: 100%;
+    }
+    
+    .emailCampaignBannercontentone {
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .emailCampaignBannercontenthfive {
+        font-weight: 400;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    
+    .emailCampaignBannercontentbutton {
+        width: 180px;
+        height: 40px;
+        border: none;
+        background-color: #F78F1E;
+        color: white;
+        font-size: 18px;
+        margin-top: 40px;
+        border-radius: 10px;
+    
+    }
+    .line{
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+        background-color: red;
+        height: 2px;
+        border: none;
+        
+    }
+    
+}

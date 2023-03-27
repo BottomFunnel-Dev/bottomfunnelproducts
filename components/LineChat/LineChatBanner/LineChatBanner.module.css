@@ -5,7 +5,7 @@
     align-items: center;
    padding-left: 5%;
     justify-content: space-between;
-background-color: whitesmoke;
+
 }
 .LineChatBannerImage{
     width: 50%;
@@ -16,16 +16,16 @@ background-color: whitesmoke;
 .LineChatBannerContent>h1{
     font-weight: 700;
     margin-bottom: 0px;
+    font-size: 46px;
 }
 .LineChatBannerContent>h4{
-    font-weight: 480;
+    font-weight: 500;
+    margin-top: 4%;
 }
-.LineChatBannerContent>hr{
-    width: 93%;
-}
+
 .LineChatBannerContent>button{
-    margin-top: 3%;
-    width: 220px;
+    margin-top: 4%;
+    width: 150px;
     height: 50px;
     background-color: #54dd4a;
     border: none;
@@ -34,8 +34,8 @@ background-color: whitesmoke;
     font-size: 22px;
 }
 .LineChatBannerContent>button:hover{
-    margin-top: 3%;
-    width: 220px;
+    width: 150px;
+    height: 50px;
     height: 50px;
     background-color: transparent;
     border: none;
@@ -64,33 +64,37 @@ background-color: whitesmoke;
 
 
 @media(max-width:780px){
-    .journeysBannerParent{
+    .LineChatBannerParent{
         display: flex;
         flex-direction: column;
         padding: 5%;
         padding-right: 5%;
         align-items: center;
-       padding-left: 0%;
+       padding-left: 5%;
         justify-content: space-between;
-    background-color: whitesmoke;
-    text-align: center;
+    
     }
-    .journeysBannerParent>div{
+    .LineChatBannerImage{
         width: 100%;
     }
-    .journeysBannerContent>h1{
+    .LineChatBannerContent{
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .LineChatBannerContent>h1{
         font-weight: 700;
         margin-bottom: 0px;
+        font-size: 46px;
     }
-    .journeysBannerContent>h4{
-        font-weight: 480;
+    .LineChatBannerContent>h4{
+        font-weight: 500;
+        margin-top: 4%;
     }
-    .journeysBannerContent>hr{
-        width: 100%;
-    }
-    .journeysBannerContent>button{
-        margin-top: 3%;
-        width: 220px;
+    
+    .LineChatBannerContent>button{
+        margin-top: 4%;
+        width: 150px;
         height: 50px;
         background-color: #54dd4a;
         border: none;
@@ -98,9 +102,9 @@ background-color: whitesmoke;
         color: white;
         font-size: 22px;
     }
-    .journeysBannerContent>button:hover{
-        margin-top: 3%;
-        width: 220px;
+    .LineChatBannerContent>button:hover{
+        width: 150px;
+        height: 50px;
         height: 50px;
         background-color: transparent;
         border: none;
@@ -108,4 +112,5 @@ background-color: whitesmoke;
         color: #54dd4a;
         font-size: 22px;
     }
+    
 }

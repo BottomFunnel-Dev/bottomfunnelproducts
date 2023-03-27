@@ -1,0 +1,64 @@
+.businessTeamEnterpriseparent{
+    padding: 2% 15%;
+    margin-top: 2%;
+    background-color: whitesmoke;
+}
+.businessTeamEnterpriseparentheading{
+    text-align: center;
+    font-weight: 700;
+}
+.businessTeamEnterpriseparentchild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.businessTeamEnterpriseparentChildImage{
+    width: 40%;
+}
+.businessTeamEnterpriseparentChildImageContent{
+    width: 55%;
+}
+.businessTeamEnterpriseparentChildImageContentbutton{
+font-size: 18px;
+border: none;
+background-color: transparent;
+color: #ec4f25;
+margin-top: 2%;
+}
+
+
+@media(max-width:780px){
+    .businessTeamEnterpriseparent{
+        padding: 2% 15%;
+        margin-top: 2%;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    .businessTeamEnterpriseparentheading{
+        text-align: center;
+        font-weight: 700;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .businessTeamEnterpriseparentchild{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    .businessTeamEnterpriseparentChildImage{
+        width: 100%;
+    }
+    .businessTeamEnterpriseparentChildImageContent{
+        width: 100%;
+    }
+    .businessTeamEnterpriseparentChildImageContentbutton{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: #ec4f25;
+    margin-top: 2%;
+    }  
+}

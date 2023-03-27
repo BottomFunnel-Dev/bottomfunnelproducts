@@ -1,0 +1,27 @@
+.ConnectWithCustomermaindiv{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4% ;
+    padding: 3%;
+}
+
+.ConnectWithCustomermaindivbutton{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+     background-color: #04C354;
+     border: none;
+
+
+}
+.ConnectWithCustomermaindivbutton:hover{
+    background-color: white;
+    color: #04C354;
+    border: 1px solid #04C354;
+
+
+}

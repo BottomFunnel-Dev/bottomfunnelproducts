@@ -1432,3 +1432,56 @@ export const salesIndustries = [
     path: "/lawfrim",
   },
 ];
+
+export const serviceFeature = [
+  {
+    dropContent: "Business team",
+    path: "/",
+  },
+  {
+    dropContent: "Project management",
+    path: "/",
+  },
+  {
+    dropContent: "ITOM",
+    path: "/",
+  },
+  {
+    dropContent: "ITSM",
+    path: "/itms-Service",
+  },
+  {
+    dropContent: "SLA",
+    path: "/",
+  },
+  {
+    dropContent: "AI-Powered Service Management",
+    path: "/aIServiceMangement",
+  },
+  {
+    dropContent: "Reporting",
+    path: "/",
+  },
+  {
+    dropContent: "Knowledge management",
+    path: "/",
+  },
+];
+
+export const serviceSolution = [
+  {
+    dropContent: "Hitech Services",
+    path: "/",
+  },
+  {
+    dropContent: "Financial services",
+    path: "/",
+  },
+  {
+    dropContent: "Education",
+    path: "/",
+  },
+
+
+
+];

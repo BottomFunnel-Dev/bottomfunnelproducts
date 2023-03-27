@@ -1,0 +1,32 @@
+.incidentManageServicesFeatureParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+}
+.incidentManageServicesFeatureParentchild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  margin-top: 5%;
+}
+.incidentManageServicesFeatureParentchildchild{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2%;
+    border-radius: 10px;
+}
+.imagediv{
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.incidentManageServicesFeaturewieght{
+    font-weight: 700;
+}

@@ -1,0 +1,32 @@
+.AccessingWhatsappheading{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.AccessingWhatsappcards{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid; */
+   
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+.AccessingWhatsappcardsinnerdiv{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    padding: 1%;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.AccessingWhatsappcardsinnerdivimage{
+    width: 100px;
+    height: 60px;
+}

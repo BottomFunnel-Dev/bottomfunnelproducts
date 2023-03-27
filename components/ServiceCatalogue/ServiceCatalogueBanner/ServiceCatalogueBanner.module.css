@@ -1,0 +1,116 @@
+.ServiceCatalogueBannerparent {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: flex-end;
+    background-image: url('/Images/ServiceCatalogue/banner.webp');
+    background-size: 100% 100%;
+    height: 90vh;
+    
+}
+
+.ServiceCatalogueBannerparentContent>h1 {
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+
+.ServiceCatalogueBannerparentContent{
+    width: 40%;
+}
+
+.ServiceCatalogueBannerparentContent>h5 {
+    font-weight: 450;
+
+    margin-bottom: 40px;
+}
+
+.ServiceCatalogueBannerparenttButtonDiv>button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ec4f25;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}
+
+.ServiceCatalogueBannerparenttButtonDiv>button:hover {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    color: #ec4f25;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 15px;
+    border: 1px solid #ec4f25;
+
+}
+
+
+
+
+
+
+
+@media(max-width:780px) {
+    .ServiceCatalogueBannerparent {
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .ServiceCatalogueBannerparent>div {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .ServiceCatalogueBannerparentContent>h1 {
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .ServiceCatalogueBannerparentContent>h5 {
+        font-weight: 450;
+
+        margin-bottom: 20px;
+    }
+
+    .ServiceCatalogueBannerparenttButtonDiv>button {
+        width: 200px;
+        height: 50px;
+        border: none;
+        background-color: #04c358;
+        color: white;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .ServiceCatalogueBannerparenttButtonDiv>button:hover {
+        width: 200px;
+        height: 50px;
+        border: none;
+        background-color: transparent;
+        color: #04c358;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-right: 15px;
+        border: 1px solid #04c358;
+
+    }
+
+}

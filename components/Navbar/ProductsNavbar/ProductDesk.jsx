@@ -24,7 +24,7 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
             <img src={item.navIcons} alt="Product logo" />
             <Link
               onClick={solDeskOut}
-              style={{ width: "75%" }}
+              style={{ width: "75%",textDecoration:"none" }}
               href={item.path}
               className={deskstyle.productlinkP}
             >

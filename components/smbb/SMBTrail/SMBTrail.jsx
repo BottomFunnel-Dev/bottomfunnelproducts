@@ -4,6 +4,7 @@ import styles from "./SMBTrail.module.css"
 export const SMBTrail = () => {
     return (
         <div className={styles.SMBTrailparent}>
+         
             <h1>
                 Start today ,and enjoy our free trail.
             </h1>

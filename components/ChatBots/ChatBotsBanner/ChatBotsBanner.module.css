@@ -1,0 +1,102 @@
+.chatbotsbannerparent{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.chatbotsbannerparent>div{
+    width: 46%;
+}
+.chatbotsbannerparentContent>h1{
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.chatbotsbannerparentContent>h5{
+    font-weight: 450;
+
+    margin-bottom: 40px;
+}
+.chatbotsbannerparentButtonDiv>button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #04c358    ;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}
+.chatbotsbannerparentButtonDiv>button:hover{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: transparent    ;
+    color: #04c358;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 15px;
+    border: 1px solid #04c358;
+
+}
+
+
+
+
+
+
+
+@media(max-width:780px){
+    .chatbotsbannerparent{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .chatbotsbannerparent>div{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .chatbotsbannerparentContent>h1{
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .chatbotsbannerparentContent>h5{
+        font-weight: 450;
+    
+        margin-bottom: 20px;
+    }
+    .chatbotsbannerparentButtonDiv>button{
+        width: 200px;
+        height: 50px;
+        border: none;
+        background-color: #04c358    ;
+        color: white;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    
+    }
+    .chatbotsbannerparentButtonDiv>button:hover{
+        width: 200px;
+        height: 50px;
+        border: none;
+        background-color: transparent    ;
+        color: #04c358;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-right: 15px;
+        border: 1px solid #04c358;
+    
+    }
+
+}

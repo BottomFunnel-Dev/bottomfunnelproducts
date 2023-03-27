@@ -1,0 +1,114 @@
+.allIntegrationBannerparent{
+   
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.allIntegrationBannerparentContentheading{
+    font-weight: 700;
+    margin: 0px;
+}
+.allIntegrationBannerparentContentpara{
+    font-weight: 400;
+}
+.allIntegrationBannerparentimage{
+    width: 45%;
+}
+.allIntegrationBannerparentContent{
+    width: 50%;
+}
+.allIntegrationBannerparentContentline{
+    width: 90%;
+}
+.allIntegrationBannerparentContentbutton{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #04C358;
+    font-size: 20px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 20px;
+}
+
+.allIntegrationBannerparentContentbutton:hover{
+    width: 200px;
+    height: 50px;
+    color: #04C358;
+    background-color:transparent ;
+    font-size: 20px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 20px;
+    border: 1px SOLID #04C358;
+}
+
+
+
+
+
+
+@media(max-width:780px){
+
+
+    .allIntegrationBannerparent{
+   
+        width: 100%;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: whitesmoke;
+    }
+    .allIntegrationBannerparentContentheading{
+        font-weight: 700;
+        margin: 0px;
+    }
+    .allIntegrationBannerparentContentpara{
+        font-weight: 400;
+    }
+    .allIntegrationBannerparentimage{
+        width: 105%;
+    }
+    .allIntegrationBannerparentContent{
+        width: 100%;
+    }
+    .allIntegrationBannerparentContentline{
+        width: 87%;
+    }
+    .allIntegrationBannerparentContentbutton{
+        width: 200px;
+        height: 50px;
+        color: white;
+        background-color: #04C358  ;
+        font-size: 20px;
+        margin-top: 5%;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    .allIntegrationBannerparentContentbutton:hover{
+        width: 200px;
+        height: 50px;
+        color: 04C358  ;
+        background-color:transparent ;
+        font-size: 20px;
+        margin-top: 5%;
+        border: none;
+        border-radius: 20px;
+        border: 1PX SOLID #04C358  ;
+    }
+    
+
+
+
+
+
+
+
+
+}
