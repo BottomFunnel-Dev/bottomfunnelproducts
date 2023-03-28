@@ -5,15 +5,15 @@ export const OurProcessPush = () => {
   const cardsData = [
     {
       title: "What we do best",
-      body: "Bottom Funnel is a world-leading supplier of software solutions. Our product range includes everything from accounting and ERP systems to CRMs and marketing automation tools. We've got you covered no matter what your needs are, so you can focus on growing your business without having to worry about IT infrastructure.",
+      body: "Bottom Funnel specializes in providing cutting-edge IT solutions and services, including on-demand app development, custom software development, digital marketing, and collaboration tools. We have a proven track record of delivering outstanding results for clients across a wide range of industries, and we're dedicated to staying ahead of the curve with the latest technologies and best practices.",
     },
     {
       title: "How we started",
-      body: "Bottom Funnel is all about making people happy and giving them the best experience possible. We started off with just 10 employees and have grown to be a team of over 120 people today. Our passion for success has helped us grow exponentially, and we are proud to say that we are one of the largest brand consultants in India today.",
+      body: " Bottom Funnel was founded by a team of experienced IT professionals with a passion for innovation and excellence. We saw a need for a company that could provide customized solutions tailored to the unique needs of each client, and we set out to create a company that would do just that. ",
     },
     {
       title: "What our goal",
-      body: "Bottom Funnel is a company that has been working towards becoming the best in their field for longer than most of us can remember. And they have a specific way of defining success - it's in the satisfaction of their clients. They strive to understand and meet each client's needs by offering them solutions tailored to suit their specific needs.",
+      body: " At Bottom Funnel, our goal is simple - to help our clients achieve their goals with the best-in-class solutions and services. We're committed to delivering exceptional results and exceeding our client's expectations, and we're constantly striving to improve and innovate in everything we do. Whether you're a startup looking to launch a new product or an established enterprise in need of cutting-edge IT solutions, we're here to help you succeed. ",
     },
   ];
 
@@ -24,11 +24,9 @@ export const OurProcessPush = () => {
         We Help You With Our <span>Best In Class</span>
       </h1>
       <p className={styles.innovatoraboutusptag}>
-        Bottom Funnel is an innovator in the industry and has been a pioneer in
-        developing cutting-edge technologies. With its expertise and knowledge,
-        it can give you the best possible solutions for your business needs.
-        Bottom Funnel is a smart choice when you want your business to scale
-        quickly and reach its full potential.
+      At Bottom Funnel, we're committed to helping our clients achieve their goals with the best-in-class solutions and services. Our team of experts brings a wealth of experience and knowledge to every project, leveraging the latest technologies and best practices to deliver exceptional results.
+Points:
+
       </p>
       <div>
         {cardsData.map(({ title, body }, idx) => {

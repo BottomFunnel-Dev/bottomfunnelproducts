@@ -15,17 +15,7 @@ export const OurProcess = () => {
           </h1>
 
           <p>
-            Going digital will bring higher revenues and growth. Marketing is
-            all about targeting the right people with the right message, Digital
-            marketing helps you do that efficiently. We are your partner in
-            building your digital brand, communicating and being found,
-            nourishing your customers, followers, and fans, and feeding your
-            commercial team. Whatever your industry, we have a path, a solution
-            for you. If you are already an international company, or if you want
-            to expand your business, we work with you. We help you create
-            content that resonates with them and draws them into your online
-            world where they will engage with your brand on social media
-            platforms like Facebook or Twitter.
+          Bottom Funnel is an innovative and forward-thinking company that specializes in providing a wide range of cutting-edge IT solutions. With a passion for innovation and a commitment to excellence, our team of experts leverages the latest technologies and best practices to deliver customized solutions that meet the unique needs of each client. At Bottom Funnel, we believe in taking an innovative approach to IT solutions, embracing new technologies and methodologies to stay ahead of the curve. Whether you need a mobile app developed from scratch, a custom software solution tailored to your specific needs, or a comprehensive digital marketing campaign to reach your target audience, our team has the skills and expertise to deliver outstanding results.
           </p>
 
 

@@ -1,10 +1,7 @@
-/* for any type of laptop and wide range of screens responsive */
-
-
 .aboutusourprocess {
   background-color: black;
   color: #f4f4f4;
-  height: 150vh;
+  height: 120vh;
   padding: 0px;
   margin-top: 0px;
   border: 1px solid black;
@@ -16,11 +13,11 @@
   width: 80%;
   margin: auto;
   padding: 2%;
-  margin-top: -8%;
+  margin-top: -15%;
 
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 5px;
-  border: 5px solid #ef4c23;
+  /* border: 5px solid #ef4c23; */
 
   display: flex;
   align-items: center;

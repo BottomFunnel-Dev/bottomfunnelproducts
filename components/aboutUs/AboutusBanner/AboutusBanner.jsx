@@ -5,9 +5,9 @@ import styles from "./AboutusBanner.module.css";
 export const AboutusBanner = () => {
   return (
     <div className={styles.aboutusBanner}>
-      <div className={styles.aboutusbannerimage}>
+      {/* <div className={styles.aboutusbannerimage}>
         <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/banner.jpg" alt="About us banner" />
-      </div>
+      </div> */}
 
       <div className={styles.aboutusbannercontent}>
         <h1>
@@ -21,10 +21,10 @@ export const AboutusBanner = () => {
           unparalleled value to our partners, through our experience and
           expertise in the field.
         </p>
-        <button
+        {/* <button
           type="button"
           data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">Get Started</button>
+          data-bs-target="#staticBackdrop">Get Started</button> */}
 
         <div>
           <div

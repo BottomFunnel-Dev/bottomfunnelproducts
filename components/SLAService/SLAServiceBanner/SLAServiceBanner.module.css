@@ -1,0 +1,75 @@
+.ITSMServiceBannermaindiv{
+    /* border: 2px solid green ; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh ;
+    background-color: #f6f6f6;
+
+}
+.ITSMServiceBannermaindivcontent{
+    width: 40%;
+}
+.ITSMServiceBannermaindivcontent p{
+    width: 75%;
+}
+.ITSMServiceBannermaindivimage{
+    width: 40%;
+}
+.ITSMServiceBannermaindivcontentbutton{
+    width: 220px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+.ITSMServiceBannermaindivcontentbutton:hover{
+    border: 1px solid #ef4c23;
+    background-color: white;
+    color: #ef4c23;
+}
+
+
+
+
+
+@media  (max-width:1024px){
+    .ITSMServiceBannermaindiv{
+        /* border: 2px solid green ; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content ;
+    
+    }
+    .ITSMServiceBannermaindivcontent{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .ITSMServiceBannermaindivimage{
+        width: 90%;
+        margin: auto;
+    }
+    .ITSMServiceBannermaindivcontentbutton{
+        width: 220px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #ef4c23;
+        color: white;
+        border-radius: 10px;
+        height: 40px;
+        border: none;
+    }
+    .ITSMServiceBannermaindivcontentbutton:hover{
+        border: 1px solid #ef4c23;
+        background-color: white;
+        color: #ef4c23;
+    }
+    
+}
