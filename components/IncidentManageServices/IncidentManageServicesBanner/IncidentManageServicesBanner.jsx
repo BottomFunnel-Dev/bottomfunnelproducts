@@ -27,8 +27,8 @@ export const IncidentManageServicesBanner = () => {
 
 
             </div>
-            <div>
-                <h4 className={styles.blowheading}> All Feature &rarr; IT Service Desk &rarr; Incidence Management</h4>
+            <div className={styles.incidentManageServicesBannerParentlowerEHeading}> 
+                <h4 className={styles.belowheading}> All Feature &rarr; IT Service Desk &rarr;<span className={styles.belowheadingincined}>Incidence Management</span> </h4>
             </div>
         </>
     );
