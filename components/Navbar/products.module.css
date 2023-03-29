@@ -12,11 +12,9 @@
 .productDropdownContent {
   height: 100%;
   width: 50%;
-  /* border: 2px solid red; */
 }
 
 .productDropdownContent > h5 {
-  /* border: 1px solid black; */
   width: 200%;
 }
 
@@ -43,12 +41,10 @@
   height: auto;
   position: fixed;
   background-color: white;
-  /* border: 2px solid red; */
 }
 
 .viewAllButton {
   cursor: pointer;
-  /* text-decoration: underline; */
   margin: 0% auto;
   background-color: white;
   width: 45%;
@@ -70,15 +66,12 @@
   align-items: center;
   height: 60px;
   box-sizing: border-box;
-  /* border: 1px solid black; */
   border-left: 3px solid white;
-  /* column-gap: 8px; */
   padding: 5px;
   margin-top: -4%;
 }
 
 .productimageIconDivSection:hover {
-  /* border-left: 3px solid #ef4c23 */
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
@@ -89,18 +82,10 @@
 .productimageIconDivSection > p {
   width: 65%;
   font-size: 14px;
-  /* margin: 0; */
 }
 .productimageIconDivSection > div {
   width: 18%;
-  /* border: 2px solid red; */
 }
-
-/* .productimageIconDivSection > div > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-} */
 
 .hoveringDiv:hover {
   background-color: var(--i);
@@ -109,10 +94,8 @@
 
 .productSaasRow {
   text-decoration: none;
-  /* color: black; */
   width: 70%;
   font-size: 14px;
-  /* border: 2px solid red; */
 }
 
 .productSaasRow p {
@@ -123,7 +106,6 @@
 }
 
 .hoveringDiv {
-  /* border: 2px solid gold; */
   padding: 5%;
 }
 
@@ -135,7 +117,6 @@
   height: 90px;
   padding: 10px;
   border-bottom: 1px solid #d9d9d9;
-  /* border: 2px solid ; */
 }
 
 .listItems {
@@ -145,29 +126,23 @@
   flex-wrap: wrap;
   flex-direction: column;
   row-gap: 8px;
-  /* border: 2px solid salmon; */
 }
 
 .listItems > div {
-  /* border: 1px solid black; */
   margin-top: 0%;
 }
 
 .listItems > div > div {
-  /* border: 1px solid black; */
   height: 40px;
   object-fit: cover;
 }
 
 .productLogoImages {
-  /* margin-top: -30%; */
-  /* border: 1px solid red; */
   width: 70% !important;
 }
 
 .productLogoImagesSecond {
   width: 60% !important;
-  /* border: 2px solid red; */
 }
 
 @media (max-width: 480px) {
@@ -218,7 +193,7 @@
   }
 
   .productLogoImagesSecond {
-    width: 115% !important;
+    width: 122% !important;
     object-fit: contain;
   }
 

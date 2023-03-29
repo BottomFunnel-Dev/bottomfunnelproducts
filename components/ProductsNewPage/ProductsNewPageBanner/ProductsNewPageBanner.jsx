@@ -79,7 +79,7 @@ export const ProductsNewPageBanner = () => {
 
           <div className={styles.productsBannerButtonsDiv}>
             <input type="text" placeholder="Input your mail" />
-            <div>Free Trial</div>
+            <div> Send Mail </div>
           </div>
         </div>
 
@@ -103,8 +103,9 @@ export const ProductsNewPageBanner = () => {
             src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/ProductBannerimage.png"
             alt="image"
           /> */}
-          <video className={styles.mainImage} autoPlay loop muted controls preload="true" poster="one-does-not-simply-placeholder.jpg">
-            <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/webm" />
+          <video className={styles.mainImage} autoplay loop muted playsinline
+           autoPlay controls preload="true" poster="one-does-not-simply-placeholder.jpg">
+            <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
