@@ -3,13 +3,13 @@ import styles from "./WorkLifeBalance.module.css";
 
 export const WorkLifeBalance = () => {
   const cardsData = [
-    "Learning & Development",
-    "Mindful Personal Guidance",
-    "Constructive Feedback",
-    "Inculsive & Open-Culture",
-    "Innovation & Quality First",
-    "Proactive Implementation",
-    "Best & Global Opportunities",
+    "Flexible Work Arrangements",
+    " Time Off ",
+    " Employee Wellness ",
+    " Family-Friendly Policies ",
+    " Culture of Respect ",
+    " Technology Support ",
+    "Management Support",
   ];
   return (
     <div className={styles.WorkLifeBalancemain}>
@@ -22,10 +22,7 @@ export const WorkLifeBalance = () => {
         <h1>Balance</h1>
       </div>
       <p>
-        Getting to a work-life balance is an increasingly important goal for
-        many professionals these days, and perhaps the biggest reason why so
-        many of us find ourselves saying yes to those crazy late nights and
-        weekend projects.
+      Looking for a company that values work-life balance? Explore opportunities with our organization and achieve a fulfilling career and personal life.
       </p>
       <div className={styles.WorkLifeBalancecards}>
         {cardsData.map((elem, idx) => {

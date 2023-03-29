@@ -4,59 +4,59 @@ import styles from "./Location.module.css";
 export const Location = () => {
   return (
     <div>
-        <div>
-            <div>
-                <h6>Office Location </h6>
-                <h6>8</h6>
+        <div className={styles.Locationmaindiv}>
+            <div className={styles.Locationmaindivbox}>
+                <h5>Office Location </h5>
+                <h5>5</h5>
             </div>
-            <div>
-                <h6>Team Members </h6>
-                <h6>1000</h6>
+            <div className={styles.Locationmaindivbox}>
+                <h5>Team Members </h5>
+                <h5>500+</h5>
             </div>
-            <div>
-                <h6>Year in business </h6>
-                <h6>10</h6>
+            <div className={styles.Locationmaindivbox}>
+                <h5>Year in business </h5>
+                <h5>5+</h5>
             </div>
-            <div>
-                <h6>Clients </h6>
-                <h6>500</h6>
+            <div className={styles.Locationmaindivbox}>
+                <h5>Clients </h5>
+                <h5>100+</h5>
             </div>
-            <div>
-                <h6>Apps Delivered  </h6>
-                <h6>450</h6>
+            <div className={styles.Locationmaindivbox1}>
+                <h5>Apps Delivered  </h5>
+                <h5>100+</h5>
             </div>
         </div>
 
-        <div>
-            <div>
+        <div className={styles.Locationmaindivinner}>
+            <div className= {styles.Locationmaindivinnerbox}>
                 <ul>
-                    <li>Consultation on product</li>
-                    <li>Work load division</li>
-                    <li>Brilliant Developers</li>
-                    <li>Fund consultation </li>
-                    <li>Work load division</li>
+                    <li>Custom app development</li>
+                    <li>Technical Expertise</li>
+                    <li>Cost-effectiveness </li>
+                    <li>Maintenance & support </li>
+                    <li>Third-party Integration</li>
                 </ul>
             </div>
 
 
-            <div>
+            <div className= {styles.Locationmaindivinnerbox1}>
                 <ul>
-                    <li>Consultation on product</li>
-                    <li>Work load division</li>
-                    <li>Brilliant Developers</li>
-                    <li>Fund consultation </li>
-                    <li>Work load division</li>
+                    <li>Quality Assurance</li>
+                    <li>Timely Delivery</li>
+                    <li>Technical Expertise</li>
+                    <li>Cost-effectiveness </li>
+                    <li>Communication Skills</li>
                 </ul>
             </div>
 
 
-            <div>
+            <div className= {styles.Locationmaindivinnerbox}>
                 <ul>
-                    <li>Consultation on product</li>
-                    <li>Work load division</li>
-                    <li>Brilliant Developers</li>
-                    <li>Fund consultation </li>
-                    <li>Work load division</li>
+                    <li>UI/UX Design</li>
+                    <li>Agile Development</li>
+                    <li>Quality Assurance</li>
+                    <li>Maintenance Support </li>
+                    <li>Project Management</li>
                 </ul>
             </div>
         </div>

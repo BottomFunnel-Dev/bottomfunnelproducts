@@ -7,23 +7,17 @@ export const OurAchievements = () => {
     <div className={styles.OurAchievementsmain}>
       <div className={styles.OurAchievementscontent}>
         <h1>
-          Our <span>Achievements</span>
+        What we have <span>achieved</span>
         </h1>
         <p>
-          Bottom Funnel is an IT company that goes the extra mile for its
-          clients. We understand your business and deliver solutions that solve
-          problems, not add more work.
+        At Bottom Funnel, we've achieved significant success in the IT field, with a focus on on-demand app development, custom software development, and digital marketing. Our team of experts has developed and launched several on-demand apps across various industries, including food delivery, transportation, and healthcare. Our apps are known for their user-friendly interfaces, cutting-edge features, and exceptional performance
         </p>
         <p>
-          Our expertise in end-to-end services means you get a complete solution
-          to your business needs - from fixing software glitches to providing
-          training on new technologies. We partner with companies big and small,
-          so we have experience working with every type of company.
+        We've also developed customized software solutions for clients across industries, helping them streamline operations and improve the overall user experience. Our digital marketing campaigns have helped clients reach their target audiences and drive growth. We've established strong collaborations with clients, working closely with them to understand their unique needs and develop solutions that exceed their expectations. Our commitment to teamwork, communication, and collaboration has helped us build strong, lasting relationships with clients. We're proud of our high levels of client satisfaction, with many clients returning for repeat business and referring us to others.
         </p>
         <p>
-          If you're looking for a partner who will put their customers' needs
-          before their own, then look no further - Bottom Funnel is just the
-          agency you've been searching for!
+        At Bottom Funnel, we're committed to continuing to innovate, improve, and exceed clients' expectations in everything we do, helping businesses achieve their goals and take their businesses to the next level.
+
         </p>
 
 
