@@ -13,7 +13,7 @@ import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
 import { interested, budget, countrycodes } from "../ContectForm/countrycode";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser"
 
 export const PopupForm = ( {formStyle}) => {
   const form = useRef();

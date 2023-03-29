@@ -14,8 +14,16 @@ import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStart
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar";
+import { Location } from "../../components/aboutUs/Location/Location";
+import CTAFrom from "../../components/aboutUs/CTAFrom/CTAFrom";
 
 export default function AboutUS() {
+  const formdata={
+    heading:"Lets Build Great things Together",
+    subHeading:"Fill Up form our team will get back to you withing 24hrs",
+    image:"/Images/aboutusImage/aerial-view-business-team 1.webp",
+    color:"#ef4c23"
+  }
   return (
     <div className={styles.AboutUSmain}>
       <Head>
@@ -40,8 +48,10 @@ export default function AboutUS() {
         />
         <AboutusBanner />
         <OurProcess />
+      <Location/>
         <OurAchievements />
         <WorkLifeBalance />
+        <CTAFrom formdata={formdata}/>
         {/* <OurBlogs /> */}
 
         {/* Other react required components  */}
