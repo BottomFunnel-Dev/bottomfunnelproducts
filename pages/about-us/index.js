@@ -50,6 +50,7 @@ export default function AboutUS() {
         {/* <LifeBottomFunnel /> */}
         {/* <GetStarted /> */}
         <ProductsFooter />
+        
       </main>
     </div>
   );
