@@ -3,8 +3,8 @@
     padding: 3.5%;
     padding-left: 8%;
     padding-right: 8%;
-position: relative;
-margin-top: 4%;
+    position: relative;
+    margin-top: 4%;
 
 }
 
@@ -13,16 +13,19 @@ margin-top: 4%;
     width: 60%;
     align-items: center;
     justify-content: space-between;
- 
+
 }
-.incidentManageServicesIncidentchild>h2{
+
+.incidentManageServicesIncidentchild>h2 {
     width: 45%;
     line-height: 45px;
     font-weight: 700;
 }
-.incidentManageServicesbuttondiv{
+
+.incidentManageServicesbuttondiv {
     width: 45%;
 }
+
 .incidentManageServicesbuttondiv>button {
     width: 300px;
     height: 65px;
@@ -31,10 +34,67 @@ margin-top: 4%;
     border: none;
     font-size: 18px;
     border-radius: 10px;
-    
+
 }
-.incidentManageServicesimage{
+
+.incidentManageServicesimage {
     position: absolute;
     top: 0;
     right: 100px;
+}
+
+
+
+
+
+@media(max-width:780px) {
+    .incidentManageServicesIncidentParent {
+        background-color: #FFF8F8;
+        padding: 3.5%;
+        padding-left: 8%;
+        padding-right: 8%;
+        position: relative;
+        margin-top: 4%;
+        text-align: center;
+    
+    }
+    
+    .incidentManageServicesIncidentchild {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .incidentManageServicesIncidentchild>h2 {
+        width: 100%;
+        line-height: 45px;
+        font-weight: 700;
+        margin-top: 60%;
+    }
+    
+    .incidentManageServicesbuttondiv {
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .incidentManageServicesbuttondiv>button {
+        width: 300px;
+        height: 65px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        font-size: 18px;
+        border-radius: 10px;
+    
+    }
+    
+    .incidentManageServicesimage {
+        position: absolute;
+        top: 0;
+        right: 100px;
+    }
+      
 }

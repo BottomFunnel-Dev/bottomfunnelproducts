@@ -1,4 +1,4 @@
-/* for any type of laptp and wide range of screens */
+
 
 .aboutusBanner {
   height: 100vh;
@@ -7,11 +7,16 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-image: url("/Images/aboutusImage/bgbanner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 0px;
+  color: white;
 }
 
 .aboutusbannercontent {
-  width: 45%;
+  width: 80%;
   height: fit-content;
 }
 
@@ -24,16 +29,17 @@
 
 .aboutusbannercontent > p {
   margin: auto;
-  text-align: justify;
+  text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
 .aboutusbannercontent > hr {
-  background-color: #393939;
-  height: 1px;
-  border-radius: 2px;
-  width: 65%;
+  background-color:white;
+  height: 5px;
+  /* border-radius: 2px; */
+  width:90%;
+  margin: auto;
   margin: 0px;
 }
 
@@ -75,6 +81,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  /* border: 2px solid; */
 }
 
 .aboutusanimatedtitle::after {

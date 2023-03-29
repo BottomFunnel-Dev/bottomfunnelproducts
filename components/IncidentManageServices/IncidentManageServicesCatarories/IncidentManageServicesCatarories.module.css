@@ -37,3 +37,48 @@ width: 45%;
 
     background-color: #FFF8F8;
 }
+
+@media(max-width:780px){
+    .incidentManageServicesCataroriesParent{
+  
+        margin-top: 5%;
+        text-align: center;
+    }
+    .incidentManageServicesCataroriesParentchild{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        padding: 5%;
+    }
+    .incidentManageServicesCataroriesParentchild>div{
+    width: 100%;
+    }
+    .incidentManageServicesCataroriesParentchildcontentheading{
+        font-weight: 700;
+        margin-bottom: 4%;
+        line-height: 45px;
+    }
+    .buttons{
+        border: none;
+        background-color: transparent;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+     
+    }
+    .buttonsline{
+        text-decoration-line: underline;
+    }
+    .arrow{
+       font-size: 30px;
+       
+       
+    }
+    .secdiv{
+    
+        background-color: #FFF8F8;
+    }
+    
+}

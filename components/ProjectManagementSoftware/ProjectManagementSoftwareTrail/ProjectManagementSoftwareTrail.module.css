@@ -1,0 +1,125 @@
+.projectManagementSoftwareTrailParent {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.projectManagementSoftwareTrailParentHading {
+    font-weight: 700;
+}
+
+.projectManagementSoftwareTrailParentPara {
+    margin-top: 1%;
+}
+
+
+
+
+
+
+.projectManagementSoftwareTrailParentbuttone {
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 2%;
+    border: none;
+    background-color: #ec4f25;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.projectManagementSoftwareTrailParentbuttone:hover {
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 2%;
+    border: 1px solid #ec4f25;
+    background-color: transparent;
+    color: #ec4f25;
+    border-radius: 5px;
+}
+
+.projectManagementSoftwareTrailParentbuttontwo {
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 2%;
+    border: none;
+    background-color: #ec4f25;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.projectManagementSoftwareTrailParentbuttontwo:hover {
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 2%;
+    border: 1px solid #ec4f25;
+    background-color: transparent;
+    color: #ec4f25;
+    border-radius: 5px;
+}
+
+
+@media(max-width:780px) {
+
+
+
+    .projectManagementSoftwareTrailParent {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .projectManagementSoftwareTrailParentHading {
+        font-weight: 700;
+    }
+
+    .projectManagementSoftwareTrailParentPara {
+        margin-top: 1%;
+    }
+
+
+
+
+
+
+    .projectManagementSoftwareTrailParentbuttone {
+        padding: 10px 10px;
+        font-size: 18px;
+        margin-top: 2%;
+        border: none;
+        background-color: #ec4f25;
+        color: white;
+        border-radius: 5px;
+    }
+
+
+    .projectManagementSoftwareTrailParentbuttone:hover {
+        padding: 10px 10px;
+        font-size: 18px;
+        margin-top: 2%;
+        border: 1px solid #ec4f25;
+        background-color: transparent;
+        color: #ec4f25;
+        border-radius: 5px;
+    }
+
+    .projectManagementSoftwareTrailParentbuttontwo {
+        padding: 10px 10px;
+        font-size: 18px;
+        margin-top: 2%;
+        border: none;
+        background-color: #ec4f25;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    .projectManagementSoftwareTrailParentbuttontwo:hover {
+        padding: 10px 10px;
+        font-size: 18px;
+        margin-top: 2%;
+        border: 1px solid #ec4f25;
+        background-color: transparent;
+        color: #ec4f25;
+        border-radius: 5px;
+    }
+}

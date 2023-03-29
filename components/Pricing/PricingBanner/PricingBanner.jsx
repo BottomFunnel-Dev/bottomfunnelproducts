@@ -3952,14 +3952,7 @@ export const PricingBanner = ({ props }) => {
 
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
+                        className={styles.projectManagementSoftwareBannerParentContent}
                         </div>
                         <h6> 2000 Orchestration transactions/mp/account</h6>
                     </div>

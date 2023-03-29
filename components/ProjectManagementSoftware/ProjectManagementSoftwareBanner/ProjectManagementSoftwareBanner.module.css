@@ -1,0 +1,148 @@
+.projectManagementSoftwareBannerParent {
+    padding-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectManagementSoftwareBannerParentImage {
+    width: 40%;
+}
+
+.projectManagementSoftwareBannerParentContent {
+    width: 55%;
+
+}
+
+.projectManagementSoftwareBannerParentContentHeading {
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.projectManagementSoftwareBannerParentContentSubHeading {
+    font-weight: 450;
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+.projectManagementSoftwareBannerParentContentbuttonone {
+    padding: 10px 10px;
+    font-size: 22px;
+    margin-top: 5%;
+    border: none;
+    background-color: #ec4f25;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.projectManagementSoftwareBannerParentContentbuttonone:hover {
+    padding: 10px 10px;
+    font-size: 22px;
+    margin-top: 5%;
+    border: 1px solid #ec4f25;
+    background-color: transparent;
+    color: #ec4f25;
+    border-radius: 5px;
+}
+
+.projectManagementSoftwareBannerParentContentbuttontwo {
+    padding: 10px 10px;
+    font-size: 22px;
+    margin-top: 5%;
+    border: none;
+    background-color: #ec4f25;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.projectManagementSoftwareBannerParentContentbuttontwo:hover {
+    padding: 10px 10px;
+    font-size: 22px;
+    margin-top: 5%;
+    border: 1px solid #ec4f25;
+    background-color: transparent;
+    color: #ec4f25;
+    border-radius: 5px;
+}
+
+
+
+
+@media(max-width:780px) {
+    .projectManagementSoftwareBannerParent {
+        padding-left: 5%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projectManagementSoftwareBannerParentImage {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .projectManagementSoftwareBannerParentContent {
+        width: 100%;
+        margin-top: 10%;
+
+    }
+
+    .projectManagementSoftwareBannerParentContentHeading {
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .projectManagementSoftwareBannerParentContentSubHeading {
+        font-weight: 450;
+        font-size: 18px;
+        margin-top: 2%;
+    }
+
+    .projectManagementSoftwareBannerParentContentbuttonone {
+        padding: 10px 10px;
+        font-size: 22px;
+        margin-top: 5%;
+        border: none;
+        background-color: #ec4f25;
+        color: white;
+        border-radius: 5px;
+    }
+
+
+    .projectManagementSoftwareBannerParentContentbuttonone:hover {
+        padding: 10px 10px;
+        font-size: 22px;
+        margin-top: 5%;
+        border: 1px solid #ec4f25;
+        background-color: transparent;
+        color: #ec4f25;
+        border-radius: 5px;
+    }
+
+    .projectManagementSoftwareBannerParentContentbuttontwo {
+        padding: 10px 10px;
+        font-size: 22px;
+        margin-top: 5%;
+        border: none;
+        background-color: #ec4f25;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    .projectManagementSoftwareBannerParentContentbuttontwo:hover {
+        padding: 10px 10px;
+        font-size: 22px;
+        margin-top: 5%;
+        border: 1px solid #ec4f25;
+        background-color: transparent;
+        color: #ec4f25;
+        border-radius: 5px;
+    }
+}
