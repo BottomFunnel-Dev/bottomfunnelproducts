@@ -1,0 +1,83 @@
+.projectManagementSoftwareFeatureParent {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.projectManagementSoftwareFeatureParentchild {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.projectManagementSoftwareFeatureParentchildcards {
+    border: 1px solid #14944C;
+    width: 30%;
+    position: relative;
+    height: 300px;
+
+}
+
+.projectManagementSoftwareFeatureParentchildcardsImage {
+    width: 45%;
+    height: 45%;
+    background-color: #E3FFEF;
+    border-radius: 50%;
+    padding: 10%;
+    position: absolute;
+    top: -22%;
+    left: 26%;
+
+}
+
+.projectManagementSoftwareFeatureParentchildcardsHeading {
+    margin-top: 40%;
+    font-weight: 700;
+}
+
+
+@media(max-width:780px){
+    .projectManagementSoftwareFeatureParent {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    .projectManagementSoftwareFeatureParentchild {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 0%;
+    }
+    
+    .projectManagementSoftwareFeatureParentchildcards {
+        border: 1px solid #14944C;
+        width: 80%;
+        position: relative;
+        height: 300px;
+        margin-top: 20%;
+        margin-left: 10%;
+        padding: 5%;
+    
+    }
+    
+    .projectManagementSoftwareFeatureParentchildcardsImage {
+        width: 45%;
+        height: 45%;
+        background-color: #E3FFEF;
+        border-radius: 50%;
+        padding: 10%;
+        position: absolute;
+        top: -22%;
+        left: 26%;
+        
+    
+    }
+    
+    .projectManagementSoftwareFeatureParentchildcardsHeading {
+        margin-top: 40%;
+        font-weight: 700;
+    }
+}
