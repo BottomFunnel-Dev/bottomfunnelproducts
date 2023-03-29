@@ -63,7 +63,7 @@ export const SimpleAndEasy = () => {
                         </div>
                         <h3>{title}</h3>
                         <p>{body}</p>
-                        <Link href={link}>
+                        <Link href={link} style={{outline: "none", textDecoration: "none"}}>
                             <p className={styles.simpleAndEasyContentButton}>
                                 {buttondetails}
                             </p>

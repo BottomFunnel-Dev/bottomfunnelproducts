@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./ReadyStarted.module.css";
 import Image from "next/image";
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 const ReadyStarted = () => {
   return (
     <div className={styles.readyStartOuterDiv}>
@@ -11,7 +12,41 @@ const ReadyStarted = () => {
           Funnel mordern Products to make it fast and easy to delight thier
           customers and employees
         </p>
-        <button>CONTACT SALES</button>
+
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop" >CONTACT SALES</button>
+
+        <div>
+          <div
+            className="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm />
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
       <div className={styles.logoImage}>
