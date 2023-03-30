@@ -28,7 +28,7 @@ export const AboutusBanner = () => {
 
         <div>
           <div
-            className="modal"
+            className="modal fade"
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
