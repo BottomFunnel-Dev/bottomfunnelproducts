@@ -6,11 +6,13 @@
   background-color: white;
   z-index: 1000;
   position: fixed;
+  /* border: 2px solid red; */
 }
 
 .platformDropdownContent {
   height: 100%;
   width: 50%;
+  /* border: 2px solid blue; */
   margin-top: 0%;
 }
 
@@ -24,6 +26,7 @@
   box-sizing: border-box;
   justify-content: space-around;
   box-sizing: border-box;
+  /* border: 2px solid green; */
 }
 
 .platformVisible {
@@ -35,12 +38,15 @@
   height: 400px;
   position: fixed;
   background-color: white;
+  /* border: 1px solid gold; */
   left: 32%;
   top: 78px;
 }
 
 .viewAllButton {
+  /* border: 2px solid red; */
   cursor: pointer;
+  /* text-decoration: underline; */
   margin: 0% auto;
   background-color: white;
   width: 65%;
@@ -61,7 +67,9 @@
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  /* border: 2px solid darkblue; */
   margin-top: 2%;
+  /* margin-bottom: -5%; */
   border-left: 3px solid white;
   padding: 5px;
   padding-top: 0%;
@@ -69,21 +77,29 @@
 }
 
 .platformimageIconDivSection:hover {
+  /* border-left: 3px solid #ef4c23 */
+  /* margin-top: 0; */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
   border-left: 3px solid #ef4c23;
+  /* transition: all 0.3s linear; */
 }
 
 .saasHoveringData {
+  /* border: 1px solid green; */
   margin-bottom: 0%;
 }
 
 .saasHoveringData:hover {
   border-left: 3px solid #ef4c23;
+  /* border: 2px solid red; */
 }
 
 .platformimageIconDivSection > div {
   width: 18%;
+  /* border-left: 2px solid white; */
+  /* background-color: #fce7e2; */
+  /* height: 30px; */
 }
 
 .platformimageIconDivSection > div > img {
@@ -99,8 +115,10 @@
 
 .platformSaasRow {
   text-decoration: none;
+  /* color: black; */
   width: 70%;
   font-size: 14px;
+  /* border: 2px solid red; */
 }
 
 .platformSaasRow p {
@@ -111,10 +129,13 @@
 }
 
 .hoveringDiv {
+  /* border: 2px solid gold; */
   padding: 5%;
 }
 
 .platformLogoImages {
+  /* margin-top: -30%; */
+  /* border: 2px solid red; */
   width: 10px;
   height: 10px;
 }
@@ -125,18 +146,21 @@
 
 .platformSaasRow {
   text-decoration: none;
+  /* border: 2px solid black; */
   width: 80%;
 }
 
 .platformSaasRow h6 {
   text-decoration: none;
   color: black;
+  /* border: 2px solid red; */
 }
 
 .platformSolutionsData {
   height: 90px;
   padding: 10px;
   border-bottom: 1px solid #d9d9d9;
+  /* border: 2px solid ; */
 }
 
 .platformSaasRow > p {
@@ -151,14 +175,17 @@
   flex-wrap: wrap;
   flex-direction: column;
   row-gap: 8px;
+  /* border: 2px solid salmon; */
 }
 
 .listItems > div > div {
+  /* border: 1px solid red; */
   height: 20px;
   object-fit: contain;
 }
 
 .platformDropdownContent > p {
+  /* border: 1px solid red; */
   font-size: 14px;
   margin-left: 7%;
 }
@@ -168,6 +195,7 @@
     display: flex;
     width: 100%;
     box-sizing: border-box;
+
     height: 470px;
     position: static;
     overflow-y: scroll;
@@ -180,11 +208,13 @@
     flex-direction: column;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
   }
 
   .platformDropdownContent {
     height: 100%;
     width: 100%;
+    /* border: 2px solid red; */
     margin-left: 0;
     padding-top: 0;
   }
@@ -197,6 +227,7 @@
     color: #ef4c23;
     padding: 7px;
     border-radius: 5px;
+    /* text-align: center; */
     border: 1px solid #ef4c23;
   }
 
@@ -204,8 +235,7 @@
     width: 11%;
   }
 }
-
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   .platformVisible {
     display: flex;
     width: 100%;

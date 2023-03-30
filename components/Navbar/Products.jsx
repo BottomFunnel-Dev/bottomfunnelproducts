@@ -66,8 +66,7 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                 style={{
                   height: "60px",
                   width: "100%",
-                  marginTop: "-4%",
-                  marginRight: "5%",
+                  marginTop: "-2%",
                   "--i": item.productHover,
                 }}
               >
@@ -76,14 +75,14 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                     className={prods.productLogoImagesSecond}
                     src={item.navIcons}
                     alt="image"
+                  // style={{ width: "90px", height: "60px" }}
                   />
                 </div>
-
                 <Link
                   onClick={productHoverOut}
                   href={item.path}
                   className={prods.productSaasRow}
-                style={{ width: "100%", marginLeft: "4%", marginTop: "0%"}}
+                // style={{ width: "100%", marginLeft: "10%", marginTop: "0%"}}
                 >
                   <p style={{ fontWeight: "500", fontSize: "14px",marginLeft:"-4%" }}>
                     {item.dropContent}
