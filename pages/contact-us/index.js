@@ -10,8 +10,16 @@ import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/
 import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import ContactForm from "../../components/ContactUS/ContactForm/ContactForm";
 
 export default function ContactUs() {
+  const formdata = {
+    heading: "Lets Build Great things Together",
+    subHeading: "Fill Up form our team will get back to you withing 24hrs",
+    image: "/Images/form.png",
+    color: "#e4fadd",
+  };
+
   return (
     <div className={styles.ContactUScontainer}>
       <Navbar
@@ -25,7 +33,9 @@ export default function ContactUs() {
       />
       <ContactUSBanner />
       {/* --------------- Contact form from home page and other pages will come here ----------- */}
-      <ContactUSForm />
+      {/* <ContactUSForm /> */}
+
+      <ContactForm formdata={formdata} bgcolor={"#e4fadd"} />
 
       {/* Other react required components  */}
       <StoriesSection />

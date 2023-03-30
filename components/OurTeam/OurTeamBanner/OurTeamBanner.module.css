@@ -1,0 +1,95 @@
+.ourTeamBannermainboxes {
+  height: 95vh;
+  border: 1px solid transparent;
+  background-image: url("/Images/OurTeamPhotos/MainBanner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ourTeamBannerheadingtxt {
+  height: 50%;
+  width: 70%;
+  margin: 6% 15% 0% 15%;
+  color: white;
+  text-align: center;
+}
+.ourTeamBannerheadingtxt > h1 {
+  color: white;
+  font-size: 35px !important;
+}
+
+.ourTeamBannerheadingtxt > h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.ourTeamBannerheadingtxt > p {
+  text-align: center;
+}
+
+.ourTeamBannerbutton {
+  padding: 10px 60px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  margin-top: 2%;
+  background-color: #ef4c23;
+  color: white;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ourTeamBannerbutton:hover {
+  color: #ef4c23;
+  background-color: white;
+}
+
+/* for any type of mobile devices responsive */
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .ourTeamBannermainboxes {
+    height: 50vh;
+    border: 1px solid transparent;
+    background: url("https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/portfolio/Main banner/Group 770864.png");
+    background-size: 100% 100%;
+  }
+
+  .ourTeamBannerheadingtxt {
+    height: 30%;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 20% 15% 0% 5%;
+    color: white;
+    text-align: center;
+  }
+  .ourTeamBannerheadingtxt > h1 > span:nth-child(2) {
+    color: #ef4c23;
+  }
+
+  .ourTeamBannerheadingtxt > h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .ourTeamBannerheadingtxt > p {
+    text-align: justify;
+    font-weight: 14px;
+  }
+
+  .ourTeamBannerbutton {
+    padding: 7px 50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    margin-top: 2%;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .ourTeamBannerbutton:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+}
