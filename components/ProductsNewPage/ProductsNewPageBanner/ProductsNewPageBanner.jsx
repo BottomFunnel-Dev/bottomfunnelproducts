@@ -135,19 +135,6 @@ export const ProductsNewPageBanner = () => {
               <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/webm" />
             </video>
 
-            {/* <div className={styles.backImagesecond}>
-              <lottie-player
-                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/backorangeproductpage.json"
-                background="transparent"
-                speed="1.5"
-                loop
-                autoplay
-                style={{
-                  width: "700px",
-                  heigth: "700px",
-                }}
-              ></lottie-player>
-            </div> */}
           </div>
         </div>
 

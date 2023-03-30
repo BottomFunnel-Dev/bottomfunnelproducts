@@ -1,0 +1,246 @@
+.onDemandFormparent {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.onDemandFormparentcontentForselectone{
+    width: 16%;
+}
+.onDemandFormparentImage {
+    width: 45%;
+    height: 80%;
+    background-color: aquamarine;
+}
+
+.onDemandFormparentcontent {
+    width: 35%;
+    margin-right: 10%;
+
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onDemandFormparentcontentForm {
+    padding: 5%;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
+
+.onDemandFormparentcontentForm>input {
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-bottom: 50px;
+    text-size-adjust: 18px;
+}
+
+.onDemandFormparentcontentFormblock {
+    width: 100%;
+    display: block;
+}
+
+.onDemandFormparentcontentFormblockphone {
+    width: 82%;
+    margin-left: 2%;
+
+}
+
+.onDemandFormparentcontentForm>select {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-bottom: 30px;
+    padding-right: 10px;
+
+}
+
+.onDemandFormparentcontentForselecttwo {
+    width: 48%;
+
+}
+
+.onDemandFormparentcontentForselectthree {
+    width: 48%;
+    margin-left: 4%;
+
+}
+
+.onDemandFormparentcontentForselectfour {
+    width: 100%;
+}
+
+.onDemandFormparentcontentFormAttchmentDiv>label {
+    cursor: pointer;
+    width: 35%;
+    border: 1px solid gray;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: whitesmoke;
+}
+
+.onDemandFormparentcontentFormAttchmentDiv>label>input {
+    display: none;
+    height: 40px;
+
+}
+
+.onDemandFormparentcontentFormAttchmentDiv>button {
+
+    height: 40px;
+    width: 50%;
+    margin-left: 10%;
+    font-size: 24px;
+    background-color: #ec4f25;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.onDemandFormparentcontentFormAttchmentDiv>button:hover {
+
+    height: 40px;
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #ec4f25;
+    border-radius: 10px;
+    border: 1px solid #ec4f25;
+}
+
+
+@media(max-width:780px){
+    .onDemandFormparent {
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .onDemandFormparentImage {
+        width: 100%;
+        height: auto;
+        background-color: none;
+    }
+    
+    .onDemandFormparentcontent {
+        width: 100%;
+        margin-right: 0%;
+    
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .onDemandFormparentcontentForm {
+        padding: 5%;
+        width: 100%;
+        background-color: white;
+        font-size: 16px;
+        margin-top: 2%;
+        border: 1px solid gray;
+        border-radius: 20px;
+    
+    }
+    
+    .onDemandFormparentcontentForm>input {
+    
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        outline: none;
+        margin-bottom: 30px;
+        text-size-adjust: 18px;
+    }
+    
+    .onDemandFormparentcontentFormblock {
+        width: 100%;
+        display: block;
+    }
+    
+    .onDemandFormparentcontentFormblockphone {
+        width: 82%;
+        margin-left: 1%;
+    
+    }
+    
+    .onDemandFormparentcontentForm>select {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: double;
+        outline: none;
+        margin-bottom: 30px;
+        padding-right: 10px;
+    
+    }
+    
+    .onDemandFormparentcontentForselecttwo {
+        width: 48%;
+    
+    }
+    
+    .onDemandFormparentcontentForselectthree {
+        width: 48%;
+        margin-left: 4%;
+    
+    }
+    
+    .onDemandFormparentcontentForselectfour {
+        width: 100%;
+    }
+    
+    .onDemandFormparentcontentFormAttchmentDiv>label {
+        cursor: pointer;
+        width: 35%;
+        border: 1px solid gray;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        background-color: whitesmoke;
+    }
+    
+    .onDemandFormparentcontentFormAttchmentDiv>label>input {
+        display: none;
+        height: 40px;
+    
+    }
+    
+    .onDemandFormparentcontentFormAttchmentDiv>button {
+    
+        height: 40px;
+        width: 50%;
+        margin-left: 10%;
+        font-size: 20px;
+        background-color: #ec4f25;
+        border: none;
+        color: white;
+        border-radius: 10px;
+    }
+      
+}
