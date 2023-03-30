@@ -36,7 +36,7 @@ export const OurProcess = () => {
 
           <div>
             <div
-              className="modal fade"
+              className="modal"
               id="staticBackdrop"
               data-bs-backdrop="static"
               data-bs-keyboard="false"

@@ -3,6 +3,7 @@ import styles from "./VettingBanner.module.css";
 import Image from "next/image";
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 
+
 export const VettingBanner = () => {
   return (
     <div className={styles.vettingBannerContainer}>
@@ -37,7 +38,7 @@ export const VettingBanner = () => {
 
         <div>
           <div
-            className="modal fade"
+            className="modal"
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
@@ -56,11 +57,13 @@ export const VettingBanner = () => {
                 </div>
 
                 <div>
-                  <PopupForm />
+                  <PopupForm/>
                 </div>
               </div>
             </div>
           </div>
+
+
         </div>
 
       </div>

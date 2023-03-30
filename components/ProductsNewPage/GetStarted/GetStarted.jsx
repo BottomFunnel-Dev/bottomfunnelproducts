@@ -22,7 +22,7 @@ export const GetStarted = () => {
         </button>
 
         <div
-          className="modal fade"
+          className="modal"
           id="staticBackdrop"
           data-bs-backdrop="static"
           data-bs-keyboard="false"
@@ -46,6 +46,7 @@ export const GetStarted = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   );
