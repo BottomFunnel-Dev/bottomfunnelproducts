@@ -189,7 +189,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={homeHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                <p>About</p>
+                <p> About </p>
                 <i
                   className={aboutH ? "bi bi-chevron-up" : "bi bi-chevron-down"}
                 ></i>

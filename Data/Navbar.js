@@ -7,7 +7,7 @@ export const company = [
   {
     dropContent: "Our Team",
     navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/aboutImage/ourteam.png",
-    path: "",
+    path: "our-team",
   },
   {
     dropContent: "Career ",
