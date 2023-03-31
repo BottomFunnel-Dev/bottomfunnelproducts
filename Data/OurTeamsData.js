@@ -56,7 +56,7 @@ export const ourDevelopers = {
       },
       {
         // color: "Pink",
-        img: "/Images/OurTeamPhotos/Jyotiranjan Das.png",
+        img: "/Images/OurTeamPhotos/jyoti.png",
         title: "Jyotiranjan Das",
         position: "Mern Stack Developer",
         desc: "Do you run a food delivery business? You can leverage online food delivery app development services to meet",
@@ -159,7 +159,7 @@ export const ourDesigners = {
 
 export const ourDigitalMarketers = {
   OurDigitalMarketersData: {
-    heading: "Our Developers",
+    heading: "Our Digital Marketers",
     cardsdata: [
       {
         // color: "#E5E5FF",

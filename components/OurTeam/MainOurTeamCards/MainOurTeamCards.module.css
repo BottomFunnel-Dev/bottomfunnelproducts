@@ -1,0 +1,193 @@
+.ourDevProcessContainer {
+  height: fit-content;
+  background-color: black;
+  border: 1px solid transparent;
+  /* border-bottom: 8px solid #ef4c23; */
+  margin-bottom: 6%;
+  /* padding-bottom: 6%; */
+}
+
+.ourDevProcessContainer > div {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  margin-top: -12%;
+  /* text-align: center; */
+  position: relative;
+  z-index: 1;
+  margin-bottom: 8%;
+  /* height: 650px; */
+  /* border-bottom: 8px solid #ef4c23; */
+  border-left: 8px solid #ef4c23;
+  border-right: 8px solid #ef4c23;
+}
+
+/* for any type of mobile responsive */
+
+@media (max-width: 480px) {
+  .ourDevProcessContainer {
+    height: fit-content;
+    background-color: black;
+    border: 1px solid transparent;
+    border-bottom: 8px solid #ef4c23;
+    margin-bottom: 3%;
+    padding-bottom: 6%;
+    margin-top: 15%;
+  }
+
+  .ourDevProcessContainer > div {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    margin-top: -8%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    border: 8px solid #ef4c23;
+  }
+
+  .ourDevProcessContainer > div > h1 {
+    font-size: 28px;
+    margin-top: 3%;
+  }
+
+  .ourDevProcessContainer > div > h1 > span {
+    color: #ef4c23;
+  }
+
+  .ourDevProcessContainer > div > div {
+    max-width: 90%;
+    margin: 2% auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .ourDevProcessContainer > div > div > p {
+    width: 90%;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0;
+  }
+
+  .ourDevProcessContainer > div > div > div {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* for any type of tablet screen responsive */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .ourDevProcessContainer {
+    height: fit-content;
+    background-color: black;
+    border: 1px solid transparent;
+    border-bottom: 8px solid #ef4c23;
+    margin-bottom: 3%;
+    padding-bottom: 6%;
+  }
+
+  .ourDevProcessContainer > div {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    margin-top: -8%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    border: 8px solid #ef4c23;
+  }
+
+  .ourDevProcessContainer > div > h1 {
+    font-size: 35px;
+    margin-top: 3%;
+  }
+
+  .ourDevProcessContainer > div > h1 > span {
+    color: #ef4c23;
+  }
+
+  .ourDevProcessContainer > div > div {
+    max-width: 90%;
+    margin: 2% auto;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .ourDevProcessContainer > div > div > p {
+    width: 45%;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0;
+  }
+
+  .ourDevProcessContainer > div > div > div {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.carrerMidBannerContainer {
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/careerPhotos/mid-banner.png"); */
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  border-bottom: 8px solid #ef4c23 ;
+  margin-top: 3% !important;
+}
+
+.carrerMidBannerContainer > h1 {
+  font-size: 35px;
+}
+
+.carrerMidBannerContainer > p {
+  font-size: 16px;
+  width: 70%;
+  text-align: center;
+}
+
+.carrerMidBannerContainer > button {
+  color: #f5f5f5;
+  background: #ef4c23;
+  margin: 2% auto;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 50px;
+  border: 2px solid #ef4c23;
+  border-top: none;
+  outline: none;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.carrerMidBannerContainer > button:hover {
+  color: #ef4c23;
+  background: #f5f5f5;
+}
+@media (max-width: 480px) {
+  .carrerMidBannerContainer > p {
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+  }
+}

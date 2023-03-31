@@ -1,36 +1,37 @@
-.ourDevelopersMain {
+.ourDigitalMarketersMain {
   margin-top: 5%;
   text-align: center;
   margin-bottom: 5%;
+  height: 700px;
 }
 
-.ourDevelopersMain > h3 {
+.ourDigitalMarketersMain > h3 {
   font-size: 32px;
   font-weight: 700;
 }
 
-.ourDeveloperscontain {
+.ourDigitalMarketerscontain {
   margin-top: 3%;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   gap: 2%;
 }
-.ourDevelopersdiv {
-  width: 20%;
+.ourDigitalMarketersdiv {
+  width: 26%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.ourDevelopersdiv:hover {
+.ourDigitalMarketersdiv:hover {
   cursor: pointer;
   transition: all 0.2s linear;
   transform: translateY(-10px);
 }
-.ourDevelopersimg {
+.ourDigitalMarketersimg {
   padding: 10px;
 }
 
-.ourDeveloperscontent {
+.ourDigitalMarketerscontent {
   text-align: left;
   padding: 8px;
   /* border: 1px solid black; */
@@ -38,16 +39,18 @@
   height: fit-content;
 }
 
-.ourDeveloperscontent > h6 {
+.ourDigitalMarketerscontent > h6 {
   font-size: 17px;
   font-weight: 500;
   height: 20px;
   margin-left: 2% !important;
 }
 
-.ourDeveloperscontent > p {
+.ourDigitalMarketerscontent > p {
   height: 130px;
   height: fit-content;
+  font-size: 14px !important;
+  font-weight: 400;
   margin-left: 2% !important;
 }
 
@@ -72,14 +75,14 @@
 }
 
 @media (max-width: 480px) {
-  .ourDevelopersdiv {
+  .ourDigitalMarketersdiv {
     margin-top: 4%;
     width: 90%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .ourDevelopersdiv {
+  .ourDigitalMarketersdiv {
     width: 90%;
   }
 }
