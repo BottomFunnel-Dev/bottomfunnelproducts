@@ -19,6 +19,7 @@
 .ourLeadersdiv {
   width: 26%;
   border-radius: 10px;
+  height: fit-content;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .ourLeadersdiv:hover {
@@ -55,8 +56,8 @@
 
 .lower {
   display: flex;
-  padding: 5px;
-  margin-top: 0%;
+  /* padding: 5px; */
+  margin-top: -10%;
 }
 
 .lower > h6 {

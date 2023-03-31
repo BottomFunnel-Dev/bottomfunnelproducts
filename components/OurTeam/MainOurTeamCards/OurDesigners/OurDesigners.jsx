@@ -60,7 +60,7 @@ export default function OurDesignerss({ OnDesignerssdata }) {
                                 width={"0"}
                                 height={"0"}
                                 sizes={"100vw"}
-                                style={{ width: "100%", height: "80%" }}
+                                style={{ width: "80%", height: "60%" }}
                             />
                         </div>
 

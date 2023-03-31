@@ -1,7 +1,7 @@
 .ourTeamBannermainboxes {
   height: 100vh;
   border: 1px solid transparent;
-  background-image: url("/Images/OurTeamPhotos/MainBanner.png");
+  background-image: url("/Images/OurTeamPhotos/OurTeamBackground.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
