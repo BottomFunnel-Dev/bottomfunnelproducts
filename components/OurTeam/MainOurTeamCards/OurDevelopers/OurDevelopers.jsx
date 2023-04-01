@@ -36,7 +36,7 @@ export default function OurDevelopers({ OnDevelopersdata }) {
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "10%", height: "100%", marginTop: "6%", marginRight: "2%" }}
+                  style={{ width: "7%", height: "7%", marginTop: "6%", marginLeft: "7%"}}
                 />
 
                 <Image
@@ -45,7 +45,7 @@ export default function OurDevelopers({ OnDevelopersdata }) {
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "10%", height: "100%", marginTop: "5%" }}
+                  style={{ width: "7%", height: "7%",  marginTop: "5%", marginLeft:"2%"}}
                 />
               </div>
 
