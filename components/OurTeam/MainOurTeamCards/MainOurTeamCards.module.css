@@ -11,15 +11,16 @@
   width: 90%;
   margin: auto;
   background-color: white;
-  margin-top: -14%;
+  margin-top: -8%;
+  /* border: 2px solid lightgray; */
   /* text-align: center; */
   position: relative;
   z-index: 1;
   margin-bottom: 8%;
   /* height: 650px; */
   /* border-bottom: 8px solid #ef4c23; */
-  border-left: 8px solid #ef4c23;
-  border-right: 8px solid #ef4c23;
+  /* border-left: 8px solid #ef4c23; */
+  /* border-right: 8px solid #ef4c23; */
 }
 
 /* for any type of mobile responsive */
