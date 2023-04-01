@@ -29,7 +29,7 @@ export const ourLeaders = {
         // color: "Pink",
         img: "/Images/OurTeamPhotos/Vineet Changulani.png",
         title: "Vineet Changulani",
-        position: "Chief Executing Office",
+        position: "Chief Executive Officer",
         desc: "Do you run a food delivery business? You can leverage online food delivery app development services to meet",
         twittericon: "/Images/OurTeamPhotos/TwitterImage.png",
         linkdinicon: "/Images/OurTeamPhotos/LinkdinImage.png",
