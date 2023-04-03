@@ -11,6 +11,7 @@ import { CustomerRate } from "../components/ProductsNewPage/CustomerRate/Custome
 import Hiretalent from "../components/ProductsNewPage/hireComopnent/Hiretalent";
 import Testimonial from "../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import OllyNeo from "../components/ProductsNewPage/OllyNeo/OllyNeo";
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
         <CustomerRate />
         <Hiretalent />
         <SimpleAndEasy />
-
+        <OllyNeo/>
         <Testimonial />
         <TrustedBy />
         <ReadyStarted />

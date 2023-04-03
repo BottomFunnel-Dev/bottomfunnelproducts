@@ -5,10 +5,11 @@
   /* border: 2px solid red; */
 }
 
-.ourDigitalMarketersMain > h3 {
+.dmHedaing> h3 {
   font-size: 32px;
   font-weight: 700;
   padding-top: 2%;
+  text-align: center;
   /* border: 2px solid red; */
 }
 

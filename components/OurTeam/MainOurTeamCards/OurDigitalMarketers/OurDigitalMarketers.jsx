@@ -6,8 +6,11 @@ export default function OurDigitalMarketers({ OnDigitalMarketerdata }) {
     const { heading, cardsdata } = OnDigitalMarketerdata;
 
     return (
+        <>
+        <div className={styles.dmHedaing}>
+           <h3>{heading}</h3>
+        </div>
         <div className={styles.ourDigitalMarketersMain}>
-            <h3>{heading}</h3>
             <div className={styles.ourDigitalMarketerscontain}>
                 {cardsdata.map((e, idx) => (
                     <div className={styles.ourDigitalMarketersdiv}
@@ -63,5 +66,6 @@ export default function OurDigitalMarketers({ OnDigitalMarketerdata }) {
                 ))}
             </div>
         </div>
+        </>
     );
 }

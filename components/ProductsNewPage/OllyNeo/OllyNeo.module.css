@@ -1,0 +1,50 @@
+.ollyNeoMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+.ollyNeoImage1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.ollyNeoImage2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.ollNeoContent{
+    /* border: 2px solid red; */
+    width: 30%;
+}
+.ollImageMainPage{
+    width: 50%;
+    position: absolute;
+    left: 35%;
+}
+.ollyNeoContent1{
+    position: absolute;
+    top: 32%;
+    left: 55%;
+    width: 40%;
+}
+.ollyNeoContent2{
+    /* border: 2px solid red; */
+    width: 35%;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+@media(max-width:480px){
+    .ollyNeoMainDiv{
+        display: none;
+    }
+    
+}

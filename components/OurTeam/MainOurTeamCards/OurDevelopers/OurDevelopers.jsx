@@ -6,8 +6,11 @@ export default function OurDevelopers({ OnDevelopersdata }) {
   const { heading, cardsdata } = OnDevelopersdata;
 
   return (
+    <>
+      <div className={styles.developerHeading}>
+        <h3>{heading}</h3>
+      </div>
     <div className={styles.ourDevelopersMain}>
-      <h3>{heading}</h3>
       <div className={styles.ourDeveloperscontain}>
         {cardsdata.map((e, idx) => (
           <div className={styles.ourDevelopersdiv}
@@ -60,5 +63,6 @@ export default function OurDevelopers({ OnDevelopersdata }) {
         ))}
       </div>
     </div>
+    </>
   );
 }

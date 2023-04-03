@@ -5,11 +5,12 @@
   /* border: 2px solid red; */
 }
 
-.ourLeadersMain > h3 {
+.ourleaderHeading>h3 {
   font-size: 32px;
   font-weight: 700;
   padding-top: 2%;
   /* border: 2px solid red; */
+  text-align: center;
 }
 
 .ourLeaderscontain {

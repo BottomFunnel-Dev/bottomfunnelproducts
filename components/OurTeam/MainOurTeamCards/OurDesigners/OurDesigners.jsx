@@ -47,8 +47,11 @@ export default function OurDesignerss({ OnDesignerssdata }) {
         //         ))}
         //     </div>
         // </div>
-        <div className={styles.ourDesignersMain}>
+        <>
+        <div className={styles.designersHeading}>
             <h3>{heading}</h3>
+        </div>
+        <div className={styles.ourDesignersMain}>
             <div className={styles.ourDesignerscontain}>
                 {cardsdata.map((e, idx) => (
                     <div className={styles.ourDesignersdiv}
@@ -105,5 +108,6 @@ export default function OurDesignerss({ OnDesignerssdata }) {
                 ))}
             </div>
         </div>
+        </>
     );
 }

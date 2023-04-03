@@ -28,9 +28,9 @@
 @media (max-width: 480px) {
   .ourDevProcessContainer {
     height: fit-content;
-    background-color: black;
+    background-color: white;
     border: 1px solid transparent;
-    border-bottom: 8px solid #ef4c23;
+    /* border-bottom: 8px solid #ef4c23; */
     margin-bottom: 3%;
     padding-bottom: 6%;
     margin-top: 15%;
@@ -44,7 +44,7 @@
     text-align: center;
     position: relative;
     z-index: 1;
-    border: 8px solid #ef4c23;
+    /* border: 8px solid #ef4c23; */
   }
 
   .ourDevProcessContainer > div > h1 {
