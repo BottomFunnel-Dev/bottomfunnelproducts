@@ -22,7 +22,7 @@ export default function OurLeaders({ Onblogdata }) {
                 width={"0"}
                 height={"0"}
                 sizes={"100vw"}
-                style={{ width: "60%", height: "40%" }}
+                style={{ width: "70%", height: "50%" }}
               />
             </div>
 
