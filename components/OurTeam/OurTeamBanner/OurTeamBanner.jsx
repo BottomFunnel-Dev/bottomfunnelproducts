@@ -7,12 +7,11 @@ export const OurTeamBanner = () => {
       <div className={styles.ourTeamBannerheadingtxt}>
         <h1>
           {/* <span>Our</span> <span>Portfolio</span> */}
-          Meet our team
+          Meet Our Team of Experts
         </h1>
 
         <p>
-          We have grown multifield and scaled new heights under the able guidance of these inquisitve minds. Meet the beacons 
-          guiding the Bottom Funnel family and fostering a people-first culture.
+        At Bottom Funnel, our team is the driving force behind our success. Our leaders bring years of industry experience and expertise, while our development team is made up of skilled professionals with a passion for creating exceptional on-demand apps. We work together seamlessly, utilizing cutting-edge technology and a collaborative approach to ensure that our clients receive the best possible solutions.
         </p>
 
         {/* <div>

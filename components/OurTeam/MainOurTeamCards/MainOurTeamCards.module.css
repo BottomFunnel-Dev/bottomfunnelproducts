@@ -1,6 +1,6 @@
 .ourDevProcessContainer {
   height: fit-content;
-  background-color: black;
+  background-color: white;
   border: 1px solid transparent;
   /* border-bottom: 8px solid #ef4c23; */
   margin-bottom: 6%;
@@ -10,7 +10,7 @@
 .ourDevProcessContainer > div {
   width: 90%;
   margin: auto;
-  background-color: white;
+  background-color: #f1f1f1;
   margin-top: -8%;
   /* border: 2px solid lightgray; */
   /* text-align: center; */
