@@ -6,8 +6,11 @@ export default function OurDevelopers({ OnDevelopersdata }) {
   const { heading, cardsdata } = OnDevelopersdata;
 
   return (
+    <>
+      <div className={styles.developerHeading}>
+        <h3>{heading}</h3>
+      </div>
     <div className={styles.ourDevelopersMain}>
-      <h3>{heading}</h3>
       <div className={styles.ourDeveloperscontain}>
         {cardsdata.map((e, idx) => (
           <div className={styles.ourDevelopersdiv}
@@ -19,7 +22,7 @@ export default function OurDevelopers({ OnDevelopersdata }) {
                 width={"0"}
                 height={"0"}
                 sizes={"100vw"}
-                style={{ width: "80%", height: "60%" }}
+                style={{ width: "60%", height: "40%" }}
               />
             </div>
 
@@ -30,13 +33,20 @@ export default function OurDevelopers({ OnDevelopersdata }) {
                   {/* <p>{e.date}</p> */}
                 </span>
 
-                <Image
+
+              </div>
+
+              <h6>{e.position}</h6>
+              <p>{e.desc}</p>
+
+              <div className={styles.socialIcons}>
+               <Image
                   src={e.twittericon}
                   alt="icon"
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "7%", height: "7%", marginTop: "6%", marginLeft: "7%"}}
+                  style={{ width: "10%", height: "10%", marginLeft:"2%"}}
                 />
 
                 <Image
@@ -45,16 +55,14 @@ export default function OurDevelopers({ OnDevelopersdata }) {
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "7%", height: "7%",  marginTop: "5%", marginLeft:"2%"}}
+                  style={{ width: "10%", height: "10%",  marginLeft:"5%"}}
                 />
               </div>
-
-              <h6>{e.position}</h6>
-              <p>{e.desc}</p>
             </div>
           </div>
         ))}
       </div>
     </div>
+    </>
   );
 }
