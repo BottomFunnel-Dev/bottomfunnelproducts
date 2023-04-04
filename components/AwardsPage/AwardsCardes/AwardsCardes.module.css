@@ -47,8 +47,9 @@
 /* for any type of mobile responsive */
 
 @media (max-width: 480px) {
+  
   .awardsCardesMain {
-    width: 49%;
+    width: 95%;
     height: 460px;
     border-radius: 20px;
     margin-top: 3%;

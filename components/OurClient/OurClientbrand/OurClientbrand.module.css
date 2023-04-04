@@ -1,6 +1,7 @@
 .ourClientbrandMain {
   margin-bottom: 4%;
   margin-top: 5%;
+  /* border: 2px solid red; */
 }
 
 .ourClientbrandHeading {
@@ -27,9 +28,11 @@
   width: 90%;
   margin: auto;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  /* border: 2px solid red; */
 }
 
 .OurClientBrand-view-button {
@@ -56,4 +59,10 @@
 
 .OurClientBrand-view-button > div > img {
   height: 100%;
+}
+
+@media(max-width:480px){
+  .ourClientbrandContent{
+    flex-direction: column;
+  }
 }

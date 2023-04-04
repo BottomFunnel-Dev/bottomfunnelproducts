@@ -3,6 +3,7 @@
   width: 20%;
   height: 300px;
   perspective: 1000px;
+  /* border: 2px solid green; */
 }
 
 .ourClientCardsFlipCardInner {
@@ -76,4 +77,11 @@
 
 .ourClientCardsImage > img {
   width: 100%;
+}
+
+@media(max-width:480px){
+  .ourClientCardsFlipCard{
+    width: 90%;
+    margin-top: 5%;
+  }
 }

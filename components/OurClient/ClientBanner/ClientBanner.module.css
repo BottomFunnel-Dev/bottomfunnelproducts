@@ -1,5 +1,6 @@
 .ourClientBannerMain {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   background: #f1f1f1;
@@ -53,4 +54,24 @@
 
 .ourClientBannerImage > img {
   height: 95%;
+}
+@media(max-width:480px){
+  .ourClientBannerMain{
+    flex-direction: column-reverse;
+  }
+  .ourClientBannerImage{
+    width: 95%;
+    height: 350px;
+    margin-top:15%;
+    /* border: 2px solid red; */
+  } 
+  .ourClientBannerImage>img{
+    width: 100%;
+    /* height: 90%; */
+  }
+  .ourClientBannerContent{
+    /* border: 2px solid black; */
+    width: 95%;
+    text-align: center;
+  }
 }

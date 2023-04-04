@@ -19,10 +19,6 @@
     flex-direction: row;
     position: relative;
 }
-.ollNeoContent{
-    /* border: 2px solid red; */
-    width: 30%;
-}
 .ollImageMainPage{
     width: 50%;
     position: absolute;
@@ -43,8 +39,35 @@
     left: 20%;
 }
 @media(max-width:480px){
-    .ollyNeoMainDiv{
-        display: none;
+    .ollyNeoImage1{
+        height: 200px;
     }
-    
+    .ollyNeoContent1{
+        /* border: 2px solid red; */
+        width: 50%;
+        top: 0%;
+        left: 51%;
+        padding: 10px;
+    }
+    .ollyNeoContent1>h2{
+        font-size: 20px;  
+    }
+    .ollyNeoContent1>p{
+        font-size: 10px;  
+    }
+    .ollyNeoContent2{
+        /* border: 2px solid red; */
+        width: 55%;
+        top: 0%;
+        left: 5%;
+        padding: 10px;
+    }
+    .ollyNeoContent2>h2{
+        font-size: 20px; 
+        width: 70%; 
+    }
+    .ollyNeoContent2>p{
+        font-size: 10px;
+        /* width: 70%;   */
+    }
 }
