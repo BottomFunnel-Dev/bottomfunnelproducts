@@ -12,6 +12,8 @@ import {
 } from "../../Data/OurClient";
 
 import Head from "next/head";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function OurClients() {
   return (
@@ -26,12 +28,23 @@ export default function OurClients() {
         />
       </Head>
 
+      <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+
       <main>
         <ClientBanner />
         <ClientSlider data={imageData} />
         <OurClientbrand data={branddata} />
         <OurClientbrand data={startupdata} />
         <OurClientbrand data={enterprisedata} />
+        <ProductsFooter />
       </main>
     </div>
   );

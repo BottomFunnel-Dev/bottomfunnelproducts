@@ -5,6 +5,7 @@
   margin: auto;
   margin-top: 5%;
   margin-bottom: 0px;
+  /* border: 2px solid red; */
 }
 
 .clientSliderSlide {
@@ -69,4 +70,10 @@
 
 .clientSliderSliderArrow:hover {
   background-color: #d6d5d5;
+}
+
+@media(max-width:480px){
+  .clientSliderSliderDiv{
+   display: none;
+  }
 }

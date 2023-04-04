@@ -12,8 +12,11 @@ import Hiretalent from "../components/ProductsNewPage/hireComopnent/Hiretalent";
 import Testimonial from "../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import OllyNeo from "../components/ProductsNewPage/OllyNeo/OllyNeo";
+import { allSaasNobloat } from "../Data/allSaasNoBloat";
+import SaasBloat from "../components/ProductsNewPage/SaasBloat/SaasBloat";
 
 export default function Home() {
+  const{ isSwitch, saasbloatData } = allSaasNobloat;
   return (
     <>
       <Head>
@@ -40,6 +43,8 @@ export default function Home() {
 
         <ProductsNewPageBanner />
         <CustomerRate />
+        {isSwitch ? <SaasBloat onSwitch={saasbloatData}/> : null} 
+        {/* <SaasBloat/> */}
         <Hiretalent />
         <SimpleAndEasy />
         <OllyNeo/>

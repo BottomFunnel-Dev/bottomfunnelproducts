@@ -18,6 +18,7 @@
   gap: 3%;
   align-items: center;
   justify-content: space-between;
+  /* border: 2px solid red; */
 }
 
 .awardsbannerContent {
@@ -75,14 +76,16 @@
   .awardsBannerMain {
     height: 95vh;
     position: relative;
-    margin-top: 120px;
-    background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/banner-background.jpg");
-    background-size: 105%;
+    /* margin-top: 120px; */
+    background: none;
+    /* background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/banner-background.jpg"); */
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 2px solid red; */
   }
 
   .awardsBannerContentMain {
@@ -93,6 +96,7 @@
     gap: 3%;
     align-items: center;
     justify-content: space-between;
+    /* border: 2px solid red; */
   }
 
   .awardsbannerContent {
