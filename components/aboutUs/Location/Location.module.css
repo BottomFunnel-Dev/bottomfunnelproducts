@@ -23,7 +23,6 @@
     padding: 1%;
     text-align: center;
     width: 18%;
-    
 }
 
 .Locationmaindivbox1{
@@ -31,13 +30,12 @@
     padding: 1%;
     text-align: center;
     width: 18%;
-    
 }
 
 .Locationmaindivinner{
     display: flex;
     flex-direction: row;
-    
+    /* border: 2px solid red; */
     justify-content: space-around;
     font-weight: 600;
     width: 75%;
@@ -46,8 +44,7 @@
     margin-bottom: 5%;
 }
 .Locationmaindivinnerbox{
-   
-    /* border: 2px solid; */
+    /* border: 2px solid yellow; */
     padding: 1%;
     border-radius: 20px;
     width: 25%;
@@ -56,10 +53,23 @@
     background-color: rgb(67, 64, 64);
 }
 .Locationmaindivinnerbox1{
-    /* border: 2px solid; */
+    /* border: 2px solid red; */
     padding: 1%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 25%;
     background-color: whitesmoke;
+}
+@media(max-width:480px){
+   .Locationmaindivinner{
+      flex-direction: column;
+   }
+   .Locationmaindivinnerbox{
+      width: 100%;
+      margin-top: 5%;
+   }
+   .Locationmaindivinnerbox1{
+    width: 100%;
+    margin-top: 5%;
+ }
 }
