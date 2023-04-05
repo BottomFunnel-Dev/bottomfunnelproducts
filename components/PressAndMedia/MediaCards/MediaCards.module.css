@@ -3,7 +3,7 @@
   padding: 1%;
   cursor: pointer;
   transition: transform 0.5s linear;
-
+  /* border: 2px solid blue; */
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: white;
@@ -44,4 +44,11 @@
 
 .mediaCardsContainer:hover {
   color: #ef4c23;
+}
+
+@media(max-width:480px){
+  .mediaCardsContainer{
+    width: 100%;
+    margin-top: 5%;
+  }
 }

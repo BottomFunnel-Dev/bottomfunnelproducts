@@ -54,7 +54,7 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
         </div>
 
         <div className={prods.productDropdownContentTwo}>
-          <div className={prods.listItems} style={{ width: "100%", margin: "13% 0" }} >
+          <div className={prods.listItems} id={prods.navbarlistProduct} style={{ width: "100%", margin: "5% 0" }} >
             {product2.map((item, i) => (
               <div
                 key={i}
@@ -84,10 +84,10 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
                   className={prods.productSaasRow}
                 // style={{ width: "100%", marginLeft: "10%", marginTop: "0%"}}
                 >
-                  <p style={{ fontWeight: "500", fontSize: "14px",marginLeft:"-4%" }}>
+                  <p id={prods.navbarlogotext}>
                     {item.dropContent}
                   </p>
-                  <p style={{ fontSize: "11px", fontWeight: "500",marginLeft:"-4%"  }}>{item.title}</p>
+                  <p  id={prods.navbarlogodesc}>{item.title}</p>
                 </Link>
               </div>
             ))}

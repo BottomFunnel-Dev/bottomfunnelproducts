@@ -7,6 +7,7 @@ import { NavIndustries } from "../NavIndustries";
 import { Products } from "../Products";
 import { Platform } from "../Platform";
 import { Resource } from "../Resource";
+import { useRouter } from "next/router";
 export default function DropdownResp({
   homeHoverIn,
   homeHoverOut,
@@ -21,6 +22,7 @@ export default function DropdownResp({
   platformHoverIn,
   platformHoverOut,
 }) {
+  const router = useRouter();
   return (
     <div className={dropdown.dropdown_css}>
       <div class="accordion" id="accordionExample">
@@ -172,11 +174,11 @@ export default function DropdownResp({
       </div>
 
       <div className={dropdown.otherNav}>
-        <div>Pricing</div>
-        <div>Support</div>
+        <div onClick={() => router.push("/pricing")} > Pricing </div>
+        <div onClick={() => router.push("/")} > Support </div>
 
-        <button>Free Trial</button>
-        <button>Services</button>
+        <button onClick={() => router.push("/allproducts")} >Free Trial</button>
+        <button onClick={() => router.push("https://service.bottomfunnel.net/")} >Services</button>
       </div>
     </div>
   );

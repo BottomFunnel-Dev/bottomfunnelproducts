@@ -45,7 +45,7 @@ export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMou
                   onClick={platformHoverOut}
                   href={item.path}
                   className={prods.linkP}
-                  style={{ width: "70%", color: "black", fontSize: "14px",textDecoration:"none" }}
+                  style={{ width: "70%", color: "black", fontSize: "14px", marginLeft:"2%",marginTop:"2%", textDecoration:"none"}}
                 >
                   {/* <p style={{ marginTop: "0%", marginLeft: "10%" }}> */}
                   {item.dropContent}
