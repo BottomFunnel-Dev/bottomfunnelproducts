@@ -3,10 +3,18 @@
   margin: auto;
   margin-top: 2%;
   text-align: center;
+  /* border: 2px solid red; */
 }
 
 .newsEventSectionMain > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* border: 2px solid yellow; */
+}
+
+@media(max-width:480px){
+  .newsEventSectionMain > div {
+    flex-direction: column;
+  }
 }

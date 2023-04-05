@@ -2,10 +2,10 @@
   width: 47%;
   margin-bottom: 2%;
   padding: 1%;
-  height: 200px;
+  height: auto;
   cursor: pointer;
   transition: transform 0.5s linear;
-
+  /* border: 2px solid blue; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,4 +70,25 @@
 .newsEventCardsMain:hover .newsEventCardsContent > h2,
 .newsEventCardsMain:hover .newsEventCardsContent > button {
   color: #ef3c23;
+}
+
+@media(max-width:480px){
+  .newsEventCardsMain{
+    width: 100%;
+    margin-top: 8%;
+    padding: 15px;
+  }
+  .newsEventCardsContent > h2 {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .newsEventCardsContent > p {
+    font-size: 13px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
 }

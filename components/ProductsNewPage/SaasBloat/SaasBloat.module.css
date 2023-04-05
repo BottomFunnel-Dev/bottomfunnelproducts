@@ -3,11 +3,17 @@
 .saasBloatMain {
     background-color: #fafafa;
     /* border: 2px solid red; */
+    margin-top: 4%;
   }
   .saasBloatheading {
     display: flex;
-    gap: 3%;
+    /* gap: 3%; */
     justify-content: center;
+    /* border: 2px solid red; */
+    margin-top: 2%;
+  }
+  .saasBloatheading>h2{
+    font-size: 40px;
   }
   .saasBloatSwitch {
     gap: 4%;
@@ -24,42 +30,48 @@
     background-color: #ef4c23;
    
   }
+  
   .saasBloatimg{
     width: 17%;
     height: 50px;
-    
   }
   
   .saasBloatSwitch > h4 {
-      margin-top: 4%;
+    margin-top: 4%;
     font-size: 24px !important;
   }
+
   .saasBloatpanel {
     width: 100%;
-    margin-top: 4%;
+    /* margin-top: 4%; */
     gap: 5%;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    /* border: 2px solid red; */
   }
+
   .saasBloatpanelright {
-    width: 35%;
+    width: 50%;
     height: 100%;
     display: flex;
     gap: 20px;
-    flex-direction: column;
+    flex-wrap: wrap;
     /* border: 2px solid red; */
     margin-left: 5%;
   }
+  
   .saasBloatpanelright > div {
     /* padding: 10px 10px 10px 10px; */
-    height: auto;
-    width: 80%;
+    height: 120px;
+    width: 48%;
     border: 2px solid lightgray;
     border-radius: 10px;
     background-color: white;
     cursor: pointer;
     padding: 15px;
   }
+
   .saasBloatpanelright > div:hover {
     border-width: 3px;
     border-style: solid;
@@ -75,7 +87,7 @@
   }
   
   .saasBloatpanelleft {
-    width: 55%;
+    width: 50%;
     height: 500px;
     background-Repeat: no-repeat !important;
     background-size: 100% 470px !important;
@@ -83,7 +95,7 @@
   
   }
   .saasBloatpanelImage {
-    width: 70%;
+    width: 90%;
     margin: auto;
     object-fit: contain;
     height: 480px;
@@ -96,8 +108,9 @@
   }
   .contentIcon > h3 {
     /* margin-top: 1%; */
-    font-size: 22px;
+    font-size: 20px;
   }
+  
   @media  (max-width:480px) {
     .saasBloatheading {
       flex-wrap: wrap;
@@ -120,8 +133,7 @@
       flex-direction: column-reverse;
     }
     .saasBloatpanelleft {
-      margin-top: 6%;
-      width: 90%;
+      display: none;
     }
     .saasBloatpanelImage {
       width: 100%;

@@ -10,7 +10,7 @@
 }
 
 .platformDropdownContent {
-  height: 100%;
+  height: auto;
   width: 50%;
   /* border: 2px solid blue; */
   margin-top: 0%;
@@ -195,8 +195,8 @@
     display: flex;
     width: 100%;
     box-sizing: border-box;
-
-    height: 470px;
+    /* border: 2px solid yellow; */
+    /* height: auto; */
     position: static;
     overflow-y: scroll;
   }
@@ -212,11 +212,13 @@
   }
 
   .platformDropdownContent {
-    height: 100%;
+    height: auto;
     width: 100%;
     /* border: 2px solid red; */
     margin-left: 0;
+    margin-top: 10%;
     padding-top: 0;
+    overflow-y: scroll;
   }
 
   .viewAllButton {
@@ -256,14 +258,7 @@
     /* border: 2px solid red; */
   }
 
-  .platformDropdownContent {
-    height: 100%;
-    width: 100%;
-    /* border: 2px solid red; */
-    margin-left: 0;
-    padding-top: 0;
-  }
-
+ 
   .viewAllButton {
     cursor: pointer;
     margin: 10% auto;

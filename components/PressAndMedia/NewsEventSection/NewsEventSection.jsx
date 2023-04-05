@@ -10,7 +10,7 @@ export const NewsEventSection = () => {
       date: "10 / Sept / 2022",
       link: "",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptates, exercitationem saepe vel ea dolor...",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     },
     {
       title: "Top Web App Development Agency 2022",
