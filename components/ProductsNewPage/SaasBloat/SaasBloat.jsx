@@ -1,17 +1,3 @@
-// import React from "react";
-// import styles from "./SaasBloat.module.css";
-// import Image from "next/image";
-
-// export const SaasBloat = () => {
-
-
-//   return (
-//     <div className={styles.saasBloatMainDiv}>
-        
-//     </div>
-//   );
-// };
-
 import React, { useState } from "react";
 import styles from "./SaasBloat.module.css";
 import Image from "next/image";
@@ -28,7 +14,7 @@ export default function SaasBloat({ onSwitch }) {
   return (
     <div className={styles.saasBloatMain}>
         <div className={styles.saasBloatheading}>
-          <h2>All SaaS, no bloat</h2>
+          <h2>All SaaS, No Bloat</h2>
         </div>
       <div className={styles.saasBloatpanel}>
         <div className={styles.saasBloatpanelright}>

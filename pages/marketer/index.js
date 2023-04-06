@@ -5,6 +5,7 @@ import { ForBusiness } from "../../components/MarketerHomePage/ForBusiness/ForBu
 import { MarketerHomePageBanner } from "../../components/MarketerHomePage/MarketerHomePageBanner/MarketerHomePageBanner";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
+import {MarketerNavbar} from "../../components/MarketerNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
@@ -20,6 +21,7 @@ const productData = {
     title: "Features",
     more: { title: "View more features", path: "/404" },
     position: { right: "35%" },
+
     products: [
       {
         dropContent: "Multichannel Engagement",
@@ -70,7 +72,7 @@ const productData = {
       },
     ],
   },
-  pricing: "",
+  pricing: "/pricing",
 };
 
 export default function MarketerHomePage() {
@@ -86,7 +88,7 @@ export default function MarketerHomePage() {
         }}
       />
 
-      <ProdNavbar data={productData} />
+      <MarketerNavbar data={productData} />
       <MarketerHomePageBanner />
       <ConversonalCrm />
       <ForBusiness />

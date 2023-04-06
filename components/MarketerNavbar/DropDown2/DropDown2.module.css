@@ -60,13 +60,13 @@
 }
 
 .productFeatureData .productlinkP>p:hover {
-    color: #04C354;
+    color: #FEBC06;
 }
 
 .productFeatureData:hover {
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     background-color: lightgray;
-    border-left: 3px solid #04C354;
+    border-left: 3px solid #FEBC06;
 }
 
 .productFeaturesAllFeaturesButton {
@@ -93,7 +93,7 @@
 }
 
 .productFeaturesAllFeaturesButton>button:hover {
-    background-color: #04C354;
+    background-color: #FEBC06;
     color: white;
-    border: 1px solid #04C354;
+    border: 1px solid #FEBC06;
 }
