@@ -54,7 +54,7 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
         </div>
 
         <div className={prods.productDropdownContentTwo}>
-          <div className={prods.listItems} id={prods.navbarlistProduct} style={{ width: "100%", margin: "5% 0" }} >
+          <div className={prods.listItems} id={prods.navbarlistProduct} style={{ width: "100%", margin: "10% 0" }} >
             {product2.map((item, i) => (
               <div
                 key={i}

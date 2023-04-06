@@ -179,6 +179,7 @@
   font-weight:500;
   margin-left:-4%;
 }
+
 @media (max-width: 480px) {
   .productVisible {
     display: flex;
@@ -216,10 +217,12 @@
     margin-right: 3%;
     object-fit: cover;
   }
+  
   #navbarlistProduct>div{
     /* border: 2px solid red; */
     margin-top: 2% !important;
   }
+  
   .productLogoImages {
     /* margin-top: -30%; */
     width: 100% !important;
@@ -250,6 +253,7 @@
 
   .productimageIconDivSection > div {
     width: 11%;
+    /* border: 2px solid red; */
   }
   .productimageIconDivSection>p {
     border: 2px solid red;
