@@ -205,3 +205,34 @@ border-radius:5px ;
 
     border: 1px solid #fa9018;
 }
+
+@media(max-width:480px){
+    .CrmProductsinnerthird{
+        flex-direction: column;
+    }
+    .CrmProductsinnerthirdcards{
+        width: 95%;
+        margin-top: 10%;
+    }
+    .CrmProductsinnerthirdcardslogo{
+        display: none;
+    }
+    .CrmProductsinnerthirdone{
+        /* border: 2px solid red; */
+        width: 85%;
+    }
+    .CrmProductsinnerthirdoneinner{
+        flex-direction: column;
+        /* border: 2px solid green; */
+        width: 100%;
+    }
+    .CrmProductsinnerthirdcards1{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .CrmProductsinnerthirdcards2{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+}

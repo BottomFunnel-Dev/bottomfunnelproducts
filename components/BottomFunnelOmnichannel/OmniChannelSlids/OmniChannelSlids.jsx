@@ -194,6 +194,7 @@ export const OmniChannelSlids = () => {
             </lottie-player>
         </div>
       </div>
+
       <div className={styles.fieldEliteService}>
         <div className={styles.contentSide}>
           <button>Bottom Funnel Chat</button>

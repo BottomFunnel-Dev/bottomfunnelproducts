@@ -92,13 +92,13 @@ export const ServiceProducts = () => {
                 <div  className={styles.ServiceProductsinnerthirdcards1}>
                  <div className={styles.ServiceProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/contectcenter.webp"}
-          alt={""}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        /> 
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/contectcenter.webp"}
+                    alt={""}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  /> 
                  </div>
                  <div className={styles.ServiceProductsinnerthirdcardscontent}>
                     <h3>Bottom Funnel Contact Center</h3>
@@ -115,13 +115,13 @@ export const ServiceProducts = () => {
                 <div  className={styles.ServiceProductsinnerthirdcards2}>
                  <div className={styles.ServiceProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/customersucess.webp"}
-          alt={""}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        /> 
+                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/customersucess.webp"}
+                    alt={""}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  /> 
                  </div>
                  <div className={styles.ServiceProductsinnerthirdcardscontent}>
                     <h3>Bottom Funnel Customer Success</h3>

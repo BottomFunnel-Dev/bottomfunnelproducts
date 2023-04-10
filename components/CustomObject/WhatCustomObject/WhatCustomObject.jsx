@@ -29,7 +29,7 @@ export const WhatCustomObject = () => {
                 </div>
             </div>
 
-            <div className={styles.whatCustomDataContainer}>
+            <div className={styles.whatCustomDataContainer1}>
                 <div className={styles.whatCustomDataBox2}>
                     <h2>Contextualize</h2>
                     <p>Create the business objects that define your business and its processes best.</p>

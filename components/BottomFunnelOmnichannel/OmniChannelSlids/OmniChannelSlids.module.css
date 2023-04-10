@@ -1,7 +1,4 @@
-.OmniChannelSlidsmainpage{
-    /* border: 2px solid green; */
 
-}
 .OmniChannelSlidsinnerdiv{
     /* border: 2px solid yellow; */
     display: flex;
@@ -55,7 +52,8 @@
     margin: auto;
     margin-top: 4%;
     display: flex;
-    /* border: 2px solid red; */
+    flex-direction: row;
+    /* border: 2px solid saddlebrown; */
   }
 
   .fieldEliteService {
@@ -64,13 +62,14 @@
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
-    /* border: 2px solid red; */
+    /* border: 2px solid yellow; */
   }
   
   .contentSide {
     width: 50%;
     text-align: left;
     padding: 3% 3%;
+    /* border: 2px solid red; */
   }
   
   .contentSide > p {
@@ -123,11 +122,11 @@
 
 @media (max-width: 1024px) {
     .OmniChannelSlidsmainpage{
-        border: 2px solid green;
+        /* border: 2px solid green; */
         margin-bottom: 3%;
     }
     .OmniChannelSlidsinnerdiv{
-        border: 2px solid yellow;
+        /* border: 2px solid darkblue; */
         display: flex;
         flex-direction: column;
         margin-top: 3%;
@@ -136,7 +135,7 @@
     }
     
     .OmniChannelSlidsinnerdiv1{
-        /* border: 2px solid yellow; */
+        /* border: 2px solid blue; */
         display: flex;
         flex-direction: column;
         margin-top: 3%;
@@ -177,4 +176,27 @@
     
     }
     
+}
+
+@media(max-width:480px)
+{
+  .funnelEliteService{
+    flex-direction: column;
+    /* border: 2px solid orange; */
+    height: auto;
+  }
+  .contentSide{
+    width: 100%;
+  }
+  .gifSideOmnichannel{
+    width: 100%;
+  }
+  .fieldEliteService{
+    flex-direction: column;
+    /* border: 2px solid orange; */
+    height: auto;
+  }
+  .gifOmnichannel{
+    width: 100%;
+  }
 }
