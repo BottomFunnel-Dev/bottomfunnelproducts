@@ -1,15 +1,13 @@
 .neoAdminAdministrationMainDiv{
-    /* border: 2px solid red; */
+    /* border: 2px solid gold; */
     width: 100%;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
 }
 .neoAdminAdministrationPassword{
     /* border: 2px solid red; */
     width: 100%;
-    /* height: 70vh; */
+    margin-top: 4%;
     display: flex;
     flex-direction: row;
 }
@@ -19,20 +17,25 @@
     
 }
 .neoAdminAdministrationImage{
-    /* border: 2px solid red; */
-    width: 40%;
+    /* border: 2px solid blueviolet; */
+    width: 50%;
     height: 70vh;
-    /* margin-top: 3%; */
     margin-left: 8%;
 }
 .neoAdminAdministrationContent{
     margin-top: 2%;
 }
+.neoAdminAdministrationTextMain{
+    /* border: 2px solid darkblue; */
+    width: 45%; 
+    margin-top: 9%;
+    margin-left: 8%;
+}
 .neoAdminAdministrationText{
     /* border: 2px solid red; */
     width: 45%; 
     margin-top: 9%;
-    margin-left: 5%;
+    margin-left: 12%;
 }
 
 .neoAdminAdministrationText>h1{
@@ -46,17 +49,17 @@
     color: #EE4C23;
 }
 .neoAdminAdministrationPassword1{
-    /* border: 2px solid red; */
+    /* border: 2px solid red;   */
     width: 100%;
-    margin-top: 2%;
+    margin-top: 4%;
     display: flex;
     flex-direction: row;
 }
 .neoAdminAdministrationImage1{
     /* border: 2px solid red; */
-    width: 40%;
+    width: 35%;
     height: 60vh;
-    margin-left: 3%;
+    margin-left: 10%;
 }
 .neoAdminAdministrationText1{
     /* border: 2px solid red; */
@@ -72,9 +75,58 @@
 .neoAdminAdministrationText1>p{
     font-size: 16px;
 }
-.neoAdminAdministrationImage4{
+.neoAdminAdministrationImage3{
     /* border: 2px solid red; */
     width: 40%;
-    height: 65vh;
-    margin-left: 3%;
+    height: 70vh;
+    margin-left: 8%;
+}
+
+@media(max-width:480px){
+    .neoAdminAdministrationPassword{
+        flex-direction: column;
+
+    }
+    .neoAdminAdministrationPassword1{
+        flex-direction: column-reverse;
+    }
+    .neoAdminAdministrationImage1{
+        width: 90%;
+        height: 40vh;
+        margin: auto;
+        /* margin-left: 10%; */
+    }
+    .neoAdminAdministrationText1{
+        /* border: 2px solid red; */
+        width: 90%; 
+        margin: auto;
+    }
+    .neoAdminAdministrationImage3{
+        width: 90%;
+        height: 40vh;
+        margin: auto;
+        /* margin-left: 10%; */
+    }
+    .neoAdminAdministrationText3{
+        /* border: 2px solid red; */
+        width: 90%; 
+        margin: auto;
+    }
+    
+    .neoAdminAdministrationTextMain{
+        /* border: 2px solid green; */
+        width: 90%;
+        margin: auto;
+    }
+    .neoAdminAdministrationImage{
+        /* border: 2px solid red; */
+        width: 95%;
+        height: 40vh;
+        margin: auto;
+    }
+    .neoAdminAdministrationText{
+        /* border: 2px solid red; */
+        width: 95%; 
+        margin:auto;
+    }
 }

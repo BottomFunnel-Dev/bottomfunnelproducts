@@ -43,7 +43,7 @@ export default function SalesPage() {
         {/* <MakeYourDeal /> */}
 
         <Testimonial />
-      <TrustedBy/>
+        <TrustedBy/>
      
       
       <ReadyStarted />

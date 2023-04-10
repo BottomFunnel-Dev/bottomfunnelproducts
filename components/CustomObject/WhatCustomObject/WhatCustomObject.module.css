@@ -28,6 +28,12 @@ width: 35%;
     display: flex;
     flex-direction: row;
 }
+.whatCustomDataContainer1{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 .whatCustomDataBox1{
     /* border: 2px solid red; */
     width: 30%;
@@ -39,4 +45,24 @@ width: 35%;
     width: 40%;
     margin-left: 10%;
     margin-top: 8%;
+}
+
+@media(max-width:480px){
+    .whatCustomDataContainer{
+        flex-direction: column;
+    }
+    .whatCustomDataContainer1{
+        flex-direction:column-reverse ;
+    }
+    .whatCustomDataBox2{
+        /* border: 2px solid red; */
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .whatCustomDataBox1{
+        /* border: 2px solid r  ed; */
+        width: 95%;
+        margin: auto;
+    }
 }

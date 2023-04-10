@@ -21,7 +21,7 @@
 }
 .Opportunityinnerdivheading{
     width: 55%;
-    /* border: 2px solid; */
+    /* border: 2px solid red; */
    
 }
 
@@ -121,7 +121,8 @@ margin-top: 1%;
     }
     .Opportunityinnerdivheading{
         width: 95%;
-        /* border: 2px solid; */
+        /* border: 2px solid yellow; */
+        padding: 15px;
        
     }
     
@@ -137,7 +138,8 @@ margin-top: 1%;
     
     }
     .Opportunitylogodivcontain{
-        margin-left: 2%;
+        margin-left: 4%;
+        /* border: 2px solid red; */
        
     }
     .Opportunitylogodivcontain p{
@@ -162,9 +164,11 @@ margin-top: 1%;
         transform: translateY(-10px);
     }
     .Opportunitylogodivupper{
-       width: 64%;
+        width: 90%;
         display: flex;
         flex-direction: row;
+        margin-top: 3%;
+        /* border: 2px solid yellow; */
     }
     
     

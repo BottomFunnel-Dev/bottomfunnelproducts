@@ -37,11 +37,7 @@
     height: 80px;
 }
 
-.SaleSmarterpricediv{
-    /* margin-top: 5%; */
-    /* border: 2px solid green; */
 
-}
 .SaleSmarterpricediv h1{
     font-size: 42px;
     color: #ef4c23;
@@ -107,6 +103,7 @@
         /* height: fit-content; */
         text-align: center;
         border-radius: 10px;
+        /* border: 2px solid yellow; */
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin: auto;
         margin-top: 4%;
@@ -131,12 +128,7 @@
         /* margin-top: 2%; */
         height: 80px;
     }
-    
-    .SaleSmarterpricediv{
-        /* margin-top: 5%; */
-        /* border: 2px solid green; */
-    
-    }
+   
     .SaleSmarterpricediv h1{
         font-size: 42px;
         color: #ef4c23;

@@ -43,16 +43,32 @@
 @media(max-width:480px){
     .neoAdminBannerDiv{
         flex-direction: column-reverse;
+        /* border: 2px solid green; */
+        margin-top: 20%;
+        /* height: auto ; */
     }
     .neoAdminBannerText{
-        width: 95%;
-        margin: auto;
-        border: 2px solid red;
+        width: 100%;
+        /* margin: auto; */
+        /* border: 2px solid red; */
     }
     .neoAdminBannerContent>button{
         width: 35%;
     }
     .neoAdminBannerContent>button:hover{
         font-weight: 100;
+    }
+    .neoAdminBannerImage{
+        width: 90%;
+        margin: auto;
+        /* border: 2px solid red; */
+        /* margin-top: 35%; */
+    }
+    .neoAdminBannerContent{
+        /* border: 2px solid yellow; */
+        margin-top: 0%;
+        margin-left:0%;
+        margin: auto;
+        width: 90%;
     }
 }
