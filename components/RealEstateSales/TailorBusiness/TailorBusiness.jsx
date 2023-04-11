@@ -10,15 +10,10 @@ export const TailorBusiness = () => {
         <div className={style.TailorBusinessinnerdiv}>
             <h2>Tailor for your business</h2>
        <p>As your company grows with the ever-expanding list of properties, you need a real estate CRM that grows with you. Bottom Funnel Sales allows you to truly make it your own by creating custom modules—a dedicated space to capture and track information about your business solutions.</p>
-      
-           
-           
             <p className={style.TailorBusinessmore}>Learn More</p>
             <div className={style.TailorBusinessimagediv}>
-                <img src="Images/realestatesales/tailor1.webp" alt="image" />
+                <img src="Images/realestatesales/tailor.png" alt="image" />
             </div>
-        
-       
         </div>
 
         <div className={style.TailorBusinessinnerdiv}>
@@ -28,7 +23,7 @@ export const TailorBusiness = () => {
           <p>Bottom Funnel Sales  real estate CRM can also auto-assign your prospects to the right agent based on the geography, lead source, etc., in a fair and round-robin fashion. Now, you do not only get rid of manually assigning leads, but you can also boost your lead response time.</p>
           <p className={style.TailorBusinessmore}>Learn More</p>
             <div className={style.TailorBusinessimagediv}>
-                <img src="Images/realestatesales/cpture1.webp" alt="image" />
+                <img src="Images/realestatesales/cpture.png" alt="image" />
             </div>
         
        

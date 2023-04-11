@@ -13,17 +13,13 @@ export const InsuranceSalesScreens = () => {
                 <p>Freshsales CRM also comes with pre-designed workflow templates that can help you automate the most common business activities. </p>
                 <p>You can enable a workflow by simply clicking a button or can edit an existing template to add more conditions and make it live.
 
-For example, if you need to send a reminder to a customer whose policy is up for renewal, send a welcome email to a new customer, or assign a customer in a particular geography to a specific sales team, automations can fulfill these tasks in a jiffy while also making your customers feel connected with your business at all times.</p>               
+       For example, if you need to send a reminder to a customer whose policy is up for renewal, send a welcome email to a new customer, or assign a customer in a particular geography to a specific sales team, automations can fulfill these tasks in a jiffy while also making your customers feel connected with your business at all times.</p>               
             <p className={style.Productivitymore}>Learn More</p>
             </div>
             <div className={style.InsuranceSalesScreensmainimagediv}>
-                <img src="Images/InsuranceSalesphotos/screen11.webp" alt="screen1" />
+                <img src="Images/InsuranceSalesphotos/Activities01.png" alt="screen1" />
 
             </div>
-
-
-            
-
 
         </div>
 
