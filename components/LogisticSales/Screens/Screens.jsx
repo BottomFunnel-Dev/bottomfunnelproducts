@@ -15,7 +15,7 @@ export const Screens = () => {
         </div>
         <div className={style.Screensmaininnerdivimage}>
         <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/007.webp"}
+                        src={"/Images/Logisticsalesphotos/007.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -36,7 +36,7 @@ export const Screens = () => {
         </div>
         <div className={style.Screensmaininnerdivimage}>
         <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/06.webp"}
+                        src={"/Images/Logisticsalesphotos/06.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -62,7 +62,7 @@ This ensures that you have context into your prospect’s needs, interests, and 
         </div>
         <div className={style.Screensmaininnerdivimage}>
         <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/01.webp"}
+                        src={"/Images/Logisticsalesphotos/01.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -85,7 +85,7 @@ This ensures that you have context into your prospect’s needs, interests, and 
         </div>
         <div className={style.Screensmaininnerdivimage}>
         <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/43.webp"}
+                        src={"/Images/Logisticsalesphotos/43.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -106,7 +106,7 @@ This ensures that you have context into your prospect’s needs, interests, and 
         </div>
         <div className={style.Screensmaininnerdivimage}>
         <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/Activities 2.webp"}
+                        src={"/Images/Logisticsalesphotos/Activities 2.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

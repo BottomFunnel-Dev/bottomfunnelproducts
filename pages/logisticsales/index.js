@@ -40,9 +40,8 @@ export default function logisticsales() {
 
         <LogisticSalesBanner />
         <LogisticsContain />
-
-      
-       <DigitalTransformation/>
+        
+        <DigitalTransformation/>
         <CRMLogistics/>
         <Screens/>
         <Engagement/>
