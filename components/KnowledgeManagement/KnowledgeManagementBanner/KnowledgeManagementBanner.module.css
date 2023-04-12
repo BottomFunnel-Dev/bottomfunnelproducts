@@ -1,0 +1,83 @@
+.KnowledgeManagementBannermaindiv{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+
+}
+.KnowledgeManagementBannerbannerImage{
+    width: 50%;
+    height:fit-content;
+    margin-top: 3%;
+}
+.KnowledgeManagementBannermaindivinnercontent{
+    width: 47%;
+    /* height:100; */
+   /* ; display: flex;
+    flex-direction: column */
+    margin: auto;
+    padding-left: 20px;
+    
+    /* border: 1px solid black; */
+}
+.KnowledgeManagementBannermaindivinnercontent h1{
+    text-transform: capitalize;
+    padding: 10px;
+
+}
+.KnowledgeManagementBannermaindivinnercontent p{
+    text-transform: capitalize;
+   
+    padding: 10px;
+    
+    font-size: 20px;
+
+}
+.KnowledgeManagementBannermaindivinnercontent button{
+
+    margin-top: 3%;
+    width: 180px;
+    height: 50px;
+    background-color: #ef4c23;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.KnowledgeManagementBannermaindivinnercontent button:hover{
+    margin-top: 3%;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    border:1px solid black;
+    border-radius: 10px;
+    color: #ef4c23;
+    font-size: 22px;
+     margin-left: 10px;
+}
+/* media query */
+@media(max-width:480px){
+    .KnowledgeManagementBannermaindiv{
+        /* display: flex; */
+    flex-direction: column;
+    
+
+    }
+    .KnowledgeManagementBannerbannerImage{
+        width: 90%;
+       margin: auto;
+       margin-top: 20%;
+    }
+    .KnowledgeManagementBannermaindivinnercontent{
+        width: 90%;
+        padding-top: 40px;
+        margin:auto;
+       
+        /* line-height: 30px; */
+       
+    }
+  
+    
+}

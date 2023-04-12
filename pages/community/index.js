@@ -6,6 +6,11 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import CommunityContentCategories from "../../components/Community/CommunityContentCategories/CommunityContentCategories";
+import CommunityUserNetwork from "../../components/Community/CommunityUserNetwork/CommunityUserNetwork";
+import CommunityHelp from "../../components/Community/CommunityHelp/CommunityHelp";
+import CommunityConversation from "../../components/Community/CommunityConversation/CommunityConversation";
+import { CommunityConnections } from "../../components/Community/CommunityConnections/CommunityConnections";
 
 
 export default function Community() {
@@ -23,7 +28,11 @@ export default function Community() {
       />
      
       <CommunityBanner/>
-      
+      <CommunityConnections/>
+      <CommunityContentCategories/>
+      <CommunityConversation/>
+      <CommunityUserNetwork/>
+      <CommunityHelp/>
       <Testimonial/>
       <TrustedBy/>
       <ReadyStarted/>

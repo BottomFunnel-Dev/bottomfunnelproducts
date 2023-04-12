@@ -1,0 +1,125 @@
+.KnowledgeManagementEmpowermaindiv {
+  width: 100%;
+  /* border:1px solid rgb(67, 193, 32); */
+}
+.KnowledgeManagementEmpowermaindiv h2 span{
+ color: #ef4c23;
+}
+.KnowledgeManagementEmpowermaindiv h2{
+    text-align: center;
+    margin-top: 120px;
+}
+.KnowledgeManagementEmpowerfirstDiv {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  margin-top: 2%;
+ 
+ 
+  /* border:1px solid red; */
+  justify-content: center;
+  align-items: center;
+}
+
+.KnowledgeManagementEmpowerone {
+  width: 40%;
+  margin: 2%;
+  /* border: 1px solid black; */
+  /* align-items: center; */
+}
+.KnowledgeManagementEmpowerone h3 {
+  margin-top: 2%;
+  padding-bottom: 20px;
+}
+.KnowledgeManagementEmpowerone p {
+  margin-top: 4%;
+  font-size: larger;
+}
+.KnowledgeManagementEmpowertwo {
+  width: 40%;
+  margin: 2%;
+  /* border: 1px solid black; */
+}
+.KnowledgeManagementEmpowertwo h3 {
+  margin-top: 2%;
+  padding-bottom: 20px;
+}
+.KnowledgeManagementEmpowertwo p {
+  margin-top: 4%;
+  font-size: larger;
+  padding-top: 4%;
+}
+
+.KnowledgeManagementEmpowersecondDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  margin-top: 3%;
+  /* border: 1px solid black; */
+}
+.KnowledgeManagementEmpowerContent {
+  /* border: 1px solid green; */
+  width: 40%;
+  margin: auto;
+  margin-top: 7%;
+}
+.KnowledgeManagementEmpowerContent h3 {
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+.KnowledgeManagementEmpowerContent>p {
+  margin-top: 3%;
+  padding-left: 50px;
+  font-size: larger;
+}
+
+.KnowledgeManagementEmpowerImage {
+  /* border: 1px solid rgb(10, 116, 86); */
+  width: 50%;
+  height: 550px;
+}
+/* media query for mobile */
+@media(max-width:480px){
+    .KnowledgeManagementEmpowermaindiv{
+        margin-top: 120px;
+        
+    }
+    .KnowledgeManagementEmpowermaindiv h2 {
+        padding-left: 10%;
+        font-size: 28px;
+    }
+    .KnowledgeManagementEmpowerfirstDiv,.KnowledgeManagementEmpowersecondDiv{
+        width: 100%;
+        display: block;
+    }
+    .KnowledgeManagementEmpowerone, .KnowledgeManagementEmpowertwo{
+     width: 80%;
+     margin: auto;
+     margin-top: 20px;
+    }
+    .KnowledgeManagementEmpowerContent{
+        width: 80%;
+       padding: 0;
+        margin-top: 350px;
+        margin-left:9%;
+        /* align-items: center; */
+        
+    }
+    .KnowledgeManagementEmpowerContent>h3, .KnowledgeManagementEmpowerContent>p{
+       padding: 0;
+       margin: 2%;
+      }
+     
+    .KnowledgeManagementEmpowerImage {
+        width: 80%;
+        height: 50%;
+        margin: auto;
+        margin-top: 40px; 
+      }
+      
+    
+    
+}

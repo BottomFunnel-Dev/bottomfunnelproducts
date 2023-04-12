@@ -1,0 +1,29 @@
+.CommunityContentCategoriesMainDiv{
+    margin-top: 5%;
+}
+.CommunityContentCategoriesMainDiv>h2{
+
+    text-align: center;
+}
+.communityBox{
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Image{
+    /* object-fit: contain; */
+   height: 25%;
+   width: 25%;
+   padding: 10px;
+}
+.Content span{
+    color: #b0b0b0;
+}
+.Content{
+    width:75%;
+    margin-left: 10px;
+}
