@@ -133,6 +133,18 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
+      {
+        source: "/analyticsoffeatures",
+        destination: "/data-and-analytics",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/unifiedcustomer",
+        destination: "/unnified-customer",
+        permanent: true,
+        basePath: false,
+      },
     ];
   },
 };
