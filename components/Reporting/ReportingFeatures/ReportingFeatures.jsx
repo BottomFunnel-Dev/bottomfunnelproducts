@@ -20,7 +20,7 @@ export const ReportingFeatures = () => {
           <p>
             Drive service desk efficiency by identifying bottlenecks and keeping
             track of key performance indicators (KPIs) with pre-defined reports
-            for incidents, changes, and assets.
+            for incidents, changes, and assets. </p>
             <ul>
               <li>
                 {" "}
@@ -33,7 +33,7 @@ export const ReportingFeatures = () => {
                 reports by various filters or formats of your choice.
               </li>
             </ul>
-          </p>
+         
         </div>
         <div className={styles.ReportingFeaturestwo}>
           <h2>Gain insights into all modules</h2>
@@ -49,7 +49,7 @@ export const ReportingFeatures = () => {
           </div>
           <p>
             Leverage reports based on different impacts, groups, types,
-            associations, or even department to pinpoint areas of improvement
+            associations, or even department to pinpoint areas of improvement</p>
             <ul>
               <li> Keep tab of its performance with periodic checkse</li>
               <li>
@@ -63,20 +63,20 @@ export const ReportingFeatures = () => {
                 modules in the service desk
               </li>
             </ul>
-          </p>
+          
         </div>
     </div>
 
     <div className={styles.ReportingFeaturessectiontwo}>
     <div className={styles.ReportingFeaturesthree}>
           <h2>Visualize reports for greater visibility</h2>
-          <p>Provide clarity into the data you want to see or present by using the data visualization engine
+          <p>Provide clarity into the data you want to see or present by using the data visualization engine</p>
 <ul>
   <li>With automatic recommendations as well as the option to use Smartboards to browse interactive 
 visualizations, view or present the analytics you require for greater understanding</li>
 <li>Easily break down insights, plan better, and improve your service desk performance</li>
 </ul>
-</p>
+
         </div>
         <div className={styles.ReportingFeaturesthreeimg}>
             <Image

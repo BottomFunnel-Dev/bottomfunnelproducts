@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 // import  Link  from "next/Link";
 import prodnav from "./CustomerSuccess.module.css";
 import { useRouter } from "next/router";
+import {CustomerSuccessFeature} from "./CustomerSuccessFeature";
 
 export const CustomerSuccess = ({ navproductredux }) => {
   const [ProductSolution, setProductSolution] = useState(false);

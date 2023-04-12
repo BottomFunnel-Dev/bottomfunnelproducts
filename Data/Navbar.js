@@ -1460,7 +1460,7 @@ export const serviceFeature = [
   },
   {
     dropContent: "Reporting",
-    path: "/",
+    path: "/bottomfunnel-Services/reporting",
   },
   {
     dropContent: "Knowledge management",
@@ -1484,4 +1484,51 @@ export const serviceSolution = [
 
 
 
+];
+
+export const customerSuccessFeatures = [
+  {
+    dropContent: "Account 360",
+    path: "/bottomfunnel-customer-success/account-360",
+  },
+  {
+    dropContent: "Customer Health",
+    path: "/funneldesk/features/collaboration",
+  },
+  {
+    dropContent: "NPS Survey",
+    path: "/funneldesk/features/automation",
+  },
+  {
+    dropContent: "Proactive alerts",
+    path: "/funneldesk/features/helpwidget",
+  },
+  {
+    dropContent: "Success Goals",
+    path: "/funneldesk/features/reportandanalysis",
+  },
+  {
+    dropContent: "Customer Segmentation",
+    path: "/funneldesk/features/security",
+  },
+  {
+    dropContent: "Reporting & Analytics",
+    path: "/funneldesk/features/integration",
+  },
+  {
+    dropContent: "Email Automation",
+    path: "/funneldesk/features/reportandanalysis",
+  },
+  {
+    dropContent: "Team Management",
+    path: "/funneldesk/features/security",
+  },
+  {
+    dropContent: "Churn Reports",
+    path: "/funneldesk/features/integration",
+  },
+  {
+    dropContent: "TouchPoints",
+    path: "/funneldesk/features/integration",
+  },
 ];

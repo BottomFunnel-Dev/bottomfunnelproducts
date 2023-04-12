@@ -1,28 +1,28 @@
 import React from "react";
-import featurestyle from "./ProductFeature.module.css";
+import featurestyle from "./CustomerSuccessFeature.module.css";
 import Link from "next/link";
-import { productFeatures } from "../../../Data/Navbar";
+import { customerSuccessFeatures } from "../../../Data/Navbar";
 
-export const ProductFeature = ({ solFeaIn, solFeaOut, scroll }) => {
+export const CustomerSuccessFeature = ({ solFeaIn, solFeaOut, scroll }) => {
   return (
     <div
       onMouseEnter={solFeaIn}
       onMouseLeave={solFeaOut}
-      className={featurestyle.productFeatureMainDiv}
+      className={featurestyle.customerSuccessMainDiv}
       style={{ top: scroll ? "6.5%" : "15%" }}
     >
       <div
-        className={featurestyle.productFeatureListItems}
+        className={featurestyle.customerSuccessListItems}
         style={{ width: "100%" }}
       >
-        {productFeatures.map((item, i) => (
+        {customerSuccessFeatures.map((item, i) => (
           <div
             key={i}
             onClick={() => {
               // navigate(`/${item.path}`);
               solFeaOut();
             }}
-            className={featurestyle.productFeatureData}
+            className={featurestyle.customerSuccessData}
           >
             <Link
               onClick={solFeaOut}
@@ -33,13 +33,7 @@ export const ProductFeature = ({ solFeaIn, solFeaOut, scroll }) => {
             </Link>
           </div>
         ))}
-        <Link
-          onClick={solFeaOut}
-          href={"/funneldesk/features"}
-          className={featurestyle.productFeaturesAllFeaturesButton}
-        >
-          <button>View all features</button>
-        </Link>
+     
       </div>
     </div>
   );
