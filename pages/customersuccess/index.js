@@ -27,25 +27,23 @@ export default function CustomerSuccessHome() {
         logo: false,
       }}
     />
-    {/* <CustomerSuccess
+    <CustomerSuccess
       navproductredux={{
         color: "black",
         logo: false,
       }}
-    /> */}
+    />
 
        <CustomerSuccessBanner/>
        <CustomerSuccessLeadership/>
        <ActiveGoals/>
        <CustomerValue/>
        <RequestDemo/>
-
        <Testimonial />
        <TrustedBy/>
      
        <ReadyStarted />
       {/* <TalentProfiles/> */}
-      
       <LifeBottomFunnel />
       <DeskFooter />
     </div>
