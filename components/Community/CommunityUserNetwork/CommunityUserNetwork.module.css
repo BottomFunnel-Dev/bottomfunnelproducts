@@ -1,0 +1,56 @@
+.CommunityUserNetworkMainDiv {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 40px;
+}
+.CommunityUserNetworkMainDiv p{
+  color: #858585;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.CommunityUserNetworkButton {
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-bottom:8%;
+  width: 200px;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.CommunityUserNetworkButton:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+.CommunityContent {
+  text-align: center;
+
+  margin-top: 5%;
+  border: 1px solid #f5f5f5;
+  border-radius: 19px;
+  height: auto;
+}
+.CommunityContent h5 {
+  margin-top: 4%;
+}
+.CommunityUserNetworkButton2 {
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-top: 2%;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #ef4c23;
+  font-size: 20px;
+   font-weight: 400;
+  color: #ef4c23;
+}
+.CommunityUserNetworkButton2:hover{
+    background-color:#ef4c23;
+    color:white;
+  
+}

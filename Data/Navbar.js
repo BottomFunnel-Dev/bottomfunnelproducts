@@ -1464,7 +1464,7 @@ export const serviceFeature = [
   },
   {
     dropContent: "Knowledge management",
-    path: "/",
+    path: "/bottomfunnel-Services/knowledge-management",
   },
 ];
 
@@ -1493,42 +1493,83 @@ export const customerSuccessFeatures = [
   },
   {
     dropContent: "Customer Health",
-    path: "/funneldesk/features/collaboration",
+    path: "/",
   },
   {
     dropContent: "NPS Survey",
-    path: "/funneldesk/features/automation",
+    path: "/",
   },
   {
     dropContent: "Proactive alerts",
-    path: "/funneldesk/features/helpwidget",
+    path: "/",
   },
   {
     dropContent: "Success Goals",
-    path: "/funneldesk/features/reportandanalysis",
+    path: "/",
   },
   {
     dropContent: "Customer Segmentation",
-    path: "/funneldesk/features/security",
+    path: "/",
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "/funneldesk/features/integration",
+    path: "/",
   },
   {
     dropContent: "Email Automation",
-    path: "/funneldesk/features/reportandanalysis",
+    path: "/",
   },
   {
     dropContent: "Team Management",
-    path: "/funneldesk/features/security",
+    path: "/",
   },
   {
     dropContent: "Churn Reports",
-    path: "/funneldesk/features/integration",
+    path: "/",
   },
   {
     dropContent: "TouchPoints",
-    path: "/funneldesk/features/integration",
+    path: "/",
+  },
+];
+
+export const omnichannelDesk = [
+  {
+    dropContent: "Omnichannel Suite",
+    productText1: "Delight your customers with effortless omnichannel service",
+    productText2: "Travel & Hospitality",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/omnichannel.png",
+    path: "/bottomfunnel-omnichannel",
+  },
+  {
+    dropContent: "Support Desk",
+    productText1: "A comprehensive helpdesk for exceptional customer service",
+    productText2: "SMB",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/support-desk.png",
+    path: "/funneldesk",
+  },
+  {
+    dropContent: "Messaging",
+    productText1:
+      "Messaging and chatbot-first support for today's digital customer",
+    productText2: "Travel & Hospitality",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/customer-sucess.png",
+    path: "/",
+  },
+  {
+    dropContent: "Contact Center",
+    productText1:
+      "A reliable and smart call center solution for effortless experience",
+    productText2: "Field Service",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/contact-center.png",
+    path: "/contact-center",
+  },
+  {
+    dropContent: "Customer Sucess",
+    productText1:
+      "Product revenue, increase customer lifetime value, and strengthen customer relationship.",
+    productText2: "Travel & Hospitality",
+    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/customer-sucess.png",
+    path: "/customersuccess",
   },
 ];

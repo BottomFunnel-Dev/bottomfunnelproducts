@@ -1,0 +1,100 @@
+.CommunityConnectionsMainDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.CommunityConnectionsImage {
+  width: 50%;
+  /* height: auto; */
+}
+.CommunityConnectionsContent {
+  width: 50%;
+  margin: auto;
+}
+.CommunityConnectionsSpanContent {
+  /* margin-left: 5%; */
+  font-size: 20px;
+  margin-bottom: 7%;
+  display: flex;
+  flex-direction: row;
+}
+.CommunityConnectionsSpanContent p{
+    margin-right: 4%;
+}
+.CommunityConnectionsListContent {
+  margin-top: 5%;
+
+  font-size: 18px;
+}
+.CommunityConnectionsListContent p {
+  margin-bottom: 4%;
+  font-weight: 500;
+}
+.CommunityUserNetworkButton2 {
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-top: 3%;
+  width: 280px;
+  background-color: #ef4c23;
+  border: 1px solid #ef4c23;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  
+}
+.CommunityUserNetworkButton2:hover {
+    color: #ef4c23;
+  
+  background-color: white;
+}
+@media(max-width:480px) {
+    .CommunityConnectionsMainDiv {
+       margin-top: 0;
+       
+      }
+      .CommunityConnectionsImage{
+         width: 40%;
+         height: 19vh;
+         margin: auto;
+      }
+      .CommunityConnectionsContent{
+        width: 40%;  
+      }
+      .CommunityConnectionsSpanContent{
+        
+        /* flex-direction: column; */
+        width: 90%;
+        font-size: 8px;
+        height: auto;
+        
+
+      }
+      .CommunityConnectionsSpanContent p{
+        margin-bottom:3%;
+        
+       
+      }
+      
+      .CommunityConnectionsListContent{
+        width: 100%;
+        height: auto;
+         margin: 7% auto;
+         font-size: 10px;
+         margin-top: 5%;
+      }
+      
+ 
+    .CommunityConnectionsListContent p {
+      margin-bottom: 4%;
+      font-size: 8px;
+    width:153%;}
+
+      .CommunityUserNetworkButton2{
+        width: 60%;
+        padding: 2px;
+        font-size: 8px;
+        height: 20px;
+       
+      }
+
+}

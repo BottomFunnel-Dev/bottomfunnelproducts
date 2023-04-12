@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import { BottomFunnelOmnichannelBanner } from '../../components/BottomFunnelOmnichannel/BottomFunnelOmnichannelBanner/BottomFunnelOmnichannelBanner'
-import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsNavbar'
 import { OmnichannelSolution } from '../../components/BottomFunnelOmnichannel/OmnichannelSolution/OmnichannelSolution'
 import { OmniChannelSlids } from '../../components/BottomFunnelOmnichannel/OmniChannelSlids/OmniChannelSlids'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
@@ -9,6 +8,7 @@ import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/
 import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import {DeskFooter} from "../../components/DeskFooter/DeskFooter";
+import { Omnichannel } from '../../components/Navbar/Omnichannel/Omnichannel'
 
 export default function BottomFunnelOmnichannel () {
     return (
@@ -22,7 +22,7 @@ export default function BottomFunnelOmnichannel () {
         logo: false,
       }}
     />
-    <ProductsNavbar
+    <Omnichannel
       navproductredux={{
         color: "black",
         logo: false,

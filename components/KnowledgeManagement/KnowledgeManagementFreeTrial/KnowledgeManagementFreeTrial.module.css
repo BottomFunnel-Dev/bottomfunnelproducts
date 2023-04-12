@@ -1,0 +1,69 @@
+.KnowledgeManagementFreeTrialMaindiv{
+   text-align: center;
+   
+   height: 250px;
+   background-color: #F5F5F5;
+   padding: 2%;
+   margin: auto;
+   margin-bottom: 50px;
+   /* justify-content: center; */
+    /* border: 1px solid black; */
+ 
+}
+.KnowledgeManagementFreeTrialDiv1{
+   
+   /* border: 1px solid black; */
+   margin-top:15px;
+}
+.KnowledgeManagementdemo{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    font-weight: 500;
+    background-color: #ef4c23;
+    }
+
+   .KnowledgeManagementdemo:hover{
+        background-color: white;
+color: #ef4c23;
+border: 1px solid #ef4c23;
+    }
+
+    .KnowledgeManagementsignup:hover{
+        background-color: #ef4c23;
+        color: white;
+        border: none;
+    }
+
+.KnowledgeManagementsignup{
+width: 150px;
+height: 50px;
+font-weight: 500;
+border-radius: 5px;
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: 1px solid #ef4c23;
+    background-color:white;
+
+}
+/* media query for mobile */
+@media(max-width:480px){
+    .KnowledgeManagementFreeTrialMaindiv{
+        height: 280px;
+    }
+    .KnowledgeManagementdemo,.KnowledgeManagementsignup{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        
+
+
+    }
+}

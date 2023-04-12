@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 .videoSpotlightContainer{
-    /* border: 2px solid go ld; */
+    /* border: 2px solid gold; */
     width: 90%;
     margin: auto;
     display: flex;
@@ -40,4 +40,15 @@
 .videoSpotlightBox>h4{
     text-align: center;
     margin-top: 8%;
+}
+
+@media(max-width:480px){
+    .videoSpotlightContainer{
+        flex-direction: column;
+    }
+    .videoSpotlightBox{
+        width: 95%;
+        margin: auto;
+        margin-top: 5%;
+    }
 }
