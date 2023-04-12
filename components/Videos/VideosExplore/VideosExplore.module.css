@@ -57,3 +57,34 @@
     background-color: white;
     color: #ef4c23;
 }
+
+@media(max-width:480px){
+    .videoExploreMainDiv{
+        /* border: 2px solid yellow; */
+        height: 200px;
+    }
+    .videoExploreDiv{
+        width: 100%;
+        height: 200px;
+    }
+    .videoExploreImage1{
+        height: 150px;
+    }
+    .videoExploreImage2{
+        height: 150px;
+    }
+    .videoExploreText>h2{
+        font-size: 20px;
+    }
+    .videoExploreText>button{
+        width: 85%;
+        height: 35px;
+        border-radius: 10px;
+        font-weight: 400;
+        margin-top: 5%;
+        margin-left: 1%;
+        background-color: #ef4c23;
+        color: white;
+        border: 2px solid #ef4c23;
+    }
+}

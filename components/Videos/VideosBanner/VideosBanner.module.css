@@ -18,3 +18,17 @@
     font-size: 60px;
     color: #393939;
 }
+
+@media(max-width:480px){
+    .videoBannerMainDiv{
+        /* border: 2px solid darkblue; */
+        height: 170px;
+    }
+    .videoBannerText>h2{
+        font-size: 15px;
+        color: #393939;
+    }
+    .videoBannerImage{
+        height: 170px;
+    }
+}
