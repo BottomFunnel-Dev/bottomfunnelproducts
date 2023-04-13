@@ -67,3 +67,22 @@
     background-color: #EF4C23;
     color: white;
 }
+
+@media(max-width:480px){
+    .whyAcademyContentData{
+        flex-direction: column;
+    }
+    .whyAcademyContentDataDiv{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .whyAcademyButtonDiv{
+        /* border: 2px solid black; */
+        width: 90%;
+    }
+    .whyAcademyContentDataImage{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+}

@@ -1,27 +1,30 @@
 .careerBannerMain {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  background-color: #f5f5f5;
+  width: 100%;
   height: 100vh;
+  position: relative;
+  /* border: 2px solid red; */
 }
 
 .careerBannerImage {
-  width: 45%;
+  width: 100%;
   height: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
 }
 
 .careerBannerImage > img {
-  height: 70%;
+  height: 100%;
+  width: 100%;
 }
 
 .careerBannerContent {
-  width: 45%;
+  width: 85%;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  color: white;
+  /* border: 2px solid red; */
+  text-align: center;
 }
 
 .careerBannerContent > h1 {

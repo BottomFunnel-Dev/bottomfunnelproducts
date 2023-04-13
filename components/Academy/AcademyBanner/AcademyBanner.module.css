@@ -43,3 +43,25 @@
 .academyButton{
     margin-left: 2%;
 }
+
+@media(max-width:480px){
+    .academyBanner{
+        /* border: 2px solid green; */
+        flex-direction: column-reverse;
+        height: 78vh;
+    }
+    .academyBannerImage{
+        /* border: 2px solid yellow; */
+        height:450px;
+        width: 100%;
+        margin: 0%;
+        margin-top: 2%;
+    }
+    .academyHeading{
+        /* border: 2px solid green; */
+        width: 90%;
+        color: white;
+        margin:auto;
+        margin-top: 2%;
+    }
+}

@@ -27,8 +27,8 @@ export default function ContactUs() {
           navMount: false,
         }}
         navredux={{
-          color: "black",
-          logo: false,
+          color: "white",
+          logo: true,
         }}
       />
       <ContactUSBanner />
