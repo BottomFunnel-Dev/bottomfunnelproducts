@@ -102,10 +102,12 @@
     border: 1px solid transparent;
     background-color: #fff9f7;
     /* color: white; */
+    /* height: 70px; */
+    border: 2px solid blue;
   }
   
   .hirringdropdowncontext > h2 {
-    font-size: 40px;
+    font-size: 0px;
     /* height: 70px; */
     border-bottom: 2px solid lightgray;
     /* border: 2px solid red; */

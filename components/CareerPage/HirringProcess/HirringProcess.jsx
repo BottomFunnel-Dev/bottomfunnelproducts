@@ -33,9 +33,9 @@ export const HirringProcess = () => {
                 />
                 </div>
                 <div className={career.hirringButtonText}>
-                    <h4>
+                    <h6>
                         Entry level
-                    </h4>
+                    </h6>
                     <p>
                         Hirring
                     </p>
@@ -53,9 +53,9 @@ export const HirringProcess = () => {
                 />
                 </div>
                 <div className={career.hirringButtonText2}>
-                    <h4>
-                        Entry level
-                    </h4>
+                    <h6>
+                        Experienced level
+                    </h6>
                     <p>
                         Hirring
                     </p>
@@ -66,10 +66,10 @@ export const HirringProcess = () => {
         {/* <div className={career.hirringmaincontainer}>
                 <div className={career.hirringdropdownmaincontainer1}>
 
-                    <Accordion className={career.hirringdropdowncontext}>
+                    <Accordion className={career.hirringdropdowncontextouter}>
                         <Accordion.Item className={career.hirringdropdowncontext} eventKey="0">
                             <Accordion.Header className={career.hirringdropdownDivContext}
-                            ><h4>PHP Developer</h4>  </Accordion.Header>
+                            ><h6>PHP Developer</h6>  </Accordion.Header>
                             <Accordion.Body className={career.hirringdropdowncontext}
                             >
                                 SEO, also known as Search Engine Optimization, is a technique to increase your website’s visibility, traffic and rankings in Search Engines (Google, Yahoo or Bing).
@@ -91,7 +91,7 @@ export const HirringProcess = () => {
                         </Accordion.Item>
 
                         <Accordion.Item className={career.hirringdropdowncontext} eventKey="1">
-                            <Accordion.Header><h4>Business Analyst</h4>  </Accordion.Header>
+                            <Accordion.Header><h6>Business Analyst</h6>  </Accordion.Header>
                             <Accordion.Body>
                                 To book your car, all you need is a credit or debit card. When you pick the car up, you'll need:
 
@@ -102,7 +102,7 @@ export const HirringProcess = () => {
                         </Accordion.Item>
 
                         <Accordion.Item className={career.hirringdropdowncontext} eventKey="2">
-                            <Accordion.Header> <h4>Is my data safe?</h4>  </Accordion.Header>
+                            <Accordion.Header> <h6>React Native</h6>  </Accordion.Header>
                             <Accordion.Body>
 
                                 Yes, as long as they meet these requirements. Just fill in their details while you're making the reservation.
@@ -111,7 +111,7 @@ export const HirringProcess = () => {
                         </Accordion.Item>
 
                         <Accordion.Item className={career.hirringdropdowncontext} eventKey="3">
-                            <Accordion.Header><h4>How to hire a professional SEO services company?</h4> </Accordion.Header>
+                            <Accordion.Header><h6>Mean Stack Developer</h6> </Accordion.Header>
                             <Accordion.Body>
 
                                 We work with all the major international car hire brands (and lots of smaller local companies)
@@ -122,7 +122,7 @@ export const HirringProcess = () => {
                         </Accordion.Item>
 
                         <Accordion.Item className={career.hirringdropdowncontext} eventKey="4">
-                            <Accordion.Header><h4>Why should I choose bottom funnel for professional SEO services?</h4> 
+                            <Accordion.Header><h6>Andriod App Developers</h6> 
                             </Accordion.Header>
                             <Accordion.Body>
                                     SEO, also known as Search Engine Optimization, is a technique to increase your website’s visibility, traffic and rankings in Search Engines (Google, Yahoo or Bing).
@@ -143,7 +143,7 @@ export const HirringProcess = () => {
                         </Accordion.Item>
 
                         <Accordion.Item className={career.hirringdropdowncontext} eventKey="5">
-                            <Accordion.Header><h4>When can I expect to see results for my SEO campaigns?</h4>   </Accordion.Header>
+                            <Accordion.Header><h6>Mern Stack Developer</h6>   </Accordion.Header>
                             <Accordion.Body>
 
                                 The vast majority of our rentals include Theft Protection, Collision Damage Waiver (CDW), local taxes,
