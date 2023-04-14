@@ -1,0 +1,44 @@
+.customerEngagmentTrailImgDiv{
+    width: 80%;
+    margin: auto;
+    background-image: url("/Images/Customerengagement/Group1000006931.png");
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.customerEngagmentTrailImgContentDiv{
+    position: absolute;
+    width: 50%;
+    bottom: 40%;
+    left: 5%;
+}
+.customerEngagmentTrailImgContentDiv>h2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.customerEngagmentTrailImgContentDiv>p{
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.customerEngagmentTrailImgContentDiv>button{
+    color: #ffff;
+    padding: 10px 45px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 2px solid #ef4c23;
+    background-color: #ef4c23;
+   
+}
+.customerEngagmentTrailImgContentDiv>button:hover{
+    color: #ef4c23;
+    background-color:  white;
+    border: 2px solid #ef4c23;
+}
+.customerEngagmentTrailImgDiv>img{
+width: 100%;
+}

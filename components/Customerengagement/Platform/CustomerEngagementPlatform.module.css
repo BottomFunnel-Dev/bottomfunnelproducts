@@ -1,0 +1,59 @@
+.customerEngagmentplatformMainDiv{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.customerEngagmentContentDiv{
+    width: 70%;
+    margin: auto;
+}
+
+.customerEngagmentContentDiv{
+text-align: center;
+}
+.customerEngagmentContentDiv p{
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+   display: inline-block;
+  width: 78%;
+
+}
+.customerEngagmentBannerDiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+
+}
+.customerEngagmentBannerImgDiv>img{
+    width: 100%;
+}
+.customerEngagmentBannerImgDiv{
+    width: 42%;
+}
+.customerEngagmentBannerContentBoxDiv{
+   
+    width: 30%;
+}
+.customerEngagmentBannerContentBoxDiv>div{
+    padding:20px;
+    margin-bottom: 1rem;
+    border:1px solid #ef4c23ea;
+    border-right: none;
+    cursor: pointer;
+}
+.customerEngagmentBannerContentBoxDiv>div:hover{
+    color: #ffff;
+    background-color: #ef4c23;
+}
+
+.customerEngagmentBannerContentBoxDiv>div:nth-child(1){
+    border-top-color: #ef4c2346;
+   
+}
+.customerEngagmentBannerContentBoxDiv>div:nth-child(2){
+    border-top-color: #ef4c2346;
+
+}
+.customerEngagmentBannerContentBoxDiv>div:nth-child(3){
+    border-top-color: #ef4c2310;
+
+}
