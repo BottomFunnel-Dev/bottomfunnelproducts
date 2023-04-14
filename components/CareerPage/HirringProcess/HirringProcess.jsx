@@ -1,82 +1,76 @@
 import React from "react";
-import career from "./CareerOpening.module.css";
+import career from "./HirringProcess.module.css";
+import Image from "next/image";
 import Accordion from 'react-bootstrap/Accordion';
 
-export const CareerOpening = () => {
-  const OpeningData = [
-    "SSE - Blockchain Developer",
-    "Business Development/Business manager",
-    "Content Writer",
-    "Angular Developer",
-    "Node.js Lead",
-    "React.js Developer",
-    "Flutter Developer",
-    "IOS Engineer",
-    "Sr. Devops Engineer",
-    "React Native",
-  ];
-
+export const HirringProcess = () => {
   return (
-    <div className={career.careerOpeningContainer}>
-      <div className={career.careerOpengingSearchbar}>
-        <input type="text" placeholder="Find your role" />
-        <button>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            class="bi bi-search"
-            viewBox="0 0 16 16"
-          >
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-          </svg>
-        </button>
-      </div>
-
-      <div className={career.careerOpeningFilterButton}>
-        <h2>Showing 10 openings</h2>
-        <button>
-          <p>Filters</p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            class="bi bi-arrow-right-short"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+    <>
+      <div className={career.hirringProcessMain}>
+        <div className={career.hirringHeading}>
+            <h2>Hirring Process</h2>
+        </div>
+        <div className={career.hirringProcessImage}>
+            <Image
+                src={"/Images/careerPhotos/hirring.png"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
             />
-          </svg>
-        </button>
-      </div>
+        </div>
+        <div className={career.hirringProcessButtons}>
+            <div className={career.hirringProcessButtons1}>
+                <div className={career.hirringbuttonImage1}>
+                <Image
+                    src={"/Images/careerPhotos/logo1.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
+                </div>
+                <div className={career.hirringButtonText}>
+                    <h6>
+                        Entry level
+                    </h6>
+                    <p>
+                        Hirring
+                    </p>
+                </div>
+            </div>
+            <div className={career.hirringProcessButtons2}>
+                <div className={career.hirringbuttonImage2}>
+                <Image
+                    src={"/Images/careerPhotos/logo2.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
+                </div>
+                <div className={career.hirringButtonText2}>
+                    <h6>
+                        Experienced level
+                    </h6>
+                    <p>
+                        Hirring
+                    </p>
+                </div>
+            </div>
+        </div>
 
-      {/* <div className={career.careerOpengingMain}>
-        {OpeningData.map((elem) => (
-          <div key={elem}>
-            <h2>{elem}</h2>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              class="bi bi-arrow-right"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-              />
-            </svg>
-          </div>
-        ))}
-      </div> */}
+        {/* <div className={career.hirringmaincontainer}>
+                <div className={career.hirringdropdownmaincontainer1}>
 
-<div className={career.seoFaq_maincontainer}>
-                <div className={career.seoFaqdropdownmaincontainer1}>
-
-                    <Accordion className={career.seoFaq_dropdowncontext}>
-                        <Accordion.Item className={career.seoFaq_dropdowncontext} eventKey="0">
-                            <Accordion.Header className={career.seoFaq_dropdownDivContext}
-                            ><h4>What is SEO?</h4>  </Accordion.Header>
-                            <Accordion.Body className={career.seoFaq_dropdowncontext}
+                    <Accordion className={career.hirringdropdowncontextouter}>
+                        <Accordion.Item className={career.hirringdropdowncontext} eventKey="0">
+                            <Accordion.Header className={career.hirringdropdownDivContext}
+                            ><h6>PHP Developer</h6>  </Accordion.Header>
+                            <Accordion.Body className={career.hirringdropdowncontext}
                             >
                                 SEO, also known as Search Engine Optimization, is a technique to increase your website’s visibility, traffic and rankings in Search Engines (Google, Yahoo or Bing).
                                 <ul>
@@ -96,8 +90,8 @@ export const CareerOpening = () => {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item className={career.seoFaq_dropdowncontext} eventKey="1">
-                            <Accordion.Header><h4> Why is SEO Important?</h4>  </Accordion.Header>
+                        <Accordion.Item className={career.hirringdropdowncontext} eventKey="1">
+                            <Accordion.Header><h6>Business Analyst</h6>  </Accordion.Header>
                             <Accordion.Body>
                                 To book your car, all you need is a credit or debit card. When you pick the car up, you'll need:
 
@@ -107,8 +101,8 @@ export const CareerOpening = () => {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item className={career.seoFaq_dropdowncontext} eventKey="2">
-                            <Accordion.Header> <h4>Is my data safe?</h4>  </Accordion.Header>
+                        <Accordion.Item className={career.hirringdropdowncontext} eventKey="2">
+                            <Accordion.Header> <h6>React Native</h6>  </Accordion.Header>
                             <Accordion.Body>
 
                                 Yes, as long as they meet these requirements. Just fill in their details while you're making the reservation.
@@ -116,8 +110,8 @@ export const CareerOpening = () => {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item className={career.seoFaq_dropdowncontext} eventKey="3">
-                            <Accordion.Header><h4>How to hire a professional SEO services company?</h4> </Accordion.Header>
+                        <Accordion.Item className={career.hirringdropdowncontext} eventKey="3">
+                            <Accordion.Header><h6>Mean Stack Developer</h6> </Accordion.Header>
                             <Accordion.Body>
 
                                 We work with all the major international car hire brands (and lots of smaller local companies)
@@ -127,8 +121,8 @@ export const CareerOpening = () => {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item className={career.seoFaq_dropdowncontext} eventKey="4">
-                            <Accordion.Header><h4>Why should I choose bottom funnel for professional SEO services?</h4> 
+                        <Accordion.Item className={career.hirringdropdowncontext} eventKey="4">
+                            <Accordion.Header><h6>Andriod App Developers</h6> 
                             </Accordion.Header>
                             <Accordion.Body>
                                     SEO, also known as Search Engine Optimization, is a technique to increase your website’s visibility, traffic and rankings in Search Engines (Google, Yahoo or Bing).
@@ -148,8 +142,8 @@ export const CareerOpening = () => {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item className={career.seoFaq_dropdowncontext} eventKey="5">
-                            <Accordion.Header><h4>When can I expect to see results for my SEO campaigns?</h4>   </Accordion.Header>
+                        <Accordion.Item className={career.hirringdropdowncontext} eventKey="5">
+                            <Accordion.Header><h6>Mern Stack Developer</h6>   </Accordion.Header>
                             <Accordion.Body>
 
                                 The vast majority of our rentals include Theft Protection, Collision Damage Waiver (CDW), local taxes,
@@ -166,8 +160,9 @@ export const CareerOpening = () => {
                 
 
 
-            </div>
+        </div> */}
 
-    </div>
+      </div>
+    </>
   );
 };

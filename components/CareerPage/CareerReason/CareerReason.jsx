@@ -1,6 +1,7 @@
 import React from "react";
 import career from "./CareerReason.module.css";
 
+
 export const CareerReason = () => {
   return (
     <div className={career.careerReasonContainer}>
@@ -30,6 +31,8 @@ export const CareerReason = () => {
           <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/careerPhotos/reason.png" alt="whyBF.png" />
         </div>
       </div>
+
+
     </div>
   );
 };

@@ -11,6 +11,8 @@ import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/
 import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import { CareerReason } from "../../components/CareerPage/CareerReason/CareerReason";
+import { HirringProcess } from "../../components/CareerPage/HirringProcess/HirringProcess";
 
 const index = () => {
   return (
@@ -20,14 +22,17 @@ const index = () => {
           navMount: false,
         }}
         navredux={{
-          color: "black",
-          logo: false,
+          color: "white",
+          logo: true,
         }}
       />
       <CareerBanner />
-      <CareerMain />
-      <CareerReferral />
       <CarrerMidBanner />
+      <HirringProcess/>
+      {/* <CareerReason/> */}
+      {/* <CareerMain /> */}
+      <CareerReferral />
+      
 
       {/* Other react required components  */}
       <StoriesSection />

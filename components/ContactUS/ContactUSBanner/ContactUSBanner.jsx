@@ -6,16 +6,15 @@ export const ContactUSBanner = () => {
   return (
     <div className={styles.contactUsBannermain}>
       <div className={styles.ContactUsBannerimage}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContactUS/banner.png" alt="Contact us banner" />
+        <img src="/Images/contact/banner.png" alt="Contact us banner" />
       </div>
 
       <div className={styles.ContactUsBannerContent}>
         <h1>
-          Share Your Details, Get In Touch Here at{" "}
-          <span className={styles.ContactUsBanneranimatedtitle}>Bottom Funnel</span>
+          Share Your Details, Get In Touch Here at Bottom Funnel
         </h1>
 
-        <div></div>
+        
 
         <p>
           It's hard to stand out in today's noisy market, but that doesn't mean
