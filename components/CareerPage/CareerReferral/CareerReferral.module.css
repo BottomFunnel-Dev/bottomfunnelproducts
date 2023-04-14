@@ -50,7 +50,7 @@
 @media (max-width: 480px) {
   .careerReferralContainer {
     height: fit-content;
-    margin-top: 110%;
+    /* margin-top: 110%; */
     background: #f5f5f5;
     padding: 3%;
   }
