@@ -1,4 +1,5 @@
 
+
 .ServicesBanner{
     /* border: 2px solid red; */
     width: 50%;
@@ -75,3 +76,71 @@
        
     }
 }
+
+.ServicesBanner {
+  /* border: 2px solid red; */
+  width: 50%;
+  height: 70vh;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+.ServicesHeading {
+  position: absolute;
+  /* border: 2px solid red; */
+  color: #393939;
+  top: 42%;
+  width: 40%;
+  right: 3%;
+}
+.ServicesHeading > h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.ServicesHeading > input {
+  border: 1px solid #ef4c23;
+  width: 80%;
+  height: 55px;
+  border-radius: 15px;
+  padding-left: 10%;
+  margin-top: 4%;
+  position: relative;
+  z-index: 0;
+}
+.ServicesHeading > i {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  bottom: 7%;
+  color: #ef4c23;
+}
+@media (max-width: 480px) {
+  .ServicesBanner {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 150px;
+    margin-top: 20%;
+  }
+  .ServicesHeading {
+    top: 15%;
+  }
+  .ServicesHeading > h2 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ServicesHeading > input {
+    font-size: 8px;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+    padding-left: 20px;
+    /* height: 55px; */
+  }
+  .ServicesHeading > i {
+    left: 2%;
+
+    bottom: 1%;
+    padding-left: 4px;
+  }
+}
+
