@@ -1130,7 +1130,7 @@ export const resource = [
   },
   {
     dropContent: "Customers",
-    path: "/",
+    path: "/resources-customers",
   },
 ];
 export const product4 = [
