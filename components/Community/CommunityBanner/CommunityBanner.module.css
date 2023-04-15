@@ -12,7 +12,7 @@
     width: 40%;
     right: 12%;
 }
-.communityHeading>h2{
+.communityHeading>h1{
     font-size: 55px;
     font-weight: 600;
 }
@@ -44,7 +44,7 @@
     .communityHeading{
       top: 15%;
     }
-    .communityHeading>h2{
+    .communityHeading>h1{
         font-size: 16px;
         font-weight: 500;
         
