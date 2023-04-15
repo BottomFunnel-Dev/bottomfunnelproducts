@@ -5,11 +5,9 @@
 .customerEngagmentContentDiv{
     width: 70%;
     margin: auto;
+    text-align: center;
 }
 
-.customerEngagmentContentDiv{
-text-align: center;
-}
 .customerEngagmentContentDiv p{
    margin-top: 1rem;
    margin-bottom: 2rem;
@@ -56,4 +54,94 @@ text-align: center;
 .customerEngagmentBannerContentBoxDiv>div:nth-child(3){
     border-top-color: #ef4c2310;
 
+}
+@media (min-width:481px) and (max-width:1024px){
+    .customerEngagmentContentDiv{
+        width: 90%;
+    }
+    .customerEngagmentContentDiv p{
+       width: 100%;
+     
+     }
+     .customerEngagmentBannerDiv{
+       flex-direction: column-reverse;
+    
+    }
+    .customerEngagmentBannerImgDiv{
+        width: 60%;
+        height: 60%;
+        margin: auto;
+    }
+    .customerEngagmentBannerImgDiv>img{
+        width: 80%;
+         
+    }
+    .customerEngagmentBannerContentBoxDiv{
+        display: flex;
+        width: 95%;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .customerEngagmentBannerContentBoxDiv>div{
+        padding:10px;
+        width: 35%;
+        border:1px solid #ef4c23ea;
+    }
+
+}
+
+@media  (max-width:480px){
+    .customerEngagmentContentDiv{
+        width: 90%;
+    }
+    .customerEngagmentContentDiv p{
+       width: 100%;
+       font-size: 15px;
+     
+     }
+     .customerEngagmentContentDiv h2{
+       font-size: 20px;
+      
+      }
+      .customerEngagmentContentDiv h4{
+        font-size: 18px;
+       
+       }
+
+       .customerEngagmentBannerDiv{
+        flex-direction: column-reverse;
+     
+     }
+     .customerEngagmentBannerImgDiv{
+         width: 60%;
+         margin: auto;
+     }
+     .customerEngagmentBannerImgDiv>img{
+         width: 100%;
+          
+     }
+     .customerEngagmentBannerContentBoxDiv{
+         display: flex;
+         width: 95%;
+         flex-direction: column;
+         justify-content: center;
+         gap: 0.5rem;
+         margin: auto;
+         margin-top: 2rem;
+     }
+
+       .customerEngagmentBannerContentBoxDiv>div{
+        padding:8px;
+        width: 100%;
+
+        border:1px solid #ef4c23ea;
+    }
+    .customerEngagmentBannerContentBoxDiv>div>h5{
+       font-size: 18px;
+    }
+    .customerEngagmentBannerContentBoxDiv>div>p{
+        font-size: 15px;
+     }
 }

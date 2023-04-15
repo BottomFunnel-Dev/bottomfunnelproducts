@@ -1,9 +1,9 @@
 .benchmarkBannerMainDiv{
     display: flex;
     width: 100%;
-    height: 100vh;
     align-items: center;
    justify-content: space-evenly;
+   margin-bottom: 11rem;
    
    
 }
@@ -56,7 +56,6 @@
     .benchmarkBannerMainDiv{
         flex-direction: column;
         justify-content: initial;
-        border: 1px solid black;
     }
     .benchmarkbannerImgDiv>img{
         width: 100%;
@@ -104,8 +103,7 @@
     .benchmarkBannerMainDiv{
         flex-direction: column;
         justify-content: initial;
-        border: 1px solid black;
-        height: 80vh;
+       
     }
     .benchmarkbannerImgDiv>img{
         width: 100%;

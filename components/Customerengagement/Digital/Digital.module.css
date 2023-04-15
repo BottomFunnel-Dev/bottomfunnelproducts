@@ -42,11 +42,10 @@
 @media (min-width:481px) and (max-width:1024px){
     .digitalMainDiv{
         flex-direction: column;
-        border: 1px solid black;
     }
     
     .digitalImgDiv{
-        width: 90%;
+        width: 60%;
         height: auto;
     }
     
@@ -56,12 +55,14 @@
     .digitalcontentcontainer{
         width: 90%;
     }
+   
 }
 
 
 @media (max-width:480px){
     .digitalMainDiv{
         flex-direction: column;
+        height: 81vh;
     }
     .digitalImgDiv{
         width: 90%;
