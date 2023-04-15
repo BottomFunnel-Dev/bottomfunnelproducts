@@ -781,7 +781,7 @@ export const HirringJdsCareer = () => {
                                     <Accordion className={styles.hirringdropdowncontextouter}>
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="0">
                                             <Accordion.Header className={styles.hirringdropdownDivContext}
-                                            ><h6>HR Excutive Manager</h6>  </Accordion.Header>
+                                            ><h6>HR Executive Manager</h6>  </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
                                                 <h6>Position Number : 5</h6>
@@ -798,7 +798,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
-                                            <Accordion.Header><h6>Sr. HR Excutive Manager</h6>  </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. HR Executive Manager</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                                 <h6>Position Number : 5</h6>
                                                 <h6>Experience : 1-2 Year</h6>
