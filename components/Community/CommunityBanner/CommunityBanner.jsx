@@ -14,7 +14,7 @@ export default function CommunityBanner() {
         style={{ width: "100%", height: "100%", objectFit: "contain" }}
       />
       <div className={styles.communityHeading}>
-        <h2>Welcome to the Bottom Funnel Community</h2>
+        <h1>Welcome to the Bottom Funnel Community</h1>
         <i class="bi bi-search"></i>
         <input type="text" placeholder="Hit magic in every search" />
       </div>
