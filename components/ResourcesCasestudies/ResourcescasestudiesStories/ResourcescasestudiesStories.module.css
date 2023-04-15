@@ -1,0 +1,87 @@
+.resourcescasestudiesStoriesHeader {
+    text-align: center;
+   margin-top: 5%;
+}
+
+.resourcescasestudiesStoriesHeader h2{
+font-size: 38px;
+font-weight: 500;
+}
+
+.resourcescasestudiesStoriesMain{
+    display: flex;
+    gap: 2%;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.ResourcescasestudiesStoriesFlipcard {
+
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    display: flex;
+  justify-content: center;
+    
+  }
+  
+  .ResourcescasestudiesStoriesFlipcardinner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+  }
+  
+  .ResourcescasestudiesStoriesFlipcard:hover .ResourcescasestudiesStoriesFlipcardinner {
+    transform: rotateY(180deg);
+  }
+  
+  .ResourcescasestudiesStoriesFlipcardfront, .ResourcescasestudiesStoriesFlipcardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .ResourcescasestudiesStoriesFlipcardfront {
+    background-color: #fff;
+    color: black;
+   width: 200px;
+    height: 80px;
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+
+  .ResourcescasestudiesStoriesFlipcardback {
+    background-color:orangered ;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .ResourcescasestudiesStoriesFlipcardback p{
+    width: 90%;
+    margin: auto;
+   margin-top: 15%;
+   text-align: justify;
+  }
+
+  @media (max-width:480px) {
+    .ResourcescasestudiesStoriesFlipcard{
+      margin: auto;
+      margin-top: 5%;
+    }
+    .resourcescasestudiesStoriesMain{
+      flex-direction: column;
+      margin: auto;
+    }
+    .resourcescasestudiesStoriesHeader{
+      margin-top: 15%;
+    }
+  
+    
+  }
