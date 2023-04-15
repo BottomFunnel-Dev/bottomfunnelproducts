@@ -1,0 +1,81 @@
+.ServicesPackagesMainDiv{
+text-align: center;
+margin-top: 4%;
+}
+.ServicesPackagesBox {
+  height: auto;
+  width: 80%;
+ padding: 5% 1% 2%;
+ margin: 7% auto 0;
+  border: 1px solid #f9c4b6;;
+  border-radius: 2%;
+  text-align: center;
+}
+
+.ServicesPackagesInnerDiv{
+  width: 80%;
+  margin: 2% auto;
+  /* display: flex; */
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: space-around;
+ /* gap: 3%; */
+
+ /* border: 2px solid black; */
+ flex-wrap: wrap;
+
+}
+.ServicesPackagesArrowImage{
+  height: 12px;
+  width: 15px;
+  margin-left: 4px;
+  display: inline-block;
+}
+.ServicesPackagesButton1 {
+  border: 1px solid white;
+  color: #ef4c23;
+  background-color: transparent;
+  display: block;
+  margin: auto;
+}
+.ServicesPackagesButton1:hover {
+  border: 1px solid #ef4c23;
+  border-radius: 5px;
+}
+.ServicesPackagesButton {
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-top: 4%;
+  width: 70%;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+.ServicesPackagesButton:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+@media (max-width:480px){
+  .ServicesPackagesMainDiv{
+    margin-top: 8%;
+  }
+  .ServicesPackagesInnerDiv{
+    height: auto;
+    display: block;
+  }
+  .ServicesPackagesBox{
+    margin-top: 8%;
+  }
+  .ServicesPackagesBox p{
+    padding: 0 2%;
+  }
+
+ 
+}

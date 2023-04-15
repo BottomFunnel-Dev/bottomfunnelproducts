@@ -1,0 +1,56 @@
+.CustomerServicesSectionTwoMainDiv{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin:auto;
+    margin-top: 10%;
+}
+
+.CustomerServicesSectionTwoImageDiv{
+    width: 40%;
+    height: 60vh; 
+    
+    margin-left: 5%;
+  
+
+}
+.CustomerServicesSectionTwoContentDiv{
+    width: 42%;
+    margin: auto;
+    padding: 2%;
+   
+    margin-left: 10%;
+  
+}
+.CustomerServicesSectionArrowImage{
+    height: 12px;
+    width: 15px;
+    margin-left: 4px;
+    display: inline-block;
+  }
+  .CustomerServicesSectionButton1 {
+    border: 1px solid white;
+    color: #ef4c23;
+    background-color: transparent;
+    display: block;
+   
+  }
+  .CustomerServicesSectionButton1:hover {
+    border: 1px solid #ef4c23;
+    border-radius: 5px;
+  }
+  @media(max-width:480px){
+    .CustomerServicesSectionTwoMainDiv{
+        flex-direction: column;
+        width: 90%;
+       
+    }
+    .CustomerServicesSectionTwoImageDiv{
+        width: 90%;
+        height: auto;
+    }
+    .CustomerServicesSectionTwoContentDiv{
+        width: 90%;
+        margin:4% auto;
+    }
+  }
