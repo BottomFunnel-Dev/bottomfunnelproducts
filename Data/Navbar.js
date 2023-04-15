@@ -1122,7 +1122,8 @@ export const resource = [
   },
   {
     dropContent: "Services",
-    path: "/",
+    path: "/services",
+    path: "/services",
   },
   {
     dropContent: "What's New",
