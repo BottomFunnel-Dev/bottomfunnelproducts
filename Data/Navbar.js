@@ -1295,7 +1295,6 @@ export const resource = [
   {
     dropContent: "Services",
     path: "/services",
-    path: "/services",
   },
   {
     dropContent: "What's New",
@@ -1303,7 +1302,7 @@ export const resource = [
   },
   {
     dropContent: "Customers",
-    path: "/",
+    path: "/resources-customers",
   },
 ];
 export const product4 = [

@@ -1,10 +1,15 @@
 .hirringJdsCareermainDiv{
   /* border: 2px solid green; */
-  height:135vh;
+  height:150vh;
   width: 100%;
 }
+.testcontainer{
+  /* border: 2px solid darkblue; */
+  height: fit-content;
+  z-index: 1000;
+}
 .hirringCareerMainBox{
-  /* border: 2px solid blue; */
+  /* border: 2px solid blue;  */
   background-color: #3380F2;
 }
 .hirringJdsCareerHeadingButtons{
@@ -545,6 +550,7 @@
 .hirringdropdownmaincontainer1 {
   margin-top: 2%;
   width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   border: none;
@@ -646,6 +652,10 @@
 }
 
 @media(max-width:480px){
+  .hirringJdsCareermainDiv{
+    /* border: 2px solid yellow; */
+    height: 280vh;
+  }
   .hirringProcessMain{
       /* border: 2px solid red; */
       margin-top: 80%;
@@ -665,14 +675,67 @@
     .hirringmaincontainer1{
       width: 100%;
       margin: auto;
+      margin-top: 10%;
       /* border: 2px solid yellow; */
     }
     .hirringouterDiv{
-      width: 85%;
+      width: 100%;
       margin: auto;
     }
     .hirringdropdownmaincontainer1{
-      width: 80%;
+      width: 95%;
       margin: auto;
+      flex-direction: column;
+      /* border: 2px solid red; */
+    }
+    .hirringdropdowncontextouter{
+      width: 95%;
+    }
+    #hirringJdsCareerbuttonouterDiv{
+      /* border: 2px solid yellow; */
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      height: auto;
+    }
+    #hirringJdsCareerbuttonDiv1{
+      /* border: 2px solid blue; */
+      width: 70%;
+      height: 55px;
+      margin: auto;
+      margin-top: 4%;
+      border-radius: 15px;
+  }
+    #hirringJdsCareerbuttonDiv2{
+      /* border: 2px solid blue; */
+      width: 70%;
+      height: 55px;
+      margin: auto;
+      margin-top: 4%;
+      border-radius: 15px;
+    }
+    #hirringJdsCareerbuttonDiv3{
+      /* border: 2px solid blue; */
+      width: 70%;
+      height: 55px;
+      margin: auto;
+      margin-top: 4%;
+      border-radius: 15px;
+    }
+    #hirringJdsCareerbuttonDiv4{
+      /* border: 2px solid blue; */
+      width: 70%;
+      height: 55px;
+      margin: auto;
+      margin-top: 4%;
+      border-radius: 15px;
+    }
+    #hirringJdsCareerbuttonDiv5{
+      /* border: 2px solid blue; */
+      width: 70%;
+      height: 55px;
+      margin: auto;
+      margin-top: 4%;
+      border-radius: 15px;
     }
 }
