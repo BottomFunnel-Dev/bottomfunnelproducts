@@ -1123,7 +1123,6 @@ export const resource = [
   {
     dropContent: "Services",
     path: "/services",
-    path: "/services",
   },
   {
     dropContent: "What's New",
