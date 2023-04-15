@@ -17,3 +17,17 @@
     font-weight: 600;
 }
 
+@media(max-width:480px){
+    .blogsBanner{
+        height: 150px;
+        /* border: 2px solid red; */
+    }
+    .blogsHeading{
+        top: 20%;
+        left: 45%;
+        width: 50%;
+    }
+    .blogsHeading>p{
+       font-size: 16px;
+    }
+}

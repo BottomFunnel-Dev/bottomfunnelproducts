@@ -1,17 +1,19 @@
 import React from "react";
 import career from "./CareerBanner.module.css";
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
+import { CareerReason } from "../CareerReason/CareerReason";
 
 export const CareerBanner = () => {
   return (
     <div className={career.careerBannerMain}>
+      
       <div className={career.careerBannerImage}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/careerPhotos/banner.png" alt="Career banner" />
+        <img src="Images/careerPhotos/banner.png" alt="Career banner" />
       </div>
 
       <div className={career.careerBannerContent}>
         <h1>
-          Work With the best In <span>Bottom Funnel</span>
+          Work With the best In Bottom Funnel
         </h1>
         <hr />
         <p>
@@ -55,6 +57,7 @@ export const CareerBanner = () => {
         </div>
 
       </div>
+      <CareerReason/>
     </div>
   );
 };
