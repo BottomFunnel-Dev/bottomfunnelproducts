@@ -35,11 +35,14 @@ const index = () => {
       
 
       {/* Other react required components  */}
+
+      <div style={{border:"2px solid yelow",marginTop:"5%",zIndex:"0"}}>
       <StoriesSection />
       <TrustedBy />
       <LifeBottomFunnel />
       <GetStarted />
       <ProductsFooter />
+      </div>
     </div>
   );
 };
