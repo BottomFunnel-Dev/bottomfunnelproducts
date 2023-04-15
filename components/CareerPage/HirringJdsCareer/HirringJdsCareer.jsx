@@ -597,7 +597,7 @@ export const HirringJdsCareer = () => {
                                     <Accordion className={styles.hirringdropdowncontextouter}>
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="0">
                                             <Accordion.Header className={styles.hirringdropdownDivContext}
-                                            ><h6>Sr. SEO Analylist</h6>  </Accordion.Header>
+                                            ><h6>Sr. SEO analyst</h6>  </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
                                                 <h6>Position Number : 5</h6>
@@ -614,7 +614,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
-                                            <Accordion.Header><h6>Sr. PPC Analylist</h6>  </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. PPC analyst</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                                 <h6>Position Number : 5</h6>
                                                 <h6>Experience : 1-2 Year</h6>
@@ -639,7 +639,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="2">
-                                            <Accordion.Header> <h6>Sr. ASO Analylist</h6>  </Accordion.Header>
+                                            <Accordion.Header> <h6>Sr. ASO analyst</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                                 <h6>Position Number : 5</h6>
                                                 <h6>Experience : 1-2 Year</h6>
@@ -655,7 +655,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
-                                            <Accordion.Header><h6>Sr. SEM Analylist</h6> </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. SEM analyst</h6> </Accordion.Header>
                                             <Accordion.Body>
                                                 <h6>Position Number : 5</h6>
                                                 <h6>Experience : 1-2 Year</h6>
@@ -671,7 +671,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>Sr. SMM Analylist</h6> 
+                                            <Accordion.Header><h6>Sr. SMM analyst</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                                 <h6>Position Number : 5</h6>
@@ -855,7 +855,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>Sr. IT Business Analylist Pre Sales</h6> 
+                                            <Accordion.Header><h6>Sr. IT Business analyst Pre Sales</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                                 <h6>Position Number : 5</h6>
@@ -872,7 +872,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>Sr. IT Business Data Analylist Sales</h6> 
+                                            <Accordion.Header><h6>Sr. IT Business Data analyst Sales</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                                 <h6>Position Number : 5</h6>
