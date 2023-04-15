@@ -1,0 +1,112 @@
+.ResourcesCasestudiesBannerHeader{
+    background-image: url('/Images/ResourcesCasestudies/background.png');
+    width: 100%;
+    background-size: 100%;
+    background-size: auto,620px;
+    background-repeat: no-repeat;
+}
+
+.ResourcesCasestudiesBannerdiv{
+    display: flex;
+        
+}
+.ResourcesCasestudiesBannerMain{
+    height: 100%;
+    width: 43%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.ResourcesCasestudiesBannerheading{
+    margin-top: 9%; 
+    width: 50%;
+    height: 100%;
+}
+.ResourcesCasestudiesBannerheading h1{
+width: 100%;
+font-size: 36px;
+}
+
+.ResourcesCasestudiesBannerheading p{
+    width: 80%;
+    font-size: 28px;
+    margin-top: 30px;
+    }
+
+ .ResourcesCasestudiesBannerdemo{
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 18px;
+        color: white;
+        margin-top: 30px;
+        border: none;
+        font-weight: 500;
+        background-color: #ef4c23;
+        }
+
+       .ResourcesCasestudiesBannerdemo:hover{
+            background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+        }
+
+        .ResourcesCasestudiesBannerheading span{
+            color: #ef4c23;
+        }
+
+       
+
+@media(max-width:480px){
+    .ResourcesCasestudiesBannerheading{
+        width: 100%;
+        margin-top: 5%;
+        width: auto;
+        margin: auto;
+    }
+
+    .ResourcesCasestudiesBannerheading > h1{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%; 
+        font-size: 28px;
+        text-align: center;
+    }
+   
+    .ResourcesCasestudiesBannerdiv{
+      flex-direction: column;
+     
+    }
+
+     .ResourcesCasestudiesBannerMain{
+        width: 90%;
+       margin: auto;
+       margin-top: 6%;
+     } 
+
+  
+     .ResourcesCasestudiesBannerdemo{
+        font-size: 16px;
+        height: 50px;
+        width: 220px;
+        font-weight: 400;
+        display: block;
+        margin: auto;
+        margin-top: 8%; 
+        margin-bottom: 8%;
+     }
+    
+     .ResourcesCasestudiesBannerheading p{
+        width: 80%;
+       margin: auto;
+       margin-top: 5%;
+        /* text-align: center; */
+        font-size: 22px;
+     }
+  }
+
+
+
+    
+
+     
+
