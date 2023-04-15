@@ -1,0 +1,110 @@
+.bulkEmailBannerImgDiv {
+  background-image: url("/Images/BulkEmail/bannerbulkemail.png");
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.bulkEmailBannerImgContentDiv {
+  position: absolute;
+  width: 52%;
+  top: 31%;
+  right: 2%;
+  /* border: 1px solid rgb(3, 5, 119); */
+}
+.bulkEmailBannerImgContentDiv > h1 {
+  font-size: 32px;
+  font-weight: 600;
+  width: 80%;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+.bulkEmailBannerImgContentDiv > p {
+  width: 80%;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.bulkEmailBannerImgContentDiv > button {
+  color: #ffff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid #ef4c23;
+  background-color: #ef4c23;
+}
+.bulkEmailBannerImgContentDiv > button:hover {
+  color: #ef4c23;
+  background-color: white;
+  border: 2px solid #ef4c23;
+}
+.bulkEmailBannerImgDiv > img {
+  width: 100%;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .bulkEmailBannerImgDiv {
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+    background-size: 100% 80%;
+  }
+
+  .bulkEmailBannerImgContentDiv {
+    position: absolute;
+    width: 52%;
+    top: 25%;
+    right: 2%;
+  }
+  .bulkEmailBannerImgContentDiv > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  .bulkEmailBannerImgContentDiv > p {
+    width: 90%;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .bulkEmailBannerImgContentDiv > button {
+    padding: 4px 8px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bulkEmailBannerImgDiv {
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+
+  .bulkEmailBannerImgContentDiv {
+    position: absolute;
+    width: 52%;
+    top: 31%;
+    right: 2%;
+  }
+  .bulkEmailBannerImgContentDiv > h1 {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  .bulkEmailBannerImgContentDiv > p {
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+  }
+  .bulkEmailBannerImgContentDiv > button {
+    padding: 4px 8px;
+    font-size: 13px;
+  }
+}
