@@ -33,3 +33,16 @@
     margin-top: 4%;
     margin-left: 4%;
 }
+/* @media(max-width:480px){
+    .developerPortalBannerConatiner{
+        flex-direction: column-reverse;
+    }
+    .developerPortalBannerImage{
+        margin: 5% auto;
+        width: 50%;
+    }
+    .developerPortalBannerText{
+        width: 90%;
+        
+    }
+} */

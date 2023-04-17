@@ -2,10 +2,11 @@ import styles from "./MarketPlaceNewly.module.css";
 import Image from "next/image";
 
 export const MarketPlaceNewly = () => {
+   
     return (
-        <div className={styles.parentss}>
+        <div className={styles.parents}>
             <div className={styles.MarketPlaceFeatureParent}>
-                <h1> Newly added apps </h1>
+                <h2> Newly added apps </h2>
 
                 <div className={styles.line}></div>
                 
@@ -75,8 +76,7 @@ export const MarketPlaceNewly = () => {
                     </div>
                 </div>
             </div>
-
-            <div className={styles.MarketPlaceFeatureParent}>
+            <div className={styles.MarketPlaceFeatureChildRow2}>
                 <div className={styles.MarketPlaceFeatureChild}>
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
@@ -142,7 +142,7 @@ export const MarketPlaceNewly = () => {
                         <p> Analytical PowerBI add-on to Freshdesk Application </p>
                     </div>
                 </div>
-            </div>
+           </div>
         </div>
     );
 };

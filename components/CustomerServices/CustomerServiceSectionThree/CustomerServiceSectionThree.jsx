@@ -11,17 +11,8 @@ Bottom funnel chat</h2>
          <p>Delight customers across modern messaging channels with 
 AI-driven conversational engagement.</p>
 <button className={styles.CustomerServicesSectionButton1}>
-              Learn More 
-              <div className={styles.CustomerServicesSectionArrowImage}>
-            <Image
-          src={"/Images/services_resources/Arrow.png"}
-          alt={"img"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        /></div>
-            </button>
+              Learn More &rarr;
+             </button> 
 
         </div> 
         <div className={styles.CustomerServicesSectionThreeImageDiv}>
