@@ -1476,7 +1476,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="2">
-                                            <Accordion.Header> <h6>Sr. React Native App Developer Native</h6>  </Accordion.Header>
+                                            <Accordion.Header> <h6>Sr. React Native App Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                             <div>
                                                 <h6>About Company</h6>
@@ -1581,8 +1581,191 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Role Responsibilities:</h6>  
                                                 <p>
-                                                As a Software engineer, one should work on the latest technologies to address the telecom business critical requirements.
-                                                As a part of this role, you will have to demonstrate technical skills and implement enterprise level coding using Java script, HTML5, CSS3, SASS, JavaScript (ES6+), Rect Native, JQuery, React JS and micro services. React Native developer interested in building performant mobile apps on both the iOS and Android platforms.
+                                                Design and build sophisticated and interactive apps using Flutter.
+                                                Build custom packages in Flutter using the functionalities and APIs already available in native Android and IOS.
+                                                Translate and build the designs and Wireframes into high quality responsive UI code.
+                                                Explore feasible architectures for implementing new features.
+                                                Resolve any problems existing in the system and suggest and add new features in the complete system.
+                                                Suggest space and time efficient Data Structures.
+                                                Follow the best practices while developing the app and also keeping everything structured and well documented.
+                                                Document the project and code efficiently.
+                                                Manage the code and project on Git in order to keep in sync with other team members and managers.
+                                                Ensure security guidelines are always followed while developing the app.
+                                                Perform time profiling and memory leaks assessment.
+                                                Write unit tests for the App.
+
+                                                </p>
+                                                <h6>
+                                                Desired Candidate Profile:
+                                                </h6>
+                                                <p>
+                                                Must have 5+ years of experience in Android and iOS applications development with at least 3 years of strong experience using Flutter.
+                                                Strong experience in consuming native iOS and Android features in Futter application using native bridge.
+                                                Strong in maintaining Development standards and best practices
+                                                Strong debugging and problem-solving skills
+                                                Strong understanding of application security principles
+                                                App development experience in Travel/e-commerce domain
+                                                Knowledge of object-oriented principles/programming
+                                                Experience with RESTful APIs to connect iOS and Android applications with backend services.
+                                                Experience with working with JSON, XML data
+                                                Knowledge of third-party libraries and APIs like Maps, audio/video streaming & animations.
+                                                Experience with Payment SDKs/API integration with Flutter App
+                                                Experience with integrating social platforms in Flutter App
+
+                                                </p>
+                                                <h6>Skills</h6>
+                                                <p> Dart, Flutter, Android, iOS, Java/Kotlin, swift/objective-c, Git, Firebase, Rive</p>
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
+                                            <Accordion.Header><h6>Sr. Xamarian Developer</h6> 
+                                            </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Senior Xamarian Developer</p>
+
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+
+                                                <h6>Responsibilities:</h6>  
+                                                <p>
+                                                We are looking for a talented Senior Xamarin.Forms Developer who is keen on crafting solid cross platform functional and testable software, within a global agile environment.
+
+                                                The application stack is Xamarin.Forms clients backed by most azure services available to date.
+
+                                                The position is based in our Bangalore office.
+
+                                                The successful candidate will be required to occasionally travel to Singapore.
+
+
+                                                </p>
+                                                <h6>
+                                                Requirements:
+                                                </h6>
+                                                <p>
+                                                The ideal candidate should have:
+
+
+                                                a guru knowledge of the Xamarin framework, especially Xamarin.Forms
+                                                a guru knowledge of Xamarin Xaml
+                                                a guru knowledge of .Net Core
+                                                a guru knowledge of design patterns extensively used in Cross-Platform development, such as MVVM, MVC, Dependency Injection, Observable
+                                                a proven TDD / BDD practitioner familiar with testing packages such as cucumber, nunit, specflow
+                                                take pride in writing elegant code
+                                                keen on applying best practices
+                                                Desirable But Not Essential
+
+
+                                                knowledge of Microsoft Azure stack related to Mobile Apps
+                                                be comfortable with agile processes
+                                                be able to contribute to the DevOps, share ideas, innovate
+                                                knowledge of Asp.Net Core
+                                                Xamarin certified developer
+
+                                                </p>
+                                                <h6>Skills</h6>
+                                                <p> Dart, Flutter, Android, iOS, Java/Kotlin, swift/objective-c, Git, Firebase, Rive</p>
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="5">
+                                            <Accordion.Header> <h6>Sr. Ionic Developer</h6>  </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Senior reacts native developer</p>
+
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+
+                                                <h6>Job description:</h6>  
+                                                <p>
+                                                Should have expertise in hybrid mobile app development using JavaScript, IONIC Framework, Angular, HTML5, CSS3, Bootstrap, Typescript, ES6, jQuery.
+                                                Experience with GIT, Mobile app release on iTunes and play store, Managing small team.
+                                                
+                                                Candidates Role
+                                                Designing and building mobile applications IONIC framework
+                                                Leading the team and mentoring team members
+                                                Working closely with other technical specialists for the technical architecture of features
+                                                Collaborating with other teams to define app features and dependencies
+                                                Ensuring the quality and performance of the application to specifications.
+                                                Identifying potential problems and resolving application bottlenecks.
+                                                Publishing application on App Store.
+                                                Designing and implementing application updates.
 
                                                 </p>
                                                 <h6>
@@ -1617,68 +1800,129 @@ export const HirringJdsCareer = () => {
                                             </Accordion.Body>
                                         </Accordion.Item>
 
-                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>Sr. Xamarian Developer</h6> 
-                                            </Accordion.Header>
-                                            <Accordion.Body>
-                                                <h6>Position Number : 5</h6>
-                                                <h6>Experience : 1-2 Year</h6>
-                                                <h6>Loaction : Jaipur</h6>
-                                                
-                                                <h5>Skills & Experience Required:</h5>
-                                                <p>Android SDK, Mobile Development , Android, XML SQL ,ArchitectureTrend,Analysis Interactive application development , Ajax, Java.</p>
-
-                                                <h5>Job Description</h5>
-                                                <p>1. Years of experience are required in Android Application Development. 2. Candidate should be expertise in Android Development. 3. Candidate should have knowledge in Mobile application development and SQLite, Web Services. 4. Candidate can develop Mobile Apps and well-versed with the Android SDK. 5. Strong knowledge of Android UI design principles, patterns, and best practices 6. Good communication skill. Responsibilities. 1. Design and build advanced applications for the Android platform 2. Knowledge of networking in android with REST apis and JSON parsing 3. Knowledge of latest respective SDKs 4. Collaborate with cross-functional teams to define, design, and ship new features. 5. Work with outside data sources and APIs 6. Unit-test code for robustness, including edge cases, usability, and general reliability. 7. Work on bug fixing and improving application performance. 8. Continuously discover, evaluate, and implement new technologies to maximize development efficiency.</p>
-
-                                            </Accordion.Body>
-                                        </Accordion.Item>
-
-                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="5">
-                                            <Accordion.Header><h6>Sr. Ionic Developer</h6>   </Accordion.Header>
-                                            <Accordion.Body>
-                                                <h6>Position Number : 5</h6>
-                                                <h6>Experience : 1-2 Year</h6>
-                                                <h6>Loaction : Jaipur</h6>
-                                                
-                                                <h5>Skills & Experience Required:</h5>
-                                                <p>HTML, Dreamweaver, CSS, Photoshop, Javascript, JQuery Web Designing, Web Technologies, HTML5, CSS3</p>
-
-                                                <h5>Job Description</h5>
-                                                <p>1. Should have 1+ year’s exp. in Photoshop, Dreamweaver HTML, CSS, HTML5, JavaScript/Jquery, bootstrap. 2. Passion and enthusiasm for design, with a creative flair. 3. Flexible approach when working in a team. 4. being open to feedback and willing to make changes to your designs. 5. Should have good communication skills</p>
-
-                                            </Accordion.Body>
-                                        </Accordion.Item>
-
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="6">
-                                            <Accordion.Header><h6>Sr. Kotlin Developer</h6>   </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Kotlin Developer</h6> </Accordion.Header>
                                             <Accordion.Body>
-                                                <h6>Position Number : 5</h6>
-                                                <h6>Experience : 1-2 Year</h6>
-                                                <h6>Loaction : Jaipur</h6>
-                                                
-                                                <h5>Skills & Experience Required:</h5>
-                                                <p>HTML, Dreamweaver, CSS, Photoshop, Javascript, JQuery Web Designing, Web Technologies, HTML5, CSS3</p>
+                                            <div>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
 
-                                                <h5>Job Description</h5>
-                                                <p>1. Should have 1+ year’s exp. in Photoshop, Dreamweaver HTML, CSS, HTML5, JavaScript/Jquery, bootstrap. 2. Passion and enthusiasm for design, with a creative flair. 3. Flexible approach when working in a team. 4. being open to feedback and willing to make changes to your designs. 5. Should have good communication skills</p>
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
 
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+                                                <h6>Position:</h6> <p>Sr. Kotlin Developer</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+
+                                                <h6>Job description:</h6>  
+                                                <p>
+                                                - Contribute to the development of Android applications.
+                                                - Analysis of requirements from internal and external customers.
+                                                - Design and develop new products and software components.
+                                                - Investigate and solve issues reported by internal and external customers.
+                                                - Validate and execute unit tests, and automated UI tests to identify application errors and ensure software meet functional specs.
+                                                - Work closely with product design UX to develop a new client experience.
+                                                - Develop and maintain high-quality code using industry best practices.
+                                                You must have:
+                                                - 5+ years of experience in Kotlin.
+                                                - Experience debugging Java/Kotlin native applications.
+                                                - Experience with modern Android development technologies (Android SDK, etc.)
+                                                Strong UI development skills.
+                                                - Knowledge of REST API services and Native mobile development.
+                                                - Advanced English level.
+
+                                                </p>
+                                               
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
                                             </Accordion.Body>
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="7">
-                                            <Accordion.Header><h6>Sr. Cross Platform App Developer</h6>   </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Cross Platform App Developer</h6> 
+                                            </Accordion.Header>
                                             <Accordion.Body>
-                                                <h6>Position Number : 5</h6>
-                                                <h6>Experience : 1-2 Year</h6>
-                                                <h6>Loaction : Jaipur</h6>
-                                                
-                                                <h5>Skills & Experience Required:</h5>
-                                                <p>HTML, Dreamweaver, CSS, Photoshop, Javascript, JQuery Web Designing, Web Technologies, HTML5, CSS3</p>
+                                            <div>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
 
-                                                <h5>Job Description</h5>
-                                                <p>1. Should have 1+ year’s exp. in Photoshop, Dreamweaver HTML, CSS, HTML5, JavaScript/Jquery, bootstrap. 2. Passion and enthusiasm for design, with a creative flair. 3. Flexible approach when working in a team. 4. being open to feedback and willing to make changes to your designs. 5. Should have good communication skills</p>
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
 
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Sr. Cross Platform App Developer</p>
+
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+
+                                                <h6>
+                                                  Job Description:
+                                                </h6>
+                                                <p>
+                                                The developer should have experience in developing native applications for both Android and iOS platforms, as well as cross-platform applications using Flutter. They should have a solid understanding of mobile app design patterns, architecture, and development best practices.
+                                                Responsibilities may include collaborating with cross-functional teams, creating wireframes and mockups, designing and developing mobile applications, conducting unit testing, and troubleshooting issues.
+                                                Other skills that may be required for the job include knowledge of API integration, familiarity with mobile app security best practices, experience with version control systems such as Git, and strong problem-solving and communication skills. The developer should also have an understanding of the mobile app submission process to the respective app stores.
+
+
+                                                </p>
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
                                             </Accordion.Body>
                                         </Accordion.Item>
                                         
