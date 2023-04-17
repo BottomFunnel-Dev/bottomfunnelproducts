@@ -11,6 +11,7 @@ import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStart
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Navbar from "../../components/Navbar/Navbar";
 import ContactForm from "../../components/ContactUS/ContactForm/ContactForm";
+import ContactUsMap from "../../components/ContactUS/ContactUsMap/ContactUsMap";
 
 export default function ContactUs() {
   const formdata = {
@@ -35,6 +36,7 @@ export default function ContactUs() {
       {/* --------------- Contact form from home page and other pages will come here ----------- */}
       {/* <ContactUSForm /> */}
 
+      <ContactUsMap />
       <ContactForm formdata={formdata} bgcolor={"#e4fadd"} />
 
       {/* Other react required components  */}
