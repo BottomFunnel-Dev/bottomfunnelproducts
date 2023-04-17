@@ -4,7 +4,7 @@ import Image from "next/image";
 export const MarketPlaceFeature = () => {
     return (
         <div className={styles.MarketPlaceFeatureParent}>
-            <h1>Featured apps</h1>
+            <h2>Featured apps</h2>
             <div className={styles.line}></div>
 
             <div className={styles.MarketPlaceFeatureChild}>

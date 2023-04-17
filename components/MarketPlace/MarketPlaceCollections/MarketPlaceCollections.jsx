@@ -3,7 +3,7 @@ import Image from "next/image"
 export const MarketPlaceCollections = () => {
     return (
         <div className={styles.MarketPlaceCollectionsParent}>
-            <h1>Collections to spark your productivity</h1>
+            <h2>Collections to spark your productivity</h2>
             <div className={styles.MarketPlaceCollectionsParentchildone}>
                 <div>
                     <Image

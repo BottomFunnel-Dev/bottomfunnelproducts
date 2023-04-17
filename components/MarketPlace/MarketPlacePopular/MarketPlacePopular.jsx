@@ -4,7 +4,7 @@ import Image from "next/image";
 export const MarketPlacePopular = () => {
     return (
         <div className={styles.MarketPlacePopularParent}>
-            <h1> Popular apps </h1>
+            <h2> Popular apps </h2>
 
             <div className={styles.line}></div>
             <div className={styles.MarketPlacePopularChild}>

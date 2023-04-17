@@ -5,9 +5,10 @@
   align-items: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 59vh;
+  height: 70vh;
   object-fit: contain;
   position: relative;
+  
 }
 
 .MarketPlaceBannerSearchdiv {
@@ -15,6 +16,7 @@
   /* border: 2px solid black; */
   height: fit-content;
   margin-top: 3.5%;
+  
   /* display: flex;
   flex-direction: column; */
   /* position: absolute; */
@@ -29,11 +31,13 @@
   font-weight: 500;
   text-align: center;
   margin-top: 160px;
+ 
 }
 
 .MarketPlaceBannerBotttomFunnel {
   color: #ef4c23;
   font-weight: 500;
+ 
 }
 
 .MarketPlaceBannerCheckbox {
@@ -44,18 +48,21 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+ 
 }
 
 .MarketPlaceBannerCheckbox > div {
   display: flex;
   width: 90px;
   height: 25px;
+  
 }
 
 .MarketPlaceBannerCheckbox > div > p {
   color: white;
   font-size: 14px;
   padding-left: 5px;
+ 
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -69,6 +76,7 @@
   border-radius: 10px 0 0 10px;
   outline: none;
   color: #9dbfaf;
+ 
 }
 
 .MarketPlaceBannerSearchTerm::placeholder {
@@ -77,10 +85,12 @@
   font-weight: 600;
   color: lightgray;
   opacity: 1;
+
 }
 
 .MarketPlaceBannerSearchTerm:focus {
   color: #00b4cc;
+  
 }
 
 .MarketPlaceBannerSearchButton {
@@ -103,12 +113,14 @@
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 
 .MarketPlaceBannerSearch {
   width: 100%;
   position: absolute;
   display: flex;
+ 
 }
 
 @media (max-width: 780px) {
@@ -205,3 +217,36 @@
     border: none;
   }
 }
+@media (max-width: 480px){
+  .MarketPlaceBannerCheckbox{
+    width: 100px;
+  }
+  .MarketPlaceBannerParent > h1{
+    margin-top: 8%;
+    font-size: 30px;
+  }
+  .MarketPlaceBannerWrap{
+    top: 70%;
+  }
+  .MarketPlaceBannerSearchTerm{
+    height: 40px;
+  }
+  .MarketPlaceBannerSearchTerm::placeholder{
+    font-size: 16px;
+  }
+  .MarketPlaceBannerSearchButton{
+    height: 40px;
+    margin-bottom: 12px;
+  }
+  .MarketPlaceBannerSearchButton img {
+    margin-bottom: 10%;
+}
+ .MarketPlaceBannerSearchdiv{
+  margin-top: 12%;
+ }
+ .MarketPlaceBannerCheckbox{
+  width: 50%;
+ }
+ .MarketPlaceBannerParent{
+  height: 20rem;
+}}
