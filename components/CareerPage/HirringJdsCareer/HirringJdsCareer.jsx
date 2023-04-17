@@ -58,8 +58,6 @@ export const HirringJdsCareer = () => {
                             <li class="nav-item" role="presentation" id={styles.hirringJdsCareerbuttonDiv5}>
                                 <button className={ showtab===5 ? "hirringJdsCareerHeadingButtons active": "hirringJdsCareerHeadingButtons"}  onClick={()=>handletab(5)}>Hr and Sales Manager</button>
                             </li>
-
-
                         </ul>
                         <div class="tab-content text-dark" id="pills-tabContent">
                         
