@@ -2,9 +2,9 @@
   background-image: url("/Images/BulkEmail/Group1000006656.png");
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh;
+  height: 77vh;
   width: 100%;
-  border: 1px solid rgb(247, 1, 1);
+  margin-bottom: 4rem;
 }
 
 .bulkEmailSuiteBoxLogoDiv {
@@ -13,6 +13,7 @@
   width: 90%;
   height: 30vh;
   margin: auto;
+  gap: 1rem;
   /* border: 1px solid black; */
 }
 .bulkEmailSuiteBoxContentDiv {
@@ -43,14 +44,107 @@
   width: 80%;
   margin-bottom: 2rem;
 }
+.bulkEmailSuiteBoxLogoDiv_tab_small{
+  display: none;
+}
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .bulkEmailSuiteBoxMainDiv {
-    background-image: url("/Images/BulkEmail/Group1000006656.png");
+    display: none;
+  }
+  .bulkEmailSuiteBoxLogoDiv_tab_small {
+    background-image: url("/Images/BulkEmail/Rectangle18756.png");
     background-repeat: no-repeat;
     position: relative;
-    height: 100vh;
     width: 100%;
-    border: 1px solid rgb(247, 1, 1);
+    display: block;
+    margin-bottom: 4rem;
+  }
+  .bulkEmailSuite_isolation_logo {
+    display: flex;
+    position: relative;
+  }
+  .bulkEmailSuite_isolation_logo > img {
+    width: 60%;
+  }
+  .bulkEmailSuiteBoxContentDiv {
+    width: 40%;
+    position: absolute;
+    right: 1%;
+    top: 21%;
+    /* border: 1px solid rgb(17, 1, 247); */
+  }
+
+  .bulkEmailSuiteBoxContentDiv > button {
+    color: #ffff;
+    padding: 5px 10px;
+    font-size: 17px;
+  }
+
+  .bulkEmailSuiteBoxContentDiv h2 {
+    line-height: 1.4;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .bulkEmailSuitelogo_flexbox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bulkEmailSuiteBoxMainDiv {
+    display: none;
+  }
+  .bulkEmailSuiteBoxLogoDiv_tab_small {
+    background-image: url("/Images/BulkEmail/Rectangle18756.png");
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .bulkEmailSuite_isolation_logo {
+    display: flex;
+    position: relative;
+  }
+  .bulkEmailSuite_isolation_logo > img {
+    width: 60%;
+  }
+  .bulkEmailSuiteBoxContentDiv {
+    width: 45%;
+    position: absolute;
+    right: 1%;
+    top: 21%;
+    /* border: 1px solid rgb(17, 1, 247); */
+  }
+
+  .bulkEmailSuiteBoxContentDiv > button {
+    color: #ffff;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .bulkEmailSuiteBoxContentDiv h2 {
+    line-height: 1.4;
+    font-weight: 700;
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  .bulkEmailSuitelogo_flexbox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .bulkEmailSuitelogo_flexbox > img {
+    width: 10%;
   }
 }
