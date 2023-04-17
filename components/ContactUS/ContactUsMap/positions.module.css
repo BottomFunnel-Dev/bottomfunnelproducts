@@ -1,0 +1,79 @@
+.positionss {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.newYorkLocation {
+  position: absolute;
+  top: 25%;
+  left: 32.4%;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+}
+
+.zambiaLocation {
+  position: absolute;
+  top: 51.9%;
+  left: 53%;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+}
+
+.germanyLocation {
+  position: absolute;
+  top: 21%;
+  left: 49.4%;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+}
+
+.indiaLocation {
+  position: absolute;
+  top: 34%;
+  left: 61.7%;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+}
+
+.uaeLocation {
+  position: absolute;
+  top: 33.6%;
+  left: 58.5%;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+  /* background-color: red; */
+}
+
+.tooltipCustomised {
+  background-color: #ef4c23;
+  width: 130px;
+  /* height: 80px; */
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 3%;
+  margin-left: -1.5%;
+  position: relative;
+}
+
+.tooltipCustomised > p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.indicate {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  transform: rotate(45deg);
+  background-color: #ef4c23;
+}
