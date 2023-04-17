@@ -3,10 +3,17 @@
   width: 100%;
   height: 90vh;
   position: relative;
-  margin-top: 4%;
-  background: url("/Images/olly-ai/Frame 40312.png");
+  margin-top: 2%;
+  background: url("/Images/olly-ai/bg-banner.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+.OllyAiBannerImage{
+    position: absolute;
+    width: 35%;
+    /* height: 70vh; */
+    top: 30%;
+    left: 6%;
 }
 
 .OllyAiHeading {
@@ -44,21 +51,27 @@
     width: 100%;
     margin-top: 7%;
   }
+  .OllyAiBannerImage{
+    left: 30%;
+    
+    width: 60%;
+    top: 25%;
+  }
 
   .OllyAiHeading {
     width: 80%;
-    top: 90%;
+    top: 100%;
     text-align: center;
   }
   .OllyAiHeading h1 {
     font-size: 20px;
   }
   .OllyAiHeading p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .OllyAiNeoIcon h4 {
-    top: 10%;
+    top: 9%;
     left: 35%;
     font-size: 16px;
   }

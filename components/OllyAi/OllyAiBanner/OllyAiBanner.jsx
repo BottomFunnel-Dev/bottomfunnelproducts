@@ -5,15 +5,15 @@ import styles from "./OllyAiBanner.module.css"
 export default function OllyAiBanner() {
   return (
     <div className={styles.OllyAiBanner}>
-      
-      {/* <Image
-        src={"/Images/olly-ai/Frame 40312.png"}
+       <div className={styles.OllyAiBannerImage}>
+      <Image
+        src={"/Images/olly-ai/olly-banner.png"}
         alt={"image"}
         width={"0"}
         height={"0"}
         sizes={"100vw"}
         style={{ width: "100%", height: "100%" }}
-      /> */}
+      /></div>
 
       <div className={styles.OllyAiHeading}>
       <div className={styles.OllyAiNeoIcon}>
