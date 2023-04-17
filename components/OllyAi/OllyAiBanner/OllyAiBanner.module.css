@@ -1,64 +1,69 @@
-.OllyAiBanner{
-    position: relative;
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    margin-top: 4%;
-}
-.OllyAiHeading{
-    position: absolute;
-   padding: 1%;
-    /* border: 2px solid red; */
-    color: #393939;
-    top: 30%;
-    width: 40%;
-    right:10%
+.OllyAiBanner {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  margin-top: 4%;
+  background: url("/Images/olly-ai/Frame 40312.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.OllyAiHeading h1{
-    font-size: 50px;
-}
-.OllyAiHeading p{
-    margin-top: 2%;
-    font-size: 20px;
-}
-.OllyAiNeoIcon{
-    height: 10%;
-    width:10%;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 4%;
-}
-.OllyAiNeoIcon h4{
+.OllyAiHeading {
   position: absolute;
-  left:15%;
-  top:6%;
-  font-size: 30px;}
-@media(max-width:480px){
-.OllyAiBanner{
- height: 40vh;
- width: 100%;
-
+  padding: 1%;
+  color: #393939;
+  top: 30%;
+  width: 40%;
+  right: 10%;
 }
-.OllyAiHeading{
-width: 80%;
 
-
+.OllyAiHeading h1 {
+  font-size: 50px;
 }
-.OllyAiHeading h1{
+.OllyAiHeading p {
+  margin-top: 2%;
+  font-size: 20px;
+}
+.OllyAiNeoIcon {
+  height: 10%;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+.OllyAiNeoIcon h4 {
+  position: absolute;
+  left: 15%;
+  top: 6%;
+  font-size: 30px;
+}
+@media (max-width: 480px) {
+  .OllyAiBanner {
+    height: 30vh;
+    width: 100%;
+    margin-top: 7%;
+  }
+
+  .OllyAiHeading {
+    width: 80%;
+    top: 90%;
+    text-align: center;
+  }
+  .OllyAiHeading h1 {
     font-size: 20px;
-   
-}
-.OllyAiHeading p{
-    font-size: 12px;
-}
-.OllyAiNeoIcon{
-    width: autp;
-    top: 15%;
-}
-.OllyAiNeoIcon h4{
+  }
+  .OllyAiHeading p {
+    font-size: 14px;
+  }
+
+  .OllyAiNeoIcon h4 {
     top: 10%;
-    left: 45%;
+    left: 35%;
     font-size: 16px;
+  }
+  .OllyAiNeoIcon {
+    margin-left: 20%;
+    margin-top: 4%;
   }
 }
