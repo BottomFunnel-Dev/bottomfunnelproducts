@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ContactUS.module.css";
 
 import { ContactUSBanner } from "../../components/ContactUS/ContactUSBanner/ContactUSBanner";
-import { ContactUSForm } from "../../components/ContactUS/ContactUSForm/ContactUSForm";
+// import { ContactUSForm } from "../../components/ContactUS/ContactUSForm/ContactUSForm";
 
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
