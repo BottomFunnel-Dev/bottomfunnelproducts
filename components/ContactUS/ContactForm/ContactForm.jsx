@@ -14,9 +14,9 @@ export default function ContactForm({ formdata, bgcolor }) {
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
-
         />
       </div>
+
       <div className={styles.onDemandFormparentcontent} >
         <h2>{heading}</h2>
         <p>{subHeading}</p>
@@ -50,5 +50,5 @@ export default function ContactForm({ formdata, bgcolor }) {
       </div>
 
     </div>
-  )
-}
+  );
+};

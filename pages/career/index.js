@@ -28,11 +28,10 @@ const index = () => {
       />
       <CareerBanner />
       <CarrerMidBanner />
-      <HirringProcess/>
+      <HirringProcess />
       {/* <CareerReason/> */}
       {/* <CareerMain /> */}
       {/* <CareerReferral /> */}
-      
 
       {/* Other react required components  */}
 
