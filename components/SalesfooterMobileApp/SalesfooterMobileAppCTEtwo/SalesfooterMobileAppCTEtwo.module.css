@@ -1,0 +1,76 @@
+.SalesfooterMobileAppCTEtwodiv{
+    background: url("/Images/SalesfooterMobileApp/ctebg.png");
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.SalesfooterMobileAppCTEtwoMain{
+    height: 50%;
+    width: 35%;
+    margin-left: 8%;
+    margin-top: 5%;
+  
+}
+.SalesfooterMobileAppCTEtwoheading{
+   margin: auto;
+    margin-top: 2%; 
+    width: 50%;
+    margin-left: 15%; 
+}
+.SalesfooterMobileAppCTEtwoheading h2{
+margin-top: 6%;
+font-size: 46px;
+width: 65%;
+}
+
+ .SalesfooterMobileAppCTEtwodemo{
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 22px;
+        color: white;
+       
+        margin-top: 30px;
+        border: none;
+        font-weight: 500;
+        background-color: #ef4c23;
+        }
+
+       .SalesfooterMobileAppCTEtwodemo:hover{
+            background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+        }
+
+      
+
+@media(max-width:480px){
+
+     .SalesfooterMobileAppCTEtwoMain{
+        display: none;
+     }
+
+     .SalesfooterMobileAppCTEtwoheading{
+        width: 95%;
+        margin: auto;
+        margin-top: 0%;
+        margin-left: 6%;
+     }
+   .SalesfooterMobileAppCTEtwoheading h2{
+    width: 100%;
+    font-size: 36px;
+    
+   }
+
+     .SalesfooterMobileAppCTEtwodemo{
+        font-size: 16px;
+        height: 50px;
+        width: 250px;
+        font-weight: 400;
+        margin-left: 10%;
+     }
+     .SalesfooterMobileAppCTEtwodiv{
+        height: 230px;
+     }
+  }
+
