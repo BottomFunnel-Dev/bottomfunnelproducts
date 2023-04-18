@@ -25,7 +25,7 @@ export const VettingBanner = () => {
         </h1>
         <hr />
         <p>
-          Bottom Funilling is the process of thoroughly investigating an
+          Bottom Funnel is the process of thoroughly investigating an
           individual, company, or other entity before making a decision to go
           forward with a joint project. A background review is an example of a
           vetting process for a potential employee. Once the vetting process is
@@ -36,7 +36,7 @@ export const VettingBanner = () => {
           data-bs-toggle="modal"
           data-bs-target="#staticBackdrop">Get Started</button>
 
-        <div>
+        {/* <div>
           <div
             className="modal"
             id="staticBackdrop"
@@ -64,7 +64,7 @@ export const VettingBanner = () => {
           </div>
 
 
-        </div>
+        </div> */}
 
       </div>
     </div>
