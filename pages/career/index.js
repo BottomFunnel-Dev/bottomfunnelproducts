@@ -31,19 +31,20 @@ const index = () => {
       <HirringProcess/>
       {/* <CareerReason/> */}
       {/* <CareerMain /> */}
-      {/* <CareerReferral /> */}
+      
       
 
       {/* Other react required components  */}
 
-      {/* <div style={{border:"2px solid yelow",marginTop:"5%",zIndex:"0"}}>
-      <StoriesSection />
-      <TrustedBy />
-      <LifeBottomFunnel />
-      <GetStarted />
-      <ProductsFooter />
-      </div> */}
-    </div>
+      <div style={{marginTop:"5%"}}>
+          <CareerReferral />
+          <StoriesSection />
+          <TrustedBy />
+          <LifeBottomFunnel />
+          <GetStarted />
+          <ProductsFooter />
+      </div>
+   </div>
   );
 };
 
