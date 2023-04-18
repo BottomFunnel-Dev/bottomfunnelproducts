@@ -14,7 +14,7 @@ const ContactUsMap = () => {
 
             <div>
 
-                {/* <Positions /> */}
+                <Positions />
 
                 <div className={styles.contactUsMapDiv}>
                     <lottie-player
