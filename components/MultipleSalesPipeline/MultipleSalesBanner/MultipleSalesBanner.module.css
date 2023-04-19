@@ -4,15 +4,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    border: 1px solid black;
   }
   .multipleSalesImgContentDiv {
     position: absolute;
     width: 52%;
     top: 25%;
     right: 2%;
-    border: 1px solid black;
-    /* border: 1px solid rgb(3, 5, 119); */
   }
   .multipleSalesImgContentDiv > h2 {
     font-size: 32px;
