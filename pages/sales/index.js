@@ -49,7 +49,7 @@ export default function SalesPage() {
       <ReadyStarted />
       <TalentProfiles />
       <LifeBottomFunnel />
-      <SalesFooter />
+      <SalesFooter/>
       </div>
     </>
   );

@@ -205,7 +205,7 @@ export const SalesFooter = () => {
                             <li> Email Integration </li>
                         </Link>
 
-                        <Link className={styles.deskFooterLinkTag} href={"/"}>
+                        <Link className={styles.deskFooterLinkTag} href={"/formula-fields"}>
                             <li> Formula Fields </li>
                         </Link>
 
