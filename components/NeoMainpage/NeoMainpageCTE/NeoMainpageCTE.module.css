@@ -1,0 +1,57 @@
+
+    .NeoMainpageCTEMain h2{
+        margin-left: 35%;
+        width: 55%;
+        margin-top: 8%;
+        font-size: 34px;
+    }
+
+    .NeoMainpageCTEMain p{
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 65%;
+        margin-top: 1%;
+        line-height: 120%;
+    }
+
+    .NeoMainpageCTEMain h3{
+        text-align: center;
+        margin-top: 2%;
+        font-size: 26px;
+    }
+
+
+   @media (max-width:480px) {
+   
+    .NeoMainpageCTEMain h2{
+        font-size: 30px;
+        width: 90%; 
+        margin: auto;
+        margin-top: 5%;  
+    }
+    .NeoMainpageCTEMain h3{
+        font-size: 20px;
+        margin: auto;
+        margin-top: 5%;
+        width: 90%;
+       
+    }
+    .NeoMainpageCTEMain p{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+        text-align: justify;
+    }
+    .NeoMainpageCTEdemo{
+        font-size: 14px;
+        width: 150px;
+        height: 38px;
+       margin-left: 30%;
+        margin-top: 6%;
+    }
+    .NeoMainpageCTEMain{
+        margin-top: 15%;
+    }
+    
+   }

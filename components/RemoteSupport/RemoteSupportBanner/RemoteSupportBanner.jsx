@@ -23,7 +23,7 @@ return(
             A collection of useful resources that will help your team make the transition to remote customer
             support without any hassles.
             </p>
-            <button className={styles.RemoteSupportBannerdemo}>Start a free demo</button>
+            <button className={styles.NeoMainpageCTEtwodemo}>Start a free demo</button>
         </div>
 
         </div>
