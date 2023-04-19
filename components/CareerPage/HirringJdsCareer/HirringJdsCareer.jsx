@@ -66,7 +66,7 @@ export const HirringJdsCareer = () => {
                                     <Accordion className={styles.hirringdropdowncontextouter}>
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="0">
                                             <Accordion.Header className={styles.hirringdropdownDivContext}>
-                                                <h6>PHP Developer</h6>  
+                                                <h6>Sr. PHP Developer</h6>  
                                             </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}>
                                                 <div className={styles.hirringJdDataContainer}>
@@ -103,6 +103,7 @@ export const HirringJdsCareer = () => {
 
                                                     <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                     <h6>Key Focus area:</h6> <p>MY Sql, HTML 5, CSS3, JavaScript, laravel, Cake PHP, Symfony, Codeignitor, Zend Yii, Symfony, Slim, Phpixie REST API</p>
 
@@ -178,7 +179,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
-                                            <Accordion.Header><h6>MERN Developer</h6>  </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. MERN Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer}>
                                                 <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.
@@ -193,6 +194,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only)</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 15 Days 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Key Focus area:</h6> <p>Mongo DB, Express Js, React Js, Node Js,. Next Js, Angular Js, Vue Js, Backbone Js, Nest js</p>
 
@@ -214,9 +217,6 @@ export const HirringJdsCareer = () => {
 
 
                                                 <h6>Qualification:</h6> <p>B.E./B. Tech/BCA/MCA</p>
-
-
-                                                <h6>Work experience:</h6> <p>1- 5 years</p>
 
                                                 <p>1-3 years minimum in creating complex HTML based solutions
                                                 Detail oriented experience as a Web Developer creating Angular/React/Vue based solutions
@@ -256,7 +256,7 @@ export const HirringJdsCareer = () => {
 
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
-                                            <Accordion.Header><h6>MEAN Developer</h6> </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. MEAN Developer</h6> </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer}>
                                                 <h6>About Company</h6>
@@ -287,6 +287,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Key Focus area:</h6>  
                                                 <p>
@@ -312,10 +313,9 @@ export const HirringJdsCareer = () => {
                                                    B.E./B. Tech/BCA/MCA    
                                                 </p>
 
-                                                <h6>Work experience:</h6>
+                                                <h6>Work experience Prefered:</h6>
 
                                                 <p>
-                                                    1- 5 years
 
                                                     1-3 years minimum in creating complex HTML based solutions
                                                     Detail oriented experience as a Web Developer creating Angular/React/Vue based solutions
@@ -361,7 +361,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>Ruby Developers</h6> 
+                                            <Accordion.Header><h6>Sr. Ruby Developers</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer}>
@@ -392,6 +392,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
 
                                                 <h6>Key Focus area:</h6>  <p>MY Sql, HTML 5, CSS3, JavaScript, ruby on rails, ,  Cuba, Rails, hanami, Sinrtra, Padrino, Roda, Postgre SQL
@@ -470,7 +472,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="5">
-                                            <Accordion.Header><h6>Python Developer</h6>   </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Python Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer}>
                                                 <h6>About Company</h6>
@@ -500,6 +502,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
 
                                                 <h6>Key Focus area:</h6>  
@@ -564,7 +568,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="6">
-                                            <Accordion.Header><h6>java Developer</h6>   </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. java Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer}>
                                                 <h6>About Company</h6>
@@ -594,6 +598,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
 
                                                 <h6>Key Focus area:</h6>  
@@ -661,6 +667,87 @@ export const HirringJdsCareer = () => {
                                             </Accordion.Body>
                                         </Accordion.Item>
 
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="7">
+                                            <Accordion.Header className={styles.hirringdropdownDivContext}>
+                                                <h6>Sr. .NET Developer</h6>  
+                                            </Accordion.Header>
+                                            <Accordion.Body className={styles.hirringdropdowncontext}>
+                                                <div className={styles.hirringJdDataContainer}>
+                                                    <h6>About Company</h6>
+
+
+                                                    <h6>Web: <a href='https://bottomfunnel.net/'>https://bottomfunnel.net/</a></h6>
+
+                                                    <h6>Web: <a href='https://service.bottomfunnel.net/'>https://service.bottomfunnel.net/</a></h6>
+
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/bottomfunnel/'>https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/blueberrygroup-co/'>https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                    <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                    <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                    <h6>Please find below-mentioned JD</h6>
+
+
+                                                    <h6>Position:</h6> <p>Senior .NET Developer</p>
+
+
+                                                    <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                    <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+
+                                                    <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+
+                                                    <h6>Key Focus area:</h6> <p>MY Sql, HTML 5, CSS3, JavaScript, NETcore, ASP.NET Core, sql, C#, .NET, REST api, Web api, postgresql, angular, azure, paas, container based, Typescript, React, vue.js, docker, kubernetes, kafka, karma, jasmine, bootstrap, css3, html5, unit testing  REST API</p>
+
+
+                                                    <p>We are looking for an experienced Full Stack . NET Developer with focus on .NET Frameworks, AWS, S3 Bucket, CloudFront, Digital Ocean, Docker, Terraform, Ansible, Jenkins, Kubernetes, CI/CD, Cloud Server Shell Programming, GCP, Azure</p>
+
+                                                    <h6>Skill sets that would be valuable:</h6>
+
+                                                    <p> 
+                                                        Full stack - SQL, .Net Core, C#, MVC and Angular 15
+                                                        Bonus experience - Azure (functions, containers, SaaS PaaS, etc.), managed APIs
+                                                        Experienced hiring or interviewing developers/ leading large, distributed teams/ good communication and organization.
+                                                    </p>
+
+                                                    <h6>Additional Skills & Qualifications:</h6>
+
+                                                    <p>
+                                                    Asset wealth management (AWM) – this is the main focus is. It’s basically our Client and their partnerships with other companies like hedge funds, law firms, any structure that has to file taxes. There is the AWM team that manages the technology that helps facilities with this process. Not like turbo tax. Complex tax code with variations. our Client’s engagement teams use the tool to set up structure/data. Mostly an internal tool.
+                                                    Data Flow – data extraction, mapping, OCR. There was an investor that invested in 2 of our Client's clients and revenue flows from one to the other. Teams don’t have to figure that out. It’s really about “how do I drive adoption and get people out of their current bad habits?”
+                                                    Partner Hub – Investor relations tool. Client’s client. Portal uploads K1 forms, investors can upload/fill them out/download easily. They also have an onboarding module where they can do w8/w9 forms. Smaller in scope, but hypersensitivity. NO branding. It’s a “client’s tool”. Complex in a different way.
+                                                    Siteline – inevitable for tech teams, how do we integrate, etc. how do we re-architect our solution to be able to fit in Siteline ecosystem? 12 years old. Legacy, older paradigms with modern paradigms. Almost like we have parts of the system behind a curtain and have ignored it. How do we decompose track (massive app), modularize it, put it in Siteline? A lot of problems arise during that process. Track is the largest application Ben’s ever worked on his career, massive. Has 10K+ users, size and scale are impressive.
+                                                    Our Client is also slowly transforming their big, legacy app on top of MVC. UI logic and controller are baked in together. Sits on top of SQL databases. Each client engagement has their own database because clients want different things like quarterly returns/estimates/compliance/etc.
+                                                    Our Client is also migrating from MVC to Angular and API’s (integration). That’s the other half of their front-end implementation.
+                                                    SQL VMS to SQL P
+                                                    </p>
+                                                    <h6>Benefits:</h6>
+                                                    <p>
+                                                        Opportunity to work on highly challenging international projects.
+
+                                                        Opportunity to travel & work with International clients.
+
+                                                        Flexible and friendly work environment
+
+                                                        Great organizational culture, focus on employee's well-being.
+                                                    </p>
+                                                    <h6>Work-life balance.</h6>
+                                                    <p>Be part of the best place to work for certified company</p>
+                                                </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
 
                                     </Accordion>
 
@@ -690,7 +777,7 @@ export const HirringJdsCareer = () => {
                                     <Accordion className={styles.hirringdropdowncontextouter}>
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="0">
                                             <Accordion.Header className={styles.hirringdropdownDivContext}
-                                            ><h6>Vue Js Developer</h6>  </Accordion.Header>
+                                            ><h6>Sr. Vue Js Developer</h6>  </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
                                                 
@@ -723,6 +810,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Skill:</h6>  
                                                 <p>
@@ -775,7 +863,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
-                                            <Accordion.Header><h6>Next Js Developer</h6>  </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Next Js Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                                 
                                             <div className={styles.hirringJdDataContainer1}>
@@ -806,6 +894,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Your main responsibilities:</h6>
 
@@ -849,7 +939,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="2">
-                                            <Accordion.Header> <h6>Nuxt Js</h6>  </Accordion.Header>
+                                            <Accordion.Header> <h6>Sr. Nuxt Js</h6>  </Accordion.Header>
                                             <Accordion.Body>
 
                                             <div className={styles.hirringJdDataContainer1}>
@@ -880,6 +970,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job description </h6>
 
@@ -927,7 +1019,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
-                                            <Accordion.Header><h6>Nest Js Developer</h6> </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Nest Js Developer</h6> </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
@@ -957,6 +1049,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Responsibilities:</h6>
 
@@ -1005,7 +1099,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>React Js Developers</h6> 
+                                            <Accordion.Header><h6>Sr. React Js Developers</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                                
@@ -1037,6 +1131,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Responsibilities:</h6>
 
@@ -1084,7 +1180,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="5">
-                                            <Accordion.Header><h6>Angular Developer</h6>   </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Angular Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
@@ -1114,6 +1210,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Description:</h6>
 
@@ -1151,7 +1249,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="6">
-                                            <Accordion.Header><h6>Ember Js Developer</h6>   </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Ember Js Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
@@ -1181,6 +1279,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Description:</h6>
 
@@ -1223,7 +1323,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="7">
-                                            <Accordion.Header><h6>Swift Js Developer</h6>   </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. Swift Js Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
@@ -1253,6 +1353,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Description:</h6>
 
@@ -1352,6 +1454,8 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
                                                 <h6>Job Description:</h6>
 
                                                 <p>
@@ -1415,6 +1519,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Full Job Description:</h6>  
                                                 <p>
@@ -1498,6 +1604,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Role Responsibilities:</h6>  
                                                 <p>
@@ -1569,6 +1676,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Role Responsibilities:</h6>  
                                                 <p>
@@ -1655,6 +1763,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Responsibilities:</h6>  
                                                 <p>
@@ -1742,6 +1851,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job description:</h6>  
                                                 <p>
@@ -1821,6 +1931,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job description:</h6>  
                                                 <p>
@@ -1890,6 +2001,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>
                                                   Job Description:
@@ -1945,7 +2057,7 @@ export const HirringJdsCareer = () => {
                                     <Accordion className={styles.hirringdropdowncontextouter}>
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="0">
                                             <Accordion.Header className={styles.hirringdropdownDivContext}
-                                            ><h6>Sr. SEO analyst</h6>  </Accordion.Header>
+                                            ><h6>Sr. SEO Analyst</h6>  </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
                                                 <div className={styles.hirringJdDataContainer2}>
@@ -1982,6 +2094,7 @@ export const HirringJdsCareer = () => {
 
                                                     <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                     <h6>Key Focus area:</h6> 
                                                     
@@ -2053,7 +2166,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
-                                            <Accordion.Header><h6>Sr. PPC analyst</h6>  </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. PPC Analyst</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
@@ -2084,6 +2197,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Responsibilities:</h6>  
                                                 <p>
@@ -2124,7 +2238,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="2">
-                                            <Accordion.Header> <h6>Sr. ASO analyst</h6>  </Accordion.Header>
+                                            <Accordion.Header> <h6>Sr. ASO Analyst</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
@@ -2155,6 +2269,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Responsibilities:</h6>  
                                                 <p>
@@ -2198,7 +2313,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
-                                            <Accordion.Header><h6>Sr. SEM analyst</h6> </Accordion.Header>
+                                            <Accordion.Header><h6>Sr. SEM Analyst</h6> </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
@@ -2272,7 +2387,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>Sr. SMM analyst</h6> 
+                                            <Accordion.Header><h6>Sr. SMM Analyst</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer2}>
@@ -2303,6 +2418,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Summary</h6>
                                                 <p>
@@ -2382,6 +2499,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Summary</h6>
                                                 <p>
@@ -2463,6 +2582,8 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
                                                 <h6>Job Summary</h6>
                                                 <p>
                                                 We are seeking a highly skilled Senior Digital Marketer to develop and implement digital marketing strategies that will drive online traffic, increase customer engagement, and generate revenue for our organization. The ideal candidate should have extensive experience in digital marketing techniques, possess excellent communication skills, and have a track record of managing successful digital marketing campaigns.
@@ -2511,7 +2632,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="7">
-                                            <Accordion.Header><h6>Performance Manager / Growth Hacker</h6> 
+                                            <Accordion.Header><h6>Sr. Performance Manager / Growth Hacker</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer2}>
@@ -2542,6 +2663,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Summary</h6>
                                                 <p>
@@ -2621,6 +2744,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Summary</h6>
                                                 <p>
@@ -2803,6 +2928,8 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
                                                 <h6>Job Summary</h6>
                                                 <p>
                                                    We are seeking an experienced and highly motivated HR Executive Manager to oversee the HR department of our organization. The ideal candidate will have a deep understanding of HR policies and procedures, excellent communication and interpersonal skills, and the ability to lead and manage a team of HR professionals.
@@ -2884,6 +3011,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
                                         
 
                                                 <h6>Job Summary:</h6>  
@@ -2955,6 +3083,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
                                         
 
                                                 <h6>Job Summary:</h6>  
@@ -2995,7 +3124,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="4">
-                                            <Accordion.Header><h6>Sr. IT Business analyst (Pre Sales)</h6> 
+                                            <Accordion.Header><h6>Sr. IT Business Analyst (Pre Sales)</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer1}>
@@ -3017,7 +3146,7 @@ export const HirringJdsCareer = () => {
                                                 <h6>Please find below-mentioned JD</h6>
 
 
-                                                <h6>Position:</h6> <p>Sr. IT Business analyst(Pre Sales)</p>
+                                                <h6>Position:</h6> <p>Sr. IT Business Analyst(Pre Sales)</p>
 
                                                 <h6>Employment Type:</h6> <p>Employee - Full Time</p>
 
@@ -3026,7 +3155,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
-                                        
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Summary:</h6>  
                                                 <p>
@@ -3108,7 +3237,7 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
 
-                                        
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Summary:</h6>
 
@@ -3159,7 +3288,7 @@ export const HirringJdsCareer = () => {
                                         </Accordion.Item>
 
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="6">
-                                            <Accordion.Header><h6>Marketing Executives</h6> 
+                                            <Accordion.Header><h6>Sr. Marketing Executives</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
                                             <div className={styles.hirringJdDataContainer1}>
@@ -3189,6 +3318,8 @@ export const HirringJdsCareer = () => {
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
 
                                                 <h6>Job Summary:</h6>
 
