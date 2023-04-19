@@ -1,0 +1,113 @@
+.multipleSalesImgDiv {
+    background-image: url("/Images/MultipleSalesPipeline/Group1000006764.png");
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    border: 1px solid black;
+  }
+  .multipleSalesImgContentDiv {
+    position: absolute;
+    width: 52%;
+    top: 25%;
+    right: 2%;
+    border: 1px solid black;
+    /* border: 1px solid rgb(3, 5, 119); */
+  }
+  .multipleSalesImgContentDiv > h2 {
+    font-size: 32px;
+    font-weight: 600;
+    width: 80%;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  .multipleSalesImgContentDiv > p {
+    width: 70%;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .multipleSalesImgContentDiv > button {
+    color: #ffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 2px solid #ef4c23;
+    background-color: #ef4c23;
+  }
+  .multipleSalesImgContentDiv > button:hover {
+    color: #ef4c23;
+    background-color: white;
+    border: 2px solid #ef4c23;
+  }
+  .multipleSalesImgDiv > img {
+    width: 100%;
+  }
+  
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .multipleSalesImgDiv {
+      height: 50vh;
+      width: 100%;
+      margin: auto;
+      background-size: 100% 80%;
+    }
+  
+    .multipleSalesImgContentDiv {
+      position: absolute;
+      width: 52%;
+      top: 22%;
+      right: 1%;
+    }
+    .multipleSalesImgContentDiv > h2 {
+      font-size: 20px;
+      font-weight: 700;
+      width: 100%;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+  
+    .multipleSalesImgContentDiv > p {
+      width: 90%;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .multipleSalesImgContentDiv > button {
+      padding: 4px 8px;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .multipleSalesImgDiv {
+      height: 48vh;
+      width: 100%;
+      background-size: 100% 100%;
+    }
+  
+    .multipleSalesImgContentDiv {
+      position: absolute;
+      width: 52%;
+      top: 28%;
+      right: 1%;
+    }
+    .multipleSalesImgContentDiv > h2 {
+      font-size: 16px;
+      font-weight: 600;
+      width: 100%;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+  
+    .multipleSalesImgContentDiv > p {
+      width: 100%;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 13px;
+    }
+    .multipleSalesImgContentDiv > button {
+      padding: 4px 8px;
+      font-size: 13px;
+    }
+  }
+  

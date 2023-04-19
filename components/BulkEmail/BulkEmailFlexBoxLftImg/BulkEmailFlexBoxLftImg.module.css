@@ -9,6 +9,7 @@
 .bulkEmailFlexBoxLftImgContentDiv {
   padding: 1rem;
   width: 55%;
+  
 }
 .bulkEmailFlexBoxLftImgContentDiv h3 {
   width: 90%;
@@ -26,9 +27,9 @@
 .bulkEmailFlexBoxLftImgPicDiv {
   width: 45%;
 }
-
 .bulkEmailFlexBoxLftImgPicDiv > img {
-  width: 95%;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
