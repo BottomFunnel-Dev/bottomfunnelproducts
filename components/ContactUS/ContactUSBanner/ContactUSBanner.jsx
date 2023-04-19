@@ -21,7 +21,6 @@ export const ContactUSBanner = () => {
           you can't try! With over 95% of messages answered within 1 business
           day, Bottom Funnel is here to help make your project stand out from
           the crowd.
-          <br />
           We understand that your time is precious, and we want to make sure you
           get the best possible response.
         </p>

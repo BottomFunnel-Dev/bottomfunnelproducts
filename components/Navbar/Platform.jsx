@@ -69,7 +69,7 @@ export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMou
           >
             <img height="30px" src="Images/Neo.png" />
             <h5> Bottom Funnel Neo</h5>
-
+              
           </div>
 
           <p style={{ marginLeft: "5%" }}>

@@ -37,7 +37,7 @@
 
 .ContactUsBannerContent > div {
   height: 1px;
-  width: 60%;
+  width: 50%;
   /* background-color: gray; */
 }
 
@@ -45,6 +45,9 @@
   font-size: 16px;
   margin-top: 2%;
   margin-bottom: 2%;
+  text-align: justify;
+  width: 50%;
+  /* border: 2px solid red; */
 }
 
 .ContactUsBannerContent > button {
