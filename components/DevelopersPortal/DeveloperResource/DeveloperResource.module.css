@@ -66,3 +66,18 @@
 .developerPortalResourceText>p{
     margin-top: 5%;
 }
+
+@media (max-width:480px) {
+    .developerPortalResourceMainDiv{
+        border: 2px solid red;
+        margin-top: 90%;
+    }
+    .developerResourceContainer{
+        flex-direction: column;
+    }
+    .developerResourceMainDiv{
+        border: 2px solid red;
+        margin-top: 50%;
+    }
+    
+}
