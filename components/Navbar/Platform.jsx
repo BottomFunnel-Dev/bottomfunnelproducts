@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import prods from "./platform.module.css";
 import Link from "next/link";
 import { product3, product4 } from "../../Data/Navbar";
-export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMount }) => {
+export const Platform = ({
+  platformHoverIn,
+  platformHoverOut,
+  scroll,
+  productMount,
+}) => {
   return (
     <div
       onMouseEnter={() => platformHoverIn()}
@@ -11,7 +16,6 @@ export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMou
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
       <div className={prods.platformDropdownSection}>
-
         <div className={prods.platformDropdownContent}>
           <h5
             className={prods.noStyleMain}
@@ -45,7 +49,14 @@ export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMou
                   onClick={platformHoverOut}
                   href={item.path}
                   className={prods.linkP}
-                  style={{ width: "70%", color: "black", fontSize: "14px", marginLeft:"2%",marginTop:"2%", textDecoration:"none"}}
+                  style={{
+                    width: "70%",
+                    color: "black",
+                    fontSize: "14px",
+                    marginLeft: "2%",
+                    marginTop: "2%",
+                    textDecoration: "none",
+                  }}
                 >
                   {/* <p style={{ marginTop: "0%", marginLeft: "10%" }}> */}
                   {item.dropContent}
@@ -69,7 +80,6 @@ export const Platform = ({ platformHoverIn, platformHoverOut, scroll, productMou
           >
             <img height="30px" src="Images/Neo.png" />
             <h5> Bottom Funnel Neo</h5>
-              
           </div>
 
           <p style={{ marginLeft: "5%" }}>

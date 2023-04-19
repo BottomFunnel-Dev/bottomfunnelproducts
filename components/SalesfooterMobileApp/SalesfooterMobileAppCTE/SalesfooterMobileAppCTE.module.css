@@ -1,0 +1,54 @@
+.SalesfooterMobileAppCTEHeader{
+    background-image: url('/Images/SalesfooterMobileApp/cte.png');
+    width: 100%;
+    background-size: 100%;
+    height: 400px;
+   margin-top: 5%;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+
+    .SalesfooterMobileAppCTEMain h2{
+        margin-left: 35%;
+        width: 55%;
+        margin-top: 4%;
+    }
+
+    .SalesfooterMobileAppCTEMain p{
+        font-size: 22px;
+        margin-left: 35%;
+        width: 55%;
+        margin-top: 1%;
+        line-height: 120%;
+    }
+
+ 
+
+   @media (max-width:480px) {
+    .SalesfooterMobileAppCTEHeader{
+       margin-top: 10%;
+       height: 400px;
+       background-color: #f6e3de;
+       background-image: none;
+    }
+    .SalesfooterMobileAppCTEMain h2{
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;  
+    }
+    .SalesfooterMobileAppCTEMain p{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+        text-align: justify;
+    }
+    .SalesfooterMobileAppCTEdemo{
+        font-size: 14px;
+        width: 150px;
+        height: 38px;
+       margin-left: 30%;
+        margin-top: 6%;
+    }
+    
+   }
