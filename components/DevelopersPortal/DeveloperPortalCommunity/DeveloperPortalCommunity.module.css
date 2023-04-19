@@ -65,3 +65,23 @@
     color: #EF4C23;
     background-color: white;
 }
+@media(max-width:480px){
+    .developerPortalContainer{
+        flex-direction: column-reverse;
+    }
+    .developerPortalCommunityBox>h2{
+        font-size: 40px;
+        margin-top: 3%;
+    }
+    .developerPortalCommunityText{
+        width: 100%;
+    }
+   
+    .developerPortalCommunityImage{
+        width: 90%;
+        height: auto;
+    }
+    .developerPortalCommunityText>button{
+        margin-bottom: 5%;
+    }
+}

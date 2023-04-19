@@ -19,7 +19,7 @@ export const OurDevBanner = () => {
 
       <div className={styles.ourDevBannerMain}>
         <h1>
-          <span>Bottom Funnel</span>Follows a pursuit to develop the best products for web and mobile.
+          <span>Bottom Funnel </span>Follows a pursuit to develop the best products for web and mobile.
         </h1>
         <hr />
         <p>

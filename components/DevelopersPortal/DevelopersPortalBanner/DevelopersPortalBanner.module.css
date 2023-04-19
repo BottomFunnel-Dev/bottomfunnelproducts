@@ -1,4 +1,4 @@
-.developerPortalBannerConatiner{
+
     width: 100%;
     height: 90vh;
     display: flex;
@@ -14,7 +14,7 @@
     background-color: #EF4C23;
     border: none;
     height: 40px;
-    width: 32%;
+    width: 25%;
     color: white;
     border-radius: 5px;
 
@@ -32,30 +32,13 @@
     margin-left: 4%;
 }
 @media(max-width:480px){
-    .developerPortalBannerConatiner{
+
         flex-direction: column-reverse;
+        margin-top: 2%;
+        justify-content: start;
+        height: max-content;
+
     }
     .developerPortalBannerImage{
-        margin: 5%;
-        width: auto;
-    }
-    .developerPortalBannerText{
-        width: 90%;
-        margin: auto;
-        margin-top: 2%;
-        /* border: 2px solid red; */  
-    }
-    .developerPortalBannerText h1{
-        text-align: center;
-        font-size: 32px;
-    }
-    .developerPortalBannerText p{
-        text-align: justify;
-        font-size: 18px;
-    }
-    .developerPortalBannerText>button{
-        width: 220px;
-        margin-left: 18%;
-        margin-top: 5%;
-    }
+
 }

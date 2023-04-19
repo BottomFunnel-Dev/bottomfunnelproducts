@@ -7,7 +7,7 @@ export const DeveloperPortalRegister = () => {
      
      <div className={styles.developerPortalRegisterContainer}>
         <div className={styles.developerPortalRegImage}>
-            <Image
+            <Image id={styles.PortalImage}
                 src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group11.png"}
                 alt={"image"}
                 width={"0"}
@@ -19,8 +19,8 @@ export const DeveloperPortalRegister = () => {
                 <p>Want to learn more on the Bottom Funnel Paid Apps Programs?</p>
                 <h2>Register for an exclusive webinar on Our Website.</h2>
                 <button>Register Now</button>
-            </div>
-        </div>
+            </div></div>
+        
      </div>
 
   )

@@ -1,5 +1,5 @@
 .developerPortalRegisterContainer{
-    /* border: 2px solid red; */
+    /* border: 2px solid pink; */
     width: 100%;
     height: auto;
     margin-top: 3%;
@@ -8,11 +8,11 @@
     width: 82%;
     height: 400px;
     margin-left: 9%;
-    /* border: 2px solid red; */
+    /* border: 2px solid black; */
     position: relative;
 }
 .developerPortalRegText{
-    /* border: 2px solid red;  */
+    /* border: 2px solid green;  */
     position: absolute;
     top: 25%;
     left: 5%;
@@ -30,4 +30,32 @@
     border: 2px solid #EF4C23;
     background-color: white;
     color: #EF4C23;
+}
+@media (max-width:480px){
+    .developerPortalRegisterContainer{
+        background-color: #fafafa;
+        
+    }
+.developerPortalRegImage{
+    height: auto;
+   
+}
+.developerPortalRegText{
+    position: initial;
+    text-align: center;
+    margin: 8% auto;
+    padding: 3% 0;
+}
+
+.developerPortalRegText p{
+    margin-bottom: 2%;
+}
+#PortalImage{
+    display: none;
+}
+.developerPortalRegText>button{
+    width: 40%;
+    height: 40px;
+    margin-bottom: 3%;
+}
 }
