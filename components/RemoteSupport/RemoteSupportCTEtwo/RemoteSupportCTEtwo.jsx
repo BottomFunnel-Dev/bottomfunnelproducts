@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "./RemoteSupportCTEtwo.module.css";
-import Image from 'next/image';
 
 export const RemoteSupportCTEtwo=()=>{
     return(

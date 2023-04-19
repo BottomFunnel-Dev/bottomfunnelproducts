@@ -12,6 +12,7 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import Navbar from "../../components/Navbar/Navbar";
 import ContactForm from "../../components/ContactUS/ContactForm/ContactForm";
 import ContactUsMap from "../../components/ContactUS/ContactUsMap/ContactUsMap";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 
 export default function ContactUs() {
   const formdata = {
@@ -35,15 +36,16 @@ export default function ContactUs() {
       <ContactUSBanner />
       {/* --------------- Contact form from home page and other pages will come here ----------- */}
       {/* <ContactUSForm /> */}
-
-      <ContactUsMap />
-      <ContactForm formdata={formdata} bgcolor={"#e4fadd"} />
-
-      {/* Other react required components  */}
-      <StoriesSection />
       <TrustedBy />
       <LifeBottomFunnel />
-      <GetStarted />
+     
+      
+      <ReadyStarted />
+      {/* Other react required components  */}
+      <StoriesSection />
+      <ContactForm formdata={formdata} bgcolor={"#e4fadd"} />
+      <ContactUsMap />
+      {/* <GetStarted /> */}
       <ProductsFooter />
     </div>
   );
