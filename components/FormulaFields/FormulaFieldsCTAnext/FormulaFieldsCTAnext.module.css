@@ -1,0 +1,44 @@
+.FormulaFieldsCTAnextMainDiv {
+ background-color: #393939;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 3% 2%;
+  margin-bottom: 3%;
+}
+.FormulaFieldsCTAnextMainDiv > h2{
+font-size: 40px;
+}
+.FormulaFieldsCTAnextMainDiv > p{
+    font-size: 18px;
+}
+.FormulaFieldsCTAnextButton {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+
+  margin-top: 30px;
+  border: none;
+  font-weight: 500;
+  background-color: #ef4c23;
+}
+
+.FormulaFieldsCTAnextButton:hover {
+  background-color: white;
+  color: #ef4c23;
+  border: 1px solid #ef4c23;
+}
+@media(max-width:480px){
+    .FormulaFieldsCTAnextMainDiv{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .FormulaFieldsCTAnextMainDiv > h2{
+        font-size: 30px;
+        }
+    .FormulaFieldsCTAnextButton{
+        margin-top: 2%;
+    } 
+}

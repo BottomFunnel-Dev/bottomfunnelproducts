@@ -1,0 +1,71 @@
+.FormulaFieldsGetDataMain{
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 2%;
+}
+.FormulaFieldsGetDataHeader{
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+}
+.FormulaFieldsGetDataHeader>h2{
+    font-size: 40px;
+}
+.FormulaFieldsGetDataHeader>p{
+    font-size: 20px;
+}
+.FormulaFieldsGetDataDivtwo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 5px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.FormulaFieldsGetDataInnerBox{
+    /* border: 1px solid blue; */
+    width: 30%;
+    position: relative;
+   
+}
+.FormulaFieldsInnerdiv{
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 20%;
+    margin-bottom: 12%;
+    padding: 20% 2% 2% 0;
+    height: auto;
+    text-align: center;
+}
+.FormulaFieldsimages{
+    width: 50%;
+    position: absolute;
+    bottom: 56%;
+    left: 25%;
+
+}
+.FormulaFieldsContent{
+    padding: 3%;
+}
+.FormulaFieldsContent>p{
+    font-size: 20px;
+}
+@media(max-width:480px){
+    .FormulaFieldsGetDataMain{
+        margin-top: 5%;
+    }
+    .FormulaFieldsGetDataHeader>h2{
+        font-size: 26px;
+    }
+    .FormulaFieldsGetDataDivtwo{
+        flex-direction: column;
+    }
+    .FormulaFieldsGetDataInnerBox{
+        width: 100%;
+    }
+}

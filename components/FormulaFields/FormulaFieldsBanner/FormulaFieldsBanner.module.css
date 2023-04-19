@@ -1,0 +1,79 @@
+.FormulaFieldsBannerMainDiv{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.FormulaFieldsBannerImage{
+    width:35%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 3%;
+}
+.FormulaFieldsBannerText{
+    width: 40%;
+    margin-top: 3%;
+    /* margin: auto; */
+    /* border: 1px solid black; */
+}
+.FormulaFieldsBannerText > h1 {
+    color: black;
+    /* font-size: 40px; */
+  }
+  .FormulaFieldsBannerText > p {
+    color: black;
+    margin-top: 1%;
+    font-size: 18px;
+    text-align: left;
+    width: 70%;
+  }
+  
+  .FormulaFieldsBannerbutton {
+    padding: 10px 5px;
+    border-radius: 10px;
+    width: 35%;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    border: 1px solid transparent;
+  }
+  
+  .FormulaFieldsBannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+  }
+ 
+ @media(max-width:480px){
+    .FormulaFieldsBannerMainDiv{
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .FormulaFieldsBannerImage{
+        width: 70%;
+    }
+    .FormulaFieldsBannerText{
+        width: 90%;
+        text-align: center;
+        margin-top: 8%;
+      
+    }
+    .FormulaFieldsBannerText > p {
+        width: 100%;
+        text-align: center;
+    }
+    .FormulaFieldsBannerbutton {
+        width: 50%;
+        margin-top: 2%;
+        font-size: 16px;
+    }
+ }
+ 

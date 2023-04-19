@@ -1,0 +1,102 @@
+.FormulaFieldsCTAtwodiv {
+  background: url("/Images/SalesfooterMobileApp/ctebg.png");
+  display: flex;
+  margin-top: 5%;
+  height: 60vh;
+  position: relative;
+ 
+}
+.FormulaFieldsCTALogo{
+   display: flex;
+   height: 60px;
+   width: 20%;
+   flex-direction: row;
+
+   /* border: 1px solid green; */
+   position: absolute;
+   bottom: 82%;
+}
+.FormulaFieldsCTALogoImage{
+   width: 20%;
+   height: auto;
+  
+}
+.FormulaFieldsCTALogo>p{
+ padding-left: 5%;
+ margin-top: 3%;
+ font-weight: 600;
+ 
+
+ 
+   font-size: large;
+}
+.FormulaFieldsCTAtwoMain {
+  height: 70%;
+  width: 40%;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+.FormulaFieldsCTAtwoheading {
+  margin: auto;
+
+  width: 40%;
+  margin-left: 15%;
+}
+.FormulaFieldsCTAtwoheading>h2 {
+  margin-top: 6%;
+  font-size: 46px;
+  width: 65%;
+}
+
+.FormulaFieldsCTAtwodemo {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+
+  margin-top: 30px;
+  border: none;
+  font-weight: 500;
+  background-color: #ef4c23;
+}
+
+.FormulaFieldsCTAtwodemo:hover {
+  background-color: white;
+  color: #ef4c23;
+  border: 1px solid #ef4c23;
+}
+
+@media(max-width:480px){
+
+     .FormulaFieldsCTAtwoMain{
+        display: none;
+     }
+
+     .FormulaFieldsCTAtwoheading{
+        width: 95%;
+        margin: auto;
+        margin-top: 0%;
+        margin-left: 7%;
+     }
+   .FormulaFieldsCTAtwoheading h2{
+    width: 100%;
+    font-size: 36px;
+    
+   }
+
+     .FormulaFieldsCTAtwodemo{
+        font-size: 16px;
+        height: 50px;
+        width: 250px;
+        font-weight: 400;
+        margin-left: 10%;
+     }
+     .FormulaFieldsCTAtwodiv{
+        height: 230px;
+     }
+     .FormulaFieldsCTALogo{
+      bottom: 30%;
+     }
+  }
+
