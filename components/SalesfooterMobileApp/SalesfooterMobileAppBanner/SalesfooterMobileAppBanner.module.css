@@ -1,0 +1,75 @@
+.SalesfooterMobileAppBannerdiv{
+    display: flex;
+    margin-top: 5%;
+}
+.SalesfooterMobileAppBannerMain{
+    height: 50%;
+    width: 35%;
+    margin-left: 8%;
+    margin-top: 5%;
+  
+}
+.SalesfooterMobileAppBannerheading{
+   margin: auto;
+    margin-top: 2%; 
+    width: 50%;
+    margin-left: 5%; 
+}
+.SalesfooterMobileAppBannerheading h1{
+margin-top: 6%;
+}
+
+.SalesfooterMobileAppBannerheading p{
+    font-size: 28px;
+    margin-top: 30px;
+    }
+
+ .SalesfooterMobileAppBannerdemo{
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 22px;
+        color: white;
+       
+        margin-top: 30px;
+        border: none;
+        font-weight: 500;
+        background-color: #ef4c23;
+        }
+
+       .SalesfooterMobileAppBannerdemo:hover{
+            background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+        }
+
+      
+
+@media(max-width:480px){
+    .SalesfooterMobileAppBannerdiv{
+      flex-direction: column}
+
+     .SalesfooterMobileAppBannerMain{
+        width: 90%;
+       margin: auto;
+       margin-top: 60px;
+     } 
+
+     .SalesfooterMobileAppBannerheading{
+        width: 90%;
+        margin: auto; 
+     }
+
+     .SalesfooterMobileAppBannerheading p{
+        text-align: justify;
+     }
+
+     .SalesfooterMobileAppBannerdemo{
+        font-size: 18px;
+        height: 50px;
+        width: 180px;
+        font-weight: 400;
+        margin-left: 25%;
+     }
+  }
+

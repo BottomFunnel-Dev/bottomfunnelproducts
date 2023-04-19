@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Account360degCTE.module.css";
-import Image from "next/image";
+
 
 export const Account360degCTE=()=>{
     return(
