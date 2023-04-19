@@ -46,6 +46,7 @@
 @media(max-width:480px){
     .ollyNeoImage1{
         height: 200px;
+        /* border: 2px solid green; */
     }
     .ollyNeoContent1{
         /* border: 2px solid red; */
@@ -75,4 +76,12 @@
         font-size: 10px;
         /* width: 70%;   */
     }
+    .ollyNeoImage2{
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        }
 }
