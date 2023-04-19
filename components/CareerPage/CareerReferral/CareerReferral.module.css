@@ -1,9 +1,6 @@
 .careerReferralContainer {
   background: #f5f5f5;
   padding: 3%;
-  margin-top: 2%;
-  /* border: 2px solid red; */
-  z-index: 0;
 }
 
 .careerReferralContainer > h1 {

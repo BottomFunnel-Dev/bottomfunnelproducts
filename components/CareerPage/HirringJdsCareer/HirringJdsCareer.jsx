@@ -69,7 +69,7 @@ export const HirringJdsCareer = () => {
                                                 <h6>PHP Developer</h6>  
                                             </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}>
-                                                <div>
+                                                <div className={styles.hirringJdDataContainer}>
                                                     <h6>About Company</h6>
 
 
@@ -180,7 +180,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
                                             <Accordion.Header><h6>MERN Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                                <div>
+                                            <div className={styles.hirringJdDataContainer}>
                                                 <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.
 
                                                 Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch.BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
@@ -258,7 +258,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
                                             <Accordion.Header><h6>MEAN Developer</h6> </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -364,7 +364,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Ruby Developers</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                                <div>
+                                            <div className={styles.hirringJdDataContainer}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -472,7 +472,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="5">
                                             <Accordion.Header><h6>Python Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -566,7 +566,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="6">
                                             <Accordion.Header><h6>java Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -694,7 +694,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
                                                 
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -778,7 +778,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Next Js Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
                                                 
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -852,7 +852,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header> <h6>Nuxt Js</h6>  </Accordion.Header>
                                             <Accordion.Body>
 
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -929,7 +929,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
                                             <Accordion.Header><h6>Nest Js Developer</h6> </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1009,7 +1009,7 @@ export const HirringJdsCareer = () => {
                                             </Accordion.Header>
                                             <Accordion.Body>
                                                
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1086,7 +1086,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="5">
                                             <Accordion.Header><h6>Angular Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1153,7 +1153,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="6">
                                             <Accordion.Header><h6>Ember Js Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1225,7 +1225,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="7">
                                             <Accordion.Header><h6>Swift Js Developer</h6>   </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1323,7 +1323,7 @@ export const HirringJdsCareer = () => {
                                             ><h6>Sr. Andriod App Developer</h6>  </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1393,7 +1393,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
                                             <Accordion.Header><h6>Sr. IOS App Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1402,26 +1402,19 @@ export const HirringJdsCareer = () => {
 
                                                 <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
 
-
                                                 <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
-
 
                                                 <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
 
-
                                                 <h6>Please find below-mentioned JD</h6>
-
 
                                                 <h6>Position:</h6> <p>Senior Ios developer</p>
 
-
                                                 <h6>Employment Type:</h6> <p>Employee - Full Time</p>
-
 
                                                 <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
 
                                                 <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
-
 
                                                 <h6>Full Job Description:</h6>  
                                                 <p>
@@ -1476,7 +1469,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="2">
                                             <Accordion.Header> <h6>Sr. React Native App Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1547,7 +1540,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
                                             <Accordion.Header><h6>Sr. Flutter Developer</h6> </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1633,7 +1626,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. Xamarian Developer</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1720,7 +1713,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="5">
                                             <Accordion.Header> <h6>Sr. Ionic Developer</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1801,7 +1794,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="6">
                                             <Accordion.Header><h6>Sr. Kotlin Developer</h6> </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1868,7 +1861,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. Cross Platform App Developer</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -1955,7 +1948,7 @@ export const HirringJdsCareer = () => {
                                             ><h6>Sr. SEO analyst</h6>  </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
-                                                <div>
+                                                <div className={styles.hirringJdDataContainer2}>
                                                     <h6>About Company</h6>
 
 
@@ -2062,7 +2055,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
                                             <Accordion.Header><h6>Sr. PPC analyst</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2133,7 +2126,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="2">
                                             <Accordion.Header> <h6>Sr. ASO analyst</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2207,7 +2200,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
                                             <Accordion.Header><h6>Sr. SEM analyst</h6> </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2282,7 +2275,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. SMM analyst</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2361,7 +2354,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. Digital Marketer</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2441,7 +2434,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. Digital Marketer Manager</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2521,7 +2514,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Performance Manager / Growth Hacker</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2601,7 +2594,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. Technical Content Writer</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer2}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2702,7 +2695,7 @@ export const HirringJdsCareer = () => {
                                             ><h6>HR Executive Manager</h6>  </Accordion.Header>
                                             <Accordion.Body className={styles.hirringdropdowncontext}
                                             >
-                                            <div>
+                                           <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2782,7 +2775,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="1">
                                             <Accordion.Header><h6>Sr. HR Executive Manager</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2863,7 +2856,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="2">
                                             <Accordion.Header> <h6>Business Data Manager</h6>  </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -2934,7 +2927,7 @@ export const HirringJdsCareer = () => {
                                         <Accordion.Item className={styles.hirringdropdowncontext} eventKey="3">
                                             <Accordion.Header><h6>Sr. Business Data Manager</h6> </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -3005,7 +2998,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. IT Business analyst (Pre Sales)</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -3087,7 +3080,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Sr. IT Business Data analyst Sales</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
@@ -3169,7 +3162,7 @@ export const HirringJdsCareer = () => {
                                             <Accordion.Header><h6>Marketing Executives</h6> 
                                             </Accordion.Header>
                                             <Accordion.Body>
-                                            <div>
+                                            <div className={styles.hirringJdDataContainer1}>
                                                 <h6>About Company</h6>
                                                 <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
                                                 <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
