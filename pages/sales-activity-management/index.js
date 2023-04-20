@@ -55,7 +55,7 @@ const index = () => {
             desc={
               "Start tracking sales activities and identify the ones that increase conversions with powerful reports. Get all the insights that you need to streamline your process and start closing deals faster than ever."
             }
-            bgUrl={"/Images/Sales_Activity_Management//Group1000006777.png"}
+            bgUrl={"/Images/Sales_Activity_Management/Group1000006777.png"}
           />
 
           <BulkEmailFlexBoxRhtImg
