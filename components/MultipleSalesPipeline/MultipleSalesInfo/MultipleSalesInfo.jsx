@@ -7,6 +7,7 @@ const MultipleSalesInfo = () => {
     
   return (
     <div >
+      <h2 style={{textAlign:"center",marginBottom:"2rem"}}>Empower sales teams to work from anywhere and stay productive</h2>
         <TopImageFlexBox data={infoCardFirstRow}/>
         <TopImageFlexBox data={infoCardSecondRow}/>
         

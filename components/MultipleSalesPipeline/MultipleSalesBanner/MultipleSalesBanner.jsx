@@ -12,8 +12,6 @@ const MultipleSalesBanner = () => {
           <button>Sign-up for free</button>
         </div>
       </div>
-
-      <div></div>
     </div>
   )
 }

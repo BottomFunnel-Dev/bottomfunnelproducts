@@ -31,7 +31,8 @@
     }
     .TopImageFlexBoxMainDiv>div{
         
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
     .TopImageFlexBoxMainDiv>div>img{
         position: absolute;
@@ -43,6 +44,11 @@
     .TopImageFlexBoxMainDiv>div>h5{
         margin-top: 2rem;
     }
+    .TopImageFlexBoxMainDiv>div>p{
+        width: 65%;
+        text-align: center;
+        margin: auto;
+     }
 }
 
 @media  (max-width: 480px){
@@ -66,4 +72,9 @@
      .TopImageFlexBoxMainDiv>div>h5{
          margin-top: 2rem;
      }
+     .TopImageFlexBoxMainDiv>div>p{
+       width: 95%;
+       text-align: center;
+       margin: auto;
+    }
 }

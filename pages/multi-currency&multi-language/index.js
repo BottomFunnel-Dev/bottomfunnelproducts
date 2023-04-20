@@ -1,7 +1,7 @@
 import React from "react";
-import MultipleSalesBanner from "../../components/MultipleSalesPipeline/MultipleSalesBanner/MultipleSalesBanner";
-import MultiplesSalesAd from "../../components/MultipleSalesPipeline/MultiplesSalesAd/MultiplesSalesAd";
-import MultipleSalesInfo from "../../components/MultipleSalesPipeline/MultipleSalesInfo/MultipleSalesInfo";
+import MultiCurrency_MultiLanguageBanner from "../../components/Multi-currency&Multi-language/MultiCurrency_MultiLanguageBanner/MultiCurrency_MultiLanguageBanner";
+import MultiCurrency_MultiLanguageAd from "../../components/Multi-currency&Multi-language/MultiCurrency_MultiLanguageAd/MultiCurrency_MultiLanguageAd";
+import MultiCurrency_MultiLanguageInfo from "../../components/Multi-currency&Multi-language/MultiCurrency_MultiLanguageInfo/MultiCurrency_MultiLanguageInfo";
 import BulkEmailSuiteBox from "../../components/BulkEmail/BulkEmailSuiteBox/BulkEmailSuiteBox";
 import MultiSalesPipelineFooter from "../../components/MultipleSalesPipeline/MultiSalesPipelineFooter/MultiSalesPipelineFooter";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
@@ -24,15 +24,20 @@ const index = () => {
           logo: false,
         }}
       />
-      <MultipleSalesBanner />
+      <MultiCurrency_MultiLanguageBanner />
       <div style={{ backgroundColor: "rgba(241, 241, 241, 0.432)" }}>
-        <MultiplesSalesAd />
-        <MultipleSalesInfo />
+        <MultiCurrency_MultiLanguageAd />
+
+        <MultiCurrency_MultiLanguageInfo />
         <div style={{ marginTop: "4rem" }}>
           <BulkEmailSuiteBox />
         </div>
       </div>
-      <MultiSalesPipelineFooter title={"Reduce your manual efforts and focus on selling"} desc={"21-day free trial. Unrestricted access"} btntext={"GET STARTED"}/>
+      <MultiSalesPipelineFooter
+        title={"Make Bottom Funnel sales your own"}
+        desc={"21-day free trial. Unrestricted access"}
+        btntext={"GET STARTED"}
+      />
 
       <Testimonial />
       <TrustedBy />
