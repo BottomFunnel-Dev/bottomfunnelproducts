@@ -13,6 +13,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import ContactForm from "../../components/ContactUS/ContactForm/ContactForm";
 import ContactUsMap from "../../components/ContactUS/ContactUsMap/ContactUsMap";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import ContactNewForm from "../../components/ContactUS/ContactNewForm/ContactNewForm";
 
 export default function ContactUs() {
   const formdata = {
@@ -25,7 +26,7 @@ export default function ContactUs() {
   return (
     <div className={styles.ContactUScontainer}>
       <Navbar
-        productMount={{
+          productMount={{
           navMount: false,
         }}
         navredux={{
@@ -38,12 +39,10 @@ export default function ContactUs() {
       {/* <ContactUSForm /> */}
       <TrustedBy />
       <LifeBottomFunnel />
-     
-      
       <ReadyStarted />
       {/* Other react required components  */}
       <StoriesSection />
-      <ContactForm formdata={formdata} bgcolor={"#e4fadd"} />
+      <ContactNewForm formdata={formdata} bgcolor={"#F8C431"} />
       <ContactUsMap />
       {/* <GetStarted /> */}
       <ProductsFooter />
