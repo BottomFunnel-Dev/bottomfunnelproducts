@@ -1,0 +1,34 @@
+.GetStartedFooter_MainDiv{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    padding: 2rem 0rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+.GetStartedFooter_MainDiv>h4{
+    margin-top: 1rem;
+}
+.GetStartedFooter_MainDiv > button {
+    color: #ffff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid #ef4c23;
+    background-color: #ef4c23;
+    margin-top: 1rem;
+  }
+  .GetStartedFooter_MainDiv > button:hover {
+    color: #ef4c23;
+    background-color: white;
+    border: 2px solid #ef4c23;
+  }
+
+
+  @media (max-width:480px) {
+    .GetStartedFooter_MainDiv>h4{
+        margin-top: 1rem;
+        font-size: 18px;
+    }
+  }

@@ -1,0 +1,83 @@
+.bulkEmailFlexBoxRhtImgMainDiv {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+.bulkEmailFlexBoxRhtImgContentDiv {
+  padding: 0.6rem;
+  width: 55%;
+}
+.bulkEmailFlexBoxRhtImgContentDiv h3 {
+  width: 90%;
+  line-height: 1.4;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.bulkEmailFlexBoxRhtImgContentDiv p {
+  width: 86%;
+  font-weight: 600;
+  font-size: 15px;
+}
+.bulkEmailFlexBoxRhtImgPicDiv {
+  width: 45%;
+}
+
+.bulkEmailFlexBoxRhtImgPicDiv > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .bulkEmailFlexBoxRhtImgContentDiv h3 {
+    width: 95%;
+    line-height: 1.4;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .bulkEmailFlexBoxRhtImgContentDiv p {
+    width: 90%;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bulkEmailFlexBoxRhtImgMainDiv {
+    width: 90%;
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+  }
+  .bulkEmailFlexBoxRhtImgContentDiv {
+    padding: 0;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  .bulkEmailFlexBoxRhtImgPicDiv {
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 0.8rem;
+  }
+
+  .bulkEmailFlexBoxRhtImgPicDiv > img {
+    width: 100%;
+  }
+
+  .bulkEmailFlexBoxRhtImgContentDiv h3 {
+    width: 100%;
+    line-height: 1;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .bulkEmailFlexBoxRhtImgContentDiv p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: lighter;
+  }
+}
