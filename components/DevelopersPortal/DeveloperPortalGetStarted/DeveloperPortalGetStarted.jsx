@@ -42,7 +42,7 @@ export const DeveloperPortalGetStarted = () => {
                     <div className={styles.developerPortalLogoText}>
                         <h3>Build</h3>
                         <p>Develop apps to integrate BottomFunnel into your own systems</p>
-                        <p>Learn more</p>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ export const DeveloperPortalGetStarted = () => {
                     <div className={styles.developerPortalLogoText}>
                         <h3>Partner</h3>
                         <p>Expand your business by solving custom client requirements.</p>
-                        <p>Learn more</p>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ export const DeveloperPortalGetStarted = () => {
                     <div className={styles.developerPortalLogoText}>
                         <h3>Grow</h3>
                         <p>Build apps with no upfront cost and publish them on Marketplace</p>
-                        <p>Learn more</p>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
                 <div className={styles.developerPortalData4}>
@@ -95,7 +95,7 @@ export const DeveloperPortalGetStarted = () => {
                     <div className={styles.developerPortalLogoText}>
                         <h3>Play</h3>
                         <p>Build apps quickly and easily with low code platform</p>
-                        <p>Learn more</p>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
             </div>

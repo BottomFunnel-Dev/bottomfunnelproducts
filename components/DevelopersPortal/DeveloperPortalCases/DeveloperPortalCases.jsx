@@ -22,7 +22,7 @@ export const DeveloperPortalCases = () => {
                 </div>
                 <h3>Case Study</h3>
                 <p>Happy uses custom app to improve SLAs</p>
-                <h3>Read full case study</h3>
+                <h4>Read full case study</h4>
             </div>
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage2}>
@@ -37,7 +37,7 @@ export const DeveloperPortalCases = () => {
                 </div>
                 <h3>Case Study</h3>
                 <p>Delivery hero uses public app to automate tasks.</p>
-                <h3>Read full case study</h3>
+                <h4>Read full case study</h4>
             </div>
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage}>
@@ -52,7 +52,7 @@ export const DeveloperPortalCases = () => {
                 </div>
                 <h3>Case Study</h3>
                 <p>MTN Cameroon delivers EPICCX with Us</p>
-                <h3>Read full case study</h3>
+                <h4>Read full case study</h4>
             </div>
         </div>
     </div>

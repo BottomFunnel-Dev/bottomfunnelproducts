@@ -27,7 +27,7 @@ export const DeveloperPortalDiscover = () => {
                         <div className={styles.developerPortalImagetext}>
                             <h2>Meetups</h2>
                             <p>Meet local BottomFunnel Developers, system integration, administrators and partners.</p>
-                            <p>learn more</p>
+                            <p>learn more &rarr;</p>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ export const DeveloperPortalDiscover = () => {
                         <div className={styles.developerPortalImagetext}>
                             <h2>Tutorials</h2>
                             <p>Bottom Funnel Developer Platform Tutorials</p>
-                            <p>learn more</p>
+                            <p>learn more &rarr;</p>
                         </div>
                     </div>
                  </div>
@@ -61,7 +61,7 @@ export const DeveloperPortalDiscover = () => {
                         <div className={styles.developerPortalImagetext}>
                             <h2>Events</h2>
                             <p>Low Code on Bottom Funnel Developer PlatForm.</p>
-                            <p>learn more</p>
+                            <p>learn more &rarr;</p>
                         </div>
                     </div>
 
@@ -77,7 +77,7 @@ export const DeveloperPortalDiscover = () => {
                         <div className={styles.developerPortalImagetext}>
                             <h2>Discuss</h2>
                             <p>End-to-End apps for Bottom Funnel Developers</p>
-                            <p>learn more</p>
+                            <p>learn more &rarr;</p>
                         </div>
                     </div>
                  </div>

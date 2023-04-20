@@ -5,13 +5,13 @@ import Image from "next/image";
 export const DevelopersPortalBanner = () => {
   return (
      
-    <div className={styles.developerPortalBannerConatiner}>
+    <div className={styles.developerPortalBannerContainer}>
     <div className={styles.developerPortalBannerText}>
         <h1>Build More, Be More</h1>
         <p>Build innovative solutions to deliver customer delight with a secure, serverless, and self-serve platform
           powered by rich APIs, a robust developer toolkit, and Crayons UI design library.
         </p>
-        <button>Sign up and built an app</button>
+        <button>Sign up</button>
     </div>
     <div className={styles.developerPortalBannerImage}>
         <Image

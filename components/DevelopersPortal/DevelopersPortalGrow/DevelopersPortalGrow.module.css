@@ -1,46 +1,78 @@
-.developerPortalGrowConatiner{
-    /* border: 2px solid red; */
-    width: 85%;
+.developerPortalGrowConatiner {
+  /* border: 2px solid red; */
+  width: 85%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.developerPortalGrowText {
+  /* border: 2px solid red; */
+  width: 40%;
+  height: auto;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+.developerPortalGrowText > h2 {
+  color: #ef4c23;
+  font-size: 35px;
+}
+.developerPortalGrowText > h3 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 5%;
+}
+.developerPortalGrowText > p {
+  font-size: 18px;
+  margin-top: 4%;
+}
+.developerPortalGrowText > button {
+  background-color: #ef4c23;
+  border: none;
+  height: 40px;
+  width: 40%;
+  color: white;
+  border-radius: 5px;
+}
+.developerPortalGrowText > button:hover {
+  background-color: white;
+  color: #ef4c23;
+  border: 2px solid #ef4c23;
+}
+.developerPortalGrowImage {
+  /* border: 2px solid red; */
+  width: 48%;
+  height: 550px;
+}
+@media (max-width: 480px) {
+  .developerPortalGrowConatiner {
+    flex-direction: column;
+    margin-top: 3%;
+  }
+  .developerPortalGrowText {
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+  }
+  .developerPortalGrowImage {
+    width: 100%;
+    height: auto;
     margin: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-.developerPortalGrowText{
-    /* border: 2px solid red; */
-    width: 40%;
-    height: auto;
-    margin-top:8%;
-    margin-left: 5%;
-}
-.developerPortalGrowText>h2{
-    color: #EF4C23;
-    font-size: 35px;
-}
-.developerPortalGrowText>h3{
+  }
+  .developerPortalGrowText > h3 {
     font-weight: 700;
     font-size: 45px;
-    margin-top: 5%;
-}
-.developerPortalGrowText>p{
-    font-size: 18px;
-    margin-top: 4%;
-}
-.developerPortalGrowText>button{
-    background-color: #EF4C23;
-    border: none;
+    margin-top: 0%;
+  }
+  .developerPortalGrowText > button {
     height: 40px;
-    width: 40%;
-    color: white;
-    border-radius: 5px;
-}
-.developerPortalGrowText>button:hover{
-    background-color: white;
-    color: #EF4C23;
-    border: 2px solid #EF4C23;
-}
-.developerPortalGrowImage{
-    /* border: 2px solid red; */
-    width: 48%;
-    height: 550px;
+    width: 60%;
+    margin-bottom: 5%;
+  }
+  .developerPortalGrowText > h2 {
+    font-size: 40px;
+  }
+  .developerPortalGrowText > h3 {
+    font-size: 30px;
+  }
 }

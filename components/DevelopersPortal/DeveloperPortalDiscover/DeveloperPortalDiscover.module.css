@@ -59,3 +59,10 @@
     margin: auto;
     text-align: left;
 }
+.developerPortalImagetext>p:nth-child(3){
+    text-transform: capitalize;
+    color: #EF4C23;
+}
+.developerPortalImagetext>p:nth-child(3):hover{
+    text-decoration: underline;
+}
