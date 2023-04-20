@@ -48,8 +48,8 @@
   padding: 3% 2%;
   width: 60%;
 }
-.developerPortalResourceButton{
- margin-top:2%
+.developerPortalResourceButton {
+  margin-top: 2%;
 }
 .developerPortalResourceText button:hover {
   border: 1px solid #ef4c23;
@@ -57,8 +57,8 @@
   color: #ef4c23;
 }
 
-    }
-    .developerResourceContainer{
-        flex-direction: column;
-    }
-
+@media (max-width: 480px) {
+  .developerResourceContainer {
+    flex-direction: column;
+  }
+}
