@@ -88,3 +88,25 @@
     text-align: center;
   }
 }
+@media(max-width:480px){
+  .MarketPlaceFeatureChild{
+    margin-top: 1%;
+    height: auto;
+  }
+  .MarketPlaceFeatureParent{
+    margin-top: 3%;
+    
+  }
+  .MarketPlaceFeatureChild > div{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    
+  }
+  .MarketPlaceFeatureChild > div > p {
+    padding: 2px 5px;
+  }
+  .MarketPlaceFeatureParent h2{
+    margin-top: 5%;
+  }
+}

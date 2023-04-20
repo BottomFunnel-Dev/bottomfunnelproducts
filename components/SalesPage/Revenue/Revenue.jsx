@@ -12,7 +12,7 @@ export const Revenue = () => {
     <div className={style.Revenuediv}>
         <div className={style.Revenueinnerdiv}>
           <h5>Close deals faster with a 360° view 
-of your customers</h5>
+              of your customers</h5>
             <div className={style.Revenueinnerdivimage}>
             <Image
           src={"/Images/SalesPagePhotos/Rectangle 4.png"}

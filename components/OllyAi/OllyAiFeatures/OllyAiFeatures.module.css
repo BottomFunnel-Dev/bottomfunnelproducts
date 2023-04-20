@@ -1,0 +1,68 @@
+
+.OllyAiFeaturesMainDiv{
+width: 80%;
+margin: auto;
+}
+.OllyAiFeaturesInnerDiv{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 5%;
+justify-content: space-between;
+}
+.OllyAiFeaturesImageDiv{
+  width: 40%;
+  height: auto;
+
+}
+.OllyAiFeaturesContentDiv{
+  width: 45%;
+  margin: auto 0;
+ 
+  
+}
+.OllyAiFeaturesContentDiv h2{
+  
+  font-size: 38px;
+ 
+  
+}
+.OllyAiFeaturesContentDiv p{
+font-size: 18px;
+
+}
+.OllyAiFeaturesInnerDiv:nth-child(even){
+flex-direction: row;
+
+}
+.OllyAiFeaturesInnerDiv:nth-child(even) .OllyAiFeaturesImageDiv{
+width: 50%;
+}
+.OllyAiFeaturesInnerDiv:nth-child(even) .OllyAiFeaturesContentDiv{
+  width:42%;
+}
+@media(max-width:480px){
+  .OllyAiFeaturesInnerDiv{
+    flex-direction: column;
+    margin-top: 4%;
+  }
+  .OllyAiFeaturesInnerDiv:nth-child(even){
+    flex-direction: column;
+    margin-top: 8%;
+  
+    }
+    .OllyAiFeaturesImageDiv ,.OllyAiFeaturesInnerDiv:nth-child(even) .OllyAiFeaturesImageDiv{
+      width: 90%;
+    }
+  .OllyAiFeaturesContentDiv ,.OllyAiFeaturesInnerDiv:nth-child(even) .OllyAiFeaturesContentDiv{
+    width: 100%;
+    margin-top: 5%;
+  }
+  .OllyAiFeaturesContentDiv h2{
+    font-size: 24px;
+  
+  }
+  .OllyAiFeaturesContentDiv p{
+    font-size: 18px;
+    text-align: justify;
+  }
+}

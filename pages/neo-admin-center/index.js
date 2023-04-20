@@ -14,7 +14,7 @@ export default function NeoAdminCenter() {
   return (
     <>
       <div style={{ color: "#393939" }}>
-        <Navbar
+        {/* <Navbar
           productMount={{
             navMount: true,
           }}
@@ -22,8 +22,17 @@ export default function NeoAdminCenter() {
             color: "black",
             logo: false,
           }}
-        />
+        /> */}
 
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
         <NeoAdminBanner/>
         <NeoAdminEnterprise/>

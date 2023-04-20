@@ -20,3 +20,17 @@
 background-color:white;
 color:#ef4c25;
 }
+
+@media (max-width:480px) {
+    .CustomerSpotlightDemoParent{
+        margin-bottom: 10%;
+    }
+    .CustomerSpotlightDemoParent>h2{
+        padding-top: 8%;
+    }
+    .CustomerSpotlightDemoParent>p{
+        padding-top: 2%;
+    }
+   
+    
+}

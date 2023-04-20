@@ -1,0 +1,42 @@
+.KnowledgeManagementPerksmaindiv {
+  color: black;
+  margin: 2% 0 5% 0;
+}
+.KnowledgeManagementPerksmaindiv h2 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+.KnowledgeManagementPerksmaindiv h2 span{
+    color: #ef4c23;
+}
+
+.KnowledgeManagementPerksIcon1 {
+  width: 50%;
+  height: 100px;
+  margin: auto;
+}
+.KnowledgeManagementPerksIcon2,
+.KnowledgeManagementPerksIcon3 {
+  width: 20%;
+  height: 100px;
+  margin: auto;
+}
+.KnowledgeManagementPerk {
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 2% 2%;
+}
+/* media query for mobile */
+@media(max-width:480px){
+    .KnowledgeManagementPerksmaindiv{
+        margin-top: 60px;
+    }
+    .KnowledgeManagementPerksmaindiv h2{
+        background-color: #f5f5f5;
+        height: 100px;
+       padding: 20px ;
+       
+        margin: auto;
+    }
+}

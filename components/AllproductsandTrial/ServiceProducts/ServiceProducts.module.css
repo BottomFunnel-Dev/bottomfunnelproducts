@@ -1,8 +1,7 @@
 .ServiceProductsmaindiv{
     background-color: whitesmoke;
     border: 1px solid transparent;
-    padding-bottom: 2%;
-    
+    padding-bottom: 2%;   
 }
 
 .ServiceProductsinnersecond{
@@ -58,8 +57,8 @@
 .ServiceProductsinnerthirdcardslogo{
     width: 80px;
     height: 80px;
-   position: absolute;
-   margin-top: -25%;
+    position: absolute;
+    margin-top: -25%;
 }
 .ServiceProductsinnerthirdcardscontent{
     text-align: center;
@@ -101,6 +100,8 @@ border-radius:5px ;
 .ServiceProductsinnerthirdone{
     /* border: 1px solid; */
     width: 80%;
+    display: flex;
+    flex-direction: row;
     margin: auto;
     margin-top: 5%;
   
@@ -152,6 +153,38 @@ border-radius:5px ;
 .ServiceProductsinnerthirdcardsbutton1a:hover{
     background-color: white;
     color: #01c557;
-
     border: 1px solid #01c557;
+}
+
+@media(max-width:480px){
+    .ServiceProductsinnerthird{
+        flex-direction: column;
+    }
+    .ServiceProductsinnerthirdcards{
+        width: 90%;
+        margin-top: 10%;
+    }
+    .ServiceProductsinnerthirdcardslogo{
+        display: none;
+    }
+    .ServiceProductsinnerthirdone{
+        /* border: 2px solid green; */
+        width: 80%;
+    }
+    .ServiceProductsinnerthirdoneinner{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        width: 100%;
+    }
+    .ServiceProductsinnerthirdcards1{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-top: 10%;
+    }
+    .ServiceProductsinnerthirdcards2{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+    }
 }

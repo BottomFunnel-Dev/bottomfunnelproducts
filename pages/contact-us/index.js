@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ContactUS.module.css";
 
 import { ContactUSBanner } from "../../components/ContactUS/ContactUSBanner/ContactUSBanner";
-import { ContactUSForm } from "../../components/ContactUS/ContactUSForm/ContactUSForm";
+// import { ContactUSForm } from "../../components/ContactUS/ContactUSForm/ContactUSForm";
 
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
@@ -11,6 +11,9 @@ import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStart
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Navbar from "../../components/Navbar/Navbar";
 import ContactForm from "../../components/ContactUS/ContactForm/ContactForm";
+import ContactUsMap from "../../components/ContactUS/ContactUsMap/ContactUsMap";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import ContactNewForm from "../../components/ContactUS/ContactNewForm/ContactNewForm";
 
 export default function ContactUs() {
   const formdata = {
@@ -23,25 +26,25 @@ export default function ContactUs() {
   return (
     <div className={styles.ContactUScontainer}>
       <Navbar
-        productMount={{
+          productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "black",
-          logo: false,
+          color: "white",
+          logo: true,
         }}
       />
       <ContactUSBanner />
       {/* --------------- Contact form from home page and other pages will come here ----------- */}
       {/* <ContactUSForm /> */}
-
-      <ContactForm formdata={formdata} bgcolor={"#e4fadd"} />
-
-      {/* Other react required components  */}
-      <StoriesSection />
       <TrustedBy />
       <LifeBottomFunnel />
-      <GetStarted />
+      <ReadyStarted />
+      {/* Other react required components  */}
+      <StoriesSection />
+      <ContactNewForm formdata={formdata} bgcolor={"#F8C431"} />
+      <ContactUsMap />
+      {/* <GetStarted /> */}
       <ProductsFooter />
     </div>
   );

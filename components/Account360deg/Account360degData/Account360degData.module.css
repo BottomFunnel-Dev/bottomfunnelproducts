@@ -1,0 +1,93 @@
+
+
+.Account360degDataMain{
+    text-align: center;
+    margin: auto;
+}
+
+.Account360degDataMain p{
+    font-size: 20px;
+    font-weight:500;
+    margin-top: 1%;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.Account360degDataMain h2{
+    font-size: 46px;
+    margin-top: 0%;  
+}
+.Account360degDataoneimg{
+    width: 650px;
+    height: 400px;
+    margin-top: 60px; 
+}
+
+.Account360degDatasectionone{
+    width: 100%;
+margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.Account360degDatasectionone ul{
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: left;  
+}
+
+.Account360degDatasection{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Account360degDataone{
+    width: 40%;
+}
+
+.Account360degDataone h2{
+    margin-top: 50px;
+}
+
+
+@media(max-width:480px){
+   .Account360degDatasectionone{
+    flex-direction: column-reverse;
+    margin-top: -60px;
+}
+
+
+.Account360degDataone{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: auto;
+    padding: 10px;
+    margin-top: -20px;
+    
+}
+.Account360degDataoneimg{
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+}
+#Account360degDatasectiononesec{
+    margin-top: 0%;
+}
+.Account360degDataMain h2{
+    font-size: 36px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.Account360degDataMain p{
+    font-size: 20px;
+    font-weight: 450;
+    padding: 20px;
+    width: 100%;
+    text-align: justify; 
+}
+}

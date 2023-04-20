@@ -1,0 +1,52 @@
+.OllyAiAdvantageMainDiv{
+    text-align: center;
+
+}
+.OllyAiAdvantageInnerDiv{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    height: 50vh;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+.OllyAiAdvantageInnerBoxDiv{
+    height: 17rem;
+    width: 40%;
+    padding: 2%;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
+.OllyAiAdvantageInnerImageDiv{
+    width: 80px;
+    height: 80px;
+    margin: 3% 4%;
+    
+   
+}
+@media(max-width:480px){
+    .OllyAiAdvantageInnerDiv{
+        height: auto;
+    }
+    .OllyAiAdvantageInnerBoxDiv{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    }
+    .OllyAiAdvantageInnerDiv{
+        display: block;
+       
+           }
+    .OllyAiAdvantageInnerDiv{
+        margin-top:5%;
+       
+    }
+    .OllyAiAdvantageInnerImageDiv{
+        margin: 2% auto;
+    }
+    .OllyAiAdvantageMainDiv {
+margin-top: 60%;
+    }
+}

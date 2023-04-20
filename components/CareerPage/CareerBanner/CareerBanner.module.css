@@ -1,27 +1,31 @@
 .careerBannerMain {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  background-color: #f5f5f5;
+  width: 100%;
   height: 100vh;
+  position: relative;
+  /* border: 2px solid red; */
 }
 
 .careerBannerImage {
-  width: 45%;
+  width: 100%;
   height: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  /* border: 2px solid yellow; */
 }
 
 .careerBannerImage > img {
-  height: 70%;
+  height: 100%;
+  width: 100%;
 }
 
 .careerBannerContent {
-  width: 45%;
+  width: 85%;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  color: white;
+  /* border: 2px solid red; */
+  text-align: center;
 }
 
 .careerBannerContent > h1 {
@@ -78,19 +82,25 @@
     align-items: center;
     margin-top: 10%;
     background-color: #f5f5f5;
-    height: 125vh;
+    height: 100vh;
   }
   
   .careerBannerImage {
-    width: 45%;
-    height: 350px;
+    width: 100%;
+    height: 500px;
     display: flex;
+    margin-top: 5%;
     align-items: center;
+    /* border: 2px solid blue; */
     justify-content: center;
   }
   
   .careerBannerContent {
-    width: 85%;
+    width: 95%;
+    top: 15%;
+    left: 3%;
+    height: auto;
+    /* border: 2px solid red; */
   }
   
   .careerBannerContent > h1 {
@@ -126,7 +136,7 @@
     height: fit-content;
     cursor: pointer;
     margin-bottom: 25%;
-    margin-left: 15%;
+    margin: auto;
     padding: 10px 50px;
     border-radius: 50px;
     border: 2px solid #ef4c23;

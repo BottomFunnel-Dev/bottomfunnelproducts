@@ -63,3 +63,9 @@
         border: 1px solid #ef4c23;
     } 
 }
+
+@media(max-width:480px){
+    .BottomFunnelTeamBannermaindiv{
+        margin-top: 20%;
+    }
+}

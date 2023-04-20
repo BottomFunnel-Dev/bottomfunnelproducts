@@ -134,6 +134,9 @@
     margin-top: 60%;
     margin-bottom: -50%;
   }
+  .MarketPlacePopularParent h2{
+    margin-top: 30%;
+  }
 
   .line {
     border: 1px solid #ef4c24;
@@ -239,4 +242,17 @@
     background-color: white;
     color: #ef4c24;
   }
+}
+@media(max-width:480px){
+  .MarketPlacePopularChild > div{
+    height: 22rem;
+    margin-top: 5%;
+  }
+  .MarketPlacePopularParent{
+    margin-top: 2%;
+  }
+  .MarketPlacePopularParent h2{
+    margin-top: 5%;
+  }
+
 }

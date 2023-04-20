@@ -1,0 +1,85 @@
+.NeoMainpageCTEtwoHeader{
+    background-image: url('/Images/NeoMainpage/ctebg.png');
+    width: 100%;
+    background-size: 100%;
+    height: auto;
+   margin-top: 5%;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+
+.NeoMainpageCTEtwoMain h2{
+    margin-left: 30%;
+    width: 55%;
+    margin-top: 38%;
+    font-size: 34px;
+}
+
+.NeoMainpageCTEtwoMain p{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    margin-top: 1%;
+    line-height: 120%;
+}
+
+.NeoMainpageCTEtwoMain h3{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 26px;
+}
+
+.NeoMainpageCTEtwodemo{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #ef4c23;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    border: 2px solid #ef4c23;
+    font-weight: 500;
+    background: none;
+    margin-bottom: 5%;
+    }
+
+   .NeoMainpageCTEtwodemo:hover{
+        background-color: #ef4c23;
+color: #fff;
+border: none;
+    }
+
+
+@media (max-width:480px) {
+.NeoMainpageCTEtwoHeader{
+   margin-top: 10%;
+   height: 350px;
+   background-color: #f6e3de;
+   background-image: none;
+}
+.NeoMainpageCTEtwoMain h2{
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;  
+}
+.NeoMainpageCTEtwoMain p{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.NeoMainpageCTEtwodemo{
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    margin-top: 6%; 
+ }
+
+}

@@ -1,0 +1,352 @@
+.contactNewFormparent {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+   padding-bottom: 2%;
+  }
+  .contactNewFormparentheading{
+    color: white;
+    text-align: center;
+  }
+
+  .contactNewFormparentcontent {
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    /* border: 2px solid red ; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .contactNewFormparentcontentone{
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 90%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  
+  .contactNewFormparentImage {
+    width: 40%;
+  
+  }
+  .emaildiv{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 2%;
+  }
+  .emailcontent{
+    margin-left: 5%;
+  }
+  .emailcontent>button{
+    background-color: black;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding-top: 5px;
+  }
+
+
+  /* Form Container Stype here --------- */
+  .formContainer{
+    width: 70%;
+    height:auto ;
+    background-color: white;
+    font-size: 16px;
+    margin-right: 4%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .formContainer>div>input {
+    width: 100%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+    margin-top: 35px;
+    font-weight: 700;
+  }
+  .phoneSelcet{
+    margin:35px 0 0 0;
+  }
+  .phoneSelcet >span > select {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+    /* font-weight: 700;  */
+  }
+  .phoneSelcet>span>input{
+    width: 85%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-weight: 700;
+  }
+  .regionAndBudgetBox{
+    margin: 35px 0 0 0;
+  }
+  .regionAndBudgetBox>span>select{
+    width: 50%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+    /* font-weight: 700;  */
+  }
+  .textareaBox{
+    width: 100%;
+    margin: 35px 0 0 0;
+  }
+  .textareaBox>textarea{
+    width: 100%;
+    font-weight: 700;
+    padding-left: 7px;
+    outline: none;
+  }
+
+  .buttonDiv> button {
+    height: 43px;
+    width: 220px;
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 3%;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .buttonDiv>button:hover {
+    background-color:transparent;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  
+
+  /* Media Query  */
+  @media screen and  (max-width: 768px) {
+    .contactNewFormparent {
+      background-color: antiquewhite;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin-top: 10%;
+      margin-bottom: 15%;
+     /* border: 2px solid brown; */
+    }
+  
+    .contactNewFormparentcontent {
+      width: 100%;
+      flex-direction: column;
+      padding-bottom: 5%;
+    }
+    .contactNewFormparentcontentone{
+      width: 100%;
+      padding-bottom: 20px;
+    }
+    
+    .contactNewFormparentImage {
+      margin-top: 5%;
+      width: 60%;
+
+    }
+    .emaildiv{
+      width: 90%;
+      padding: 2%;
+      margin-top: 4%;
+    }
+    .emaildiv>div{
+      width: 10%;
+    }
+    .emaildiv:hover{
+      background-color: blue;
+    }
+    .emailcontent{
+      /* margin-top: 5%; */
+      margin-left: 5%;
+    }
+    .emailcontent>button{
+      background-color: none;
+      outline: none;
+      border: none;
+      font-size: 18px;
+      padding-top: 0;
+    }
+    .emailcontent>button:hover{
+      background: none !important;
+    }
+  
+  
+    /* Form Container Stype here --------- */
+    .formContainer{
+      width: 90%;
+      height:auto ;
+      margin-right: 0;
+    }
+    
+    .formContainer>div>input {
+      width: 100%;
+    }
+  
+    .phoneSelcet{
+      margin:35px 0 0 0;
+    }
+
+    .phoneSelcet>span>input{
+      width: 70%;
+    }
+    .regionAndBudgetBox{
+      margin: 35px 0 0 0;
+    }
+    .regionAndBudgetBox>span>select{
+      width: 50%;
+    }
+  
+    .buttonDiv> button {
+      float: left;
+    }
+    
+    .buttonDiv>button:hover {
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+  }
+  
+
+
+
+  @media screen and (min-width : 769px) and (max-width : 992px) {
+    .contactNewFormparent {
+      background-color: antiquewhite;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin-top: 10%;
+      padding-bottom: 60px;
+      margin-bottom: 15%;
+     /* border: 2px solid brown; */
+    }
+  
+    .contactNewFormparentcontent {
+      width: 100%;
+      flex-direction: column;
+      padding-bottom: 5%;
+    }
+    .contactNewFormparentcontentone{
+      width: 100%;
+      padding-bottom: 20px;
+    }
+    
+    .contactNewFormparentImage {
+      margin-top: 7%;
+      width: 50%;
+
+    }
+    .clientHeading>h5{
+      font-size: 30px;
+    }
+    .emaildiv{
+      width: 90%;
+      padding: 2%;
+      margin-top: 4%;
+    }
+    .emaildiv>div{
+      width: 10%;
+      margin-left: 2%;
+    }
+    .emaildiv:hover{
+      background-color: blue;
+    }
+    .emailcontent{
+      /* margin-top: 5%; */
+      margin-left: 5%;
+    }
+    .emailcontent>button{
+      background-color: none;
+      outline: none;
+      border: none;
+      font-size: 28px;
+      padding-left: 15px;
+      padding-top: 14px;
+    }
+    .emailcontent>button:hover{
+      background: none !important;
+    }
+  
+  
+    /* Form Container Stype here --------- */
+    .formContainer{
+      width: 90%;
+      height:auto ;
+      margin-right: 0;
+    }
+    
+    .formContainer>div>input {
+      width: 100%;
+      font-size: 22px;
+    }
+  
+    .phoneSelcet{
+      margin:35px 0 0 0;
+    }
+
+    .phoneSelcet>span>input{
+      width: 85%;
+      font-size: 22px;
+      padding-left: 15px;
+    }
+    .phoneSelcet>span>select{
+      width: 15%;
+      font-size: 22px;
+    }
+    .regionAndBudgetBox{
+      margin: 35px 0 0 0;
+    }
+    .regionAndBudgetBox>span>select{
+      width: 50%;
+      font-size: 22px;
+    }
+  
+    .buttonDiv> button {
+      float: right;
+    }
+    .textareaBox{
+    width: 100%;
+    margin: 35px auto 0;
+  }
+  .textareaBox>textarea{
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  }

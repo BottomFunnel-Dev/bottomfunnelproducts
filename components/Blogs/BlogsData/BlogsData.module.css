@@ -37,8 +37,19 @@
     /* border: 2px solid red; */
     margin-top: 2%;
     padding: 15px;
+    font-size: 18px;
 }
 .blogsDataHeading>h4{
     /* border: 2px solid red; */
     color: #EF4C23;
+}
+
+@media(max-width:480px){
+    .blogsDataContainer{
+        flex-direction: column;
+    }
+    .blogsDataDiv{
+        width: 100%;
+        margin-top: 5%;
+    }
 }

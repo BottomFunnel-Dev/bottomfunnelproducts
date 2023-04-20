@@ -43,13 +43,13 @@ export default function SalesPage() {
         {/* <MakeYourDeal /> */}
 
         <Testimonial />
-      <TrustedBy/>
+        <TrustedBy/>
      
       
       <ReadyStarted />
       <TalentProfiles />
       <LifeBottomFunnel />
-      <SalesFooter />
+      <SalesFooter/>
       </div>
     </>
   );

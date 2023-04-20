@@ -6,6 +6,7 @@ export const DevelopersPortalBanner = () => {
   return (
      
     <div className={styles.developerPortalBannerContainer}>
+    <div className={styles.developerPortalBannerContainer}>
     <div className={styles.developerPortalBannerText}>
         <h1>Build More, Be More</h1>
         <p>Build innovative solutions to deliver customer delight with a secure, serverless, and self-serve platform
@@ -24,6 +25,6 @@ export const DevelopersPortalBanner = () => {
             />
     </div>
     </div>
-
+</div>
   )
 }

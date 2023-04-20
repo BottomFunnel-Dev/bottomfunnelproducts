@@ -116,3 +116,19 @@ font-weight: 600;
     font-size: 18px;
     font-weight: 600;
     }
+
+@media(max-width:480px){
+    .ItServiceProductinnerthird{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .ItServiceProductinnerthirdcards{
+        /* border: 2px solid red; */
+        width: 85%;
+        margin-top: 10%;
+    }
+    .ItServiceProductinnerthirdcardslogo{
+        display: none;
+    }
+}

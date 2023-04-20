@@ -36,10 +36,10 @@ export const MarketerFooter = () => {
             <div className={styles.desksFooterContentMainDiv}>
                 <div className={styles.desksFooterTagsDiv}>
                     <ul className={styles.deskMaindeskDivLink}>
-                        <h5>Bottom Funnel Products</h5>
+                        <h5>Bottom Funnel Product</h5>
                         <Link className={styles.deskFooterLinkTag} href={"/funneldesk"}>
                             <li>
-                                Bottom Funnel Products
+                                Bottom Funnel Desk
                             </li>
                         </Link>
 
@@ -55,6 +55,12 @@ export const MarketerFooter = () => {
                             </li>
                         </Link>
 
+                        <Link className={styles.deskFooterLinkTag} href={"/customersuccess"}>
+                            <li>
+                                Bottom Funnel Team
+                            </li>
+                        </Link>
+                        
                         <Link className={styles.deskFooterLinkTag} href={"/marketer"}>
                             <li>
                                 Bottom Funnel Marketer
@@ -69,7 +75,7 @@ export const MarketerFooter = () => {
 
                         <Link className={styles.deskFooterLinkTag} href={"/bottomfunnelservice"}>
                             <li>
-                                Bottom Funnel Survey
+                                Bottom Funnel OmniChannel
                             </li>
                         </Link>
 
@@ -78,6 +84,19 @@ export const MarketerFooter = () => {
                                 Bottom Funnel Customer Success
                             </li>
                         </Link>
+
+                        <Link className={styles.deskFooterLinkTag} href={"/customersuccess"}>
+                            <li>
+                                Bottom Funnel Contact Center
+                            </li>
+                        </Link>
+
+                        <Link className={styles.deskFooterLinkTag} href={"/customersuccess"}>
+                            <li>
+                                Bottom Funnel CRM Suite
+                            </li>
+                        </Link>
+
                     </ul>
 
 

@@ -2,10 +2,12 @@
     height: fit-content;
     margin-top: 2%;
     border-bottom: 20px solid #ef4c23;
+    /* border: 2px solid red; */
 }
 
 .unifiedsystemmainboxes>h2{
     text-align: center;
+    /* border: 2px solid blue; */
 }
 
 .unifiedsystemdatamappingboxes{
@@ -34,4 +36,11 @@
     font-size: 17px;
     text-align: center;
  
+}
+
+@media(max-width:480px){
+    .unifiedsystemdatamappingboxes{
+        flex-direction: column;
+        margin-top: 4%;
+    }
 }

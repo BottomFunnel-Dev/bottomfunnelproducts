@@ -1,0 +1,114 @@
+.ReportingPerkmain h2{
+    font-size: 48px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ReportingPerkSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ReportingPerkSectioninner{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.ReportingPerkSectionouter{
+    width: 40%;
+    margin-top: 280px;
+}
+
+.ReportingPerkoneimg{
+    width: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.ReportingPerkSectioninnerone p{
+text-align: justify;
+font-size: 24px;
+color: grey;
+}
+
+.ReportingPerkSectioninnerone h3{
+text-align: center;
+margin-top: 30px;
+}
+
+.ReportingPerkSectioninnerone{
+    width: 35%;
+    padding: 10px;  
+    margin-top: 30px;
+}
+
+.ReportingPerkSectioninnertwo{
+    margin: auto;
+    width: 35%;
+    margin-top: 20px;
+    padding-right: 50px;
+     margin-bottom: 100px;
+     position: relative;
+}
+
+.ReportingPerkSectioninnertwo p{
+    text-align: justify;
+font-size: 24px;
+color: grey;
+}
+
+.ReportingPerkSectioninnertwo h3{
+    text-align: center;
+margin-top: 30px;
+}
+
+
+.ReportingPerkSectioninnerdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   gap: 30px;
+    margin-top: 20px;
+}
+
+@media(max-width:480px){
+    .ReportingPerkmain h2{
+      font-size: 32px;
+    margin-top: 20px;}
+
+    .ReportingPerkSection{
+       flex-direction: column;
+    }
+    .ReportingPerkSectioninner{
+        width: 100%;
+    }
+
+    .ReportingPerkSectioninnerdiv{
+        flex-direction: column;}
+
+    .ReportingPerkSectioninnerone{
+        width: 90%;
+        margin-bottom: auto;
+        
+    }
+    .ReportingPerkSectioninnertwo{
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .ReportingPerkSectionouter{
+       display: none;
+    }
+  }
+
+
+
+
+

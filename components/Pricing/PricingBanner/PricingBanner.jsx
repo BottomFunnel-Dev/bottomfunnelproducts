@@ -10,8 +10,6 @@ import { PricingAddOnsSales } from "../PricingAddOns/PricingAddOnsSales";
 import { PricingAddOnsServices } from "../PricingAddOns/PricingAddOnsServices";
 import { PricingAddOnsmarketers } from "../PricingAddOns/PricingAddOnsmarketers";
 
-
-
 export const PricingBanner = ({ props }) => {
 
     const DeskTrail = (
@@ -2391,9 +2389,6 @@ export const PricingBanner = ({ props }) => {
         </>
     );
 
-
-
-
     const ServicesTrail = (
         <>
             <div className={styles.PricingTrailParent}>
@@ -3185,9 +3180,6 @@ export const PricingBanner = ({ props }) => {
             </div>
         </>
     );
-
-
-
 
     const MarketrsTrail = (
         <>
@@ -4053,7 +4045,7 @@ export const PricingBanner = ({ props }) => {
                             'border-rigth': 'none',
                         }}
                     >
-                        Bottom Funnel Sales</button>
+                    Bottom Funnel Sales</button>
                     <button className={styl.PricingBannerParentbuttonborder} onClick={BottomFunnelservices}
                         style={{
                             backgroundColor: forthbutton ? '#ec4f25' : 'whitesmoke',

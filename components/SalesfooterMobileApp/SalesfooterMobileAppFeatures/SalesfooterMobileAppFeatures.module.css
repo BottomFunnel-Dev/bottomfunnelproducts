@@ -1,0 +1,65 @@
+.SalesfooterMobileAppFeaturesMainDiv{
+    width: 80%;
+    margin: auto;
+     /* border: 2px solid red; */
+    }
+    .SalesfooterMobileAppFeaturesInnerDiv{
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 5%;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    }
+    .SalesfooterMobileAppFeaturesImageDiv{
+      width: 35%;
+      height: auto;
+    
+    }
+    .SalesfooterMobileAppFeaturesContentDiv{
+      width: 50%;
+      margin: auto 0;
+    }
+    .SalesfooterMobileAppFeaturesContentDiv h2{
+      font-size: 38px; 
+    }
+    .SalesfooterMobileAppFeaturesContentDiv p{
+    font-size: 18px;
+    text-align: justify;
+    
+    }
+    .SalesfooterMobileAppFeaturesInnerDiv:nth-child(even){
+    flex-direction: row;
+    
+    }
+    /* .SalesfooterMobileAppFeaturesInnerDiv:nth-child(even) .SalesfooterMobileAppFeaturesImageDiv{
+    width: 50%;
+    }
+    .SalesfooterMobileAppFeaturesInnerDiv:nth-child(even) .SalesfooterMobileAppFeaturesContentDiv{
+      width:42%;
+    } */
+    @media(max-width:480px){
+      .SalesfooterMobileAppFeaturesInnerDiv{
+        flex-direction: column;
+        margin-top: 4%;
+      }
+      .SalesfooterMobileAppFeaturesInnerDiv:nth-child(even){
+        flex-direction: column;
+        margin-top: 8%;
+      
+        }
+        .SalesfooterMobileAppFeaturesImageDiv ,.SalesfooterMobileAppFeaturesInnerDiv:nth-child(even) .SalesfooterMobileAppFeaturesImageDiv{
+          width: 90%;
+        }
+      .SalesfooterMobileAppFeaturesContentDiv ,.SalesfooterMobileAppFeaturesInnerDiv:nth-child(even) .SalesfooterMobileAppFeaturesContentDiv{
+        width: 100%;
+        margin-top: 5%;
+      }
+      .SalesfooterMobileAppFeaturesContentDiv h2{
+        font-size: 24px;
+      
+      }
+      .SalesfooterMobileAppFeaturesContentDiv p{
+        font-size: 18px;
+        text-align: justify;
+      }
+    }

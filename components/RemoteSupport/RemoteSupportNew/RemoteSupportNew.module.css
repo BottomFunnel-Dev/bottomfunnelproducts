@@ -1,0 +1,19 @@
+.RemoteSupportNewheader{
+    margin-top: 3%;
+}
+.RemoteSupportNewheader h2{
+    margin-left: 8%;
+}
+.RemoteSupportNewheader ul{
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+@media(max-width:480px)  {
+    .RemoteSupportNewheader{
+        margin-top: 10%;
+    }
+    
+}

@@ -82,7 +82,7 @@
   /* border: 2px solid; */
 }
 
-.aboutusanimatedtitle::after {
+/* .aboutusanimatedtitle::after {
   content: "|";
   position: absolute;
   font-size: 40px;
@@ -92,7 +92,7 @@
   background-color: #f4f4f4;
   color: #393939;
   animation: animateTitle 19s linear infinite, caret 1s infinite;
-}
+} */
 
 @keyframes animateTitle {
   0% {

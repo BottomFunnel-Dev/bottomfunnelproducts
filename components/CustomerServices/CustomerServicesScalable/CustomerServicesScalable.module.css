@@ -1,0 +1,28 @@
+.CustomerServicesScalableMainDiv{
+    background-color: #f5f5f5;
+
+}
+.CustomerServicesScalableDiv{
+    text-align: center;
+    width: 60%;
+    margin: 4% auto;
+    padding: 3% 4%
+
+}
+.CustomerServicesScalableDiv p{
+    font-size: 18px;
+    margin-top: 4%;
+}
+@media (max-width:480px){
+    .CustomerServicesScalableDiv h2{
+       
+        padding-top: 3%;
+    }
+    .CustomerServicesScalableDiv p{
+       text-align: left;
+    }
+    .CustomerServicesScalableDiv{
+        width: 90%;
+        margin-top: 6%;
+    }
+}

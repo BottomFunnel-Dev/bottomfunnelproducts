@@ -56,6 +56,12 @@ export const DeskFooter = () => {
                             </li>
                         </Link>
 
+                        <Link className={styles.deskFooterLinkTag} href={"/customersuccess"}>
+                            <li>
+                                Bottom Funnel Team
+                            </li>
+                        </Link>
+                        
                         <Link className={styles.deskFooterLinkTag} href={"/marketer"}>
                             <li>
                                 Bottom Funnel Marketer
@@ -70,7 +76,7 @@ export const DeskFooter = () => {
 
                         <Link className={styles.deskFooterLinkTag} href={"/bottomfunnelservice"}>
                             <li>
-                                Bottom Funnel Survey
+                                Bottom Funnel OmniChannel
                             </li>
                         </Link>
 
@@ -79,6 +85,19 @@ export const DeskFooter = () => {
                                 Bottom Funnel Customer Success
                             </li>
                         </Link>
+
+                        <Link className={styles.deskFooterLinkTag} href={"/customersuccess"}>
+                            <li>
+                                Bottom Funnel Contact Center
+                            </li>
+                        </Link>
+
+                        <Link className={styles.deskFooterLinkTag} href={"/customersuccess"}>
+                            <li>
+                                Bottom Funnel CRM Suite
+                            </li>
+                        </Link>
+
                     </ul>
 
 

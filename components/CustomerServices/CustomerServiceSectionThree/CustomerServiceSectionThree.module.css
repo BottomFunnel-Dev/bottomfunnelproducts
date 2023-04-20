@@ -1,0 +1,63 @@
+.CustomerServicesSectionThreeMainDiv{
+    margin-top:4%;
+    margin-bottom:6%;
+}
+.CustomerServicesSectionThreeInnerDiv{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 85%;
+   
+    
+}
+.CustomerServicesSectionThreeImageDiv{
+    width: 35%;
+    margin: auto;
+    height: 70vh;
+  
+
+}
+.CustomerServicesSectionThreeContentDiv{
+    width: 40%;
+    margin: auto ;
+}
+/* .CustomerServicesSectionArrowImage{
+    height: 12px;
+    width: 15px;
+    margin-left: 4px;
+    display: inline-block;
+  } */
+  
+.CustomerServicesSectionButton1 {
+    border: 1px solid white;
+    color: #ef4c23;
+    background-color: transparent;
+    display: block;
+   
+  }
+  .CustomerServicesSectionButton1:hover {
+    border: 1px solid #ef4c23;
+    border-radius: 5px;
+  }
+  @media(max-width:480px){
+    
+    
+    .CustomerServicesSectionThreeImageDiv{
+        width: 90%;
+        height: auto;
+        
+    }
+    .CustomerServicesSectionThreeContentDiv{
+        width: 90%;
+        margin:4% auto;
+    }
+    .CustomerServicesSectionThreeInnerDiv{
+        width: 90%;
+        flex-direction: column-reverse;
+        /* margin:auto; */
+    }
+    .CustomerServicesSectionThreeMainDiv{
+        margin-top: 0;
+    }
+    
+  }

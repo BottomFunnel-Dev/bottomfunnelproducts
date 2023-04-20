@@ -9,7 +9,7 @@ export const Engagement = () => {
         <div className={style.Engagementmaindiv}>
             <div className={style.Engagementmaindivimage}>
             <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logisticsalesphotos/engage.webp"}
+                        src={"/Images/Logisticsalesphotos/engage.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
