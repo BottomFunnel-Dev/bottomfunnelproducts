@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./MultipleSalesInfo.module.css"
 import { infoCardFirstRow, infoCardSecondRow } from '../../../Data/MultipleSalesPipeline'
-import TopImageFlexBox from '../TopImageFlexBox/TopImageFlexBox'
+import TopImageFlexBox from '../../ReusableComponent/TopImageFlexBox/TopImageFlexBox'
 
 const MultipleSalesInfo = () => {
     

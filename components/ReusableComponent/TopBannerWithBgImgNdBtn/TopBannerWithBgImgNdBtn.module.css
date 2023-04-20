@@ -1,29 +1,29 @@
-.MultiCurrency_MultiLanguageBannerImgDiv {
-    background-image: url("/Images/Multi-currency&Multi-language/Group1000006778.png");
+.TopBannerWithBgImgNdBtnImgDiv {
     height: 75vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     position: relative;
   }
-  .MultiCurrency_MultiLanguageBannerImgContentDiv {
+  .TopBannerWithBgImgNdBtnImgContentDiv {
     position: absolute;
     width: 52%;
-    top: 25%;
+    top: 31%;
     right: 2%;
+    /* border: 1px solid rgb(3, 5, 119); */
   }
-  .MultiCurrency_MultiLanguageBannerImgContentDiv > h2 {
+  .TopBannerWithBgImgNdBtnImgContentDiv > h1 {
     font-size: 32px;
     font-weight: 600;
     width: 80%;
     line-height: 1.4;
     margin-bottom: 1rem;
   }
-  .MultiCurrency_MultiLanguageBannerImgContentDiv > p {
-    width: 70%;
+  .TopBannerWithBgImgNdBtnImgContentDiv > p {
+    width: 80%;
     font-weight: 600;
     margin-bottom: 1rem;
   }
-  .MultiCurrency_MultiLanguageBannerImgContentDiv > button {
+  .TopBannerWithBgImgNdBtnImgContentDiv > button {
     color: #ffff;
     padding: 8px 16px;
     border-radius: 5px;
@@ -33,62 +33,62 @@
     border: 2px solid #ef4c23;
     background-color: #ef4c23;
   }
-  .MultiCurrency_MultiLanguageBannerImgContentDiv > button:hover {
+  .TopBannerWithBgImgNdBtnImgContentDiv > button:hover {
     color: #ef4c23;
     background-color: white;
     border: 2px solid #ef4c23;
   }
-  .MultiCurrency_MultiLanguageBannerImgDiv > img {
+  .TopBannerWithBgImgNdBtnImgDiv > img {
     width: 100%;
   }
   
   @media (min-width: 481px) and (max-width: 1024px) {
-    .MultiCurrency_MultiLanguageBannerImgDiv {
+    .TopBannerWithBgImgNdBtnImgDiv {
       height: 50vh;
       width: 100%;
       margin: auto;
       background-size: 100% 80%;
     }
   
-    .MultiCurrency_MultiLanguageBannerImgContentDiv {
+    .TopBannerWithBgImgNdBtnImgContentDiv {
       position: absolute;
       width: 52%;
-      top: 22%;
-      right: 1%;
+      top: 25%;
+      right: 2%;
     }
-    .MultiCurrency_MultiLanguageBannerImgContentDiv > h2 {
+    .TopBannerWithBgImgNdBtnImgContentDiv > h1 {
       font-size: 20px;
-      font-weight: 700;
+      font-weight: 600;
       width: 100%;
       line-height: 1.4;
       margin-bottom: 1rem;
     }
   
-    .MultiCurrency_MultiLanguageBannerImgContentDiv > p {
+    .TopBannerWithBgImgNdBtnImgContentDiv > p {
       width: 90%;
       font-weight: 600;
       margin-bottom: 1rem;
     }
-    .MultiCurrency_MultiLanguageBannerImgContentDiv > button {
+    .TopBannerWithBgImgNdBtnImgContentDiv > button {
       padding: 4px 8px;
       font-size: 15px;
     }
   }
   
   @media (max-width: 480px) {
-    .MultiCurrency_MultiLanguageBannerImgDiv {
-      height: 48vh;
+    .TopBannerWithBgImgNdBtnImgDiv {
+      height: 50vh;
       width: 100%;
       background-size: 100% 100%;
     }
   
-    .MultiCurrency_MultiLanguageBannerImgContentDiv {
+    .TopBannerWithBgImgNdBtnImgContentDiv {
       position: absolute;
       width: 52%;
-      top: 28%;
-      right: 1%;
+      top: 31%;
+      right: 2%;
     }
-    .MultiCurrency_MultiLanguageBannerImgContentDiv > h2 {
+    .TopBannerWithBgImgNdBtnImgContentDiv > h1 {
       font-size: 16px;
       font-weight: 600;
       width: 100%;
@@ -96,13 +96,13 @@
       margin-bottom: 0.5rem;
     }
   
-    .MultiCurrency_MultiLanguageBannerImgContentDiv > p {
+    .TopBannerWithBgImgNdBtnImgContentDiv > p {
       width: 100%;
       font-weight: 600;
       margin-bottom: 0.5rem;
       font-size: 13px;
     }
-    .MultiCurrency_MultiLanguageBannerImgContentDiv > button {
+    .TopBannerWithBgImgNdBtnImgContentDiv > button {
       padding: 4px 8px;
       font-size: 13px;
     }

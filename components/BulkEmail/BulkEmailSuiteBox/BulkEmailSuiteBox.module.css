@@ -1,7 +1,7 @@
 .bulkEmailSuiteBoxMainDiv {
   background-image: url("/Images/BulkEmail/Group1000006656.png");
   background-repeat: no-repeat;
-  background-size: 100% 90%;
+  background-size: contain;
   position: relative;
   height: 70vh;
   width: 100%;
@@ -20,8 +20,9 @@
 .bulkEmailSuiteBoxContentDiv {
   width: 30%;
   position: absolute;
-  right: 1%;
+  right: 15%;
   top: 32%;
+
 }
 
 .bulkEmailSuiteBoxContentDiv > button {

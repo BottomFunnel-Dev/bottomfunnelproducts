@@ -1,25 +1,24 @@
-.MultiCurrency_MultiLanguageAdImgDiv {
-    background-image: url("/Images/Multi-currency&Multi-language/Group1000006777.png");
+.AdWithBgImgNdHeadingNdDescImgDiv {
     height: 41vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
     margin-bottom: 3rem;
   }
-  .MultiCurrency_MultiLanguageAdContentDiv {
+  .AdWithBgImgNdHeadingNdDescContentDiv {
     position: absolute;
     width: 60%;
     top: 20%;
     right: 2%;
   }
-  .MultiCurrency_MultiLanguageAdContentDiv > h2 {
+  .AdWithBgImgNdHeadingNdDescContentDiv > h2 {
     font-size: 32px;
     font-weight: 600;
     width: 100%;
     line-height: 1.4;
     margin-bottom: 0.6rem;
   }
-  .MultiCurrency_MultiLanguageAdContentDiv > p {
+  .AdWithBgImgNdHeadingNdDescContentDiv > p {
     width: 90%;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -30,19 +29,19 @@
   }
   
   @media (min-width: 481px) and (max-width: 1024px) {
-    .MultiCurrency_MultiLanguageAdImgDiv {
+    .AdWithBgImgNdHeadingNdDescImgDiv {
       height: 45vh;
       margin: auto;
       background-size: 100% 70%;
     }
   
-    .MultiCurrency_MultiLanguageAdContentDiv {
+    .AdWithBgImgNdHeadingNdDescContentDiv {
       position: absolute;
       width: 60%;
       top: 25%;
       right: 2%;
     }
-    .MultiCurrency_MultiLanguageAdContentDiv > h2 {
+    .AdWithBgImgNdHeadingNdDescContentDiv > h2 {
       font-size: 21px;
       font-weight: 600;
       width: 100%;
@@ -50,7 +49,7 @@
       margin-bottom: 1rem;
     }
   
-    .MultiCurrency_MultiLanguageAdContentDiv > p {
+    .AdWithBgImgNdHeadingNdDescContentDiv > p {
       width: 90%;
       font-weight: 600;
       margin-bottom: 1rem;
@@ -59,19 +58,19 @@
   }
   
   @media (max-width: 480px) {
-    .MultiCurrency_MultiLanguageAdImgDiv {
+    .AdWithBgImgNdHeadingNdDescImgDiv {
       height: 55vh;
       width: 100%;
       background-size: 100% 90%;
     }
   
-    .MultiCurrency_MultiLanguageAdContentDiv {
+    .AdWithBgImgNdHeadingNdDescContentDiv {
       position: absolute;
       width: 60%;
       top: 20%;
       right: 2%;
     }
-    .MultiCurrency_MultiLanguageAdContentDiv > h2 {
+    .AdWithBgImgNdHeadingNdDescContentDiv > h2 {
       font-size: 16px;
       font-weight: 600;
       width: 100%;
@@ -79,7 +78,7 @@
       margin-bottom: 0.5rem;
     }
   
-    .MultiCurrency_MultiLanguageAdContentDiv > p {
+    .AdWithBgImgNdHeadingNdDescContentDiv > p {
       width: 100%;
       font-weight: 600;
       margin-bottom: 0.5rem;
