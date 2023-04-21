@@ -12,6 +12,7 @@ import SuiteBusiness from '../../components/SuitePage/SuiteBusiness/SuiteBusines
 import SuiteLower from '../../components/SuitePage/SuiteLower/SuiteLower'
 import SuitFeature from '../../components/SuitePage/SuitFeature/SuitFeature'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { SalesFooter } from '../../components/SalesFooter/SalesFooter'
 
 export default function SuitePage() {
   return (
@@ -39,7 +40,8 @@ export default function SuitePage() {
       <TrustedBy />
       <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+     {/* added footer of sales in place of product footer */}
+     <SalesFooter/>
     </div>
   )
 }

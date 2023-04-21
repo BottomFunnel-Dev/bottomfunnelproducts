@@ -17,6 +17,7 @@ import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadySta
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import { AgencySales } from "../../components/AgencyHomePage/AgencySales/AgencySales";
+import { SalesFooter } from "../../components/SalesFooter/SalesFooter";
 
 export default function AgencyHomePage() {
   return (
@@ -56,7 +57,8 @@ export default function AgencyHomePage() {
         <TrustedBy/>
         <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+       {/* added footer of sales in place of product footer */}
+     <SalesFooter/>
       </div>
     </>
   );

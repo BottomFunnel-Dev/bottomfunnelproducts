@@ -6,6 +6,7 @@ import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadySta
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import RealEstateSales from '../../components/RealEstateSales'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { SalesFooter } from '../../components/SalesFooter/SalesFooter'
 
 export default function realestatesales() {
     return (
@@ -17,7 +18,8 @@ export default function realestatesales() {
         <TrustedBy/>
         <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+       {/* added footer of sales in place of product footer */}
+     <SalesFooter/>
     </div>
   )
 }
