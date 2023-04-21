@@ -3,18 +3,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .line {
   border: 1px solid #f0a491;
   width: 80%;
   margin-top: 1%;
+  
 }
 
 .MarketPlaceFeatureChild {
   display: flex;
-  justify-content: space-around;
-  margin-top: 3%;
+  justify-content: center;
+  margin: auto;
+  gap: 2%;
+  margin-top: 3%; 
 }
 
 .MarketPlaceFeatureChild > div {
