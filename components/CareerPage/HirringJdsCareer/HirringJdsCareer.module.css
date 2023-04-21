@@ -14,15 +14,18 @@
 }
 .hirringJdsCareerHeadingButtons{
     /* border: 2px solid green; */
-    background-color: #e8f4ff;
+    background-color: #ef4c24 !important;
+    color: white !important;
+    
     height: 50px;
     width: 100%;
     border: none;
     font-weight: 700;
 }
-.active{
-    color: #393939;
-    border-bottom: 2px solid #393939;
+.hirringjdactive{
+    background-color: #ef4c24;
+    color: white;
+    border: 2px solid black;
 }
 #hirringJdsCareerChangemainDiv{
    width: 100%;
@@ -52,14 +55,13 @@
     border-radius: 15px;
 }
 #hirringJdsCareerbuttonDiv1>button{
-  background-color: #ef4c24;
-  color: white;
+  background-color: white;
+  color: #ef4c24;
   font-size: 20px;
   font-weight: 600;
   border-radius: 15px;
   height: 100%;
   width: 100%;
-  border: 2px solid #ef4c24;
 }
 #hirringJdsCareerbuttonDiv1>button:hover{
   background-color: white;
