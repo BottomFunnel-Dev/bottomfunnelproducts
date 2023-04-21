@@ -1340,7 +1340,7 @@ export const product4 = [
     dropContent: "Engagement",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/users.png",
-    path: "/",
+    path: "/customer-engagement",
   },
   {
     dropContent: "Olly AI",
