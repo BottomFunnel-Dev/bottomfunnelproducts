@@ -7,7 +7,7 @@ export const Smbbanner = () => {
     <div className={styles.smbbannermainboxes}>
       <div className={styles.smbBannerImage}>
       <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/banner.png"}
+          src={"/Images/SMB/Rectangle 2.webp"}
           alt={"icon"}
           width={"0"}
           height={"0"}

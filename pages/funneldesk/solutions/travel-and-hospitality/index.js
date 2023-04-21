@@ -9,6 +9,7 @@ import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Test
 import { Travelandhospitalitybanner } from "../../../../components/Travel-and-hospitality/Travelandhospitalitybanner";
 import { TravelHospitalitydashbord } from "../../../../components/Travel-and-hospitality/TravelHospitalitydashbord";
 import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
+import { DeskFooter } from "../../../../components/DeskFooter/DeskFooter";
 
 export default function travelhositality() {
   return (
@@ -38,7 +39,8 @@ export default function travelhositality() {
       <ReadyStarted />
       {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 }
