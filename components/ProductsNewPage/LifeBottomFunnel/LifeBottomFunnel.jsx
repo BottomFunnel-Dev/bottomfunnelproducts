@@ -16,57 +16,45 @@ const LifeBottomFunnel = () => {
 
       <div className={styles.lifeImageMainDiv}>
         <div className={styles.lifeImageInnerDiv}>
-          <div
-            onClick={() => {
-              router.push("/about");
-            }}
-            className={styles.lifeImageDiv}
-          >
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/lifeimage1.png"
-              alt="Components/lifeimage1.png"
-            />
-           
-          </div>
+          <Link href={"/awards"}>
+            <div className={styles.lifeImageDiv}>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/lifeimage1.png"
+                alt="Components/lifeimage1.png"
+              />
 
+            </div>
+          </Link>
 
-          <div
-            onClick={() => {
-              router.push("/about");
-            }}
-            className={styles.lifeImageDiv}
-          >
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/model.png"
-              alt="image"
-            />
-          </div>
+          <Link href={"/engagement"}>
+            <div className={styles.lifeImageDiv} >
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/model.png"
+                alt="image"
+              />
+            </div>
+          </Link>
 
-
-          <div
-            onClick={() => {
-              router.push("/about");
-            }}
-            className={styles.lifeImageDiv}
-          >
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/lifeimage.png"
-              alt="image"
-            />
-          </div>
-
+          <Link href={"/our-team"}>
+            <div className={styles.lifeImageDiv} >
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/lifeimage.png"
+                alt="image"
+              />
+            </div>
+          </Link>
         </div>
 
         <div className={styles.lifeBottomContentDiv}>

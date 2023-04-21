@@ -161,8 +161,8 @@ const Navbar = ({ navredux, productMount }) => {
         }}
       >
         <div className={navstyle.logoSection}>
-          <Link href="/" className={navstyle.logoText}>
-            <img
+          {/* <Link href="/" className={navstyle.logoText}> */}
+            <img onClick={() => router.push("/")}
               src={
                 navredux.logo && !navbar
                   ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
@@ -170,7 +170,7 @@ const Navbar = ({ navredux, productMount }) => {
               }
               alt="image"
             />
-          </Link>
+          {/* </Link> */}
         </div>
 
         <div id={navstyle.bar}>

@@ -32,8 +32,15 @@ const index = () => {
       {/* <CareerReason/> */}
       {/* <CareerMain /> */}
 
-
       {/* Other react required components  */}
+
+      <div style={{ marginTop: "5%" }}>
+        <CareerReferral />
+        <StoriesSection />
+        <TrustedBy />
+        <LifeBottomFunnel />
+        <GetStarted />
+        <ProductsFooter />
 
       <div style={{marginTop:"3%"}}>
           <CareerReferral />
@@ -43,7 +50,7 @@ const index = () => {
           <GetStarted />
           <ProductsFooter />
       </div>
-   </div>
+    </div>
   );
 };
 

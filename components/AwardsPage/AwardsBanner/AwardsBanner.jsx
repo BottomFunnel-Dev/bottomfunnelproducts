@@ -14,10 +14,11 @@ export const AwardsBanner = () => {
             awarded the Bar of Success badge, which, as a result, increases our
             level of excellence. We sync daily.
           </p>
+          
           <button
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">Contact us</button>
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">Contact us</button>
 
           <div>
             <div
