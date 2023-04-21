@@ -6,7 +6,12 @@ export const CaseStudy = () => {
 
             <div className={styles.CaseStudyParentfirstchild}>
                 <h1>Case Study</h1>
-                <button> Filter </button>
+                <button> Filter
+                    <img
+                    className={styles.CaseStudyParentfilterImage}
+            src="Images/Logos/downarrow.png"
+            alt=""
+          /> </button>
             </div>
             <div className={styles.CaseStudyParentsecchild}>
             
@@ -14,7 +19,7 @@ export const CaseStudy = () => {
                     <div>
                         <h3>Blueberry Group
                         </h3>
-                        <div>
+                        <div >
                             <Image
                                 src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/CustomerSpotlight/Logo1.png"}
                                 alt={"img"}

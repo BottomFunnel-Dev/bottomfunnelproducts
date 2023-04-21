@@ -25,10 +25,10 @@ export const AnalyticsofFeatureBanner = () => {
 
             <p>Build on top of customers data by seamlessly streaming events in real-time from bottom funnel products to third-party apps and AWS.   </p>
             {/* <button  className={styles.AnalyticsofFeatureBannerbutton}>Explore Now</button> */}
-             { <button className={styles.AnalyticsofFeatureBannerbutton}
+              <button className={styles.AnalyticsofFeatureBannerbutton}
           type="button"
           data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">Get Started</button> }
+          data-bs-target="#staticBackdrop">Get Started</button> 
             <div>
           <div
             className="modal fade"

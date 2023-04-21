@@ -5,7 +5,7 @@ export const CustomerSpotLightBanner = () => {
         <div className={styles.CustomerSpotLightBannerParent}>
             <div className={styles.CustomerSpotLightBannerParentchildone}>
                 <div>
-                    <h1>Bottom Funnel Neo </h1>
+                    <h2>Bottom Funnel Neo </h2>
                     <div><Image
                         src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/CustomerSpotlight/BannerLogo.webp"}
                         alt={"img"}
@@ -20,6 +20,7 @@ export const CustomerSpotLightBanner = () => {
                 <h1> Case Studies</h1>
                 <p> Check out how the Bottom Funnel Neo plateform empowers business by delivering delightful customer and employee experiences</p>
                 <button>Start a free demo</button>
+                
             </div>
             <div className={styles.CustomerSpotLightBannerParentchildtwo}>
             <Image
