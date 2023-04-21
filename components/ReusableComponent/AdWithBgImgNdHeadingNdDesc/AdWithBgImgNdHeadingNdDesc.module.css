@@ -1,0 +1,88 @@
+.AdWithBgImgNdHeadingNdDescImgDiv {
+    height: 41vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 3rem;
+  }
+  .AdWithBgImgNdHeadingNdDescContentDiv {
+    position: absolute;
+    width: 60%;
+    top: 20%;
+    right: 2%;
+  }
+  .AdWithBgImgNdHeadingNdDescContentDiv > h2 {
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    line-height: 1.4;
+    margin-bottom: 0.6rem;
+  }
+  .AdWithBgImgNdHeadingNdDescContentDiv > p {
+    width: 90%;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+  .bulkEmailBannerImgDiv > img {
+    width: 100%;
+  }
+  
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .AdWithBgImgNdHeadingNdDescImgDiv {
+      height: 45vh;
+      margin: auto;
+      background-size: 100% 70%;
+    }
+  
+    .AdWithBgImgNdHeadingNdDescContentDiv {
+      position: absolute;
+      width: 60%;
+      top: 25%;
+      right: 2%;
+    }
+    .AdWithBgImgNdHeadingNdDescContentDiv > h2 {
+      font-size: 21px;
+      font-weight: 600;
+      width: 100%;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+  
+    .AdWithBgImgNdHeadingNdDescContentDiv > p {
+      width: 90%;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .AdWithBgImgNdHeadingNdDescImgDiv {
+      height: 55vh;
+      width: 100%;
+      background-size: 100% 90%;
+    }
+  
+    .AdWithBgImgNdHeadingNdDescContentDiv {
+      position: absolute;
+      width: 60%;
+      top: 20%;
+      right: 2%;
+    }
+    .AdWithBgImgNdHeadingNdDescContentDiv > h2 {
+      font-size: 16px;
+      font-weight: 600;
+      width: 100%;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+  
+    .AdWithBgImgNdHeadingNdDescContentDiv > p {
+      width: 100%;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 13px;
+    }
+  }
+  

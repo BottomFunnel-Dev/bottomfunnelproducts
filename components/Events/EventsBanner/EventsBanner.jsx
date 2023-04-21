@@ -1,3 +1,4 @@
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 import styles from "./EventsBanner.module.css"
 import Image from "next/image";
 export const EventsBanner = () => {
@@ -22,9 +23,43 @@ export const EventsBanner = () => {
                     <h4>
                         Build on top of customer data by seamlessly streaming events in real-time from freshworks products to third -party apps aws
                     </h4>
-                    <button>
+                    {/* <button>
                         Explore Now
-                    </button>
+                    </button> */}
+                    { <button 
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">Get Started</button> }
+            <div>
+          <div
+            className="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close "
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
                 </div>
             </div>
             <div className={styles.EventsBannercontentline} ></div>

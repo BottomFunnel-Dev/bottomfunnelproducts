@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./CustomObjectBanner.module.css";
 import Image from "next/image";
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 export const CustomObjectBanner = () => {
     return (
         <div>
@@ -22,7 +23,40 @@ export const CustomObjectBanner = () => {
                     <hr className={styles.hr} style={{ width: "80%" }} />
 
                     <p>Create new business object,get deeper insights, and deliver delight</p>
-                    <button>Explore Now</button>
+                    {/* <button>Explore Now</button> */}
+                    { <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">Get Started</button> }
+            <div>
+          <div
+            className="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close "
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
                 </div>
 
 
