@@ -66,3 +66,34 @@
 .developerPortalImagetext>p:nth-child(3):hover{
     text-decoration: underline;
 }
+@media (max-width: 480px) {
+    .developerPortalDiscoverBox > h2 {
+      font-size: 40px;
+    }
+    .developerPortalDiscoverBox > h4 {
+      font-size: 24px;
+    }
+    .developerDiscoverDataDiv {
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 8%;
+    }
+    .developerDiscoverDataImage1,
+    .developerDiscoverDataImage2 {
+      width: 100%;
+      height: 30rem;}
+      .developerDiscoverDataImage1{
+        margin-left: 4%;
+      }
+      .developerPortalImagetext {
+        left: 10%;
+        top: 60%;
+      }
+      .developerPortalImagetext span {
+    
+        width: 45%;
+    
+    
+      }
+    
+    }

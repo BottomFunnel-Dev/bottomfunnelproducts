@@ -1260,7 +1260,7 @@ export const product3 = [
     dropContent: "Unified Customer Record",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/bottomfunnelmarketer.png",
-    path: "/unifiedcustomer",
+    path: "/unified-customer",
   },
   {
     dropContent: "Messaging Channels",
