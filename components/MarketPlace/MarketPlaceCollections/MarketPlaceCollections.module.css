@@ -10,11 +10,12 @@
 }
 
 .MarketPlaceCollectionsParentchildone {
-  margin-top: 5%;
   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  /* border: 1px solid green; */
+  justify-content: center;
+  margin: auto;
+  gap: 2%;
+  margin-top: 3%; 
+
 }
 
 .MarketPlaceCollectionsParentchildone > div {

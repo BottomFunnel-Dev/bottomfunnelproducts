@@ -16,7 +16,9 @@
   margin-top: 2%;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 3%;
+  /* border: 2px solid red; */
 }
 
 .MarketPlacePopularChild > div {
@@ -76,16 +78,17 @@
   color: darkgreen;
   border: 2px solid darkgreen;
   border-radius: 10px;
+
 }
 
 .MarketPlacePopularchildsubdiv > button {
-  width: 80px;
-  height: 20px;
-  font-size: 10px;
+  width: 90px;
+  height: 28px;
+  font-size: 16px;
   background-color: #ef4c24;
   color: white;
   border-radius: 5px;
-  /* border: 2px solid rgb(100, 35, 0); */
+  border: none;
 }
 
 .MarketPlacePopularchildivtwo {
@@ -200,6 +203,7 @@
 
   .MarketPlacePopularchildsubdiv > button {
     width: 90px;
+    
   }
 
   .MarketPlacePopularchildsubdiv > div > button {
@@ -214,12 +218,12 @@
 
   .MarketPlacePopularchildsubdiv > button {
     width: 80px;
-    height: 20px;
-    font-size: 10px;
+    height: 22px;
+    font-size: 12px;
     background-color: #ef4c24;
     color: white;
     border-radius: 5px;
-    border: 2px solid rgb(100, 35, 0);
+    /* border: 2px solid rgb(100, 35, 0); */
   }
 
   .MarketPlacePopularchildivtwo {
