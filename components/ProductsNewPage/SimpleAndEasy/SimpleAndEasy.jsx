@@ -15,7 +15,7 @@ export const SimpleAndEasy = () => {
             title: "Choosing your pricing plan",
             body: "Our pricing plans are for modern business use cases and affordable for organizations of all sizes.",
             image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/SimpleAndEasyImage2.png",
-            link: "",
+            link: "/pricing",
             buttondetails: "See pricing",
         },
         {
@@ -23,7 +23,7 @@ export const SimpleAndEasy = () => {
             body: `Extend and tailor experience to meet your unique business needs, with low-code development and over
             1,100 custom apps made available on our marketplace.`,
             image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/SimpleAndEasyImage3.png",
-            link: "",
+            link: "/market-place",
             buttondetails: "Visit marketplace",
         },
         {
@@ -31,7 +31,7 @@ export const SimpleAndEasy = () => {
             body: `Accelerate your team's productivity and efficiency with modern automation and collaboraiton tools,
             to get tangible results in no time.`,
             image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/SimpleAndEasyImage4.png",
-            link: "",
+            link: "/collaboration",
             buttondetails: "Learn now",
         },
        

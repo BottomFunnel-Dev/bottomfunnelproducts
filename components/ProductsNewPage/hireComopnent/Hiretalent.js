@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import styles from "./hiretalent.module.css";
 import { useRouter } from "next/router";
+import Link from "next/link";
 export default function Hiretalent() {
   const navigate = useRouter();
   const roles = [
@@ -305,14 +306,13 @@ export default function Hiretalent() {
             <h3>{roles[dataprint].title}</h3>
             <div className={styles.relatedtech}>
               {roles[dataprint].stack.map((item, index) => (
-                <div
-                  onClick={() => {
-                    navigate.push(item.path);
-                  }}
-                  key={index}
-                >
-                  {item.stack}
-                </div>
+                <Link href={item.path}  style={{textDecoration:"none", color : "inherit"}}>
+                  <div className={styles.relatedtechInnerDiv}
+                    key={index}
+                  >
+                    {item.stack}
+                  </div>
+                </Link>
               ))}
             </div>
           </div>

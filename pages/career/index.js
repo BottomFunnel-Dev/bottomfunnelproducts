@@ -35,7 +35,7 @@ const index = () => {
 
       {/* Other react required components  */}
 
-      <div style={{marginTop:"5%"}}>
+      <div style={{marginTop:"3%"}}>
           <CareerReferral />
           <StoriesSection />
           <TrustedBy />

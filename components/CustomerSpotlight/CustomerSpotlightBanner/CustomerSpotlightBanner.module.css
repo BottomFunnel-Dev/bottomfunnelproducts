@@ -20,33 +20,34 @@
 .CustomerSpotLightBannerParentchildone>div{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5%;
+   
     align-items: center;
    
 }
+
 .CustomerSpotLightBannerParentchildone>button{
-    margin-top: 5%;
-    width: 250px;
-    height: 60px;
+    margin-top: 2%;
+    width: 200px;
+    height: 50px;
     background-color:#EF4C23 ;
     border-radius: 5px;
-    border: none;
+   
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    border: 1px solid transparent;
 }
 .CustomerSpotLightBannerParentchildone>button:hover{
-    margin-top: 5%;
-    width: 200px;
-    height: 40px;
+   
+     border: 1px solid #EF4C23;
     background-color:white ;
-    border-radius: 15px;
-    border: none;
+ 
+    
     color: #EF4C23;
 }
 
 
 
-@media(max-width:780px){
+@media(max-width:480px){
     .CustomerSpotLightBannerParent{
         display: flex;
         padding: 5%;
@@ -69,7 +70,7 @@
   
     .CustomerSpotLightBannerParentchildone>div{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-bottom: 5%;
         width: 100%;
     }
@@ -86,7 +87,7 @@
         width: 200px;
         height: 40px;
         background-color:#EF4C23 ;
-        border-radius: 15px;
+        
         border: none;
         color: white;
         margin-bottom: 5%;
@@ -97,7 +98,7 @@
         width: 200px;
         height: 40px;
         background-color:white ;
-        border-radius: 15px;
+       
         border: 1px solid #EF4C23;
         color: #EF4C23;
     } 
