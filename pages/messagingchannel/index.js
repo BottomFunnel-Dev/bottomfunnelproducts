@@ -156,7 +156,7 @@ export default function messaginchannel ()  {
     <Messagincommunication />
     <Messagingplatforms />
     <Messagingchannellowerbanner />
-    <ProductsFooter/>
+    
     
       <Testimonial/>
       <TrustedBy/>
