@@ -58,3 +58,27 @@
   height: 75px;
   margin: 15% 10% 10% 18%;
 }
+@media(max-width:480px){
+  .developerPortalCasesMainDiv{
+      padding-top: 3%;
+  }
+  .developerPortalCaseContainer{
+      flex-direction: column;
+
+  }
+  .developerPortalCaseBox{
+      width: 90%;
+      margin: 3% auto;
+  }
+  .developerPortalCaseContainer{
+      height: auto;
+      margin-top: 2%;
+  }
+  .developerPortalCasesMainDiv>h3{
+      font-size: 30px;
+  }
+  .developerPortalCasesMainDiv>h2{
+      font-size: 40px;
+  }
+
+}
