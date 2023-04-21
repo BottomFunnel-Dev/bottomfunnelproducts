@@ -9,6 +9,7 @@ import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { DeskFooter } from '../../components/DeskFooter/DeskFooter'
 
 export default function whatsAppChat  ()  {
     return (
@@ -39,7 +40,8 @@ export default function whatsAppChat  ()  {
       <TrustedBy/>
       <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+      <DeskFooter/>
+      {/* <ProductsFooter/> */}
     </div>
     </>
   )

@@ -41,6 +41,14 @@ const index = () => {
         <LifeBottomFunnel />
         <GetStarted />
         <ProductsFooter />
+
+      <div style={{marginTop:"3%"}}>
+          <CareerReferral />
+          <StoriesSection />
+          <TrustedBy />
+          <LifeBottomFunnel />
+          <GetStarted />
+          <ProductsFooter />
       </div>
     </div>
   );

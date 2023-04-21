@@ -15,6 +15,7 @@ import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsF
 import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import { CollaborationMidBanner } from "../../../../components/funnelDeskCollaboration/CollaborationMidBanner/CollaborationMidBanner";
+import { DeskFooter } from "../../../../components/DeskFooter/DeskFooter";
 
 export default function FunnelDeskAutomation() {
   return (
@@ -46,7 +47,8 @@ export default function FunnelDeskAutomation() {
        <ReadyStarted/>
       {/* <TalentProfiles/> */}
        <LifeBottomFunnel />
-       <ProductsFooter />
+       <DeskFooter/>
+       {/* <ProductsFooter /> */}
     </div>
   );
 }

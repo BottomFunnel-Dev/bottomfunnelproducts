@@ -11,6 +11,7 @@ import { Whatasappcampaigns } from '../../components/Whatsappnew/Whatasappcampai
 import { Whatsappbanner } from '../../components/Whatsappnew/Whatsappbanner'
 import { Whatsappbots } from '../../components/Whatsappnew/Whatsappbots'
 import { Whatsappcustomerexp } from '../../components/Whatsappnew/Whatsappcustomerexp'
+import { DeskFooter } from '../../components/DeskFooter/DeskFooter'
 
 
 
@@ -100,7 +101,8 @@ export default function whatsapp  ()  {
     <Testimonial />
     <ReadyStarted />
     <LifeBottomFunnel />
-    <ProductsFooter />
+    <DeskFooter/>
+    {/* <ProductsFooter /> */}
 
     </div>
   )
