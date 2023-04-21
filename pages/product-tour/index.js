@@ -10,6 +10,7 @@ import { ProductTourBanner } from "../../components/ProductTour/ProductTourBanne
 import { ProductTourTrail } from "../../components/ProductTour/ProductTourTrail/ProductTourTrail";
 import { ProductTourVideos } from "../../components/ProductTour/ProductTourVideos/ProductTourVideos";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 
 const productData = {
   title: "Bottom Funnel Marketer",
@@ -97,7 +98,8 @@ export default function ProductTour() {
         <ReadyStarted/>
         {/* <TalentProfiles/> */}
         <LifeBottomFunnel/>
-        <ProductsFooter/>
+        <DeskFooter/>
+        {/* <ProductsFooter/> */}
       </div>
     </>
   );

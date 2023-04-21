@@ -13,6 +13,7 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 
 const productData = {
   title: "Bottom Funnel Marketer",
@@ -103,7 +104,8 @@ export default function landingPages() {
       <ReadyStarted />
       {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 };

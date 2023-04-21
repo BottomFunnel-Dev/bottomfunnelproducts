@@ -16,6 +16,7 @@ import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsF
 import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import { IntegrationFooter } from "../../../../components/FeaturedIntegrationPage/Integrationfooter/IntegrationFooter";
+import { DeskFooter } from "../../../../components/DeskFooter/DeskFooter";
 
 export default function funnelDeskRetailEcommerce() {
   return (
@@ -49,7 +50,8 @@ export default function funnelDeskRetailEcommerce() {
       <ReadyStarted/>
       {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 }

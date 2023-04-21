@@ -10,6 +10,7 @@ import { ProductsFooter } from '../../../../components/ProductsNewPage/ProductsF
 import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import Testimonial from '../../../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../../../components/TrustedByProductsPage/TrustedBy'
+import { DeskFooter } from "../../../../components/DeskFooter/DeskFooter";
 
 export default function FieldServiceManagement() {
   return (
@@ -42,7 +43,8 @@ export default function FieldServiceManagement() {
       <ReadyStarted/>
       {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 }
