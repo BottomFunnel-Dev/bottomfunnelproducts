@@ -19,14 +19,17 @@ export const ProductsFooter = () => {
                 </div>
 
                 <div className={styles.productsFooterSideButtons}>
-                    <button className={styles.productsFooterCallToAction}>
-                        Hire a Talent
-                    </button>
+                    <Link href="/career">
+                        <button className={styles.productsFooterCallToAction}>
+                            Hire a Talent
+                        </button>
+                    </Link>
 
-                    <button className={styles.productsFooterCallToAction}>
-                        Apply as a Talent
-                    </button>
-
+                    <a target="_blank" href="https://service.bottomfunnel.net/apply-as-talent">
+                        <button className={styles.productsFooterCallToAction}>
+                            Apply as a Talent
+                        </button>
+                    </a>
                     <button className={styles.productsFooterCallToActionLogin}>
                         Login
                     </button>
@@ -102,7 +105,7 @@ export const ProductsFooter = () => {
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/customer-service"}>
                             <li>
                                 Customer Services
                             </li>
@@ -114,13 +117,13 @@ export const ProductsFooter = () => {
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/customer-engagement"}>
                             <li>
                                 Engagement
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"/"}>
+                        <Link className={styles.productFooterLinkTag} href={"/olly-ai"}>
                             <li>
                                 Olly AI
                             </li>
@@ -195,7 +198,7 @@ export const ProductsFooter = () => {
 
                     <ul className={styles.productMainProductDivLink}>
 
-                        <Link style={{ color: "black",textDecoration:"none" }} href={"https://service.bottomfunnel.net/"}>
+                        <Link style={{ color: "black", textDecoration: "none" }} href={"https://service.bottomfunnel.net/"}>
                             <h5>Services </h5>
                         </Link>
 

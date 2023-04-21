@@ -1,57 +1,60 @@
-.hirringJdsCareermainDiv{
+.hirringJdsCareermainDiv {
   /* border: 2px solid green; */
-  height:150vh;
+  height: 150vh;
   width: 100%;
 }
-.testcontainer{
+.testcontainer {
   /* border: 2px solid darkblue; */
   height: fit-content;
   z-index: 1000;
 }
-.hirringCareerMainBox{
+.hirringCareerMainBox {
   /* border: 2px solid blue;  */
-  background-color: #3380F2;
-}
-.hirringJdsCareerHeadingButtons{
-    /* border: 2px solid green; */
-    background-color: #e8f4ff;
-    height: 50px;
-    width: 100%;
-    border: none;
-    font-weight: 700;
-}
-.active{
-    color: #393939;
-    border-bottom: 2px solid #393939;
-}
-#hirringJdsCareerChangemainDiv{
-   width: 100%;
-   height: 80px;
-   /* border: 1px solid lightgray; */
-   /* background-color: #e8f4ff !important; */
-   border-radius: 10px;
-   /* border: 2px solid red; */
-   justify-content: space-around;
-}
-#hirringJdsCareerbuttonouterDiv{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    /* border: 2px solid orangered; */
-    height: 100%;
-    width: 100%;
-    justify-content: space-around;
+  background-color: #3380f2;
 }
 
-#hirringJdsCareerbuttonDiv1{
-    /* border: 2px solid blue; */
-    width: 18%;
-    height: 90%;
-    /* margin: auto; */
-    /* margin-top: 1%; */
-    border-radius: 15px;
+.hirringJdsCareerHeadingButtons {
+  /* border: 2px solid green; */
+  background-color: #e8f4ff;
+  height: 50px;
+  width: 100%;
+  border: none;
+  font-weight: 700;
 }
-#hirringJdsCareerbuttonDiv1>button{
+
+.active {
+  color: #393939;
+  border-bottom: 2px solid #393939;
+}
+
+#hirringJdsCareerChangemainDiv {
+  width: 100%;
+  height: 80px;
+  /* border: 1px solid lightgray; */
+  /* background-color: #e8f4ff !important; */
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+}
+#hirringJdsCareerbuttonouterDiv {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  /* border: 2px solid orangered; */
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#hirringJdsCareerbuttonDiv1 {
+  /* border: 2px solid blue; */
+  width: 18%;
+  height: 90%;
+  /* margin: auto; */
+  /* margin-top: 1%; */
+  border-radius: 15px;
+}
+#hirringJdsCareerbuttonDiv1 > button {
   background-color: #ef4c24;
   color: white;
   font-size: 20px;
@@ -61,12 +64,12 @@
   width: 100%;
   border: 2px solid #ef4c24;
 }
-#hirringJdsCareerbuttonDiv1>button:hover{
+#hirringJdsCareerbuttonDiv1 > button:hover {
   background-color: white;
   color: #ef4c24;
   border: 2px solid #ef4c24;
 }
-#hirringJdsCareerbuttonDiv2{
+#hirringJdsCareerbuttonDiv2 {
   /* border: 2px solid blue; */
   width: 18%;
   height: 90%;
@@ -74,7 +77,7 @@
   /* margin-top: 1%; */
   border-radius: 15px;
 }
-#hirringJdsCareerbuttonDiv2>button{
+#hirringJdsCareerbuttonDiv2 > button {
   background-color: white;
   color: #ef4c24;
   font-size: 18px;
@@ -83,12 +86,12 @@
   height: 100%;
   width: 100%;
 }
-#hirringJdsCareerbuttonDiv2>button:hover{
+#hirringJdsCareerbuttonDiv2 > button:hover {
   background-color: #ef4c24;
   color: white;
   border: 2px solid #ef4c24;
 }
-#hirringJdsCareerbuttonDiv3{
+#hirringJdsCareerbuttonDiv3 {
   /* border: 2px solid blue; */
   width: 18%;
   height: 90%;
@@ -96,7 +99,7 @@
   /* margin-top: 1%; */
   border-radius: 15px;
 }
-#hirringJdsCareerbuttonDiv3>button{
+#hirringJdsCareerbuttonDiv3 > button {
   background-color: white;
   color: #ef4c24;
   font-size: 18px;
@@ -105,12 +108,12 @@
   height: 100%;
   width: 100%;
 }
-#hirringJdsCareerbuttonDiv3>button:hover{
+#hirringJdsCareerbuttonDiv3 > button:hover {
   background-color: #ef4c24;
   color: white;
   border: 2px solid #ef4c24;
 }
-#hirringJdsCareerbuttonDiv4{
+#hirringJdsCareerbuttonDiv4 {
   /* border: 2px solid blue; */
   width: 18%;
   height: 90%;
@@ -118,7 +121,7 @@
   /* margin-top: 1%; */
   border-radius: 15px;
 }
-#hirringJdsCareerbuttonDiv4>button{
+#hirringJdsCareerbuttonDiv4 > button {
   background-color: white;
   color: #ef4c24;
   font-size: 18px;
@@ -127,12 +130,12 @@
   height: 100%;
   width: 100%;
 }
-#hirringJdsCareerbuttonDiv4>button:hover{
+#hirringJdsCareerbuttonDiv4 > button:hover {
   background-color: #ef4c24;
   color: white;
   border: 2px solid #ef4c24;
 }
-#hirringJdsCareerbuttonDiv5{
+#hirringJdsCareerbuttonDiv5 {
   /* border: 2px solid blue; */
   width: 18%;
   height: 90%;
@@ -140,7 +143,7 @@
   /* margin-top: 1%; */
   border-radius: 15px;
 }
-#hirringJdsCareerbuttonDiv5>button{
+#hirringJdsCareerbuttonDiv5 > button {
   background-color: white;
   color: #ef4c24;
   font-size: 18px;
@@ -149,195 +152,192 @@
   height: 100%;
   width: 100%;
 }
-#hirringJdsCareerbuttonDiv5>button:hover{
+#hirringJdsCareerbuttonDiv5 > button:hover {
   background-color: #ef4c24;
   color: white;
   border: 2px solid #ef4c24;
 }
 .hirringJdsCareerChangeableDataBannerdropcontainer {
-    /* border: 1px solid red; */
-    width: 30%;
-    /* margin-left: 40%; */
-    border: none;
-    height:50px;
-  }
+  /* border: 1px solid red; */
+  width: 30%;
+  /* margin-left: 40%; */
+  border: none;
+  height: 50px;
+}
 
-  .hirringJdsCareerChangeableDataBannerdropcontainer select{
-    font-size: 15px;
-    height: 50px;
-    border: 2px solid #dddddd78;
-    background-color: #e8f4ff;
-  }
+.hirringJdsCareerChangeableDataBannerdropcontainer select {
+  font-size: 15px;
+  height: 50px;
+  border: 2px solid #dddddd78;
+  background-color: #e8f4ff;
+}
 
-  .hirringJdsCareerChangeableDataBannerdropcontainer select::placeholder{
-    padding-top: 4px;
-  }
-  
-  .hirringJdsCareerChangeableDataBannerdropcontainer1 {
-    margin-left: 3%;
-    width: 30%;
-    height: 50px;
-  }
+.hirringJdsCareerChangeableDataBannerdropcontainer select::placeholder {
+  padding-top: 4px;
+}
 
-  .hirringJdsCareerChangeableDataBannerdropcontainer1 p{
-     height: 10px;
-     color: #818090;
-  }
+.hirringJdsCareerChangeableDataBannerdropcontainer1 {
+  margin-left: 3%;
+  width: 30%;
+  height: 50px;
+}
 
-  .hirringJdsCareerChangeableDataBannerdropcontainer1 select{
-    font-size: 15px;
-    height: 50px;
-    padding: 5px 10px;
-    border: 2px solid #dddddd78;
-    background-color: #e8f4ff;
-  }
-  .hirringJdsCareerChangeableButton{
-    /* border: 2px solid red; */
-    width: 60%;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    /* margin-left: 41%; */
-    margin-top: 2%;
-  }
-  .hirringJdsCareerTypedetailsDiv{
-    border: 2px solid red;
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  .hirringJdsCareerTypeDetailContainer{
-    /* border:1px solid lightgray; */
-    width: 95%;
-    height: 160px;
-    /* margin: auto; */
-    margin-top: 1.5%;
-    display: flex;
-    flex-direction: row;
-  }
-  .hirringJdsCareerInformationDiv{
-    /* border: 2px solid saddlebrown; */
-    width: 70%;
-    padding-left: 15px;
-  }
-  .hirringJdsCareerRate{
-    color: gray;
-    font-size: 15px;
-    margin-top: 1%;
-  }
-  .hirringJdsCareerTypeofVisa{
-    font-weight: 700;
-    color: #393939;
-    font-size: 18px;
-    margin-top: -3%;
-  }
-  .hirringJdsCareerDescription{
-    color: grey;
-    margin-top: -3%;
-    text-align: justify;
-    font-size: 12px;
-  }
-  .hirringJdsCareerPrice{
-    color: #393939;
-    font-size: 14px;
-    margin-top: -1%;
-  }
-  .visaPrice{
-    color: #3380F2;
-    font-weight: 700;
-    font-size: 25px;
-    margin-top: -3%;
-  }
-  .hirringJdsCareerCartcounter{
-    /* border: 2px solid lightgray; */
-    width: 60%;
-    height: 40px;
-    border-radius: 15px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 15%;
-    justify-content:space-between;
-  }
+.hirringJdsCareerChangeableDataBannerdropcontainer1 p {
+  height: 10px;
+  color: #818090;
+}
 
-  .hirringJdsCareeraddbutton{
-    /* margin-right: 9%; */
-    width: 19%;
-    height: 25px;
-    color: #3380F2;
-    /* background-color: #3380F2; */
-    /* border: 2px solid #3380F2; */
-    border-radius: 35px;
-    font-size: 25px;
-    font-weight: 700;
-    margin-left: 9%;
-    text-align: center;
-    /* margin-top: 4%; */
-    cursor: pointer;
-    /* padding-top: 2px; */
-  }
-  .hirringJdsCareersubtractbutton{
-    margin-right: 9%;
-    width: 19%;
-    height: 25px;
-    color: #3380F2;
-    /* background-color: #3380F2; */
-    /* border: 2px solid #3380F2; */
-    border-radius: 22px;
-    font-size: 25px;
-    font-weight: 700;
-    /* margin-left: -9%; */
-    text-align: center;
-    /* margin-top: 3%; */
-    cursor: pointer;
-  }
-  .hirringJdsCareercountertext{
-    font-size: 25px;
-    font-weight: 700;
-    color: #3380F2;
-    /* margin-left: 15%; */
-  }
-  .hirringJdsCareerAddtocartButton{
-    background-color: #3380F2;
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    width: 60%;
-    height: 40px;
-    margin-top: 10%;
-    padding:8px 18px;
-    margin-left: 20%;
-  }
-  .hirringJdsCareerAddtocartButton :hover{
-    background-color: white;
-    color: #3380F2;
-    border: 2px solid #3380F2;
-    cursor: pointer;
-  }
+.hirringJdsCareerChangeableDataBannerdropcontainer1 select {
+  font-size: 15px;
+  height: 50px;
+  padding: 5px 10px;
+  border: 2px solid #dddddd78;
+  background-color: #e8f4ff;
+}
+.hirringJdsCareerChangeableButton {
+  /* border: 2px solid red; */
+  width: 60%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 41%; */
+  margin-top: 2%;
+}
+.hirringJdsCareerTypedetailsDiv {
+  border: 2px solid red;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.hirringJdsCareerTypeDetailContainer {
+  /* border:1px solid lightgray; */
+  width: 95%;
+  height: 160px;
+  /* margin: auto; */
+  margin-top: 1.5%;
+  display: flex;
+  flex-direction: row;
+}
+.hirringJdsCareerInformationDiv {
+  /* border: 2px solid saddlebrown; */
+  width: 70%;
+  padding-left: 15px;
+}
+.hirringJdsCareerRate {
+  color: gray;
+  font-size: 15px;
+  margin-top: 1%;
+}
+.hirringJdsCareerTypeofVisa {
+  font-weight: 700;
+  color: #393939;
+  font-size: 18px;
+  margin-top: -3%;
+}
+.hirringJdsCareerDescription {
+  color: grey;
+  margin-top: -3%;
+  text-align: justify;
+  font-size: 12px;
+}
+.hirringJdsCareerPrice {
+  color: #393939;
+  font-size: 14px;
+  margin-top: -1%;
+}
+.visaPrice {
+  color: #3380f2;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -3%;
+}
+.hirringJdsCareerCartcounter {
+  /* border: 2px solid lightgray; */
+  width: 60%;
+  height: 40px;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15%;
+  justify-content: space-between;
+}
 
-  
-  .hirringJdsCareerTypecontactDiv{
-    /* border: 2px solid gold; */
-    width: 35%;
-    margin-top: -4.5%;
-  }
+.hirringJdsCareeraddbutton {
+  /* margin-right: 9%; */
+  width: 19%;
+  height: 25px;
+  color: #3380f2;
+  /* background-color: #3380F2; */
+  /* border: 2px solid #3380F2; */
+  border-radius: 35px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 9%;
+  text-align: center;
+  /* margin-top: 4%; */
+  cursor: pointer;
+  /* padding-top: 2px; */
+}
+.hirringJdsCareersubtractbutton {
+  margin-right: 9%;
+  width: 19%;
+  height: 25px;
+  color: #3380f2;
+  /* background-color: #3380F2; */
+  /* border: 2px solid #3380F2; */
+  border-radius: 22px;
+  font-size: 25px;
+  font-weight: 700;
+  /* margin-left: -9%; */
+  text-align: center;
+  /* margin-top: 3%; */
+  cursor: pointer;
+}
+.hirringJdsCareercountertext {
+  font-size: 25px;
+  font-weight: 700;
+  color: #3380f2;
+  /* margin-left: 15%; */
+}
+.hirringJdsCareerAddtocartButton {
+  background-color: #3380f2;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  width: 60%;
+  height: 40px;
+  margin-top: 10%;
+  padding: 8px 18px;
+  margin-left: 20%;
+}
+.hirringJdsCareerAddtocartButton :hover {
+  background-color: white;
+  color: #3380f2;
+  border: 2px solid #3380f2;
+  cursor: pointer;
+}
 
+.hirringJdsCareerTypecontactDiv {
+  /* border: 2px solid gold; */
+  width: 35%;
+  margin-top: -4.5%;
+}
 
-
-.hirringJdsCareerDocumentMainDiv{
+.hirringJdsCareerDocumentMainDiv {
   /* border: 2px solid black; */
   height: auto;
   width: 80%;
 }
-.hirringJdsCareerDocumentHeading{
+.hirringJdsCareerDocumentHeading {
   font-weight: 700;
   font-size: 25px;
   margin-top: 1%;
   /* margin-left: 4%; */
   color: #393939;
 }
-.hirringJdsCareerDocumentContainer{
+.hirringJdsCareerDocumentContainer {
   width: 90%;
   margin-top: 3%;
   height: auto;
@@ -347,17 +347,16 @@
   font-weight: 500;
   color: #393939;
 }
-.hirringJdsCareerDoumentsLists{
-  list-style-type:disc;
-  margin-top:3%;
+.hirringJdsCareerDoumentsLists {
+  list-style-type: disc;
+  margin-top: 3%;
   margin-left: 3%;
 }
-.hirringJdsCareerprocessMainDiv{
+.hirringJdsCareerprocessMainDiv {
   /* border: 2px solid red; */
   width: 80%;
-
 }
-.hirringJdsCareerProcessheading{
+.hirringJdsCareerProcessheading {
   color: #393939;
   font-size: 28px;
   font-weight: 700;
@@ -366,7 +365,7 @@
   margin-left: 5%;
   /* border: 2px solid red; */
 }
-.hirringJdsCareerProcesscontainerDiv{
+.hirringJdsCareerProcesscontainerDiv {
   /* border: 2px solid black; */
   width: 90%;
   height: 150px;
@@ -375,49 +374,49 @@
   object-fit: cover;
   background-size: cover;
 }
-.hirringJdsCareerProcessImage{
+.hirringJdsCareerProcessImage {
   width: 100%;
   height: 100%;
 }
-.visainnerSample{
+.visainnerSample {
   /* border: 2px solid green; */
   width: 80%;
   height: 550px;
   /* margin: auto; */
 }
-.visainnerImageDiv{
+.visainnerImageDiv {
   border: 2px solid lightgray;
   width: 45%;
   height: 100%;
   margin: auto;
 }
-.visainnerImageDiv img{
+.visainnerImageDiv img {
   width: 100%;
   height: 100%;
 }
-.visaInnerEmbasy{
+.visaInnerEmbasy {
   width: 80%;
   /* border: 2px solid red; */
 }
-.visaInnerEmbasyLinks{
+.visaInnerEmbasyLinks {
   width: 70%;
   height: 100px;
   /* border: 2px solid gold; */
   margin-top: 2%;
 }
-.visaInnerEmbasyHeadings{
+.visaInnerEmbasyHeadings {
   color: #393939;
   font-weight: 700;
   font-size: 20px;
 }
-.VisaEmbasyLinks{
+.VisaEmbasyLinks {
   font-size: 15px;
   color: #818090;
   list-style-type: square;
   /* font-weight: 700; */
 }
 
-.hirringProcessMain{
+.hirringProcessMain {
   /* border: 2px solid red; */
   width: 100%;
   /* height: 100vh; */
@@ -425,7 +424,7 @@
   display: flex;
   flex-direction: column;
 }
-.hirringHeading{
+.hirringHeading {
   /* border: 2px solid red; */
   text-align: center;
   width: 100%;
@@ -433,17 +432,17 @@
   /* color: #ef4c24; */
   font-size: 25px;
 }
-.hirringHeading>h2{
+.hirringHeading > h2 {
   font-weight: 600;
 }
-.hirringProcessImage{
+.hirringProcessImage {
   width: 80%;
   height: 250px;
   /* border: 2px solid red; */
   margin-left: 9%;
   margin-top: 2%;
 }
-.hirringProcessButtons{
+.hirringProcessButtons {
   /* border: 2px solid red; */
   width: 50%;
   height: 100px;
@@ -453,7 +452,7 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.hirringProcessButtons1{
+.hirringProcessButtons1 {
   /* border: 2px solid red; */
   width: 40%;
   height: 90%;
@@ -462,19 +461,19 @@
   flex-direction: row;
   background-color: #ef4c24;
 }
-.hirringbuttonImage1{
+.hirringbuttonImage1 {
   /* border: 2px solid red; */
   width: 22%;
   height: 75%;
   margin: auto;
 }
-.hirringButtonText{
+.hirringButtonText {
   /* border: 2px solid red; */
   width: 70%;
   color: white;
   padding: 10px;
 }
-.hirringProcessButtons2{
+.hirringProcessButtons2 {
   border: 2px solid #ef4c24;
   width: 40%;
   height: 90%;
@@ -483,14 +482,14 @@
   flex-direction: row;
   /* background-color: #ef4c24; */
 }
-.hirringbuttonImage2{
+.hirringbuttonImage2 {
   /* border: 2px solid red; */
   width: 22%;
   height: 75%;
   /* margin: auto; */
   margin: 4%;
 }
-.hirringButtonText2{
+.hirringButtonText2 {
   /* border: 2px solid red; */
   width: 70%;
   color: #ef4c24;
@@ -544,7 +543,7 @@
   border: none;
   /* border: 2px solid yellow; */
 }
-.hirringdropdowncontextouter{
+.hirringdropdowncontextouter {
   width: 70%;
   /* border: 2px solid red; */
   margin-left: 1%;
@@ -564,20 +563,20 @@
   color: #ef4c24;
 }
 
-.hirringdropdownDivContext>h4 {
+.hirringdropdownDivContext > h4 {
   background-color: whitesmoke;
   color: #393939;
-  font-size:20px;
+  font-size: 20px;
 }
-  
-.hirringmaincontainer1{
+
+.hirringmaincontainer1 {
   /* border: 2px solid red; */
   /* height: 500px; */
   width: 40%;
   margin-left: 5%;
   /* margin-top: 2%; */
 }
-.hirringouterDiv{
+.hirringouterDiv {
   background-color: #f5f5f5;
   /* border: 1px solid red; */
   width: 85%;
@@ -586,12 +585,12 @@
   display: flex;
   flex-direction: column;
 }
-.hirringouterDiv>h4{
+.hirringouterDiv > h4 {
   /* border: 2px solid red; */
   padding-top: 15px;
   padding-left: 35px;
 }
-.hirringouterDiv>input{
+.hirringouterDiv > input {
   border: 1px solid lightgray;
   height: 50px;
   border-radius: 8px;
@@ -600,10 +599,10 @@
   margin: auto;
   margin-top: 4%;
 }
-.hirringouterDiv>label{
+.hirringouterDiv > label {
   margin: 4% 0% 0% 8%;
 }
-.hirringouterDiv>textarea{
+.hirringouterDiv > textarea {
   border: 1px solid lightgray;
   border-radius: 8px;
   width: 85%;
@@ -611,16 +610,16 @@
   margin-top: 5%;
   padding: 15px;
 }
-.hirringouterDiv>p{
+.hirringouterDiv > p {
   /* border: 2px solid red; */
   width: 85%;
   margin: auto;
   margin-top: 2%;
 }
-.hirringChooseFile{
+.hirringChooseFile {
   padding: 2%;
 }
-.hirringouterDiv>button{
+.hirringouterDiv > button {
   border: none;
   background-color: #ef4c24;
   width: 80%;
@@ -633,108 +632,108 @@
   font-weight: 600;
   border: 2px solid #ef4c24;
 }
-.hirringouterDiv>button:hover{
+.hirringouterDiv > button:hover {
   background-color: white;
   border: 2px solid #ef4c24;
   color: #ef4c24;
 }
-.hirringJdDataContainer{
+.hirringJdDataContainer {
   height: 550px;
   overflow: scroll;
 }
-.hirringJdDataContainer1{
+.hirringJdDataContainer1 {
   height: 400px;
   overflow: scroll;
 }
-.hirringJdDataContainer2{
+.hirringJdDataContainer2 {
   height: 350px;
   overflow: scroll;
 }
-@media(max-width:480px){
-  .hirringJdsCareermainDiv{
+@media (max-width: 480px) {
+  .hirringJdsCareermainDiv {
     /* border: 2px solid yellow; */
     height: 280vh;
   }
-  .hirringProcessMain{
-      /* border: 2px solid red; */
-      margin-top: 80%;
-      position:static;
+  .hirringProcessMain {
+    /* border: 2px solid red; */
+    margin-top: 80%;
+    position: static;
   }
-  .hirringProcessImage{
-      width: 90%;
-      height: 100px;
-      /* border: 2px solid red; */
-      margin:auto;
+  .hirringProcessImage {
+    width: 90%;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin: auto;
   }
   .hirringmaincontainer {
-      /* border: 2px solid green; */
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    .hirringmaincontainer1{
-      width: 100%;
-      margin: auto;
-      margin-top: 10%;
-      /* border: 2px solid yellow; */
-    }
-    .hirringouterDiv{
-      width: 100%;
-      margin: auto;
-    }
-    .hirringdropdownmaincontainer1{
-      width: 95%;
-      margin: auto;
-      flex-direction: column;
-      /* border: 2px solid red; */
-    }
-    .hirringdropdowncontextouter{
-      width: 95%;
-    }
-    #hirringJdsCareerbuttonouterDiv{
-      /* border: 2px solid yellow; */
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      height: auto;
-    }
-    #hirringJdsCareerbuttonDiv1{
-      /* border: 2px solid blue; */
-      width: 70%;
-      height: 55px;
-      margin: auto;
-      margin-top: 4%;
-      border-radius: 15px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column-reverse;
   }
-    #hirringJdsCareerbuttonDiv2{
-      /* border: 2px solid blue; */
-      width: 70%;
-      height: 55px;
-      margin: auto;
-      margin-top: 4%;
-      border-radius: 15px;
-    }
-    #hirringJdsCareerbuttonDiv3{
-      /* border: 2px solid blue; */
-      width: 70%;
-      height: 55px;
-      margin: auto;
-      margin-top: 4%;
-      border-radius: 15px;
-    }
-    #hirringJdsCareerbuttonDiv4{
-      /* border: 2px solid blue; */
-      width: 70%;
-      height: 55px;
-      margin: auto;
-      margin-top: 4%;
-      border-radius: 15px;
-    }
-    #hirringJdsCareerbuttonDiv5{
-      /* border: 2px solid blue; */
-      width: 70%;
-      height: 55px;
-      margin: auto;
-      margin-top: 4%;
-      border-radius: 15px;
-    }
+  .hirringmaincontainer1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    /* border: 2px solid yellow; */
+  }
+  .hirringouterDiv {
+    width: 100%;
+    margin: auto;
+  }
+  .hirringdropdownmaincontainer1 {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+    /* border: 2px solid red; */
+  }
+  .hirringdropdowncontextouter {
+    width: 95%;
+  }
+  #hirringJdsCareerbuttonouterDiv {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+  }
+  #hirringJdsCareerbuttonDiv1 {
+    /* border: 2px solid blue; */
+    width: 70%;
+    height: 55px;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 15px;
+  }
+  #hirringJdsCareerbuttonDiv2 {
+    /* border: 2px solid blue; */
+    width: 70%;
+    height: 55px;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 15px;
+  }
+  #hirringJdsCareerbuttonDiv3 {
+    /* border: 2px solid blue; */
+    width: 70%;
+    height: 55px;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 15px;
+  }
+  #hirringJdsCareerbuttonDiv4 {
+    /* border: 2px solid blue; */
+    width: 70%;
+    height: 55px;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 15px;
+  }
+  #hirringJdsCareerbuttonDiv5 {
+    /* border: 2px solid blue; */
+    width: 70%;
+    height: 55px;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 15px;
+  }
 }
