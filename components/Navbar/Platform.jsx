@@ -79,7 +79,9 @@ export const Platform = ({
             }}
           >
             <img height="30px" src="Images/Neo.png" />
-            <h5> Bottom Funnel Neo</h5>
+            <Link href={"/neo-mainpage"}  style={{textDecoration:"none", color : "inherit"}}>
+              <h5> Bottom Funnel Neo</h5>
+            </Link>
           </div>
 
           <p style={{ marginLeft: "5%" }}>
