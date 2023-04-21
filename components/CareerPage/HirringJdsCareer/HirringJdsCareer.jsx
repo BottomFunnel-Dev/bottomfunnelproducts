@@ -43,23 +43,22 @@ export const HirringJdsCareer = () => {
                                 {/* <div className={styles.testcontainer}></div>  */}
                                 <ul class="nav nav-pills mb-3 mt-1" role="tablist" id={styles.hirringJdsCareerbuttonouterDiv}>
                                     <li class="nav-item" role="presentation" id={styles.hirringJdsCareerbuttonDiv1}>
-                                        <button className={showtab === 1 ? "hirringJdsCareerHeadingButtons active" : "hirringJdsCareerHeadingButtons"} onClick={() => handletab(1)}>Software Engineer</button>
+                                        <button className={showtab === 1 ? styles['hirringJdsCareerHeadingButtons'] : styles['hirringjdactive']} onClick={() => handletab(1)}>Software Engineer</button>
                                     </li>
                                     <li class="nav-item" role="presentation" id={styles.hirringJdsCareerbuttonDiv2}>
-                                        <button className={showtab === 2 ? "styles.hirringJdsCareerHeadingButtons active" : "styles.hirringJdsCareerHeadingButtons"} onClick={() => handletab(2)}>Javascript Developer</button>
+                                        <button className={showtab === 2 ? styles['hirringJdsCareerHeadingButtons'] : styles['hirringjdactive']} onClick={() => handletab(2)}>Javascript Developer</button>
                                     </li>
 
                                     <li class="nav-item" role="presentation" id={styles.hirringJdsCareerbuttonDiv3}>
-                                        <button className={showtab === 3 ? "hirringJdsCareerHeadingButtons active" : "hirringJdsCareerHeadingButtons"} onClick={() => handletab(3)}>Cross Platform Developer</button>
+                                        <button className={showtab === 3 ? styles['hirringJdsCareerHeadingButtons'] : styles['hirringjdactive']} onClick={() => handletab(3)}>Cross Platform Developer</button>
                                     </li>
                                     <li class="nav-item" role="presentation" id={styles.hirringJdsCareerbuttonDiv4}>
-                                        <button className={showtab === 4 ? "hirringJdsCareerHeadingButtons active" : "hirringJdsCareerHeadingButtons"} onClick={() => handletab(4)}>Digital Marketing</button>
+                                        <button className={showtab === 4 ? styles['hirringJdsCareerHeadingButtons'] : styles['hirringjdactive']} onClick={() => handletab(4)}>Digital Marketing</button>
                                     </li>
                                     <li class="nav-item" role="presentation" id={styles.hirringJdsCareerbuttonDiv5}>
-                                        <button className={showtab === 5 ? "hirringJdsCareerHeadingButtons active" : "hirringJdsCareerHeadingButtons"} onClick={() => handletab(5)}>Hr and Sales Manager</button>
+                                        <button className={showtab === 5 ? styles['hirringJdsCareerHeadingButtons'] : styles['hirringjdactive']} onClick={() => handletab(5)}>Hr and Sales Manager</button>
                                     </li>
                                 </ul>
-                                
                                 <div class="tab-content text-dark" id="pills-tabContent">
 
                                     <div className={showtab === 1 ? "tab-pane fade show active" : "tab-pane fade show"} style={{ textDecoration: "none", borderBottom: "none" }}>
@@ -3391,6 +3390,9 @@ export const HirringJdsCareer = () => {
                                         </div>
                                     </div>
 
+
+
+
                                 </div>
 
                             </div>
@@ -3402,5 +3404,5 @@ export const HirringJdsCareer = () => {
             </div>
         </>
     );
-};
+}
 

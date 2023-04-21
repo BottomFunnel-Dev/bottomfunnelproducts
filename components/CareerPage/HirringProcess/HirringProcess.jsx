@@ -24,6 +24,7 @@ export const HirringProcess = () => {
                     />
                 </div>
 
+
                 <div className={career.hirringmaincontainer}>
                     <HirringJdsCareer />
                 </div>

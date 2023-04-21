@@ -30,7 +30,7 @@ export const MarketPlacePopular = () => {
 
                             <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 
@@ -75,7 +75,7 @@ export const MarketPlacePopular = () => {
 
                             <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 
@@ -121,7 +121,7 @@ export const MarketPlacePopular = () => {
                             <p> Easily move all your support tickets, conversations and more from your Zendesk account to
                                 Freshdesk </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 
@@ -166,7 +166,7 @@ export const MarketPlacePopular = () => {
 
                             <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 
@@ -213,7 +213,7 @@ export const MarketPlacePopular = () => {
 
                             <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 
@@ -256,7 +256,7 @@ export const MarketPlacePopular = () => {
 
                             <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 
@@ -299,7 +299,7 @@ export const MarketPlacePopular = () => {
 
                             <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 
@@ -342,7 +342,7 @@ export const MarketPlacePopular = () => {
 
                             <p> Easily schedule and mange meetings by bringing the power of Google Calender within ... </p>
 
-                            <button> Intall </button>
+                            <button> Install </button>
                         </div>
                     </div>
 

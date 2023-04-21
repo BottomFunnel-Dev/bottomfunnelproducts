@@ -6,10 +6,10 @@ export default function ServicesSpecialized() {
   const data = [{
     text1:"Managed Services",text2:"Lean on a BottomFunnelworks product expert to take care of your system administration. Includes a monthly bucket of hours for configuration, best practice sharing, training, and more. 1:1 sessions on key product features."
   },{
-    text1:"Optimization Services",text2:"Our expert will work in lockstep with your team to analyze your existing configuration, design, and build an improved solution."
+    text1:"Optimization Services",text2:"Are you looking to provide content optimization for websites to rank content? Our expert will work in lockstep with your team to analyze your existing configuration, design, and build an improved solution."
   },{
-    text1:"Bottom Funnel Services",text2:"The Bottom Funnel chat offering involves end-toend bots implementation, including advisory services, configuration, and training."
-  },{text1:"Admin Coaching",text2:"Strengthen your product knowledge with our expert-led interactive training tailored to your business needs."
+    text1:"Bottom Funnel Services",text2:"The Bottom Funnel chat offering involves end-to end bots implementation, including advisory services for companies individuals, configuration, and training."
+  },{text1:"Admin Coaching",text2:"Strengthen your product knowledge with our expert-led interactive training giving information tailored to your business needs."
 },{
   text1:"Premium Support",text2:"Back your customer and employee service platform with personalized support from the get-go with 24/7 edicated assistance from our product experts​."
 },{text1:"Health Assessment",text2:"A comprehensive review of your existing setup to help you to understand the current state and proactively identify areas for improvement."

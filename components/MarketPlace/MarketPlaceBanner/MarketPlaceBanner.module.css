@@ -72,7 +72,7 @@
   border: 1px solid #121314;
   border-right: none;
   padding: 5px;
-  height: 70px;
+  height: 50px;
   border-radius: 10px 0 0 10px;
   outline: none;
   color: #9dbfaf;
@@ -95,12 +95,12 @@
 
 .MarketPlaceBannerSearchButton {
   width: 10%;
-  height: 70px;
+  height: 50px;
   border: 1px solid #ef4c23;
   background: #ef4c23;
   text-align: center;
   color: #fff;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 10px 10px 0;
   cursor: pointer;
   font-size: 20px;
 }
