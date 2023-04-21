@@ -14,24 +14,28 @@
     align-content: center;
     align-items: center;
 }
+.CaseStudyParentfilterImage{
+    width: 20%;
+    margin-left: 10%;
+}
 .CaseStudyParentfirstchild>button{
     width: 100px;
     height: 30px;
-    border: none;
-    background-color: #ef4c25;
-    border-radius: 10px;
-    color: white;
-
-}
-.CaseStudyParentfirstchild>button:hover{
-    width: 110px;
-    height: 33px;
-    border: none;
+    border: 1px solid transparent;
     background-color: white;
     border-radius: 10px;
-    color: #ef4c25;
+    color: black;
+   
 
 }
+/* .CaseStudyParentfirstchild>button:hover{
+   
+    border: 1px solid #ef4c23;
+    background-color: white;
+   
+    color: #ef4c25;
+
+} */
 .CaseStudyParentsecchild{
    
     margin-top: 2%;
@@ -45,7 +49,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 330px;
+    height: 350px;
     
 }
 .CaseStudyParentsecchilddiv>div{
@@ -103,10 +107,11 @@ border-right: 1px solid lightgrey;
         align-items: center;
         align-content: center;
         flex-direction: column;
+        
         height: auto;
     }
     .CaseStudyParentsecchilddiv>div{
-        padding: 2%;
+        padding: 4%;
         width: 100%;
         justify-content: space-around;
         text-align: center;
