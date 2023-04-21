@@ -31,15 +31,15 @@
         font-weight: 600;
         margin-top: 4%;
         border-radius: 15px;
-        background-color: #ef4c23;
+        background-color: #03C457;
         border: none;
         color: white;
         cursor: pointer;
 }
 .instagramDmBannertext>button:hover{
     background-color: white;
-    color: #ef4c23;
-    border: 1px solid #ef4c23;
+    color: #03C457;
+    border: 1px solid #03C457;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -79,15 +79,15 @@
             font-weight: 600;
             margin: 4% 0% 4% 17%;
             border-radius: 15px;
-            background-color: #ef4c23;
+            background-color: #03C457;
             border: none;
             color: white;
             cursor: pointer;
     }
     .instagramDmBannertext>button:hover{
         background-color: white;
-        color: #ef4c23;
-        border: 1px solid #ef4c23;
+        color: #03C457;
+        border: 1px solid #03C457;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 }

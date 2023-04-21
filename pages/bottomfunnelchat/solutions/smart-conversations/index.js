@@ -10,6 +10,7 @@ import SmartConversationsBusiness from "../../../../components/SmartConversation
 import SmartConversationsChanges from "../../../../components/SmartConversations/SmartConversationsChanges/SmartConversationsChanges";
 import SmartConversationsDownload from "../../../../components/SmartConversations/SmartConversationsDownload/SmartConversationsDownload";
 import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
+import { ChatFooter } from "../../../../components/ChatFooter/ChatFooter";
 
 
 const productData = {
@@ -160,7 +161,7 @@ export default function SmartConversation() {
       <TrustedBy/>
       <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+      <ChatFooter/>
     </div>
   );
 }

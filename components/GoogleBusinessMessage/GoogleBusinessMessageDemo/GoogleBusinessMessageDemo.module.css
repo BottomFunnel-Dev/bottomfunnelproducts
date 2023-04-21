@@ -19,17 +19,17 @@
 }
 .GoogleBusinessMessageDemoParent>div>button{
     width: 240px;
-    background-color: #ef4c25;
+    background-color:#03C457;
     height: 50px;
     color: white;
    margin-left: 5%;
-   border: none;
+   border: 1px solid  #03C457;
    border-radius: 50px;
     
 }
 .GoogleBusinessMessageDemoParent>div>button:hover{
     background-color: transparent;
-    color: #ef4c25;
+    color: #03C457;
 }
 @media(max-width:780px){
     .GoogleBusinessMessageDemoParent>div{
@@ -41,11 +41,11 @@
     }
     .GoogleBusinessMessageDemoParent>div>button{
         width: 240px;
-        background-color: #ef4c25;
+        background-color: #03C457;
         height: 50px;
         color: white;
        margin-left: 5%;
-       border: none;
+       border: 1px solid  #03C457;
        border-radius: 50px;
        margin-top: 5%;
         

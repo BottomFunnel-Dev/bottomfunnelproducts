@@ -10,6 +10,7 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
 
 
 const productData = {
@@ -160,7 +161,7 @@ export default function InstagramDm() {
       <TrustedBy/>
       <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+      <ChatFooter/>
     </div>
   );
 }

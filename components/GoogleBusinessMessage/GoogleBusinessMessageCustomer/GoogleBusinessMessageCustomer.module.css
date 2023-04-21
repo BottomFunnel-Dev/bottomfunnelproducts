@@ -54,7 +54,7 @@
         flex-direction: column;
        width: 95%;
         align-items: center;
-        text-align: center;
+     
         padding: 5%;
        
     }
@@ -78,6 +78,8 @@
     .GoogleBusinessMessageCustomerOnlyChilddivonecontent{
         width: 100%;
     }
-    
+    .GoogleBusinessMessageCustomerOnlyChild :nth-child(2){
+        flex-direction: column-reverse;
+    }
     
 }

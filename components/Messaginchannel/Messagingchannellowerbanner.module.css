@@ -23,7 +23,7 @@ justify-content: space-around;
 padding: 5px 5px;
 border-radius: 100px;
 width: 200px;
-background-color: #ef4c23;
+background-color: #03C457;
 border: none;
 outline: none;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -34,7 +34,7 @@ color: white;
   
 .massaginglowerbannerbuttonone:hover {
 background-color: white;
-color:  #ef4c23;
+color:  #03C457;
 }
 
 @media only screen and (min-width:0px) and (max-width:600px){
@@ -67,7 +67,7 @@ justify-content: space-around;
 padding: 5px 5px;
 border-radius: 100px;
 width: 150px;
-background-color: #ef4c23;
+background-color: #03C457;
 border: none;
 outline: none;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -78,7 +78,7 @@ color: white;
   
 .massaginglowerbannerbuttonone:hover {
 background-color: white;
-color:  #ef4c23;
+color:  #03C457;
 }
 
 

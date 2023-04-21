@@ -7,6 +7,7 @@ export const GoogleBusinessMessageBanner = () => {
         <div className={styles.googleBusinessBannerParent}>
             <div className={styles.googleBusinessBannerone}>
                 <Image
+                
                     src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GoogleBusiness/banner.webp"}
                     alt={"img"}
                     width={"0"}
