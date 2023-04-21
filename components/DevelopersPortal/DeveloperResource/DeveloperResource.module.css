@@ -3,6 +3,12 @@
   height: auto;
   text-align: center;
   /* border: 1px solid red; */
+  margin-top: 5%;}
+.developerPortalResourceMainDiv {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /* border: 1px solid red; */
   margin-top: 5%;
 }
 .developerResourceContainer {
@@ -28,7 +34,7 @@
   width: 60%;
 
   position: absolute;
-  bottom: 70%;
+  bottom: 75%;
   left: 21%;
 }
 .developerPortalResourceText {
@@ -38,7 +44,6 @@
 .developerPortalResourceMainDiv > h2 {
   color: #ef4c23;
 }
-
 .developerPortalResourceText button {
   border-radius: 10px;
   background-color: #ef4c23;
@@ -49,6 +54,8 @@
   width: 60%;
 }
 .developerPortalResourceButton {
+  margin-top: 2%;}
+.developerPortalResourceButton {
   margin-top: 2%;
 }
 .developerPortalResourceText button:hover {
@@ -56,9 +63,24 @@
   background-color: white;
   color: #ef4c23;
 }
-
 @media (max-width: 480px) {
+  .developerPortalResourceMainDiv {
+    margin-top: 85%;
+  }
   .developerResourceContainer {
     flex-direction: column;
+  }
+  .developerResourceBox {
+    width: 80%;
+    margin: 20% auto;
+  }
+  .developerResourceBox {
+    height: 20rem;
+  }
+  .developerPortalResourceImage {
+    bottom: 80%;
+  }
+  .developerPortalResourceText button {
+    width: 80%;
   }
 }

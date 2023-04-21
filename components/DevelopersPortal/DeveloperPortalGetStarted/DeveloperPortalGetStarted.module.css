@@ -90,12 +90,12 @@
     text-align: left;
     margin-left:5%;
 }
-.developerPortalLogoText span{
-display: block;
-
+.developerPortalLearnMore{
+    color: #EE4C23;
 }
-.developerPortalLogoText span:hover{
-    color: #EE4C23; 
+.developerPortalLearnMore:hover{
+ text-decoration: underline;
+
 }
 @media(max-width:480px){
     .developerportalGetStartedDiv{
@@ -104,7 +104,6 @@ display: block;
     .developerPortalLeftSection{
         width: 60%;
         margin: 4% auto;
-
     }
     .developerPortalRightSection{
         width: 85%;
@@ -119,14 +118,14 @@ display: block;
         width: 50px;
         margin-left: 3%;
         margin-bottom: 4%;
-   
+
     }
     .developerPortalLogoText{
         /* text-align: left; */
         margin:auto;
         width: 100%;
     }
-    
+
     .developerPortalLogoText p{
         width: 100%;
         font-size: 14px;
@@ -136,9 +135,9 @@ display: block;
         margin-top: 5%;
         font-size: 14px;
     }
-   
+
     .developerPortalData1,.developerPortalData2,.developerPortalData3,.developerPortalData4{
         flex-direction: column;
-       
+
     }
 }

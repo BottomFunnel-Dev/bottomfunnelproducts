@@ -42,7 +42,7 @@ export const DeveloperPortalGetStarted = () => {
                     <div className={styles.developerPortalLogoText}>
                         <h3>Build</h3>
                         <p>Develop apps to integrate BottomFunnel into your own systems</p>
-                        <span>Learn more &rarr;</span>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ export const DeveloperPortalGetStarted = () => {
                     <div className={styles.developerPortalLogoText}>
                         <h3>Partner</h3>
                         <p>Expand your business by solving custom client requirements.</p>
-                        <span>Learn more  &rarr;</span>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ export const DeveloperPortalGetStarted = () => {
                     <div className={styles.developerPortalLogoText}>
                         <h3>Grow</h3>
                         <p>Build apps with no upfront cost and publish them on Marketplace</p>
-                        <span>Learn more  &rarr;</span>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
                 <div className={styles.developerPortalData4}>
@@ -94,8 +94,8 @@ export const DeveloperPortalGetStarted = () => {
                     </div>
                     <div className={styles.developerPortalLogoText}>
                         <h3>Play</h3>
-                        <p>Build apps quickly and easily with our low code platform</p>
-                        <span>Learn more  &rarr;</span>
+                        <p>Build apps quickly and easily with low code platform</p>
+                        <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
             </div>

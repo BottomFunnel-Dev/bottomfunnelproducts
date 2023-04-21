@@ -1,5 +1,5 @@
 .developerPortalRegisterContainer{
-    /* border: 2px solid pink; */
+    /* border: 2px solid red; */
     width: 100%;
     height: auto;
     margin-top: 3%;
@@ -8,11 +8,11 @@
     width: 82%;
     height: 400px;
     margin-left: 9%;
-    /* border: 2px solid black; */
+    /* border: 2px solid red; */
     position: relative;
 }
 .developerPortalRegText{
-    /* border: 2px solid green;  */
+    /* border: 2px solid red;  */
     position: absolute;
     top: 25%;
     left: 5%;
@@ -34,11 +34,11 @@
 @media (max-width:480px){
     .developerPortalRegisterContainer{
         background-color: #fafafa;
-        
+
     }
 .developerPortalRegImage{
     height: auto;
-   
+
 }
 .developerPortalRegText{
     position: initial;
