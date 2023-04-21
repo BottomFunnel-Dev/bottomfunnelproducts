@@ -749,6 +749,572 @@ export const HirringJdsCareer = () => {
                                             </Accordion.Body>
                                         </Accordion.Item>
 
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="8">
+                                            <Accordion.Header className={styles.hirringdropdownDivContext}>
+                                                <h6>Sr. Golang Developer</h6>  
+                                            </Accordion.Header>
+                                            <Accordion.Body className={styles.hirringdropdowncontext}>
+                                                <div className={styles.hirringJdDataContainer}>
+                                                    <h6>About Company</h6>
+
+
+                                                    <h6>Web: <a href='https://bottomfunnel.net/'>https://bottomfunnel.net/</a></h6>
+
+                                                    <h6>Web: <a href='https://service.bottomfunnel.net/'>https://service.bottomfunnel.net/</a></h6>
+
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/bottomfunnel/'>https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/blueberrygroup-co/'>https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                    <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                    <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                    <h6>Please find below-mentioned JD</h6>
+
+
+                                                    <h6>Position:</h6> <p>Senior Golang Developer</p>
+
+
+                                                    <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                    <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+
+                                                    <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+
+                                                    <h6>Job Description:</h6> 
+
+                                                    <p>We are looking for a highly skilled and experienced Senior Golang Developer to join our team. The ideal candidate will have extensive experience in developing complex software solutions using Golang and a solid understanding of modern software development practices. The candidate should be passionate about delivering high-quality software solutions and have a proven track record of success in leading software development projects.</p>
+
+                                                   
+
+                                                    <h6>Responsibilities:</h6>
+
+                                                    <p>
+                                                    Design, develop, and maintain complex software systems using Golang
+                                                    Write clean, efficient, and well-documented code that follows best practices
+                                                    Work with cross-functional teams to understand requirements and design software solutions that meet business needs
+                                                    Lead software development projects, providing technical guidance and mentorship to junior developers
+                                                    Collaborate with product managers and other stakeholders to prioritize and deliver software features
+                                                    Identify and resolve performance and scalability issues
+                                                    Continuously improve software development practices and processes
+
+                                                    </p>
+
+                                                    <h6>Requirements</h6>
+                                                    <p>
+                                                    Bachelor's degree in Computer Science or related field
+                                                    5+ years of experience in software development with Golang
+                                                    Strong understanding of software development principles, patterns, and best practices
+                                                    Experience leading software development projects and mentoring junior developers
+                                                    Experience with containerization technologies such as Docker and Kubernetes
+                                                    Familiarity with agile software development methodologies and tools such as JIRA
+                                                    Experience with distributed systems and microservices architecture
+                                                    Strong communication and collaboration skills
+                                                    A passion for delivering high-quality software solutions
+
+                                                    </p>
+                                                    <h6>Benefits:</h6>
+                                                    <p>
+                                                        Opportunity to work on highly challenging international projects.
+
+                                                        Opportunity to travel & work with International clients.
+
+                                                        Flexible and friendly work environment
+
+                                                        Great organizational culture, focus on employee's well-being.
+                                                    </p>
+                                                    <h6>Work-life balance.</h6>
+                                                    <p>Be part of the best place to work for certified company</p>
+                                                </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="9">
+                                            <Accordion.Header className={styles.hirringdropdownDivContext}>
+                                                <h6>Sr. C++ Developer</h6>  
+                                            </Accordion.Header>
+                                            <Accordion.Body className={styles.hirringdropdowncontext}>
+                                                <div className={styles.hirringJdDataContainer}>
+                                                    <h6>About Company</h6>
+
+
+                                                    <h6>Web: <a href='https://bottomfunnel.net/'>https://bottomfunnel.net/</a></h6>
+
+                                                    <h6>Web: <a href='https://service.bottomfunnel.net/'>https://service.bottomfunnel.net/</a></h6>
+
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/bottomfunnel/'>https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/blueberrygroup-co/'>https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                    <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                    <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                    <h6>Please find below-mentioned JD</h6>
+
+
+                                                    <h6>Position:</h6> <p>Senior C++ Developer</p>
+
+
+                                                    <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                    <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+
+                                                    <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+
+                                                    <h6>Job Description:</h6> 
+
+                                                   <p>We are seeking a highly skilled Senior C++ Developer to join our team. As a Senior C++ Developer, you will be responsible for developing and maintaining high-performance applications in a fast-paced environment. You will work closely with our software engineering team to design, develop, and implement software solutions using C++ programming language.</p>
+
+                                                    <h6>Responsibilities:</h6>
+
+                                                    <p>
+                                                    Design, develop and implement high-performance C++ software solutions
+                                                    Collaborate with cross-functional teams to define, design, and ship new features
+                                                    Maintain and improve existing codebase
+                                                    Write well-designed, testable, and efficient code
+                                                    Identify and fix software defects and performance issues
+                                                    Participate in code reviews to maintain code quality and ensure adherence to coding standards
+                                                    Continuously learn and apply new technologies, techniques, and methodologies
+                                                    </p>
+
+                                                    <h6>Requirements</h6>
+                                                    <p>
+                                                    Bachelor's degree in Computer Science or a related field
+                                                    At least 5 years of professional experience in C++ development
+                                                    Strong knowledge of algorithms, data structures, and software design principles
+                                                    Experience with multi-threaded programming and concurrency
+                                                    Proficiency in Linux operating system and development tools
+                                                    Familiarity with software development lifecycle and agile methodologies
+                                                    Excellent problem-solving skills and ability to work independently and as part of a team
+                                                    Strong communication and interpersonal skills
+
+                                                    </p>
+
+                                                    <h6>Preferred Qualifications:</h6>
+                                                    <p>
+                                                    Master's degree in Computer Science or a related field
+                                                    Experience with network programming and socket programming
+                                                    Knowledge of GPU programming and parallel computing
+                                                    Familiarity with version control systems (Git, SVN)
+                                                    Experience with scripting languages (Python, Bash)
+                                                    <br/>If you are a Senior C++ Developer who is passionate about software engineering and wants to work on challenging projects in a dynamic environment, we would love to hear from you.
+
+                                                    </p>
+                                                    <h6>Benefits:</h6>
+                                                    <p>
+                                                        Opportunity to work on highly challenging international projects.
+
+                                                        Opportunity to travel & work with International clients.
+
+                                                        Flexible and friendly work environment
+
+                                                        Great organizational culture, focus on employee's well-being.
+                                                    </p>
+                                                    <h6>Work-life balance.</h6>
+                                                    <p>Be part of the best place to work for certified company</p>
+                                                </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="10">
+                                            <Accordion.Header className={styles.hirringdropdownDivContext}>
+                                                <h6>Sr. C# Developer</h6>  
+                                            </Accordion.Header>
+                                            <Accordion.Body className={styles.hirringdropdowncontext}>
+                                                <div className={styles.hirringJdDataContainer}>
+                                                    <h6>About Company</h6>
+
+
+                                                    <h6>Web: <a href='https://bottomfunnel.net/'>https://bottomfunnel.net/</a></h6>
+
+                                                    <h6>Web: <a href='https://service.bottomfunnel.net/'>https://service.bottomfunnel.net/</a></h6>
+
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/bottomfunnel/'>https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/blueberrygroup-co/'>https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                    <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                    <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                    <h6>Please find below-mentioned JD</h6>
+
+
+                                                    <h6>Position:</h6> <p>Senior C# Developer</p>
+
+
+                                                    <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                    <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+
+                                                    <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+
+                                                    <h6>Job Description:</h6> 
+
+                                                     <p>
+                                                     We are seeking an experienced Senior C# Developer to join our team. The ideal candidate will have at least [Insert number of years] years of experience in C# development and a strong understanding of the .NET framework.
+                                                     </p>
+                                                    <h6>Responsibilities:</h6>
+
+                                                    <p>
+                                                    Design, develop, and maintain software applications using C# and the .NET framework
+                                                    Collaborate with cross-functional teams to identify requirements and design solutions
+                                                    Write clean, efficient, and well-documented code
+                                                    Participate in code reviews and provide constructive feedback to other developers
+                                                    Troubleshoot and debug software issues
+                                                    Continuously improve software development processes and practices
+
+                                                    </p>
+
+                                                    <h6>Requirements</h6>
+                                                    <p>
+                                                    Bachelor's degree in Computer Science, Engineering or a related field
+                                                    At least [Insert number of years] years of experience in C# development
+                                                    Strong understanding of the .NET framework and its architecture
+                                                    Experience with database design and SQL
+                                                    Proficiency in front-end development using HTML, CSS, and JavaScript
+                                                    Familiarity with Agile development methodologies
+                                                    Strong problem-solving skills and attention to detail
+                                                    Excellent communication and collaboration skills
+
+                                                    </p>
+
+                                                    <h6>Preferred Qualifications:</h6>
+                                                    <p>
+                                                    Experience with cloud technologies such as Azure or AWS
+                                                    Knowledge of containerization and orchestration tools such as Docker and Kubernetes
+                                                    Familiarity with DevOps practices such as CI/CD
+                                                    Experience with other programming languages such as Java or Python
+                                                    <br/>If you are a highly motivated and skilled C# developer looking for a challenging role with a dynamic team, please apply today!
+
+                                                    </p>
+                                                    <h6>Benefits:</h6>
+                                                    <p>
+                                                        Opportunity to work on highly challenging international projects.
+
+                                                        Opportunity to travel & work with International clients.
+
+                                                        Flexible and friendly work environment
+
+                                                        Great organizational culture, focus on employee's well-being.
+                                                    </p>
+                                                    <h6>Work-life balance.</h6>
+                                                    <p>Be part of the best place to work for certified company</p>
+                                                </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="10">
+                                            <Accordion.Header className={styles.hirringdropdownDivContext}>
+                                                <h6>Sr. C# Developer</h6>  
+                                            </Accordion.Header>
+                                            <Accordion.Body className={styles.hirringdropdowncontext}>
+                                                <div className={styles.hirringJdDataContainer}>
+                                                    <h6>About Company</h6>
+
+
+                                                    <h6>Web: <a href='https://bottomfunnel.net/'>https://bottomfunnel.net/</a></h6>
+
+                                                    <h6>Web: <a href='https://service.bottomfunnel.net/'>https://service.bottomfunnel.net/</a></h6>
+
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/bottomfunnel/'>https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/blueberrygroup-co/'>https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                    <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                    <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                    <h6>Please find below-mentioned JD</h6>
+
+
+                                                    <h6>Position:</h6> <p>Senior C# Developer</p>
+
+
+                                                    <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                    <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+
+                                                    <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+
+                                                    <h6>Job Description:</h6> 
+
+                                                     <p>
+                                                     We are seeking an experienced Senior C# Developer to join our team. The ideal candidate will have at least [Insert number of years] years of experience in C# development and a strong understanding of the .NET framework.
+                                                     </p>
+                                                    <h6>Responsibilities:</h6>
+
+                                                    <p>
+                                                    Design, develop, and maintain software applications using C# and the .NET framework
+                                                    Collaborate with cross-functional teams to identify requirements and design solutions
+                                                    Write clean, efficient, and well-documented code
+                                                    Participate in code reviews and provide constructive feedback to other developers
+                                                    Troubleshoot and debug software issues
+                                                    Continuously improve software development processes and practices
+
+                                                    </p>
+
+                                                    <h6>Requirements</h6>
+                                                    <p>
+                                                    Bachelor's degree in Computer Science, Engineering or a related field
+                                                    At least [Insert number of years] years of experience in C# development
+                                                    Strong understanding of the .NET framework and its architecture
+                                                    Experience with database design and SQL
+                                                    Proficiency in front-end development using HTML, CSS, and JavaScript
+                                                    Familiarity with Agile development methodologies
+                                                    Strong problem-solving skills and attention to detail
+                                                    Excellent communication and collaboration skills
+
+                                                    </p>
+
+                                                    <h6>Preferred Qualifications:</h6>
+                                                    <p>
+                                                    Experience with cloud technologies such as Azure or AWS
+                                                    Knowledge of containerization and orchestration tools such as Docker and Kubernetes
+                                                    Familiarity with DevOps practices such as CI/CD
+                                                    Experience with other programming languages such as Java or Python
+                                                    <br/>If you are a highly motivated and skilled C# developer looking for a challenging role with a dynamic team, please apply today!
+
+                                                    </p>
+                                                    <h6>Benefits:</h6>
+                                                    <p>
+                                                        Opportunity to work on highly challenging international projects.
+
+                                                        Opportunity to travel & work with International clients.
+
+                                                        Flexible and friendly work environment
+
+                                                        Great organizational culture, focus on employee's well-being.
+                                                    </p>
+                                                    <h6>Work-life balance.</h6>
+                                                    <p>Be part of the best place to work for certified company</p>
+                                                </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="11">
+                                            <Accordion.Header className={styles.hirringdropdownDivContext}>
+                                                <h6>Sr. Perl Developer</h6>  
+                                            </Accordion.Header>
+                                            <Accordion.Body className={styles.hirringdropdowncontext}>
+                                                <div className={styles.hirringJdDataContainer}>
+                                                    <h6>About Company</h6>
+
+
+                                                    <h6>Web: <a href='https://bottomfunnel.net/'>https://bottomfunnel.net/</a></h6>
+
+                                                    <h6>Web: <a href='https://service.bottomfunnel.net/'>https://service.bottomfunnel.net/</a></h6>
+
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/bottomfunnel/'>https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/blueberrygroup-co/'>https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                    <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                    <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                    <h6>Please find below-mentioned JD</h6>
+
+
+                                                    <h6>Position:</h6> <p>Senior Perl Developer</p>
+
+
+                                                    <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                    <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+
+                                                    <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+
+                                                    <h6>Job Description:</h6> 
+
+                                                    <p>
+                                                    We are seeking a highly skilled and experienced Senior Perl Developer to join our dynamic team. The Senior Perl Developer will be responsible for developing and maintaining our company's software applications and systems, and working closely with our team of developers to ensure that all applications are scalable, reliable, and performant.
+                                                    </p>
+
+                                                    <h6>Responsibilities:</h6>
+
+                                                    <p>
+                                                    Design, develop, and maintain our company's software applications and systems using Perl programming language.
+                                                    Write high-quality, clean, maintainable, and testable code that meets the highest standards of software development.
+                                                    Work with cross-functional teams to design and implement new features and enhancements to existing applications.
+                                                    Troubleshoot and debug software issues as they arise, and develop and implement effective solutions.
+                                                    Conduct code reviews and provide constructive feedback to other developers to ensure code quality and consistency.
+                                                    Participate in software development planning and estimation.
+                                                    Stay up-to-date with the latest industry trends and technologies, and continuously improve technical skills and knowledge.
+
+                                                    </p>
+
+                                                    <h6>Requirements</h6>
+                                                    <p>
+                                                    Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.
+                                                    Minimum of 5 years of experience in Perl programming language.
+                                                    Strong knowledge of software development principles and practices, including design patterns, data structures, algorithms, and software architecture.
+                                                    Experience with web application development frameworks such as Catalyst or Mojolicious.
+                                                    Experience with database technologies such as MySQL, PostgreSQL, or Oracle.
+                                                    Strong understanding of Linux or Unix operating systems.
+                                                    Excellent problem-solving and analytical skills, with the ability to work in a fast-paced, dynamic environment.
+                                                    Strong communication and collaboration skills, with the ability to work effectively with cross-functional teams.
+
+                                                    </p>
+
+                                                   
+                                                    <h6>Benefits:</h6>
+                                                    <p>
+                                                        Opportunity to work on highly challenging international projects.
+
+                                                        Opportunity to travel & work with International clients.
+
+                                                        Flexible and friendly work environment
+
+                                                        Great organizational culture, focus on employee's well-being.
+                                                    </p>
+                                                    <h6>Work-life balance.</h6>
+                                                    <p>Be part of the best place to work for certified company</p>
+                                                </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="12">
+                                            <Accordion.Header className={styles.hirringdropdownDivContext}>
+                                                <h6>Sr. Magento Developer</h6>  
+                                            </Accordion.Header>
+                                            <Accordion.Body className={styles.hirringdropdowncontext}>
+                                                <div className={styles.hirringJdDataContainer}>
+                                                    <h6>About Company</h6>
+
+
+                                                    <h6>Web: <a href='https://bottomfunnel.net/'>https://bottomfunnel.net/</a></h6>
+
+                                                    <h6>Web: <a href='https://service.bottomfunnel.net/'>https://service.bottomfunnel.net/</a></h6>
+
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/bottomfunnel/'>https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                    <h6>LinkedIn: <a href='https://www.linkedin.com/company/blueberrygroup-co/'>https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                    <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                    <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                    <h6>Please find below-mentioned JD</h6>
+
+
+                                                    <h6>Position:</h6> <p>Senior Magento Developer</p>
+
+
+                                                    <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                    <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+
+                                                    <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                    <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+
+                                                    <h6>Job Description:</h6> 
+
+                                                   <p>
+                                                   We are seeking a talented Senior Magento Developer to join our team. The ideal candidate will have experience in developing high-performance, scalable, and robust e-commerce solutions using Magento 2. As a Senior Magento Developer, you will be responsible for designing, developing, and maintaining Magento websites, as well as integrating them with third-party systems and services.
+                                                   </p>
+
+                                                    <h6>Responsibilities:</h6>
+
+                                                    <p>
+                                                    Design and develop Magento websites according to business requirements
+                                                    Customize existing Magento extensions and develop new ones as necessary
+                                                    Develop and maintain custom Magento themes and templates
+                                                    Implement and maintain third-party integrations with payment gateways, shipping providers, and other systems
+                                                    Optimize website performance by implementing caching, optimizing database queries, and other performance-related tasks
+                                                    Troubleshoot and resolve technical issues related to Magento websites
+                                                    Collaborate with designers, project managers, and other developers to deliver high-quality e-commerce solutions
+                                                    Mentor and guide junior developers on the team
+
+                                                    </p>
+
+                                                    <h6>Requirements</h6>
+                                                    <p>
+                                                    Bachelor's degree in Computer Science, Engineering, or a related field
+                                                    At least 5 years of experience in Magento 2 development
+                                                    In-depth knowledge of PHP, MySQL, JavaScript, and HTML/CSS
+                                                    Experience with Magento extensions and themes development
+                                                    Strong understanding of e-commerce business processes and requirements
+                                                    Experience with third-party integrations (e.g., payment gateways, shipping providers, etc.)
+                                                    Excellent problem-solving skills and ability to troubleshoot technical issues
+                                                    Strong communication skills and ability to work in a collaborative team environment
+                                                    Experience with Git, Docker, and Agile methodologies is a plus
+                                                    <br/>If you are a passionate and experienced Magento Developer looking to take on new challenges and advance your career, we encourage you to apply for this exciting opportunity!
+
+                                                    </p>
+
+                                                   
+                                                    <h6>Benefits:</h6>
+                                                    <p>
+                                                        Opportunity to work on highly challenging international projects.
+
+                                                        Opportunity to travel & work with International clients.
+
+                                                        Flexible and friendly work environment
+
+                                                        Great organizational culture, focus on employee's well-being.
+                                                    </p>
+                                                    <h6>Work-life balance.</h6>
+                                                    <p>Be part of the best place to work for certified company</p>
+                                                </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
                                     </Accordion>
 
                                     <div className={styles.hirringmaincontainer1}>
@@ -1392,7 +1958,390 @@ export const HirringJdsCareer = () => {
                                             </div>
                                             </Accordion.Body>
                                         </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="8">
+                                            <Accordion.Header><h6>Sr. Meteor Js Developer</h6>   </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer1}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Meteor JS Developer</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Description:</h6>
+
+                                                <p>
+                                                   Our company is seeking a talented and experienced Senior Meteor JS Developer to join our team. The ideal candidate will have a strong background in Meteor JS development and be able to develop high-quality, scalable, and reliable web applications.
+                                                </p>
+                                                
+                                                <h6>
+                                                   Responsibilities:
+                                                </h6>
+
+                                                <p>
+                                                • Develop and maintain web applications using Meteor JS
+                                                • Collaborate with cross-functional teams to design, develop, and implement new features
+                                                • Write clean, maintainable, and efficient code
+                                                • Participate in code reviews and provide constructive feedback to peers
+                                                • Identify and address performance bottlenecks
+                                                • Troubleshoot and debug issues as they arise
+                                                • Stay up-to-date with emerging trends and technologies in web development
+
+                                                </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                • Bachelor's or Master's degree in Computer Science or a related field
+                                                • Minimum of 5 years of experience in Meteor JS development
+                                                • Experience in designing and developing scalable and reliable web applications
+                                                • Strong proficiency in JavaScript, HTML, CSS, and related web technologies
+                                                • Solid understanding of databases and experience with MongoDB
+                                                • Experience with React, Redux, and Node.js
+                                                • Familiarity with agile development methodologies
+                                                • Excellent problem-solving skills and attention to detail
+                                                • Strong communication and collaboration skills
+                                                • Ability to work independently and as part of a team
+                                                • Strong work ethic and passion for software development
+                                                <br/>
+                                                We offer a competitive salary, comprehensive benefits package, and opportunities for growth and advancement within the company. If you meet the requirements and are interested in this exciting opportunity, please apply with your resume and a cover letter.
+                                                </p>
+                                                
+
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
                                         
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="9">
+                                            <Accordion.Header><h6>Sr. Polymer Js Developer</h6>   </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer1}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Senior Polymer  JS Developer</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Description:</h6>
+
+                                                <p>
+                                                  Our company is seeking an experienced Senior Polymer JS Developer to join our team. As a Senior Polymer JS Developer, you will be responsible for developing and maintaining high-quality web applications using Polymer JS framework. The ideal candidate must have a strong understanding of Polymer JS and its related technologies, as well as experience leading projects and mentoring junior developers.
+                                                </p>
+                                                
+                                                <h6>
+                                                   Responsibilities:
+                                                </h6>
+
+                                                <p>
+                                                Develop and maintain web applications using Polymer JS framework
+                                                Collaborate with designers and back-end developers to create responsive and user-friendly interfaces
+                                                Write clean, efficient, and well-documented code
+                                                Participate in code reviews and provide constructive feedback to junior developers
+                                                Work closely with project managers to ensure timely delivery of projects
+                                                Stay up-to-date with the latest trends and technologies in web development
+
+                                                </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                Bachelor's degree in Computer Science or a related field
+                                                5+ years of experience in web development
+                                                Extensive knowledge of Polymer JS framework and its related technologies
+                                                Experience leading projects and mentoring junior developers
+                                                Strong understanding of HTML, CSS, and JavaScript
+                                                Familiarity with agile development methodologies
+                                                Excellent problem-solving and analytical skills
+                                                Strong communication and teamwork skills
+                                                Ability to work independently and manage multiple tasks simultaneously
+                                                <br/>If you meet the above requirements and are excited about the opportunity to work with a dynamic team on cutting-edge projects, please submit your application along with your resume and a cover letter.
+
+                                                </p>
+                                                
+
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="10">
+                                            <Accordion.Header><h6>Sr. Alpine Js Developer</h6>   </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer1}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Senior Alpine JS Developer</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Description:</h6>
+
+                                                <p>
+                                                   We are looking for a highly skilled Senior Alpine JS Developer to join our team. The ideal candidate will be responsible for building complex web applications using Alpine JS framework. The candidate must have strong expertise in Alpine JS, JavaScript, HTML, CSS and be able to work independently and collaboratively in a fast-paced environment.
+                                                </p>
+                                                
+                                                <h6>
+                                                   Responsibilities:
+                                                </h6>
+
+                                                <p>
+                                                Develop web applications using Alpine JS framework.
+                                                Collaborate with designers and developers to build scalable and interactive web applications.
+                                                Write clean, efficient, and maintainable code.
+                                                Conduct code reviews and provide feedback to team members.
+                                                Ensure web applications are accessible, responsive, and cross-browser compatible.
+                                                Optimise web applications for speed and performance.
+                                                Debug and troubleshoot issues related to Alpine JS and web applications.
+                                                Stay up-to-date with the latest technologies and best practices in web development.
+
+                                                </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                Bachelor's degree in Computer Science or a related field.
+                                                At least 5 years of experience in front-end web development.
+                                                Strong expertise in Alpine JS, JavaScript, HTML, CSS, and related front-end technologies.
+                                                Experience building complex web applications using Alpine JS.
+                                                Knowledge of web accessibility standards and best practices.
+                                                Strong debugging and troubleshooting skills.
+                                                Strong communication and collaboration skills.
+                                                Experience working in an Agile development environment.
+                                                Strong problem-solving and analytical skills.
+                                                <br/>If you are passionate about Alpine JS development and have a strong desire to build innovative web applications, we encourage you to apply for this exciting opportunity.
+
+
+
+                                                </p>
+                                                
+
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="11">
+                                            <Accordion.Header><h6>Sr. Gatsby Js Developer</h6>   </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer1}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Senior Gatsby JS Developer</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Description:</h6>
+
+                                                <p>
+                                                   Our company is looking for a Senior Gatsby JS Developer to join our team. The ideal candidate will be responsible for developing and maintaining our company's websites and web applications using Gatsby JS. The candidate should be well-versed in modern web development techniques and possess a solid understanding of Gatsby JS. They should also be able to work effectively in a team environment, collaborating with designers, developers, and stakeholders to ensure timely and successful project delivery.
+                                                </p>
+                                                
+                                                <h6>
+                                                   Responsibilities:
+                                                </h6>
+
+                                                <p>
+                                                Develop and maintain web applications and websites using Gatsby JS.
+                                                Collaborate with designers, developers, and stakeholders to ensure timely and successful project delivery.
+                                                Write clean, maintainable, and efficient code.
+                                                Troubleshoot and debug issues that arise in production and staging environments.
+                                                Ensure the best possible performance, quality, and responsiveness of web applications and websites.
+                                                Stay up-to-date with emerging trends and technologies in web development.
+
+                                                </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                5+ years of experience in web development.
+                                                Strong proficiency in Gatsby JS and related technologies (React, GraphQL, Node.js, etc.).
+                                                Experience with building and maintaining large-scale web applications and websites.
+                                                Proficient understanding of web markup, including HTML5, CSS3, and JavaScript.
+                                                Familiarity with Git and version control systems.
+                                                Excellent problem-solving skills.
+                                                Excellent communication and collaboration skills.
+                                                Strong attention to detail.
+                                                Nice to have:
+                                                Experience with other front-end frameworks and libraries (Angular, Vue, etc.).
+                                                Experience with back-end development using Node.js, Ruby on Rails, or similar frameworks.
+                                                Familiarity with cloud computing services (AWS, Google Cloud, etc.).
+                                                <br/>If you meet the above requirements and are interested in joining our team as a Senior Gatsby JS Developer, please submit your resume and portfolio for consideration.
+                                                </p>
+                                                
+
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="11">
+                                            <Accordion.Header><h6>Sr. Jest Js Developer</h6>   </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer1}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Senior Jest JS Developer</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Description:</h6>
+
+                                                <p>
+                                                We are seeking a highly skilled Senior Jest.js Developer to join our team. The ideal candidate should have extensive experience in using Jest.js testing framework to write automated tests and have a strong understanding of web development principles. The successful candidate will be responsible for developing and maintaining automated tests, identifying and troubleshooting software defects, and collaborating with other developers to ensure the quality of our software products.
+                                                </p>
+                                                
+                                                <h6>
+                                                   Responsibilities:
+                                                </h6>
+
+                                                <p>
+                                                Develop and maintain automated tests using Jest.js
+                                                Collaborate with other developers to ensure the quality of our software products
+                                                Identify and troubleshoot software defects
+                                                Participate in code reviews and provide constructive feedback
+                                                Continuously improve the testing process and methodologies
+                                                Stay up-to-date with the latest trends and best practices in Jest.js and web development
+
+                                                </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                Bachelor's degree in Computer Science or related field
+                                                At least 5 years of experience in software development and testing
+                                                Strong proficiency in Jest.js testing framework
+                                                Proficiency in JavaScript and related technologies (e.g., React, Node.js)
+                                                Experience with Agile/Scrum development methodologies
+                                                Excellent problem-solving and troubleshooting skills
+                                                Strong communication and collaboration skills
+                                                Ability to work independently and in a team environment
+                                                Experience with continuous integration and deployment (CI/CD) tools is a plus
+                                                <br/>If you meet the above requirements and are passionate about software testing and development, we encourage you to apply for this exciting opportunity.
+
+                                                </p>
+                                                
+
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
                                     </Accordion>
 
                                     <div className={styles.hirringmaincontainer1}>
@@ -2773,6 +3722,329 @@ export const HirringJdsCareer = () => {
                                                     An understanding of SEO and the ability to write to specific audience segments
                                                     Excellent communication skills
                                                     Keen eye for detail
+                                                </p>
+
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="9">
+                                            <Accordion.Header><h6>Sr. Lead Generation Executive</h6> 
+                                            </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer2}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p> Sr. Lead Generation Executive</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Summary</h6>
+                                                <p>
+                                                We are seeking a highly motivated and results-driven Sr. Lead Generation Executive to join our growing team. As a Sr. Lead Generation Executive, you will be responsible for developing and executing lead generation campaigns that drive qualified leads to our sales team. You will also be responsible for managing and mentoring a team of Lead Generation Executives.
+                                                </p>
+
+                                                <h6>Responsibilities:</h6>  
+                                                <p>
+                                                Develop and execute lead generation campaigns across multiple channels, including email, social media, and paid advertising
+                                                Identify and target key decision-makers at target accounts
+                                                Develop and maintain a comprehensive database of leads and prospects
+                                                Analyze campaign performance data to optimize campaigns for maximum ROI
+                                                Manage and mentor a team of Lead Generation Executives
+                                                Collaborate with sales and marketing teams to develop lead generation strategies that align with overall business goals
+                                                Stay up-to-date with the latest lead generation trends and best practices
+
+                                               </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                Bachelor's degree in marketing, business, or a related field
+                                                5+ years of experience in lead generation or digital marketing
+                                                Strong understanding of lead generation strategies and tactics
+                                                Experience managing a team of Lead Generation Executives
+                                                Proven track record of driving qualified leads and achieving ROI targets
+                                                Excellent communication and interpersonal skills
+                                                Strong analytical and problem-solving skills
+                                                Ability to work in a fast-paced environment and manage multiple projects simultaneously
+                                                <br/>If you are a self-starter with a passion for lead generation and a track record of driving results, we encourage you to apply for this exciting opportunity.
+
+                                                </p>
+
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="10">
+                                            <Accordion.Header><h6>Jr. SEO Analyst</h6> 
+                                            </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer2}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Jr. SEO Analyst</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Summary</h6>
+                                                <p>
+                                                We are seeking a Jr. SEO Analyst to join our digital marketing team. The ideal candidate should have a passion for digital marketing, data analysis, and search engine optimization. As a Jr. SEO Analyst, you will be responsible for assisting with the development, implementation, and monitoring of SEO campaigns for our clients. This role requires strong analytical skills, attention to detail, and the ability to work independently and as part of a team.
+                                               </p>
+
+                                                <h6>Responsibilities:</h6>  
+                                                <p>
+                                                Conduct keyword research and analysis to identify opportunities for SEO improvement
+                                                Assist with the development of on-page and off-page optimization strategies
+                                                Perform technical SEO audits and recommend solutions to improve website performance
+                                                Analyze website traffic and provide regular reporting on key metrics and trends
+                                                Monitor search engine algorithm updates and make recommendations for adjustments to SEO strategies
+                                                Stay up-to-date with industry trends and best practices in SEO
+
+                                               </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                Bachelor's degree in Marketing, Business, or a related field
+                                                1-2 years of experience in SEO or digital marketing
+                                                Knowledge of SEO best practices and techniques
+                                                Proficiency in Google Analytics, Google Search Console, and other SEO tools
+                                                Strong analytical and problem-solving skills
+                                                Excellent written and verbal communication skills
+                                                Ability to work independently and as part of a team
+                                                Detail-oriented with strong organizational skills
+                                                <br/>If you meet the above requirements and are excited about the opportunity to work in a fast-paced and dynamic environment, please submit your resume and cover letter for consideration.
+
+                                                </p>
+
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="11">
+                                            <Accordion.Header><h6>Jr. SEM Analyst</h6> 
+                                            </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer2}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Jr. SEM Analyst</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Summary</h6>
+                                                <p>
+                                                We are seeking a Jr. SEM Analyst to join our team. The Jr. SEM Analyst will be responsible for assisting with the development and execution of paid search campaigns across various search engines. The ideal candidate will have experience in search engine marketing (SEM) and a strong analytical mindset.
+
+                                                </p>
+
+                                                <h6>Responsibilities:</h6>  
+                                                <p>
+                                                Assist in the creation and optimization of paid search campaigns across various search engines, including Google Ads and Bing Ads.
+                                                Conduct keyword research and analysis to identify new opportunities for campaign expansion and optimization.
+                                                Monitor and analyze campaign performance data, including impressions, clicks, conversions, and costs, and make recommendations for optimization.
+                                                Work with the team to develop and implement testing plans to improve campaign performance.
+                                                Assist in the creation of ad copy and landing page optimization.
+                                                Stay up-to-date with the latest trends and developments in SEM.
+
+                                               </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                Bachelor's degree in marketing, business, or a related field.
+                                                1-2 years of experience in SEM or a related field.
+                                                Experience with Google Ads and Bing Ads.
+                                                Strong analytical skills and the ability to analyze data to identify trends and opportunities.
+                                                Strong communication skills, both written and verbal.
+                                                Detail-oriented and organized.
+                                                Ability to work in a fast-paced environment and manage multiple tasks simultaneously.
+                                                Basic knowledge of HTML, CSS, and JavaScript is a plus.
+                                                <br/>If you meet the requirements for this position and are interested in working with a dynamic team, please submit your resume and cover letter. We look forward to hearing from you!
+
+                                                </p>
+
+                                                <h6>Benefits</h6>
+                                                <p>
+                                                    Opportunity to work on highly challenging international projects.
+
+                                                    Opportunity to travel & work with International clients.
+
+                                                    Flexible and friendly work environment
+
+                                                    Great organizational culture, focus on employee's well-being.
+                                                </p>
+                                                <h6>Work-life balance.</h6>
+                                                <p>Be part of the best place to work for certified company</p>
+                                            </div>
+                                            </Accordion.Body>
+                                        </Accordion.Item>
+
+                                        <Accordion.Item className={styles.hirringdropdowncontext} eventKey="12">
+                                            <Accordion.Header><h6>Jr. SMM Analyst</h6> 
+                                            </Accordion.Header>
+                                            <Accordion.Body>
+                                            <div className={styles.hirringJdDataContainer2}>
+                                                <h6>About Company</h6>
+                                                <h6>Web: <a href="https://bottomfunnel.net/">https://bottomfunnel.net/</a></h6>
+                                                <h6>Web: <a href=" https://service.bottomfunnel.net/"> https://service.bottomfunnel.net/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/bottomfunnel/"> https://www.linkedin.com/company/bottomfunnel/</a></h6>
+
+                                                <h6>LinkedIn: <a href="https://www.linkedin.com/company/blueberrygroup-co/"> https://www.linkedin.com/company/blueberrygroup-co/</a></h6>
+
+
+                                                <p>Bottom Funnel Technologies Private Limited is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity of unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.</p>
+
+
+                                                <p>Bottom Funnel provides the system and framework that modern marketers need to generate clients from scratch. BOTTOM FUNNEL is a 360° digital branding and marketing agency that provides a wide spectrum of internet marketing services to enhance the online presence of all kinds of businesses. We offer global solutions of digital marketing and all IT trending technology solutions, communication through classifieds, web portals, social media networks, advertising channels, and search engines. Our digital experts and business consultants help clients by providing only the best digital marketing strategy to develop through innovation and creativity.</p>
+
+
+                                                <h6>Please find below-mentioned JD</h6>
+
+
+                                                <h6>Position:</h6> <p>Jr. SMM Analyst</p>
+
+                                                <h6>Employment Type:</h6> <p>Employee - Full Time</p>
+
+
+                                                <h6>Work Location:</h6> <p>Jaipur, Rajasthan ( Work From Office Only), Hybrid</p>
+
+                                                <h6>Notice Period :</h6> <p>Immediate - 30 Days only</p>
+
+                                                <h6>Experience Required:</h6> <p>3 Years to 8 Years</p>
+
+                                                <h6>Job Summary</h6>
+                                                <p>
+                                                We are seeking a highly motivated Jr SMM Analyst to join our team. The Jr SMM Analyst will be responsible for supporting the social media marketing efforts of our clients, analyzing data, and creating reports. The ideal candidate will have a passion for social media, be highly analytical, and possess excellent communication skills.
+
+                                               </p>
+
+                                                <h6>Responsibilities:</h6>  
+                                                <p>
+                                                Assist with the creation and execution of social media campaigns
+                                                Monitor social media accounts and respond to customer inquiries
+                                                Analyze social media data and create reports to measure campaign performance
+                                                Stay up-to-date with social media trends and best practices
+                                                Collaborate with team members to develop social media strategies
+                                                Assist with content creation and scheduling
+
+                                               </p>
+                                                <h6>Requirements:</h6>
+
+                                                <p>
+                                                Bachelor's degree in Marketing, Communications, or related field
+                                                1-2 years of experience in social media marketing
+                                                Proficient in social media platforms (Facebook, Instagram, Twitter, LinkedIn, etc.)
+                                                Strong analytical skills with the ability to interpret data
+                                                Excellent written and verbal communication skills
+                                                Ability to work in a fast-paced environment and meet deadlines
+                                                Strong attention to detail
+                                                Experience with social media management tools (e.g. Hootsuite, Buffer, Sprout Social) is a plus
+                                                <br/>If you are a creative thinker with a passion for social media, we encourage you to apply for this exciting opportunity.
+
                                                 </p>
 
                                                 <h6>Benefits</h6>
