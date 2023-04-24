@@ -11,6 +11,7 @@ export const CarrerMidBanner = () => {
       <p>
       Are you looking for an exciting new opportunity to join a dynamic and innovative team? Look no further than Bottom Funnel! Our company is dedicated to delivering top-notch products and services to our clients, and we're seeking talented individuals to help us achieve our goals. As a member of our team, you'll have the chance to work alongside like-minded individuals who share your passion for excellence. With competitive salaries, comprehensive benefits, and a supportive work culture, Bottom Funnel is the perfect place to take your career to the next level. Join us today and discover your true potential!
       </p>
+      
       <button
         type="button"
         data-bs-toggle="modal"

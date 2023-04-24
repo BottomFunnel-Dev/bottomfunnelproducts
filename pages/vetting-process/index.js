@@ -37,7 +37,7 @@ export default function Vetting() {
       />
 
         <VettingBanner />
-        <VettingProcess />
+        {/* <VettingProcess /> */}
         <VettingTalent />
         <VettingHiring />
         <VettingGrow />

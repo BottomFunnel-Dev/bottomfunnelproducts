@@ -23,15 +23,15 @@ export default function OurDevelopment() {
       </Head>
 
       <main>
-      <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
+        <Navbar
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
         <OurDevBanner />
         <OurDevProcess />

@@ -10,6 +10,7 @@ import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsF
 import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
 import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import { DeskFooter } from "../../../../components/DeskFooter/DeskFooter";
 
 const index = () => {
   return (
@@ -40,7 +41,8 @@ const index = () => {
       <ReadyStarted/>
       {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 };

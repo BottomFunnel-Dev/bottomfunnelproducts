@@ -9,6 +9,7 @@ import { Smbbanner } from "../../../../components/SMB/Smbbanner";
 import { Smbcustomerservice } from "../../../../components/SMB/Smbcustomerservice";
 import { Smbfooter } from "../../../../components/SMB/Smbfooter";
 import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
+import { DeskFooter } from "../../../../components/DeskFooter/DeskFooter";
 
 export default function SMB() {
   return (
@@ -38,7 +39,8 @@ export default function SMB() {
       <Testimonial />
       <ReadyStarted />
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 }

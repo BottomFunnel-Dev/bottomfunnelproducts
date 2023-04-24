@@ -1,3 +1,4 @@
+import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 import { GuideToShopFyBanner } from "../../components/GuideToShopFy/GuideToShopFyBanner/GuideToShopFyBanner";
 import { GuideToShopFybots } from "../../components/GuideToShopFy/GuideToShopFybots/GuideToShopFybots";
 import { GuideToShopFyCannel } from "../../components/GuideToShopFy/GuideToShopFyCannel/GuideToShopFyCannel";
@@ -111,7 +112,8 @@ export default function guideToShopfy() {
             <ReadyStarted/>
             {/* <TalentProfiles/> */}
             <LifeBottomFunnel/>
-            <ProductsFooter/>
+            <DeskFooter/>
+            {/* <ProductsFooter/> */}
         </div>
     );
 }
