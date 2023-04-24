@@ -14,7 +14,7 @@ presented today by Freshchat</h2>
 <div className={styles.ZeroContactmaindivcards } >
     
     <div className={styles.ZeroContactmaindivcardsbox}>
-     <h6>Offer ZCR for continuous conversations at scale</h6>
+     <h4>Offer ZCR for continuous conversations at scale</h4>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
                         src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/OBJECTS.webp"}
@@ -32,7 +32,7 @@ presented today by Freshchat</h2>
      </ul>
     </div>
     <div className={styles.ZeroContactmaindivcardsbox} >
-     <h6>Serve ZCR everywhere</h6>
+     <h4>Serve ZCR everywhere</h4>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
                         src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/Frame.webp"}
@@ -53,7 +53,7 @@ presented today by Freshchat</h2>
 </div>
 <div className={styles.ZeroContactmaindivcards}>
     <div className={styles.ZeroContactmaindivcardsbox}>
-     <h6>Deliver ZCR to enhance your customer experience</h6>
+     <h4>Deliver ZCR to enhance your customer experience</h4>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
                         src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/OBJECTS (1).webp"}
@@ -73,7 +73,7 @@ presented today by Freshchat</h2>
    
 
 <div className={styles.ZeroContactmaindivcardsbox}>
-     <h6>Your customers expect uncomplicated solutions</h6>
+     <h4>Your customers expect uncomplicated solutions</h4>
      <div className={styles.ZeroContactmaindivcardsboximage}>
      <Image
                         src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/Illustration.webp"}

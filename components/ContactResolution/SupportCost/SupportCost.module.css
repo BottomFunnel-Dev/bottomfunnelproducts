@@ -1,63 +1,61 @@
-.SupportCostmaindiv{
-    /* border: 2px solid yellow; */
-    margin-top: 3%;
+.SupportCostmaindiv {
+  /* border: 2px solid yellow; */
+  margin-top: 3%;
 }
-.SupportCostmaindivcontent{
-    text-align: center;
-    width: 80%;
-    margin: auto;
+.SupportCostmaindivcontent {
+  text-align: center;
+  width: 80%;
+  margin: auto;
 }
-.SupportCostmaindivinner{
-    /* border: 2px solid red; */
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 3%;
+.SupportCostmaindivinner {
+  /* border: 2px solid red; */
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
 }
-.SupportCostmaindivinnerimage{
-    width: 55%;
-    position: relative;
+.SupportCostmaindivinnerimage {
+  width: 55%;
+  position: relative;
 }
-.SupportCostmaindivinnercard{
-    width: 38%;
-    border: 2px solid rgb(157, 208, 191);
-    height: 300px;
-    position: absolute;
-   right: 15%;
-    margin-top: 3%;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    text-align: center;
-    
+.SupportCostmaindivinnercard {
+  width: 38%;
+  border: 2px solid rgb(157, 208, 191);
+  height: 300px;
+  position: absolute;
+  right: 15%;
+  margin-top: 3%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
 }
-.SupportCostmaindivinnercard h2{
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 2%;
-
+.SupportCostmaindivinnercard h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 2%;
 }
-.SupportCostmaindivinnercard p{
-    font-size: 18px;
-    width: 80%;
-    margin: auto;
-    margin-top: 3%;
+.SupportCostmaindivinnercard p {
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
 }
-.SupportCostmaindivinnercard hr{
-    border: 1px solid black;
-    width: 25%;
-    margin: auto;
+.SupportCostmaindivinnercard hr {
+  border: 1px solid black;
+  width: 25%;
+  margin: auto;
 }
-.SupportCostmaindivinnercardone{
-    text-align: left;
-    margin-left: 4%;
-    margin-top: 2%;
+.SupportCostmaindivinnercardone {
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 2%;
 }
-.SupportCostmaindivinnercardone h6{
-   margin: 0;
+.SupportCostmaindivinnercardone h6 {
+  margin: 0;
 }
-.SupportCostmaindivinnercardone p{
-    margin: 0%;
-    font-size: 14px;
+.SupportCostmaindivinnercardone p {
+  margin: 0%;
+  font-size: 14px;
 }

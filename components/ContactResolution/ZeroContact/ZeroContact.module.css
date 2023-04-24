@@ -32,6 +32,7 @@
     height: 320px;
     /* padding: 20px; */
     margin: auto;
+    margin-bottom: 4%;
     /* border: 2px solid; */
 }
 .ZeroContactmaindivcardsboximage1{
@@ -39,5 +40,20 @@
     border: 2px solid;
 }
 @media (max-width:480px){
-    
+    .ZeroContactmaindivcards{
+        flex-direction: column;
+        text-align: left;
+    }
+    .ZeroContactmaindivcardsbox{
+        width: 90%;
+        height: max-content;
+        margin-top: 5%;
+    }
+    .ZeroContactmaindivcardsbox>h4{
+        text-align: center;
+    }
+    .ZeroContactmaindivcardsboximage{
+        height: auto;
+       margin: 5% auto;
+    }
 }
