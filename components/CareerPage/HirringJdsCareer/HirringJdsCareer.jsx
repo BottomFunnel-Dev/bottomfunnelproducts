@@ -2396,7 +2396,7 @@ export const HirringJdsCareer = () => {
 
                                     </div>
 
-                                    <div className={showtab === 3 ? "tab-pane fade show active" : "tab-pane fade"} style={{ textDecoration: "none", borderBottom: "none" }} >
+                                    <div className={showtab === 3 ? "tab-pane fade show active" : "tab-pane fade show"} style={{ textDecoration: "none", borderBottom: "none" }} >
 
                                         <div className={styles.hirringdropdownmaincontainer1} >
                                             <Accordion className={styles.hirringdropdowncontextouter}>
