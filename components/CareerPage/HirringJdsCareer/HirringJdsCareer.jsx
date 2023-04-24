@@ -2268,7 +2268,7 @@ export const HirringJdsCareer = () => {
                                                     </Accordion.Body>
                                                 </Accordion.Item>
 
-                                                <Accordion.Item className={styles.hirringdropdowncontext} eventKey="11">
+                                                <Accordion.Item className={styles.hirringdropdowncontext} eventKey="12">
                                                     <Accordion.Header><h6>Sr. Jest Js Developer</h6>   </Accordion.Header>
                                                     <Accordion.Body>
                                                         <div className={styles.hirringJdDataContainer1}>
