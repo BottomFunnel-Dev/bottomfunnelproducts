@@ -1,6 +1,7 @@
 .smartConversationsDownloadMain{
     display: flex;
     height: 500px;
+    margin: 3% 0;
     /* border: 2px solid red; */
     background-color: #393939;
 }
@@ -25,6 +26,11 @@
 .smartConversationsDownloadtext>h1{
     font-weight: 700;
     font-size: 40px;
+}
+.smartConversationsDownloadtext>input{
+    width:60%;
+    padding-left: 2%;
+    
 }
 .smartConversationsDownloadtext>p{
     width: 80%;
@@ -58,4 +64,35 @@
     color: #03C457;
     border: 1px solid #03C457;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media(max-width:480px){
+    .smartConversationsDownloadMain{
+        height: max-content;
+        flex-direction: column;
+        
+    }
+    .smartConversationsDownloadimg{
+        margin:auto;
+        margin-top: 5%;
+        height: auto;
+        
+    }
+    .smartConversationsDownloadtext{
+        width: 100%;
+       text-align: center;
+    }
+    .smartConversationsDownloadtext>p{
+        width: 100%;
+        padding: 2% ;
+       
+    }
+    .smartConversationsDownloadtext>input{
+        width:80%;
+        padding-left: 5%;
+        margin: auto;
+    }
+    .smartConversationsDownloadtext>button{
+        width: 50%;
+        margin: 5% 0 5% 25%;
+    }
 }

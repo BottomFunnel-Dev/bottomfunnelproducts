@@ -1,10 +1,12 @@
 .hr {
   margin: 0px;
   padding: 0px;
+  width: 85%;
 }
 
 .googleBusinessBannerParent {
   height: 100vh;
+  width: 100%;
   display: flex;
 
   padding: 5%;
@@ -13,7 +15,8 @@
 }
 .googleBusinessBannerone {
   width: 45%;
-  height: 550px;
+  height: 500px;
+  margin-top: 2%;
 }
 .googleBusinessBannertwo {
   width: 50%;
@@ -61,54 +64,45 @@
   .googleBusinessBannerParent {
     width: 100%;
     height: auto;
-    display: flex;
-    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 15%;
+
     flex-direction: column;
-    padding: 0px;
+    
   }
   .googleBusinessBannerone {
-    margin-top: 15%;
+   
     width: 100%;
-    height: 50%;
-    padding-right: 0px;
-    margin-right: 0px;
+    height: auto;
+   margin: auto;
+
   }
   .googleBusinessBannertwo {
     padding: 0px;
     margin-right: 0px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-
-    margin-bottom: 70px;
+    width: 100%; 
+    flex-direction: column; 
     padding-top: 10%;
     margin-left: 0%;
-
+ gap: 15px;
     align-items: center;
+    margin-bottom: 0%;
   }
   .googleBusinessBannertwo > h1 {
-    width: 75%;
-    font-weight: 700;
-    font-size: 32;
+    width: 95%;
+    
+  }
+  .hr{
+    width: 85%;
+    margin-right: 9%;
+
   }
   .googleBusinessBannertwo > p {
-    margin-top: 2%;
-    width: 70%;
-    font-weight: 700;
-    font-size: 20;
-    color: #393939;
+   
+    width: 94%;
+    font-size: 16px;
   }
-  .googleBusinessBannertwo > button {
-    width: 200px;
-    height: 40px;
-    margin-top: 5%;
-    display: inline-block;
-    background-color: #03c457;
-    padding: 5px;
-    text-align: center;
-    border: none;
-    border-radius: 20px;
-    text-decoration: white;
-    color: aliceblue;
-  }
+ .googleBusinessBannertwo > button {
+  height: 50px;
+ }
 }

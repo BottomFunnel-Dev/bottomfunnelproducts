@@ -20,7 +20,7 @@ export const GoogleBusinessMessageBanner = () => {
                 <h1>Support customers at their moment
                     of need with Google’s Business
                     Messages </h1>
-                <hr className={styles.hr} style={{ width: "80%" }} />
+                <hr className={styles.hr}/>
 
                 <p>Engage high-intent visitors from Google Search and Google
 Maps to drive smarter and richer conversations</p>

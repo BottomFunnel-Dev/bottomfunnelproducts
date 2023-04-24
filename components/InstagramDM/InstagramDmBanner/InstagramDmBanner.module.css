@@ -32,9 +32,10 @@
         margin-top: 4%;
         border-radius: 15px;
         background-color: #03C457;
-        border: none;
+        border: 1px solid transparent;
         color: white;
         cursor: pointer;
+        box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
 }
 .instagramDmBannertext>button:hover{
     background-color: white;
@@ -45,49 +46,33 @@
 
 @media only screen and (min-width:0px) and (max-width:600px){
     .instagramDmBannerMain{
-        display: flex;
         flex-direction: column;
-        height: 100vh;
         
     }
     .instagramDmBannerimg{
-        width: 70%;
-        height: 450px;
-        margin-top: 10%;
-        margin-left: 14%;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 15%;
     }
     .instagramDmBannertext{
-        margin-top: 17%;
-        margin-left: 10%;
         width: 90%;
+        margin: 4% auto;
+        text-align: center;
+        
+        
     }
     .instagramDmBannertext>hr{
-        width: 80%;
-    }
+        width: 100%;
+        }
+        .instagramDmBannertext>p{
+            width: 100%;
+            }
     .instagramDmBannertext>h1{
-        font-weight: 700;
-        font-size: 35px;
-    }
-    .instagramDmBannertext>p{
-        width: 90%;
-        font-weight: 400;
-        font-size: 20px;
+        
+        font-size: 38px;
     }
     .instagramDmBannertext>button{
-        padding: 10px 30px;
-            font-size: 18px;
-            font-weight: 600;
-            margin: 4% 0% 4% 17%;
-            border-radius: 15px;
-            background-color: #03C457;
-            border: none;
-            color: white;
-            cursor: pointer;
-    }
-    .instagramDmBannertext>button:hover{
-        background-color: white;
-        color: #03C457;
-        border: 1px solid #03C457;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-top: 3%;
     }
 }

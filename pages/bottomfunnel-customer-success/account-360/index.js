@@ -1,6 +1,7 @@
 import { Account360degBanner } from "../../../components/Account360deg/Account360degBanner/Account360degBanner"
 import { Account360degCTE } from "../../../components/Account360deg/Account360degCTE/Account360degCTE"
 import { Account360degData } from "../../../components/Account360deg/Account360degData/Account360degData"
+import { CustomerSuccess } from "../../../components/Navbar/CustomerSuccess/CustomerSuccess"
 
 import Navbar from "../../../components/Navbar/Navbar"
 import { ServiceNavbar } from "../../../components/Navbar/ServiceNavbar/ServiceNavbar"
@@ -24,12 +25,12 @@ return(
           }}
         />
     
-        <ServiceNavbar
-          navproductredux={{
-          color: "black",
-          logo: false,
-        }}  
-      />
+    <CustomerSuccess
+      navproductredux={{
+        color: "black",
+        logo: false,
+      }}
+    />
       <Account360degBanner/>
       <Account360degData/>
       <Account360degCTE/>

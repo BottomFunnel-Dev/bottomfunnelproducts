@@ -3,6 +3,7 @@
     width: 100%;
     height: 500px;
     text-align: center;
+   
 }
 .instagramDmCustomersDiv{
     /* border: 2px solid red; */
@@ -24,4 +25,23 @@
     /* border: 2px solid red; */
     width: 40%;
 
+}
+@media(max-width:480px){
+    .instagramDmCustomersContainer{
+        margin-top: 4%;
+        height: auto;
+    }
+    .instagramDmCustomersDiv{
+        flex-direction: column-reverse;
+        height: max-content;
+    }
+    .instagramDmCustomerLeft{
+        width: 90%;
+        margin: auto;
+        padding: 5%;
+    }
+    .instagramDmCustomerRight{
+        width: 90%;
+        margin-left: 10%;
+    }
 }
