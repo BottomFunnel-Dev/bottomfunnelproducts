@@ -68,6 +68,7 @@
   .helpdesklowerbannersomebutton {
     width: 100%;
     margin: 0;
+    margin-top: 5%;
     display: flex;
     gap: 20px;
     align-items: center;

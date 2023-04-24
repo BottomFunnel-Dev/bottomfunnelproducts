@@ -59,12 +59,17 @@
 
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
+  .CollaborationOffersContainer{
+    margin-top: 15%;
+  }
+
   .CollaborationOffersContainer > h1 {
     font-size: 25px;
   }
 
   .CollaborationOffersMain > div {
     flex-direction: column;
+    margin-top: 10%;
   }
 
   .CollaborationOffersMain > div > span {

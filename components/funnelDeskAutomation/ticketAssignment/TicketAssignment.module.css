@@ -46,28 +46,33 @@
 /* media query for mobile and tablets */
 @media (max-width: 1024px) {
     .ticketAssignmentContainer>h1 {
-        font-size: 20px;
+        font-size: 24px;
+       
     }
 
     .ticketAssignmentContainer>div>div:nth-child(2) {
         flex-direction: column-reverse;
+       
     }
 
     .ticketAssignmentMain {
         flex-direction: column-reverse;
+        
     }
 
     .ticketAssignmentMain>div {
         width: 90%;
+        
     }
 
     .ticketAssignmentMain>div>h2 {
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 2%;
+      
     }
 
     .ticketAssignmentMain>div>p {
-        font-size: 14px;
+        font-size: 16px;
         text-align: justify;
     }
 

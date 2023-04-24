@@ -8,7 +8,7 @@ export default function Setup() {
     <div className={styles.setup}>
       {contactcenter.map((item, index) => (
         <div
-          style={{ flexDirection: item.directions ? "row" : "row-reverse" }}
+          // style={{ flexDirection: item.directions ? "row" : "row-reverse" }}
           key={index}
           className={styles.setupContent}
         >

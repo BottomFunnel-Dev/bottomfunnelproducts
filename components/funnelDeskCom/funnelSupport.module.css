@@ -36,26 +36,34 @@
 
 @media (max-width: 1024px) {
   .supportDesk {
-    width: 90%;
+    width: 95%;
+    margin-top: 8%;
   }
 
-  .supportDesk > h1 {
+  .supportDesk > h2 {
     font-size: 25px;
     line-height: 30px;
+    text-align: justify;
     margin-top: 0;
   }
   .supportDesk > p {
-    font-size: 14px;
+    font-size: 20px;
+    margin-top: 6%;
+    text-align: justify;
     line-height: 20px;
   }
 
   .deskImage {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 20px;
+    row-gap: 20px; */
+    flex-direction: column;
   }
 
   .deskImage > img {
-    width: 50%;
+    width: 90%;
+    margin-top: 20%;
+    /* gap: 5%; */
+    /* column-gap: 5%; */
   }
 }
