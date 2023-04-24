@@ -18,6 +18,7 @@ import { GetStarted } from "../../../../components/ProductsNewPage/GetStarted/Ge
 import { ProductsFooter } from "../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Testimonial";
 import ReadyStarted from "../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import { DeskFooter } from "../../../../components/DeskFooter/DeskFooter";
 
 export default function FunnedDeskSecurity() {
   return (
@@ -52,7 +53,8 @@ export default function FunnedDeskSecurity() {
       <ReadyStarted/>
       {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 }

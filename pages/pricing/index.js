@@ -1,3 +1,4 @@
+import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 import Navbar from "../../components/Navbar/Navbar";
 import { PricingAddOns } from "../../components/Pricing/PricingAddOns/PricingAddOns";
 
@@ -37,7 +38,8 @@ export default function Pricing() {
       <TalentProfiles />
 
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 }

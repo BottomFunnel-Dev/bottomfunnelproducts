@@ -3,7 +3,7 @@
   position: relative;
   margin-top: 120px;
   background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/banner-background.jpg");
-  background-size: 105%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -29,6 +29,7 @@
 .awardsbannerContent > h1 {
   font-size: 37px;
   margin-bottom: 3%;
+  text-align: left;
 }
 
 .awardsbannerContent > p {

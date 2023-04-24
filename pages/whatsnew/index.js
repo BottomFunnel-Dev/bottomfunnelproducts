@@ -9,6 +9,7 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import WhatsNewBanner from "../../components/WhatsNew/WhatsNewBanner/WhatsNewBanner";
 import WhatsNewDetails from "../../components/WhatsNew/WhatsNewDetails/WhatsNewDetails";
 import WhatsNewMonth from "../../components/WhatsNew/WhatsNewMonth/WhatsNewMonth";
+import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 
 export default function WhatsNew() {
   const productData = {
@@ -92,7 +93,8 @@ export default function WhatsNew() {
       <Testimonial />
       <ReadyStarted />
       <LifeBottomFunnel />
-      <ProductsFooter />
+      <DeskFooter/>
+      {/* <ProductsFooter /> */}
     </div>
   );
 }

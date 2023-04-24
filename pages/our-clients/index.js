@@ -29,14 +29,14 @@ export default function OurClients() {
       </Head>
 
       <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "white",
-            logo: true,
-          }}
-        />
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
       <main>
         <ClientBanner />

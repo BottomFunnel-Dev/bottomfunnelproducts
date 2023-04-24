@@ -1,5 +1,6 @@
 import React from "react";
 import clients from "./ClientBanner.module.css";
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 
 export const ClientBanner = () => {
   return (
@@ -12,7 +13,36 @@ export const ClientBanner = () => {
           Bottom Funnel becomes the first choice of customers in this digital
           age.
         </p>
-        <button>Become Client</button>
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">Become Client</button>
+
+        <div
+          className="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className={clients.ourClientBannerImage}>

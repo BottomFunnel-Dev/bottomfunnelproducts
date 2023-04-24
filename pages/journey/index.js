@@ -1,3 +1,4 @@
+import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 import { ChatCampaign } from "../../components/Journey/ChatCampaign/ChatCampaign";
 import { JourneyBanner } from "../../components/Journey/JourneyBanner/JourneyBanner";
 import { JourneyCustomerExperience } from "../../components/Journey/JourneyCustomerExperience/JourneyCustomerExperience";
@@ -101,7 +102,8 @@ export default function Journey() {
         <ReadyStarted/>
         {/* <TalentProfiles/> */}
         <LifeBottomFunnel/>
-        <ProductsFooter /> 
+        <DeskFooter/>
+        {/* <ProductsFooter />  */}
        </div>
         
 

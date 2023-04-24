@@ -50,7 +50,7 @@
 
 .lifeImageDiv1 {
   /* border: 1px solid rebeccapurple; */
-  width: 100%;
+  width: 95% !important;
   margin-left: 4%;
   margin-top: -20%;
   z-index: 1;
@@ -71,9 +71,8 @@
 }
 
 .lifeImageDiv {
-  /* border: 1px solid rebeccapurple; */
-  width: 100%;
-  margin-left: 4%;
+  width: 96%;
+  margin-left: 13%;
   z-index: 1;
 }
 
