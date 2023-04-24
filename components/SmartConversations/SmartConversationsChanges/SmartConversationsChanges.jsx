@@ -7,8 +7,8 @@ export default function SmartConversationsChanges () {
     <div className={styles.smartConversationsChangesMain}>
        
        <div className={styles.smartConversationsChangestext}>
-            <h1>Bottom Funnel Changes the Conversation</h1>
-            <p>Unify messaging across digital channels.Deflect intuitively with native AI.Empower your agents with complete context. Bottom Funnel Chat by Bottom Funnel does it all. Learn more about our game-changing conversational engagement solution.</p>
+            <h2>Bottom Funnel Changes the Conversation</h2>
+            <p>Unify messaging across digital channels. Deflect intuitively with native AI. Empower your agents with complete context. Bottom Funnel Chat by Bottom Funnel does it all. Learn more about our game-changing conversational engagement solution.</p>
             <button>Explore Now</button>
         </div>
 

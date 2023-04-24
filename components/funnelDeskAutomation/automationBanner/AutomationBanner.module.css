@@ -57,11 +57,14 @@
 @media (max-width: 1024px) {
     .AutomationBannerContainer {
         flex-direction: column-reverse;
+        margin-top: 20%;
     }
 
     .AutomationBannerContainer>div {
         width: 95%;
         text-align: center;
+        margin: auto;
+        margin-top: 5%;
     }
 
     .AutomationBannerContainer>div>h1 {
@@ -70,12 +73,14 @@
     }
 
     .AutomationBannerContainer>div>p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .AutomationBannerContainer>div>button {
-        font-size: 14px;
-        padding: 8px 20px;
+        font-size: 15px;
+        width: 40%;
+        height: 45px;
+        /* padding: 8px 20px; */
     }
 
     .AutomationBannerContainer>span {

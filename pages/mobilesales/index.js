@@ -11,6 +11,7 @@ import { SalesActivities } from '../../components/SalesMobileofFeatures/SalesAct
 import { SalesMobileofFeaturesbanner } from '../../components/SalesMobileofFeatures/SalesMobileofFeaturesbanner/SalesMobileofFeaturesbanner'
 import { Solution } from '../../components/SalesMobileofFeatures/Solution/Solution'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { SalesFooter } from '../../components/SalesFooter/SalesFooter'
 
 export default function mobilesales() {
     return (
@@ -41,8 +42,8 @@ export default function mobilesales() {
         <Testimonial />
 
       <LifeBottomFunnel />
-      <ProductsFooter />
-     
+     {/* added footer of sales in place of product footer */}
+     <SalesFooter/>
     </div>
     </>
   )

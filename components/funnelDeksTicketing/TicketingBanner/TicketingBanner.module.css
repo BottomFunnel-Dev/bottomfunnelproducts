@@ -76,11 +76,13 @@
   .ticketingBannerContainer {
     flex-direction: column;
     height: fit-content;
-    padding: 3% 0;
+    margin-top: 18%;
+    
   }
 
   .ticketingBannerImage {
-    width: 80%;
+    width: 90%;
+   
   }
 
   .ticketingBannerContent {
@@ -93,17 +95,23 @@
   }
 
   .ticketingBannerContent > h1 {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 30px;
+    /* line-height: 35px; */
+    text-align: left;
+    margin-top: 5%;
   }
 
   .ticketingBannerContent > p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 20px;
+    /* line-height: 20px; */
+    text-align: justify;
   }
 
-  .ticketingBannerContent > button {
-    font-size: 13px;
-    padding: 8px 20px;
+  .ticketingBannerButtons > button {
+    font-size: 18px;
+    width: 40%;
+    height: auto;
+    margin-top: 4%;
+    
   }
 }

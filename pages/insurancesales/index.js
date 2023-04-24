@@ -16,6 +16,7 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import { SalesFooter } from "../../components/SalesFooter/SalesFooter";
 
 export default function InsuranceSales() {
   return (
@@ -51,7 +52,7 @@ export default function InsuranceSales() {
         <TrustedBy/>
         <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+     <SalesFooter/>
       </div>
     </>
   );

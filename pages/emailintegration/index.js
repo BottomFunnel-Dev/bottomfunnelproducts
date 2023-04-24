@@ -11,6 +11,7 @@ import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/
 import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { SalesFooter } from '../../components/SalesFooter/SalesFooter'
 
 export default function emailintegration() {
     return (
@@ -43,7 +44,8 @@ export default function emailintegration() {
         <Trial/>
         <Testimonial />
       <LifeBottomFunnel />
-      <ProductsFooter />
+      {/* added footer of sales in place of product footer */}
+      <SalesFooter/>
     </div>
     </>
   )

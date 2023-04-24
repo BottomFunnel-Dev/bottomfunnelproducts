@@ -3,7 +3,9 @@
     width: 100%;
     height: 500px;
     text-align: center;
+    padding: 2% ;
     background-color: #f4f4f4;
+    margin-bottom: 3%;
 }
 .instagramDmDelightfullDiv{
     /* border: 2px solid red; */
@@ -18,11 +20,35 @@
     text-align: left;
     padding: 30px;
     margin-left: 5%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .instagramDmCustomerRight{
     /* border: 2px solid red; */
     width: 40%;
+    margin-left: 4%;
+    margin-bottom: 3%;
 
+}
+@media(max-width:480px){
+    .instagramDmDelightfullContainer{
+     height: auto;
+     padding-top: 7%;
+     margin-bottom: 5%;
+    }
+    .instagramDmDelightfullDiv{
+        /* border: 2px solid red; */
+       
+        flex-direction: column;
+        height: max-content;
+    }
+    .instagramDmCustomerLeft{
+        width: 90%;
+        margin: auto;
+        padding: 2%;
+    }
+    .instagramDmCustomerRight{
+        width: 90%;
+        margin: 3% auto;
+    }
 }

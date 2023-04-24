@@ -34,4 +34,20 @@
 .ContactResolutionBannermaindivinner h1{
     font-size: 40px;
 }
-
+@media(max-width:480px){
+    .ContactResolutionBannermaindiv{
+        flex-direction: column-reverse;
+        margin-top: 20%;
+        height: max-content;
+    }
+    .ContactResolutionBannermaindivinner{
+        width: 80%;
+        text-align: center;
+        margin: 4% auto;
+        
+    }
+    .ContactResolutionBannerimage{
+        width: 80%;
+        height: auto;
+    }
+}

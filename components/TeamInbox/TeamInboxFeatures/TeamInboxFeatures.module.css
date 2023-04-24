@@ -49,8 +49,7 @@ background-color: #fafafa;
 
 @media only screen and (min-width:0px) and (max-width:600px){
     .TeamInboxFeatureMain{
-        width: 100%;
-        height: fit-content;
+        margin-top: 5%;
     }
     .TeamInboxFeatureMain>h2{
         text-align: center;
@@ -73,7 +72,6 @@ background-color: #fafafa;
     flex-direction: column;
         height: fit-content;
         padding: 20px;
-        gap: 4%;
         margin-top: 5%;
     }
     .TeamInboxFeaturediv:nth-child(odd){

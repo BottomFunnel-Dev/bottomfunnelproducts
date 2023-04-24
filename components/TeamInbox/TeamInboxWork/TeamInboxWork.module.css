@@ -26,7 +26,7 @@
 
 @media only screen and (min-width:0px) and (max-width:600px){
     .TeamInboxWorkmain{
-        padding: 3%;
+        padding: 5% 3%;
         height: fit-content;
         margin-top: 5%;
         text-align: center;

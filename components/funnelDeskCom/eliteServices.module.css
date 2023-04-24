@@ -77,9 +77,8 @@
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
   .eliteservice {
-    padding: 0;
     width: 100%;
-    margin: 0;
+   margin-top: 15%;
   }
 
   .eliteservice > h1 {
@@ -92,13 +91,14 @@
   .eliteservice > p {
     width: 95%;
     margin: 3% auto;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
   }
 
   .contentSide > button {
-    font-size: 12px;
-    width: 100%;
+    font-size: 16px;
+    width: 80%;
+    height: auto;
     border-radius: 0;
     margin: 1% 0;
   }
@@ -109,30 +109,35 @@
     flex-direction: column;
     align-items: center;
     height: fit-content;
+   
   }
 
   .contentSide {
     width: 100%;
     text-align: center;
+   
   }
 
   .contentSide > h2 {
     font-size: 23px;
     line-height: 25px;
-    margin-top: 0;
+    margin-top: 15%;
   }
 
   .contentSide > p {
-    font-size: 14px;
+    font-size: 19px;
     line-height: 20px;
+    margin-top: 5%;
+    text-align: justify;
   }
 
   .contentSide > h5 {
-    font-size: 12px;
+    font-size: 20px;
     line-height: 20px;
   }
 
   .gifSide {
-    width: 60%;
+    width: 100%;
+    height: auto;
   }
 }

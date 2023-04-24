@@ -94,7 +94,7 @@
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
   .helpwidgetbannerbox {
-    padding: 15px 0;
+   margin-top: 10%;
   }
 
   .helpwidgetbannerbox>h4 {
@@ -108,38 +108,39 @@
   }
 
   .helpwidgetbannersometextafterbanner>p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
     margin: 2% 0;
   }
 
   .helpwidgetdatamappingbeforebox {
     width: 100%;
-    padding: 2% 0;
+   margin-top: 10%;
+
   }
 
   .helpwidgetdatamappingbeforebox>h2 {
-    font-size: 25px;
-    line-height: 28px;
-    margin: 2% 0;
+    font-size: 26px;
   }
 
   .helpwidgetdatamappingbeforebox>p {
-    font-size: 14px;
-    line-height: 20px;
-    margin: 2% 0;
+    width: 95%;
+    margin: auto;
+    font-size: 18px; 
   }
 
   .helpwidgetmappingdataafterbox {
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
+   
   }
 
   .helpwidgetmaperboxindivisually {
     width: 90%;
     border: none;
-    margin: 2% 0;
+    margin: 5% 0;
     height: fit-content;
+   
   }
 
   .helpwidgetmaperboxindivisuallyimage {
@@ -152,15 +153,17 @@
     width: 100%;
     text-align: center;
     margin: 0;
+    
   }
 
   .helpwidgetmaperboxindivisuallytxt>h4 {
-    font-size: 20px;
+    font-size: 24px;
     margin: 2% 0;
+    
   }
 
   .helpwidgetmaperboxindivisuallytxt>p {
-    font-size: 14px;
+    font-size: 18px;
     margin: 2% 0 0;
   }
 
@@ -169,11 +172,14 @@
     align-items: center;
     justify-content: center;
     padding: 2% 0;
+    
   }
 
   .helpwidgetsipportdeskboxleft {
     width: 90%;
     text-align: center;
+    margin: auto;
+   
   }
 
   .helpwidgetsipportdeskboxright {
@@ -187,8 +193,8 @@
   }
 
   .helpwidgetsipportdeskboxleft>p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    text-align: justify;
     margin: 2% 0;
   }
 }

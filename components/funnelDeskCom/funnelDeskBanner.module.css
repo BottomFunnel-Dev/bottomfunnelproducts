@@ -121,6 +121,8 @@
   .mainContentBanner {
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
+    height: auto;
   }
 
   .imagePart {
@@ -135,19 +137,20 @@
   }
 
   .contentPart > h1 {
-    font-size: 32px;
-    width: 90%;
+    font-size: 30px;
+    width: 100%;
+    height: auto;
   }
 
   .contentPart > p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .freetrial,
   .demostart {
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px 30px;
-    margin: 0;
+    margin-left: 2px;
   }
 
   .demostart {
@@ -156,6 +159,7 @@
 
   .bannerBackImgLeft,
   .bannerBackImgRight {
-    margin-top: 3%;
+    /* margin-top: 3%; */
+    display: none;
   }
 }

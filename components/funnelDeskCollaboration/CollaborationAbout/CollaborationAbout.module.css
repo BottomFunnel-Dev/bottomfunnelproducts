@@ -47,6 +47,7 @@
 @media (max-width: 1024px) {
   .CollaborationAboutContainer {
     flex-direction: column-reverse;
+    margin-top: 15%;
   }
 
   .CollaborationAboutContent {
@@ -59,7 +60,7 @@
   }
 
   .CollaborationAboutContent > p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     text-align: justify;
   }

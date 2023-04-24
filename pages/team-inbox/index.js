@@ -9,7 +9,7 @@ import TeamInboxFeatures from "../../components/TeamInbox/TeamInboxFeatures/Team
 import TeamInboxLower from "../../components/TeamInbox/TeamInboxLower/TeamInboxLower";
 import TeamInboxWork from "../../components/TeamInbox/TeamInboxWork/TeamInboxWork";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
+import { ChatFooter } from "../../components/ChatFooter/ChatFooter"
 
 
 const productData = {

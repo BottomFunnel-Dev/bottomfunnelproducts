@@ -53,22 +53,22 @@
   .simplifiedTickettingContainer div {
     flex-direction: column;
     width: 100%;
+    margin-top: 10%;
+    
   }
 
   .simplifiedTickettingContent {
     width: 95%;
-    margin-bottom: 5%;
     text-align: center;
   }
 
   .simplifiedTickettingContent > h1 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 26px;
+    
   }
 
   .simplifiedTickettingContent > p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
   }
 
   .simplifiedTickettingImage {
@@ -79,10 +79,12 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 2%;
+    
   }
 
   .simplifiedTickettingImage > img {
     width: 50%;
     transform: scale(1.3);
+    
   }
 }

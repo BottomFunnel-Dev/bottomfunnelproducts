@@ -61,7 +61,8 @@
   .CollaborationBannerContainer {
     flex-direction: column;
     height: fit-content;
-    padding: 40px 0 25px;
+    margin-top: 20%;
+    
   }
 
   .CollaborationBannerContent {
@@ -76,17 +77,24 @@
   .CollaborationBannerContent > h1 {
     font-size: 32px;
     line-height: 32px;
-    margin-bottom: 3%;
+    margin-top: 3%;
+   
   }
 
   .CollaborationBannerContent > p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
+    margin-top: 3%;
+    width: 95%;
+    margin: auto;
+    text-align: justify;
   }
 
   .CollaborationBannerContent > button {
-    font-size: 14px;
-    padding: 5px 25px;
+    font-size: 16px;
+    margin-top: 5%;
+    width: 35%;
+  height: 45px;
   }
 
   .CollaborationBannerImage {

@@ -110,7 +110,7 @@ export const CustomerSuccess = ({ navproductredux }) => {
       }}
     >
       <div className={prodnav.deskLogo}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/support-desk.png" />
+        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/customer-sucess.png" />
         <h5>Bottom Funnel Customer Success</h5>
       </div>
       <div className={prodnav.deskList}>

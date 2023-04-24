@@ -8,7 +8,7 @@ export const Messagincommunication = () => {
     const messagingcommunicationdata = [
         {
             htxt:"Connect across apps",
-            stxt:"Simplify communication across Google's Business Messages.Apple Messages for Business, WhatApp and more.",
+            stxt:"Simplify communication across Google's Business Messages. Apple Messages for Business, WhatApp and more.",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 46.webp",
         },
 
@@ -28,7 +28,8 @@ export const Messagincommunication = () => {
   return (
     <div className={styles.messaigingcommunicationmainboxes}>
     <h1>Redefine your customer communication</h1>
-    <div className={styles.messagingcommunicationdatamappingbox}>{messagingcommunicationdata.map((e)=>{
+    <div className={styles.messagingcommunicationdatamappingbox}>
+        {messagingcommunicationdata.map((e)=>{
         return (
             <div className={styles.messagingcommunicationindidata}>
            <div className={styles.messagingchannelimagebox}>

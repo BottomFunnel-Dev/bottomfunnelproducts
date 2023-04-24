@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* border: 1px solid red; */
     
 
 }
@@ -27,4 +28,27 @@
     height: 60px;
     /* padding: 20px; */
     margin: auto;
+}
+@media(max-width:480px){
+    .ResolutionWaymaindivheading{
+        width: 90%;
+        margin-top: 4%;
+    }
+    .ResolutionWaymaindivcards{
+        flex-direction: column;
+       
+    }
+    .ResolutionWaymaindivcardsbox{
+        width: 80%;
+        border: none;
+        margin-top: 10%;
+    }
+    .ResolutionWaymaindivcardsbox>h6{
+        font-size: 24px;
+        
+    }
+    .ResolutionWaymaindivcards{
+        border: 1px solid transparent;
+    }
+    
 }
