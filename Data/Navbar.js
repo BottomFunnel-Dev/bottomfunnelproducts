@@ -1452,7 +1452,7 @@ export const productFeatures = [
 export const productResources = [
   {
     dropContent: "Remote Support",
-    path: "",
+    path: "/remote-support",
   },
   {
     dropContent: "Customer Stories",
