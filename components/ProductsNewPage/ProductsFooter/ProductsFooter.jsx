@@ -18,7 +18,7 @@ export const ProductsFooter = () => {
                     <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
                 </div>
 
-                <div className={styles.productsFooterSideButtons}>
+                <div className={styles.productFooterLogoDiv1}>
                     <Link href="/career">
                         <button className={styles.productsFooterCallToAction}>
                             Hire a Talent
