@@ -1452,39 +1452,39 @@ export const productFeatures = [
 export const productResources = [
   {
     dropContent: "Remote Support",
-    path: "",
+    path: "/remote-support",
   },
   {
     dropContent: "Customer Stories",
-    path: "",
+    path: "/resources-customers",
   },
   {
     dropContent: "Resource Library",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Webinars",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Videos",
-    path: "",
+    path: "/videos",
   },
   {
     dropContent: "Free Tools",
-    path: "",
+    path: "/",
   },
   {
     dropContent: "Academy",
-    path: "",
+    path: "/academy",
   },
   {
     dropContent: "Blog",
-    path: "",
+    path: "blogs",
   },
   {
     dropContent: "What's new",
-    path: "",
+    path: "/",
   },
 ];
 

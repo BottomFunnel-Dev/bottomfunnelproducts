@@ -28,7 +28,7 @@ const productData = {
       },
       {
         dropContent: "Chatbots",
-        path: "/",
+        path: "/chatbots",
       },
       {
         dropContent: "Team Inbox",

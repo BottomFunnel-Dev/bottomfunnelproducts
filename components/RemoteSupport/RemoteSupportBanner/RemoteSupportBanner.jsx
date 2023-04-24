@@ -7,7 +7,7 @@ export const RemoteSupportBanner=()=>{
 return(
     <div className={styles.RemoteSupportBannerHeader}>
         <div className={styles.RemoteSupportBannerdiv}>
-             <div className={styles.RemoteSupportBannerMain}>n
+             <div className={styles.RemoteSupportBannerMain}>
             <Image
                     src={"/Images/RemoteSupport/banner.png"}
                     alt={"image"}
@@ -23,7 +23,7 @@ return(
             A collection of useful resources that will help your team make the transition to remote customer
             support without any hassles.
             </p>
-            <button className={styles.NeoMainpageCTEtwodemo}>Start a free demo</button>
+            <button className={styles.RemoteSupportBannerdemo}>Start a free demo</button>
         </div>
 
         </div>

@@ -1,5 +1,4 @@
 import Navbar from "../../components/Navbar/Navbar";
-import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
@@ -11,26 +10,27 @@ import { RemoteSupportExperts } from "../../components/RemoteSupport/RemoteSuppo
 import { RemoteSupportGuide } from "../../components/RemoteSupport/RemoteSupportGuide/RemoteSupportGuide";
 import { RemoteSupportNew } from "../../components/RemoteSupport/RemoteSupportNew/RemoteSupportNew";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-
+import { Omnichannel } from '../../components/Navbar/Omnichannel/Omnichannel'
 
 export default function RemoteSupport(){
     return(
         <div>
-            <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <ProductsNavbar
-        navproductredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
+      <Navbar
+      productMount={{
+        navMount: true,
+      }}
+      navredux={{
+        color: "black",
+        logo: false,
+      }}
+    />
+    <Omnichannel
+      navproductredux={{
+        color: "black",
+        logo: false,
+      }}
+    />
+
 <RemoteSupportBanner/>
 <RemoteSupportNew/>
 <RemoteSupportCTEone/>
