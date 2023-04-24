@@ -1,5 +1,6 @@
 .messagingplatformsmainboxes{
     height: fit-content;
+    padding-top: 3%;
 }
 
 .messagingplatformsmainboxes>h1{
@@ -9,6 +10,7 @@
     height: fit-content;
     margin: auto;
     width: 80%;
+   
 }
 
 .messagingplatformsindidata{
@@ -20,9 +22,12 @@
 .messagingplatformsindidata:nth-child(even){
     flex-direction: row-reverse;
 }
+.messagingplatformsindileftbox :nth-child(odd){
+    height: 46vh;
+}
 .messagingplatformsindirightbox{
-    margin-left: 5%;
-    margin-top: 5%;
+   
+    margin: auto 3%;
 }
 
 .messagingplatformsindirightbox>h3{

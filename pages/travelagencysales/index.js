@@ -12,6 +12,7 @@ import { TravelAgencySalesBanner } from '../../components/TravelAgencySales/Trav
 import { TravelFeatures } from '../../components/TravelAgencySales/TravelFeatures/TravelFeatures'
 import { TravelSystem } from '../../components/TravelAgencySales/TravelSystem/TravelSystem'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { SalesFooter } from '../../components/SalesFooter/SalesFooter'
 
 export default function  travelagencysales()  {
     return (
@@ -45,7 +46,8 @@ export default function  travelagencysales()  {
         <TrustedBy/>
         <ReadyStarted />
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+      {/* added footer of sales in place of product footer */}
+      <SalesFooter/>
     </div>
     </>
   )

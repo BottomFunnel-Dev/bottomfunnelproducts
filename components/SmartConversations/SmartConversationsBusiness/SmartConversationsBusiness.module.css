@@ -30,6 +30,7 @@
 .smartConversationsBusinessImages>h5{
     border: 1px solid #03C457;
     border-bottom: none;
+    margin-bottom:0;
     border-radius: 5px 5px 0px 0px;
     height: 45px;
     width: 33%;
@@ -49,4 +50,45 @@
     /* border: 2px solid red; */
     width: 80%;
     /* height: 500px; */
+}
+@media(max-width:480px){
+    .smartConversationsBusinessMainDiv{
+        margin-top: 22%;
+    }
+    .smartConversationsBusinessImagesDiv{
+        flex-direction: column;
+        gap: 5%;
+        
+    }
+    .smartConversationsBusinessImages{
+        width: 100%;
+        margin-left: 0;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .smartConversationsBusinessImages>h5{
+        border:1px solid #03C457;
+        background-color:  #03C457;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        width: 60%;
+        padding: 2% 1%;
+        margin-bottom: 0;
+        margin-left: 9px;
+        
+    }
+    .smartConversationsBusinessImages>p{
+        width: 95%;
+        font-size: 16px;
+        padding: 15px;
+        height: auto;
+        margin-left: 9px;
+        background-color: #f9feff;
+    }
+    .smartConversationsBusinesspic{
+        margin:5% auto;
+        width: 90%;
+
+    }
 }

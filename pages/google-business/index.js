@@ -1,3 +1,4 @@
+import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
 import { GoogleBusinessMessageBanner } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageBanner/GoogleBusinessMessageBanner";
 import { GoogleBusinessMessageCustomer } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageCustomer/GoogleBusinessMessageCustomer";
 import { GoogleBusinessMessageDemo } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageDemo/GoogleBusinessMessageDemo";
@@ -159,7 +160,7 @@ export default function guideToShopfy() {
       <TrustedBy/>
       <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ProductsFooter/>
+      <ChatFooter/>
 
     </div>
     )

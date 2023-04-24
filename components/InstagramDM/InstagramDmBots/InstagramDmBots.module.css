@@ -19,9 +19,28 @@
     margin-left: 5%;
     margin-top: 5%;
 }
-
 .instagramDmCustomerRight{
     /* border: 2px solid red; */
     width: 40%;
 
 }
+@media(max-width:480px){
+    .instagramDmBotsContainer{
+        height: auto;
+    }
+    .instagramDmBotsDiv{
+      flex-direction: column;
+      height: max-content;
+    }
+    .instagramDmCustomerLeft{
+        width: 90%;
+     margin: auto;
+        
+        
+    }
+    .instagramDmCustomerRight{
+        width: 90%;
+        margin-right:20%;
+    }
+    }
+

@@ -3,7 +3,7 @@ height: 100vh;
 border: 1px solid #f5f5f5;
 display: flex;
 background-color: #f5f5f5;
-  border-bottom: 20px solid #ef4c23;
+  border-bottom: 20px solid #03C457;
 }
 
 .messagingchannelbannerleft{
@@ -25,7 +25,7 @@ font-size: 35px;
 }
 
 .messagingchannelbannerright>h2>span{
-   color: #ef4c23;
+   color: #03C457;
 }
 
 .messagingchannelbannerright>p{
@@ -37,7 +37,7 @@ width: 90%;
 padding: 15px 50px;
 border-radius: 100px;
 width: 220px;
-background-color: #ef4c23;
+background-color: #03C457;
 border: none;
 outline: none;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -49,7 +49,7 @@ margin-top: 4%;
   
   .messaginchannelbannerbuton:hover {
 background-color: white;
-color: #ef4c23;
+color: #03C457;
   }
 
 
@@ -61,7 +61,7 @@ border: 1px solid #f5f5f5;
 display: flex;
 flex-wrap: wrap;
 background-color: #f5f5f5;
-border-bottom: 10px solid #ef4c23;
+border-bottom: 10px solid #03C457;
 }
 
 .messagingchannelbannerleft{
@@ -84,31 +84,32 @@ text-align: center;
 }
 
 .messagingchannelbannerright>h2>span{
-   color: #ef4c23;
+   color: #03C457;
 }
 
 .messagingchannelbannerright>p{
 font-size: 20px;
-text-align: justify;
+text-align: center;
 }
 
 .messaginchannelbannerbuton {
 padding: 10px 20px;
 border-radius: 100px;
 width: 220px;
-background-color: #ef4c23;
+background-color: #03C457;
 border: none;
 outline: none;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 font-size: 18px;
 font-weight: 600;
 color: white;
+margin-left: 17%;
 margin-bottom: 3%;
 }
   
 .messaginchannelbannerbuton:hover {
 background-color: white;
-color: #ef4c23;
+color: #03C457;
   }
 
 }

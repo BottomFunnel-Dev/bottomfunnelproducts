@@ -13,14 +13,14 @@ export const ActiveGoals = () => {
             <div className={styles.ActiveGoalsmaindivcards}>
                 <div className={styles.ActiveGoalsmaindivcardsdiv}>
                     <div className={styles.ActiveGoalsmaindivcardsdivinner}>
-                        <h5>increase up-sells and expansions</h5>
+                        <h5>Increase up-sells and expansions</h5>
                         <div>
                             <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customersuccesshomepagephotos/logo1.png" alt="image" />
                         </div>
                         <p>Automatically alert your team to opportunities and convert more trials,upsells,and cross-sells.</p>
                     </div>
                     <div className={styles.ActiveGoalsmaindivcardsdivinner}>
-                        <h5>increase up-sells and expansions</h5>
+                        <h5>Increase up-sells and expansions</h5>
                         <div>
                             <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customersuccesshomepagephotos/logo2.png" alt="image" />
                         </div>

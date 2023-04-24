@@ -10,6 +10,7 @@ import { Solution } from "../../components/SalesMobileofFeatures/Solution/Soluti
 import { SalesReportsBanner } from "../../components/SalesReports/SalesReportsBanner/SalesReportsBanner";
 import { SalesReportsScreens } from "../../components/SalesReports/SalesReportsScreens/SalesReportsScreens";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import { SalesFooter } from "../../components/SalesFooter/SalesFooter";
 
 export default function salesreports() {
   return (
@@ -39,7 +40,8 @@ export default function salesreports() {
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />
-        <ProductsFooter />
+         {/* added footer of sales in place of product footer */}
+     <SalesFooter/>
       </div>
     </>
   );

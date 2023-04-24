@@ -13,6 +13,8 @@ import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/
 import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
 import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
 import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { SalesFooter } from '../../components/SalesFooter/SalesFooter'
+import { SalesNavbar } from '../../components/Navbar/SalesNavbar/SalesNavbar'
 
 export default function  dealmanagement()  {
   return (
@@ -27,6 +29,7 @@ export default function  dealmanagement()  {
           logo: false,
         }}
       />
+      
     <DealManagementBanner />
     <PipelineManagement />
     <DealBusinesshealth />
@@ -40,7 +43,9 @@ export default function  dealmanagement()  {
     <Testimonial />
     <ReadyStarted />
     <LifeBottomFunnel />
-    <ProductsFooter />
+     {/* added footer of sales in place of product footer */}
+     <SalesFooter/>
+    
 
     </div>
   )
