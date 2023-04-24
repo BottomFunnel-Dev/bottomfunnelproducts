@@ -83,8 +83,13 @@
 
 /* media query for mobile and tablet  */
 @media (max-width: 1024px) {
+  .ticketingServicesMainDiv{
+    margin-top: 10%;
+   
+  }
   .TicketingServicesContainer {
     flex-direction: column;
+    margin-top: 5%;
   }
 
   .ticketingServicesMainDiv > h1 {
@@ -93,7 +98,8 @@
 
   .TicketingServicesContainer > div:nth-child(1) {
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+   
   }
 
   .TicketingServicesContainer > div:nth-child(3) {
@@ -106,14 +112,16 @@
   }
 
   .TicketingServicesContainer > div > h1 {
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: 5%;
+   
   }
 
   .TicketingServicesContainer > div > p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .TicketingServicesContainer > div > ul > li {
-    font-size: 12px;
+    font-size: 14px;
   }
 }

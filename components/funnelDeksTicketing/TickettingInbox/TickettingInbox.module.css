@@ -72,13 +72,37 @@
 @media (max-width: 1024px) {
   .ticketInboxHeading {
     text-align: center;
+    width: 95%;
+    margin-top: 10%;
+   
   }
-  .ticketInboxHeading > h1 {
-    font-size: 25px;
+  .ticketInboxHeading > h2 {
+    font-size: 30px;
   }
 
   .ticketInboxHeading > p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+   text-align: justify;
+   margin-top: 3%;
+   
+  }
+  .tickettingInboxDataDivarrow{
+    margin-top: 15%;
+    
+  }
+  .tickettingInboxDataDiv1{
+    /* width: 50%; */
+    height: auto;
+    margin-top: 10%;
+    
+  }
+  .tickettingInboxDataDiv2{
+    height: auto;
+    margin-top: 10%;
+    
+  }
+  .tickettingInboxDataDiv3{
+    margin-top: 15%;
+    
   }
 }

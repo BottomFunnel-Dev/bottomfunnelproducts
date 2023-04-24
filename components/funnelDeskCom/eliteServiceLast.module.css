@@ -88,38 +88,35 @@
     text-align: center;
   }
 
-  .rightContentSide > button {
-    width: 100%;
-    margin: 3% 0;
-    border-radius: 0;
-  }
 
   .rightContentSide > h2 {
     width: 95%;
     margin: 0 auto 3%;
+    margin-top: 15%;
     font-size: 30px;
     text-align: center;
     line-height: 30px;
   }
 
   .rightContentSide > p {
-    font-size: 14px;
+    font-size: 18px;
     width: 95%;
+    text-align: justify;
     margin: 2% auto;
     line-height: 20px;
   }
 
   .rightContentSide > h5 {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .rightGifSide {
-    width: 60%;
+    width: 90%;
   }
 
   .rightContentSide > button {
-    font-size: 12px;
-    width: 100%;
+    font-size: 16px;
+    width: 60%;
     border-radius: 0;
     margin: 1% 0;
   }
