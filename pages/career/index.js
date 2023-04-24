@@ -42,13 +42,14 @@ const index = () => {
         <GetStarted />
         <ProductsFooter />
 
-      <div style={{marginTop:"3%"}}>
+        <div style={{ marginTop: "3%" }}>
           <CareerReferral />
           <StoriesSection />
           <TrustedBy />
           <LifeBottomFunnel />
           <GetStarted />
           <ProductsFooter />
+        </div>
       </div>
     </div>
   );
