@@ -20,7 +20,7 @@ export const ProductResources = ({ solResIn, solResOut, scroll }) => {
             key={i}
             onClick={() => {
               // navigate(`/${item.path}`);
-              solHoverOut();
+              solResOut();
             }}
             className={resource.productResourceData}
           >

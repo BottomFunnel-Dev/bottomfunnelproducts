@@ -34,14 +34,7 @@ const index = () => {
 
       {/* Other react required components  */}
 
-      <div style={{ marginTop: "5%" }}>
-        <CareerReferral />
-        <StoriesSection />
-        <TrustedBy />
-        <LifeBottomFunnel />
-        <GetStarted />
-        <ProductsFooter />
-
+    
         <div style={{ marginTop: "3%" }}>
           <CareerReferral />
           <StoriesSection />
@@ -51,7 +44,6 @@ const index = () => {
           <ProductsFooter />
         </div>
       </div>
-    </div>
   );
 };
 
