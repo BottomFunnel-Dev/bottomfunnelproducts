@@ -1,19 +1,13 @@
-import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
-import { GoogleBusinessMessageBanner } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageBanner/GoogleBusinessMessageBanner";
-import { GoogleBusinessMessageCustomer } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageCustomer/GoogleBusinessMessageCustomer";
-import { GoogleBusinessMessageDemo } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageDemo/GoogleBusinessMessageDemo";
-import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
+import Navbar from "../../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../../components/ProdNavbar";
+import { ProductsFooter } from "../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import { SMBbanner } from "../../../components/smbb/SMBbanner/SMBbanner";
+import { SMBCustomers } from "../../../components/smbb/SMBCustomers/SMBCustomers";
+import { SMBMore } from "../../../components/smbb/SMBMore/SMBMore";
+import { SMBTrail } from "../../../components/smbb/SMBTrail/SMBTrail";
 
-import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
-import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-
-export default function guideToShopfy() {
-
-  const productData = {
+const productData = {
     title: "Bottom Funnel Chat",
     logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Chat.png",
     width: "65%",
@@ -138,30 +132,24 @@ export default function guideToShopfy() {
     pricing: "",
   };
 
+export default function SMB() {
     return (
         <div>
-      <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <ProdNavbar data={productData} />
-
-         
-      <GoogleBusinessMessageBanner/>
-      <GoogleBusinessMessageCustomer/>
-      <GoogleBusinessMessageDemo/>
-
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
-
-    </div>
+            <Navbar
+                productMount={{
+                    navMount: false,
+                }}
+                navredux={{
+                    color: "black",
+                    logo: false,
+                }}
+            />
+            {/* <ProdNavbar data={productData} /> */}
+            <SMBbanner />
+            <SMBCustomers />
+            <SMBMore />
+            <SMBTrail />
+            <ChatFooter />
+        </div>
     )
 }

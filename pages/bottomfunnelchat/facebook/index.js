@@ -1,18 +1,15 @@
-import React from 'react'   
-import { ContactResolutionBanner } from '../../../../components/ContactResolution/ContactResolutionBanner/ContactResolutionBanner';
-import { EnterprizePlatform } from '../../../../components/ContactResolution/EnterprizePlatform/EnterprizePlatform';
-import { GetMore } from '../../../../components/ContactResolution/GetMore/GetMore';
-import { ResolutionWay } from '../../../../components/ContactResolution/ResolutionWay/ResolutionWay';
-import { SupportCost } from '../../../../components/ContactResolution/SupportCost/SupportCost';
-import { ZeroContact } from '../../../../components/ContactResolution/ZeroContact/ZeroContact';
-import Navbar from '../../../../components/Navbar/Navbar';
-import { ProdNavbar } from '../../../../components/ProdNavbar';
-import LifeBottomFunnel from '../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel';
-import { ProductsFooter } from '../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter';
-import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted';
-import Testimonial from '../../../../components/ProductsNewPage/Testimonial/Testimonial';
-import TrustedBy from '../../../../components/TrustedByProductsPage/TrustedBy';
-import { ChatFooter } from '../../../../components/ChatFooter/ChatFooter';
+import React from 'react'
+import { ConnectwithCustomer } from '../../../components/Facebook/ConnectwithCustomer/ConnectwithCustomer'
+import { FacebookBanner } from '../../../components/Facebook/FacebookBanner/FacebookBanner'
+import { SeeingResult } from '../../../components/Facebook/SeeingResult/SeeingResult'
+import Navbar from '../../../components/Navbar/Navbar'
+import { ProdNavbar } from '../../../components/ProdNavbar'
+import LifeBottomFunnel from '../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
+import { ProductsFooter } from '../../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
+import ReadyStarted from '../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import Testimonial from '../../../components/ProductsNewPage/Testimonial/Testimonial'
+import TrustedBy from '../../../components/TrustedByProductsPage/TrustedBy'
+import { ChatFooter } from '../../../components/ChatFooter/ChatFooter'
 
 
 const productData = {
@@ -139,13 +136,12 @@ const productData = {
   // },
   pricing: "",
 };
-  
 
-export default function contactresolution() {
+export default function facebook() {
     return (
     <div>
 
-      <Navbar
+<Navbar
         productMount={{
           navMount: true,
         }}
@@ -154,21 +150,17 @@ export default function contactresolution() {
           logo: false,
         }}
       />
+      <ProdNavbar data={productData} />
+       <FacebookBanner/> 
+       <ConnectwithCustomer/>
+       <SeeingResult/>
 
-        <ProdNavbar data={productData} />
-        <ContactResolutionBanner/>
-        <ResolutionWay/>
-        <ZeroContact/>
-        <SupportCost/>
-        <GetMore/>
-        <EnterprizePlatform/>
-        
-        
-      <Testimonial/>
+       
+       <Testimonial/>
       <TrustedBy/>
       <ReadyStarted/>
       <LifeBottomFunnel/>
-      <ChatFooter/>
+      <ChatFooter />
     </div>
   )
 }

@@ -39,7 +39,7 @@ export default function DropDown5({ handleHover, ProdData, postion }) {
         {ProdData.more ? (
           <Link
             onClick={() => handleHover("")}
-            href={"/allFeatures"}
+            href={"/bottomfunnelchat/allFeatures"}
             className={styles.dropDownFivesAllFeaturesButton}
           >
             <button>{ProdData.more.title}</button>

@@ -27,15 +27,17 @@
 .lifeImageMainDiv {
   width: 90%;
   margin: auto;
+  /* border: 2px solid red; */
 }
 
 .lifeImageInnerDiv {
   display: flex;
   flex-direction: row;
+  /* border: 2px solid green; */
 }
 
 .LifeImageMainImageDiv {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -135,7 +137,7 @@
   }
 
   .lifeHeadingMainDiv > p {
-    border-bottom: 1px solid red;
+    /* border-bottom: 1px solid red; */
     width: 80%;
     height: 40px;
     margin: auto;
@@ -155,12 +157,14 @@
 
   .lifeImageInnerDiv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .lifeImageDiv {
-    width: 100%;
-    margin-left: 4%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    /* border: 2px solid green; */
   }
 
   .lifeImageDiv > img {

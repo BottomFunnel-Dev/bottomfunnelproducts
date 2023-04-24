@@ -1,18 +1,12 @@
-import React from 'react'   
-import { ContactResolutionBanner } from '../../../../components/ContactResolution/ContactResolutionBanner/ContactResolutionBanner';
-import { EnterprizePlatform } from '../../../../components/ContactResolution/EnterprizePlatform/EnterprizePlatform';
-import { GetMore } from '../../../../components/ContactResolution/GetMore/GetMore';
-import { ResolutionWay } from '../../../../components/ContactResolution/ResolutionWay/ResolutionWay';
-import { SupportCost } from '../../../../components/ContactResolution/SupportCost/SupportCost';
-import { ZeroContact } from '../../../../components/ContactResolution/ZeroContact/ZeroContact';
-import Navbar from '../../../../components/Navbar/Navbar';
-import { ProdNavbar } from '../../../../components/ProdNavbar';
-import LifeBottomFunnel from '../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel';
-import { ProductsFooter } from '../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter';
-import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted';
-import Testimonial from '../../../../components/ProductsNewPage/Testimonial/Testimonial';
-import TrustedBy from '../../../../components/TrustedByProductsPage/TrustedBy';
-import { ChatFooter } from '../../../../components/ChatFooter/ChatFooter';
+import { ChatBotsBanner } from "../../../components/ChatBots/ChatBotsBanner/ChatBotsBanner";
+import { ChatBotsCustomers } from "../../../components/ChatBots/ChatBotsCustomers/ChatBotsCustomers";
+import { ChatBotsspin } from "../../../components/ChatBots/ChatBotsspin/ChatBotsspin";
+import { ChatBotsSupport } from "../../../components/ChatBots/ChatBotsSupport/ChatBotsSupport";
+import { ChatBotstrail } from "../../../components/ChatBots/ChatBotstrail/ChatBotstrail";
+import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
+import Navbar from "../../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../../components/ProdNavbar";
+import { ProductsFooter } from "../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 
 const productData = {
@@ -139,36 +133,26 @@ const productData = {
   // },
   pricing: "",
 };
-  
 
-export default function contactresolution() {
+export default function ChatBots() {
     return (
-    <div>
-
-      <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-
-        <ProdNavbar data={productData} />
-        <ContactResolutionBanner/>
-        <ResolutionWay/>
-        <ZeroContact/>
-        <SupportCost/>
-        <GetMore/>
-        <EnterprizePlatform/>
-        
-        
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
-    </div>
-  )
+        <div>
+                <Navbar
+                productMount={{
+                    navMount: true,
+                }}
+                navredux={{
+                    color: "black",
+                    logo: false,
+                }}
+            />
+            <ProdNavbar data={productData} />
+            <ChatBotsBanner />
+            <ChatBotsSupport/>
+            <ChatBotsCustomers/>
+            <ChatBotsspin/>
+            <ChatBotstrail/>
+            <ChatFooter />
+        </div>
+    )
 }

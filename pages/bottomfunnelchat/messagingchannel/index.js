@@ -1,19 +1,15 @@
-import React from 'react'   
-import { ContactResolutionBanner } from '../../../../components/ContactResolution/ContactResolutionBanner/ContactResolutionBanner';
-import { EnterprizePlatform } from '../../../../components/ContactResolution/EnterprizePlatform/EnterprizePlatform';
-import { GetMore } from '../../../../components/ContactResolution/GetMore/GetMore';
-import { ResolutionWay } from '../../../../components/ContactResolution/ResolutionWay/ResolutionWay';
-import { SupportCost } from '../../../../components/ContactResolution/SupportCost/SupportCost';
-import { ZeroContact } from '../../../../components/ContactResolution/ZeroContact/ZeroContact';
-import Navbar from '../../../../components/Navbar/Navbar';
-import { ProdNavbar } from '../../../../components/ProdNavbar';
-import LifeBottomFunnel from '../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel';
-import { ProductsFooter } from '../../../../components/ProductsNewPage/ProductsFooter/ProductsFooter';
-import ReadyStarted from '../../../../components/ProductsNewPage/ReadyStarted/ReadyStarted';
-import Testimonial from '../../../../components/ProductsNewPage/Testimonial/Testimonial';
-import TrustedBy from '../../../../components/TrustedByProductsPage/TrustedBy';
-import { ChatFooter } from '../../../../components/ChatFooter/ChatFooter';
-
+import React from 'react'
+import { Messaginchannelbanner } from '../../../components/Messaginchannel/Messaginchannelbanner'
+import { Messagincommunication } from '../../../components/Messaginchannel/Messagincommunication'
+import { Messagingchannellowerbanner } from '../../../components/Messaginchannel/Messagingchannellowerbanner'
+import { Messagingplatforms } from '../../../components/Messaginchannel/Messagingplatforms'
+import Navbar from '../../../components/Navbar/Navbar'
+import { ProdNavbar } from '../../../components/ProdNavbar'
+import LifeBottomFunnel from '../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
+import ReadyStarted from '../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import Testimonial from '../../../components/ProductsNewPage/Testimonial/Testimonial'
+import TrustedBy from '../../../components/TrustedByProductsPage/TrustedBy'
+import { ChatFooter } from '../../../components/ChatFooter/ChatFooter'
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -139,31 +135,26 @@ const productData = {
   // },
   pricing: "",
 };
-  
+export default function messaginchannel ()  {
 
-export default function contactresolution() {
-    return (
+  return (
     <div>
 
-      <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
+    <Navbar
+    productMount={{
+      navMount: false,
+    }}
+    navredux={{
+      color: "black",
+      logo: false,
+    }}
+  />
 
-        <ProdNavbar data={productData} />
-        <ContactResolutionBanner/>
-        <ResolutionWay/>
-        <ZeroContact/>
-        <SupportCost/>
-        <GetMore/>
-        <EnterprizePlatform/>
-        
-        
+    {/* <ProdNavbar data={productData} /> */}
+    <Messaginchannelbanner />
+    <Messagincommunication />
+    <Messagingplatforms />
+    <Messagingchannellowerbanner />
       <Testimonial/>
       <TrustedBy/>
       <ReadyStarted/>

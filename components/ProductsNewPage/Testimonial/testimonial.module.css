@@ -106,6 +106,7 @@
 @media (max-width:480px) {
   .testimonials {
     height: fit-content;
+    margin-top: 27%;
   }
 
   .sliderDivcomp {

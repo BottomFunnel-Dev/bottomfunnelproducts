@@ -265,6 +265,7 @@ const Navbar = ({ navredux, productMount }) => {
                 color: scroll ? "white" : "#ef4c23",
                 background: scroll ? "#ef4c23" : "white",
               }}
+              onClick={() => router.push("/allproducts")}
             >
               Free Trial
             </button>
