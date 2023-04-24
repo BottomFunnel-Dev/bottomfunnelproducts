@@ -1,20 +1,20 @@
 import React from 'react'
-import { Messaginchannelbanner } from '../../components/Messaginchannel/Messaginchannelbanner'
-import { Messagincommunication } from '../../components/Messaginchannel/Messagincommunication'
-import { Messagingchannellowerbanner } from '../../components/Messaginchannel/Messagingchannellowerbanner'
-import { Messagingplatforms } from '../../components/Messaginchannel/Messagingplatforms'
-import Navbar from '../../components/Navbar/Navbar'
-import { ProdNavbar } from '../../components/ProdNavbar'
-import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
-import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
-import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
-import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
-import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
+import { EnterprizePlatform } from '../../../components/ContactResolution/EnterprizePlatform/EnterprizePlatform'
+import Navbar from '../../../components/Navbar/Navbar'
+import { ProdNavbar } from '../../../components/ProdNavbar'
+import LifeBottomFunnel from '../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
+import { ProductsFooter } from '../../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
+import ReadyStarted from '../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import Testimonial from '../../../components/ProductsNewPage/Testimonial/Testimonial'
+import { Banner } from '../../../components/ProvideConvenientCustomerService/Banner/Banner'
+import { HowSeeking } from '../../../components/ProvideConvenientCustomerService/HowSeeking/HowSeeking'
+import { PowerBack } from '../../../components/ProvideConvenientCustomerService/PowerBack/PowerBack'
+import { WhatMore } from '../../../components/ProvideConvenientCustomerService/WhatMore/WhatMore'
+import TrustedBy from '../../../components/TrustedByProductsPage/TrustedBy'
 
 
 
-export default function messaginchannel ()  {
-  const productData = {
+const productData = {
     title: "Bottom Funnel Chat",
     logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Chat.png",
     width: "65%",
@@ -82,8 +82,8 @@ export default function messaginchannel ()  {
         {
           dropContent: "By Use Size",
           list: [
-            { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-            { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
+            { title: "Smart Conversations", path: "/" },
+            { title: "Zero Contact Resolutions", path: "/" },
             { title: "Provide convenient customer service", path: "/" },
             { title: "Move from costly channels", path: "/" },
           ],
@@ -91,7 +91,7 @@ export default function messaginchannel ()  {
         {
           dropContent: "By Use Size",
           list: [
-            { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+            { title: "Enterprise", path: "/" },
             { title: "SMB", path: "/" },
           ],
         },
@@ -138,26 +138,29 @@ export default function messaginchannel ()  {
     },
     pricing: "",
   };
-  return (
+  
+
+export default function index() {
+    return (
     <div>
+        <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+      <ProdNavbar data={productData} />
+        <Banner/>
+        <HowSeeking/>
+        <PowerBack/>
+        <WhatMore/>
+        <EnterprizePlatform/>
 
-    <Navbar
-    productMount={{
-      navMount: false,
-    }}
-    navredux={{
-      color: "black",
-      logo: false,
-    }}
-  />
 
-    {/* <ProdNavbar data={productData} /> */}
-    <Messaginchannelbanner />
-    <Messagincommunication />
-    <Messagingplatforms />
-    <Messagingchannellowerbanner />
-    
-    
+         
       <Testimonial/>
       <TrustedBy/>
       <ReadyStarted/>

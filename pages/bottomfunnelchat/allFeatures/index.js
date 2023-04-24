@@ -1,16 +1,16 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
-import TeamInboxBanner from "../../components/TeamInbox/TeamInboxBanner/TeamInboxBanner";
-import TeamInboxFeatures from "../../components/TeamInbox/TeamInboxFeatures/TeamInboxFeatures";
-import TeamInboxLower from "../../components/TeamInbox/TeamInboxLower/TeamInboxLower";
-import TeamInboxWork from "../../components/TeamInbox/TeamInboxWork/TeamInboxWork";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
-
+import { AllFeaturesBanner } from "../../../components/AllFeatures/AllFeaturesBanner/AllFeaturesBanner";
+import { AllFeaturesConnect } from "../../../components/AllFeatures/AllFeaturesConnect/AllFeaturesConnect";
+import { AllFeaturesDrive } from "../../../components/AllFeatures/AllFeaturesDrive/AllFeaturesDrive";
+import { AllFeatureSignUp } from "../../../components/AllFeatures/AllFeatureSignUp/AllFeatureSignUp";
+import { AllFeaturesPerformance } from "../../../components/AllFeatures/AllFeaturesPerformance/AllFeaturesPerformance";
+import { AllFeaturesReach } from "../../../components/AllFeatures/AllFeaturesReach/AllFeaturesReach";
+import { AllFeaturesTemplate } from "../../../components/AllFeatures/AllFeaturesTemplate/AllFeaturesTemplate";
+import { AllFeaturesTime } from "../../../components/AllFeatures/AllFeaturesTime/AllFeaturesTime";
+import Navbar from "../../../components/Navbar/Navbar";
+import { SalesNavbar } from "../../../components/Navbar/SalesNavbar/SalesNavbar";
+import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
+import { ProdNavbar } from "../../../components/ProdNavbar";
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -137,31 +137,33 @@ const productData = {
   pricing: "",
 };
 
-
-export default function TeamInbox() {
+export default function AllFeatures() {
   return (
-    <div>
-    <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <ProdNavbar data={productData} />
-    
-      <TeamInboxBanner />
-      <TeamInboxFeatures />
-      <TeamInboxWork />
-      <TeamInboxLower />
 
-      <TrustedBy />
-      <Testimonial />
-      <ReadyStarted />
-      <LifeBottomFunnel />
-      <ChatFooter />
-    </div>
+    <>
+      <div style={{ color: "#393939" }}>
+        <Navbar
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+
+        <ProdNavbar data={productData} />
+
+        <AllFeaturesBanner/>
+        <AllFeaturesDrive/>
+        <AllFeaturesReach/>
+        <AllFeaturesTemplate/>
+        <AllFeaturesTime/>
+        <AllFeaturesPerformance/>
+        <AllFeaturesConnect/>
+        <AllFeatureSignUp/>
+        <ChatFooter/>
+      </div>
+    </>
   );
 }

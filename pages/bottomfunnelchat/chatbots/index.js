@@ -1,15 +1,12 @@
-import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
-import TeamInboxBanner from "../../components/TeamInbox/TeamInboxBanner/TeamInboxBanner";
-import TeamInboxFeatures from "../../components/TeamInbox/TeamInboxFeatures/TeamInboxFeatures";
-import TeamInboxLower from "../../components/TeamInbox/TeamInboxLower/TeamInboxLower";
-import TeamInboxWork from "../../components/TeamInbox/TeamInboxWork/TeamInboxWork";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
+import { ChatBotsBanner } from "../../../components/ChatBots/ChatBotsBanner/ChatBotsBanner";
+import { ChatBotsCustomers } from "../../../components/ChatBots/ChatBotsCustomers/ChatBotsCustomers";
+import { ChatBotsspin } from "../../../components/ChatBots/ChatBotsspin/ChatBotsspin";
+import { ChatBotsSupport } from "../../../components/ChatBots/ChatBotsSupport/ChatBotsSupport";
+import { ChatBotstrail } from "../../../components/ChatBots/ChatBotstrail/ChatBotstrail";
+import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
+import Navbar from "../../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../../components/ProdNavbar";
+import { ProductsFooter } from "../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 
 const productData = {
@@ -137,31 +134,25 @@ const productData = {
   pricing: "",
 };
 
-
-export default function TeamInbox() {
-  return (
-    <div>
-    <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <ProdNavbar data={productData} />
-    
-      <TeamInboxBanner />
-      <TeamInboxFeatures />
-      <TeamInboxWork />
-      <TeamInboxLower />
-
-      <TrustedBy />
-      <Testimonial />
-      <ReadyStarted />
-      <LifeBottomFunnel />
-      <ChatFooter />
-    </div>
-  );
+export default function ChatBots() {
+    return (
+        <div>
+                <Navbar
+                productMount={{
+                    navMount: true,
+                }}
+                navredux={{
+                    color: "black",
+                    logo: false,
+                }}
+            />
+            <ProdNavbar data={productData} />
+            <ChatBotsBanner />
+            <ChatBotsSupport/>
+            <ChatBotsCustomers/>
+            <ChatBotsspin/>
+            <ChatBotstrail/>
+            <ChatFooter />
+        </div>
+    )
 }

@@ -1,16 +1,16 @@
-import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
-import TeamInboxBanner from "../../components/TeamInbox/TeamInboxBanner/TeamInboxBanner";
-import TeamInboxFeatures from "../../components/TeamInbox/TeamInboxFeatures/TeamInboxFeatures";
-import TeamInboxLower from "../../components/TeamInbox/TeamInboxLower/TeamInboxLower";
-import TeamInboxWork from "../../components/TeamInbox/TeamInboxWork/TeamInboxWork";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
-
+import React from 'react'
+import { AppleBusinessChatBanner } from '../../../components/AppleBusinessChat/AppleBusinessChatBanner/AppleBusinessChatBanner'
+import { BusinessMassaging } from '../../../components/AppleBusinessChat/BusinessMassaging/BusinessMassaging'
+import { FinancialService } from '../../../components/AppleBusinessChat/FinancialService/FinancialService'
+import { NextgenMassaging } from '../../../components/AppleBusinessChat/NextgenMassaging/NextgenMassaging'
+import Navbar from '../../../components/Navbar/Navbar'
+import { ProdNavbar } from '../../../components/ProdNavbar'
+import LifeBottomFunnel from '../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
+import { ProductsFooter } from '../../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
+import ReadyStarted from '../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import Testimonial from '../../../components/ProductsNewPage/Testimonial/Testimonial'
+import TrustedBy from '../../../components/TrustedByProductsPage/TrustedBy'
+import { ChatFooter } from '../../../components/ChatFooter/ChatFooter'
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -138,10 +138,10 @@ const productData = {
 };
 
 
-export default function TeamInbox() {
-  return (
+export default function applebusinesschat() {
+    return (
     <div>
-    <Navbar
+        <Navbar
         productMount={{
           navMount: true,
         }}
@@ -150,18 +150,19 @@ export default function TeamInbox() {
           logo: false,
         }}
       />
-      <ProdNavbar data={productData} />
-    
-      <TeamInboxBanner />
-      <TeamInboxFeatures />
-      <TeamInboxWork />
-      <TeamInboxLower />
+         <ProdNavbar data={productData} />
+        <AppleBusinessChatBanner/>
+        <NextgenMassaging/>
+        <BusinessMassaging/>
+        <FinancialService/>
 
-      <TrustedBy />
-      <Testimonial />
-      <ReadyStarted />
-      <LifeBottomFunnel />
-      <ChatFooter />
+
+        <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      <LifeBottomFunnel/>
+      <ChatFooter/>
+
     </div>
-  );
+  )
 }

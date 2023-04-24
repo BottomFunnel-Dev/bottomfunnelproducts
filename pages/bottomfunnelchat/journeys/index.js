@@ -1,19 +1,14 @@
-import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
-import { GoogleBusinessMessageBanner } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageBanner/GoogleBusinessMessageBanner";
-import { GoogleBusinessMessageCustomer } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageCustomer/GoogleBusinessMessageCustomer";
-import { GoogleBusinessMessageDemo } from "../../components/GoogleBusinessMessage/GoogleBusinessMessageDemo/GoogleBusinessMessageDemo";
-import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import React from "react";
+import { JourneysBanner } from "../../../components/Journeys/JourneysBanner/JourneysBanner";
+import { JourneysChat } from "../../../components/Journeys/JourneysChat/JourneysChat";
+import { JourneysEnagement } from "../../../components/Journeys/JourneysEnagement/JourneysEnagement";
+import { JourneysTrail } from "../../../components/Journeys/JourneysTrail/JourneysTrail";
+import { JourneysWhy } from "../../../components/Journeys/JourneysWhy/JourneysWhy";
+import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
+import { ProdNavbar } from "../../../components/ProdNavbar";
+import { Navbar } from "react-bootstrap";
 
-import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
-import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-
-export default function guideToShopfy() {
-
-  const productData = {
+const productData = {
     title: "Bottom Funnel Chat",
     logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Chat.png",
     width: "65%",
@@ -137,10 +132,13 @@ export default function guideToShopfy() {
     // },
     pricing: "",
   };
+  
 
+export default function Journeys() {
     return (
+
         <div>
-      <Navbar
+      {/* <Navbar
         productMount={{
           navMount: true,
         }}
@@ -148,20 +146,14 @@ export default function guideToShopfy() {
           color: "black",
           logo: false,
         }}
-      />
+      /> */}
       <ProdNavbar data={productData} />
-
-         
-      <GoogleBusinessMessageBanner/>
-      <GoogleBusinessMessageCustomer/>
-      <GoogleBusinessMessageDemo/>
-
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
-
-    </div>
+            <JourneysBanner />
+            <JourneysChat />
+            <JourneysEnagement />
+            <JourneysWhy />
+            <JourneysTrail/>
+            <ChatFooter/>
+        </div>
     )
 }

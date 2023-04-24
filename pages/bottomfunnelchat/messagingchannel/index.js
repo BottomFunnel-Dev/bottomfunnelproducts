@@ -1,16 +1,15 @@
-import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
-import TeamInboxBanner from "../../components/TeamInbox/TeamInboxBanner/TeamInboxBanner";
-import TeamInboxFeatures from "../../components/TeamInbox/TeamInboxFeatures/TeamInboxFeatures";
-import TeamInboxLower from "../../components/TeamInbox/TeamInboxLower/TeamInboxLower";
-import TeamInboxWork from "../../components/TeamInbox/TeamInboxWork/TeamInboxWork";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
-
+import React from 'react'
+import { Messaginchannelbanner } from '../../../components/Messaginchannel/Messaginchannelbanner'
+import { Messagincommunication } from '../../../components/Messaginchannel/Messagincommunication'
+import { Messagingchannellowerbanner } from '../../../components/Messaginchannel/Messagingchannellowerbanner'
+import { Messagingplatforms } from '../../../components/Messaginchannel/Messagingplatforms'
+import Navbar from '../../../components/Navbar/Navbar'
+import { ProdNavbar } from '../../../components/ProdNavbar'
+import LifeBottomFunnel from '../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
+import ReadyStarted from '../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
+import Testimonial from '../../../components/ProductsNewPage/Testimonial/Testimonial'
+import TrustedBy from '../../../components/TrustedByProductsPage/TrustedBy'
+import { ChatFooter } from '../../../components/ChatFooter/ChatFooter'
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -136,32 +135,31 @@ const productData = {
   // },
   pricing: "",
 };
+export default function messaginchannel ()  {
 
-
-export default function TeamInbox() {
   return (
     <div>
-    <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <ProdNavbar data={productData} />
-    
-      <TeamInboxBanner />
-      <TeamInboxFeatures />
-      <TeamInboxWork />
-      <TeamInboxLower />
 
-      <TrustedBy />
-      <Testimonial />
-      <ReadyStarted />
-      <LifeBottomFunnel />
-      <ChatFooter />
+    <Navbar
+    productMount={{
+      navMount: false,
+    }}
+    navredux={{
+      color: "black",
+      logo: false,
+    }}
+  />
+
+    {/* <ProdNavbar data={productData} /> */}
+    <Messaginchannelbanner />
+    <Messagincommunication />
+    <Messagingplatforms />
+    <Messagingchannellowerbanner />
+      <Testimonial/>
+      <TrustedBy/>
+      <ReadyStarted/>
+      <LifeBottomFunnel/>
+      <ChatFooter/>
     </div>
-  );
+  )
 }
