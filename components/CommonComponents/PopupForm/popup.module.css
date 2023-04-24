@@ -141,9 +141,10 @@
     width: 5%;
   }
   
-  .popupformIcon {
+  /* .popupformIcon {
     color: black;
-  }
+  } */
+
   .popupinputPart {
     width: 85%;
     box-sizing: border-box;

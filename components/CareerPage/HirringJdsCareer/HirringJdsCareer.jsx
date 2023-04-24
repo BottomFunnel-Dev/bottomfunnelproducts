@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Container } from "react-bootstrap";
 import styles from "./HirringJdsCareer.module.css";
 import Accordion from 'react-bootstrap/Accordion';
+import { useRef } from "react";
+import emailjs from "@emailjs/browser"
+import HiringJdForm from './HiringJdForm';
 
 export const HirringJdsCareer = () => {
 
@@ -30,6 +33,30 @@ export const HirringJdsCareer = () => {
     const decrease = () => {
         setCounter(count => count - 1);
     };
+
+    // this is for testing the mail send for the 
+    const form = useRef();
+
+    const serviceID = "service_219qjzb";
+    const template = "template_0fxfi75";
+    const publicKey = "w37MD2W3eugHo9N6r";
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(serviceID, template, form.current, publicKey).then(
+            (result) => {
+                console.log(result.text);
+                alert("email sent successfully");
+            },
+            (error) => {
+                console.log(error.text);
+                console.log("failed");
+            }
+        );
+        form.current.reset()
+    };
+
     return (
         <>
             <div className={styles.hirringJdsCareermainDiv}>
@@ -1318,7 +1345,9 @@ export const HirringJdsCareer = () => {
                                             </Accordion>
 
                                             <div className={styles.hirringmaincontainer1}>
-                                                <div className={styles.hirringouterDiv}>
+                                                <HiringJdForm />
+
+                                                {/* <div className={styles.hirringouterDiv}>
                                                     <h4>Apply Now!</h4>
                                                     <input type="text" placeholder="Enter Your Name" />
                                                     <input type="text" placeholder="Enter Email" />
@@ -1332,7 +1361,7 @@ export const HirringJdsCareer = () => {
                                                     <p>Please upload Only pdf,rtf, docx and doc files
                                                         <br />Please upload CV.</p>
                                                     <button>Apply</button>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -2345,7 +2374,9 @@ export const HirringJdsCareer = () => {
                                             </Accordion>
 
                                             <div className={styles.hirringmaincontainer1}>
-                                                <div className={styles.hirringouterDiv}>
+                                                <HiringJdForm />
+
+                                                {/* <div className={styles.hirringouterDiv}>
                                                     <h4>Apply Now!</h4>
                                                     <input type="text" placeholder="Enter Your Name" />
                                                     <input type="text" placeholder="Enter Email" />
@@ -2359,7 +2390,7 @@ export const HirringJdsCareer = () => {
                                                     <p>Please upload Only pdf,rtf, docx and doc files
                                                         <br />Please upload CV.</p>
                                                     <button>Apply</button>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
 
@@ -2982,7 +3013,9 @@ export const HirringJdsCareer = () => {
                                             </Accordion>
 
                                             <div className={styles.hirringmaincontainer1}>
-                                                <div className={styles.hirringouterDiv}>
+                                                <HiringJdForm />
+
+                                                {/* <div className={styles.hirringouterDiv}>
                                                     <h4>Apply Now!</h4>
                                                     <input type="text" placeholder="Enter Your Name" />
                                                     <input type="text" placeholder="Enter Email" />
@@ -2996,7 +3029,7 @@ export const HirringJdsCareer = () => {
                                                     <p>Please upload Only pdf,rtf, docx and doc files
                                                         <br />Please upload CV.</p>
                                                     <button>Apply</button>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -4065,7 +4098,8 @@ export const HirringJdsCareer = () => {
                                             </Accordion>
 
                                             <div className={styles.hirringmaincontainer1}>
-                                                <div className={styles.hirringouterDiv}>
+                                                <HiringJdForm />
+                                                {/* <div className={styles.hirringouterDiv}>
                                                     <h4>Apply Now!</h4>
                                                     <input type="text" placeholder="Enter Your Name" />
                                                     <input type="text" placeholder="Enter Email" />
@@ -4079,7 +4113,7 @@ export const HirringJdsCareer = () => {
                                                     <p>Please upload Only pdf,rtf, docx and doc files
                                                         <br />Please upload CV.</p>
                                                     <button>Apply</button>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -4642,29 +4676,11 @@ export const HirringJdsCareer = () => {
 
                                             </Accordion>
 
-                                            <div className={styles.hirringmaincontainer1}>
-                                                <div className={styles.hirringouterDiv}>
-                                                    <h4>Apply Now!</h4>
-                                                    <input type="text" placeholder="Enter Your Name" />
-                                                    <input type="text" placeholder="Enter Email" />
-                                                    <input type="text" placeholder="Enter Phone number" />
-                                                    <input type="text" placeholder="Job Category" />
-                                                    <label>Experience</label>
-                                                    <input type="number" placeholder="Year" />
-                                                    <input type="number" placeholder="Month" />
-                                                    <textarea rows="4" cols="50" placeholder="Enter Description"></textarea>
-                                                    <input type="file" className={styles.hirringChooseFile} />
-                                                    <p>Please upload Only pdf,rtf, docx and doc files
-                                                        <br />Please upload CV.</p>
-                                                    <button>Apply</button>
-                                                </div>
+                                            <div ref={form} onSubmit={sendEmail} className={styles.hirringmaincontainer1}>
+                                                <HiringJdForm />
                                             </div>
                                         </div>
                                     </div>
-
-
-
-
                                 </div>
 
                             </div>
