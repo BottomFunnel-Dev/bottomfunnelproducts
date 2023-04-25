@@ -52,7 +52,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/sens.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/sens.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
