@@ -15,116 +15,60 @@
   height: 2px;
   margin: auto;
   margin-top: 1%;
-  margin-bottom: 2%;
 }
-
-.MarketPlaceFeatureChild {
-  display: flex;
-  justify-content: space-around;
- 
-  /* border: 1px solid black; */
+.MarketPlaceFeatureChildContainer{
   width: 90%;
   margin: auto;
-  margin-top: 5%;
-}
-
-.MarketPlaceFeatureChild > div {
-  width: 23%;
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  align-items: center;
-  padding: 1%;
-  border-radius: 25px;
-  border: 1px solid #ef4c23;
+  flex-direction: row;
+  flex-wrap: wrap;
+justify-content: space-evenly;
+  /* border: 1px solid red; */
+  height: auto;
+}
+.MarketPlaceFeatureimg{
+  width: 20%;
+  margin: 4% auto;
+  height: auto;
+}
+.MarketPlaceFeatureChild{
+  border: 1px solid red;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  width: 22%;
+  height: 38vh;
+  margin-top: 4%;
+  padding-top: 1%;
+
+
+
+}
+.MarketPlaceFeatureChildContent{
+  /* border: 1px solid red; */
  
-}
-.MarketPlaceFeatureimg {
-  margin-bottom: 10%;
-}
-
-.MarketPlaceFeatureChild > div > h3 {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.MarketPlaceFeatureChild > div > p {
-  text-align: center;
-}
-
-@media (max-width: 780px) {
-  .MarketPlaceFeatureChild {
-    height: 60vh;
-  }
-
-  .MarketPlaceFeatureParent {
-    margin-top: 58%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .line {
-    border: 1px solid #f0a491;
-    width: 80%;
-  }
-
-  .MarketPlaceFeatureChild {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-top: 70%;
-  }
-
-  .MarketPlaceFeatureChild > div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #ef4c23;
-    padding-top: 2%;
-    border-radius: 25px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin-bottom: 1%;
-  }
+  width: 90%;
+  margin:auto;
  
-  .MarketPlaceFeatureimg {
-    padding-top: 5%;
-    height: 60%;
-    width: 30%;
-  }
- 
-  .MarketPlaceFeatureChild > div > h3 {
-    text-align: center;
-  }
- 
-  .MarketPlaceFeatureChild > div > p {
-    text-align: center;
-  }
+  height: 200px;
 }
+
+
+
 @media (max-width: 480px){
+  .MarketPlaceFeatureChildContainer{
+    flex-direction: column;
+  }
   .MarketPlaceFeatureChild{
-    gap: 20px;
+    width: 80%;
+    margin: 5% auto;
+  }
+  .MarketPlaceFeatureParent {
+    margin-top: 55%;
+ 
+   
     
   }
-  .MarketPlaceFeatureParent h2{
-    margin-bottom: 90px;
-  
-  }
   .line{
-  
-  display: none;
-   
+margin: 5% auto;
   }
-  .MarketPlaceFeatureChildRow2{
-    display: block;
-    margin-top: 46rem;
-  }
-  .parents {
-margin-top: 60%;
-  }
-  .MarketPlaceFeatureParent{
-    margin-top: 5%;}
 }

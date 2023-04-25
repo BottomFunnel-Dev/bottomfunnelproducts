@@ -2,147 +2,87 @@ import styles from "./MarketPlaceNewly.module.css";
 import Image from "next/image";
 
 export const MarketPlaceNewly = () => {
+   const marketPlaceNewlydata = [
+    {
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly1.png",
+      hd: " Cloud storage",
+      p: "Cloud storage solutions provide storage of data and files in a secure and scalable manner.",
+    },
+    {
+      img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly2.png",
+      hd: "Video conferencing",
+      p: "Video conferencing services allow remote teams to communicate and collaborate in video and audio calls.",
+    },
+    {
+        img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly2.png",
+        hd: "Project management",
+        p: "Project management tools help teams plan, track and manage projects, tasks, and deadlines. Contact us!"
+      },
+      {
+        img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly4.png",
+        hd: "HR management",
+        p: "HR management solutions streamline HR processes such as recruitment, performance management, employee records, and payroll."
+      },
+      {
+        img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly1.png",
+        hd: "Accounting",
+        p: "Accounting software automates financial tasks, including invoicing, expense tracking, tax preparation, and financial scheduled reporting."
+      },
+      {
+        img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly6.png",
+        hd: "CRM",
+        p: "Customer Relationship Management (CRM) software helps businesses manage and analyze interactions with customers and leads."
+      },
+      {
+        img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly7.png",
+        hd: "E-commerce",
+        p: "E-commerce platforms provide solutions for businesses to sell online, from catalog management to payment processing."
+      },
+       
+      {
+        img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly8.png",
+        hd: "Analytics",
+        p: "Analytics solutions help businesses collect, analyze, and visualize data to gain insights into their performance, customers, and market trends."
+
+
+      }
+
+  ];
+  return (
    
-    return (
-        <div className={styles.parents}>
-            <div className={styles.MarketPlaceFeatureParent}>
-                <h2> Newly added apps </h2>
+      <div className={styles.MarketPlaceFeatureParent}>
+        <h2> Newly added apps </h2>
 
-                <div className={styles.line}></div>
+        <div className={styles.line}></div>
+        <div className={styles.MarketPlaceFeatureChildContainer}>
+        { marketPlaceNewlydata.map((item) =>{
+            return(
+                <div className={styles.MarketPlaceFeatureChild}>
+               
+                  <div className={styles.MarketPlaceFeatureimg}>
+                    <Image
+                      src={
+                        item.img
+                      }
+                      alt={"img"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                  </div>
+      
+                  <div className={styles.MarketPlaceFeatureChildContent}>
+                    <h3>{item.hd}</h3>
+                  <p>
+                    {item.p}
+                  </p>
+                  </div>
                 
-                <div className={styles.MarketPlaceFeatureChild}>
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly1.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> Help Desk Migration | Import to Freshdesk </h3>
-                        <p>Help Desk Migration is an automated SaaS that imports tickets and other related data to Freshdesk </p>
-                    </div>
-
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly2.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> Open Ticket On Reply </h3>
-                        <p> Ever wished your reply would open a ticket on autopilot? </p>
-                    </div>
-
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly2.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> Open Ticket On Reply </h3>
-                        <p> Ever wished your reply would open a ticket on autopilot? </p>
-                    </div>
-
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly4.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> CSS Softphone </h3>
-                        <p> CSS Softphone </p>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.MarketPlaceFeatureChildRow2}>
-                <div className={styles.MarketPlaceFeatureChild}>
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly1.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> Help Desk Migration | Import to Freshdesk </h3>
-                        <p> Help Desk Migration is an automated SaaS that imports tickets and other related data to Freshdesk </p>
-                    </div>
-
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly6.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> Textline - Business Texting </h3>
-                        <p> Use Textline to send and respond to text messages directly from your customer support desk </p>
-                    </div>
-
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly7.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> Spetify Plus </h3>
-                        <p> Use Textline to send and respond to text messages directly from your customer support desk </p>
-                    </div>
-
-                    <div>
-                        <div className={styles.MarketPlaceFeatureimg}>
-                            <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Newly8.png"}
-                                alt={"img"}
-                                width={"0"}
-                                height={"0"}
-                                sizes={"100vw"}
-                                style={{ width: "100%", height: "100%" }}
-                            />
-                        </div>
-
-                        <h3> Freshdesk on PowerBI </h3>
-                        <p> Analytical PowerBI add-on to Freshdesk Application </p>
-                    </div>
-                </div>
-           </div>
-        </div>
-    );
+              </div>
+            );
+        })}
+       </div>
+      </div>
+  );
 };

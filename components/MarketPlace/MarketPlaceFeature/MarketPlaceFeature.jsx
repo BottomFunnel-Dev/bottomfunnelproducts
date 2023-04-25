@@ -2,75 +2,36 @@ import styles from "./MarketPlaceFeature.module.css";
 import Image from "next/image";
 
 export const MarketPlaceFeature = () => {
+    const data = [{img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature1.png",hd:"Atlassian Jira Plus",p:"Bottom Funnel offers Atlassian Jira Plus integration and customization services to optimize project management workflows."},
+    {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature2.png",hd:"Advanced automation",p:"Bottom Funnel offers advanced automation solutions to streamline business processes and improve efficiency. Contact us!"},
+    {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature3.png",hd:"Device42 for Bottom Funnel service",p:"Bottom Funnel offers seamless integrations with Bottom Funnel service to provide IT asset management and tracking capabilities."},
+    {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature4.png",hd:"Good Data for Bottom Funnel desk",p:"GoodData for Bottom Funnel desk is a powerful data analytics solution that helps businesses analyze. Contact us!"}]
     return (
         <div className={styles.MarketPlaceFeatureParent}>
             <h2>Featured apps</h2>
             <div className={styles.line}></div>
-
-            <div className={styles.MarketPlaceFeatureChild}>
-                <div>
-                    <div className={styles.MarketPlaceFeatureimg}>
-                        <Image className="marketplaceSectionImage"
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature1.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
-                        />
+            {data.map((item) =>{
+                return(
+                    <div className={styles.MarketPlaceFeatureChild}>
+                    <div>
+                        <div className={styles.MarketPlaceFeatureimg}>
+                            <Image className="marketplaceSectionImage"
+                                src={item.img}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "100%" }}
+                            />
+                        </div>
+    
+                        <h3>{item.hd}</h3>
+                        <p>{item.p}</p>
                     </div>
-
-                    <h3> Atlassian Jira Plus </h3>
-                    <p> Link Freshdesk and JIRA accounts to associate JIRA issues with Freshdesk tickets. </p>
-                </div>
-
-                <div>
-                    <div className={styles.MarketPlaceFeatureimg}>
-                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature2.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "75%", height: "90%" }}
-                        />
-                    </div>
-
-                    <h3> Advanced Automations </h3>
-                    <p> Automate your daily chat workflows in Freshdesk Messaging </p>
-                </div>
-
-                <div>
-                    <div className={styles.MarketPlaceFeatureimg}>
-                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature3.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
-                        />
-                    </div>
-
-                    <h3> Device42 for Freshservice </h3>
-                    <p> Easily populate your Freshservice CMDB with CIs from Device42’s comprehensive IT inventory </p>
-                </div>
-
-                <div>
-                    <div className={styles.MarketPlaceFeatureimg}>                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/feature4.png"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
-                        />
-                    </div>
-
-                    <h3> GoodData for Freshdesk </h3>
-                    <p> Easily analyze support ticket workflow directly in Freshdesk with GoodData analytics </p>
-                </div>
-            </div>
+                </div>  
+                );
+            })}
+            
         </div>
     );
 };
