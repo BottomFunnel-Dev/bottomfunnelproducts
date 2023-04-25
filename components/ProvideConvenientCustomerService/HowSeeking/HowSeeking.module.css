@@ -63,3 +63,32 @@ margin-left: 30%;
 .HowSeekingmaindivcardsboxinner h6{
     margin-top: 15%;
 }
+@media(max-width:480px){
+    .HowSeekingmaindiv{
+      padding: 3% 0;
+      height: max-content;
+    }
+    .HowSeekingmaindivheading{
+        width: 90%;
+    }
+    .HowSeekingmaindivcards{
+        flex-direction: column;
+    }
+    .HowSeekingmaindivcardsbox{
+        height: max-content;
+        width: 80%;
+        margin-top: 10%;
+        /* padding: 2%; */
+    }
+    .HowSeekingmaindivcardsboxinner{
+        padding: 2% 5%;
+        height: 240px;
+    }
+    .HowSeekingmaindivcardsboxinnerimage{
+        bottom: 80%;
+    }
+    .HowSeekingmaindivcardsboxinner>h6{
+        font-size: 20px;
+    }
+    
+}

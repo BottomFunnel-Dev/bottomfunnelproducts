@@ -17,6 +17,7 @@
 }
 .PowerBackmaindivheadingimage{
     width: 45%;
+    
 }
 .PowerBackmaindivcards{
     width: 90%;
@@ -46,7 +47,7 @@
     width: 70%;
     height: 300px;
     /* padding: 20px; */
-    margin: auto;
+    margin: 4% auto;
     /* border: 2px solid; */
 }
 
@@ -54,8 +55,49 @@
 .PowerBackmaindivcardsbox hr{
     /* margin: 0%; */
     border: 1px solid;
-    color: cyan;
-    width: 70%;
+    color: #04c358;
+    width: 90%;
     margin: auto;
     margin-bottom: 5%;
+}
+.PowerBackmaindivcardsbox>h6{
+    font-size: 20px;
+}
+@media(max-width:480px){
+    .PowerBackmaindivheading{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .PowerBackmaindivheadingcontent{
+        width: 90%;
+    }
+    .PowerBackmaindivheadingimage{
+       width: 90%;
+       height: auto;
+    }
+    .PowerBackmaindivcardsbg{
+        background-color: white;
+        margin-top: 10%;
+    }
+    .PowerBackmaindivcards{
+        flex-direction: column;
+       
+       
+    }
+   
+    
+    .PowerBackmaindivcardsbox{
+        width: 100%;
+       height: 31rem;
+    }
+    
+    .PowerBackmaindivcardsbox>hr{
+        width: 80%;
+    }
+    .PowerBackmaindivcardsboximage{
+        width: 80%;
+        height: 250px;
+        margin: 8% auto;
+    }
 }

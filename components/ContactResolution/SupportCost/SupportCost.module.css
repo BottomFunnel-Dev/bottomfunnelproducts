@@ -59,3 +59,38 @@
   margin: 0%;
   font-size: 14px;
 }
+@media(max-width:480px){
+  .SupportCostmaindivinner {
+    /* border: 2px solid red; */
+    width: 100%;
+   margin: auto;
+   height: max-content;
+    flex-direction: column;
+   
+  }
+  .SupportCostmaindivinnerimage {
+    width: 100%;
+   
+    position: absolute;
+    
+    z-index: 0;
+    
+  }
+  .SupportCostmaindivinnercard {
+    width: 90%;
+    position: static;
+    margin: 3% auto;
+    margin-top: 35%;
+    z-index: 1;
+ }
+ .SupportCostmaindivinnercard>h2 {
+  font-size: 30px;
+
+}
+.SupportCostmaindivinnercard>p {
+  font-size: 16px;
+  
+  margin:3% auto;
+  
+}
+}

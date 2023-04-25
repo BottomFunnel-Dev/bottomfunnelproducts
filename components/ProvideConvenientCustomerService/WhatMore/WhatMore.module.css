@@ -63,3 +63,27 @@ margin-left: 30%;
 .WhatMoremaindivcardsboxinner h6{
     margin-top: 15%;
 }
+@media(max-width:480px){
+    .WhatMoremaindiv{
+        height: max-content;
+        padding: 4% 0;
+    }
+    .WhatMoremaindivcards{
+        flex-direction: column;
+       
+    }
+    .WhatMoremaindivcardsbox{
+        width: 90%;
+    }
+    .WhatMoremaindivcardsboxinner{
+        padding: 2% 4%;
+        height: 230px;
+    }
+    
+    .WhatMoremaindivcardsboxinner>h6{
+        font-size: 20px;
+    }
+    .WhatMoremaindivcardsboxinnerimage{
+        bottom: 80%;
+    }
+}
