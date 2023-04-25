@@ -22,3 +22,20 @@
     margin: auto;
     margin-top: 3%;
 }
+@media(max-width:480px){
+    /* .Limitationmaundiv{
+        flex-direction: column;
+    } */
+    .Limitationmaundivinner{
+        width: 80%;
+        margin: 2% auto;
+        padding-top: 2%;
+        /* border-top: 2px solid lightgray;
+        border-left: none; */
+    }
+    .Limitationmaundivinner>h6{
+        font-size: 20px;
+        margin-bottom: 4%;
+    
+    }
+}
