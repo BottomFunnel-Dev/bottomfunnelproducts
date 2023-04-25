@@ -3,7 +3,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    margin-top: 4%;
+    margin-top: 2%;
     height: 100vh;
 }
 .ProvideConvenientBannermaindivbutton{
@@ -11,7 +11,7 @@
     width: 220px;
     height: 40px;
     color: white;
-    background-color: #209b4a;
+    background-color: #04c358;
     font-size: 18px;
     font-weight: 600;
     border-radius: 10px;
@@ -20,8 +20,8 @@
 
 }
 .ProvideConvenientBannermaindivbutton:hover{
-    border: 1px solid #209b4a;
-    color: #209b4a;
+    border: 1px solid #04c358;
+    color: #04c358;
     background-color: white;
 }
 .ProvideConvenientBannermaindivinner{
@@ -33,6 +33,29 @@
 }
 .ProvideConvenientBannermaindivinner h1{
     font-size: 40px;
+}
+@media(max-width:480px){
+    .ProvideConvenientBannermaindiv{
+        flex-direction: column-reverse;
+        height: 600px;
+        justify-content: space-evenly;
+        margin-top: 15%;
+        text-align: center;
+    }
+    .ProvideConvenientBannermaindivinner>h1{
+        font-size: 32px;
+    }
+    .ProvideConvenientBannermaindivinner,.ProvideConvenientBannerimage{
+        width: 80%;
+       
+    }
+    .ProvideConvenientBannermaindivbutton{
+ 
+       height: 50px;
+       width: 60%;
+    
+    }
+   
 }
 
 

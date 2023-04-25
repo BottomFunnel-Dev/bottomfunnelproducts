@@ -15,7 +15,7 @@ export const EnterprizePlatform = () => {
 <button className={styles.EnterprizePlatformdivbutton}>Learn More</button>
         </div>
         <div  className={styles.EnterprizePlatformcarddiv}>
-            <h2>Businesses use Freshchat to wow their customers</h2>
+            <h2>Businesses use Bottom Funnel chat to wow their customers</h2>
             <div className={styles.EnterprizePlatformcarddivinner}>
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
@@ -36,7 +36,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/supr daily.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/supr+daily.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

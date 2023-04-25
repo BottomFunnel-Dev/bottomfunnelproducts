@@ -51,3 +51,16 @@ text-align: center;
     text-align: center;
     /* margin-top: 3%; */
 }
+@media(max-width:480px){
+    .SupportChannelmaindivheading{
+        margin: 8% auto;
+    }
+    .SupportChannelmaindiv{
+        flex-direction: column;
+    }
+    .SupportChannelinnerdiv{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    
+}

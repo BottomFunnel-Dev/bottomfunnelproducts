@@ -10,7 +10,7 @@ export const Limitation = () => {
         </div>
     <div className={styles.Limitationmaundiv}>
         <div className={styles.Limitationmaundivinner} style={{border:"none" }}>
-            <h6> CRITERIA </h6>
+            <h6> Criteria </h6>
             <p>Channels</p>
             <p>Conversation history</p>
             <p>Cross-device continuity</p>

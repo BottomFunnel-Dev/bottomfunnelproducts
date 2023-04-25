@@ -16,7 +16,7 @@ export const WhatMore = () => {
             <div className={styles.WhatMoremaindivcardsboxinnerimage}>
         <div className={styles.WhatMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/4-1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/4-1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -36,7 +36,7 @@ export const WhatMore = () => {
             <div className={styles.WhatMoremaindivcardsboxinnerimage}>
         <div className={styles.WhatMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/4-2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/4-2.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -56,7 +56,7 @@ export const WhatMore = () => {
             <div className={styles.WhatMoremaindivcardsboxinnerimage}>
         <div className={styles.WhatMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/4-3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/4-3.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -77,7 +77,7 @@ export const WhatMore = () => {
             <div className={styles.WhatMoremaindivcardsboxinnerimage}>
         <div className={styles.WhatMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/4-4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/4-4.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -96,7 +96,7 @@ export const WhatMore = () => {
             <div className={styles.WhatMoremaindivcardsboxinnerimage}>
         <div className={styles.WhatMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/4-5.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/4-5.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

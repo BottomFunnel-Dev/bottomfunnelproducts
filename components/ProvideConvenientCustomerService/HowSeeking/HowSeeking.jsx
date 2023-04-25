@@ -17,7 +17,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/2-1.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -37,7 +37,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/2-2.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-2.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -58,7 +58,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/2-3.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-3.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -77,7 +77,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/2-4.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-4.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -98,7 +98,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerServicephotos/2-5.webp"}
+                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-5.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -109,7 +109,7 @@ Zero contact resolution is the way to go</h2>
      </div>
      </div>
      <h6>Poor self-service</h6>
-     <p>ustomers often want a quick response to straightforward issues. But inadequate self-service options leave them confused and disappointed.</p>
+     <p>Customers often want a quick response to straightforward issues. But inadequate self-service options leave them confused and disappointed.</p>
      </div>
     </div>
    
