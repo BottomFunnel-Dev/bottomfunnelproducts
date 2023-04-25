@@ -78,7 +78,7 @@ export const Platform = ({
               columnGap: "5px",
             }}
           >
-            <img height="30px" src="Images/Neo.png" />
+            <img height="30px" src="/Images/Neo.png" />
             <Link href={"/neo-mainpage"}  style={{textDecoration:"none", color : "inherit"}}>
               <h5> Bottom Funnel Neo</h5>
             </Link>
