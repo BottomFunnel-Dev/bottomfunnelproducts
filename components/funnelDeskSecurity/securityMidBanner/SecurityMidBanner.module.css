@@ -56,16 +56,23 @@
 
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
+    .securityMidBannerContainer{
+       margin-top: 10%;
+    }
     .securityMidBannerContainer>h1 {
         font-size: 20px;
     }
 
     .securityMidBannerContainer>p {
         font-size: 14px;
+        width: 95%;
+        margin: auto;
+        margin-top: 3%;
     }
 
     .securityMidBannerContainer>span>button {
         font-size: 14px;
+        margin-top: 5%;
         padding: 5px 20px;
     }
 }

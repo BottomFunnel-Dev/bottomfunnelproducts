@@ -8,7 +8,7 @@ export const FeatureList = () => {
         </div>
         <div className={style.FeatureListcontain}>
             <h2>Get the complete Supportdesk feature list</h2>
-            <p>The complete feature list includes all features available in supportdesk, a brief description of each <br/>feature and its plan information</p>
+            <p>The complete feature list includes all features available in supportdesk, a brief description of each feature and its plan information</p>
             <button>Get It Now</button>
         </div>
 

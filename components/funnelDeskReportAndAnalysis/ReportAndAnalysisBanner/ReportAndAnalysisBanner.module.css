@@ -50,3 +50,29 @@
     color: #14944C;
     border: 1px solid #14944C;
 }
+
+@media (max-width:480px) {
+    .reportAndAnalysisBannerMain{
+        flex-direction: column-reverse;
+        margin-top: 20%;
+        height: auto;
+    }
+    .reportAndAnalysisBannerimg{
+        width: 100%;
+        margin: auto;
+    }
+    .reportAndAnalysisBannertext{
+        width: 100%;
+        margin: auto;
+    }
+    .reportAndAnalysisBannertext>h1{
+        font-size: 29px;
+    }
+    .reportAndAnalysisBannertext>p{
+        text-align: justify;
+    }
+    .reportAndAnalysisBannertext>button{
+      width: 220px;
+      margin-top: 5%;
+    }
+}

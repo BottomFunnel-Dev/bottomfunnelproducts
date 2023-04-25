@@ -47,15 +47,9 @@
 }
 
 .FeaturedIntegrationcontain{
-    width: 80%;
-   
+    width: 80%;  
 }
-/* .FeaturedIntegrationcontain>h2{
-    margin: 0;
-}
-.FeaturedIntegrationcontain>p{
-    margin: 0;
-} */
+
 .FeaturedIntegrationcontain>p{
     margin: 0;
     font-size: 15px;
@@ -79,24 +73,37 @@
 
 @media only screen and ( min-width:0px) and (max-width:1024px){
     .FeaturedIntegrationsingle{
-        display: block;
-        margin-left: 30px;
+        flex-direction: column;
         text-align: center;
+        padding: 5%;
+    }
+    .FeaturedIntegrationMain{
+        margin-top: 10%;
+    }
+    .integrationsDiv>p{
+        margin-top: 5%;
+        font-size: 18px;
+    }
+    .FeaturedIntegrationsingle:nth-child(odd){
+        flex-direction: column;
+    }
+    .FeaturedIntegrationLine>h2{
+        padding-top: 2%;
     }
     .FeaturedIntegrationimg{
     text-align: center;
-    width: 50%;
-    height: 10%;
-    margin-left: 50px;
+    width: 45%;
+    height: 8%;
     }
     .FeaturedIntegrationcontain>p{
         text-align: justify;
+       font-size: 18px;
     }
     .FeaturedIntegrationcontain{
-        width: 300px;
-        margin-left: -42px;
-        margin-top: 20px;
-        padding: 5px 5px 5px 5px;
+        width: 100%;
+        margin-top: 8%;
     }
-
+    .FeaturedIntegrationcontain>button{
+        font-size: 16px;
+    }
 }

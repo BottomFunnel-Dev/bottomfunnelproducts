@@ -19,8 +19,8 @@ export const Advantages = () => {
           style={{ width: "100%", height: "100%" }}
         /> 
         </div>
-        <h4 className={styles.Advantagesinnerboxcontent}>Analytics for anyone </h4>
-        <p>With our no-code platform, any team member can build reports $ dashboards. No queries, SQL, or training required.</p>
+        <h4 className={styles.Advantagesinnerboxcontent}>Analytics for efficiency:</h4>
+        <p>Our no-code analytics platform is designed to help businesses simplify their data analysis processes without the need for extensive technical knowledge or coding expertise. </p>
         </div>
         <div  className={styles.Advantagesinnerbox}>
           <div className={styles.Advantagesinnerboximage} >
@@ -33,8 +33,8 @@ export const Advantages = () => {
           style={{ width: "100%", height: "100%" }}
         /> 
         </div>
-        <h4 className={styles.Advantagesinnerboxcontent}>Analytics for anyone </h4>
-        <p>With our no-code platform, any team member can build reports $ dashboards. No queries, SQL, or training required.</p>
+        <h4 className={styles.Advantagesinnerboxcontent}>Analytics for decision-making:</h4>
+        <p>Our no-code analytics platform can be a game changer for businesses looking to make data-driven decisions.</p>
         </div>
         <div  className={styles.Advantagesinnerbox}>
           <div className={styles.Advantagesinnerboximage} >
@@ -47,8 +47,8 @@ export const Advantages = () => {
           style={{ width: "100%", height: "100%" }}
         /> 
         </div>
-        <h4 className={styles.Advantagesinnerboxcontent}>Analytics for anyone </h4>
-        <p>With our no-code platform, any team member can build reports $ dashboards. No queries, SQL, or training required.</p>
+        <h4 className={styles.Advantagesinnerboxcontent}>Analytics for User Experience:</h4>
+        <p>With our platform, you can easily track user behavior, such as clicks and pageviews, and gain insights into how users interact with your site.</p>
         </div>
 
 

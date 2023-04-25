@@ -20,10 +20,10 @@ export const AnalyticsofFeatureBanner = () => {
 
       <div className={styles.AnalyticsofFeatureBannerimagecontent}>
         <div>
-            <h1>Unlock Critical Business Insights with No-code <span>Analytics</span></h1>
+            <h1>Ease your way into no-code <span>Analytics</span> to unlock business insights. </h1>
             <hr/>
 
-            <p>Build on top of customers data by seamlessly streaming events in real-time from bottom funnel products to third-party apps and AWS.   </p>
+            <p>Use our no-code analytics feature to build on top of the client's data by effortlessly streaming events in real-time from Bottom Funnel analytics to third-party apps and AWS. </p>
             {/* <button  className={styles.AnalyticsofFeatureBannerbutton}>Explore Now</button> */}
               <button className={styles.AnalyticsofFeatureBannerbutton}
           type="button"

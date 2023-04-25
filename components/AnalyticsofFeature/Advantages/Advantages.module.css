@@ -45,11 +45,11 @@ transition: all 0.2s linear;
 
 @media  (max-width:1024px){
     .Advantagesmaindiv{
- 
         margin-top: 3%;
       }
       .Advantagesmaindiv h2{
           text-align: center;
+          margin-top: 5%;
       }
       
       .Advantagesboxdiv{

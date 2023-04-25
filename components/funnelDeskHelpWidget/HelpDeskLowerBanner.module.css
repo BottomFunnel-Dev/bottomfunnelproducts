@@ -1,7 +1,6 @@
 .helpdesklowerbannermainbox {
   height: fit-content;
   padding: 2% 0;
-
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/helpdesk/Component 69.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -10,7 +9,6 @@
 .helpdesklowerbannertextbox {
   height: fit-content;
   width: 50%;
-
   color: white;
   margin: 2% 25% 0% 25%;
   text-align: center;
@@ -47,6 +45,10 @@
     padding: 3% 0;
     border: none;
   }
+
+  /* .helpdesklowerbannersomebutton{
+    flex-direction: column;
+  } */
 
   .helpdesklowerbannertextbox {
     width: 90%;

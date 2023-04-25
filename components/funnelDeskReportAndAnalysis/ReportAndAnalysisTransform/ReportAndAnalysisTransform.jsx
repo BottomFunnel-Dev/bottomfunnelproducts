@@ -8,7 +8,7 @@ export const ReportAndAnalysisTransform = () => {
         <h1>Transform your Business into an Insight-Driven Enterprise</h1>
         <div className={Styles.transformdiv}>
             <div className={Styles.transformtext}>
-                <h2>with the analytics capabilities, you can: </h2>
+                <h2>With the analytics capabilities, you can: </h2>
                 <ol className={Styles.list}>
                     <li>Monitor helpdesk productivity</li>
                     <li>Measure customer satisfaction</li>
