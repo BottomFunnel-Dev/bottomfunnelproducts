@@ -54,15 +54,22 @@
         padding: 5px 0;
     }
 
+    .bestSecurityRoofContainer{
+        margin-top: 10%;
+    }
+
     .bestSecurityRoofContainer>h1 {
         font-size: 25px;
         line-height: 30px;
+        margin-top: 5%;
+        width: 95%;
     }
 
     .customSSLCertificatesContainer,
     .ipWhitelistingContainer {
         width: 95%;
         flex-direction: column;
+        margin-top: 5%;
     }
 
     .ipWhitelistingContainer {
@@ -83,19 +90,24 @@
 
     .customSSLCertificatesContainer>div>h2,
     .ipWhitelistingContainer>div>h2 {
-        font-size: 20px;
-        text-align: center;
-        line-height: 25px;
+        font-size: 22px;
+        text-align: justify;
+        width: 95%;
+        margin: auto;
+        margin-top: 5%;
     }
 
     .customSSLCertificatesContainer>div>p,
     .ipWhitelistingContainer>div>p {
-        font-size: 14px;
-        text-align: center;
-        line-height: 18px;
+        font-size: 16px;
+        text-align: justify;
+        width: 95%;
+        margin: auto;
+        margin-top: 5%;
+       
     }
 
     .customSSLCertificatesContainer>div>ul>li {
-        font-size: 14px;
+        font-size: 16px;
     }
 }

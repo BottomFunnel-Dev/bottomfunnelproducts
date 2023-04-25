@@ -1,6 +1,5 @@
 .reportsMain{
-    height: fit-content;
-    
+    height: fit-content;   
 }
 
 .reportsdiv{
@@ -53,4 +52,30 @@ font-size: 25px;
     margin-top: 10%;
     color: #14944C;
     text-decoration: underline;
+}
+
+@media (max-width:480px) {
+    .reportsbox{
+        flex-direction: column;
+        height: auto;
+    }
+    .reportsbox:nth-child(even){
+        flex-direction: column;
+    }
+    .reportsdiv{
+        width: 100%;
+        margin: auto;
+    }
+    .reportsimg{
+        width: 100%;
+        height: auto;
+    }
+    .reportstext{
+        width: 100%;
+        margin-top: 5%;
+       
+    }
+    .reportstext>p{
+        text-align: justify;
+    }
 }

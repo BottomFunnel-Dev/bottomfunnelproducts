@@ -29,6 +29,7 @@
     .securitySSOContainer {
         width: 95%;
         flex-direction: column;
+        margin: auto;
     }
 
     .securitySSOContainer>span {
@@ -38,13 +39,16 @@
     .securitySSOContainer>div {
         width: 95%;
         text-align: center;
+        margin-top: 5%;
+       
     }
 
     .securitySSOContainer>div>h2 {
-        font-size: 20px;
+        font-size: 22px;
+       
     }
 
     .securitySSOContainer>div>p {
-        font-size: 14px;
+        font-size: 16px;
     }
 }

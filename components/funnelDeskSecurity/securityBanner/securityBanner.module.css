@@ -43,12 +43,12 @@
     margin-left: 2%;
 }
 /* media query for mobile and tablet devices */
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
     .securityBannerContainer {
         flex-direction: column;
         height: fit-content;
         padding: 20px 0;
-        margin-top: 90px;
+        margin-top: 20%;
     }
 
     .securityBannerContainer>span {
@@ -61,15 +61,16 @@
     }
 
     .securityBannerContainer>div>h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .securityBannerContainer>div>p {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .securityBannerContainer>div>button {
-        font-size: 16px;
-        padding: 8px 20px;
+        font-size: 17px;
+        width: 35%;
+        /* padding: 8px 20px; */
     }
 }

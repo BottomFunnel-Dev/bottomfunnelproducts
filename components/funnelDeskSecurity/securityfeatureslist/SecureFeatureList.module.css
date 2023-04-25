@@ -37,3 +37,30 @@
     background-color: #fff;
     color: #2C8753;
 }
+
+@media (max-width:480px) {
+    .secureFeatureListContainer{
+        flex-direction: column-reverse;
+        margin-top: 55%;
+    }
+    .secureFeatureListContainer>span{
+        width: 80%;
+    }
+
+    .secureFeatureListContainer>div {
+        margin-top: 8%;
+        width: 90%;
+    }
+    .secureFeatureListContainer>div>h2 {
+        font-size: 25px;
+    }
+    
+    .secureFeatureListContainer>div>p {
+        font-size: 18px;
+    }
+
+    .secureFeatureListContainer>div>button {
+        padding: 7px 30px;
+       margin-left: 25%;
+    }
+}

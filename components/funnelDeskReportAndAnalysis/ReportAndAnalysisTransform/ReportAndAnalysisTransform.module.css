@@ -33,6 +33,24 @@ font-weight: 500;
     width: 30%;
     height: 350px;
     margin-top: 3%;
-    margin-left: 5%;
-   
+    margin-left: 5%;  
+}
+
+@media (max-width:480px) {
+    .transformdiv{
+        flex-direction: column-reverse;
+    }
+    .transformMain{
+        height: auto;
+    }
+    .transformtext{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .transformimg{
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    }
 }

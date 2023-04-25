@@ -28,25 +28,38 @@
 }
 @media only screen and ( min-width:0px) and (max-width:1024px){
     .IntegrationBannermain{
-        height: fit-content;
+        height: auto;
         background-color: #f5f5f5;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
     }
     .IntegrationBannercontain{
        margin: auto;
        text-align: center;
     }
-    .IntegrationBannerAnimation{
-        margin: 0;
-        text-align: center;
-        height: 40%;
-        margin-right: 10px;
 
+    .IntegrationBannercontain>p{
+        font-size: 20px;
+        text-align: justify;
+        width: 90%;
+        margin: auto;
+    }
+    .IntegrationBannercontain>hr{
+        display: none;
+    }
+
+    .IntegrationBannerAnimation{
+       width: 80%;
+        text-align: center;
+        height: auto;
+        margin: auto;
     }
     .IntegrationBannerAnimation>img{
         width: 70%;
         margin-left: 10px;
-
+    }
+    .IntegrationbannerButton{
+        font-size: 16px;
+        padding: 8px 26px;
     }
 }
