@@ -8,11 +8,9 @@ export const NeoAdminBanner = () => {
     <div className={styles.neoAdminBannerDiv}>
         <div className={styles.neoAdminBannerText}>
             <div className={styles.neoAdminBannerContent}>
-                <h1>Unify administration across <br/> Bottom funnel Products</h1>
+                <h1>Harmonize the administration and data security across diverse platforms of Bottom funnel</h1>
                 <p>
-                    Power admins to secure data, enable users,and <br/>
-                    manage subscription billing,from one console, no <br/>
-                    matter what the scale!
+                With one unified console, regardless of size, powerful admins can secure data, enable users, and manage subscription billing.
                 </p>
                 {/* <button>Start free trial</button> */}
                 { <button

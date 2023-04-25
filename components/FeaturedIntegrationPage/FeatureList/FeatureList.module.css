@@ -7,8 +7,10 @@
     padding: 30px;
 }
 .FeatureListimg>img{
-    object-fit: contain;
-    
+    object-fit: contain;  
+}
+.FeatureListcontain>p{
+    width: 80%;
 }
 .FeatureListcontain{
     margin: auto;
@@ -30,14 +32,14 @@
     color: #14944C;
     border: 2px solid #14944C;
 }
-@media only screen and ( min-width:0px) and (max-width:1024px){
+@media only screen and (min-width:0px) and (max-width:1024px){
     .FeatureListMain{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
     .FeatureListimg{
-        width: 85%;
+        width: 90%;
         text-align: center;
     }
     .FeatureListimg>img{
@@ -48,6 +50,13 @@
         text-align: center;
     }
     .FeatureListcontain>button{
-    margin-bottom: 10px;
+    margin-top: 8%;
+    font-size: 16px;
+    }
+    .FeatureListcontain>p{
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+        text-align: justify;
     }
 }    

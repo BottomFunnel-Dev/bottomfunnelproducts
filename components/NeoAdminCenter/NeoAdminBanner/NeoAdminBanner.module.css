@@ -9,7 +9,10 @@
     /* border: 2px solid red; */
     width: 50%;
     height: 70vh;
-    margin-top: 5%;
+}
+.neoAdminBannerContent>p{
+    width: 80%;
+    font-size: 22px;
 }
 .neoAdminBannerContent{
     /* border: 2px solid red; */

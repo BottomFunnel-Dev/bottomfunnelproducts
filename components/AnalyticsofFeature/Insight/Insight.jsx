@@ -3,21 +3,45 @@ import styles from "./Insight.module.css"
 import Image from 'next/image'
 
 export const Insight = () => {
+  const insight = [
+    {
+      img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen1.webp",
+      hd:"Data visualization",
+      par:"Gain valuable insights and make informed decisions by presenting complex data sets in an easy-to-understand visual format such as charts or graphs. It becomes easier to identify patterns and trends that may not be immediately apparent in the raw data. Additionally, data visualization will also help you to communicate findings effectively to stakeholders and team members who may not have the same level of technical expertise."
+    },
+    {
+      img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen2.webp",
+      hd:"Data Exploration ",
+      par:" Examine the large datasets and identify patterns, trends, and anomalies. Analysts can gain a deeper understanding of their data and make informed decisions based on their findings. Through data exploration, analysts can also identify areas for further investigation, which can help drive innovation and improve business outcomes. Additionally, data exploration can be used to identify potential areas of risk or concern, allowing companies to take proactive measures to mitigate these risks."
+    },
+    {
+      img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen3.webp",
+      hd:"Statistical Analysis",
+      par:"Use statistical techniques to identify patterns and trends in large sets of data, which can provide valuable insights for businesses and organizations. With statistical analysis, analysts can determine the probability of certain outcomes and make informed decisions based on the data. This can be particularly useful in industries such as finance, where accurate predictions are crucial for success. Additionally, statistical analysis allows businesses to track their performance over time and make adjustments as needed to improve their operations."
+    },
+    {
+      img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen4.webp",
+      hd:"Machine learning",
+      par:"Machine learning is one of the most important features of data analytics. With the ability to learn from data and make predictions based on that learning, machine learning algorithms can help businesses uncover valuable insights that would be difficult or impossible to find using traditional data analysis methods. By leveraging machine learning, businesses can automate complex processes, improve decision-making capabilities, and gain a competitive advantage in their industry."
+    },
+  ];
   return (
     <div>
+      {insight.map((items) =>{
+        return(
         <div className={styles.Insightmaindiv}>
-            <h2>Power-packed features to help with business insights</h2>
+            <h2>Rich functionality designed to assist in business research.</h2>
 
             <div className={styles.Insightinnerdiv}>
                 <div className={styles.Insightinnerdivbox}>
                   <div className={styles.Insightinnerdivboxcontent}>
-                    <h4>Create reports tailored for your business</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis molestiae ipsa. Corrupti, eius illo. Neque asperiores tempore, laboriosam itaque necessitatibus ut quam similique voluptatibus molestias animi, ullam modi sapiente?</p>
+                    <h4>{items.hd}</h4>
+                    <p>{items.par}</p>
                   </div>
                   <div className={styles.Insightinnerdivimagebox}>
                     <div className={styles.Insightinnerdivimage}>
                   <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen1.webp"}
+          src={items.img}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -27,64 +51,10 @@ export const Insight = () => {
         </div>
                   </div>
                 </div>
-                <div className={styles.Insightinnerdivbox1}>
-                  <div className={styles.Insightinnerdivboxcontent1}>
-                    <h4>Customize, as you please </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis molestiae ipsa. Corrupti, eius illo. Neque asperiores tempore, laboriosam itaque necessitatibus ut quam similique voluptatibus molestias animi, ullam modi sapiente?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique laboriosam impedit tenetur sequi accusamus rem officiis. Earum natus, culpa, obcaecati velit id repudiandae modi voluptas neque deserunt eum quod aspernatur.</p>
-                  </div>
-                  <div className={styles.Insightinnerdivimagebox}>
-                    <div className={styles.Insightinnerdivimage}>
-                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen2.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
-        </div>
-                  </div>
-                </div>
-                <div className={styles.Insightinnerdivbox}>
-                  <div className={styles.Insightinnerdivboxcontent}>
-                    <h4>Slice and dice, however you like </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis molestiae ipsa. Corrupti, eius illo. Neque asperiores tempore, laboriosam itaque necessitatibus ut quam Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorem corporis pariatur quisquam, perferendis facilis, vero quo fugiat explicabo minus quis alias distinctio, iure adipisci sequi. Id numquam labore quisquam?</p>
-                  </div>
-                  <div className={styles.Insightinnerdivimagebox}>
-                    <div className={styles.Insightinnerdivimage}>
-                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen3.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
-        </div>
-                  </div>
-                </div>
-                <div className={styles.Insightinnerdivbox1}>
-                  <div className={styles.Insightinnerdivboxcontent1}>
-                    <h4>Access insights, on-the-go</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perspiciatis molestiae ipsa. Corrupti, eius illo. Neque asperiores tempore, laboriosam itaque necessitatibus ut quam similique voluptatibus molestias animi, ullam modi sapiente?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ullam, dolorum distinctio nostrum, nesciunt fuga quaerat, et earum labore porro eaque suscipit accusantium consectetur blanditiis. Vitae ad sit cum sed.</p>
-                  </div>
-                  <div className={styles.Insightinnerdivimagebox}>
-                    <div className={styles.Insightinnerdivimage}>
-                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/screen4.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
-        </div>
-                  </div>
-                </div>
-
-
             </div>
         </div>
+        );
+         })}
     </div>
   )
 }

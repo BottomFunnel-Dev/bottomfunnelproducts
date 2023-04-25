@@ -57,19 +57,16 @@
 
 @media (max-width:1024px) {
     .Insightmaindiv{
-        margin-top: 4%;
+        margin-top: 8%;
     }
     .Insightmaindiv h2{
         text-align: center;
-    }
-    
-    
+    } 
     .Insightinnerdiv{
         /* border: 2px solid yellow; */
         display: flex;
         flex-direction: column;
-        margin-top: 2%;
-    
+        margin-top: 5%;
     }
     .Insightinnerdivbox{
         /* border: 2px solid green; */
@@ -99,6 +96,7 @@
     .Insightinnerdivboxcontent{
         /* border: 2px solid green; */
         width: 90%;
+        margin-top: 5%;
         padding-right: 0px;
     }
     .Insightinnerdivboxcontent p{

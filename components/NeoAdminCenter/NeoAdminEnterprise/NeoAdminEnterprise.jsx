@@ -3,11 +3,12 @@ import styles from "./NeoAdminEnterprise.module.css";
 import Image from "next/image";
 
 export const NeoAdminEnterprise = () => {
+    
   return (
      
     <div className={styles.neoAdminEnterpriseMainDiv}>
         <h1 className={styles.neoAdminEnterpriseHeading}>
-            Enterprise-grade security controls
+        Security measures to protect admin centre
         </h1>
         <div className={styles.neoAdminEnterprisePassword}>
             <div className={styles.neoAdminEnterpriseImage}>
@@ -22,14 +23,10 @@ export const NeoAdminEnterprise = () => {
             </div>
             <div className={styles.neoAdminEnterpriseTextMain}>
                 <h1>
-                    Customizable password <br/>
-                    policy
+                Data Encryption
                 </h1>
                 <p className={styles.neoAdminEnterpriseContent}>
-                    Customize your password policy in terms of password <br/>
-                    length,character restrictions,reusability conditions, and <br/>
-                    resets. Or go password and generate magic links for <br/>
-                    easy access.
+                Protect your admin center  from cyber threats such as hacking and data breaches by encrypting your data. This not only helps to keep your business operations running smoothly but also safeguards your customers' personal information.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>

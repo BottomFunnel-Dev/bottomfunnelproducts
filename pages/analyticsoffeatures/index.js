@@ -10,15 +10,7 @@ import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/
 export default function AnalyticsofFeature () {
     return (
     <div>
-        {/* <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      /> */}
+
         <Navbar
           productMount={{
             navMount: false,
@@ -28,7 +20,6 @@ export default function AnalyticsofFeature () {
             logo: false,
           }}
         />
-      {/* <ProdNavbar data={productData} /> */}
    <AnalyticsofFeatureBanner/>
    <Advantages/>
    <Insight/>
