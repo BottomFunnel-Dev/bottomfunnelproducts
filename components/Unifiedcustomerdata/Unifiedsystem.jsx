@@ -7,7 +7,7 @@ export const Unifiedsystem = () => {
     const unifiedsystemdata = [
         {
             htxt:"Single source of truth",
-            stxt:"UCR ingests,enriches and presents data from multiple touchpoints across Freshworks products,web and social media.",
+            stxt:"UCR ingests,enriches and presents data from multiple touchpoints across Bottom Funnel products,web and social media.",
         },
 
         {

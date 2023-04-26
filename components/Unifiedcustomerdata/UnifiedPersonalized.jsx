@@ -8,21 +8,21 @@ export const UnifiedPersonalized = () => {
     const unifiedpersonalizeddata = [
         {
             htxt:"For Sales",
-            stxt:"Accelerate your pipeline and engage your prospect with a holistic view of lead data from multiple touchpoints/sources.",
+            stxt:"Accelerate the progression of your pipeline, and focus on engaging your target audience with a holistic understanding of lead data from multiple sources.",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/business-and-finance.webp",
 
         },
 
         {
             htxt:"For Marketers",
-            stxt:"Generate higher marketing ROI and drive lead conversion through targeted and personalized multi-channel campaigns.",
+            stxt:"By utilizing targeted and personalized multi-channel campaigns, it is possible to achieve higher marketing ROI and increase lead conversion. ",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/image 41.webp",
 
         },
 
         {
             htxt:"For Support Teams",
-            stxt:"Exceed customer expectations leading to higher retention and upsell with a proactive view of the customer engagement history.",
+            stxt:"A proactive approach to analyzing customer engagement history results in higher retention and upsell, demonstrating a positive perspective on the previous interactions with customers.",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/image 42.webp",
 
         },
@@ -56,7 +56,7 @@ export const UnifiedPersonalized = () => {
   return (
     <div className={styles.unifiedpersonalizedmainboxes}>
     <div className={styles.unifiedpersonalizeheadingbox}>
-    <h1>Personalize customer engagement based on insights and context</h1>
+    <h1>Evolve customer engagement plans based on analysis of insights and context</h1>
     <hr></hr>
     <p>Unified Customer Record enables sales, marketing and support teams leverage data from customer actions and behavior to deliver personalized engagement.</p>
     </div>

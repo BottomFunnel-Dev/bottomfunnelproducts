@@ -17,15 +17,15 @@ export const CustomBenefit = () => {
                </div> 
                 <div style={{ marginLeft: "5%"}} className={styles.customBenefitlistdiv}>
                    <ul>
-                    <li > <b>Agent</b> </li>
-                    <p>Make every agent a superhero with complete context on the request on hand.
+                    <li > <b>Improved Efficiency</b> </li>
+                    <p>Custom objects can greatly improve efficiency in a variety of industries. Custom objects are tailored to meet specific needs and can be designed to streamline processes and eliminate unnecessary steps.
                     </p>
-                    <li><b>Customer</b></li>
-                    <p>Instill new confidence and delight in your customers with fast and efficient resolutions.
+                    <li><b>Reusability</b></li>
+                    <p>By creating custom objects that can be used across multiple processes and applications, businesses can save time and resources by avoiding the need to recreate the same functionality repeatedly.
                     </p>
-                    <li><b>Admin</b></li>
+                    <li><b>Increased Flexibility</b></li>
                     <p>
-                        Feel Empowered to take growth decision with analytics and actionable insight.
+                    Custom objects can offer a range of benefits for businesses, but one of the most significant is increased flexibility. With custom objects, businesses have the ability to create unique data structures that align with their specific needs and workflows.
                     </p>
                    </ul>
                 </div>

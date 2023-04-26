@@ -2,15 +2,8 @@
 .customBenefitmain{
     background-color: whitesmoke;
     margin-top: 2%;
-   padding: 5%;
-   padding-top: 1%;
-   padding-right: 5%;
 }
 
-.customBenefitParent{
-    height: auto;
-   
-}
 .customBenefitOnlyChild{
    margin-top: 2%;
     display: flex;
@@ -18,14 +11,11 @@
    align-items: center;
 }
 .customBenefitOnlyChild>div{
-    width: 50%;
-    padding-top: 2%;
-   padding-right: 2%;
-   
+    width: 50%; 
 }
 .customBenefitmainheading{
-    width: 80%;
-    margin-left: 15%;
+    width: 90%;
+    margin: auto;
     margin-top: 3%;
 }
 .customBenefitImage{
@@ -41,37 +31,29 @@
     }
     
     .customBenefitParent{
-        height: auto;
-       
+        height: auto; 
     }
     .customBenefitOnlyChild{
         margin-top: 5%;
         display: flex;
         flex-direction: column;
-      
         width: 90%;
-       margin-left: 5%;
+        margin: auto;
     }
     .customBenefitOnlyChild>div{
         width: 100%;
         padding-top: 2%;
         margin-top: 5%;
-       
     }
     .customBenefitmainheading{
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin: auto;
         margin-top: 3%;
     }
-    .customBenefitPara{
-       margin-top: 2%;
-    font-size: 28px;
-    }
-    .customBenefitlistdiv>p{
-        margin: 0px;
-    }
-    .customBenefitlistdiv>li{
-        margin: 0px;
-    }
+    .customBenefitImage{
+        padding-left: 0%;
+        padding-top: 0%;
+        padding-right: 0px;
+     }
    
 }

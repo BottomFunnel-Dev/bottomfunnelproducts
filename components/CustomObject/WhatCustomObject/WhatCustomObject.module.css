@@ -55,14 +55,13 @@ width: 35%;
         flex-direction:column-reverse ;
     }
     .whatCustomDataBox2{
-        /* border: 2px solid red; */
-        width: 95%;
+        width: 90%;
         margin: auto;
-        text-align: center;
+        text-align: justify;
     }
     .whatCustomDataBox1{
-        /* border: 2px solid r  ed; */
-        width: 95%;
+        width: 80%;
+        height: auto;
         margin: auto;
     }
 }

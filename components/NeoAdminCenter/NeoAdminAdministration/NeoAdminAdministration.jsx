@@ -7,18 +7,15 @@ export const NeoAdminAdministration = () => {
      
     <div className={styles.neoAdminAdministrationMainDiv}>
         <h1 className={styles.neoAdminAdministrationHeading}>
-            Seamless multi-product Administration capabilities
+        Capabilities for seamless multi-product administration.
         </h1>
         <div className={styles.neoAdminAdministrationPassword1}>
             <div className={styles.neoAdminAdministrationText1}>
                 <h1>
-                    Unified Organization
+                An organization with a singular focus and objective.
                 </h1>
                 <p className={styles.neoAdminAdministrationContent}>
-                    Access all your accounts within one Organization from <br/>
-                    the Neo Admin Center. You can view all your Freshworks <br/>
-                    accounts at a glance or create accounts for new<br/>
-                    products directly from your organization dashboard.
+                With the Neo Admin Center, you can access all of your accounts within one organization from one convenient location. You can quickly view and manage all of your Bottom Funnel accounts through this app.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
@@ -46,13 +43,10 @@ export const NeoAdminAdministration = () => {
             </div>
             <div className={styles.neoAdminAdministrationText}>
                 <h1>
-                    User account management
+                Managing user accounts
                 </h1>
                 <p className={styles.neoAdminAdministrationContent}>
-                    Ensure that your teams have the right levels of access<br/>
-                    to the right resources,with a central repository.<br/>
-                    Streamline onboarding and offboarding and manage<br/>
-                    all users from one dashboard.
+                Maintain a central repository that ensures your teams have the right levels of access to the right resources, for their access needs. Develop a single dashboard to manage all users, including onboarding and offloading processes.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
@@ -60,13 +54,10 @@ export const NeoAdminAdministration = () => {
         <div className={styles.neoAdminAdministrationPassword1}>
             <div className={styles.neoAdminAdministrationText1}>
                 <h1>
-                    User profile management
+                Managing user profiles
                 </h1>
                 <p className={styles.neoAdminAdministrationContent}>
-                    Manage details of all user profiles, including security<br/>
-                    controls mandated at individuals levels. Make quick<br/>
-                    changes to user profiles,across products without<br/>
-                    having to switch between different screens.
+                Control the details of all user profiles, including security controls mandated at individual levels. Quickly modify user profiles across products without having to switch between multiple screens.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>

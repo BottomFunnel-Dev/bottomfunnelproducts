@@ -3,7 +3,6 @@ import styles from "./NeoAdminEnterprise.module.css";
 import Image from "next/image";
 
 export const NeoAdminEnterprise = () => {
-    
   return (
      
     <div className={styles.neoAdminEnterpriseMainDiv}>
@@ -34,14 +33,10 @@ export const NeoAdminEnterprise = () => {
         <div className={styles.neoAdminEnterprisePassword1}>
             <div className={styles.neoAdminEnterpriseText1}>
                 <h1>
-                    Single sign-on
+                Access Control
                 </h1>
                 <p className={styles.neoAdminEnterpriseContent}>
-                    Make logging into Freshworks accounts seamless for <br/>
-                    your users by integrating popular identity providers such <br/>
-                    as Okta, OneLogin, Azure AD, and more.The Neo admin <br/>
-                    center supports various standard protocols like SAML,<br/>
-                    OAuth2,ODIC, and JWT.
+                Tegrating popular identity providers such as Okta, OneLogin, Azure AD and more. The Neo admin center offers guaranteed support for standard protocols like SAML, OAuth2, ODIC, and JWT.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
@@ -69,13 +64,10 @@ export const NeoAdminEnterprise = () => {
             </div>
             <div className={styles.neoAdminEnterpriseText}>
                 <h1>
-                    Two-factor authentication
+                Network Security
                 </h1>
                 <p className={styles.neoAdminEnterpriseContent}>
-                    Enforce 2FA for user login and enhance security.with<br/>
-                    Combination such as password and phone/email- <br/>
-                    based OTP, among others, 2FA introduces a new layer of <br/>
-                    security, without hampering login simplicity.
+                By incorporating multiple forms of 2FA such as password and phone/email-based OTP, the security level is heightened without diminishing the ease of login.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
@@ -86,10 +78,7 @@ export const NeoAdminEnterprise = () => {
                     Audit Logs
                 </h1>
                 <p className={styles.neoAdminEnterpriseContent}>
-                    Get a comprehensive report of user login activities<br/>
-                    including a dedicated log of billing ctivities.With a tab<br/>
-                    on all such activities within your accounts,monitor<br/>
-                    suspicious attempts and nip threat actors in the bud.
+                Get a report that includes a dedicated log of billing activities, along with user login information. Keep tabs on any suspicious actions occurring in your accounts and swiftly eliminate threats.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
