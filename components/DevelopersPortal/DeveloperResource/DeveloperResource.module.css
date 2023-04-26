@@ -3,13 +3,13 @@
   height: auto;
   text-align: center;
   /* border: 1px solid red; */
-  margin-top: 5%;}
+  margin-top: 0%;}
 .developerPortalResourceMainDiv {
   width: 100%;
   height: auto;
   text-align: center;
   /* border: 1px solid red; */
-  margin-top: 5%;
+  margin-top: 20%;
 }
 .developerResourceContainer {
   width: 80%;
@@ -65,10 +65,11 @@
 }
 @media (max-width: 480px) {
   .developerPortalResourceMainDiv {
-    margin-top: 85%;
+    margin-top: 10%;
   }
   .developerResourceContainer {
     flex-direction: column;
+    margin-top: 10%;
   }
   .developerResourceBox {
     width: 80%;

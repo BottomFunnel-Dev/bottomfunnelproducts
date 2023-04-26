@@ -1,167 +1,80 @@
 .eventsAdvantagesParent {
-    padding-left: 5%;
-    padding-right: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3%;
-
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
 }
 
-.eventsAdvantagesHeading>h3 {
-    margin: 0px;
-    font-weight: 700;
-
-}
-
-.eventsAdvantagesHeading>hr {
-    margin: 0px;
-    margin-top: 3px;
-    width: 70%;
-    margin-bottom: 10px;
-    margin-left: 15%;
-    background-color: #ec4f25;
-    height: 2px;
-    border: none;
+.eventsAdvantagesHeading > hr {
+  margin: 3% auto;
+  width: 90%;
+  background-color: #ec4f25;
+  height: 2px;
+  border: none;
 }
 
 .eventsAdvantagesContentDiv {
-    display: flex;
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+}
+
+.eventsAdvantagesContentDiv > div {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 0 5% 5% 2%;
+  height: 50vh;
+  width: 31%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.eventsAdvantagesContentDiv > div > p {
+  font-weight: 450;
+  font-size: 18px;
+}
+
+.eventsAdvantagesContentDiv > div > div {
+  width: 40%;
+  height: 40%;
+  margin: 3% auto;
+  display: flex;
+  align-items: baseline;
+}
+
+@media (max-width: 780px) {
+  .eventsAdvantagesParent {
+    flex-direction: column;
     margin-top: 5%;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 90%;
-
-
-}
-
-.eventsAdvantagesContentDiv>div {
-
-    padding-right: 7%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    padding-right: 5%;
-    padding-bottom: 5%;
- 
-    padding-left: 2%;
-    width: 31%;
-    border-radius: 20px;
-}
+    text-align: center;
+  }
 
 
 
+  .eventsAdvantagesContentDiv {
+   
+    flex-direction: column;
+    margin-top: 6%;
+    width: 100%;
+  }
 
-.eventsAdvantagesContentDiv>div>h3 {
-    font-weight: 700;
-}
+  .eventsAdvantagesContentDiv > div {
+    
+    padding-right: 0%;
+    width: 100%;
+    margin: 5% 0;
+    height: 300px;
+  }
 
-.eventsAdvantagesContentDiv>div>p {
-    font-weight: 450;
-    font-size: 18px;
-}
-
-.eventsAdvantagesContentDiv>div>div {
-    width: 40%;
-    height: 40%;
+  .eventsAdvantagesContentDiv > div > div {
+    width: 30%;
+    height: auto;
 
     display: flex;
     align-items: baseline;
-
-}
-
-
-
-
-
-
-
-@media(max-width:780px) {
-
-    .eventsAdvantagesParent {
-        padding-left: 5%;
-        padding-right: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 3%;
-
-    }
-
-    .eventsAdvantagesHeading>h3 {
-        margin: 0px;
-        font-weight: 700;
-
-    }
-
-    .eventsAdvantagesHeading>hr {
-        margin: 0px;
-        margin-top: 3px;
-        width: 70%;
-        margin-bottom: 10px;
-        margin-left: 15%;
-        background-color: #ec4f25;
-        height: 2px;
-        border: none;
-    }
-
-    .eventsAdvantagesContentDiv {
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-
-
-    }
-
-    .eventsAdvantagesContentDiv>div {
-        display: flex;
-        flex-direction: column;
-       
-        align-items: center;
-        padding-right: 0%;
-        width: 100%;
-        margin-bottom: 5%;
-
-    }
-
-    .eventsAdvantagesContentDiv>div:nth-child(3) {
-
-        padding-right: 5%;
-        padding-bottom: 5%;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-        padding-left: 2%;
-        border-radius: 20px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-       
-        align-items: center;
-    }
-
-    .eventsAdvantagesContentDiv>div:nth-child(3)>h3 {
-        margin-top: 20px;
-    }
-
-    .eventsAdvantagesContentDiv>div>h3 {
-        font-weight: 700;
-    }
-
-    .eventsAdvantagesContentDiv>div>p {
-        font-weight: 450;
-        font-size: 18px;
-    }
-
-    .eventsAdvantagesContentDiv>div>div {
-        width: 40%;
-        height: 40%;
-
-        display: flex;
-        align-items: baseline;
-
-    }
-
-
-
-
+  }
 }

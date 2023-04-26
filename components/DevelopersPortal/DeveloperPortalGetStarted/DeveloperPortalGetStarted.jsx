@@ -41,7 +41,8 @@ export const DeveloperPortalGetStarted = () => {
                     </div>
                     <div className={styles.developerPortalLogoText}>
                         <h3>Build</h3>
-                        <p>Develop apps to integrate BottomFunnel into your own systems</p>
+                        <p>Companies can build robust technology solutions with our expert developers, leveraging their skills and experience to create high-quality, scalable products.
+</p>
                         <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
@@ -59,7 +60,9 @@ export const DeveloperPortalGetStarted = () => {
                     </div>
                     <div className={styles.developerPortalLogoText}>
                         <h3>Partner</h3>
-                        <p>Expand your business by solving custom client requirements.</p>
+                        <p>Companies can form strategic partnerships with our developers, working together to develop and deliver cutting-edge technology solutions and services.
+
+</p>
                         <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
@@ -77,7 +80,8 @@ export const DeveloperPortalGetStarted = () => {
                     </div>
                     <div className={styles.developerPortalLogoText}>
                         <h3>Grow</h3>
-                        <p>Build apps with no upfront cost and publish them on Marketplace</p>
+                        <p> Companies can scale and grow with our talented developers by leveraging their expertise to build innovative technology solutions and products that meet market demands.
+</p>
                         <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>
@@ -94,7 +98,8 @@ export const DeveloperPortalGetStarted = () => {
                     </div>
                     <div className={styles.developerPortalLogoText}>
                         <h3>Play</h3>
-                        <p>Build apps quickly and easily with low code platform</p>
+                        <p>Companies can partner with our skilled developers to collaborate on technology projects, driving innovation and achieving business goals.
+</p>
                         <p className={styles.developerPortalLearnMore}>Learn more &rarr;</p>
                     </div>
                 </div>

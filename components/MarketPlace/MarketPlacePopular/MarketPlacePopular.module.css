@@ -15,6 +15,8 @@
 .MarketPlacePopularChild {
   margin-top: 2%;
   display: flex;
+  flex-wrap: wrap;
+ 
   width: 100%;
   justify-content: center;
   gap: 3%;
@@ -23,11 +25,12 @@
 
 .MarketPlacePopularChild > div {
   width: 20%;
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  height: 330px;
+  height: 370px;
   padding: 1%;
 }
 
@@ -42,13 +45,6 @@
   height: 100%;
 }
 
-.MarketPlacePopularimg {
-  height: 50%;
-  width: 30%;
-  padding: 5%;
-  display: flex;
-  align-items: center;
-}
 
 .MarketPlacePopularchildsubdiv {
   width: 100%;
@@ -66,7 +62,7 @@
 
 .MarketPlacePopularchildsubdiv > p {
   margin-top: 1%;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .MarketPlacePopularchildsubdiv > div > button {
@@ -98,8 +94,10 @@
 
 .MarketPlacePopularimgthird {
   padding: 0px;
-  margin: 0px;
+  margin-top: 5%;
+  margin-left: 2%;
   width: 50%;
+  height: 50%;
 }
 
 .MarketPlacePopularchildivthird {
@@ -120,12 +118,14 @@
 }
 
 .MarketPlacefortablefirstp {
-  width: 32%;
+  width: 37%;
+  
   /* border: 1px solid red; */
 }
 
 .MarketPlacefortablesecp {
   width: 67%;
+  margin-left: 2px;
 }
 
 @media (max-width: 780px) {
@@ -174,13 +174,14 @@
     height: 100%;
   }
 
-  .MarketPlacePopularimg {
-    height: 50%;
-    width: 30%;
-    padding: 5%;
-    display: flex;
-    align-items: center;
+  .MarketPlacePopularimgthird {
+ 
+   margin: auto;
+    margin-left: 2%;
+    width: 50%;
+    height: 80%;
   }
+  
 
   .MarketPlacePopularchildsubdiv {
     width: 70%;

@@ -8,10 +8,9 @@ export const DevelopersPortalBanner = () => {
     <div className={styles.developerPortalBannerContainer}>
     <div className={styles.developerPortalBannerContainer}>
     <div className={styles.developerPortalBannerText}>
-        <h1>Build More, Be More</h1>
-        <p>Build innovative solutions to deliver customer delight with a secure, serverless, and self-serve platform
-          powered by rich APIs, a robust developer toolkit, and Crayons UI design library.
-        </p>
+        <h1>Build more and with our vigilant developers
+</h1>
+        <p>Welcome to our developer hiring portal for companies! Our platform offers a comprehensive solution for all your hiring needs in the tech industry. With a large pool of talented developers, we provide access to top candidates from around the world. Whether you're a startup or a large corporation, our portal can help you find the right talent to drive your business forward. Join us today and build your dream team!</p>
         <button>Sign up</button>
     </div>
     <div className={styles.developerPortalBannerImage}>

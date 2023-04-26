@@ -7,15 +7,15 @@ export const SalesPageBanner = () => {
     <div>
       <div className={style.SalesPageBannermainbox}>
         <div className={style.SalesPageBannermainboximage}>
-
           <lottie-player
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/saleshomepage/Sales.json"}
+            src={
+              "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/saleshomepage/Sales.json"
+            }
             background="transparent"
             speed="1"
             loop
             autoplay
-          >
-          </lottie-player>
+          ></lottie-player>
         </div>
         <div className={style.SalesPageBannermainboxinnertextdiv}>
           <h1>Accelerate your revenue with context-driven sales </h1>

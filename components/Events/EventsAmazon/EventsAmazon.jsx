@@ -5,13 +5,13 @@ export const EventsAmazon = () => {
     return (
         <div className={styles.eventsAmazonparent}>
             <h1>
-                Boottomfunnel + Amazon Eventbridge
+                Bottomfunnel + Amazon Eventbridge
             </h1>
-            <p>Add the app to your workspace and get a headstart on setting up notification</p>
+            <p>By adding the app to your workspace, you will have an advantage when it comes to setting up notifications.</p>
         
             <div>
-                <button>For BottomFunnel Support Desk</button>
-                <button>For BottomFunnel Sales</button>
+                <button>BottomFunnel Support Desk</button>
+                <button>BottomFunnel Sales</button>
             </div>
         </div>
     )

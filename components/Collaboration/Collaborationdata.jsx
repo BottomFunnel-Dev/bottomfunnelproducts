@@ -7,29 +7,29 @@ export const Collaborationdata = () => {
 
 const collaborationdatad = [
     {
-        htxt:"Effortless collaboration for support teams",
-        stxt:"configure the Freshdesk-MS Teams integration with ease & enable your support teams to manage support tickets, automate workflows, share conrext, and stay on top of customer queries.",
+        htxt:"Quick and seamless collaboration for support teams",
+        stxt:"With just a few steps, you can have the Bottom Funnel MS Teams integration configured and enabled for your support teams to manage support tickets, automate workflows, share context, and stay on top of customer queries.",
         image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/Group 1000006021.webp",
 
     },
 
     {
-        htxt:"Simplify your IT service management",
-        stxt:"ServiceBot helps manage incidents and service requests through Slack and MS Teams.Resolve tickets with your team's help,get instant updates and respond quickly, all within your favorite collaboration tools.",
+        htxt:"Reduce the complexity of your IT service management",
+        stxt:"ServiceBot manages incidents and service requests through Slack and MS Teams, utilizing the services provided by Slack and MS Teams. With the assistance of your team, resolve tickets quickly and efficiently. Gain access to real-time updates and a quick response through the tools that suit your collaborative style.",
         image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/Group 1000006030.webp",
 
     },
 
     {
-        htxt:"Effortless collaboration for support teams",
-        stxt:"configure the Freshdesk-MS Teams integration with ease & enable your support teams to manage support tickets, automate workflows, share conrext, and stay on top of customer queries.",
+        htxt:"Speed up the closing of deals",
+        stxt:"By integrating with Slack, salespeople can gain all the assistance they need from their CRM, eliminating the need for them to search for resources elsewhere. This allows them to focus on their core competency: closing deals.",
         image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/Group 1000006031.webp",
 
     },
 
     {
-        htxt:"Collaborate effortlessly to delight customers",
-        stxt:"Create Slack threads within Freshdesk Customer Sucess,share customer context, and work with cross-functional teams to deliver customer delight.",
+        htxt:"Effortlessly collaborate to delight customers",
+        stxt:"Utilize Slack to create threads for the purpose of sharing customer context and collaborating with cross-functional teams to deliver customer delight.",
         image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/Group 1000006032.webp",
 
     },
@@ -39,7 +39,8 @@ const collaborationdatad = [
 
 return (
     <div className={styles.messagingplatformsmainboxes}>
-    <div className={styles.messagingplatformsdataboxes}>{collaborationdatad.map((e)=>{
+    <div className={styles.messagingplatformsdataboxes}>
+        {collaborationdatad.map((e)=>{
         return (
             <div className={styles.messagingplatformsindidata}>
             <div className={styles.messagingplatformsindileftbox}>
