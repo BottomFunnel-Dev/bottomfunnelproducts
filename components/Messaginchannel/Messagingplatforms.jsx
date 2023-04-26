@@ -28,7 +28,7 @@ export const Messagingplatforms = () => {
 
         {
             htxt:"Stay connected with Google's Business Messages",
-            stxt:"The Freshchat - Google's Business Messages integration* will help your customers and prospects get in touch with you directly from Google Search or Google Maps.Engage woth your end-users seamlessly on this popular ,essaging channel now.",
+            stxt:"The Bottom Funnel chat - Google's Business Messages integration* will help your customers and prospects get in touch with you directly from Google Search or Google Maps.Engage woth your end-users seamlessly on this popular ,essaging channel now.",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/Group 1000006016.webp",
 
         },

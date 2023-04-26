@@ -86,23 +86,22 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-
     margin-bottom: 70px;
-    padding-top: 10%;
     margin-left: 0%;
     text-align: center;
     align-items: center;
   }
-  .jCustomObjecttwo > h1 {
-    width: 75%;
+  .CustomObjecttwo > h1 {
+    width: 95%;
     font-weight: 700;
-    font-size: 32;
+    font-size: 26px;
   }
   .CustomObjecttwo > p {
     margin-top: 2%;
-    width: 70%;
+    width: 95%;
     font-weight: 700;
-    font-size: 20;
+    font-size: 18px;
+    text-align: justify;
     color: #393939;
   }
   .CustomObjecttwo > button {

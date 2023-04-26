@@ -19,10 +19,10 @@ export const CustomObjectBanner = () => {
                 </div>
                 
                 <div className={styles.CustomObjecttwo}>
-                    <h1>Bring in Your unique business context inside <span style={{ color: "#EF5122" }}>Bottom Funnel</span> products </h1>
+                    <h1>Analyze your unique business context and incorporate it into <span style={{ color: "#EF5122" }}>Bottom Funnel</span> products </h1>
                     <hr className={styles.hr} style={{ width: "80%" }} />
 
-                    <p>Create new business object,get deeper insights, and deliver delight</p>
+                    <p>Develop new business objects to gain deeper insights and deliver delight and gain deeper insights into your customers' behaviors and preferences, and deliver a more delightful experience that sets you apart from your competitors.</p>
                     {/* <button>Explore Now</button> */}
                     { <button
           type="button"

@@ -1,38 +1,29 @@
 .neoAdminBillingMainDiv{
-    /* border: 2px solid gold; */
-    width: 100%;
+    width: 95%;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
 }
 .neoAdminBillingPassword{
-    /* border: 2px solid red; */
     width: 100%;
     margin-top: 4%;
     display: flex;
     flex-direction: row;
 }
 .neoAdminBillingHeading{
-    /* border: 2px solid red; */
     text-align: center;
     
 }
 .neoAdminBillingImage{
-    /* border: 2px solid blueviolet; */
     width: 50%;
     height: 70vh;
-    margin-left: 8%;
+    /* margin-left: 8%; */
 }
 .neoAdminBillingContent{
     margin-top: 2%;
 }
-.neoAdminBillingTextMain{
-    /* border: 2px solid darkblue; */
-    width: 45%; 
-    margin-top: 9%;
-    margin-left: 8%;
-}
 .neoAdminBillingText{
-    /* border: 2px solid red; */
     width: 45%; 
     margin-top: 9%;
     margin-left: 12%;
@@ -40,7 +31,6 @@
 
 .neoAdminBillingText>h1{
     margin: auto;
-    font-size: 45px;
 }
 .neoAdminBillingText>p{
     font-size: 16px;
@@ -49,20 +39,17 @@
     color: #EE4C23;
 }
 .neoAdminBillingPassword1{
-    /* border: 2px solid red;   */
     width: 100%;
     margin-top: 4%;
     display: flex;
     flex-direction: row;
 }
 .neoAdminBillingImage1{
-    /* border: 2px solid red; */
     width: 35%;
     height: 60vh;
     margin-left: 10%;
 }
 .neoAdminBillingText1{
-    /* border: 2px solid red; */
     width: 40%; 
     margin-top: 9%;
     margin-left: 8%;
@@ -70,22 +57,19 @@
 
 .neoAdminBillingText1>h1{
     margin: auto;
-    font-size: 45px;
 }
 .neoAdminBillingText1>p{
     font-size: 16px;
 }
 .neoAdminBillingImage3{
-    /* border: 2px solid red; */
     width: 40%;
     height: 70vh;
-    margin-left: 8%;
+    /* margin-left: 8%; */
 }
 
 @media(max-width:480px){
     .neoAdminBillingPassword{
         flex-direction: column;
-
     }
     .neoAdminBillingPassword1{
         flex-direction: column-reverse;
@@ -94,39 +78,25 @@
         width: 90%;
         height: 40vh;
         margin: auto;
-        /* margin-left: 10%; */
     }
     .neoAdminBillingText1{
-        /* border: 2px solid red; */
         width: 90%; 
         margin: auto;
+        margin-top: 5%;
     }
     .neoAdminBillingImage3{
         width: 90%;
         height: 40vh;
         margin: auto;
-        /* margin-left: 10%; */
-    }
-    .neoAdminBillingText3{
-        /* border: 2px solid red; */
-        width: 90%; 
-        margin: auto;
-    }
-    
-    .neoAdminBillingTextMain{
-        /* border: 2px solid green; */
-        width: 90%;
-        margin: auto;
-    }
+    }    
     .neoAdminBillingImage{
-        /* border: 2px solid red; */
         width: 95%;
         height: 40vh;
         margin: auto;
     }
     .neoAdminBillingText{
-        /* border: 2px solid red; */
-        width: 95%; 
+        width: 90%; 
         margin:auto;
+        margin-top: 5%;
     }
 }

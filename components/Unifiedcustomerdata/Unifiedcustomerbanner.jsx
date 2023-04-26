@@ -19,7 +19,7 @@ export const Unifiedcustomerbanner = () => {
 
     </div>
     <div className={styles.unifiedcustomerbannerrightbox}>
-    <h1>Complete <span>Customer view</span> in one unified record.</h1>
+    <h1>A unified record that provides a complete understanding of a <span>customer's history</span> in one go.</h1>
     <hr></hr>
     <p>Unified Customer Record in the native customer data platform that captured customer data from all touchpoints and powers your business to deliver delightful customer experiences.</p>
     

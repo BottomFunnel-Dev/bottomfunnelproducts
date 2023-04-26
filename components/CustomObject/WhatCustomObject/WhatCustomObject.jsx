@@ -7,9 +7,9 @@ export const WhatCustomObject = () => {
     return (
         <div className={styles.JourneyPersonalizedParent}>
             <div className={styles.headingdiv}>
-            <h1 className={styles.JourneyPersonalizedmainheading}>What are custom objects?</h1>
+            <h1 className={styles.JourneyPersonalizedmainheading}>Consolidated Custom objects</h1>
             <hr className={styles.line} />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel exercitationem nemo, provident quibusdam quod sed ea, excepturi quis quam, in dolor ex unde voluptatum a aperiam illo voluptatibus commodi minus. Custom object are a set of custom records you can create natively inside freshworks products to store information sprcific to your business .Go beyond your regular employee, customer data, and bring in all the context you need at scale .</p>
+            <p>Custom records are a built-in feature of Bottom Funnel products that allows you to create your own customized records natively, which can be used to store information specific to your business.</p>
             </div>
 
             <div className={styles.whatCustomDataContainer}>
@@ -24,15 +24,15 @@ export const WhatCustomObject = () => {
                         />
                 </div>
                 <div className={styles.whatCustomDataBox2}>
-                    <h2>Create</h2>
-                    <p>Create the business objects that define your business processes best.</p>
+                    <h2>Build</h2>
+                    <p> Build the business objects that perfectly define your business and its processes.These objects should include information about the business such as its mission statement, organizational structure, and core values. Additionally, the objects should include information about the processes that are used to carry out the business’s operations such as customer service, marketing, finance, and human resources.</p>
                 </div>
             </div>
 
             <div className={styles.whatCustomDataContainer1}>
                 <div className={styles.whatCustomDataBox2}>
-                    <h2>Contextualize</h2>
-                    <p>Create the business objects that define your business and its processes best.</p>
+                    <h2>Review</h2>
+                    <p>Link them with native objects or other custom objects to obtain complete context.  By linking native objects or other custom objects, you can add additional details that wouldn't be available in a single object. This can be especially useful when working with large datasets, as it allows you to better understand the context of each object and make more informed decisions. </p>
                 </div>
                 <div className={styles.whatCustomDataBox1}>
                         <Image
@@ -58,8 +58,8 @@ export const WhatCustomObject = () => {
                         />
                 </div>
                 <div className={styles.whatCustomDataBox2}>
-                    <h2>Analyze</h2>
-                    <p>Get unique insights through these business-specific objects using analytics</p>
+                    <h2>Examine</h2>
+                    <p>Obtain exclusive insights through these business-specific objects using Analytics. With the right analytics software, businesses can access data on everything from customer behaviour to marketing trends. This data can then be used to drive decisions and inform strategies. </p>
                 </div>
             </div>
 

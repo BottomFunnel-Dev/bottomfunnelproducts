@@ -7,7 +7,7 @@ export const NeoAdminBilling = () => {
      
     <div className={styles.neoAdminBillingMainDiv}>
         <h1 className={styles.neoAdminBillingHeading}>
-            Simplified administration and manageability
+        Multi-product billing option for seamless operation
         </h1>
         <div className={styles.neoAdminBillingPassword}>
             <div className={styles.neoAdminBillingImage}>
@@ -22,12 +22,10 @@ export const NeoAdminBilling = () => {
             </div>
             <div className={styles.neoAdminBillingText}>
                 <h1>
-                    All Subscription access
+                Data collection
                 </h1>
                 <p className={styles.neoAdminBillingContent}>
-                    Get a bird's eye view of all your Freshworks<br/>
-                    subscriptions, across products, at one go.Esaily<br/>
-                    manange your plans across products,
+                View everything you have subscribed to, across products, in one go. Effortlessly managing your plans across multiple products.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
@@ -35,13 +33,10 @@ export const NeoAdminBilling = () => {
         <div className={styles.neoAdminBillingPassword1}>
             <div className={styles.neoAdminBillingText1}>
                 <h1>
-                    Invoices and payment <br/>
-                    information
+                Unified billing and invoice information
                 </h1>
                 <p className={styles.neoAdminBillingContent}>
-                    Update payment information, billing or shipping <br/>
-                    addesss, and billing frequencies, across subscription.<br/>
-                    Track invoices,and download them for quick access.
+                Update subscription payment, billing address, and billing frequency information across your subscriptions.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
@@ -69,11 +64,10 @@ export const NeoAdminBilling = () => {
             </div>
             <div className={styles.neoAdminBillingText}>
                 <h1>
-                    Self-serve capabilities
+                Ease of administration and handleability
                 </h1>
                 <p className={styles.neoAdminBillingContent}>
-                    Buy additional licenses or add-ons, and upgrade plans <br/>
-                    at your own pace from a unified portal.
+                Easily extend your license or plan options from a single portal, with the ability to buy additional licenses or add-ons at your leisure from an intuitive shopping portal.
                 </p>
                 <p className={styles.neoAdminLink}>Learn More</p>
             </div>
