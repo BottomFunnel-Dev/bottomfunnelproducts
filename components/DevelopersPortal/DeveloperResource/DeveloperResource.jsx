@@ -8,22 +8,22 @@ export const DeveloperResource = () => {
       image:
         "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group9.png",
       hd: " Explore the Documentation",
-      p: "Technical Documentation to help you build apps.",
-      exp: "Explore Now",
+      p: "Technical documentation to help you understand the technology.",
+      
     },
     {
       image:
         "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group1.png",
       hd: " Bottom Funnel Developer Blogs",
-      p: " Bottom Funnel official channel to get platform updates. .",
-      exp: "Explore Now",
+      p: "Bottom Funnel's official blog channel to get platform updates for developers.       ",
+      
     },
     {
       image:
         "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group10.png",
       hd: "  Explore the Documentation",
-      p: " Technical Documentation to help you build apps.",
-      exp: "Explore Now",
+      p: " Benefit from our developer support tools with Bottom Funnel developer’s support tools.      ",
+     
     },
   ];
   return (
@@ -48,7 +48,7 @@ export const DeveloperResource = () => {
                 <h3>{item.hd}</h3>
                 <p>{item.p}</p>
                 <button className={styles.developerPortalResourceButton}>
-                  {item.exp}&nbsp;&rarr;
+                  Explore now &nbsp;&rarr;
                 </button>
               </div>
             </div>

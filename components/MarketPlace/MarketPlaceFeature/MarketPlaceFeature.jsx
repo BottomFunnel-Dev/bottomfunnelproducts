@@ -10,9 +10,9 @@ export const MarketPlaceFeature = () => {
         <div className={styles.MarketPlaceFeatureParent}>
             <h2>Featured apps</h2>
             <div className={styles.line}></div>
+            <div className={styles.MarketPlaceFeatureChild}>
             {data.map((item) =>{
                 return(
-                    <div className={styles.MarketPlaceFeatureChild}>
                     <div>
                         <div className={styles.MarketPlaceFeatureimg}>
                             <Image className="marketplaceSectionImage"
@@ -27,10 +27,10 @@ export const MarketPlaceFeature = () => {
     
                         <h3>{item.hd}</h3>
                         <p>{item.p}</p>
-                    </div>
                 </div>  
                 );
             })}
+            </div>
             
         </div>
     );

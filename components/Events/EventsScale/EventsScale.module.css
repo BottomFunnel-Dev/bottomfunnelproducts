@@ -5,23 +5,29 @@
 }
 .eventsScaleParent>div{
     display: flex;
- 
+ height: 60vh;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2%;
     align-items: center;
     justify-content: space-between;
+    /* border: 1px solid red; */
 }
 .eventsScaleimage{
-    width: 100%;
+    width: 90%;
+    height: 50vh;
 
 
 }
 .eventsScalecontent{
     padding-top: 2%;
+    margin-left: 4%;
+   
+    
 }
 .eventsScalecontent>h2{
     font-weight: 700;
+    width: 90%;
 }
 .eventsScalecontent>p{
     font-weight: 450;
@@ -30,40 +36,17 @@
 }
 .eventsScaleParentsecchild{
     background-color: whitesmoke;
-}
-.eventsScalecontenttwo{
-    padding-top: 2%; 
-}
-.eventsScalecontenttwo>h2{
-    font-weight: 700;
-    width: 90%;
-    margin-left: 10%;
-}
-.eventsScalecontenttwo>p{
-    font-weight: 450;
-    font-size: 20px;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
-}
-.eventsScalecontentthree{margin-left: 2%;}
-.eventsScalecontentthree{
-    margin-top: 5%;
-    padding-top: 2%;
-}
-.eventsScalecontentthree>h2{
-    font-weight: 700;
    
-}
-.eventsScalecontentthree>p{
-    font-weight: 450;
-    font-size: 20px;
-    width: 90%;
+    height: 60vh;
 }
 
+
 .eventsScalethirdimage{
-    margin-top: 1%;
+    margin-top: 5%;
+   
+
+    width: 100%;
+    height: 60vh;
 }
 
 @media(max-width:780px){
@@ -71,66 +54,51 @@
 
     .eventsScaleParent{
   
+       margin-top: 5%;
+        
+    }
+    .eventsScaleParent .eventsScaleParentfirstchild{
+       height: max-content; 
+      flex-direction: column;
+      justify-content: center;
+       
+    }
+    .eventsScaleimage{
+       height: auto;
+        margin: 4% auto;
+    
+    }
+    .eventsScaleParentsecchild{
+       
+        display: flex;
+        flex-direction: column-reverse;
+          height: auto;
+      }
+    .eventsScalecontent{
         padding-top: 2%;
         
     }
-    .eventsScaleParent>div{
-        display: flex;
-      flex-direction: column;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 2%;
-    }
-    .eventsScaleimage{
-        width: 100%;
-    
-    
-    }
-    .eventsScalecontent{
-        padding-top: 2%;
-    }
     .eventsScalecontent>h2{
         font-weight: 700;
+        width: 85%;
+        margin: auto;
+        
     }
     .eventsScalecontent>p{
         font-weight: 450;
         font-size: 20px;
-        width: 100%;
-    }
+        margin: auto;
+        margin-top: 4%;
+        width: 85%;
+        padding-bottom: 4%;
+    } 
     .eventsScaleParentsecchild{
-        background-color: whitesmoke;
+       flex-direction: column-reverse;
     }
-    .eventsScalecontenttwo{
-        padding-top: 2%; 
+    .eventsScalethirdimage{
+       width: 100%;
+        height:320px;
     }
-    .eventsScalecontenttwo>h2{
-        font-weight: 700;
-        width: 100%;
-        margin-left: 0%;
-    }
-    .eventsScalecontenttwo>p{
-        font-weight: 450;
-        font-size: 20px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-left: 0%;
-    }
-    
-    .eventsScalecontentthree{
-        margin-top: 5%;
-        padding-top: 2%;
-    }
-    .eventsScalecontentthree>h2{
-        font-weight: 700;
-       
-    }
-    .eventsScalecontentthree>p{
-        font-weight: 450;
-        font-size: 20px;
-        width: 100%;
-    }
-    
 
 
 
