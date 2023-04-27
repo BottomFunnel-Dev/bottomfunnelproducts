@@ -288,7 +288,9 @@
       width: 40%;
       padding: 0;
     }
-  
+    .deskMaindeskDivLink>li{
+      font-size: 10px;
+    }
     .desksFooterSideButtons {
       margin: 0;
       width: 67%;
