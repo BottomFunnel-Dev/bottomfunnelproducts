@@ -32,36 +32,27 @@
 @media  (max-width:1024px){
     .AppleBusinessChatBannermaindiv{
         /* border: 2px solid green ; */
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
         height: fit-content ;
+        margin-top: 22%;
     
     }
+   
     .AppleBusinessChatBannermaindivcontent{
-        width: 95%;
-        margin: auto;
-        text-align: center;
+        width: 85%;
+       /* border: 1px solid red; */
+       margin: 8% 0 5% 5%;
+      
+       
+       
     }
     .AppleBusinessChatBannermaindivimage{
         width: 90%;
         margin: auto;
     }
+    
     .AppleBusinessChatBannermaindivcontentbutton{
-        width: 220px;
-        font-size: 18px;
-        font-weight: 600;
-        background-color: #04C354;
-        color: white;
-        border-radius: 10px;
-        height: 40px;
-        border: none;
-    }
-    .AppleBusinessChatBannermaindivcontentbutton:hover{
-        border: 1px solid #04C354;
-        background-color: white;
-        color: #04C354;
+        margin: auto;
     }
     
 }

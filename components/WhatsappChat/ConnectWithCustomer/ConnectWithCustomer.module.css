@@ -1,9 +1,16 @@
 .ConnectWithCustomermaindiv{
+    width: 100%;
+    background-color:  #f5f5f5;
+    margin-bottom: 3%;
+   
+}
+.ConnectWithCustomerinnerdiv{
     width: 50%;
     margin: auto;
     text-align: center;
     margin-top: 4% ;
     padding: 3%;
+  
 }
 
 .ConnectWithCustomermaindivbutton{
@@ -25,3 +32,8 @@
 
 
 }
+@media(max-width:480px){
+    .ConnectWithCustomerinnerdiv{
+        width: 90%;
+        margin: 4% auto;
+}}

@@ -8,7 +8,7 @@
 .AccessingWhatsappcards{
     display: flex;
     flex-direction: row;
-    /* border: 2px solid; */
+    
    
     width: 90%;
     margin: auto;
@@ -29,4 +29,29 @@
 .AccessingWhatsappcardsinnerdivimage{
     width: 100px;
     height: 60px;
+}
+@media(max-width:480px){
+    .AccessingWhatsappcards{
+        flex-direction: column;
+      
+    }
+    .AccessingWhatsappcardscontent{
+        width: 80%;
+        margin: 2%;
+        padding-top: 10px;
+        /* border: 2px solid; */
+        
+    }
+    .AccessingWhatsappcardsinnerdivimage{
+        width: 20%;
+        margin: 2% 3%;
+        /* border: 2px solid red; */
+    }
+    .AccessingWhatsappcardsinnerdiv{
+        
+        width: 90%;
+        height: 120px;
+        margin-top: 7%;
+       
+    }
 }

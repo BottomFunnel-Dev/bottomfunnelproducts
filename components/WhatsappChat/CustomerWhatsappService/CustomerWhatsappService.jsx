@@ -9,7 +9,7 @@ export const CustomerWhatsappService = () => {
             <h2>
             Ace customer service on WhatsApp with Bottom Funnel Chat
             </h2>
-            <p>Your customers have adapted to the new normal. Freshchat's
+            <p>Your customers have adapted to the new normal. Bottom Funnel chat's
 best-in-class AI-powered messaging software helps your team do the same.</p>
          </div>
 

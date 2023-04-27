@@ -9,11 +9,12 @@
     /* padding: 2%; */
 }
 .NextgenMassagingmaindivcards{
-    width: 90%;
+    width: 85%;
     /* border: 1px solid lightgrey; */
     margin: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     /* text-align: center; */
@@ -22,65 +23,55 @@
 }
 .NextgenMassagingmaindivcardsbox{
     /* border: 1px solid red; */
-    width: 40%;
-    height: 510px;
+    width: 45%;
+    height: 520px;
     padding: 1%;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 .NextgenMassagingmaindivcardsboximage{
-    width: 65%;
-    height: 300px;
+    width: 63%;
+    height: 320px;
     /* padding: 20px; */
-    margin: auto;
+    margin:5% auto;
     /* border: 2px solid; */
-    margin-top: 5%;
+   
 }
-.NextgenMassagingmaindivcardsboximage1{
-    width: 50%;
-    border: 2px solid;
+.NextgenMassagingmaindivcardsbox>h5{
+    text-align: center;
 }
 
+
 @media  (max-width:1024px){
-    .NextgenMassagingmaindiv{
-        /* border: 2px solid ; */
-        margin-top: 1%;
-    }
+   
     .NextgenMassagingmaindivheading{
         text-align: center;
         width: 95%;
-        margin: auto;
-        /* padding: 2%; */
+        margin: 6% auto;
+       border: none;
     }
     .NextgenMassagingmaindivcards{
         width: 90%;
         /* border: 1px solid lightgrey; */
         margin: auto;
-        display: flex;
+        
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        /* text-align: center; */
+       
         
     
     }
     .NextgenMassagingmaindivcardsbox{
         /* border: 1px solid red; */
-        width: 90%;
-        height: 550px;
-        padding: 1%;
-        margin-top: 3%;
-    }
-    .NextgenMassagingmaindivcardsboximage{
-        width: 85%;
-        height: 300px;
-        /* padding: 20px; */
-        margin: auto;
-        /* border: 2px solid; */
-        margin-top: 5%;
-    }
-    .NextgenMassagingmaindivcardsboximage1{
-        width: 50%;
-        border: 2px solid;
+        width: 100%;
+        height: max-content;
+        margin-top: 4%;
+        
+        
     }
     
+    .NextgenMassagingmaindivcardsboximage{
+        width: 80%;
+        height: 260px;
+        /* border: 2px solid; */
+    }
+  
 }

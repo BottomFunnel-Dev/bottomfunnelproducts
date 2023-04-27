@@ -27,39 +27,33 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
+.chatbotscustomersparentfirstchild:nth-child(even){
+    flex-direction: row-reverse;
+  }
 
 
 @media(max-width:780px){
     .chatbotscustomersparent{
         margin-top: 8%;
-        margin-left: 5%;
-        margin-right: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         text-align: center;
     }
     .chatbotscustomersparent>p{
         width: 100%;
-        text-align: center;
-        
+       
     }
     .chatbotscustomersparentfirstchild{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        margin-top: 10%;
-        align-items: center;
     }
+    .chatbotscustomersparentfirstchild:nth-child(even){
+        flex-direction: column;
+      }
     .chatbotcustoemrscontent{
         width: 100%;
     }
     .chatbotcustoemrsimage{
         width: 100%;
     }
-    .hfontwiegth{
-        font-weight: 700;
-        margin-bottom: 20px;
-    }
+   
    
 }

@@ -7,7 +7,7 @@ export const JourneysChat = () => {
         <div className={styles.journeysChatPerent}>
             <div className={styles.journeysChatheading}>
                 <h2>Be customer-first with Bottom Funnel Chat</h2>
-                <p>your customer want your business to be more accessible thanever.Let them know you're there for them</p>
+                <p>Your customer want your business to be more accessible thanever.Let them know you're there for them</p>
             </div>
             <div className={styles.journeysChatdivone}>
                 <div className={styles.journeysChatdivoneImage}>
@@ -38,9 +38,9 @@ export const JourneysChat = () => {
 
                 <div className={styles.journeysChatdivtwocontent}>
                     <h2>
-                        get started with jouneys on just a click                    </h2>
+                        Get started with jouneys on just a click                    </h2>
                     <p>
-                        Get a headstart with readt-to-use , customerizable templete.Offers a personized experience with just a click.
+                        Get a headstart with readt-to-use , customerizable templete. Offers a personized experience with just a click.
                     </p>
                 </div>
                 <div className={styles.journeysChatdivtwoImage}>
