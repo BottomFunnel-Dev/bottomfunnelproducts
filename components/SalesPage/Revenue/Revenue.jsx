@@ -22,7 +22,7 @@ export const Revenue = () => {
           style={{ width: "100%", height: "100%" }}
         />
             </div>
-            <p>Analyze all interactions between your customers and their customized experiences to deliver personalized services. Generate revenue through data analysis.</p>
+            <p>Analyze all interactions between your customers and their customized experiences to deliver personalized services.</p>
         </div>
        
 
