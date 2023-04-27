@@ -70,22 +70,24 @@
   }
 
   .enterBannerText>div>h1 {
-    font-size: 32px;
-    line-height: 33px;
+    font-size: 28px;
+    text-align: left;
   }
 
   .enterBannerText>div>p {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
+   text-align: justify;
   }
 
   .enterBannerText>div>button {
-    font-size: 12px;
+    font-size: 16px;
     padding: 8px 20px;
-    margin-top: 10px;
+    margin-top: 6px;
   }
 
   .enterBanner {
-    width: 100%;
+    width: 90%;
+    height: auto;
+    margin-top: 15%;
   }
 }

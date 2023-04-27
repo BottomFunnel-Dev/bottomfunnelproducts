@@ -53,11 +53,13 @@
   .engageCards {
     width: 95%;
     padding: 0;
+    margin-top: 10%;
   }
 
   .engageCards>h1 {
-    font-size: 25px;
-    line-height: 28px;
+    font-size: 26px;
+    width: 90%;
+    text-align: left;
   }
 
   .engagecardClass {
@@ -65,10 +67,11 @@
     flex-wrap: wrap;
     row-gap: 20px;
     padding: 20px 0;
+    margin-top: 5%;
   }
 
   .engageCardInner {
-    width: 40%;
+    width: 45%;
   }
 
   .engageIcon {

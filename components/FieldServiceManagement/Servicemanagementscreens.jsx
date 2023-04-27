@@ -42,9 +42,7 @@ export const Servicemanagementscreens = () => {
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" ,objectFit:"contain"}}
-        />
-
-            
+        /> 
             </div>
             
             

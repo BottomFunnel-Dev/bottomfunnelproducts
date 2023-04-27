@@ -67,7 +67,8 @@ font-size: 25px;
         margin: auto;
     }
     .reportsimg{
-        width: 100%;
+        width: 80%;
+        margin: auto;
         height: auto;
     }
     .reportstext{

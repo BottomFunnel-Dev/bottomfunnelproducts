@@ -42,6 +42,7 @@ font-weight: 500;
     }
     .transformMain{
         height: auto;
+        margin-top: 10%;
     }
     .transformtext{
         width: 90%;
@@ -49,7 +50,8 @@ font-weight: 500;
         margin-top: 5%;
     }
     .transformimg{
-        width: 90%;
+        width: 60%;
+        margin: auto;
         height: auto;
         margin-top: 5%;
     }

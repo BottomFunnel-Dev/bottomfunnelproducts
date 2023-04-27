@@ -43,3 +43,31 @@
 .fieldserviceBannerButton{
     margin-left: 2%;
 }
+
+@media (max-width:480px) {
+    .fieldServiceBannerMainDiv{
+        flex-direction: column;
+        height: fit-content; 
+        margin-top: 15%;
+    }
+    .fieldServiceBannerHeadings{
+        width: 95%;
+        margin: auto;
+    }
+    .fieldServiceBannerHeadings>h2{
+        font-size: 28px;
+    }
+    .fieldServiceBannerImage{
+        width: 90%;
+        height: auto;
+    }
+    .fieldServiceBannerHeadings>p{
+        font-size: 18px;
+    }
+    .fieldServiceBannerHeadings > button{
+        width: 45%;
+        font-size: 18px;
+       margin-left: 3%;
+       margin-top: 3%;
+    }
+}

@@ -26,13 +26,13 @@
         height: auto;
         text-align: center;
         margin-bottom: 3%;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     .CustomerSuccessLeadershipImage{
         /* border: 2px solid  red; */
         margin: auto;
-        margin-top: 3%;
-        width: 95%;
+        margin-top: 5%;
+        width: 100%;
         height: auto;
     }
     .CustomerSuccessLeadershipImage>img{
