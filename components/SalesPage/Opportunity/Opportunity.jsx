@@ -9,11 +9,9 @@ export const Opportunity = () => {
 
 <div className={style.Opportunityinnerdiv}>
         <div className={style.Opportunityinnerdivheading}>
-          <h2>Focus on the best leads
-          Generate more Opportunity.</h2>
+          <h2>Focusing on the best leads and generating more opportunities</h2>
           <h6>
-          Website prospects are the most engaged. Run Chat campaigns,and turn
-            your website into a lead generation machine.{" "}
+          Website leads are the most engaged. Run chat campaigns, turn your website into a lead generation machine, and expand your client base.{" "}
           </h6>
           <h4>Top Features:</h4>
           <div className={style.Opportunitylogodivupper}>
@@ -29,7 +27,7 @@ export const Opportunity = () => {
         </div>
 
           <div className={style.Opportunitylogodivcontain}>
-            <p>Use AI-powered Chatbots to chat with visitors in real-time</p>
+            <p>Work with AI-powered chatbots to chat with visitors in real-time</p>
             </div>
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -44,7 +42,7 @@ export const Opportunity = () => {
         />
         </div>
             <div className={style.Opportunitylogodivcontain}>
-            <p>Capture Visitor information with customizable Web Forms</p>
+            <p>Capture visitor contact information with customizable web forms.</p>
             </div>  
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -59,8 +57,7 @@ export const Opportunity = () => {
         />
         </div>
           <div className={style.Opportunitylogodivcontain}>
-            <p>Understand Visitor intent. Track page visit and action on your
-              site.</p>
+            <p>Reveal visitor intent. Track page visits and conversion actions on your site.</p>
           </div>
           </div>
           <div className={style.Opportunityptag}>
@@ -86,11 +83,9 @@ export const Opportunity = () => {
 
 <div className={style.Opportunityinnerdiv1}>
         <div className={style.Opportunityinnerdivheading}>
-          <h2>Have Conversation with context
-          Shorten your Sales cycle.</h2>
+          <h2>Have a conversation with us, and we will surely shorten your sales cycle.</h2>
           <h6>
-          Surface the best leads, communicate across a customers preferred
-            channel, and personalize messages based on behaviour.{" "}
+          Deliver relevant leads, communicate across a customer's preferred channels, and personalize messages based on behavior.
           </h6>
           <h4>Top Features:</h4>
           <div className={style.Opportunitylogodivupper}>
@@ -106,8 +101,7 @@ export const Opportunity = () => {
         </div>
 
           <div className={style.Opportunitylogodivcontain}>
-            <p>Sales, marketing, and support
-              touchpoints on activity timeline.</p>
+            <p>Sales, marketing, and support touchpoints on the activity timeline</p>
             </div>
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -122,7 +116,7 @@ export const Opportunity = () => {
         />
         </div>
             <div className={style.Opportunitylogodivcontain}>
-            <p>Focus on the best Opportunity with contact Scoring</p>
+            <p>Focus on the best opportunity for your business with contact scoring.</p>
             </div>  
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -137,7 +131,7 @@ export const Opportunity = () => {
         />
         </div>
           <div className={style.Opportunitylogodivcontain}>
-            <p>Communicate seamlessly across channels - Phone, Email, Chat, SMS.</p>
+            <p>Have a hassle-free channel for your customers through- phone, email, chat, and SMS.</p>
           </div>
           </div>
           <div className={style.Opportunityptag}>
@@ -167,12 +161,9 @@ export const Opportunity = () => {
 
       <div className={style.Opportunityinnerdiv}>
         <div className={style.Opportunityinnerdivheading}>
-          <h2>Drive deals to closure, faster. 
-          Improve Sales conversions with AI-powered insights</h2>
+          <h2>Drive deals to closure quicker. Improve sales conversions with AI-powered insights.</h2>
           <h6>
-            Enid AI helps you Focus on the right deals that will drive revenue.
-            Get insight Across the funnel from lead to revenue{" "}
-          </h6>
+          Olly AI helps you Focus on the right leads that will drive revenue for your business. Keep track of your leads and convert them into revenue using our SEO services.</h6>
           <h4>Top Features:</h4>
           <div className={style.Opportunitylogodivupper}>
           <div className={style.Opportunitylogodiv}>
@@ -187,7 +178,7 @@ export const Opportunity = () => {
         </div>
 
           <div className={style.Opportunitylogodivcontain}>
-            <p>Find the best deals to close with AI-based deal insight</p>
+            <p>Discover the greatest deals to be concluded with AI-based deal insight</p>
             </div>
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -202,7 +193,7 @@ export const Opportunity = () => {
         />
         </div>
             <div className={style.Opportunitylogodivcontain}>
-            <p>Collaborate across teams in real- time with Slack integration</p>
+            <p>Share documents and collaborate seamlessly across teams with Slack integration</p>
             </div>  
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -217,7 +208,7 @@ export const Opportunity = () => {
         />
         </div>
           <div className={style.Opportunitylogodivcontain}>
-            <p>improve revenue predictability With Dynamic forecasting</p>
+            <p>Increase sales forecasting accuracy by understanding the most relevant factors</p>
           </div>
           </div>
           <div className={style.Opportunityptag}>
@@ -244,9 +235,9 @@ export const Opportunity = () => {
 
       <div className={style.Opportunityinnerdiv1}>
         <div className={style.Opportunityinnerdivheading}>
-          <h2>Customer 360° view made easy. Grow customer value with integrated sales and support.</h2>
+          <h2>Get 360-degree customer view made easy. Grow customer value by integration of sales and support.</h2>
           <h6>
-          Develop long-lasting relationships with customers. Enable sales and support to work together to help the customer seamlessly.{" "}
+          Ensure long-term relationships with customers. Enable sales and support to work together to help the customer.
           </h6>
           <h4>Top Features:</h4>
           <div className={style.Opportunitylogodivupper}>
@@ -262,7 +253,7 @@ export const Opportunity = () => {
         </div>
 
           <div className={style.Opportunitylogodivcontain}>
-            <p>Bring sales and support functionalities together with the Freshdesk Integration</p>
+            <p>Handle sales and support functionalities together with the Funneldesk Integration.</p>
             </div>
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -277,7 +268,7 @@ export const Opportunity = () => {
         />
         </div>
             <div className={style.Opportunitylogodivcontain}>
-            <p>Understand your customers inside-out with a 360° customer view</p>
+            <p>Get a clear 360-degree view of your customer with real-time sales preference data and custom data visualizations.</p>
             </div>  
           </div>
           <div className={style.Opportunitylogodivupper}>
@@ -292,7 +283,7 @@ export const Opportunity = () => {
         />
         </div>
           <div className={style.Opportunitylogodivcontain}>
-            <p>Upsell and cross-sell to your customer base with automated sales campaigns</p>
+            <p>Generate more sales and grow your customer base with easy and automated sales campaigns.</p>
           </div>
           </div>
           <div className={style.Opportunityptag}>
