@@ -15,12 +15,12 @@
 .productFooterLogoDiv {
   /* border: 1px solid red; */
   width: 50%;
-  margin-top: -0.5%;
+  margin-top: -1.5%;
   height: fit-content;
 }
 
 .productFooterLogoDiv > img {
-  width: 35%;
+  width: 30%;
   margin-left: 7%;
   object-fit: cover;
 }
@@ -274,6 +274,7 @@
     height: 100%;
     object-fit: contain;
     margin-left: 0%;
+    /* border: 2px solid red; */
   }
 
   .productsFooterTagsDiv {
