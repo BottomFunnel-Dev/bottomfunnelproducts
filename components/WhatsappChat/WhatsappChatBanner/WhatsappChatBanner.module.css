@@ -33,36 +33,21 @@
 @media  (max-width:1024px){
     .WhatsappChatBannermaindiv{
         /* border: 2px solid green ; */
-        display: flex;
+        margin-top: 14%;
         flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-        height: fit-content ;
+         
+        height: max-content ;
     
     }
     .WhatsappChatBannermaindivcontent{
         width: 95%;
-        margin: auto;
+        margin: 6% auto;
         text-align: center;
     }
     .WhatsappChatBannermaindivimage{
         width: 90%;
         margin: auto;
     }
-    .WhatsappChatBannermaindivcontentbutton{
-        width: 220px;
-        font-size: 18px;
-        font-weight: 600;
-        background-color: #04C354;
-        color: white;
-        border-radius: 10px;
-        height: 40px;
-        border: none;
-    }
-    .WhatsappChatBannermaindivcontentbutton:hover{
-        border: 1px solid #04C354;
-        background-color: white;
-        color: #04C354;
-    }
+    
     
 }

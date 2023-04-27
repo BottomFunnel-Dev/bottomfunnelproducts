@@ -11,14 +11,25 @@
     height: 60px;
     margin: auto;
 }
+.DoMoremaindivInnerDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:4% auto;
+    justify-content: space-between;
+}
 .DoMoremaindivinner{
-    width: 22%;
+    width: 28%;
     height: 220px;
     /* border: 2px solid; */
     text-align: center;
-    padding: 1%;
+    margin-top: 2%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.DoMoremaindivinner>h5{
+    margin-top: 6%;
 }
 .DoMoremaindivinner:hover{
     transition: all 0.2s linear;
@@ -28,4 +39,22 @@
 .DoMoremaindivheading{
     text-align: center;
     margin-top: 4%;
+}
+@media(max-width:480px){
+    .DoMoremaindivinner{
+        width: 80%;
+        margin:3% auto;
+        height: 250px;
+       
+    } 
+    .DoMoremaindivinner>h5,.DoMoremaindivinner>p{
+     width: 90%;
+     margin:auto;
+    }
+    .DoMoremaindivinner>h5{
+        margin-top: 5%;
+    }
+    .DoMoremaindivimage{
+        margin: 4% auto;
+    }
 }

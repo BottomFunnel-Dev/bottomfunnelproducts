@@ -9,7 +9,7 @@ export const AppleBusinessChatBanner = () => {
         <div className={styles.AppleBusinessChatBannermaindiv}>
             <div className={styles.AppleBusinessChatBannermaindivcontent}>
              <h1>Deliver smarter conversations with Apple Business Chat and Bottom-Funnelchat</h1>
-             <p>Provide instant, seamless, and effortless service for your customers by integrating Apple Messages for Business with Freshchat</p>
+             <p>Provide instant, seamless, and effortless service for your customers by integrating Apple Messages for Business with Bottom Funnel</p>
              <ul>
               <li>Official Apple Messaging Service provider</li>
               <li>Set up Messages for Business in 5 days</li>

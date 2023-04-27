@@ -8,7 +8,7 @@ export const WhatsappChatBanner = () => {
          <div className={styles.WhatsappChatBannermaindiv}>
             <div className={styles.WhatsappChatBannermaindivcontent}>
              <h1>Serve your customers on WhatsApp</h1>
-             <p> Redefine your customer service strategy by leveraging Freshchat official WhatsApp Business integration to serve your customers, wherever they are.</p>
+             <p> Redefine your customer service strategy by leveraging Bottom Funnel chat official WhatsApp Business integration to serve your customers, wherever they are.</p>
             
              <button  className={styles.WhatsappChatBannermaindivcontentbutton}>Explore Now</button>
             </div>

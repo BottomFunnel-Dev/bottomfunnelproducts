@@ -14,7 +14,7 @@ margin-top: 40px;
     padding: 10px 25px;
     border-radius: 15px;
     margin-top: 27px;
-    border: none;
+    border: 2px solid transparent;
     font-weight: 300;
     color: white;
     background-color: #03C457;
@@ -33,7 +33,7 @@ margin-top: 40px;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 .TeaminboxLowerbutton2:hover{
-    background-color: transparent;
+    background-color: white;
     color: #03C457;
     border: 2px solid #03C457;
 }

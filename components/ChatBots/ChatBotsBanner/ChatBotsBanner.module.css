@@ -11,7 +11,7 @@
 }
 .chatbotsbannerparentContent>h1{
     font-weight: 700;
-    line-height: 60px;
+    line-height: 50px;
     margin-bottom: 20px;
 }
 .chatbotsbannerparentContent>h5{
@@ -51,18 +51,16 @@
 
 @media(max-width:780px){
     .chatbotsbannerparent{
-        margin-left: 5%;
-        margin-right: 5%;
-        display: flex;
+        
         flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-        justify-content: space-between;
+        
+        margin-top: 15%;
+       
         text-align: center;
     }
     .chatbotsbannerparent>div{
         width: 100%;
-        margin-top: 5%;
+        margin: 5% auto;
     }
     .chatbotsbannerparentContent>h1{
         font-weight: 700;
@@ -77,13 +75,9 @@
     .chatbotsbannerparentButtonDiv>button{
         width: 200px;
         height: 50px;
-        border: none;
-        background-color: #04c358    ;
-        color: white;
-        font-size: 18px;
-        border-radius: 10px;
-        margin-right: 15px;
-        margin-bottom: 20px;
+       
+        margin: auto 15px 20px 0;
+        
     
     }
     .chatbotsbannerparentButtonDiv>button:hover{
