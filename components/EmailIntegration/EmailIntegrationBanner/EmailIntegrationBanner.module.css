@@ -1,5 +1,4 @@
 .EmailIntegrationBannermaindiv{
-    /* border-bottom: 10px solid #ef4c23; */
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -10,14 +9,10 @@
 .EmailIntegrationBannerimagediv{
     width: 40%;
     height: 70%;
-    /* border: 2px solid; */
-}
+ }
 .EmailIntegrationBannercontentdiv{
-    /* border: 2px solid yellow; */
     width: 40%;
 }
-
-
 .EmailIntegrationBannerbutton{
     width: 220px;
     font-size: 18px;
@@ -32,4 +27,26 @@
  color: #ef4c23;
  border: 2px solid #ef4c23;
  background-color: white;
+}
+@media (max-width:1024px){
+    .EmailIntegrationBannermaindiv{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        margin-top: 60px;
+    }
+    .EmailIntegrationBannerimagediv{
+        width: 90%;
+        margin: auto;
+        height: fit-content;
+     }
+    .EmailIntegrationBannercontentdiv{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    
 }

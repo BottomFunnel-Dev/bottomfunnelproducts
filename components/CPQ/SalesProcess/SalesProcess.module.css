@@ -54,9 +54,8 @@
   transform: translateY(-10px);
 }
 .SalesProcessrow2{
-    /* border: 2px solid green; */
+  
     width: 30%;
-    /* margin: auto; */
     padding: 1%;
     margin-left: 3.5%;
     border-radius: 10px;
@@ -64,6 +63,73 @@
 }
 .SalesProcessrow2:hover{
     transition: all 0.2s linear;
+    transform: translateY(-10px);
+}
 
-  transform: translateY(-10px);
+@media (max-width:1024px){
+    .SalesProcessmaindiv{
+        /* border: 2px solid ; */
+        margin-top: 4%;
+    }
+    .SalesProcessmaindiv h2{
+        text-align: center;
+    }
+    
+    
+    .SalesProcessrowimage{
+        width: 50px ;
+        height: 50px;
+    }
+    
+    .SalesProcessinnerdiv{
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+        margin: auto;
+        /* margin-top: %; */
+    }
+    .SalesProcessrow{
+        /* border: 2px solid yellow; */
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+        padding: 1%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .SalesProcessrow:hover{
+        transition: all 0.2s linear;
+        transform: translateY(-10px);
+    }
+    .SalesProcessuperdiv{
+        display: flex;
+        flex-direction: column;
+       }
+    .SalesProcessrow1{
+        /* border: 2px solid yellow; */
+       width: 90%;
+       padding: 1%;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 4%;
+    }
+    .SalesProcessrow1:hover{
+        transition: all 0.2s linear;
+      transform: translateY(-10px);
+    }
+    .SalesProcessrow2{
+        width: 90%;
+        padding: 1%;
+       
+        margin:auto ;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 4%;
+    }
+    .SalesProcessrow2:hover{
+        transition: all 0.2s linear;
+        transform: translateY(-10px);
+    }
 }

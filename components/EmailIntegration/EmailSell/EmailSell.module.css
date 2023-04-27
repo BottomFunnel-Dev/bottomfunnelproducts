@@ -1,13 +1,11 @@
 .EmailSellmaindiv{
-    /* border: 2px so   lid green; */
-    margin: auto;
+margin: auto;
     margin-top: 2%;
     padding: 2%;
     width: 90%;
     text-align: center;
 }
 .EmailSelllistdiv{
-
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -16,25 +14,18 @@
 .EmailSelltopdiv{
     background-color: whitesmoke;
 }
-
 .EmailSelllistdivinner{
-    /* border: 2px solid blue; */
-    width: 47%;
+   width: 47%;
 }
-
 .EmailSellmaincarddiv{
-    /* border: 2px solid red; */
-    width: 90%;
+   width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
-    
-
 }
 .EmailSellmaincarddivinner{
     width: 25%;
     text-align: center;
-    /* border: 2px solid; */
     padding: 1%;
     margin: auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -45,8 +36,7 @@
 
 .EmailSellmaincarddivinner:hover{
     transition: all 0.2s linear;
-
-  transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 .EmailSellmaincarddivinnerimage{
     width: 80px;
@@ -57,4 +47,59 @@
 }
 .EmailSellmaincarddivinner p{
     margin-top: 3%;
+}
+
+@media (max-width:1024px){
+    .EmailSellmaindiv{
+        margin: auto;
+            margin-top: 2%;
+            padding: 2%;
+            width: 100%;
+            text-align: center;
+            /* border: 2px solid red; */
+        }
+        .EmailSelllistdiv{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-between;
+        }
+        .EmailSelltopdiv{
+            background-color: whitesmoke;
+        }
+        .EmailSelllistdivinner{
+           width: 90%;
+        }
+        .EmailSellmaincarddiv{
+           width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .EmailSellmaincarddivinner{
+            width: 90%;
+            text-align: center;
+            padding: 1%;
+            margin: auto;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin-top: 3%;
+            border-radius: 10px;
+            height: 250px;
+        }
+        
+        .EmailSellmaincarddivinner:hover{
+            transition: all 0.2s linear;
+            transform: translateY(-10px);
+        }
+        .EmailSellmaincarddivinnerimage{
+            width: 80px;
+            height: 80px;
+           margin: auto;
+           margin-top: 5%;
+            
+        }
+        .EmailSellmaincarddivinner p{
+            margin-top: 3%;
+        }
+        
 }

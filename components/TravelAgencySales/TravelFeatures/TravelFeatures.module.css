@@ -17,3 +17,27 @@
     margin-top: 3%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+@media (max-width:1024px) {
+    .TravelFeaturesmaindiv{
+        /* border: 2px solid red; */
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+    
+    }
+    
+    .TravelFeaturesmaindivcontent ul li {
+        margin-top: 1%;
+    }
+    .TravelFeaturesmaindivcontentimage{
+        /* border: 2px solid yellow; */
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        margin-top: 3%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+
+}

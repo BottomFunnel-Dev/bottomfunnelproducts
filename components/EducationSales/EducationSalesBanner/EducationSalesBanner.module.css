@@ -35,4 +35,49 @@
 .EducationSalesBannerannimation{
     width: 45%;
 }
+@media (max-width:1024px) {
+    .EducationSalesBannermaindiv{
 
+        background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatesales/Sales banner background.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 2px solid; */
+        margin-top: 60px;
+    }
+    .EducationSalesBannermaindivbutton{
+     
+        width: 220px;
+        height: 40px;
+        color: white;
+        background-color: #ef4c23;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2%;
+    
+    }
+    .EducationSalesBannermaindivbutton:hover{
+        border: 1px solid #ef4c23;
+        color: #ef4c23;
+        background-color: white;
+    }
+    .EducationSalesBannermaindivinner{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+       
+    }
+    .EducationSalesBannermaindivinner p{
+        text-align: justify;
+    }
+    .EducationSalesBannerannimation{
+        width: 90%;
+    }
+}

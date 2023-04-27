@@ -22,3 +22,32 @@
 .dealmanagementvisiabilitymainboxes>div>p{
 text-align: justify;
 }
+
+@media (max-width:1024px){
+    .dealmanagementvisiabilitymainboxes{
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .dealmanagementvisiabilitymainboxes>div{
+        width: 90%;
+        height: fit-content;
+         margin: auto;
+          padding: 10px;
+    }
+    
+    .dealmanagementvisiabilityiconbox{
+        height: 30%;
+        width: 20%;
+       
+       
+    }
+    
+    .dealmanagementvisiabilitymainboxes>div>p{
+    text-align: justify;
+    }
+    
+}

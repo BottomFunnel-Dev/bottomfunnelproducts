@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./SalesMobileofFeaturesbanner.module.css"
 import Image from 'next/image'
 
-export const SalesMobileofFeaturesbanner = () => {
+export const  SalesMobileofFeaturesbanner = () => {
   return (
     <div>
      <div className={styles.SalesMobileofFeaturesbannermaindiv}>

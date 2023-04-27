@@ -39,3 +39,52 @@
     margin-left: 5%;
     height: 500px;
 }
+
+@media (max-width:1024px){
+    .dealbusinesshealthmainboxes{
+        height: fit-content;
+        /* border: 2px solid; */
+    }
+    
+    .dealbusinesshealthmainboxes>h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        /* border: 2px solid; */
+    }
+    
+    .dealbusinesshealthmainboxes>p{
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+    
+    .dealbusinesshealthflexbox{
+        display: flex;
+        flex-direction: column-reverse;
+     margin-top: 3%;
+        background-color: #f5f5f5;
+    }
+    
+    .dealbusinesshealthleftboxes{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+
+    }
+    .dealbusinesshealthleftboxes>h2{
+        font-weight: 700;
+        font-size: 32px;
+      margin: auto;
+    }
+    .dealbusinesshealthleftboxes>p{
+        text-align: justify;
+        margin: auto;
+    }
+    .dealbusinesshealthrighttboxes{
+        width: 90%;
+        margin-left: 5%;
+        height: fit-content;
+    }
+    
+}

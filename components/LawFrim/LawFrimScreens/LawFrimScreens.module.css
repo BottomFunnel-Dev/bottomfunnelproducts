@@ -16,3 +16,26 @@
 
   transform: translateY(-10px);
 }
+
+@media (max-width:1024px) {
+    .LawFrimScreensmaindiv{
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+        text-align: center;
+        /* border: 2px solid; */
+    }
+    .LawFrimScreensmaindiv p{
+        text-align: justify;
+    }
+    .LawFrimScreensmaindivimage{
+        width: 80%;
+        margin: auto;
+        margin-top: 2%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .LawFrimScreensmaindivimage:hover{
+        transition: all 0.2s linear;
+       transform: translateY(-10px);
+    }
+}

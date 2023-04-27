@@ -25,4 +25,37 @@
 .WhatCpqmaindivtwo{
     width: 80%;
 }
+@media (max-width:1024px){
+    .WhatCpqmaindiv{
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        margin-top: 3%;
+    }
+    .WhatCpqmaindivone{
+      width: 25%;
+      border-right: 2px solid grey;
+      padding: 10px;
+      text-align: center;
+    
+    }
+    .WhatCpqmaindivone h1{
+        color: #ef4c23;
+        font-size: 40px;
+    }
+    .WhatCpqmaindivtwo p{
+        padding: 10px;
+        font-size: 12px;
+        text-align: justify;
+    }
+    .WhatCpqmaindivtwo{
+        width: 80%;
+    }
+    .WhatCpqmaindivtwo{
+        margin-left: 3%;
+    }
+}
 

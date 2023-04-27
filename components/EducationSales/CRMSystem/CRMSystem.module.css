@@ -19,3 +19,30 @@
     width: 350px;
     height: 320px;
 }
+
+@media (max-width:1024px) {
+    .CRMSystemmaindiv{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 2px solid; */
+       background-color: #fdf3f0;
+       margin-top: 4%;
+    
+    }
+    .CRMSystemmaindivcontent{
+        /* border: 2px solid red; */
+        width: 90%;
+        text-align: center;
+    }
+    .CRMSystemmaindivcontent h3{
+        font-weight: 400;
+        text-align: justify;
+    }
+    .CRMSystemmaindivimage{
+        width: 350px;
+        height: 320px;
+    }
+    
+}

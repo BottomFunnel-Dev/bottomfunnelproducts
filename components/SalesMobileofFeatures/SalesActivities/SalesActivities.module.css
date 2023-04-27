@@ -49,3 +49,64 @@
     width: fit-content;
     width: 21%;
 }
+@media (max-width:1024px){
+    .SalesActivitiesmaindiv{
+        /* border: 2px solid green; */
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .SalesActivitiesinnerdiv{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .SalesActivitiesinnerdivbox{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .SalesActivitiesinnerdivboxcontent{
+        width: 90%;
+       margin: auto;
+       text-align: center;
+    }
+    .SalesActivitiesinnerdivboxcontent p{
+        text-align: justify;
+    }
+    .SalesActivitiesinnerdivboximage{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .SalesActivitiesinnerdivboxreverse{
+       display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 2px solid; */
+    }
+    
+    .SalesActivitiesinnerdivboxcontentreverse{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+     }
+     .SalesActivitiesinnerdivboxcontentreverse p{
+        text-align: justify;
+     }
+    .SalesActivitiesinnerdivboximagereverse{
+       width: fit-content;
+        width: 90%;
+        margin: auto;
+    
+    }
+}

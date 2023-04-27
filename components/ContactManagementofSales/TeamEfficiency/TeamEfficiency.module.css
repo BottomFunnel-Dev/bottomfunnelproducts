@@ -23,3 +23,22 @@
 .TeamEfficiencymaindiv h2{
     text-align: center;
 }
+@media (max-width:1024px){
+    .TeamEfficiencyinnerdiv{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+       
+        align-items: center;
+    }
+    .TeamEfficiencyinnerdivimage{
+        /* border: 2px solid yellow; */
+        width: 90%;
+    }
+    .TeamEfficiencyinnerdivcontent{
+        width: 95%;
+        margin-left: 5%;
+    }
+}

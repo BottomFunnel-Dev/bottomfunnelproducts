@@ -53,3 +53,61 @@ width: 90%;
 
 }
 
+@media (max-width:1024px){
+    .pipelinemanagementmainboxes{
+        height: fit-content;
+        }
+    
+    .pipelinemanagementmainboxes>h1{
+        text-align: center;
+        font-weight: 700;
+        font-size:25px;
+      }
+    
+    .pipelinemanagementmainboxes>h1>span{
+      color: #ef4c23;
+    }
+    
+    .pipelinemanagementmainboxes>p{
+        width: 90%;
+        text-align: justify;
+        margin: auto;
+    }
+    
+    .pipelinemanagementflexbox{
+        display: flex;
+        height: fit-content;
+        margin-top: 5%;
+        margin-bottom: 5%;
+       
+    }
+    
+    .pipelinesmanagementleftbox{
+        margin-left: 25%;
+       display: none;
+    }
+    
+    .pipelinesmanagementrightbox{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+    }
+    
+    .pipelinesmanagementleftbox>div{
+        position: absolute;
+        margin-top: -37.5%;
+        margin-left: 2%;
+       width: 15%;
+    }
+    
+    .pipelinesmanagementleftbox>div>p:nth-child(even){
+    
+    margin-left: -100%;
+    margin-top: 30%;
+    width: 90%;
+    
+    
+    }
+    
+}
+

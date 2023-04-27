@@ -37,4 +37,46 @@
 .Leadingcrmmaindivinner h2{
     color: #ef4c23;
 }
+@media (max-width:1024px) {
+    .Leadingcrmmaindiv{
+
+
+   
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 4%;
+    }
+    .Leadingcrmmaindivbutton{
+     
+        width: 220px;
+        height: 40px;
+        color: white;
+        background-color: #ef4c23;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2%;
+    
+    }
+    .Leadingcrmmaindivbutton:hover{
+        border: 1px solid #ef4c23;
+        color: #ef4c23;
+        background-color: white;
+    }
+    .Leadingcrmmaindivinner{
+        width: 90%;
+        margin: auto;
+       
+    }
+    .Leadingcrmimage{
+        width: 80%;
+    }
+    
+    .Leadingcrmmaindivinner h2{
+        color: #ef4c23;
+    }
+}
 

@@ -17,3 +17,26 @@
     width: 25%;
     height: 320px;
 }
+@media (max-width:1024px) {
+    .Communicationmaindiv{
+        /* border: 2px solid; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 2%;
+        background-color: #fdf3f0;
+    }
+    
+    .Communicationmaindiv h3{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    
+    }
+    
+    .Communicationmaindivimage{
+        width: 80%;
+        height: 320px;
+    }
+}

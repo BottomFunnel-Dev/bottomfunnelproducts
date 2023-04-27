@@ -3,6 +3,7 @@
 padding-top: 5%;
 padding-bottom: 5%;
  background-color: white;
+ /* border: 2px solid; */
 }
 
 .cloudincreasesalestextboxupper{
@@ -51,4 +52,67 @@ padding-bottom: 5%;
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+@media (max-width:1024px){
+    .cloudincreasesalesmainboxes{
+        height: fit-content;
+    padding-top: 0%;
+    padding-bottom: 0%;
+     background-color: white;
+    }
+    
+    .cloudincreasesalestextboxupper{
+        height: fit-content;
+     
+        width: 95%;
+        padding: 0%;
+        margin: auto;
+        text-align: center;
+    }
+    .cloudincreasesalestextboxupper >h1{
+        font-size: 30px;
+    }
+    .cloudincreasesalestextboxupper >p{
+       width: 95%;
+       margin: auto;
+       text-align: justify;
+       padding-top: 0%;
+       font-size: 17px;
+    }
+    
+    .specialcolor{
+        color: #ef4c23;
+    }
+    
+    .cloudincreasesalesboxflexingdiv{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0%;
+    }
+    
+    .cloudincreasesalesboxflexingdivleft{
+        width: 90%;
+       margin: auto;
+     padding-top: 0%;
+     text-align: center;
+        height: fit-content;
+       /* border: 2px solid; */
+    }
+    .cloudincreasesalesboxflexingdivleft p{
+        text-align: justify;
+    }
+    
+    .cloudincreasesalesboxflexingdivright{
+        height: 400px;
+        width: 90%;
+        margin: auto;
+     
+    
+    }
+    
+    .cloudincreasesalesboxflexingdivright >img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
 }

@@ -20,7 +20,7 @@ background-color: #f5f5f5;
 }
 
 .dealmanagementbannertxtboxes>p{
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .dealmanagementbannerbutton {
@@ -41,4 +41,37 @@ background-color: #f5f5f5;
     background-color: white;
     color: #ef4c23;
 
+  }
+
+  @media (max-width:1024px){
+    .dealmanagementbannermainboxes{
+        height: 100vh;
+        border: 1px solid transparent;
+       background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Deal management/banners & background/ha/Group 1000003850.webp");
+       background-repeat: no-repeat;
+       background-position:top;
+       background-size: 100% 48%;
+       background-color: #f5f5f5;
+       margin-top: 90px;
+       }
+       
+       .dealmanagementbannertxtboxes{
+           height: fit-content;
+           width: 90%;
+          margin: auto;
+          text-align: center;
+          margin-top: 85%;
+       }
+       
+       .dealmanagementbannertxtboxes>h1{
+           font-weight: 700;
+           font-size: 30px;
+       }
+       
+       .dealmanagementbannertxtboxes>p{
+           font-size: 18px;
+           text-align: justify;
+       }
+       
+       
   }

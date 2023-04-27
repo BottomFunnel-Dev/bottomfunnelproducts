@@ -1,12 +1,9 @@
 .cloudanalyzemainboxesdiv{
   height: fit-content;
     display: flex;
-
     width: 100%;
-   
-    background-color: white;
+   background-color: white;
 }
-
 .cloudanalyzeleftbox{
 
     width: 50%;
@@ -15,7 +12,6 @@
  
  
 }
-
 .cloudanalyzeleftbox >img {
     height: 100%;
     width: 100%;
@@ -28,7 +24,30 @@
 margin-right: 5%;
  margin-left: 5%;
 }
-
 .cloudanalyzerightbox >p{
     text-align: justify;
+}
+
+@media (max-width:1024px){
+    .cloudanalyzemainboxesdiv{
+        height: fit-content;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+         background-color: white;
+      }
+      .cloudanalyzeleftbox{
+          width: 90%;
+          height: 400px;
+          margin: auto;
+        
+       }
+    
+      .cloudanalyzerightbox{
+          height: fit-content;
+          width: 90%;
+          text-align: center;
+        margin: auto;
+      }
+      
 }

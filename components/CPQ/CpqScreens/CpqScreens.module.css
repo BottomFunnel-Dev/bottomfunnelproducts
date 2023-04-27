@@ -1,40 +1,64 @@
 .CpqScreensmaindiv{
-    /* border: 2px solid green; */
-    display: flex;
+   display: flex;
     flex-direction: column;
-
 }
 .CpqScreensmaindivinner{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
-  
     width: 90%;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     margin-top: 4%;
-
 }
 .CpqScreensmaindivinnercontent{
-    /* border: 2px solid yellow; */
-    width: 45%;
+  width: 45%;
   padding: 40px 5px 40px 5px;
 }
 .CpqScreensmaindivinnerimage{
-    /* border-radius: 2px solid blue; */
     width: 45%;
 }
-
 .CpqScreensmaindivinnertwo{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row-reverse;
-  
-    width: 90%;
+     width: 90%;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     margin-top: 4%;
+}
 
+@media (max-width:1024px){
+    .CpqScreensmaindiv{
+        display: flex;
+         flex-direction: column;
+     }
+     .CpqScreensmaindivinner{
+         display: flex;
+         flex-direction: column-reverse;
+         width: 100%;
+         margin: auto;
+         justify-content: space-between;
+         align-items: center;
+         margin-top: 4%;
+     }
+     .CpqScreensmaindivinnercontent{
+       width: 90%;
+       padding: 40px 5px 40px 5px;
+       margin: auto;
+     }
+     .CpqScreensmaindivinnerimage{
+         width: 90%;
+         margin: auto;
+     }
+     .CpqScreensmaindivinnertwo{
+         display: flex;
+         flex-direction:column-reverse;
+          width: 90%;
+         margin: auto;
+         justify-content: space-between;
+         align-items: center;
+         margin-top: 4%;
+     }
+     
 }

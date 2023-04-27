@@ -36,3 +36,46 @@
     margin-left: 20%;
     margin-top: 2%;
 }
+
+@media (max-width:1024px){
+    .dealmanagementlowerbannermainbox{
+        height: fit-content;
+        margin-top: 2%;
+        border: 1px solid transparent;
+        background-color: #ffefeb;
+    }
+    
+    .dealmanagementlowerbannertxtbox{
+        height: fit-content;
+        margin-top: 4%;
+    
+    }
+    
+    .dealmanagementlowerbannertxtbox>h1{
+        text-align: center;
+    }
+    
+    .dealmanagementlowerbannertxtbox>p{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .lowerbannerflecxbox{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .lowerbannerlefttbox{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    .lowerbannerrightbox{
+        width: 90%;
+        height: 250px;
+       margin: auto;
+       
+    }
+    
+}
