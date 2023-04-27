@@ -9,22 +9,22 @@ export const Colaborationbuilding = () => {
        
 
         {
-            htxt:"Focus more on tasks",
-            stxt:"Share full context of what you are working on - support ticket, sales deal, service request and more - with teammates.",
+            htxt:"Prioritize tasks",
+            stxt:"Collaborate with your colleagues to gain an understanding of the entire scope of your project, including support tickets, sales transactions, service requests, and other tasks.",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 52.webp",
 
         },
 
         {
-            htxt:"Forget switching tabs",
-            stxt:"Stay on top of conversations without shuffling between Freshworks products and other team collaboration tools.",
+            htxt:"Forgo the habit of tab switching",
+            stxt:"Maintain constant vigil over conversations to stay up-to-date without switching between the Bottom Funnel products and other team collaboration tools.",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 53.webp",
 
         },
 
         {
-            htxt:"Build Customer trust",
-            stxt:"Get help right where you are working with collaboration UI that's native to your favorite Freshworks Products. ",
+            htxt:"Utilize the tools you favor",
+            stxt:"Right where you are working, access the collaboration UI that's native to your favorite Bottom Funnel  products for assistance.   ",
             icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 54.webp",
 
         },
@@ -34,10 +34,8 @@ export const Colaborationbuilding = () => {
 
   return (
     <div className={styles.colaborationbuildingmainboxes}>
-    <h1>Building better ways to collaborate</h1>
-    <p>Teams are most productive when collaboration tools mimic the way they work.
-    Our integrations enables a context-driven, channel-agnostic, native collaboration experience.
-    </p>
+    <h1>Fostering collaboration through innovation</h1>
+    <p>To be at their most productive, teams should have a native, channel-agnostic, and context-driven collaboration experience similar to how they work.</p>
     <div className={styles.colaborationdatamappingbox}>{colaborationbuildingdata.map((e)=>{
         return (
             <div className={styles.colaborationdaataindibox}>

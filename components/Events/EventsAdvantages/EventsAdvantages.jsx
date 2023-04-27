@@ -2,58 +2,37 @@
 import styles from "./EventsAdvantages.module.css"
 import Image from "next/image";
 export const EventsAdvantages = () => {
+    const eventsdata = [{img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconone.webp",hd:"Secure,Scalable,and reliable",p:"Minimize operational overhead through the use of no servers to manage. Plan for the events that you are willing to publish and pay for them."},
+    {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/icontwo.webp",hd:"Forget Automate Complex workflows tabs",p:"Automate specific and critical tasks allowing AWS Lambda to respond to events."},
+    {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconthree.webp",hd:"More freedom to customers",p:"Easily access and engage with events in desired locations through the integration of other AWS services."}]
     return (
         <div className={styles.eventsAdvantagesParent}>
             <div className={styles.eventsAdvantagesHeading}>
-                <h3>The Serverless and Eventbridge Advantages</h3>
+                <h3>The perks of Serverless and Eventbridge</h3>
                 <hr />
             </div>
             <div className={styles.eventsAdvantagesContentDiv}>
-                <div>
-                    <div>
-                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconone.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
-
-                        />
+                {eventsdata.map((item) => {
+                    return(
+                        <div>
+                        <div>
+                            <Image
+                                src={item.img}
+                                alt={"img"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "100%" }}
+    
+                            />
+                        </div>
+                        <h4>{item.hd}</h4>
+                        <p>{item.p}</p>
                     </div>
-                    <h3>Secure,Scalable,and reliable</h3>
-                    <p>Reduce operatinal overhead with no servers manage.Pay for the events you public.</p>
-                </div>
-                <div>
-                    <div>
-                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/icontwo.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
-
-                        />
-                    </div>
-                    <h3>Forget Automate Complex workflows tabs </h3>
-                    <p>Automate sprcific and critical taska allowing AWS lambada to respond to events </p>
-                </div>
-                <div>
-                    <div>
-                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconthree.webp"}
-                            alt={"img"}
-                            width={"0"}
-                            height={"0"}
-                            sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
-
-                        />
-                    </div>
-                    <h3>More freedom to customers</h3>
-                    <p>Views events in desired location and have them interact with other AWS services easily </p>
-                </div>
+                    );
+                })}
+              
+              
 
             </div>
         </div>

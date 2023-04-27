@@ -15,6 +15,7 @@
 
 .MarketPlaceFeatureChild {
   display: flex;
+  
   justify-content: center;
   margin: auto;
   gap: 2%;
@@ -47,7 +48,7 @@
   text-align: center;
 }
 
-@media (max-width: 780px) {
+/* @media (max-width: 780px) {
   .MarketPlaceFeatureChild {
     height: 60vh;
   }
@@ -91,7 +92,7 @@
   .MarketPlaceFeatureChild > div > p {
     text-align: center;
   }
-}
+} */
 @media(max-width:480px){
   .MarketPlaceFeatureChild{
     margin-top: 1%;
@@ -101,8 +102,17 @@
     margin-top: 3%;
     
   }
-  .MarketPlaceFeatureChild > div{
-    width: 90%;
+  .MarketPlaceFeatureimg {
+    width: 30%;
+    margin-top: 5%;
+    /* border: 1px solid #ef4c23; */
+  }
+  .MarketPlaceFeatureChild {
+   
+flex-direction: column;
+    }  
+    .MarketPlaceFeatureChild > div{
+    width: 70%;
     margin: auto;
     margin-top: 5%;
     

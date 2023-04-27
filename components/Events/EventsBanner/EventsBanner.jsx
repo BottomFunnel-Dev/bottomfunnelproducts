@@ -17,12 +17,12 @@ export const EventsBanner = () => {
                 </div>
                 <div div className={styles.EventsBannercontent}>
                     <h1>
-                        Stream Events in <span className={styles.EventsBannercolor}>Real-Time</span>
+                    Analyze  <span className={styles.EventsBannercolor}>real-time </span>stream events
                     </h1>
                     <hr />
-                    <h4>
-                        Build on top of customer data by seamlessly streaming events in real-time from freshworks products to third -party apps aws
-                    </h4>
+                    <p>
+                    Utilize customer data to stream live events in real-time from the Bottom Funnel products to third-party apps and Amazon Web Services.
+ </p>
                     {/* <button>
                         Explore Now
                     </button> */}

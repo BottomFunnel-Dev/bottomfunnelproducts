@@ -21,8 +21,8 @@ export const Collaborationbanner = () => {
     </div>
 
     <div className={styles.collaborationbannerrightbox}>
-    <h1>Foster team collaboration for better productivity</h1>
-    <p>Empower teams to collaborate contextually, from anywhere, and seamlessly within the workflow</p>
+    <h1>Effortlessly facilitate team collaboration to enhance output levels</h1>
+    <p>Increase the effectiveness of teams through the ability to collaborate contextually, at any time, and seamlessly within the workflow.</p>
 
     {/* <button className={styles.collaborationbannerbutton}>Explore Now</button> */}
     { <button className={styles.collaborationbannerbutton}

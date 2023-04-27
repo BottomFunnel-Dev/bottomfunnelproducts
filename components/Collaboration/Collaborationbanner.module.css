@@ -6,34 +6,26 @@
 }
 .collaborationbannerleftbox{
     margin-top: 5%;
+    width: 45%;
 }
 .collaborationbannerrightbox{
-    width: 45%;
+    width: 40%;
     height: fit-content;
-    margin-top: 15%;
-  
-    margin-left:2%;
-    margin-right: 2%;
+ 
+   margin:18% auto;
     color: black;
 }
 
-.collaborationbannerrightbox>h1{
-    font-weight: 700;
-   font-size: 45px;
-   
-}
-.collaborationbannerrightbox>p{
-    font-size: 25px;
-}
+
 
 .collaborationbannerbutton {
     padding: 10px 50px;
     border-radius: 100px;
     width: 220px;
     background-color: #ef4c23;
-    border: none;
+    border: 1px solid #ef4c23;
     outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     font-size: 18px;
     font-weight: 600;
     color: white;
@@ -55,45 +47,27 @@
 }
 .collaborationbannerleftbox{
     height: 300px;
-    width: 90%;
+    width: 100%;
     margin: auto;
      margin-top: 15%;
  
 }
 .collaborationbannerrightbox{
-    width: 95%;
+    width: 90%;
     height: fit-content;
-    margin-left:2%;
-    margin-top: -5%;
-    margin-right: 2%;
+    margin:auto;
+    margin-top: 0%;
+    margin-bottom: 4%;
+   
     color: black;
 
     padding: 5px;
 }
 
-.collaborationbannerrightbox>h1{
-    font-weight: 700;
-   font-size: 25px;
-   text-align: center;
-   
-}
-.collaborationbannerrightbox>p{
-   text-align: justify;
-   font-size: 16px;
-}
+
+
 
 .collaborationbannerbutton {
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 220px;
-    background-color: #ef4c23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-top: 4%;
     margin-left: 17%;
   }
   

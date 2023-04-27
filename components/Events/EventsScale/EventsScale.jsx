@@ -20,18 +20,16 @@ export const EventsScale = () => {
                         />
                     </div>
                     <div div className={styles.eventsScalecontent}>
-                        <h2>Auto-scale with Serverless</h2>
-                        <p>Serverless isthe tol of coice for to achieve complex
-                            worjflowssand scale on-demand .be it scheduled events to periodically push datato
-                            dwanstream sytem ,or product events to execute event-drivenoperation bases on requesters and tickets ,we have it all covered.
+                        <h2>Auto-scale with serverless for easy, on-demand scaling</h2>
+                        <p>Serverless is the ideal tool for executing complex workflows and scaling on-demand, as it enables you to do both with ease. Regardless of the frequency with which you request data from us, we have you covered with event-driven operations.
                         </p>
                     </div>
                 </div>
                 <div className={styles.eventsScaleParentsecchild}>
-                    <div div className={styles.eventsScalecontenttwo}>
-                        <h2>Improve customer Insights</h2>
+                    <div div className={styles.eventsScalecontent}>
+                        <h2>Amplify customer insight</h2>
                         <p>
-                            Simply reporting and analytics an end-to-end view of customers.Stream your support ticket data into AWS in real-time to leverage customer information for BI and Analytics
+                        Analyze and report on customers in a comprehensive manner, all the way from ticket data to real-time streaming of support ticket data into AWS.
                         </p>
                     </div>
 
@@ -62,10 +60,10 @@ export const EventsScale = () => {
 
                         />
                     </div>
-                    <div div className={styles.eventsScalecontentthree}>
-                        <h2>Make Better Decision With Sentiments Analysis and ML</h2>
+                    <div div className={styles.eventsScalecontent}>
+                        <h2>Analyze and optimize decision-making through sentiment analysis and machine learning</h2>
                         <p>
-                            AI can better understand customer intent and elevate your customer experience and increase employee productivity .No apply ML to support events to provide sentiments analysis that can be leveraged for automated self -service.
+                        By utilizing AI, your customer experience can be elevated, customer intent can be better understood, and employee productivity can be increased. Utilize machine learning to support events in order to perform sentiment analysis, which can be leveraged for automated self-service.
                         </p>
                     </div>
                 </div>

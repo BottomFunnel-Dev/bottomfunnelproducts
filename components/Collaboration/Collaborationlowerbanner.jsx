@@ -6,8 +6,8 @@ export const Collaborationlowerbanner = () => {
     return (
         <div className={styles.messaginglowerbannermainboxes}>
         <div className={styles.messaginlowerbannertxt}>
-        <h1>Start today, and enjoy our free trial</h1>
-        <p>start your 21-day free trial.No credit card required.No Strings attached</p>
+        <h2>Start today, and enjoy our free trial</h2>
+        <p>Start your 21-day free trial. No credit card required. No Strings attached.</p>
         <div className={styles.lowerbannerbutton}>
         
         <button className={styles.massaginglowerbannerbuttonone}>Start Free Trail</button>

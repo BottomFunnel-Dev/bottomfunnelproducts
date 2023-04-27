@@ -22,7 +22,8 @@ export const DevelopersPortalGrow = () => {
         <h2>MarketPlace</h2>
         <h3>Grow with us!</h3>
         <p>
-           Publish Your app on Bottom Funnel Marketplace to gain access to a fast growing customer base of 40,000+ Bottom Funnel customers.
+        Our marketplaces can help developers by providing a platform to showcase and monetize their software products, reaching a wider audience and generating revenue from their work.
+
         </p>
         <button>Visit Our Marketplace</button>
     </div>

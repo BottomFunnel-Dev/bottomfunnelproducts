@@ -5,20 +5,23 @@ margin-top: 3%;
 
 .colaborationbuildingmainboxes>h1{
 text-align: center;
-width: 40%;
+width: 60%;
 margin: auto;
+padding-bottom: 1%;
 border-bottom: 1px solid #ef4c23;
 }
 
 .colaborationbuildingmainboxes>p{
 text-align: center;
+font-size: 20px;
+margin-top: 2%;
 }
 
 .colaborationdatamappingbox{
-width: 60%;
+width: 65%;
 height: fit-content;
-margin: auto;
-margin-top: 5%;
+margin: 3% auto;
+
 display: flex;
 justify-content: space-between;
 }
@@ -29,6 +32,7 @@ margin: 1%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 padding: 10px;
 border-radius: 10px;
+
 }
 
 .colaborationdaataindibox:hover{
@@ -56,17 +60,21 @@ text-align: center;
 .colaborationbuildingmainboxes{
 height: fit-content;
 margin-top: 3%;
+
 }
 
 .colaborationbuildingmainboxes>h1{
 text-align: center;
 width: 90%;
 margin: auto;
-border-bottom: 1px solid #ef4c23;
+padding-bottom: 3%;
+
 }
 
 .colaborationbuildingmainboxes>p{
 text-align: center;
+width: 90%;
+margin:3% auto;
 }
 
 .colaborationdatamappingbox{
@@ -76,15 +84,15 @@ margin: auto;
 margin-top: 5%;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+
 }
 
 .colaborationdaataindibox{
-width: 90%;
+width: 80%;
 margin: auto;
 margin-top: 5%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-padding: 10px;
+padding: 12px;
 border-radius: 10px;
 }
 
@@ -95,11 +103,12 @@ background-color: #f5f5f5;
 }
 
 .colaborationiconboxes{
-height: 40%;
-width: 40%; 
-margin: auto;
-}
-
+    height: 30%;
+    width: 30%;
+       
+    margin:3% auto;
+    }
+    
 .colaborationtxtbox>p{
 text-align: justify;
 }
