@@ -272,6 +272,9 @@ export const ChatFooter = () => {
                         <Link className={styles.deskFooterLinkTag} href={"/"}>
                             <li> Mobile </li>
                         </Link>
+                        <Link className={styles.deskFooterLinkTag} href={"/"}>
+                            <li> SDK </li>
+                        </Link>
 
                         <br/>
                         <Link className={styles.deskFooterLinkTag} href={"/"}>
@@ -301,7 +304,7 @@ export const ChatFooter = () => {
                         <Link className={styles.deskFooterLinkTag} href={"/"}>
                             <li> SMB </li>
                         </Link>
-
+                       
                         
                     </ul>
 

@@ -71,6 +71,10 @@
 
 /* media query for mobiles and tablet devices */
 @media (max-width: 1024px) {
+  .deskService{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
   .enterpriseDeskService {
     height: inherit;
     flex-direction: column-reverse;
@@ -86,27 +90,27 @@
   }
 
   .enterpriseContentSide>h2 {
-    font-size: 25px;
+    font-size: 26px;
     line-height: 28px;
     text-align: center;
   }
 
   .enterpriseContentSide>p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    /* line-height: 20px; */
+    text-align: justify;
   }
 
   .enterpriseContentSide>ul>li {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
   }
 
   .enterpriseContentSide>h5 {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .dropright {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .enterpriseGifSide {

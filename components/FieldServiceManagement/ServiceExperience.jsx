@@ -7,7 +7,7 @@ export const ServiceExperience = () => {
 
 const serviceexperiencedata = [
     {
-        htxt:"Omnichannel customer engagement",
+        htxt:"Customer engagement",
         stxt:"Engage with customers via their preferred channels, set up appointments and build better customer relationships with an omnichannel brand pressence.",
         icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 4.webp",
     },

@@ -8,7 +8,7 @@ export const SelfServiceContent = () => {
       body: `Create your knowledge base for mulitple products and publish them to your customers on product-focused 
             pages, all from one place.`,
       image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SelfService/TwoThreeHead.webp",
-      buttondetails: "start free trial",
+      buttondetails: "Start free trial",
     },
     {
       title: "Customizee without coding",

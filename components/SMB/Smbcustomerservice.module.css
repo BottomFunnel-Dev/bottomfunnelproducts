@@ -48,3 +48,33 @@
     height: 10%;
     /* border: 2px solid red; */
 }
+
+@media (max-width:480px) {
+    .smbcustomerservicemainboxes{
+        margin-top: 10%;
+    }
+    .smbcustomerservicemainboxes>h2{
+        font-size: 28px;
+    }
+    .smbcustomerdataindi{
+        flex-direction: column-reverse;  
+    }
+    .smbcustomerdataindi:nth-child(even){
+        flex-direction: column-reverse;
+    }
+    .smbcustomerindileftbox{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .smbcustomerindirightbox{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .smbcustomerindiicon{
+        width: 15%;
+        height: auto;
+    }
+}

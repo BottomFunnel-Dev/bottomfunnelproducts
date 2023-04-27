@@ -8,7 +8,7 @@ export const AutomateOlly = () => {
       body: `Bring the collective experience  of everyone on your team into the knowledge. Base creation process with
             a sacalable content management system.`,
       image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SelfService/TwoThreeHead.webp",
-      buttondetails: "start free trial",
+      buttondetails: "Start free trial",
     },
     {
       title: "Automate with Freedy Answers",

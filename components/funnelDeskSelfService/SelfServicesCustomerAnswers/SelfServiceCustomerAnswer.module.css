@@ -38,6 +38,9 @@
 }
 
 @media (max-width: 1024px) {
+  .selfServicesCustomerAnswerParentDiv{
+    margin-top: 10%;
+  }
   .selfServicesCustomerAnswerInnerDiv {
     flex-direction: column-reverse;
   }
@@ -45,6 +48,7 @@
   .selfServicesCustomerAnswerContentDiv {
     width: 95%;
     text-align: center;
+    margin-top: 5%;
   }
 
   .selfServicesCustomerAnswerContentDiv>h1 {
@@ -53,16 +57,17 @@
   }
 
   .selfServicesCustomerAnswerContentDiv>p {
-    font-size: 14px;
+    font-size: 18px;
     width: 100%;
-    line-height: 20px;
+    text-align: justify;
   }
 
   .selfServicesCustomerAnswerContentDiv>button {
-    font-size: 12px;
+    font-size: 16px;
     height: fit-content;
     width: fit-content;
     padding: 8px 20px;
+    margin-bottom: 10%;
   }
 
   .selfServicesCustomerAnswerImageDiv {

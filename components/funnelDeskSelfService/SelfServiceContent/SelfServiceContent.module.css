@@ -54,6 +54,7 @@
 
 .selfServicesContentContentButton {
   color: #12944D;
+  text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
@@ -67,17 +68,19 @@
   }
 
   .selfServicesContentContentDiv>div>h3 {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 25px;
     margin-bottom: 1%;
   }
 
   .selfServicesContentContentDiv>div>p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: justify;
   }
 
   .selfServicesContentContentButton {
-    margin: 2% 0;
+    margin: auto;
+    text-decoration: underline;
   }
 }

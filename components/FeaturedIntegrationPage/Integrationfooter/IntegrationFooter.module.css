@@ -51,5 +51,20 @@ margin-top: 50px;
         margin-top: 10%;
         margin-bottom: 15%;
     }
+    .IntegrationFootercontain>h1{
+        margin-top: 10%;
+    }
+    .IntegrationFootercontain>p{
+        width: 90%;
+        margin: auto;
+        font-size: 16px;
+        margin-top: 5%;
+    }
+    .IntegrationFooterbutton1{
+        padding: 8px 16px;
+    }
+    .IntegrationFooterbutton2{
+        padding: 8px 16px;
+    }
     
 }

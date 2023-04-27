@@ -42,14 +42,9 @@ export const Stellerfieldservice = () => {
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" , objectFit:"contain"}}
-        />
-
-            
-            
+        />  
             </div>
             <p>{e.stxt}</p>
-            
-        
             </div>
         )
     })}</div>
