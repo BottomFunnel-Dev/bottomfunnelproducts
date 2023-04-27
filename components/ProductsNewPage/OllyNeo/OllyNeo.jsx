@@ -45,7 +45,7 @@ const OllyNeo = () => {
                 <div className={styles.ollyNeoContent2}>
                     <h2> Take customer engagement to the next level </h2>
                     <p>
-                        Deliver a highly personalized and human-centered customer engagement experience with Freddy AI-powered
+                        Deliver a highly personalized and human-centered customer engagement experience with olly AI-powered
                         bots that go beyond just issue resolution and create true customer delight.
                     </p>
 
