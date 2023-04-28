@@ -1,19 +1,21 @@
 .retailecommercebannermainboxes {
   height: fit-content;
   display: flex;
-  margin-top: 120px;
+  flex-direction: row-reverse;
+  margin-top: 100px;
 }
 
 .retailecommercebannerleftbox {
   height: fit-content;
   width: 50%;
   margin-top: 10%;
-  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .retailecommercebannerrightbox {
   height: 500px;
   width: 50%;
+  margin: auto;
 }
 
 .retailecommercebannerrightbox > img {
@@ -39,4 +41,33 @@
 .retailsecommercebannerbutton:hover {
   background-color: white;
   color: #14944C;
+}
+
+@media (max-width:480px) {
+  .retailecommercebannermainboxes{
+    flex-direction: column-reverse;
+  }
+  .retailecommercebannerleftbox{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .retailecommercebannerleftbox>h1{
+    text-align: center;
+  }
+  .retailecommercebannerleftbox>p{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .retailecommercebannerrightbox{
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+  .retailsecommercebannerbutton{
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+  }
 }

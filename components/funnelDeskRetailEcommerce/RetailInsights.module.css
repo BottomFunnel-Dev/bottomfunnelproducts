@@ -26,19 +26,9 @@
   width: 98%;
   height: 96.5%;
   background-color: #f5f5f5;
-  position: relative;
+  /* position: relative; */
   /* border: 2px solid red; */
 }
-
-.retailinsightsupperboximageright {
-  width: 55%;
-  margin-left: -1%;
-  height: 378px;
-  margin-top: 1%;
-  /* border: 2px solid red; */
-  background-color: #f5f5f5;
-}
-
 .retailshopupperboximageright > img {
   height: 100%;
   width: 100%;
@@ -47,10 +37,45 @@
 
 .retailinsightsupperboxtextsvgallfilethere {
   margin-left: 3%;
-  position: absolute;
   margin-top: 7%;
 }
 
 .retailinsightsupperboxtextsvgallfilethere > h6 {
   margin-top: 5%;
+}
+
+.colored{
+  color: #14944c;
+}
+.colored>svg{
+  color: #14944c;
+}
+
+@media (max-width:480px) {
+  .retailinsightsupperboximageandtextflexbox{
+    flex-direction: column-reverse;
+  }
+  .retailinsightsupperboxtextleft{
+    width: 95%;
+    margin: auto;
+   
+  }
+  .retailinsightsupperboxtextsvgallfilethere{
+    margin: auto;
+  }
+  .retailinsightsupperboxtextsvgallfilethere>h1{
+    text-align: center;
+  }
+  .retailinsightsupperboxtextsvgallfilethere>p{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .retailinsightsupperboxtextsvgallfilethere>ul>li{
+    font-size: 18px;
+  }
+  .retailinsightsupperboximageandtextflexbox{
+height: 800px;
+  }
+  
+
 }
