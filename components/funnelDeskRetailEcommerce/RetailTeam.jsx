@@ -7,7 +7,7 @@ export const RetailTeam = () => {
       <div className={styles.retailteamleftboxfortext}>
         <h1>Get your team on the same page</h1>
         <p>
-          shoppers don't differentiate between the agents they talk to online,
+          Shoppers don't differentiate between the agents they talk to online,
           the clerks in-store or the finance staff processing their refund,so
           why should you ? Good service requires collaboration.Work together to
           deliver delight to each and every customer.
@@ -23,7 +23,6 @@ export const RetailTeam = () => {
         </ul>
         <h6 className={styles.colored}>Explore contextual collaboration </h6>
       </div>
-      <div className={styles.retailteammainboxesrightboxforimage}>
         <div className={styles.retailteamboxrightforimageonly}>
           <img
             src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Retail&ecommerce/Rectangle 5086.webp"
@@ -31,6 +30,5 @@ export const RetailTeam = () => {
           />
         </div>
       </div>
-    </div>
   );
 };

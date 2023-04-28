@@ -16,22 +16,58 @@
 .retailredefinemainboxesrightboxforimage {
   height: 400px;
   width: 50%;
-  background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Retail&ecommercehttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animationshttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation4.webp");
+  background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Retail%26ecommerce/Animations/animation4.webp");
   background-repeat: no-repeat;
   background-position-x: right;
 }
 
-.retailredefinedboxrightforimageonly {
-  height: 95%;
+ .retailredefinedboxrightforimageonly { 
+  height: 380px;
   width: 97%;
   margin-left: 1%;
-  /* margin-top: 1%; */
-  /* border: 2px solid black; */
   background-color: white;
-}
+} 
 
 .retailredefinedboxrightforimageonly > img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+@media (max-width:480px) {
+  .retailredefinemainboxes{
+    flex-direction: column-reverse;
+   
+  }
+  .retailredefineleftboxfortext{
+    width: 95%;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+  }
+  .retailredefinemainboxesrightboxforimage{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* border: 2px solid red; */
+  }
+  .retailredefinedboxrightforimageonly{
+    height: auto;
+  }
+ 
+  .retailredefineleftboxfortext>h1{
+    text-align: center;
+  }
+  .retailredefineleftboxfortext>p{
+    text-align: justify;
+    font-size: 18px;
+  }
+  .retailredefineleftboxfortext>ul>li{
+    font-size: 18px;
+  }
+  .retailredefinemainboxesrightboxforimage{
+    background: none;
+  }
+  .retailredefinemainboxesrightboxforimage{
+    background-position: none;
+  }
 }

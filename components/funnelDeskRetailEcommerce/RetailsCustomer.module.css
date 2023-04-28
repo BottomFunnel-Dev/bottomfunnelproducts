@@ -1,7 +1,7 @@
 .retailcustomermainboxes {
-  height: 400px;
+  height:400px;
   position: relative;
-  background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Retail&ecommercehttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animationshttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation4.webp");
+  background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Retail%26ecommerce/Animations/animation4.webp");
   background-repeat: no-repeat;
   /* border: 2px solid  red; */
   margin-top: 5%;
@@ -11,7 +11,6 @@
   height: 96.5%;
   position: absolute;
   margin-top: 1%;
-
   width: 99%;
   margin-left: 1%;
   background-color: #f5f5f5;
@@ -20,15 +19,7 @@
 
 .retailcustomerleftboxflextype {
   width: 50%;
-  /* border: 2px solid red; */
-  height: 100%;
-  /* margin-top: 2%; */
-}
-
-.retailcustomerleftboxflextype > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+  height: auto;
 }
 
 .retailcustomerrightboxflextype {
@@ -40,4 +31,43 @@
 .retailcustomerrightboxflextype > h6 {
   margin-left: 5%;
   margin-top: 5%;
+}
+.colored{
+  color: #14944c;
+}
+.colored>svg{
+  color: #14944c;
+}
+
+@media (max-width:480px) {
+  .retailcustomerleftrightboxflextype{
+    flex-direction: column;
+    height: fit-content;
+  }
+  .retailcustomerleftboxflextype{
+    width: 80%;
+    margin: auto;
+    height: 250px;
+  }
+  .retailcustomerrightboxflextype>h1{
+    text-align: center;
+  }
+  .retailcustomerrightboxflextype>p{
+    font-size: 18px;
+    width: 95%;
+    text-align: justify;
+  }
+  .retailcustomerrightboxflextype>ul>li{
+    font-size: 18px;
+    width: 95%;
+    text-align: justify;
+  }
+  .retailcustomermainboxes{
+    background: none;
+    height: 750px;
+  }
+  .retailcustomerleftrightboxflextype{
+    position: none;
+  }
+  
 }
