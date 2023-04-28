@@ -1155,7 +1155,7 @@ export const product1 = [
     dropContent: "Bottom Funnel Support Desk",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/desk.png",
-    path: "funneldesk",
+    path: "bottomfunnel-support-desk",
     title: "Delight Your Customer With Effortless Support Desk Service",
     productHover: "#d6ffe8",
   },
@@ -1171,7 +1171,7 @@ export const product1 = [
     dropContent: "Bottom Funnel Marketer",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
-    path: "marketer",
+    path: "/bottomfunnel-marketer",
     title: "Delight Your Customer With Effortless MarketPlace Service",
     productHover: "#ffcf9c",
   },
@@ -1180,7 +1180,7 @@ export const product1 = [
     dropContent: "Bottom Funnel Sales",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/bottomFunnnelSales.png",
-    path: "/sales",
+    path: "/bottomfunnel-sales",
     title: "Delight Your Customer With Effortless Sales Service",
     productHover: "#ffaf9a",
   },
@@ -1188,7 +1188,7 @@ export const product1 = [
     dropContent: "Bottom Funnel Service",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Service.png",
-    path: "/bottomfunnelservice",
+    path: "/bottomfunnel-service",
     title: "Delight Your Customer With Effortless Service",
     productHover: "#e1e1e1",
   },
@@ -1208,7 +1208,7 @@ export const product2 = [
     dropContent: "Bottom Funnel Customer Success",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/success.png",
-    path: "customersuccess",
+    path: "/bottomfunnel-customersuccess",
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
@@ -1217,7 +1217,7 @@ export const product2 = [
     dropContent: "Bottom Funnel Contact Center",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/contact.png",
-    path: "contact-center",
+    path: "/bottomfunnel-contact-center",
     title: "Delight Your Customer With Effortless Contact Center Service",
     productHover: "#d6ffe8",
   },
@@ -1354,30 +1354,30 @@ export const productSolution = [
   {
     dropContent: "By Use Size",
     productText1: "Enterprise",
-    path: "/funneldesk/solutions/enterprise",
+    path: "/bottomfunnel-support-desk/enterprise",
   },
   {
     productText2: "SMB",
-    path: "/funneldesk/solutions/smb",
+    path: "/bottomfunnel-support-desk/smb",
   },
 
   {
     dropContent: "By Use Case",
     productText1: "Self Service",
-    path: "/funneldesk/solutions/selfservice",
+    path: "/bottomfunnel-support-desk/selfservice",
   },
   {
     productText2: "Field Service",
-    path: "/funneldesk/solutions/fieldservicemanagement",
+    path: "/bottomfunnel-support-desk/fieldservicemanagement",
   },
   {
     dropContent: "By Industry",
     productText1: "Retail & E-commerce",
-    path: "/funneldesk/solutions/retailandecommerce",
+    path: "/bottomfunnel-support-desk/retailandecommerce",
   },
   {
     productText2: "Travel & Hospitality",
-    path: "/funneldesk/solutions/travel-and-hospitality",
+    path: "/bottomfunnel-support-desk/travel-and-hospitality",
   },
 ];
 
@@ -1388,7 +1388,7 @@ export const productDesk = [
     productText2: "SMB",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/support-desk.png",
-    path: "/funneldesk",
+    path: "/bottomfunnel-support-desk",
   },
   {
     dropContent: "Contact Center",
@@ -1421,31 +1421,31 @@ export const productDesk = [
 export const productFeatures = [
   {
     dropContent: "Ticketing",
-    path: "/funneldesk/features/ticketing",
+    path: "/bottomfunnel-support-desk/ticketing",
   },
   {
     dropContent: "Collaboration",
-    path: "/funneldesk/features/collaboration",
+    path: "/bottomfunnel-support-desk/collaboration",
   },
   {
     dropContent: "Automations",
-    path: "/funneldesk/features/automation",
+    path: "/bottomfunnel-support-desk/automation",
   },
   {
     dropContent: "Help Widget",
-    path: "/funneldesk/features/helpwidget",
+    path: "/bottomfunnel-support-desk/helpwidget",
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "/funneldesk/features/reportandanalysis",
+    path: "/bottomfunnel-support-desk/reportandanalysis",
   },
   {
     dropContent: "Security",
-    path: "/funneldesk/features/security",
+    path: "/bottomfunnel-support-desk/security",
   },
   {
     dropContent: "Integration",
-    path: "/funneldesk/features/integration",
+    path: "/bottomfunnel-support-desk/integration",
   },
 ];
 
@@ -1726,7 +1726,7 @@ export const omnichannelDesk = [
     productText2: "SMB",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/support-desk.png",
-    path: "/funneldesk",
+    path: "/bottomfunnel-support-desk",
   },
   {
     dropContent: "Messaging",

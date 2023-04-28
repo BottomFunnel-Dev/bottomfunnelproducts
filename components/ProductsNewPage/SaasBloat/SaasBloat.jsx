@@ -16,7 +16,7 @@ export default function SaasBloat({ onSwitch }) {
   return (
     <div className={styles.saasBloatMain}>
       <div className={styles.saasBloatheading}>
-        <h2>All SaaS, No Bloat</h2>
+        <h2>Slim and Efficient: Streamlined SaaS Without the Error</h2>
       </div>
       <div className={styles.saasBloatpanel}>
         <div className={styles.saasBloatpanelright}>
