@@ -7,7 +7,7 @@ export const MarketerHomePageBanner = () => {
       <div className={styles.MarketerHomePageBannermaindiv}>
         <div  className={styles.MarketerHomePageBannermaindivcontain}>
           <h1>
-            Grow Your Online Store With a Unified Marketing, Sales and Support CRM
+            Grow Your Online Store With a Unified Marketing, Sales and Support CRM 
           </h1>
           <p> Attract, engage and nurture your customers using WhatsApp,SMS,Email,Chat </p>
           <div>
