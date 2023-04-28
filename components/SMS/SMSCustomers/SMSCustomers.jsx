@@ -4,21 +4,21 @@ import Image from 'next/image';
 export const SMSCustomers = () => {
     return (
         <div className={styles.smscustomerParent}>
-            <h2>Experience a relaible, easy, and scalable Messenger plateform with SMS</h2>
+            <h2>Experience a reliable, easy, and scalable Messenger platform with SMS</h2>
             <div className={styles.smscustomerParentfirstchild}>
 
                 <div className={styles.smscustomerParentfirstchildContent}>
                     <h3>
                         Enable conversational support with customers via SMS
                     </h3>
-                    <p>With SMS on Freshchat, handling two way conversation is convenient and simple . SMS allows you to instantly send and recieve messages , making it easy for you deliver exceptional customer support.
-                    With SMS on Freshchat, handling two way conversation is convenient and simple . SMS allows you to instantly send and recieve messages , making it easy for you deliver exceptional customer support. You can now :
+                    <p>With SMS on Bottom funnel chat, handling two way conversation is convenient and simple . SMS allows you to instantly send and recieve messages , making it easy for you deliver exceptional customer support.
+                    With SMS on Bottom funnel chat, handling two way conversation is convenient and simple . SMS allows you to instantly send and recieve messages , making it easy for you deliver exceptional customer support. You can now :
                     </p>
 
                     <ul className={styles.smscustomerParentfirstchildList}>
-                       <li>Connect tith your customers globally, offer immediate customer service ,offer immediate customer service , Connect tith your customers globally and improve resolution time by 2X</li>
+                       <li>Connect with your customers globally, offer immediate customer service. Connect with your customers globally and improve resolution time by 2X. </li>
                        <li>
-                        Provide personilezed suppport and build support and build enduring custoemr resposibility.
+                        Provide personalized support and build suport and build enduring customer responsibility.
                        </li>
                     </ul>
                     
@@ -52,15 +52,15 @@ export const SMSCustomers = () => {
                 <div className={styles.smscustomerParentsecchildContent}>
                     <h3>Enjoy hassle-free setup and uninterupted sevices for </h3>
                     <p> 
-                        Setting up SMS on freshchat is a breeze ! As SMS is natively available on all devices , Setting up SMS all 
-                        you have to do is connect your SMS provider in Freshchat and import your phone numbers . Setting up SMS on freshchat is a breeze ! As SMS is natively available on all devices , the easy-to-configure setup allows you to:
+                        Setting up SMS on Bottom funnel chat is a breeze ! As SMS is natively available on all devices , Setting up SMS all 
+                        you have to do is connect your SMS provider in Bottom funnel chat and import your phone numbers . As SMS is natively available on all devices , the easy-to-configure setup allows you to:
                     </p>
                     <ul className={styles.smscustomerParentfirstchildList}>
                         <li>
-                            Enable conversational support with no code or third-party app integrations. Enable conversational support with no code or 
+                            Enable conversational support with no code or third-party app integrations. Enable conversational support with no code. 
                         </li>
                         <li>
-                            Always stay connected with custoner and delightful customer Experiences.Always stay connected with custoner.
+                            Always stay connected with custoner and delightful customer Experiences. Always stay connected with customer.
                         </li>
                     </ul>
                     

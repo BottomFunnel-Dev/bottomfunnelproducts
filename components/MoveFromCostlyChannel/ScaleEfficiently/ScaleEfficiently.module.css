@@ -36,7 +36,20 @@
     /* border: 2px solid; */
     
 }
-.ScaleEfficientlymaindivcardsboximage1{
-    width: 50%;
-    border: 2px solid;
+@media(max-width:480px){
+    .ScaleEfficientlymaindivheading{
+        width: 100%;
+    }
+    .ScaleEfficientlymaindivcards{
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .ScaleEfficientlymaindivcardsbox{
+        width: 100%;
+        height: max-content;
+    }
+    .ScaleEfficientlymaindivcardsboximage{
+        width: 80%;
+        height: auto;
+    }
 }
