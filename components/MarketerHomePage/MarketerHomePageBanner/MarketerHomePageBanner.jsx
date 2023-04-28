@@ -9,7 +9,7 @@ export const MarketerHomePageBanner = () => {
           <h1>
             Grow Your Online Store With a Unified Marketing, Sales and Support CRM
           </h1>
-          <p> Attract, engage and nurture your customers using WhatsApp,SMS,Email, $ Chat </p>
+          <p> Attract, engage and nurture your customers using WhatsApp,SMS,Email,Chat </p>
           <div>
             <button className={styles.MarketerHomePageBannermaindivbutton}>START FREE TRAIL </button>
             <button className={styles.MarketerHomePageBannermaindivbutton1}>VIEW PRICING </button>
