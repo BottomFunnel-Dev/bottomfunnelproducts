@@ -18,8 +18,8 @@
     margin-bottom: 0px;
     font-size: 46px;
 }
-.LineChatBannerContent>h4{
-    font-weight: 500;
+.LineChatBannerContent>p{
+    font-size: 20px;
     margin-top: 4%;
 }
 
@@ -27,8 +27,8 @@
     margin-top: 4%;
     width: 150px;
     height: 50px;
-    background-color: #54dd4a;
-    border: none;
+    background-color: #04c357;
+    border: 1px solid transparent;
     border-radius: 20px;
     color: white;
     font-size: 22px;
@@ -38,44 +38,24 @@
     height: 50px;
     height: 50px;
     background-color: transparent;
-    border: none;
-    border-radius: 20px;
-    color: #54dd4a;
+    border: 1px solid #04c357;
+    
+    color: #04c357;
     font-size: 22px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:780px){
     .LineChatBannerParent{
-        display: flex;
+        
         flex-direction: column;
-        padding: 5%;
-        padding-right: 5%;
-        align-items: center;
-       padding-left: 5%;
-        justify-content: space-between;
+       
+       
+      margin-top: 15%;
     
     }
     .LineChatBannerImage{
         width: 100%;
+      
     }
     .LineChatBannerContent{
         width: 100%;
@@ -85,32 +65,10 @@
     .LineChatBannerContent>h1{
         font-weight: 700;
         margin-bottom: 0px;
-        font-size: 46px;
-    }
-    .LineChatBannerContent>h4{
-        font-weight: 500;
-        margin-top: 4%;
+        font-size: 42px;
     }
     
-    .LineChatBannerContent>button{
-        margin-top: 4%;
-        width: 150px;
-        height: 50px;
-        background-color: #54dd4a;
-        border: none;
-        border-radius: 20px;
-        color: white;
-        font-size: 22px;
-    }
-    .LineChatBannerContent>button:hover{
-        width: 150px;
-        height: 50px;
-        height: 50px;
-        background-color: transparent;
-        border: none;
-        border-radius: 20px;
-        color: #54dd4a;
-        font-size: 22px;
-    }
+    
+   
     
 }

@@ -3,14 +3,45 @@ import styles from "./DeliverStellar.module.css"
 import Image from 'next/image'
 
 export const DeliverStellar = () => {
+    const stellard = [{img:"/Images/MoveFromCostlyChannal/smartphone 1.png",hd:"Multichannel support",p:"Receive and respond to customers’ requests on the messaging apps of their choice."},
+    {img:"/Images/MoveFromCostlyChannal/smartphone 1 (1).png",hd:"Campaigns",p:"Build complex bots with zero code to deflect issues and engage customers."},
+    {img:"/Images/MoveFromCostlyChannal/chat-bot 1.png",hd:"AI-powered chatbots",p:"Build complex bots with zero code to deflect issues and engage customers."},
+    {img:"/Images/MoveFromCostlyChannal/smartphone 1 (2).png",hd:"Multilingual support ",p:"Serve customers around the world in their preferred language, with 54 languages supported."},
+    {img:"/Images/MoveFromCostlyChannal/smartphone 1 (3).png",hd:"Effortless integrations",p:"Access the Bottom funnel chat marketplace to integrate your favorite apps and tools with just a few clicks."},
+    {img:"/Images/MoveFromCostlyChannal/smartphone 1 (4).png",hd:"Actionable insights",p:"With a real-time dashboard, helpdesk, and team-member reporting, receive all the data needed to track and optimize your customer service."}]
   return (
     <div>
         <div  className={styles. DeliverStellarmaindiv}>
         <div  className={styles. DeliverStellarmaindivheading}>
         <h2 >Deliver stellar customer service via messaging</h2>
 </div>
-
 <div className={styles. DeliverStellarmaindivcards } >
+{stellard.map((item) => {
+    return(
+    <div className={styles. DeliverStellarmaindivcardsbox}>
+        <div className={styles. DeliverStellarmaindivcardsboxinner}>
+            <div className={styles. DeliverStellarmaindivcardsboxinnerimage}>
+        <div className={styles. DeliverStellarmaindivcardsboximage}>
+     <Image
+                        src={item.img}
+                        alt={"img"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+
+                    />
+        </div>
+     </div>
+     <h6>{item.hd}</h6>
+     <p>{item.p}</p>
+     
+     </div>
+    </div>
+    );
+})}
+
+{/* <div className={styles. DeliverStellarmaindivcards } >
     <div className={styles. DeliverStellarmaindivcardsbox}>
         <div className={styles. DeliverStellarmaindivcardsboxinner}>
             <div className={styles. DeliverStellarmaindivcardsboxinnerimage}>
@@ -107,7 +138,7 @@ export const DeliverStellar = () => {
      </div>
      </div>
      <h6>Effortless integrations</h6>
-     <p>Access the Freshchat marketplace to integrate your favorite apps and tools with just a few clicks.</p>
+     <p>Access the Bottom funnel chat marketplace to integrate your favorite apps and tools with just a few clicks.</p>
      </div>
     </div>
     <div className={styles. DeliverStellarmaindivcardsbox} style={{border:"none"}}>
@@ -130,8 +161,9 @@ export const DeliverStellar = () => {
      </div>
     </div>
    
-</div>
+</div> */}
       </div>
+    </div>
     </div>
   )
 }

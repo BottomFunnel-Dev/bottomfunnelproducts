@@ -6,20 +6,16 @@
     align-items: center;
     margin-top: 4%;
 }
+.ConnectwithCustomermaindiv:nth-child(odd){
+    flex-direction: row-reverse
+}
 .ConnectwithCustomermaindivcontent{
     width: 40%;
 }
 .ConnectwithCustomermaindivcontentimage{
     width: 45%;
 }
-.ConnectwithCustomermaindivone{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 4%;
-}
+
 
 .ConnectwithCustomermaindivheading{
     text-align: center;
@@ -29,17 +25,20 @@
 
     .ConnectwithCustomermaindiv{
         /* border: 2px solid red; */
-        display: flex;
+       
         flex-direction: column-reverse;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 6%;
+       
+        margin: 8% auto;
     }
     .ConnectwithCustomermaindivcontent{
-        width: 95%;
+        width: 90%;
     }
     .ConnectwithCustomermaindivcontentimage{
         width: 90%;
+        margin: 4% auto;
+    }
+    .ConnectwithCustomermaindiv:nth-child(odd){
+        flex-direction: column-reverse
     }
     .ConnectwithCustomermaindivone{
         /* border: 2px solid red; */
@@ -51,7 +50,7 @@
     }
     
     .ConnectwithCustomermaindivheading{
-        text-align: center;
+      
         margin-top: 5%;
     }
     

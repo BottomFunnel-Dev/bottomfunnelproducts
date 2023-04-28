@@ -19,7 +19,7 @@ export const LineChatBanner = () => {
             <div className={styles.LineChatBannerContent}>
                 <h1>No more waiting in line !</h1>
               
-               <h4>Instant and personalized responses and resolution for your customers on LINE</h4>
+               <p>Instant and personalized responses and resolution for your customers on LINE</p>
                <button>Sign up</button>
             </div>
         </div>
