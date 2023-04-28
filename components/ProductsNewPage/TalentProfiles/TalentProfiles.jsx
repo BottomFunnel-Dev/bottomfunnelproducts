@@ -55,16 +55,16 @@ export const TalentProfiles = () => {
       technicalscore: "Technical Score",
       buttondetails: "See more",
     },
-    {
-      title: "Hemant Jayas",
-      body: `Jr. React Developer`,
-      profileLink: `https://www.linkedin.com/in/hemant-jayas-45ab6318b/`,
-      image: "/Images/OurTeamPhotos/hemantj.png",
-      experience: "Ex: 0-1 years",
-      communication: "Communication Score",
-      technicalscore: "Technical Score",
-      buttondetails: "See more",
-    },
+    // {
+    //   title: "Hemant Jayas",
+    //   body: `Jr. React Developer`,
+    //   profileLink: `https://www.linkedin.com/in/hemant-jayas-45ab6318b/`,
+    //   image: "/Images/OurTeamPhotos/hemantj.png",
+    //   experience: "Ex: 0-1 years",
+    //   communication: "Communication Score",
+    //   technicalscore: "Technical Score",
+    //   buttondetails: "See more",
+    // },
     {
       title: "Shantnu Bhardwaj",
       body: `UI/Ux Designer`,
@@ -75,16 +75,16 @@ export const TalentProfiles = () => {
       technicalscore: "Technical Score",
       buttondetails: "See more",
     },
-    {
-      title: "Deepanshu Gulia",
-      body: `React Native Developer`,
-      profileLink: `https://www.linkedin.com/in/deepanshu-gulia/`,
-      image:"/Images/OurTeamPhotos/deepanshu.png",
-      experience: "Ex: 0-1 years",
-      communication: "Communication Score",
-      buttondetails: "See more",
-      technicalscore: "Technical Score",
-    },
+    // {
+    //   title: "Deepanshu Gulia",
+    //   body: `React Native Developer`,
+    //   profileLink: `https://www.linkedin.com/in/deepanshu-gulia/`,
+    //   image:"/Images/OurTeamPhotos/deepanshu.png",
+    //   experience: "Ex: 0-1 years",
+    //   communication: "Communication Score",
+    //   buttondetails: "See more",
+    //   technicalscore: "Technical Score",
+    // },
     {
       title: "Hemant Khandelwal",
       body: `UI/UX Designer`,
@@ -197,6 +197,36 @@ export const TalentProfiles = () => {
       buttondetails: "See more",
       technicalscore: "Technical Score",
     },
+    {
+      title: "Pooja Agarwal",
+      body: `SEO Analyst`,
+      profileLink: `https://www.linkedin.com/in/pooja-agrawal-2a17a9142`,
+      image: "/Images/OurTeamPhotos/pooja.png",
+      experience: "Ex: 0-1 years",
+      communication: "Communication Score",
+      buttondetails: "See more",
+      technicalscore: "Technical Score",
+    },
+    {
+      title: "Kunal Singh",
+      body: `SEO Analyst`,
+      profileLink: `linkedin.com/in/kunal-singh-rao-b45b0b232`,
+      image: "/Images/OurTeamPhotos/kunal.png",
+      experience: "Ex: 0-1 years",
+      communication: "Communication Score",
+      buttondetails: "See more",
+      technicalscore: "Technical Score",
+    },
+    {
+      title: "Aman Singh",
+      body: `SEO Analyst`,
+      profileLink: `linkedin.com/in/aman-singh26`,
+      image: "/Images/OurTeamPhotos/aman.png",
+      experience: "Ex: 0-1 years",
+      communication: "Communication Score",
+      buttondetails: "See more",
+      technicalscore: "Technical Score",
+    },
   ];
 
   return (
@@ -257,11 +287,11 @@ export const TalentProfiles = () => {
                     </p>
                   </div>
 
-                  <button
+                  {/* <button
                     className={styles.productsTalentProfilesContentButton}
                   >
                     {buttondetails}
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ),

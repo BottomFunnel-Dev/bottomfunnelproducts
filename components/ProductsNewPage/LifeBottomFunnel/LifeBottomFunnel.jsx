@@ -57,9 +57,11 @@ const LifeBottomFunnel = () => {
           </Link>
         </div>
 
+         <a href="our-team">
         <div className={styles.lifeBottomContentDiv}>
           <button>See life at Bottom Funnel</button>
         </div>
+        </a>
       </div>
     </div>
   );

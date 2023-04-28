@@ -5,31 +5,29 @@ import Link from "next/link";
 export const SimpleAndEasy = () => {
     const simpleAndEasyCardsData = [
         {
-            title: "Get up and running with no barriers",
-            body: "Try or purchase our system directly from our website, and onboard in a matter of days, not months.",
+            title: "Manage your business with us",
+            body: "Purchase or try our system directly from our website and onboard in a matter of days, not months.",
             image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/SimpleAndEasyImage1.png",
             link: "",
             buttondetails: "start free trial",
         },
         {
-            title: "Choosing your pricing plan",
-            body: "Our pricing plans are for modern business use cases and affordable for organizations of all sizes.",
+            title: "Choose your pricing plan",
+            body: "Our pricing plans are both suited to modern business use cases and affordable for companies of any size.",
             image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/SimpleAndEasyImage2.png",
             link: "/pricing",
             buttondetails: "See pricing",
         },
         {
-            title: "Build and customize as you go",
-            body: `Extend and tailor experience to meet your unique business needs, with low-code development and over
-            1,100 custom apps made available on our marketplace.`,
+            title: "Create Your Own Marketplace",
+            body: `Develop your business strategy with ease, utilising low-code technology and access to over 1,100 custom apps on our marketplace.`,
             image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/SimpleAndEasyImage3.png",
             link: "/market-place",
             buttondetails: "Visit marketplace",
         },
         {
-            title: "Create value, fast",
-            body: `Accelerate your team's productivity and efficiency with modern automation and collaboraiton tools,
-            to get tangible results in no time.`,
+            title: "Build team collaboration",
+            body: `Use team collaboration software to increase team productivity and efficiency by utilising modern automation and collaboration tools, to achieve tangible results quickly.`,
             image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/SimpleAndEasyImage4.png",
             link: "/collaboration",
             buttondetails: "Learn now",
@@ -41,17 +39,12 @@ export const SimpleAndEasy = () => {
     return (
         <div className={styles.simpleAndEasyParentDiv}>
             <div className={styles.simpleAndEasyHeadingDiv}>
-                <h1>
-                    Frictionless,simple, easy
-                </h1>
+                <h2>
+                    Our CRM tools make it easy to delight your customers.
+                </h2>
 
                 <p>
-                    Bottom Funnel makes it fast and easy for businesses to delight their customers and employees.
-                </p>
-
-                <p>
-                    We take a fresh approach to how businesses discover, engage with, and realize value from software
-                    throughout their journey.
+                   Bottom Funnel takes a novel approach to how businesses discover, engage with, and realise value from customer service software throughout their journey.
                 </p>
             </div>
 

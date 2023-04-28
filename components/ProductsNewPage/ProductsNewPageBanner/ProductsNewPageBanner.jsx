@@ -11,7 +11,7 @@ export const ProductsNewPageBanner = () => {
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/desk.png",
       title: "Bottom Funnel Desk",
-      path: "funneldesk",
+      path: "/bottomfunnel-support-desk",
       color: "#d6ffe8",
     },
     {
@@ -22,44 +22,44 @@ export const ProductsNewPageBanner = () => {
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/service.png",
-      title: "Bottom Funnel Services",
-      path: "/",
+      title: "Bottomfunnel-service",
+      path: "/bottomfunnel-service",
       color: "#e1e1e1",
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/marketer.png",
       title: "Bottom Funnel Marketer",
-      path: "marketer",
+      path: "/bottomfunnel-marketer",
       color: "#ffcf9c",
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/sales.png",
       title: "Bottom Funnel Sales",
-      path: "sales",
+      path: "/bottomfunnel-sales",
       color: "#ffaf9a",
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/chat.png",
       title: "Bottom Funnel Chat",
-      path: "/",
+      path: "/bottomfunnel-chat",
       color: "#a1ffca",
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/omnichannel.png",
       title: "Bottom Funnel Omnichannel",
-      path: "/",
+      path: "/bottomfunnel-omnichannel",
       color: "#d6ffe8",
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/contact.png",
       title: "Bottom Funnel Contact Center",
-      path: "/",
+      path: "/bottomfunnel-contact-center",
       color: "#d6ffe8",
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/customersuccess.png",
       title: "Bottom Funnel Customer Success",
-      path: "customersuccess",
+      path: "/bottomfunnel-customersuccess",
       color: "#d6ffe8",
     },
   ];
@@ -73,7 +73,7 @@ export const ProductsNewPageBanner = () => {
           <div className={styles.productPageBannerContent}>
             <h1>Build Your Brands presence With BOTTOM FUNNEL</h1>
             <p>
-              Customer Service, IT, and CRM software that's incredibly powerful, yet fast, easy and cost effective.
+              Customer solution, IT, and CRM software that's incredibly effective, yet fast, easy, and affordable.
             </p>
           </div>
 
@@ -113,9 +113,9 @@ export const ProductsNewPageBanner = () => {
       <div className={styles.dottedlines}></div>
       <div className={styles.multipleproducts}>
         <div className={styles.productsleft}>
-          <h3>
-            Try the business software used by over 50,000 companies acorss the
-            globe to exceed customer and employess expectations.
+        <h3>
+             CRM Business software Services that is widely used and trusted in Europe, Middle East and in Asia. Our CRM services 
+             will help you build the future of your brand. 
           </h3>
           <div className={styles.productsimg}>
             {/* <IconContext.Provider

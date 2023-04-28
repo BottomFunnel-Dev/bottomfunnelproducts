@@ -306,7 +306,7 @@ export default function Hiretalent() {
             <h3>{roles[dataprint].title}</h3>
             <div className={styles.relatedtech}>
               {roles[dataprint].stack.map((item, index) => (
-                <Link href={item.path}  style={{textDecoration:"none", color : "inherit"}}>
+                <Link href={item.path} target="_blank"  style={{textDecoration:"none", color : "inherit"}}>
                   <div className={styles.relatedtechInnerDiv}
                     key={index}
                   >

@@ -1171,7 +1171,7 @@ export const product1 = [
     dropContent: "Bottom Funnel Marketer",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
-    path: "marketer",
+    path: "/bottomfunnel-marketer",
     title: "Delight Your Customer With Effortless MarketPlace Service",
     productHover: "#ffcf9c",
   },
@@ -1180,7 +1180,7 @@ export const product1 = [
     dropContent: "Bottom Funnel Sales",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/bottomFunnnelSales.png",
-    path: "/sales",
+    path: "/bottomfunnel-sales",
     title: "Delight Your Customer With Effortless Sales Service",
     productHover: "#ffaf9a",
   },
@@ -1188,7 +1188,7 @@ export const product1 = [
     dropContent: "Bottom Funnel Service",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Service.png",
-    path: "/bottomfunnelservice",
+    path: "/bottomfunnel-service",
     title: "Delight Your Customer With Effortless Service",
     productHover: "#e1e1e1",
   },
@@ -1208,7 +1208,7 @@ export const product2 = [
     dropContent: "Bottom Funnel Customer Success",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/success.png",
-    path: "customersuccess",
+    path: "/bottomfunnel-customersuccess",
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
@@ -1217,7 +1217,7 @@ export const product2 = [
     dropContent: "Bottom Funnel Contact Center",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/contact.png",
-    path: "contact-center",
+    path: "/bottomfunnel-contact-center",
     title: "Delight Your Customer With Effortless Contact Center Service",
     productHover: "#d6ffe8",
   },
@@ -1421,31 +1421,31 @@ export const productDesk = [
 export const productFeatures = [
   {
     dropContent: "Ticketing",
-    path: "/bottomfunnel-support-desk/features/ticketing",
+    path: "/bottomfunnel-support-desk/ticketing",
   },
   {
     dropContent: "Collaboration",
-    path: "/bottomfunnel-support-desk/features/collaboration",
+    path: "/bottomfunnel-support-desk/collaboration",
   },
   {
     dropContent: "Automations",
-    path: "/bottomfunnel-support-desk/features/automation",
+    path: "/bottomfunnel-support-desk/automation",
   },
   {
     dropContent: "Help Widget",
-    path: "/bottomfunnel-support-desk/features/helpwidget",
+    path: "/bottomfunnel-support-desk/helpwidget",
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "/bottomfunnel-support-desk/features/reportandanalysis",
+    path: "/bottomfunnel-support-desk/reportandanalysis",
   },
   {
     dropContent: "Security",
-    path: "/bottomfunnel-support-desk/features/security",
+    path: "/bottomfunnel-support-desk/security",
   },
   {
     dropContent: "Integration",
-    path: "/bottomfunnel-support-desk/features/integration",
+    path: "/bottomfunnel-support-desk/integration",
   },
 ];
 

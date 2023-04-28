@@ -22,9 +22,7 @@ const OllyNeo = () => {
                 <div className={styles.ollyNeoContent1}>
                     <h2> Bottom Funnel Neo </h2>
                     <p>
-                        Respond to challenges and scale your business on Bottom funnel with the help of the unified Messaging
-                        API, easy integrations using pre-built marketplace apps, and customizable analytics. Meet the needs of
-                        an expanding customer base with the combined power of a flexible.
+                       Secure your data with an end to end data security platform to avoid security breaches. With an end to end data security platform, you can rest assured that your data is safe and secure at all times.
                     </p>
                     <Link href={"/neo-mainpage"}>
                         <button className={styles.ollyNeoContentButton}> Explore Now </button>
@@ -43,10 +41,9 @@ const OllyNeo = () => {
                 />
 
                 <div className={styles.ollyNeoContent2}>
-                    <h2> Take customer engagement to the next level </h2>
+                    <h2> Dive into next-level customer engagement </h2>
                     <p>
-                        Deliver a highly personalized and human-centered customer engagement experience with olly AI-powered
-                        bots that go beyond just issue resolution and create true customer delight.
+                        Meet Olly, our AI powered tool for all your customer engagement needs with a human centric response. Delight your customers with an extra service.
                     </p>
 
                     <Link href={"/olly-ai"}>
