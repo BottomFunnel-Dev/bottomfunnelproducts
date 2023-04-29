@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./allIntegrationBanner.module.css";
+import styles from "./AllIntegrationBanner.module.css";
 import Image from "next/image";
 
 export const AllIntegrationBanner = () => {

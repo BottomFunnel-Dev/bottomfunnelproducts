@@ -47,15 +47,13 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
               
               <p style={{ fontSize: "14px", padding: "3%",marginTop:"-15%" }}>
                 {item.productText2}
-              
               </p>
             </Link> 
           </div>
         ))}
-
-       
+        
       <button
-      onClick={() => router.push("/all-industry")}
+      onClick={() => router.push("bottomfunnel-support-desk/all-industry")}
       >View all industries</button>
       </div>
     </div>

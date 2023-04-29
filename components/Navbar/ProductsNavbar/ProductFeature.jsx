@@ -35,7 +35,7 @@ export const ProductFeature = ({ solFeaIn, solFeaOut, scroll }) => {
         ))}
         <Link
           onClick={solFeaOut}
-          href={"/funneldesk/features"}
+          href={"/bottomfunnel-support-desk/features"}
           className={featurestyle.productFeaturesAllFeaturesButton}
         >
           <button>View all features</button>
