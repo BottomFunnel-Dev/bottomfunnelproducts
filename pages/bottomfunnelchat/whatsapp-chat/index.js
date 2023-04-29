@@ -14,7 +14,6 @@ import { WhatsappChatBanner } from '../../../components/WhatsappChat/WhatsappCha
 import { ChatFooter } from '../../../components/ChatFooter/ChatFooter'
 
 
-
 const productData = {
   title: "Bottom Funnel Chat",
   logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Chat.png",
@@ -26,19 +25,19 @@ const productData = {
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/bottomfunnelchat/messagingchannel",
+        path: "/bottomfunnel-chat/messaging-channel",
       },
       {
         dropContent: "Chatbots",
-        path: "/bottomfunnelchat/chatbots",
+        path: "/bottomfunnel-chat/chat-bots",
       },
       {
         dropContent: "Team Inbox",
-        path: "/team-inbox",
+        path: "/bottomfunnel-chat/team-inbox",
       },
       {
         dropContent: "Journeys",
-        path: "/bottomfunnelchat/journeys",
+        path: "/bottomfunnel-chat/journeys",
       },
     ],
   },
