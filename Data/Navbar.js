@@ -1364,16 +1364,16 @@ export const productSolution = [
   {
     dropContent: "By Use Case",
     productText1: "Self Service",
-    path: "/bottomfunnel-support-desk/self-service",
+    path: "/bottomfunnel-support-desk/selfservice",
   },
   {
     productText2: "Field Service",
-    path: "/bottomfunnel-support-desk/field-service-management",
+    path: "/bottomfunnel-support-desk/fieldservicemanagement",
   },
   {
     dropContent: "By Industry",
     productText1: "Retail & E-commerce",
-    path: "/bottomfunnel-support-desk/retail-and-ecommerce",
+    path: "/bottomfunnel-support-desk/retailandecommerce",
   },
   {
     productText2: "Travel & Hospitality",
@@ -1397,7 +1397,7 @@ export const productDesk = [
     productText2: "Field Service",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/contact-center.png",
-    path: "/bottomfunnel-contact-center",
+    path: "/contact-center",
   },
   {
     dropContent: "Omnichannel Suite",
@@ -1414,7 +1414,7 @@ export const productDesk = [
     productText2: "Travel & Hospitality",
     navIcons:
       "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/customer-sucess.png",
-    path: "/bottomfunnel-customersuccess",
+    path: "/customersuccess",
   },
 ];
 
@@ -1437,7 +1437,7 @@ export const productFeatures = [
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "/bottomfunnel-support-desk/report-and-analysis",
+    path: "/bottomfunnel-support-desk/reportandanalysis",
   },
   {
     dropContent: "Security",
