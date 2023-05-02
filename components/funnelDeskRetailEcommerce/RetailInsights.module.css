@@ -58,7 +58,7 @@
   .retailinsightsupperboxtextleft{
     width: 95%;
     margin: auto;
-   
+    margin-top: 0%;
   }
   .retailinsightsupperboxtextsvgallfilethere{
     margin: auto;
@@ -74,7 +74,7 @@
     font-size: 18px;
   }
   .retailinsightsupperboximageandtextflexbox{
-height: 800px;
+height: 760px;
   }
   
 

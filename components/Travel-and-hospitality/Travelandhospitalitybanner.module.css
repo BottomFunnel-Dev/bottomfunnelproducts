@@ -1,8 +1,7 @@
 .travelandhospitalitybannermainboxes{
     height: 100vh;
-    /* border: 2px solid red; */
     display: flex;
-
+    flex-direction: row-reverse;
 }
 
 .travelandhospitalitybennerleftbox{
@@ -10,7 +9,6 @@
     height: fit-content;
     margin-top: 15%;
     margin-left: 5%;
-    /* border: 2px solid red; */
 }
 
 .travelandhospitalitybennerleftbox>h1{
@@ -44,6 +42,36 @@
 
 .travelandhospitalitybennerrightbox{
     width: 50%;
-    /* border: 2px solid red;    */
     margin-top: 3%;
+}
+
+@media (max-width:480px) {
+    .travelandhospitalitybannermainboxes{
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 20%;
+    }
+    .travelandhospitalitybennerleftbox{
+        width: 95%;
+        margin: auto;
+    }
+    .travelandhospitalitybennerrightbox{
+        width: 100%;
+    }
+    .travelandhospitalitybennerleftbox>h1{
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    .travelandhospitalitybennerleftbox>p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .travelandhospbanbutton{
+        padding: 10px 20px;
+        font-weight: 400;
+        display: block;
+        margin: auto;
+        margin-top: 8%;
+    }
 }

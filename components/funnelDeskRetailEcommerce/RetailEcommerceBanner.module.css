@@ -1,8 +1,7 @@
 .retailecommercebannermainboxes {
-  height: fit-content;
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 100px;
+  margin-top: 5%;
 }
 
 .retailecommercebannerleftbox {
@@ -15,7 +14,6 @@
 .retailecommercebannerrightbox {
   height: 500px;
   width: 50%;
-  margin: auto;
 }
 
 .retailecommercebannerrightbox > img {
@@ -27,13 +25,10 @@
 .retailsecommercebannerbutton {
   padding: 10px 50px;
   border-radius: 100px;
-  width: fit-content;
   background-color: #14944C;
   border: none;
-  outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: 18px;
-  font-weight: 400;
   color: white;
   margin-top: 3%;
 }
@@ -46,6 +41,7 @@
 @media (max-width:480px) {
   .retailecommercebannermainboxes{
     flex-direction: column-reverse;
+    margin-top: 20%;
   }
   .retailecommercebannerleftbox{
     width: 90%;
