@@ -23,7 +23,7 @@ export const Whatsappbots = () => {
             htxt:"APPAREL BOT",
             stxt:"Apparel bot displays your products in WhatsApp for customers to select and shop directly,answer order queries, helps with return and refunds and other customer queries.",
             img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Group 1000006277.webp",
-            btn:"DEMO AOOAREL BOT"
+            btn:"DEMO APPAREL BOT"
         },
 
 

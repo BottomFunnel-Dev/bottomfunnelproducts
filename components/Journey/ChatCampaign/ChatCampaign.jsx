@@ -19,8 +19,8 @@ export const ChatCampaign = () => {
                     </div>
 
                     <div>
-                        <h3>improve ecperience with feedback journeys</h3>
-                        <p>check in with customer on thier orders, get feedback and let them know you care to build long lasting reationships and deeper loyalty</p>
+                        <h3>Improve ecperience with feedback journeys</h3>
+                        <p>Check in with customer on thier orders, get feedback and let them know you care to build long lasting reationships and deeper loyalty</p>
                     </div>
                 </div>
                 
