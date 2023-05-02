@@ -1,12 +1,10 @@
 .travelhositalitydasmainboxes{
     height: fit-content;
-    /* border: 2px solid red; */
 }
 
 .travelhospitalitydasdatamappingondi{
     display: flex;
     margin: 2%;
-    /* border: 2px solid red; */
 }
 .travelhospitalitydasdatamappingondi:nth-child(3){
     display: flex;
@@ -17,7 +15,6 @@
 .travelhospitalitydasdatamappingondi:nth-child(even){
     background-color: #f5f5f5;
 }
-
 
 .travelhospitalitydashleftbox{
     width: 50%;
@@ -51,5 +48,42 @@
     width: 35%;
     height: 50vh;
     margin-left: 10%;
-    /* border: 2px solid red; */
+}
+
+@media (max-width:480px) {
+    .travelhospitalitydasdatamappingondi{
+        flex-direction: column-reverse;
+        margin-top: 8%;
+    }
+    .travelhositalitydasmainboxes{
+        margin-top: 15%;
+    }
+    .travelhospitalitydasdatamappingondi:nth-child(3){
+       flex-direction: column-reverse;
+       margin-top: 8%;
+    }
+    .travelhospitalitydashleftbox{
+        width: 100%;
+    }
+    .travelhospitalitydashrightbox{
+        width: 80%;
+        height: auto;
+    }
+    .travelhospitalitydashleftbox>h3{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .travelhospitalitydashleftbox>p{
+        margin: auto;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .travelhospitalitydashleftbox>ul>li{
+        margin-left: 0%;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+    .travelhospitalitydashleftbox>h6{
+       font-size: 18px;
+    }
 }

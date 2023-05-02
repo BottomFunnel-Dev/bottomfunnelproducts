@@ -115,7 +115,7 @@ height: 80%;
     height:100%;
     }
     .MarketerHomePageBannermaindivcontain h1{
-       font-size: 30px;
+       font-size: 28px;
        width: fit-content;
        margin: 0%;
     }
@@ -123,6 +123,8 @@ height: 80%;
         /* border: 2px solid pink; */
         width: fit-content;
         margin: 0%;
+        font-size: 18px;
+        margin-top: 3%;
     }
     .MarketerHomePageBannermaindivbutton{
         border: 1px solid #F78F1E;
@@ -134,7 +136,7 @@ height: 80%;
         padding: 0px;
         margin-left: 1%;
         color: white;
-        margin-top: 3%;
+        margin-top: 5%;
         height: 40px;
     
     }
