@@ -5,7 +5,6 @@ import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { WhoWeAre } from "./WhoWeAre";
 
-import { ContactMain } from "../Contact/Contact";
 
 import { useEffect } from "react";
 import { NavServices } from "./NavServices";
@@ -15,6 +14,7 @@ import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 import { Platform } from "./Platform";
 import { Resource } from "./Resource";
+import { ContactMainOther } from "../Contact/Contact";
 
 const Navbar = ({ navredux, productMount }) => {
   const [aboutH, setAboutH] = useState(false);
@@ -134,8 +134,8 @@ const Navbar = ({ navredux, productMount }) => {
   return (
     <div>
       {!productMount.navMount && (
-        <ContactMain
-          bgcolor={navbar ? "white" : "transparent"}
+        <ContactMainOther
+          bgcolor={navbar ? "black" : "transparent"}
           textcolor={!navbar ? navredux.color : "black"}
         />
       )}
@@ -160,16 +160,22 @@ const Navbar = ({ navredux, productMount }) => {
               : "all .5 ease-out",
         }}
       >
+        {!productMount.navMount && (
+          <ContactMainOther
+            bgcolor={navbar ? "black" : "transparent"}
+            textcolor={!navbar ? navredux.color : "black"}
+          />
+        )}
         <div className={navstyle.logoSection}>
           {/* <Link href="/" className={navstyle.logoText}> */}
-            <img onClick={() => router.push("/")}
-              src={
-                navredux.logo && !navbar
-                  ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
-                  : "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/blacklogo.png"
-              }
-              alt="image"
-            />
+          <img onClick={() => router.push("/")}
+            src={
+              navredux.logo && !navbar
+                ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
+                : "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/blacklogo.png"
+            }
+            alt="image"
+          />
           {/* </Link> */}
         </div>
 
