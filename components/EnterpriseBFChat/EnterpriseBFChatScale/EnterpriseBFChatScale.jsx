@@ -20,7 +20,7 @@ export default function EnterpriseBFChatScale () {
         <div className={styles.enterpriseBFChatHeading}>
             <div className={styles.enterpriseBFChatHeadingDiv}>
               <h3>Do more with less using chatbots</h3>
-              <p>our AI-powered chatbots represent your best agents 24/7.Deploy using our no-code bot builder.</p>
+              <p>Our AI-powered chatbots represent your best agents 24/7.Deploy using our no-code bot builder.</p>
               <h5>See how <i class="bi bi-arrow-right"></i></h5>
             </div>
             <div className={styles.enterpriseBFChatHeadingDiv}>
