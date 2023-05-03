@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run clean && next dev",
-    "build": "npm run clean && next build",
-    "start": "next start -p 3001",
-    "test": "npm run clean && jest",
-    "clean": "npx rimraf .next"
+    "start": "next dev -p 3001",
+    "build": "next build",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
