@@ -7,8 +7,7 @@
     "build": "npm run clean && next build",
     "start": "next start -p 3001",
     "test": "npm run clean && jest",
-    "clean": "npx rimraf .next",
-    "analyze": "cross-env ANALYZE=true next build"
+    "clean": "npx rimraf .next"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
