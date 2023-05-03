@@ -44,7 +44,6 @@ export default function Home() {
         <ProductsNewPageBanner />
         <CustomerRate />
         {isSwitch ? <SaasBloat onSwitch={saasbloatData}/> : null} 
-        {/* <SaasBloat/> */}
         <Hiretalent />
         <SimpleAndEasy />
         <OllyNeo/>
