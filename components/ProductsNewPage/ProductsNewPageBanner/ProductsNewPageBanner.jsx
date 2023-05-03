@@ -16,7 +16,7 @@ export const ProductsNewPageBanner = () => {
     },
     {
       img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/teams.png",
-      title: "Bottom Funnel Team",
+      title: "Bottom Funnel team",
       path: "/",
       color: "#ffaf9c",
     },
