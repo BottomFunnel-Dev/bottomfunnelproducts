@@ -181,10 +181,15 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
-      
       {
         source: "/messagingchannel",
         destination: "/bottomfunnelchat/messagingchannel",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/bottomfunnel-support-desk/ticketing",
+        destination: "https://service.bottomfunnel.net/skills/django",
         permanent: true,
         basePath: false,
       },
