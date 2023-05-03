@@ -4,38 +4,26 @@
   }
   
   .LandingParent{
-     
-     
       height: 100vh;
-      display: flex;
-     
+      display: flex; 
    padding: 5%;
    padding-right: 0px;
    padding-left: 7%;
   }
   .Landingone{
-     
-      width: 50%;
-      
+      width: 50%;   
   }
   .Landingtwo{
-     
       width: 50%;
      display: flex;
      flex-direction: column;
      align-items: left;
-   
     margin-bottom: 70px;
-    padding-top: 12%;
- 
-   
-     
+    padding-top: 12%;  
   }
   .Landingtwo>h1{
-     
       width: 75%;
-      font-weight: 700;
-      
+      font-weight: 700; 
   }
   .Landingtwo>p{
      
