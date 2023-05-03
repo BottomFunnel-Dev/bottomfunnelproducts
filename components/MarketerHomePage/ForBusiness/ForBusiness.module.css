@@ -2,26 +2,28 @@
     border: 2px solid transparent;
     background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/baground1.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 460px;
     background-position: center;
-    height: 60vh;
     width: 100%;
-    
+    height: 400px;
+     margin-top: 8%; 
+     margin-bottom: 8%;
 }
-
 
 .ForBusinessdiv{
     /* border: 2px solid green; */
     text-align: center;
     margin-top: 3%;
+    
 }
 .ForBusinessdivcard{
     /* border: 2px solid yellow; */
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 90%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 .ForBusinessdivcardinnerdiv{
     border: 1px solid lightgrey;
@@ -46,21 +48,22 @@
 }
 .ForBusinessdivcardimagecontain h5{
     margin: 0%;
+    margin-top: 5%;
 }
 .ForBusinessdivcardimagecontain p{
     margin: 0%;
     font-size: 14px;
-}
-.ForBusinessdivcardimage{
-    /* border: 2px solid yellowgreen; */
-    /* width: 50px; */
-}
-.ForBusinessdivcardimage img{
-    width: 80px;
-    height: 80px;
+    margin-top: 5%;
 }
 
-@media  (max-width:1024px){
+.ForBusinessdivcardimage {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+
+@media  (max-width:480px){
     .ForBusinessdivmain{
         /* border: 2px solid red; */
         background: url("/Images/MarketerHomePagephotos/baground1.png");
@@ -69,11 +72,8 @@
         background-position: bottom;
         height:auto;
         width: 100%;
-        margin-bottom: 4%;
-      
-        
+        margin-bottom: 4%;  
     }
-    
     
     .ForBusinessdiv{
         /* border: 2px solid green; */
@@ -91,8 +91,6 @@
     .ForBusinessdivcardinnerdiv{
         border: 1px solid lightgrey;
         width: 90%;
-        /* justify-content: center; */
-        /* align-items: center; */
         text-align: center;
         margin: auto;
         border-radius: 10px;
@@ -121,8 +119,5 @@
         /* border: 2px solid yellowgreen; */
         /* width: 50px; */
     }
-    .ForBusinessdivcardimage img{
-        width: 80px;
-        height: 80px;
-    }
+    
 }

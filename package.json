@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "next dev -p 3001",
-    "build": "next build",
+    "dev": "npm run clean && next dev",
+    "build": "npm run clean && next build",
+    "start": "next start -p 3001",
+    "test": "npm run clean && jest",
+    "clean": "npx rimraf .next",
     "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {

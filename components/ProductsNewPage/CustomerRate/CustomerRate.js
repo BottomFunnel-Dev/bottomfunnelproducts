@@ -18,6 +18,7 @@ export const CustomerRate = () => {
       <i class="bi bi-arrow-left"></i>
     </button>
   );
+  
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
     <button
       {...props}
