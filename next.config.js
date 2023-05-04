@@ -188,10 +188,9 @@ const nextConfig = {
         basePath: false,
       },
       {
-        source: "/bottomfunnel-support-desk/ticketing",
-        destination: "https://service.bottomfunnel.net/mernstack-development",
+        source: "/funneldesk/features/ticketing",
+        destination: "/bottomfunnel-support-desk/ticketing",
         permanent: true,
-        basePath: false,
       },
       {
         source: "/funneldesk/features/collaboration",
