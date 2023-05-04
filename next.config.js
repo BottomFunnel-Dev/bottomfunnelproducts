@@ -283,6 +283,12 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
+      {
+        source: "/market-place",
+        destination: "https://service.bottomfunnel.net/local-seo-services",
+        permanent: true,
+        basePath: false,
+      },
     ];
   },
 };
