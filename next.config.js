@@ -182,8 +182,14 @@ const nextConfig = {
         basePath: false,
       },
       {
-        source: "/funneldesk/features/ticketing",
-        destination: "/bottomfunnel-support-desk/ticketing",
+        source: "/messagingchannel",
+        destination: "/bottomfunnelchat/messagingchannel",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/bottomfunnel-support-desk/ticketing",
+        destination: "https://service.bottomfunnel.net/mernstack-development",
         permanent: true,
         basePath: false,
       },
@@ -268,12 +274,6 @@ const nextConfig = {
       {
         source: "/funneldesk/solutions/travel-and-hospitality",
         destination: "/bottomfunnel-support-desk/travel-and-hospitality",
-        permanent: true,
-        basePath: false,
-      },
-      {
-        source: "/messagingchannel",
-        destination: "/bottomfunnelchat/messagingchannel",
         permanent: true,
         basePath: false,
       },
