@@ -235,12 +235,6 @@ const nextConfig = {
         basePath: false,
       },
       {
-        source: "/funneldesk/features",
-        destination: "/bottomfunnel-support-desk/features",
-        permanent: true,
-        basePath: false,
-      },
-      {
         source: "/funneldesk/solutions/enterprise",
         destination: "/bottomfunnel-support-desk/enterprise",
         permanent: true,

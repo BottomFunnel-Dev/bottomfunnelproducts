@@ -34,16 +34,15 @@ const index = () => {
 
       {/* Other react required components  */}
 
-    
-        <div style={{ marginTop: "3%" }}>
-          <CareerReferral />
-          <StoriesSection />
-          <TrustedBy />
-          <LifeBottomFunnel />
-          <GetStarted />
-          <ProductsFooter />
-        </div>
+      <div style={{ marginTop: "3%" }}>
+        <CareerReferral />
+        <StoriesSection />
+        <TrustedBy />
+        <LifeBottomFunnel />
+        <GetStarted />
+        <ProductsFooter />
       </div>
+    </div>
   );
 };
 
