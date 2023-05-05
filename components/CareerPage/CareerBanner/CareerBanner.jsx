@@ -2,11 +2,12 @@ import React from "react";
 import career from "./CareerBanner.module.css";
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 import { CareerReason } from "../CareerReason/CareerReason";
+import { CaerrForm } from "../CarrerForm/CarrerForm";
 
 export const CareerBanner = () => {
   return (
     <div className={career.careerBannerMain}>
-      
+
       <div className={career.careerBannerImage}>
         <img src="Images/careerPhotos/banner.png" alt="Career banner" />
       </div>
@@ -26,7 +27,9 @@ export const CareerBanner = () => {
         <button
           type="button"
           data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">Get Started</button>
+          data-bs-target="#staticBackdrop">
+          Apply Now
+        </button>
 
         <div>
           <div
@@ -49,7 +52,7 @@ export const CareerBanner = () => {
                 </div>
 
                 <div>
-                  <PopupForm />
+                  <CaerrForm />
                 </div>
               </div>
             </div>
@@ -57,7 +60,7 @@ export const CareerBanner = () => {
         </div>
 
       </div>
-      <CareerReason/>
+      <CareerReason />
     </div>
   );
 };

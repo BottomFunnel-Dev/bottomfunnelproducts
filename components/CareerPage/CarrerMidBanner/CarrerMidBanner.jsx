@@ -1,6 +1,7 @@
 import React from "react";
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 import career from "./CarrerMidBanner.module.css";
+import { CaerrForm } from "../CarrerForm/CarrerForm";
 
 export const CarrerMidBanner = () => {
   return (
@@ -39,7 +40,7 @@ export const CarrerMidBanner = () => {
               </div>
 
               <div>
-                <PopupForm />
+                <CaerrForm />
               </div>
             </div>
           </div>
