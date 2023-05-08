@@ -287,11 +287,13 @@ export const TalentProfiles = () => {
                     </p>
                   </div>
 
-                  {/* <button
-                    className={styles.productsTalentProfilesContentButton}
-                  >
-                    {buttondetails}
-                  </button> */}
+                  <a target="_blank" href={profileLink}>
+                    <button
+                      className={styles.productsTalentProfilesContentButton}
+                    >
+                      {buttondetails}
+                    </button>
+                  </a>
                 </div>
               </div>
             ),
