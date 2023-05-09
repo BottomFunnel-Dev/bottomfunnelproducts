@@ -44,7 +44,6 @@ export default function Testimonial() {
     touchMove: false,
     slidesToShow: 1,
     pauseOnHover: false,
-    autoplay: true,
     cssEase: "linear",
     arrows: true,
     prevArrow: <SlickArrowLeft />,
@@ -78,22 +77,28 @@ export default function Testimonial() {
 
   const data = [
     {
-      name: "Leslie al",
-      degination: "CEO, SPJ Electronics",
+      name: "Jai Kishan Tewani",
+      degination: "Managing Director & Partner",
       desc: "it was a seamless experience with bottom funnel team, they built our consumer electronics brand spj electronics in the terms of web development and mobile applications development. we recommend bottom funnel team to everybody who have some technical requirements. at the same time it was a fun and great experience with the team",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/testimonialsImages/JaiKishanTiwani.png",
     },
     {
-      name: "Leslie al",
-      degination: "CEO, Next Holidays",
+      name: "Suresh Kirplani",
+      degination: "President & Partner",
       desc: "It was an great expreience with bottom funnel team. they have complete our D2C travel brand name called  Next Holidays We glad that we connect to the bottom funnel technical team. It was an insane experience with the team.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/testimonialsImages/SureshRectangle.png",
     },
     {
-      name: "Leslie al",
-      degination: "CEO, Digital PT",
+      name: "Pradeep Kishnani",
+      degination: "Vice President & Partner",
       desc: "It was a wonderfull experience with the Bottom funnel developers team they build our B2C B2B Mobile app development & website development As per our requirement they were so calm & patient we thankfull for their efforts time & energy I hope will get an oppurtunity to work with the team again in future cheers.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/testimonialsImages/PradeepRectangle.png",
+    },
+    {
+      name: "Vineet Changulani",
+      degination: "Managing Director, TravelFlap",
+      desc: "It was a wonderfull experience with the Bottom funnel developers team they build our B2C B2B Mobile app development & website development As per our requirement they were so calm & patient we thankfull for their efforts time & energy I hope will get an oppurtunity to work with the team again in future cheers.",
+      image: "https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/testimonialsImages/VineetChangulani.png",
     },
   ];
 
@@ -107,9 +112,9 @@ export default function Testimonial() {
             <div key={index} className={styles.mainsliderDiv}>
               <div className={styles.slidingDiv}>
                 <div className={styles.imgpart}>
-                  <div className={styles.productBannerPlayIcon}>
+                  {/* <div className={styles.productBannerPlayIcon}>
                     <i class="bi bi-play-circle"></i>
-                  </div>
+                  </div> */}
                   <img src={item.image} alt="" />
                 </div>
                 <div className={styles.textpart}>
