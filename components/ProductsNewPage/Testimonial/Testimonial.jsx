@@ -78,7 +78,7 @@ export default function Testimonial() {
   const data = [
     {
       name: "Jai Kishan Tewani",
-      degination: "Managing Director & Partner, BlueBerry Group, SPJ Electronics, Next Holidays",
+      degination: "President & Partner, BlueBerry Group, SPJ Electronics, Next Holidays",
       desc: "it was a seamless experience with bottom funnel team, they built our consumer electronics brand spj electronics in the terms of web development and mobile applications development. we recommend bottom funnel team to everybody who have some technical requirements. at the same time it was a fun and great experience with the team",
       image: "https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/testimonialsImages/JaiKishanTiwani.png",
     },
