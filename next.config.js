@@ -182,10 +182,15 @@ const nextConfig = {
         basePath: false,
       },
       {
+        source: "/messagingchannel",
+        destination: "/bottomfunnelchat/messagingchannel",
+        permanent: true,
+        basePath: false,
+      },
+      {
         source: "/funneldesk/features/ticketing",
         destination: "/bottomfunnel-support-desk/ticketing",
         permanent: true,
-        basePath: false,
       },
       {
         source: "/funneldesk/features/collaboration",
@@ -220,12 +225,6 @@ const nextConfig = {
       {
         source: "/funneldesk/features/integration",
         destination: "/bottomfunnel-support-desk/integration",
-        permanent: true,
-        basePath: false,
-      },
-      {
-        source: "/funneldesk/features",
-        destination: "/bottomfunnel-support-desk/features",
         permanent: true,
         basePath: false,
       },
@@ -272,14 +271,14 @@ const nextConfig = {
         basePath: false,
       },
       {
-        source: "/messagingchannel",
+        source: "/team-inbox",
         destination: "/bottomfunnelchat/messagingchannel",
         permanent: true,
         basePath: false,
       },
       {
-        source: "/team-inbox",
-        destination: "/bottomfunnelchat/messagingchannel",
+        source: "/market-place",
+        destination: "https://service.bottomfunnel.net/local-seo-services",
         permanent: true,
         basePath: false,
       },

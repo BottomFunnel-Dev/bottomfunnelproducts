@@ -1421,7 +1421,7 @@ export const productDesk = [
 export const productFeatures = [
   {
     dropContent: "Ticketing",
-    path: "/bottomfunnel-support-desk/ticketing",
+    path: "/funneldesk/features/ticketing",
   },
   {
     dropContent: "Collaboration",

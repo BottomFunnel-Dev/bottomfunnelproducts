@@ -132,242 +132,243 @@ const Navbar = ({ navredux, productMount }) => {
     console.log("working tree", mobres);
   };
   return (
-    <div>
-      {!productMount.navMount && (
-        <ContactMainOther
-          bgcolor={navbar ? "black" : "transparent"}
-          textcolor={!navbar ? navredux.color : "black"}
-        />
-      )}
-      <nav
-        className={
-          navbar
-            ? `${navstyle.navbarSection} ${navstyle.active}`
-            : navstyle.navbarSection
-        }
-        style={{
-          top:
-            scroll || productMount.navMount || productMount.salesnavMount
-              ? "0"
-              : "30px",
-          position:
-            productMount.navMount || productMount.salesnavMount
-              ? "static"
-              : "fixed",
-          transition:
-            scroll && (productMount.navMount || productMount.salesnavMount)
-              ? "all .5s ease-in"
-              : "all .5 ease-out",
-        }}
-      >
-        {!productMount.navMount && (
-          <ContactMainOther
-            bgcolor={navbar ? "black" : "transparent"}
-            textcolor={!navbar ? navredux.color : "black"}
-          />
-        )}
-        <div className={navstyle.logoSection}>
-          {/* <Link href="/" className={navstyle.logoText}> */}
-          <img onClick={() => router.push("/")}
-            src={
-              navredux.logo && !navbar
-                ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
-                : "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/blacklogo.png"
-            }
-            alt="image"
-          />
-          {/* </Link> */}
-        </div>
+    <>
+      <div>
 
-        <div id={navstyle.bar}>
-          <label htmlFor="checkbox">
-            <IconContext.Provider value={{ className: navstyle.bars }}>
-              <AiOutlineMenu onClick={handleMob} />
-            </IconContext.Provider>
-          </label>
-        </div>
 
-        {!mobres && (
-          <div className={navstyle.dropdownBar}>
-            <div className={navstyle.mobLists}>
-              <li
-                onMouseEnter={homeHoverIn}
-                onMouseLeave={homeHoverOut}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                <p> About </p>
-                <i
-                  className={aboutH ? "bi bi-chevron-up" : "bi bi-chevron-down"}
-                ></i>
-              </li>
+        <nav
+          className={
+            navbar
+              ? `${navstyle.navbarSection} ${navstyle.active}`
+              : navstyle.navbarSection
+          }
+          style={{
+            top:
+              scroll || productMount.navMount || productMount.salesnavMount
+                ? "0"
+                : "30px",
+            position:
+              productMount.navMount || productMount.salesnavMount
+                ? "static"
+                : "fixed",
+            transition:
+              scroll && (productMount.navMount || productMount.salesnavMount)
+                ? "all .5s ease-in"
+                : "all .5 ease-out",
+          }}
+        >
 
-              <li
-                onMouseEnter={solHoverIn}
-                onMouseLeave={solHoverOut}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                <p>Features</p>
-                <i
-                  className={
-                    solution ? "bi bi-chevron-up" : "bi bi-chevron-down"
-                  }
-                ></i>
-              </li>
 
-              <li
-                onMouseEnter={productHoverIn}
-                onMouseLeave={productHoverOut}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                <p>Products</p>
-                <i
-                  className={
-                    product ? "bi bi-chevron-up" : "bi bi-chevron-down"
-                  }
-                ></i>
-              </li>
-
-              <li
-                onMouseEnter={platformHoverIn}
-                onMouseLeave={platformHoverOut}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                <p>Platform</p>
-                <i
-                  className={
-                    platform ? "bi bi-chevron-up" : "bi bi-chevron-down"
-                  }
-                ></i>
-              </li>
-
-              <li
-                onMouseEnter={resHoverIn}
-                onMouseLeave={resHoverOut}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                <p>Resources</p>
-                <i
-                  className={
-                    resource ? "bi bi-chevron-up" : "bi bi-chevron-down"
-                  }
-                ></i>
-              </li>
-
-              <li
-                onClick={() => router.push("/pricing")}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                Pricing
-              </li>
-
-              <li style={{ color: navbar ? "black" : navredux.color }}>
-                Support
-              </li>
-            </div>
-
-            <button
-              className={navstyle.callToAction}
-              style={{
-                color: scroll ? "white" : "#ef4c23",
-                background: scroll ? "#ef4c23" : "white",
-              }}
-              onClick={() => router.push("/allproducts")}
-            >
-              Free Trial
-            </button>
-
-            <a target="_blank" href="https://service.bottomfunnel.net/">
-              <button
-                className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
-              // onClick={() => router.push("https://service.bottomfunnel.net/")}
-              >
-                Services
-              </button>
-            </a>
+          {!productMount.navMount && (
+            <ContactMainOther
+              bgcolor={navbar ? "black" : "transparent"}
+              textcolor={!navbar ? navredux.color : "black"}
+            />
+          )}
+          
+          <div className={navstyle.logoSection}>
+            {/* <Link href="/" className={navstyle.logoText}> */}
+            <img onClick={() => router.push("/")}
+              src={
+                navredux.logo && !navbar
+                  ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
+                  : "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/blacklogo.png"
+              }
+              alt="image"
+            />
+            {/* </Link> */}
           </div>
-        )
-        }
 
+          <div id={navstyle.bar}>
+            <label htmlFor="checkbox">
+              <IconContext.Provider value={{ className: navstyle.bars }}>
+                <AiOutlineMenu onClick={handleMob} />
+              </IconContext.Provider>
+            </label>
+          </div>
+
+          {!mobres && (
+            <div className={navstyle.dropdownBar}>
+              <div className={navstyle.mobLists}>
+                <li
+                  onMouseEnter={homeHoverIn}
+                  onMouseLeave={homeHoverOut}
+                  style={{ color: navbar ? "black" : navredux.color }}
+                >
+                  <p> About </p>
+                  <i
+                    className={aboutH ? "bi bi-chevron-up" : "bi bi-chevron-down"}
+                  ></i>
+                </li>
+
+                <li
+                  onMouseEnter={solHoverIn}
+                  onMouseLeave={solHoverOut}
+                  style={{ color: navbar ? "black" : navredux.color }}
+                >
+                  <p>Features</p>
+                  <i
+                    className={
+                      solution ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                    }
+                  ></i>
+                </li>
+
+                <li
+                  onMouseEnter={productHoverIn}
+                  onMouseLeave={productHoverOut}
+                  style={{ color: navbar ? "black" : navredux.color }}
+                >
+                  <p>Products</p>
+                  <i
+                    className={
+                      product ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                    }
+                  ></i>
+                </li>
+
+                <li
+                  onMouseEnter={platformHoverIn}
+                  onMouseLeave={platformHoverOut}
+                  style={{ color: navbar ? "black" : navredux.color }}
+                >
+                  <p>Platform</p>
+                  <i
+                    className={
+                      platform ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                    }
+                  ></i>
+                </li>
+
+                <li
+                  onMouseEnter={resHoverIn}
+                  onMouseLeave={resHoverOut}
+                  style={{ color: navbar ? "black" : navredux.color }}
+                >
+                  <p>Resources</p>
+                  <i
+                    className={
+                      resource ? "bi bi-chevron-up" : "bi bi-chevron-down"
+                    }
+                  ></i>
+                </li>
+
+                <li
+                  onClick={() => router.push("/pricing")}
+                  style={{ color: navbar ? "black" : navredux.color }}
+                >
+                  Pricing
+                </li>
+
+                <li style={{ color: navbar ? "black" : navredux.color }}>
+                  Support
+                </li>
+              </div>
+
+              <button
+                className={navstyle.callToAction}
+                style={{
+                  color: scroll ? "white" : "#ef4c23",
+                  background: scroll ? "#ef4c23" : "white",
+                }}
+                onClick={() => router.push("/allproducts")}
+              >
+                Free Trial
+              </button>
+
+              <a target="_blank" href="https://service.bottomfunnel.net/">
+                <button
+                  className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
+                // onClick={() => router.push("https://service.bottomfunnel.net/")}
+                >
+                  Services
+                </button>
+              </a>
+            </div>
+          )
+          }
+
+          {
+            mobres && (
+              <DropdownResp
+                homeHoverIn={homeHoverIn}
+                homeHoverOut={homeHoverOut}
+                resHoverIn={resHoverIn}
+                resHoverOut={resHoverOut}
+                solHoverIn={solHoverIn}
+                solHoverOut={solHoverOut}
+                scroll={scroll}
+                productMount={productMount}
+                productHoverIn={productHoverIn}
+                productHoverOut={productHoverOut}
+                platformHoverIn={platformHoverIn}
+                platformHoverOut={platformHoverOut}
+              />
+            )
+          }
+        </nav >
+
+        {/* about drop down section code start */}
         {
-          mobres && (
-            <DropdownResp
+          aboutH ? (
+            <WhoWeAre
               homeHoverIn={homeHoverIn}
               homeHoverOut={homeHoverOut}
-              resHoverIn={resHoverIn}
-              resHoverOut={resHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+            />
+          ) : null
+        }
+        {/* about drop down section code end */}
+
+        {/* solutions drop down section code start */}
+        {
+          solution ? (
+            <NavIndustries
               solHoverIn={solHoverIn}
               solHoverOut={solHoverOut}
               scroll={scroll}
               productMount={productMount}
+            />
+          ) : null
+        }
+
+        {/* product drop down section code start */}
+
+        {
+          product ? (
+            <Products
               productHoverIn={productHoverIn}
               productHoverOut={productHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+            />
+          ) : null
+        }
+
+        {
+          platform ? (
+            <Platform
               platformHoverIn={platformHoverIn}
               platformHoverOut={platformHoverOut}
+              scroll={scroll}
+              productMount={productMount}
             />
-          )
+          ) : null
         }
-      </nav >
 
-      {/* about drop down section code start */}
-      {
-        aboutH ? (
-          <WhoWeAre
-            homeHoverIn={homeHoverIn}
-            homeHoverOut={homeHoverOut}
-            scroll={scroll}
-            productMount={productMount}
-          />
-        ) : null
-      }
-      {/* about drop down section code end */}
-
-      {/* solutions drop down section code start */}
-      {
-        solution ? (
-          <NavIndustries
-            solHoverIn={solHoverIn}
-            solHoverOut={solHoverOut}
-            scroll={scroll}
-            productMount={productMount}
-          />
-        ) : null
-      }
-
-      {/* product drop down section code start */}
-
-      {
-        product ? (
-          <Products
-            productHoverIn={productHoverIn}
-            productHoverOut={productHoverOut}
-            scroll={scroll}
-            productMount={productMount}
-          />
-        ) : null
-      }
-
-      {
-        platform ? (
-          <Platform
-            platformHoverIn={platformHoverIn}
-            platformHoverOut={platformHoverOut}
-            scroll={scroll}
-            productMount={productMount}
-          />
-        ) : null
-      }
-
-      {
-        resource ? (
-          <Resource
-            resHoverIn={resHoverIn}
-            resHoverOut={resHoverOut}
-            scroll={scroll}
-            productMount={productMount}
-          />
-        ) : null
-      }
-    </div >
+        {
+          resource ? (
+            <Resource
+              resHoverIn={resHoverIn}
+              resHoverOut={resHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+            />
+          ) : null
+        }
+      </div >
+    </>
   );
 };
 
