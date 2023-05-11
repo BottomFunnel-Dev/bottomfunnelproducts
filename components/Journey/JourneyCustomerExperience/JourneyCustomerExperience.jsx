@@ -3,7 +3,7 @@ import Image from "next/image"
 export const JourneyCustomerExperience = () => {
     return (
          <div className={styles.JourneyCustomerExperiencemain}>
-            <h1 className={styles.JourneyCustomerExperiencemainheading}>Deliver delightful customer experiences with timely ,targeted engagement</h1>
+            <h1 className={styles.JourneyCustomerExperiencemainheading}>Deliver delightful customer experiences with timely, targeted engagement</h1>
             <div className={styles.JourneyCustomerExperienceOnlyChild}>
                  <div className={styles.JourneyCustomerExperienceImage}> 
                 <Image

@@ -1,6 +1,6 @@
 .whatsappcustomerexpmainboxes{
     height: fit-content;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .whatsappcustomerexpmainboxes>h2{
@@ -10,12 +10,27 @@
     width: 80%;
     margin: auto;
     text-align: center;
+    font-size: 18px;
+    margin-top: 1%;
 }
 
 .whatsappbotsscreenforimg{
     width: 60%;
     margin: auto;
     margin-top: 5%;
+}
 
+@media (max-width:480px) {
+    .whatsappcustomerexpmainboxes{
+        margin-top: 12%;
+    }
+    .whatsappcustomerexpmainboxes>p{
+       margin-top: 5%;
+       text-align: justify;
+       width: 90%;
+    } 
+    .whatsappbotsscreenforimg{
+        width: 90%;
+    }
 }
 
