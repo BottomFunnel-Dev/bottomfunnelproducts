@@ -8,7 +8,7 @@ export const ManagedserviceProviderSupport = () => {
             </h1>
             <p>
                 Achieve faster and improved resolution rates by connecting your clients to the right agents and viewing all your support activities
-                on one common dashboard using Freshdesk Omnichannel.
+                on one common dashboard using Bottom funnel desk Omnichannel.
             </p>
             <div className={styles.ManagedserviceProviderSupportParentOnlyChild}>
                 <div>

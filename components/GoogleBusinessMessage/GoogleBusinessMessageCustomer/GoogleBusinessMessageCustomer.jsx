@@ -13,7 +13,7 @@ export const GoogleBusinessMessageCustomer = () => {
                             place</h3>
                         <p>Create product and location-specific profiles to manage all
                             customer conversations from Freshchat</p>
-                        <p>With this native integration (built on Freshworks Neo), you can
+                        <p>With this native integration (built on Bottom Funnel Neo), you can
                         </p>
                         <ul>
                             <li>Enable customers to start a conversation with the nearest

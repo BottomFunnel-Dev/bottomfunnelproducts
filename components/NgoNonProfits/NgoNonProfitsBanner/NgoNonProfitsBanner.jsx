@@ -17,7 +17,7 @@ export default function NgoNonProfitsBanner () {
         </div>
         <div className={styles.ngoBannertext}>
             <h1>Effortless help desk software for Non-Profit Organizations</h1>
-            <p>Streamline shipping, improve supply chain visibility, and handle vendors from one place.Deliver effortless logistics customer service with freshdesk omnichannel.</p>
+            <p>Streamline shipping, improve supply chain visibility, and handle vendors from one place.Deliver effortless logistics customer service with Bottom funnel desk omnichannel.</p>
             <button>Sign up for free</button>
         </div>
     </div>

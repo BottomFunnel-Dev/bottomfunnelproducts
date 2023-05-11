@@ -27,7 +27,7 @@ export const BestSecurityRoof = () => {
             <li>Set up your own support domain or vanity URL</li>
             <li>Get your custom SSL URL and running within 72 hours</li>
             <li>
-              Add multiple portals to your Freshdesk account with authenticated
+              Add multiple portals to your Bottom funnel desk account with authenticated
               SSL certification
             </li>
           </ul>

@@ -16,23 +16,23 @@ export default function neoMainpage(){
     return(
         <>
         <Navbar
-productMount={{
-  navMount: true,
-}}
-navredux={{
-  color: "black",
-  logo: false,
-}}
-/>
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+          />
 
-<NeoMainpageBanner/>
-<NeoMainpageCTE/>
-<NeoMainpageFeature/>
-<NeoMainpageCTEtwo/>
-<NeoMainpageServices/>
+          <NeoMainpageBanner/>
+          <NeoMainpageCTE/>
+          <NeoMainpageFeature/>
+          <NeoMainpageCTEtwo/>
+          <NeoMainpageServices/>
 
-<Testimonial/>
-        <TrustedBy/>
+      <Testimonial/>
+      <TrustedBy/>
       <ReadyStarted/>
       <TalentProfiles/>
       <LifeBottomFunnel/>

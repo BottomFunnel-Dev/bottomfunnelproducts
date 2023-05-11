@@ -7,7 +7,7 @@ export const  SalesMobileofFeaturesbanner = () => {
     <div>
      <div className={styles.SalesMobileofFeaturesbannermaindiv}>
         <div className={styles.SalesMobileofFeaturesbannercontent}>
-          <h1>Unify administration across  freshworks products </h1>
+          <h1>Unify administration across  Bottom Funnel products </h1>
           <p>
             Power admins to secure data, enable users, and manage subscription billing, from one console, no matter what the scale!
           </p>

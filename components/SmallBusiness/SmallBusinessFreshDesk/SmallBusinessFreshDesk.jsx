@@ -3,7 +3,7 @@ import Image from "next/image";
 export const SmallBusinessFreshDesk = () => {
     return (
         <div className={styles.SmallBusinessFreshDeskParent}>
-            <h1>More reason why SMPs (And enterprises) love Freshdesk</h1>
+            <h1>More reason why SMPs (And enterprises) love Bottom funnel desk</h1>
             <div className={styles.SmallBusinessFreshDeskParentfirstChild}>
                 <div>
                     <div>
@@ -113,7 +113,7 @@ export const SmallBusinessFreshDesk = () => {
                         <h5>Perfect for flexible
                             workforces</h5>
                     </div>
-                    <p>Freshdesk can be scaled up or down
+                    <p>Bottom funnel desk can be scaled up or down
                         based on your business needs. </p>
                 </div>
             </div>

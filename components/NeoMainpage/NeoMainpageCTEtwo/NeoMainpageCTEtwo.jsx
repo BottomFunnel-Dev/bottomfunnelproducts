@@ -6,9 +6,9 @@ export const NeoMainpageCTEtwo=()=>{
     return(
         <div className={styles.NeoMainpageCTEtwoHeader}>
             <div className={styles.NeoMainpageCTEtwoMain}>
-                <h2>Explore Freshworks Neo platform services</h2>
+                <h2>Explore Bottom Funnel Neo platform services</h2>
                 <p>The platform services enable you to unify and customize your experience across the 
-Freshworks product suite as your business scales.</p>
+Bottom Funnel product suite as your business scales.</p>
 <button className={styles.NeoMainpageCTEtwodemo}>Explore Now</button>
 
            

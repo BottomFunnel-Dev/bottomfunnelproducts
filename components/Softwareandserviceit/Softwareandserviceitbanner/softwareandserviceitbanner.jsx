@@ -12,7 +12,7 @@ export const Softwareandserviceitbanner = () => {
                 <p>Your technology is mission-critical to your customer’s
                     business. You need to back it up with responsive, proactive
                     customer service. Deliver outstanding experiences with the
-                    Freshworks Customer Service Platform.
+                    Bottom Funnel Customer Service Platform.
                 </p>
                 <button>Request For Demo</button>
             </div>

@@ -47,7 +47,7 @@ export const TicketingServices = () => {
           </div>
           <h1>SLA Management</h1>
           <p>
-            A service level agreement accross your freshDesk sets performance
+            A service level agreement accross your Bottom funnel desk sets performance
             threshold that can be managed and optimizedover time.
           </p>
           <ul>
@@ -84,11 +84,11 @@ export const TicketingServices = () => {
               problem type,locations,skills needed and more.
             </li>
             <li>
-              Field employee can access their service tasks via the FreshDesk
+              Field employee can access their service tasks via the Bottom funnel desk
               app for ios and Android.
             </li>
             <li>
-              Updates from field employees are fully integrated with freshdesk
+              Updates from field employees are fully integrated with Bottom funnel desk
               ticketing so dispatch and field are united in delivering an
               amazing customer experience.
             </li>
@@ -108,7 +108,7 @@ export const TicketingServices = () => {
           <h1>Contextual Ticketing with Custom Objects</h1>
           <p>
             Bring in all the business-critical information unique to your
-            organization right inside your freshDesk.
+            organization right inside your Bottom funnel desk.
           </p>
           <ul>
             <li>

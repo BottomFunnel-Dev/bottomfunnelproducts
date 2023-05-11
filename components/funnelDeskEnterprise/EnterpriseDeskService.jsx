@@ -134,7 +134,7 @@ export const EnterpriseDeskService = () => {
               enhance the customer experience
             </li>
             <li>
-              Get complete visibility into all changes made on your Freshdesk
+              Get complete visibility into all changes made on your Bottom funnel desk
               with audit logs
             </li>
           </ul>

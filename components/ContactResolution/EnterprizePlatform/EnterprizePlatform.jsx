@@ -9,7 +9,7 @@ export const EnterprizePlatform = () => {
             <h2>
             Built on Neo, the enterprise platform tuned for scaling
             </h2>
-            <p>Meet your expanding customer needs with the open and flexible Freshworks Platform. Access rich APIs for custom integrations, automated workflows, smart analytics, ecosystem partner solutions, and hundreds of Marketplace Apps. 
+            <p>Meet your expanding customer needs with the open and flexible Bottom Funnel Platform. Access rich APIs for custom integrations, automated workflows, smart analytics, ecosystem partner solutions, and hundreds of Marketplace Apps. 
 
 </p>
 <button className={styles.EnterprizePlatformdivbutton}>Learn More</button>

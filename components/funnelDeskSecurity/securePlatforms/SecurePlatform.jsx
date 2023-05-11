@@ -18,14 +18,14 @@ export const SecurePlatform = () => {
       <div>
         <h2>Stay secure across all Platforms</h2>
         <p>
-          Access all your Freshworks accounts with a single password or
+          Access all your Bottom Funnel accounts with a single password or
           associated Goggle account with Fresh ID.
         </p>
         <ul>
           <li>Simplified authentication process</li>
           <li>
             Hassly-free Security accross Freshchat, FreshMarketer, FreshConnect,
-            FreshSales, FreshDesk Contact Center.
+            FreshSales, Bottom funnel desk Contact Center.
           </li>
           <li>Easy access retrieval in case login credentials have lapsed</li>
         </ul>

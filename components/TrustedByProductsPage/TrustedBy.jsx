@@ -76,7 +76,7 @@ const TrustedBy = () => {
 
           <p>
             We are a leading provider of the modern SaaS solutions that solve multiple, complex business problems to
-            companies of all sizes. Businesses from more than 120 countries around the world use Freshworks products to
+            companies of all sizes. Businesses from more than 120 countries around the world use Bottom Funnel products to
             delight their customers and employees every day.
           </p>
         </div>

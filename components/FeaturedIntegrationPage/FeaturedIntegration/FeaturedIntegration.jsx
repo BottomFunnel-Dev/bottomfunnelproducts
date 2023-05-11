@@ -9,7 +9,7 @@ export const FeaturedIntegration = () => {
         <h2>Featured Integrations</h2>
       </div>
       <div className={style.integrationsDiv}>
-        <p>Top integrations built by Freshworks and loved by our customers</p>
+        <p>Top integrations built by Bottom Funnel and loved by our customers</p>
         {integrationsList.map(({ img, title, para, point, btn, index }) => {
           return (
             <div key={index} className={style.FeaturedIntegrationsingle}>

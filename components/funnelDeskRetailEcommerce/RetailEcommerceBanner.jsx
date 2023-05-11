@@ -9,7 +9,7 @@ export const RetailEcommerceBanner = () => {
         <p>
           Your customers dont want a product.They want a delightful shopping
           experience.Wow your customers with omnichannel customer service using
-          the Freshworks customer Service Platform.
+          the Bottom Funnel customer Service Platform.
         </p>
         <button className={styles.retailsecommercebannerbutton}>
           Sign up for free

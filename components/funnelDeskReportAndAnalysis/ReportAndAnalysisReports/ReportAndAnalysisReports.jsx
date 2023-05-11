@@ -6,14 +6,14 @@ export default function ReportAndAnalysisReports  () {
     const reportdata=[
         {
             img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funnelReportanalysis/Vectors/Group 770717.webp",
-            title:"Leverage  in-built Freshdesk reports to address business needs",
+            title:"Leverage  in-built Bottom funnel desk reports to address business needs",
             para:"Use handcrafted reports from our library for quick insights. Save time and avoid manual work with an exhaustive set of actionable reports. With brand new visualization capabilities added to the product, you can easily understand large volume of data and present it to stakeholders with rich visuals and vibrant colours",
             fetr:"Learn more",
         },
         {
             img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funnelReportanalysis/Vectors/Group 770730.webp",
             title:"Customize and just Do It Yourself with no code!",
-            para:"With multiple ways to look at helpdesk reporting, Freshdesk Analytics lets you customize and build your reports in the way you want them — with absolutely no coding and minimal effort. Create reports on the fly without having to depend on a data analyst or external business intelligence tools. Turn every employee in your organization into a decision scientist.",
+            para:"With multiple ways to look at helpdesk reporting, Bottom funnel desk Analytics lets you customize and build your reports in the way you want them — with absolutely no coding and minimal effort. Create reports on the fly without having to depend on a data analyst or external business intelligence tools. Turn every employee in your organization into a decision scientist.",
             fetr:"Learn more",
         },
         {
@@ -24,7 +24,7 @@ export default function ReportAndAnalysisReports  () {
         },
         {
             img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funnelReportanalysis/Vectors/image 6.webp",
-            title:"Extend Freshdesk Analytics capabilities with GoodData integration",
+            title:"Extend Bottom funnel desk Analytics capabilities with GoodData integration",
             para:"Create reports from scratch, send alerts to admins whenever there’s a spike/drop in numbers, access advanced statistical metrics, and more with this integration. Admins can stay on top of updates with the help of dynamic dashboards and KPI alerts whenever there is a spike/drop in numbers. Drill down data with the help of visualizations like bar charts, bullet charts, etc. ",
             fetr:"Learn more",
         },

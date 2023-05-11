@@ -104,7 +104,7 @@ export const AllindustrycustomerDelight = () => {
         {
             icon:"Images/Allindustries/Icons/Group 770911.webp",
             htxt:"MANAGED SERVICE PROVIDERS",
-            stxt:"Use Freshdesk to provide knowledgeable help to multiple clients.",
+            stxt:"Use Bottom funnel desk to provide knowledgeable help to multiple clients.",
             link:""
         },
 

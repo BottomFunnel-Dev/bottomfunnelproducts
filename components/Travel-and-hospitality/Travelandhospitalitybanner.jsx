@@ -9,7 +9,7 @@ export const Travelandhospitalitybanner = () => {
     <div className={styles.travelandhospitalitybennerleftbox}>
     <h1>Shoppers want more than a transaction</h1>
     <p>Your customers don't want a product.They want a delightful shopping experience.
-    WOW your customers with omnichannel customer service using the Freshworks
+    WOW your customers with omnichannel customer service using the Bottom Funnel
     Customer Service Platform.</p>
     <button className={styles.travelandhospbanbutton}>SIGN UP FOR FREE</button>
     

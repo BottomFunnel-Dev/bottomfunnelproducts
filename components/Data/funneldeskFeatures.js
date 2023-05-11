@@ -164,7 +164,7 @@ export const allfeatures = {
       {
         title: "Customer Signature",
         description:
-          "Obtain signatures via the Freshdesk mobile app with a single swipe and attach it to the service task.",
+          "Obtain signatures via the Bottom funnel desk mobile app with a single swipe and attach it to the service task.",
         image: "funneldeskFeature/workforce/search.png",
       },
       {
@@ -178,7 +178,7 @@ export const allfeatures = {
   productivity: {
     title: "Increase your team's productivity",
     description:
-      "Leverage Freshdesk's build-in capabilities to automate repetitive helpdesk tasks.",
+      "Leverage Bottom funnel desk's build-in capabilities to automate repetitive helpdesk tasks.",
     data: [
       {
         title: "Ticket Dispatch",

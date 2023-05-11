@@ -7,7 +7,7 @@ export const WhyAutomation = () => {
     {
       title: "Easy to set-up and manage",
       description:
-        "Freshdesk creates an automatic summary of every rule that looks like a simple workflow document. The rule summaries and the simple form interface makes setting up automations quick and easy.",
+        "Bottom funnel desk creates an automatic summary of every rule that looks like a simple workflow document. The rule summaries and the simple form interface makes setting up automations quick and easy.",
       image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/task.png",
     },
     {
@@ -31,7 +31,7 @@ export const WhyAutomation = () => {
     {
       title: "AI-powered",
       description:
-        "Automations do not reopen tickets that have responses like 'gracias' or 'all good'. By not opening tickets that don't need any further action, Freshdesk ensures that your reporting metrics aren't skewed.",
+        "Automations do not reopen tickets that have responses like 'gracias' or 'all good'. By not opening tickets that don't need any further action, Bottom funnel desk ensures that your reporting metrics aren't skewed.",
       image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/tech.png",
     },
   ];

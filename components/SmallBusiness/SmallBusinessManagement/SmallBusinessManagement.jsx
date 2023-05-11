@@ -102,7 +102,7 @@ export const SmallBusinessManagement = () => {
                     </h1>
                     <p>Analyze trends in support tickets, gauge team
                         performance, and monitor customer satisfaction metrics
-                        using Freshdesk s one-click reports</p>
+                        using Bottom funnel desk s one-click reports</p>
                     <p>Leverage live dashboards to get a bird s eye view of
                         conversations in different queues, CSAT scores, and more</p>
                 </div>

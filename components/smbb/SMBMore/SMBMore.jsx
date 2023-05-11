@@ -41,7 +41,7 @@ export const SMBMore = () => {
                             </div>
                             <h4>Plug in and use</h4>
                             <p>
-                                Use the markteplace to connect with tools loke Freshdesk, stripe,calender, and more!                        </p>
+                                Use the markteplace to connect with tools loke Bottom funnel desk, stripe,calender, and more!                        </p>
                         </div>
 
 

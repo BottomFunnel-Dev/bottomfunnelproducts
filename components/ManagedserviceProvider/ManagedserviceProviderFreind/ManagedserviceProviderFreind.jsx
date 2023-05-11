@@ -8,7 +8,7 @@ export const ManagedserviceProviderFreind = () => {
 
             </h4>
             <p>
-                At Freshworks, we do things differently. We know that transactions are short-lived, but the relationships we build are for life.
+                At Bottom Funnel, we do things differently. We know that transactions are short-lived, but the relationships we build are for life.
 
                 We will help you find and create customers for life, and we d like you to be our customer for life.
             </p>
