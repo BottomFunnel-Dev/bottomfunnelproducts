@@ -1,26 +1,28 @@
 .JourneyTrialpatrent{
     background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/background.png');
-    height: 30vh;
-    border: 1px solid blue;
+    height: 250px;
+}
+.JourneyTrialpatrent>h1{
     color: white;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    padding-top: 2%;
-    margin-top: 2%;
+    text-align: center;
+   padding-top: 3%;
+}
+.JourneyTrialpatrent>p{
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+    font-size: 18px;
 }
 
-.JourneyTrialpatrent>div{
-    margin-top: 1%;
-    width: 30%;
-}
+
 .JourneyTrialbuttonone{
     width: 200px;
     height: 40px;
     background-color: #ec4f25;
     color: white;
     border-radius: 20px;
+   margin-left: 35%;
+   margin-top: 1%;
     
 }
 .JourneyTrialbuttontwo{
@@ -29,7 +31,7 @@
     background-color: transparent;
     color: white;
     border: 1px solid brown;
-    margin-left: 3%;
+    margin-left: 2%;
     border-radius: 20px;
    
 }
@@ -44,65 +46,27 @@
     border: 1px solid #ef4c23;
 }
 
-@media (max-width:780px){
-    .JourneyTrialpatrent{
-        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/background.png');
-        height: 30vh;
-        border: 1px solid blue;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        padding-top: 2%;
-       
-    }
-    .JourneyTrialpatrent>div{
-        margin-top: 3%;
-        width: 40%;
-        display: flex;
-        
-    }
-    .JourneyTrialbuttonone{
-        width: 200px;
-        height: 40px;
-        background-color: brown;
-        color: white;
-        border-radius: 20px;
-        
-    }
-    .JourneyTrialbuttontwo{
-        width: 200px;
-        height: 40px;
-        background-color: transparent;
-        color: white;
-        border: 1px solid brown;
-        margin-left: 3%;
-        border-radius: 20px;
-       
-       
-    }
-
-    
-}
 @media (max-width:480px){
-    .JourneyTrialpatrent>div{
-        margin-top: 3%;
-        width: 80%;
-        display: flex;
-        
-    }
-    .JourneyTrialpatrent{
-        background-image: url('https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/background.png');
-        height: 30vh;
-        border: 1px solid blue;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        padding-top: 5%;
-        padding-left: 5%;
-       
-    }
+   .JourneyTrialbuttonone{
+   width: 150px;
+   margin-top: 6%;
+   margin-left: 8%;
+   }
+   .JourneyTrialbuttontwo{
+    width: 150px;
+   
+   }
+   .JourneyTrialpatrent>h1{
+   width: 90%;
+   text-align: center;
+   margin: auto;
+  padding-top: 5%;
+   }
+   .JourneyTrialpatrent>p{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 17px;
+   }
 }

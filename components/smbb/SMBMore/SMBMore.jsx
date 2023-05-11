@@ -2,108 +2,45 @@ import React from 'react'
 import styles from "./SMBMore.module.css";
 import Image from 'next/image';
 export const SMBMore = () => {
+    const col1 = [{img:"/Images/sbm/iconone.webp",hd:"Route automatically",p:"  Transfer incoming messages to right teams with Bottom Funnel chat patent - pending assignment features."},
+    {img:"/Images/sbm/icontwo.webp",hd:"Plug in and use",p:"  Use the markteplace to connect with tools loke Bottom Funnel Desk, stripe,calender, and more!"},
+    {img:"/Images/sbm/iconthree.webp",hd:"Measure and optimize",p:"Derive insights from user touchpoints and make business -critical decision"},
+    {img:"/Images/sbm/iconfive.webp",hd:"Secure Your data",p:"Use a robust and secure software thats GDPR complaints"},
+    {img:"/Images/sbm/iconfour.webp",hd:"Expand beyond borders",p:"Break beyond language barrier. Personalize your experience in 20+ language"}]
     return (
         <div className={styles.sMBMoreParent}>
-            <h1>What's More</h1>
+            <h2>What's More</h2>
             <div className={styles.sMBMoreParentChild}>
 
 
 
                 <div className={styles.sMBMoreParentChildchild}>
-                    <div className={styles.sMBMoreParentChildchildfirstchild}>
-                        <div>
-                            <div>
-                                <Image
-                                    src={"/Images/sbm/iconone.webp"}
-                                    alt={"img"}
-                                    width={"0"}
-                                    height={"0"}
-                                    sizes={"100vw"}
-                                    style={{ width: "100%", height: "100%" }}
-                                />
+                    {col1.map((item) => {
+                        return(
+                            // <div className={styles.sMBMoreParentChildchildfirstchild}>
+                            <div className={styles.BorderBox}>
+                                <div className={styles.sMBMoreinnerImage}>
+                                    <Image
+                                        src={item.img}
+                                        alt={"img"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
+                                </div>
+                                <h4>{item.hd}</h4>
+                                <p>
+                                    {item.p}
+                                </p>
                             </div>
-                            <h4>Route aytomatically</h4>
-                            <p>
-                                Traige incoming messages to right teams with Freshchats patent -pending assignment features.
-                            </p>
-                        </div>
-
-                        <div>
-                            <div>
-                                <Image
-                                    src={"/Images/sbm/icontwo.webp"}
-                                    alt={"img"}
-                                    width={"0"}
-                                    height={"0"}
-                                    sizes={"100vw"}
-                                    style={{ width: "100%", height: "100%" }}
-                                />
-                            </div>
-                            <h4>Plug in and use</h4>
-                            <p>
-                                Use the markteplace to connect with tools loke Bottom funnel desk, stripe,calender, and more!                        </p>
-                        </div>
-
-
-                        <div>
-                            <div>
-                                <Image
-                                    src={"/Images/sbm/iconthree.webp"}
-                                    alt={"img"}
-                                    width={"0"}
-                                    height={"0"}
-                                    sizes={"100vw"}
-                                    style={{ width: "100%", height: "100%" }}
-                                />
-                            </div>
-                            <h4>Measure and optomize</h4>
-                            <p>
-                                Derive insights from user touchpoints and make business -critical decision
-                            </p>
-                        </div>
-
-
+                        // </div>
+                        );
+                    })}
                     </div>
-
-
-                    <div className={styles.sMBMoreParentChildchilsecchild}>
-                        <div>
-                            <div>
-                                <Image
-                                    src={"/Images/sbm/iconfour.webp"}
-                                    alt={"img"}
-                                    width={"0"}
-                                    height={"0"}
-                                    sizes={"100vw"}
-                                    style={{ width: "100%", height: "100%" }}
-                                />
-                            </div>
-                            <h4>Expands beyond borders</h4>
-                            <p>
-                                Break beyond language barrier, Personalize your agent and customer experience in 20+ language
-                            </p>
-                        </div>
-
-                        <div>
-                            <div>
-                                <Image
-                                    src={"/Images/sbm/iconone.webp"}
-                                    alt={"img"}
-                                    width={"0"}
-                                    height={"0"}
-                                    sizes={"100vw"}
-                                    style={{ width: "100%", height: "100%" }}
-                                />
-                            </div>
-                            <h4>Secure Your data</h4>
-                            <p>
-                                Use a robust and secure software thats GDPR complaints                        </p>
-                        </div>
-                    </div>
-                </div>
                 <div className={styles.sMBMoreImage} >
                     <Image
-                        src={"/Images/sbm/imagefive.webp"}
+                        src={"/Images/sbm/imagefive.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

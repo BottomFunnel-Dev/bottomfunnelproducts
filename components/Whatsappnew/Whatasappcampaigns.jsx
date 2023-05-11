@@ -57,7 +57,7 @@ export const Whatasappcampaigns = () => {
         )
     })}</div>
 
-<div className={styles.shadowimagedownbox}></div>
+<div className={styles.shadowimagedownbox}>
 
 <Image
           src={imageChange}
@@ -65,9 +65,9 @@ export const Whatasappcampaigns = () => {
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "50%", height: "50%" , objectFit:"contain", marginLeft:"25%"}}
+          style={{ width: "100%", height: "100%" , objectFit:"contain"}}
         />
-
+</div>
     </div>
   )
 }

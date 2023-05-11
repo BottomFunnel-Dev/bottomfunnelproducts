@@ -103,21 +103,7 @@
     }
     
     .ForBusinessdivcardimagecontain{
-        /* border: 2px solid green; */
         padding-left: 60px;
         padding-right: 60px;
-        /* width: 320px; */
-    }
-    .ForBusinessdivcardimagecontain h5{
-        margin: 0%;
-    }
-    .ForBusinessdivcardimagecontain p{
-        margin: 0%;
-        font-size: 14px;
-    }
-    .ForBusinessdivcardimage{
-        /* border: 2px solid yellowgreen; */
-        /* width: 50px; */
-    }
-    
+    }    
 }

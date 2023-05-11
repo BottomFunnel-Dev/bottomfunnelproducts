@@ -35,6 +35,7 @@
     border-bottom: 1px solid #ef4c23;
     /* margin-top: 2%; */
     height: 80px;
+ 
 }
 
 
@@ -51,7 +52,7 @@
     background-color: #ef4c23;
     color: white;
     font-size: 18px;
-    /* margin-top: 1%; */
+    margin: 2% auto;
 }
 .SaleSmarterbutton:hover{
     background-color: white;
@@ -88,32 +89,25 @@
 
  @media  (max-width:1024px){
     .SaleSmarterdiv{
-        display: flex;
+       
         flex-direction: column;
-        margin-top: 3%;
-        justify-content: center;
-        column-gap: 2%;
-        align-items: stretch;
+    
     
     
     
     }
     .SaleSmarterinnerdiv{
         width: 90%;
-        /* height: fit-content; */
-        text-align: center;
-        border-radius: 10px;
+        
         /* border: 2px solid yellow; */
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        margin: auto;
-        margin-top: 4%;
+        
+        margin: 2% auto;
+        
     
     
     
     }
-    .SaleSmarterinnerdiv:hover{
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
+   
     .SaleSmarterheading{
         background-color: black;
         color: white;
@@ -127,54 +121,6 @@
         border-bottom: 1px solid #ef4c23;
         /* margin-top: 2%; */
         height: 80px;
-    }
-   
-    .SaleSmarterpricediv h1{
-        font-size: 42px;
-        color: #ef4c23;
-    
-    }
-    .SaleSmarterbutton{
-        border: none;
-        width: 120px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #ef4c23;
-        color: white;
-        font-size: 18px;
-        /* margin-top: 1%; */
-    }
-    .SaleSmarterbutton:hover{
-        background-color: white;
-        color: #ef4c23;
-        border: 1px solid  #ef4c23;
-    }
-    .SaleSmarterlistdiv{
-        /* border: 2px solid yellow; */
-        text-align: left;
-        /* margin-top: 5%; */
-        margin-bottom: 5%;
-    }
-    
-    .SaleSmarterlistdiv ul li{
-       margin-top: 3%;
-    }
-    .SaleSmarterlistdiv h6{
-    
-        margin-left: 5%;
-     }
-     
-     .SaleSmarterdivupperheading{
-        /* border: 2px solid yellow; */
-        text-align: center;
-        margin-top: 6%;
-     }
-     .SaleSmartertext{
-        text-decoration: underline;
-        text-align: right;
-        margin-top: 2%;
-        margin-right: 3%;
-        /* font-weight: bold; */
-     }
-    
+        padding: 6px;
+    }     
  }

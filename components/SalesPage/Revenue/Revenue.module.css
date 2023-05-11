@@ -1,10 +1,9 @@
 .Revenuemaindiv{
     /* border: 2px solid green; */
     background-color: #f2f2f2;
-    height: fit-content;
-    padding: 2%;
-    /* margin-bottom: 2%; */
-    /* margin-top: 4%; */
+    height: 70vh;
+    padding: 5px;
+  
 }
 
 .Revenuediv{
@@ -40,8 +39,8 @@
     /* border: 2px solid red; */
     height: 80px;
     width: 80px;
-    margin: auto;
-    margin-top: 2%;
+    margin:4% auto;
+   
    
    
 }
@@ -64,61 +63,42 @@
         /* border: 2px solid green; */
         background-color: #f2f2f2;
         height: fit-content;
-        padding: 2%;
-        margin-top: 4%;
+        padding: 10px;
     }
     
     .Revenuediv{
         /* border: 2px solid yellow;    */
-        display: flex;
+       
+       
         flex-direction: column;
-        justify-content: center;
-        /* margin-top: 4%; */
+    
         width: 100%;
-        margin: auto;
-        align-items: center;
+        
     }
     .Revenueinnerdiv{
         /* border: 2px solid yellow; */
-        background-color: white;
+    
         text-align: center;
          width: 90%;
-        height: auto;
-        margin: auto;
-        padding: 1%;
-        /* display: flex; */
-        padding-top: 2%;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        margin-top: 2%;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+         padding: 10px 2px 0 2px;
+         margin-top: 4%;
+       
+       
+       
     }
-    .Revenueinnerdiv:hover{
-        background-color: #f7e2dd;
-        transition: all 0.2s linear;
-    
-      transform: translateY(-10px);
-    }
+
     .Revenueinnerdivimage{
-        /* border: 2px solid red; */
+      
         height: 100px;
         width: 100px;
-        margin: auto;
        
        
     }
-    .Revenueinnerdivimage img{
-        height: 100%;
-        width: 100%;
-     
-    }
+    
     .Revenueinnerdiv h5{
-        margin-top: 5%;
+        margin: 3% ;
+        
+
     }
-    .Revenuemaindivheading{
-        text-align: justify;
-        width: 95%;
-        margin: auto;
-        margin-top: 2%;
-    }
+   
 }
