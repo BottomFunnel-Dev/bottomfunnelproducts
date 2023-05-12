@@ -5,7 +5,7 @@ export const CloudTelephonyLowerBanner = () => {
   return (
     <div className={styles.cloudtelephonylowerbannermainboxes}>
     <div className={styles.cloudtelephonylowerbannersometxt}>
-    <h1>Looking for an all-in-one sales and marketing solutions ? Try Bottim Funnel Suite</h1>
+    <h1>Looking for an all-in-one sales and marketing solutions ? Try Bottom Funnel Suite</h1>
     <p>Bottom funnel Suite combines the power of sales, Marketing chat and telephony in one AI-powered solution.</p>
     <div className={styles.cloudtelephonylowerbannerflexboxinner}>
     <div className={styles.cloudlowerbannerleftbox}>

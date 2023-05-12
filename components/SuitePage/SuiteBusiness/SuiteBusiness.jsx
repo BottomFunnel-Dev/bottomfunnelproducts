@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function SuiteBusiness () {
     const businessdata = [
         {
-          title:"Nature relationship and grow revenue with a single customer view",
+          title:"Nurture relationship and grow revenue with a single customer view",
           image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/icons/human-resources 1.webp"
         },   
         {

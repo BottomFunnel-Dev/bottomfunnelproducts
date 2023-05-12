@@ -1,15 +1,16 @@
 .cloudtelephonylowerbannermainboxes{
-    height: 60vh;
+    height: 68vh;
     background-color: #ffefeb;
-    position: relative;
+   
     margin-top: 3%;
 }
 .cloudtelephonylowerbannersometxt{
-    height: 80%;
+    height: auto;
     width: 90%;
     margin-left: 6%;
      margin-top: 4%;
-    position: absolute;
+     padding: 20px 0 ;
+     /* border: 1px solid red; */
 }
 .cloudtelephonylowerbannerflexboxinner{
     display: flex;
@@ -51,17 +52,17 @@
 }
 @media (max-width:1024px){
     .cloudtelephonylowerbannermainboxes{
-        height: 100vh;
-        background-color: #ffefeb;
-        position: static;
-        margin-top: 5%;
-        /* border: 2px solid; */
+        height: auto;
+    
+       
     }
     .cloudtelephonylowerbannersometxt{
-        height: fit-content;
+        height: max-content;
         text-align: center;
         width: 100%;
       margin: auto;
+
+      
         position: static;
     }
     .cloudtelephonylowerbannerflexboxinner{

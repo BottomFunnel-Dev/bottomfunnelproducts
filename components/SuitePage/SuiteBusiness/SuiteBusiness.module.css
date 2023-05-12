@@ -46,3 +46,18 @@
 /* .SuiteBusinesscard>p{
     font-size: 22px;
 } */
+@media(max-width:480px){
+   .SuiteBusinessdiv{
+    flex-direction: column;   } 
+    .SuiteBusinesscard{
+        width: 80%;
+        margin-top: 3%;
+        height: max-content;
+        padding: 20px 10px;
+    }
+    .SuiteBusinesscardimg{
+        width: 30%;
+        height: auto;
+        /* margin-top: 8%; */
+    }
+}

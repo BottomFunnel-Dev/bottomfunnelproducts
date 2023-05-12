@@ -26,6 +26,12 @@ export default function SuitePage() {
             logo: false,
           }}
         />
+         <SalesNavbar
+          navproductredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
        
 
       <SuiteBanner/>
