@@ -234,7 +234,10 @@
   margin-left: 1%;
   object-fit: contain;
 }
-
+.productFooterBottomDivHeading>p>a{
+  color: #393939;
+  text-decoration: none;
+}
 /* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */

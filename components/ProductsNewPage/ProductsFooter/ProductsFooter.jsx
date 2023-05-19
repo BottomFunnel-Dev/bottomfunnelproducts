@@ -304,7 +304,7 @@ export const ProductsFooter = () => {
                 <div className={styles.productFooterBottomContentDiv}>
                     <div className={styles.productFooterBottomDivHeading}>
                         <p>
-                            ©2022 All rights reserved to the Bottom-Funnel Private Limited
+                            ©2022 All rights reserved to the Bottom-Funnel Private Limited  <a href='/privacy-policy'>Privacy Policy</a>
                         </p>
                     </div>
 
