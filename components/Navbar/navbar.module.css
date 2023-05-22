@@ -34,6 +34,7 @@
 .logoSection {
   width: 13%;
   height: 100%;
+  /* border: 2px solid red; */
 }
 
 .logoSection img {
@@ -81,7 +82,7 @@
 }
 
 .serviceButton {
-  border: 1px solid #ef4c23;
+  /* border: 1px solid #ef4c23; */
   border-radius: 20px;
 }
 
@@ -98,7 +99,7 @@
   font-size: 13px;
   font-weight: 600;
   margin: 0 5px;
-  border: 1px solid #ef4c23;
+  /* border: 1px solid #ef4c23; */
 }
 
 .buttonGradientAnimation {
@@ -150,7 +151,7 @@
 .navbarSection.active .dropdownBar > div li:nth-child(9) {
   color: white !important;
   background-color: #ef4c23;
-  border: 1px solid #ef4c23;
+  /* border: 1px solid #ef4c23; */
 }
 
 .navbarSection.active .dropdownBar > div li:nth-child(9):hover {

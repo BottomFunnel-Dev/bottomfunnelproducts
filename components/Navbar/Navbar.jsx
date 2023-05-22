@@ -135,7 +135,6 @@ const Navbar = ({ navredux, productMount }) => {
     <>
       <div>
 
-
         <nav
           className={
             navbar
@@ -159,14 +158,19 @@ const Navbar = ({ navredux, productMount }) => {
         >
 
 
-          {!productMount.navMount && (
-            <ContactMainOther
-              bgcolor={navbar ? "black" : "transparent"}
-              textcolor={!navbar ? navredux.color : "black"}
-            />
-          )}
-          
           <div className={navstyle.logoSection}>
+            {!productMount.navMount && (
+              <ContactMainOther
+                className={
+                  navbar
+                    ? `${navstyle.navbarSection} ${navstyle.active}`
+                    : navstyle.navbarSection
+                }
+                // bgcolor={!navbar ? "red" : "yellow"}
+                textcolor={!navbar ? navredux.color : "black"}
+              />
+            )}
+
             {/* <Link href="/" className={navstyle.logoText}> */}
             <img onClick={() => router.push("/")}
               src={
@@ -181,14 +185,14 @@ const Navbar = ({ navredux, productMount }) => {
 
           <div id={navstyle.bar}>
             <label htmlFor="checkbox">
-              <IconContext.Provider value={{ className: navstyle.bars }}>
+              <IconContext.Provider value={{ className: navstyle.bars }} >
                 <AiOutlineMenu onClick={handleMob} />
               </IconContext.Provider>
             </label>
           </div>
 
           {!mobres && (
-            <div className={navstyle.dropdownBar}>
+            <div className={navstyle.dropdownBar} >
               <div className={navstyle.mobLists}>
                 <li
                   onMouseEnter={homeHoverIn}

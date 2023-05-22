@@ -124,18 +124,11 @@
   text-decoration: none;
   /* border: 1px solid #ef4c23; */
 }
-<<<<<<< HEAD
+
 .contactNumbers>li>a{
   text-decoration: none;
 }
-=======
 
-.contactNumbers > li > a {
-  text-decoration: none;
-  font-weight: 400;
-}
-
->>>>>>> a2597259aea7261f2e8c745ab77536e9a2fb56f5
 .contactNumbers > li {
   font-weight: bolder;
   text-decoration: none !important;
