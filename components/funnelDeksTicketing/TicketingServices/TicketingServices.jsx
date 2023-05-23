@@ -9,7 +9,7 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Tickets-2.webp"
+              src="https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Tickets-2.webp"
               alt="ticketingPhotos/Tickets-2.webp"
             />
           </div>
@@ -41,7 +41,7 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Tickets-3.webp"
+              src="https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Tickets-3.webp"
               alt="ticketingPhotos/Tickets-3.webp"
             />
           </div>
@@ -70,7 +70,7 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Tickets.webp"
+              src="https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Tickets.webp"
               alt="ticketingPhotos/Tickets.webp"
             />
           </div>
@@ -101,7 +101,7 @@ export const TicketingServices = () => {
         <div>
           <div className={styles.TicketingServicesImages}>
             <img
-              src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Tickets-1.webp"
+              src="https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Tickets-1.webp"
               alt="ticketingPhotos/Tickets-1.webp"
             />
           </div>

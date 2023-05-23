@@ -17,7 +17,7 @@ export const BottomFunnelServiceBanner = () => {
     </div>
     <div className={styles.BottomFunnelServiceBannerimage}>
     <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/bannerphotos.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelservicephotos/bannerphotos.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

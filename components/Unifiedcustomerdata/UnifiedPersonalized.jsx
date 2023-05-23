@@ -9,21 +9,21 @@ export const UnifiedPersonalized = () => {
         {
             htxt:"For Sales",
             stxt:"Accelerate the progression of your pipeline, and focus on engaging your target audience with a holistic understanding of lead data from multiple sources.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/business-and-finance.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/unified customer record/Components/business-and-finance.webp",
 
         },
 
         {
             htxt:"For Marketers",
             stxt:"By utilizing targeted and personalized multi-channel campaigns, it is possible to achieve higher marketing ROI and increase lead conversion. ",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/image 41.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/unified customer record/Components/image 41.webp",
 
         },
 
         {
             htxt:"For Support Teams",
             stxt:"A proactive approach to analyzing customer engagement history results in higher retention and upsell, demonstrating a positive perspective on the previous interactions with customers.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/image 42.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/unified customer record/Components/image 42.webp",
 
         },
 
@@ -93,7 +93,7 @@ export const UnifiedPersonalized = () => {
 
 <div className={styles.unifiedpersonalflexleftbox}>
 <Image
-src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/unified customer record/Components/Frame.webp"}
+src={"https://d3op2l77j7wnti.cloudfront.net/Images/unified customer record/Components/Frame.webp"}
 alt={"image"}
 width={"0"}
 height={"0"}

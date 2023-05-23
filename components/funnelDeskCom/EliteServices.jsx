@@ -29,7 +29,7 @@ export const EliteServices = () => {
         </div>
         <div className={styles.gifSide}>
           <lottie-player
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/supportdesk.json"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Animation/Supportdesk/supportdesk.json"}
             background="transparent"
             speed="1"
             loop
@@ -58,7 +58,7 @@ export const EliteServices = () => {
         </div>
         <div className={styles.gifSide}>
           <lottie-player
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/feildservice.json"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Animation/Supportdesk/feildservice.json"}
             background="transparent"
             speed="1"
             loop
@@ -87,7 +87,7 @@ export const EliteServices = () => {
         </div>
         <div className={styles.gifSide}>
           <lottie-player
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Supportdesk/contactcentre.json"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Animation/Supportdesk/contactcentre.json"}
             background="transparent"
             speed="1"
             loop

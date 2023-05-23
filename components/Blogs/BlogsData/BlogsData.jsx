@@ -12,7 +12,7 @@ export default function BlogsData () {
                 <h2>Bottom Funnel</h2>
                 <div className={styles.blogsDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/BottomFunnel.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/BottomFunnel.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -36,7 +36,7 @@ export default function BlogsData () {
                 <h2>Bottom Funnel NEO</h2>
                 <div className={styles.blogsDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/Neo.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/Neo.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -59,7 +59,7 @@ export default function BlogsData () {
             <h2>Bottom Funnel Desk</h2>
             <div className={styles.blogsDataImage}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/desk.png"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/desk.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -86,7 +86,7 @@ export default function BlogsData () {
                 <h2>Bottom Funnel <br/> Chat</h2>
                 <div className={styles.blogsDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/chat.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/chat.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -111,7 +111,7 @@ export default function BlogsData () {
                 <h2>Bottom Funnel Contact Center</h2>
                 <div className={styles.blogsDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/contactcenter.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/contactcenter.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -136,7 +136,7 @@ export default function BlogsData () {
             <h2>Bottom Funnel Customer Success</h2>
             <div className={styles.blogsDataImage}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/success.png"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/success.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -162,7 +162,7 @@ export default function BlogsData () {
                 <h2>Bottom Funnel Sales</h2>
                 <div className={styles.blogsDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/sales.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/sales.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -184,7 +184,7 @@ export default function BlogsData () {
                 <h2>Bottom Funnel Marketer</h2>
                 <div className={styles.blogsDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/marketer.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/marketer.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -206,7 +206,7 @@ export default function BlogsData () {
             <h2>Bottom Funnel Service</h2>
             <div className={styles.blogsDataImage}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/service.png"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/service.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}
@@ -232,7 +232,7 @@ export default function BlogsData () {
                 <h2>Bottom Funnel Team</h2>
                 <div className={styles.blogsDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/blogs/team.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/blogs/team.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

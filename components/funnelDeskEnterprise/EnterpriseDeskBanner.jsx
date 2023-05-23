@@ -16,7 +16,7 @@ export const EnterpriseDeskBanner = () => {
       </div>
       <div className={styles.enterBanner}>
         <img
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Enterprise/banner/Banner.png"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/Enterprise/banner/Banner.png"
           alt="banner/Banner.png"
         />
       </div>

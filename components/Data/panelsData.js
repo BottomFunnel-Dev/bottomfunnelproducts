@@ -52,7 +52,7 @@ export const logisticsCustomer = {
   ],
   sectionTitle: "Customer App",
 
-  background: "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logistic/rectanglebase.png",
+  background: "/publichttps://d3op2l77j7wnti.cloudfront.net/Images/logistic/rectanglebase.png",
 };
 
 export const logisticDrive = {
@@ -108,7 +108,7 @@ export const logisticDrive = {
     },
   ],
   sectionTitle: "Drive App",
-  background: "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logistic/triangle.png",
+  background: "/publichttps://d3op2l77j7wnti.cloudfront.net/Images/logistic/triangle.png",
   
 };
 
@@ -165,7 +165,7 @@ export const logisticAdmin = {
   ],
 
   sectionTitle: "Admin Panel",
-  background: "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logistic/plane\ triangle.png",
+  background: "/publichttps://d3op2l77j7wnti.cloudfront.net/Images/logistic/plane\ triangle.png",
 };
 export const carpoolCustomer = {
   customerdata: [
@@ -221,7 +221,7 @@ export const carpoolCustomer = {
   ],
 
   sectionTitle: "Customer App",
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const carpoolDrive = {
@@ -278,7 +278,7 @@ export const carpoolDrive = {
   ],
 
   sectionTitle: "Driver App",
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/group9.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/group9.png",
 };
 
 export const carpoolAdmin = {
@@ -335,7 +335,7 @@ export const carpoolAdmin = {
   ],
 
   sectionTitle: "Admin App",
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 
@@ -395,7 +395,7 @@ export const bettingCustomer = {
   ],
 
   sectionTitle: "User App",
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 export const bettingDrive = { 
@@ -452,7 +452,7 @@ export const bettingDrive = {
   ],
 
   sectionTitle: "Books Panel",
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 export const bettingAdmin = {
@@ -509,7 +509,7 @@ export const bettingAdmin = {
   ],
 
   sectionTitle: "Admin App",
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 export const alcoholCustomer = {
@@ -670,7 +670,7 @@ export const wellnessPatient = {
   ],
   sectionTitle: "Patient App",
 
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/WellnessDevApp/Banners/banner2.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/WellnessDevApp/Banners/banner2.png",
 };
 
 export const wellnessAdmin = {
@@ -711,7 +711,7 @@ export const wellnessAdmin = {
   ],
   sectionTitle: "Admin Panel",
 
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/WellnessDevApp/Banners/banner2.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/WellnessDevApp/Banners/banner2.png",
 };
 
 export const wellnessDoctor = {
@@ -752,7 +752,7 @@ export const wellnessDoctor = {
   ],
   sectionTitle: "Admin Panel",
 
-  background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/WellnessDevApp/Banners/banner2.png",
+  background: "https://d3op2l77j7wnti.cloudfront.net/Images/WellnessDevApp/Banners/banner2.png",
 };
 
 export const datingCustomer = {

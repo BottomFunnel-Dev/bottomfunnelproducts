@@ -20,7 +20,7 @@ export const ManagedserviceProviderHelpDesk = () => {
                         preferred channels</h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/HelpDesk1.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/HelpDesk1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -42,7 +42,7 @@ export const ManagedserviceProviderHelpDesk = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/HelpDesk2.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/HelpDesk2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -62,7 +62,7 @@ export const ManagedserviceProviderHelpDesk = () => {
                         of your support team</h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/HelpDesk3.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/HelpDesk3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

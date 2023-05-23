@@ -59,7 +59,7 @@ export const OurAchievements = () => {
       </div>
       <div className={styles.OurAchievementsimage}>
         <img
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/our-achievements.jpg"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/aboutusImage/our-achievements.jpg"
           alt="Our Achievement"
         />
       </div>

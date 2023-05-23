@@ -943,21 +943,21 @@ export const scaleRightContent = [
 export const product1 = [
   {
     dropContent: "Bottom Funnel Support Desk",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/desk.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/desk.png",
     path: "funnel-desk",
     title: "Delight Your Customer With Effortless Support Desk Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Chat",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Chat.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Chat.png",
     path: "Chat",
     title: "Delight Your Customer With Effortless Bottom Funnel Chat Service",
     productHover: "#a1ffca",
   },
   {
     dropContent: "Bottom Funnel Marketer",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
     path: "Marketer",
     title: "Delight Your Customer With Effortless MarketPlace Service",
     productHover: "#ffcf9c",
@@ -965,14 +965,14 @@ export const product1 = [
 
   {
     dropContent: "Bottom Funnel sales",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/bottomFunnnelSales.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/bottomFunnnelSales.png",
     path: "sales",
     title: "Delight Your Customer With Effortless Sales Service",
     productHover: "#ffaf9a",
   },
   {
     dropContent: "Bottom Funnel Service",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Service.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Service.png",
     path: "Service",
     title: "Delight Your Customer With Effortless Service",
     productHover: "#e1e1e1",
@@ -982,7 +982,7 @@ export const product1 = [
 export const product2 = [
   {
     dropContent: "Bottom Funnel Omnichannel",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/omnichannel.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/omnichannel.png",
     path: "Omnichannel",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
@@ -990,21 +990,21 @@ export const product2 = [
 
   {
     dropContent: "Bottom Funnel Customer Success",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/success.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/success.png",
     path: "Team",
     title: "Delight Your Customer With Effortless Customer Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Contact Center",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/contact.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/contact.png",
     path: "ContactManagement",
     title: "Delight Your Customer With Effortless Contact Center Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel CRM Suite",
-    navIcons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Sales.png",
+    navIcons: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Sales.png",
     path: "Team",
     title: "Delight Your Customer With Effortless CRM Suite Service",
     productHover: "#ffaf9a",

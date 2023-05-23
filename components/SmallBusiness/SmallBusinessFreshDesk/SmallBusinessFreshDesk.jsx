@@ -9,7 +9,7 @@ export const SmallBusinessFreshDesk = () => {
                     <div>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon5.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/Icon5.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -30,7 +30,7 @@ export const SmallBusinessFreshDesk = () => {
                     <div>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon6.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/Icon6.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -53,7 +53,7 @@ export const SmallBusinessFreshDesk = () => {
                     <div>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon7.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/Icon7.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -79,7 +79,7 @@ export const SmallBusinessFreshDesk = () => {
                     <div>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon8.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/Icon8.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -101,7 +101,7 @@ export const SmallBusinessFreshDesk = () => {
                     <div>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/Icon9.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/Icon9.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

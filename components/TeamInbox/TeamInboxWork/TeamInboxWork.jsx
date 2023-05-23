@@ -9,7 +9,7 @@ export default function TeamInboxWork () {
         <p> An agent’s workspace is a big part of their workday. So we’ve built Team Inbox keeping them in mind, packed with features that seem small but make a big difference to their efficiency and productivity.</p>
         <div className={styles.TeamInboxWorkimg}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerTeamInbox/components/Layer_1.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/MarketerTeamInbox/components/Layer_1.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}

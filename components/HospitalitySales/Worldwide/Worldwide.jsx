@@ -9,7 +9,7 @@ export const Worldwide = () => {
         <div className={styles.Worldwidemaindiv}>
             <div className={styles.Worldwidemaindivimage}>
             <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/logos.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/logos.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

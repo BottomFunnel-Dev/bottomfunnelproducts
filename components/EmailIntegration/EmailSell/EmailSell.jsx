@@ -16,7 +16,7 @@ export const EmailSell = () => {
                 <h5>Schedule emails</h5>
                 <div  className={styles.EmailSellmaincarddivinnerimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (3).webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/EmailIntegrationphotos/bannerr (3).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -31,7 +31,7 @@ export const EmailSell = () => {
                 <h5>Set up real-time alerts</h5>
                 <div  className={styles.EmailSellmaincarddivinnerimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (5).webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/EmailIntegrationphotos/bannerr (5).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -46,7 +46,7 @@ export const EmailSell = () => {
                 <h5>Forward emails</h5>
                 <div  className={styles.EmailSellmaincarddivinnerimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (4).webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/EmailIntegrationphotos/bannerr (4).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -63,7 +63,7 @@ export const EmailSell = () => {
                 <h5>Customize emails</h5>
                 <div  className={styles.EmailSellmaincarddivinnerimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (6).webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/EmailIntegrationphotos/bannerr (6).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -78,7 +78,7 @@ export const EmailSell = () => {
                 <h5>Automate email communication</h5>
                 <div  className={styles.EmailSellmaincarddivinnerimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (8).webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/EmailIntegrationphotos/bannerr (8).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -93,7 +93,7 @@ export const EmailSell = () => {
                 <h5>Share email templates</h5>
                 <div  className={styles.EmailSellmaincarddivinnerimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/EmailIntegrationphotos/bannerr (7).webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/EmailIntegrationphotos/bannerr (7).webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

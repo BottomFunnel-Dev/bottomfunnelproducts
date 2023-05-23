@@ -15,7 +15,7 @@ export const ProductsFooter = () => {
         <div className={styles.productsFooterParentDiv}>
             <div className={styles.productsFooterTopImagesMainDiv}>
                 <div className={styles.productFooterLogoDiv}>
-                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
+                    <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
                 </div>
 
                 <div className={styles.productFooterLogoDiv1}>
@@ -295,8 +295,8 @@ export const ProductsFooter = () => {
                     <div className={styles.productFooterBottomDivImagesDiv}>
                         <p> Download the apps now</p>
                         <div>
-                            <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/PlayStore.png' alt='image' />
-                            <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/AppStore.png' alt='image' />
+                            <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/PlayStore.png' alt='image' />
+                            <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/AppStore.png' alt='image' />
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@ export const ProductsFooter = () => {
 
                     <div className={styles.productFooterBottomDivPaymentImage}>
                         <p> We accept: </p>
-                        <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/PaymentGroup.png' alt='image' />
+                        <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/PaymentGroup.png' alt='image' />
                     </div>
                 </div>
             </div>

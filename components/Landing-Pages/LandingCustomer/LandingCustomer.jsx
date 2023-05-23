@@ -7,7 +7,7 @@ export const LandingCustomer = () => {
             <div className={styles.LandingCustomerOnlyChild}>
                 <div className={styles.LandingCustomerImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Customer.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/LandingPages/Customer.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

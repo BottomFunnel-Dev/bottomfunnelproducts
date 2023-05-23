@@ -6,12 +6,12 @@ export default function TeamInboxFeatures() {
     const inboxdata=[
   
         {
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerTeamInbox/components/feature1.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/MarketerTeamInbox/components/feature1.webp",
             title:"Multiple channels. One inbox.",
             desc:"Manage and reply to conversations from one workspace,regardless of the channel - WhatsApp, Apple Business Chat,Facebook, LINE, website, mobile app, and more."
         },
         {
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerTeamInbox/components/feature2.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/MarketerTeamInbox/components/feature2.webp",
             title:"No alt-tabbing. Just dabbing.",
             desc:"Stop switching between screens to get information about the customer. Team Inbox empowers agents with all the context they need in one place using native and third-party app integrations."
         },

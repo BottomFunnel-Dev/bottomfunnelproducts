@@ -28,7 +28,7 @@ export const TopTickets = () => {
             </div>
             <span>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/Tickets.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskAutomation/Tickets.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}
@@ -44,7 +44,7 @@ export const TopTickets = () => {
             </div>
             <span>
              <lottie-player
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Automation/four.json"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Animation/Automation/four.json"}
                   background="transparent"
                   speed="1"
                   loop

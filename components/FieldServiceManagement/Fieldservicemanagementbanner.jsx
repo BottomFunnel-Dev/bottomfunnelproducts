@@ -9,7 +9,7 @@ export const Fieldservicemanagementbanner = () => {
       <div className={styles.fieldServiceBannerMainDiv}>
         <div className={styles.fieldServiceBannerImage}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Screens/banner.png"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Feild Service Management/Screens/banner.png"}
           alt={"icon"}
           width={"0"}
           height={"0"}

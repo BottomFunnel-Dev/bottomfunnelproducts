@@ -23,7 +23,7 @@ export const SocialMediaCampaignAwareness = () => {
       </div>
       <div className={styles.socialmediaAwarenessImage}>
         <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SocialMediaCampaign/Group2.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/SocialMediaCampaign/Group2.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

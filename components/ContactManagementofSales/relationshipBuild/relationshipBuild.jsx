@@ -12,7 +12,7 @@ export const relationshipBuild = () => {
               
               <div>
               <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactmanagementofsalesphotos/bgbanner.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactmanagementofsalesphotos/bgbanner.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

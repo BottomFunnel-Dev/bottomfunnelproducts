@@ -7,7 +7,7 @@ export const JourneyBanner= () => {
         <div className={styles.journeyParent}>
             <div className={styles.journeyone}>
             <lottie-player 
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/animationjsonfile.json"
+            src="https://d3op2l77j7wnti.cloudfront.net/Animation/animationjsonfile.json"
             background="transparent"
             speed="1"
             loop

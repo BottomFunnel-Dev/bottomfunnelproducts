@@ -10,7 +10,7 @@ export const Messaginchannelbanner = () => {
     <div className={styles.messagingchannelbannerleft}>
     
     <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/Group 1000006011.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/Group 1000006011.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

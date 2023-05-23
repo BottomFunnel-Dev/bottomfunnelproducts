@@ -6,15 +6,15 @@ export default function SuiteBusiness () {
     const businessdata = [
         {
           title:"Nature relationship and grow revenue with a single customer view",
-          image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/icons/human-resources 1.webp"
+          image:"https://d3op2l77j7wnti.cloudfront.net/Images/SuitePage/icons/human-resources 1.webp"
         },   
         {
           title:"Close deals faster by sending the right message at the right time",
-          image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/icons/handshake 1.webp"
+          image:"https://d3op2l77j7wnti.cloudfront.net/Images/SuitePage/icons/handshake 1.webp"
         }, 
         {
           title:"Reduce IT complexity & cost with a comprehenshive Solution",
-          image:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/icons/minimize 1.webp"
+          image:"https://d3op2l77j7wnti.cloudfront.net/Images/SuitePage/icons/minimize 1.webp"
         }, 
       
         
@@ -30,7 +30,7 @@ export default function SuiteBusiness () {
                   <div className={styles.SuiteBusinesscardimg}>
                     <Image
                     src={el.image}
-                    alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/icons/"}
+                    alt={"https://d3op2l77j7wnti.cloudfront.net/Images/SuitePage/icons/"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}

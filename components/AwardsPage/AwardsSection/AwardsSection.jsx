@@ -6,42 +6,42 @@ export const AwardsSection = () => {
   const cardsData = [
     {
       title: "Top Mobile App Developers & Development Companies India 2022",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/clutch.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/clutch.png",
       hex: "#6A797D",
     },
     {
       title: "Best Mobile App Development Companies 2022 by G2",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/g2-crowd.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/g2-crowd.png",
       hex: "#EF492D",
     },
     {
       title: "Top Mobile App Development Companies India",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/themanifest.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/themanifest.png",
       hex: "#951A42",
     },
     {
       title: "Top Mobile App Development Companies India",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/verified-agency.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/verified-agency.png",
       hex: "#F85059",
     },
     {
       title: "Best Mobile App Development Companies",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/visual-objects.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/visual-objects.png",
       hex: "#D78C72",
     },
     {
       title: "Top Mobile App Development Agency 2018",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/tabbyawards.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/tabbyawards.png",
       hex: "#C9162D",
     },
     {
       title: "Top Mobile App Development companies in India 2022",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/it-firms.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/it-firms.png",
       hex: "#0F9BE6",
     },
     {
       title: "Top Mobile App Developers in India 2022",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/awards-images/goodfirms.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/awards-images/goodfirms.png",
       hex: "#FDAA00",
     },
   ];

@@ -9,19 +9,19 @@ export const Messagincommunication = () => {
         {
             htxt:"Connect across apps",
             stxt:"Reduce the complexity of communication across Google, Apple, WhatsApp, and other business-related messaging services.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 46.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/image 46.webp",
         },
 
         {
             htxt:"Be Available",
             stxt:"Connect with your customers on their preferred messaging channels and build meaningful relationships wherever they are.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 47.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/image 47.webp",
         },
 
         {
             htxt:"Build customer trust",
             stxt:"Stay dependable and help your customers when they need you using our secure and reliable messaging API.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 48.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/image 48.webp",
         },
     ]
 
@@ -54,7 +54,7 @@ export const Messagincommunication = () => {
 <p>By increasing your agent productivity and enhancing your customer experience, you can achieve a higher level of contextual conversations across popular messaging applications.</p>
 <div className={styles.messagingexperienceimagebox}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/messaging channels.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/messaging channels.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

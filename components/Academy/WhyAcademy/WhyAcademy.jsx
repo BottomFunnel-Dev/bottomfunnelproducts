@@ -10,7 +10,7 @@ export default function WhyAcademy () {
             <div className={styles.whyAcademyContentDataDiv}>
                 <div className={styles.whyAcademyContentDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/academy/Rectangle1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/academy/Rectangle1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -24,7 +24,7 @@ export default function WhyAcademy () {
             <div className={styles.whyAcademyContentDataDiv}>
                 <div className={styles.whyAcademyContentDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/academy/Rectangle2.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/academy/Rectangle2.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -38,7 +38,7 @@ export default function WhyAcademy () {
             <div className={styles.whyAcademyContentDataDiv}>
                 <div className={styles.whyAcademyContentDataImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/academy/Rectangle3.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/academy/Rectangle3.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

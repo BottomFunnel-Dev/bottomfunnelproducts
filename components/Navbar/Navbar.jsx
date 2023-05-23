@@ -175,8 +175,8 @@ const Navbar = ({ navredux, productMount }) => {
             <img onClick={() => router.push("/")}
               src={
                 navredux.logo && !navbar
-                  ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
-                  : "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/blacklogo.png"
+                  ? "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/whitelogobottom.png"
+                  : "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/blacklogo.png"
               }
               alt="image"
             />

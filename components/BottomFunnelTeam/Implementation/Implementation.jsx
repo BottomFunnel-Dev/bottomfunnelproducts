@@ -20,7 +20,7 @@ export const Implementation = () => {
             </div>
             <div className={styles.Implementationinnerdivimage}>
             <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/screen1.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/screen1.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -39,7 +39,7 @@ export const Implementation = () => {
             </div>
             <div className={styles.Implementationinnerdivimage}>
             <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/screen2.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/screen2.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -58,7 +58,7 @@ export const Implementation = () => {
             </div>
             <div className={styles.Implementationinnerdivimage}>
             <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/screen3.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/screen3.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -77,7 +77,7 @@ export const Implementation = () => {
             </div>
             <div className={styles.Implementationinnerdivimage}>
             <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/screen4.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/screen4.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}

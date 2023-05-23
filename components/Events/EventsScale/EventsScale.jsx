@@ -10,7 +10,7 @@ export const EventsScale = () => {
 
                     <div className={styles.eventsScaleimage}>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/imageone.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/Event/imageone.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -35,7 +35,7 @@ export const EventsScale = () => {
 
                     <div className={styles.eventsScaleimage}>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/imagetwo.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/Event/imagetwo.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -51,7 +51,7 @@ export const EventsScale = () => {
 
                     <div className={`${styles.eventsScaleimage} ${styles.eventsScalethirdimage}`}>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/imagethree.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/Event/imagethree.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

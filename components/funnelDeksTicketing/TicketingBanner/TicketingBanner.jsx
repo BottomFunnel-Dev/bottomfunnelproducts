@@ -6,7 +6,7 @@ export const TicketingBanner = () => {
     <div className={styles.ticketingBannerContainer}>
       <div className={styles.ticketingBannerImage}>
         <img
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/ticketing-animation.gif"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/ticketing-animation.gif"
           alt="banner.webp"
         />
       </div>

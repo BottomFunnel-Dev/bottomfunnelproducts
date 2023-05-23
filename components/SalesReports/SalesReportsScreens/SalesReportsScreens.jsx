@@ -9,7 +9,7 @@ export const SalesReportsScreens = () => {
             <div  className={style.SalesReportsScreensmaininnerdiv}>
                 <div className={style.SalesReportsScreensmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/salesreportimage/screen1.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/salesreportimage/screen1.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -28,7 +28,7 @@ export const SalesReportsScreens = () => {
             <div  className={style.SalesReportsScreensmaininnerdivone}>
                 <div className={style.SalesReportsScreensmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/salesreportimage/screen2.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/salesreportimage/screen2.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -55,7 +55,7 @@ export const SalesReportsScreens = () => {
             <div  className={style.SalesReportsScreensmaininnerdiv}>
                 <div className={style.SalesReportsScreensmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/salesreportimage/screen3.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/salesreportimage/screen3.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -74,7 +74,7 @@ export const SalesReportsScreens = () => {
             <div  className={style.SalesReportsScreensmaininnerdivone}>
                 <div className={style.SalesReportsScreensmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/salesreportimage/screen4.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/salesreportimage/screen4.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -97,7 +97,7 @@ export const SalesReportsScreens = () => {
             <div  className={style.SalesReportsScreensmaininnerdiv}>
                 <div className={style.SalesReportsScreensmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/salesreportimage/screen5.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/salesreportimage/screen5.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -116,7 +116,7 @@ export const SalesReportsScreens = () => {
             <div  className={style.SalesReportsScreensmaininnerdivone}>
                 <div className={style.SalesReportsScreensmaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/salesreportimage/screen6.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/salesreportimage/screen6.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

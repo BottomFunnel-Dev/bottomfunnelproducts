@@ -8,21 +8,21 @@ export const Stellerfieldservice = () => {
         {
             htxt:"Chat Support",
             stxt:"Included on all plans, our support team is available anytime to solve your issues and help your team get back on track supporting customers.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 14.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Feild Service Management/Icons/Rectangle 14.webp",
 
         },
 
         {
             htxt:"Connecting tools",
             stxt:"with over 600 apps for Bottom funnel desk, connect your CRM, OMS, billing or invoicing solutions, and handle all service trasactions from one place.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 14-1.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Feild Service Management/Icons/Rectangle 14-1.webp",
 
         },
 
         {
             htxt:"Transparent pricing",
             stxt:"With over 600 apps for Bottom funnel desk, connect your CRM,OMS,Billing or invoicing solutions, and handle all service transactions from one place.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 14-2.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Feild Service Management/Icons/Rectangle 14-2.webp",
 
         },
 

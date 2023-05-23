@@ -6,9 +6,9 @@ const OndemandSection = () => {
   const ondemandSol = [
     {
       solutionName: "Mobile App Solution",
-      bg: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemand/mobile.png",
-      logoImgageOrange: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemand/mobileAppOrange.png",
-      logoImgageWhite: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemand/mobileAppWhite.png",
+      bg: "https://d3op2l77j7wnti.cloudfront.net/Images/ondemand/mobile.png",
+      logoImgageOrange: "https://d3op2l77j7wnti.cloudfront.net/Images/ondemand/mobileAppOrange.png",
+      logoImgageWhite: "https://d3op2l77j7wnti.cloudfront.net/Images/ondemand/mobileAppWhite.png",
       description:
         "Our mobility solutions allow people to connect and share information from the most remote of places, even if they're on the move.",
       actionArrow: <i class="bi bi-arrow-right"></i>,
@@ -18,8 +18,8 @@ const OndemandSection = () => {
       solutionName: "Software Solutions",
       bg: "Images/ondemand/webdev.png",
 
-      logoImgageOrange: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemand/softwareSolutionsOrange.png",
-      logoImgageWhite: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ondemand/softwareSolutionsWhite.png",
+      logoImgageOrange: "https://d3op2l77j7wnti.cloudfront.net/Images/ondemand/softwareSolutionsOrange.png",
+      logoImgageWhite: "https://d3op2l77j7wnti.cloudfront.net/Images/ondemand/softwareSolutionsWhite.png",
       description:
         "our software solutions allow us to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
       actionArrow: <i class="bi bi-arrow-right"></i>,

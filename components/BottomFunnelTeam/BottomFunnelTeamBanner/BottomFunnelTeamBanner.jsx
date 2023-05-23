@@ -12,7 +12,7 @@ export const BottomFunnelTeamBanner = () => {
         </div>
         <div className={styles.BottomFunnelTeamBannerimage}>
         <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/bgbanner.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/bgbanner.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}

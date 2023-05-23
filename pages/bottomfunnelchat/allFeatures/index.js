@@ -14,7 +14,7 @@ import { ProdNavbar } from "../../../components/ProdNavbar";
 
 const productData = {
   title: "Bottom Funnel Chat",
-  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Chat.png",
+  logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Chat.png",
   width: "65%",
   list1: {
     title: "Features",

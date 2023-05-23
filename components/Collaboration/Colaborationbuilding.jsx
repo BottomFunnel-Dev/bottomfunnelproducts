@@ -11,21 +11,21 @@ export const Colaborationbuilding = () => {
         {
             htxt:"Prioritize tasks",
             stxt:"Collaborate with your colleagues to gain an understanding of the entire scope of your project, including support tickets, sales transactions, service requests, and other tasks.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 52.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Collaboration/components/image 52.webp",
 
         },
 
         {
             htxt:"Forgo the habit of tab switching",
             stxt:"Maintain constant vigil over conversations to stay up-to-date without switching between the Bottom Funnel products and other team collaboration tools.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 53.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Collaboration/components/image 53.webp",
 
         },
 
         {
             htxt:"Utilize the tools you favor",
             stxt:"Right where you are working, access the collaboration UI that's native to your favorite Bottom Funnel  products for assistance.   ",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/image 54.webp",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Collaboration/components/image 54.webp",
 
         },
 

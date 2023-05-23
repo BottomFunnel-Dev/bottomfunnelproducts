@@ -9,7 +9,7 @@ export const Smbcustomerservice = () => {
             htxt:"Unify customer conversations",
             stxt:"Bring all customer issues from email,chat, phone or social media into bottom funnel, keep customers happy by creating fast, personalized customer experiences across channels.",
             link:"Learn more about multichannel support",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/SMB/one.json",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Animation/SMB/one.json",
             icon:"/Images/SMB/Rectangle 9.webp",
         },
 
@@ -17,7 +17,7 @@ export const Smbcustomerservice = () => {
             htxt:"Speed up resolutions",
             stxt:"Save time by automating routine, time-consuming actions, including routing customer request,following up, and gathering feedback.Answer questions in a click with canned responses.",
             link:"Increase agent productivity and engagement",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/SMB/two.json",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Animation/SMB/two.json",
             icon:"/Images/SMB/Rectangle 10-1.webp",
         },
 
@@ -25,7 +25,7 @@ export const Smbcustomerservice = () => {
             htxt:"Help Customers help themselves",
             stxt:"Enable customers to find answer on their own by publishing an on-brand FAQ portal.Self-service",
             link:"Offer self-service with FAQ portals",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/SMB/three.json",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Animation/SMB/three.json",
             icon:"/Images/SMB/Rectangle 11.webp",
         },
 
@@ -33,8 +33,8 @@ export const Smbcustomerservice = () => {
         //     htxt:"Get actionable insights",
         //     stxt:"Track key metrics such as customer satisfaction score and average response time using customizable dashboards and reports to measure performance, increase accountability and make better decisions.",
         //     link:"Utilize reports to support better",
-        //     img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Group 46.webp",
-        //     icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SMB/Rectangle 10.webp",
+        //     img:"https://d3op2l77j7wnti.cloudfront.net/Images/SMB/Group 46.webp",
+        //     icon:"https://d3op2l77j7wnti.cloudfront.net/Images/SMB/Rectangle 10.webp",
         // },
     ]
   return (

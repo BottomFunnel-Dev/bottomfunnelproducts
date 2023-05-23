@@ -21,7 +21,7 @@ export const AiWork = () => {
           </div>
           <span>
           <lottie-player
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Automation/three.json"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Animation/Automation/three.json"}
                   background="transparent"
                   speed="1"
                   loop

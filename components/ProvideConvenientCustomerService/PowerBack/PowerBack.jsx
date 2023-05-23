@@ -13,7 +13,7 @@ export const PowerBack = () => {
 </div>
 <div className={styles.PowerBackmaindivheadingimage}>
 <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/3-1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/3-1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -31,7 +31,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/3-2.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/3-2.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -49,7 +49,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/3-3.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/3-3.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -68,7 +68,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/3-4.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/3-4.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -86,7 +86,7 @@ export const PowerBack = () => {
      <hr/>
      <div className={styles.PowerBackmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/3-5.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/3-5.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

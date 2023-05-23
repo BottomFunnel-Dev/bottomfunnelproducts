@@ -19,8 +19,8 @@ export default function SuiteBanner () {
         </div>
         <div className={styles.SuiteBannerimg}>
         <Image
-        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/Banners & Backgrounds/Group 1000003852.webp"}
-        alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SuitePage/Banners & Backgrounds/"}
+        src={"https://d3op2l77j7wnti.cloudfront.net/Images/SuitePage/Banners & Backgrounds/Group 1000003852.webp"}
+        alt={"https://d3op2l77j7wnti.cloudfront.net/Images/SuitePage/Banners & Backgrounds/"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}

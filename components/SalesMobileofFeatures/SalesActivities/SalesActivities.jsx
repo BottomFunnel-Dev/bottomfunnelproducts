@@ -17,7 +17,7 @@ export const SalesActivities = () => {
                 </div>
                 <div className={styles.SalesActivitiesinnerdivboximage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/screen1.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/screen1.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -35,7 +35,7 @@ export const SalesActivities = () => {
                 </div>
                 <div className={styles.SalesActivitiesinnerdivboximagereverse}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/screen2.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/screen2.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -53,7 +53,7 @@ export const SalesActivities = () => {
                 </div>
                 <div className={styles.SalesActivitiesinnerdivboximage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/screen3.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/screen3.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -71,7 +71,7 @@ export const SalesActivities = () => {
                 </div>
                 <div className={styles.SalesActivitiesinnerdivboximagereverse}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/screen4.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/screen4.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -89,7 +89,7 @@ export const SalesActivities = () => {
                 </div>
                 <div className={styles.SalesActivitiesinnerdivboximage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/screen5.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/screen5.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -107,7 +107,7 @@ export const SalesActivities = () => {
                 </div>
                 <div className={styles.SalesActivitiesinnerdivboximagereverse}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/screen6.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/screen6.webp"}
           alt={""}
           width={"0"}
           height={"0"}

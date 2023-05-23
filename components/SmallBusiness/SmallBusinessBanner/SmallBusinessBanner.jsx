@@ -15,7 +15,7 @@ export const SmallBusinessBanner = () => {
             </div>
             <div className={styles.SmallBusinessBannerParentSecchild}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/banner.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/banner.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

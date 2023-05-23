@@ -13,7 +13,7 @@ export const SocialMediaCampaignSolution = () => {
       </p>
       <div className={styles.socialmediaSolutionImage}>
         <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SocialMediaCampaign/Group1.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/SocialMediaCampaign/Group1.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

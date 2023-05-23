@@ -17,7 +17,7 @@ export const AllFeaturesTemplate = () => {
                                 <h3>Email Templates</h3>
                                 <div className={styles.allFeaturesTemplateImage1}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle18.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle18.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -38,7 +38,7 @@ export const AllFeaturesTemplate = () => {
                                 <h3>Bot Templates</h3>
                                 <div className={styles.allFeaturesTemplateImage2}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle19.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle19.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -59,7 +59,7 @@ export const AllFeaturesTemplate = () => {
                                 <h3>Journey Templates</h3>
                                 <div className={styles.allFeaturesTemplateImage3}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle20.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle20.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}

@@ -17,7 +17,7 @@ Here are some statistics—from the Forrester Banking Experience Report—that b
       <div  className={style.Financepragrafinnerdivsecondinner}>
         <div className={style.Financepragrafinnerdivsecondimage}>
         <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (13).webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/financesalesimage/banner (13).webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
