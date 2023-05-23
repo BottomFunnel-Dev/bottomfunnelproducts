@@ -6,32 +6,32 @@ export const VettingRoles = () => {
   const cardData = [
     {
       title: "Email Marketers",
-      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/email.webp",
+      icons: "https://d3op2l77j7wnti.cloudfront.net/Images/VettingPhotos/email.webp",
       body: "Email marketing is a form of marketing that you can use to alert your email list customers about new products, discounts, and other services.",
     },
     {
       title: "Salesforce experts",
-      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/salesforce.webp",
+      icons: "https://d3op2l77j7wnti.cloudfront.net/Images/VettingPhotos/salesforce.webp",
       body: "With the changing global business landscape, there is a need for professionals who understand the complexities of the business.",
     },
     {
       title: "Mobile App Developer",
-      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/mobile.webp",
+      icons: "https://d3op2l77j7wnti.cloudfront.net/Images/VettingPhotos/mobile.webp",
       body: "Bottom Funnel is one such company that caters to the growing need for mobile applications among businesses big and small.",
     },
     {
       title: "Frontend Developer",
-      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/desktop.webp",
+      icons: "https://d3op2l77j7wnti.cloudfront.net/Images/VettingPhotos/desktop.webp",
       body: "HTML, CSS, and JavaScript are three major languages that you need to know when it comes to building a website or app.",
     },
     {
       title: " Backend Developer",
-      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/setting.webp",
+      icons: "https://d3op2l77j7wnti.cloudfront.net/Images/VettingPhotos/setting.webp",
       body: "A back-end developer is an expert in developing and maintaining the mechanisms that process data and perform actions on a website.",
     },
     {
       title: "UXUI Developer",
-      icons: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/VettingPhotos/pen.webp",
+      icons: "https://d3op2l77j7wnti.cloudfront.net/Images/VettingPhotos/pen.webp",
       body: "Bottom Funnel is an interactive web development company that designs and builds user-friendly websites and web applications.",
     },
   ];

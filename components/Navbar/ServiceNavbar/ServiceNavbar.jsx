@@ -74,7 +74,7 @@ export const ServiceNavbar = ({ navproductredux }) => {
       }}
     >
       <div className={prodnav.deskLogo}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Service.png" />
+        <img src="https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Service.png" />
         <h5>Bottom Funnel Service</h5>
       </div>
       <div className={prodnav.serviceList}>
@@ -86,7 +86,7 @@ export const ServiceNavbar = ({ navproductredux }) => {
           Features
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -116,7 +116,7 @@ export const ServiceNavbar = ({ navproductredux }) => {
           Solutions{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>

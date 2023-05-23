@@ -51,7 +51,7 @@ export const RetailShopers = () => {
         </div>
         <div className={styles.retailshopupperboximageright}>
             <lottie-player
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/RetailAndEcommerce/one.json"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Animation/RetailAndEcommerce/one.json"}
                 background="transparent"
                 speed="1"
                 loop

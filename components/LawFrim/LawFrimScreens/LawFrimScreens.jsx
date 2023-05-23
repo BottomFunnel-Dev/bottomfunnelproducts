@@ -15,7 +15,7 @@ Legal, being a data-sensitive industry, it is essential to securely record every
 </div>
 <div className={styles.LawFrimScreensmaindivimage}>
 <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/Law firm 01.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 01.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -35,7 +35,7 @@ In law, no two cases are the same. Even if they are similar, the details vary to
 </div>
 <div className={styles.LawFrimScreensmaindivimage}>
 <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/Law firm 05.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 05.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -55,7 +55,7 @@ Your clients and prospects seek your legal help and will reach out to you by any
 </div>
 <div className={styles.LawFrimScreensmaindivimage}>
 <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/Law firm 03.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 03.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -86,7 +86,7 @@ To win cases, information is key. And traditionally, this information is strewn 
 </div>
 <div className={styles.LawFrimScreensmaindivimage}>
 <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/Law firm 04.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 04.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -111,7 +111,7 @@ Time is a law firm’s most precious asset. Between following up with prospects 
 </div>
 <div className={styles.LawFrimScreensmaindivimage}>
 <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/lawfrimphotos/Law firm 02.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 02.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

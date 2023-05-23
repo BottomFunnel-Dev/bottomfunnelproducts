@@ -24,7 +24,7 @@ export const AccessData = () => {
         <p>Any change on the mobile app automatically syncs with the web application, so you can be assured that your information will always be up to date.</p>
         </div> 
         <div className={style.AccessDatainnerdiv2}>
-            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/realestatesales/access.png" alt="image" />
+            <img src="https://d3op2l77j7wnti.cloudfront.net/Images/realestatesales/access.png" alt="image" />
             </div>  
     
 

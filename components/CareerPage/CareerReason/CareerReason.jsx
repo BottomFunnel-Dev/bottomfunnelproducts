@@ -65,7 +65,7 @@ export const CareerReason = () => {
         </div>
 
         <div className={career.careerReasonImage}>
-          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/careerPhotos/reason.png" alt="whyBF.png" />
+          <img src="https://d3op2l77j7wnti.cloudfront.net/Images/careerPhotos/reason.png" alt="whyBF.png" />
         </div>
       </div>
 

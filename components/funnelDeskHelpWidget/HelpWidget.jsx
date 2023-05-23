@@ -4,22 +4,22 @@ import styles from "./HelpWidget.module.css";
 export const HelpWidget = () => {
   const helpwidgetdata = [
     {
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/helpdesk/Component 63.webp",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/helpdesk/Component 63.webp",
       htxt: "Easy for customers to approach",
       stxt: "Embed a form on your website or inside your product that allows customers to ask questions.",
     },
     {
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/helpdesk/Component 64.webp",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/helpdesk/Component 64.webp",
       htxt: "Deliver contextual support",
       stxt: "Show helpful solutions based on where your customers are on your website.",
     },
     {
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/helpdesk/Social.webp",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/helpdesk/Social.webp",
       htxt: "Know when customers are irritated",
       stxt: "Detect when your customers are rage clicking ir frustrated.Proactively reach out to them and offer help.",
     },
     {
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/helpdesk/Social-1.webp",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/helpdesk/Social-1.webp",
       htxt: "Make it yours",
       stxt: "Make the widget reflect your brand by customizing how it looks like on your website.",
     },
@@ -78,7 +78,7 @@ export const HelpWidget = () => {
           </p>
         </div>
         <div className={styles.helpwidgetsipportdeskboxright}>
-          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/helpdesk/Frame.png" alt="helpdesk/Frame.webp" />
+          <img src="https://d3op2l77j7wnti.cloudfront.net/Images/helpdesk/Frame.png" alt="helpdesk/Frame.webp" />
         </div>
       </div>
     </div>

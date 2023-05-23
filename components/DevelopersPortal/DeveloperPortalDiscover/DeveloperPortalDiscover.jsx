@@ -17,7 +17,7 @@ export const DeveloperPortalDiscover = () => {
                  <div className={styles.developerDiscoverDataDiv}>
                     <div className={styles.developerDiscoverDataImage1}>
                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group3.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group3.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -33,7 +33,7 @@ export const DeveloperPortalDiscover = () => {
 
                     <div className={styles.developerDiscoverDataImage2}>
                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group6.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group6.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -51,7 +51,7 @@ export const DeveloperPortalDiscover = () => {
                  <div className={styles.developerDiscoverDataDiv}>
                     <div className={styles.developerDiscoverDataImage1}>
                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group5.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group5.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -67,7 +67,7 @@ export const DeveloperPortalDiscover = () => {
 
                     <div className={styles.developerDiscoverDataImage2}>
                        <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group4.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group4.png"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

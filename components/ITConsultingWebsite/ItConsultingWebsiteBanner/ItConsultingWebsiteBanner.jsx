@@ -4,7 +4,7 @@ import styles from "./ItConsultingWebsiteBanner.module.css";
 export const ItConsultingWebsiteBanner = () => {
   return (
     <div className={styles.consultingBannerParentDiv}>
-      <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/BannerImage.png" alt="image" />
+      <img src="https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/BannerImage.png" alt="image" />
 
       <div className={styles.consultingBannerContentDiv}>
         <h1> IT Consulting Services </h1>

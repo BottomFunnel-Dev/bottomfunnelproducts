@@ -1,7 +1,7 @@
 export const integrationsList= [
         {
             img: {
-                src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/featuredintegration/integrationimages/whatsapp-logo-png-2263 1.png",
+                src: "https://d3op2l77j7wnti.cloudfront.net/Images/featuredintegration/integrationimages/whatsapp-logo-png-2263 1.png",
                 alt: "whatsapplogo"
             },
             title: "Whatsapp for Bottom funnel desk",
@@ -15,7 +15,7 @@ export const integrationsList= [
         },
         {
             img: {
-                src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/featuredintegration/integrationimages/slack-logo-icon 1.png",
+                src: "https://d3op2l77j7wnti.cloudfront.net/Images/featuredintegration/integrationimages/slack-logo-icon 1.png",
                 alt: "slacklogo"
             },
             title: "Bottom funnel desk-Slack Integration",
@@ -29,7 +29,7 @@ export const integrationsList= [
         },
         {
             img: {
-                src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/featuredintegration/integrationimages/1738792 1.png",
+                src: "https://d3op2l77j7wnti.cloudfront.net/Images/featuredintegration/integrationimages/1738792 1.png",
                 alt: "shopifylogo"
             },
             title: "Build better customer relationships with Bottom funnel desk and andegating your help desk software with Shopify saves a lot of back and furth",
@@ -43,7 +43,7 @@ export const integrationsList= [
         },
         {
             img: {
-                src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/featuredintegration/integrationimages/58482f67cef1014c0b5e4a81 1.png",
+                src: "https://d3op2l77j7wnti.cloudfront.net/Images/featuredintegration/integrationimages/58482f67cef1014c0b5e4a81 1.png",
                 alt: "salesforcelogo"
             },
             title: "Bottom funnel desk-Salesforce integration",
@@ -57,7 +57,7 @@ export const integrationsList= [
         },
         {
             img: {
-                src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/featuredintegration/integrationimages/5e8cdf0a664eae000408545b 1.png",
+                src: "https://d3op2l77j7wnti.cloudfront.net/Images/featuredintegration/integrationimages/5e8cdf0a664eae000408545b 1.png",
                 alt: "microsoftteamlogo"
             },
             title: "Simplify cross-team collaboration and enable contextual customer support with Microsoft Teams app",
@@ -71,7 +71,7 @@ export const integrationsList= [
         },
         {
             img: {
-                src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/featuredintegration/integrationimages/Group.png",
+                src: "https://d3op2l77j7wnti.cloudfront.net/Images/featuredintegration/integrationimages/Group.png",
                 alt: "mailchimplogo"
             },
             title: "Bottom funnel desk-MailChimp Integration",

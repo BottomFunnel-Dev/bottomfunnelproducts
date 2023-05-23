@@ -113,7 +113,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
       }}
     >
       <div className={prodnav.deskLogo}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/support-desk.png" />
+        <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/funnel-desk/support-desk.png" />
         <h5>Bottom Funnel Desk</h5>
       </div>
       <div className={prodnav.deskList}>
@@ -125,7 +125,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Desk Products
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -138,7 +138,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Features{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -160,7 +160,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Solutions{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -173,7 +173,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Resources{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>

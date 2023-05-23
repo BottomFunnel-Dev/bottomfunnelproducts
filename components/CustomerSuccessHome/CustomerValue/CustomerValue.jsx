@@ -9,7 +9,7 @@ export const CustomerValue = () => {
                 <div className={styles.CustomerValuemaindivimage}>
 
                    <lottie-player
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/customerSucess/third.json"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Animation/customerSucess/third.json"}
                         background="transparent"
                         speed="1"
                         loop
@@ -27,7 +27,7 @@ export const CustomerValue = () => {
             <div  className={styles.CustomerValuemaindivinner1} >
                 <div className={styles.CustomerValuemaindivimage}>
                     <lottie-player
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/customerSucess/second.json"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Animation/customerSucess/second.json"}
                         background="transparent"
                         speed="1"
                         loop
@@ -45,7 +45,7 @@ export const CustomerValue = () => {
             <div  className={styles.CustomerValuemaindivinner} >
                 <div className={styles.CustomerValuemaindivimage}>
                    <lottie-player
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/customerSucess/fourth.json"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Animation/customerSucess/fourth.json"}
                         background="transparent"
                         speed="1"
                         loop
@@ -62,7 +62,7 @@ export const CustomerValue = () => {
             <div  className={styles.CustomerValuemaindivinner1} >
                 <div className={styles.CustomerValuemaindivimage}>
                    <lottie-player
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/customerSucess/first.json"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Animation/customerSucess/first.json"}
                         background="transparent"
                         speed="1"
                         loop

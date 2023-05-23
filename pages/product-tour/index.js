@@ -14,7 +14,7 @@ import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 
 const productData = {
   title: "Bottom Funnel Marketer",
-  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+  logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
   width: "45%",
   list1: {
     title: "Features",

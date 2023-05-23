@@ -21,7 +21,7 @@ export const Healthcarefeatures = () => {
     </div>
     <div className={styles.Healthcarefeaturesmaindivcontentimage}>
     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/screen1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/healthcaresales/screen1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -45,7 +45,7 @@ export const Healthcarefeatures = () => {
     </div>
     <div className={styles.Healthcarefeaturesmaindivcontentimage}>
     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/screen2.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/healthcaresales/screen2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -66,7 +66,7 @@ export const Healthcarefeatures = () => {
     </div>
     <div className={styles.Healthcarefeaturesmaindivcontentimage}>
     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/screen3.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/healthcaresales/screen3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -95,7 +95,7 @@ export const Healthcarefeatures = () => {
     </div>
     <div className={styles.Healthcarefeaturesmaindivcontentimage}>
     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/screen4.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/healthcaresales/screen4.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -126,7 +126,7 @@ export const Healthcarefeatures = () => {
     </div>
     <div className={styles.Healthcarefeaturesmaindivcontentimage}>
     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/screen5.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/healthcaresales/screen5.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

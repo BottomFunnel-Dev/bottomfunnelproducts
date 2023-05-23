@@ -23,7 +23,7 @@ export const ItServiceProduct = () => {
           <div className={styles.ItServiceProductinnerthirdcards}>
             <div className={styles.ItServiceProductinnerthirdcardslogo}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/team.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/team.webp"}
                 alt={""}
                 width={"0"}
                 height={"0"}
@@ -46,7 +46,7 @@ export const ItServiceProduct = () => {
           <div className={styles.ItServiceProductinnerthirdcards}>
             <div className={styles.ItServiceProductinnerthirdcardslogo}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/service.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/service.webp"}
                 alt={""}
                 width={"0"}
                 height={"0"}

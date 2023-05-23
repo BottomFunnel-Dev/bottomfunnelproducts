@@ -9,7 +9,7 @@ export const DevelopersPortalGrow = () => {
     
     <div className={styles.developerPortalGrowImage}>
         <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Frame1.png"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Frame1.png"}
             alt={"image"}
             width={"0"}
             height={"0"}

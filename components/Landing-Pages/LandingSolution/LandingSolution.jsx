@@ -5,7 +5,7 @@ export const LandingSolution = () => {
         <div className={styles.LandingSolutionParent}>
             <h1>Looking for an all-in-one sales and marketing ? try Bottom Funnel sales suite </h1>
             <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/Solution.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/LandingPages/Solution.png"}
                 alt={"img"}
                 width={"0"}
                 height={"0"}

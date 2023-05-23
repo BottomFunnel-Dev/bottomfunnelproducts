@@ -25,7 +25,7 @@ One way is to adopt modern CRM software for the manufacturing industry.</p>
             <div className={styles.ManufacturingCrmmaindivrowboxdiv}>
               <div className={styles.ManufacturingCrmmaindivrowboxdivimage}>
               <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/tap 1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Manufacturing/tap 1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -41,7 +41,7 @@ One way is to adopt modern CRM software for the manufacturing industry.</p>
             <div className={styles.ManufacturingCrmmaindivrowboxdiv}>
               <div className={styles.ManufacturingCrmmaindivrowboxdivimage}>
               <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/ai 1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Manufacturing/ai 1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -57,7 +57,7 @@ One way is to adopt modern CRM software for the manufacturing industry.</p>
             <div className={styles.ManufacturingCrmmaindivrowboxdiv}>
               <div className={styles.ManufacturingCrmmaindivrowboxdivimage}>
               <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Manufacturing/growth 1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Manufacturing/growth 1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

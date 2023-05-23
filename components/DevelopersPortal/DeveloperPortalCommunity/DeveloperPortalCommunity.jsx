@@ -17,7 +17,7 @@ export const DeveloperPortalCommunity = () => {
               </div>
               <div className={styles.developerPortalCommunityImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group7.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group7.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}

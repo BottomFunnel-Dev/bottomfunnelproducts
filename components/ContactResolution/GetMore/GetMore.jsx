@@ -17,7 +17,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.GetMoremaindivcardsboxinnerimage}>
         <div className={styles.GetMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/smartphone 1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/smartphone 1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -37,7 +37,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.GetMoremaindivcardsboxinnerimage}>
         <div className={styles.GetMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/chat-bot 1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/chat-bot 1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -57,7 +57,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.GetMoremaindivcardsboxinnerimage}>
         <div className={styles.GetMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/smartphone 1 (1).webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/smartphone 1 (1).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -79,7 +79,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.GetMoremaindivcardsboxinnerimage}>
         <div className={styles.GetMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/smartphone 1 (2).webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/smartphone 1 (2).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -99,7 +99,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.GetMoremaindivcardsboxinnerimage}>
         <div className={styles.GetMoremaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/smartphone 1 (3).webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/smartphone 1 (3).webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

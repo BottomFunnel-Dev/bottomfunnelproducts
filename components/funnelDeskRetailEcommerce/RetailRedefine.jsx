@@ -30,7 +30,7 @@ export const RetailRedefine = () => {
       <div className={styles.retailredefinemainboxesrightboxforimage}>
         <div className={styles.retailredefinedboxrightforimageonly}>
             <lottie-player
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/RetailAndEcommerce/two.json"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Animation/RetailAndEcommerce/two.json"}
                 background="transparent"
                 speed="1"
                 loop

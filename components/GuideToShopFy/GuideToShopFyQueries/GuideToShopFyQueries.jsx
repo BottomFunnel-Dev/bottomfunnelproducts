@@ -15,7 +15,7 @@ export const GuideToShopFyQueries = () => {
 
                             
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon24.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon24.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -38,7 +38,7 @@ export const GuideToShopFyQueries = () => {
 
                            
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon25.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon25.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

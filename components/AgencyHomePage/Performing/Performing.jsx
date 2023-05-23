@@ -16,7 +16,7 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
         <p>Learn-More</p>
         <div className={style.Performing1stdivimage}>
         <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/agency1.png"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/agency1.png"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -24,7 +24,7 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
             style={{ width: "100%", height: "100%" }}
 
             />
-            {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
+            {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
         </div>
         <div className={style.Performing2ndinnerdiv}>
             <div className={style.Performing2ndpart1}>
@@ -37,7 +37,7 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
 
             <div className={style.Performing2ndpart2}>
             <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/Activities 2.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/Activities 2.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}
@@ -45,7 +45,7 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
                 style={{ width: "100%", height: "100%" }}
 
                 />
-                {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
+                {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
             </div>
         </div>
         

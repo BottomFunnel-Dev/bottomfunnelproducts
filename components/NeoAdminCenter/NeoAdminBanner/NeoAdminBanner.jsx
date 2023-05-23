@@ -50,7 +50,7 @@ export const NeoAdminBanner = () => {
         </div>
         <div className={styles.neoAdminBannerImage}>
             <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/OBJECTS.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/neoAdmin/OBJECTS.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}

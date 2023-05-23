@@ -9,7 +9,7 @@ export default function InstagramDmBots () {
       <div className={styles.instagramDmBotsDiv}>
         <div className={styles.instagramDmCustomerRight}>
             <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/InstagramDm/Group3.webp"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/InstagramDm/Group3.webp"}
                 alt={"img"}
                 width={"0"}
                 height={"0"}

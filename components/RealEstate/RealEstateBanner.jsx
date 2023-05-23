@@ -39,7 +39,7 @@ export const RealEstateBanner = () => {
         </div>
 
           {/* <div className={styles.realestatebannersomeimages}>
-            <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/RealEstate/ReslEstateNewBanner.png' alt='image' />
+            <img src='https://d3op2l77j7wnti.cloudfront.net/Images/RealEstate/ReslEstateNewBanner.png' alt='image' />
           </div> */}
       </div>
 

@@ -86,51 +86,51 @@ const TrustedBy = () => {
         <Slider {...settings}>
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/bluenile.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/bluenile.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/brewdos.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/brewdos.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
               <img
-                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/bridgestone.png" alt="image"
+                src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/bridgestone.png" alt="image"
               />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/fiver.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/fiver.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/itv.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/itv.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/klarna.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/klarna.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/multichoice.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/multichoice.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/travix.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travix.png" alt="image" />
             </div>
           </div>
         </Slider>

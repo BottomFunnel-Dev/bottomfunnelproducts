@@ -25,7 +25,7 @@ export const TickettingInbox = () => {
               </div>
               <div className={styles.tickettingInboxDataDivarrow}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Arrow1.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Arrow1.png"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}
@@ -37,7 +37,7 @@ export const TickettingInbox = () => {
           <div className={styles.tickettingInboxData1}>
              <div className={styles.tickettingInboxDataDiv3}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Arrow2.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Arrow2.png"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}
@@ -61,7 +61,7 @@ export const TickettingInbox = () => {
               </div>
               <div className={styles.tickettingInboxDataDivarrow}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Arrow1.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Arrow1.png"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}
@@ -73,7 +73,7 @@ export const TickettingInbox = () => {
           <div className={styles.tickettingInboxData1}>
              <div className={styles.tickettingInboxDataDiv3}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Arrow2.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Arrow2.png"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}
@@ -97,7 +97,7 @@ export const TickettingInbox = () => {
               </div>
               <div className={styles.tickettingInboxDataDivarrow}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Arrow1.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Arrow1.png"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}
@@ -109,7 +109,7 @@ export const TickettingInbox = () => {
           <div className={styles.tickettingInboxData1}>
              <div className={styles.tickettingInboxDataDiv3}>
               <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Arrow2.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Arrow2.png"}
                 alt={"icon"}
                 width={"0"}
                 height={"0"}

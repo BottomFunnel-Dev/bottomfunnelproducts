@@ -19,7 +19,7 @@ export const AllFeaturesConnect = () => {
                                 <h3>API Access</h3>
                                 <div className={styles.allFeaturesConnectImage1}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle15.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle15.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -39,7 +39,7 @@ export const AllFeaturesConnect = () => {
                                 <h3>Marketplace</h3>
                                 <div className={styles.allFeaturesConnectImage1}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle14.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle14.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -59,7 +59,7 @@ export const AllFeaturesConnect = () => {
                                 <h3>Shopify</h3>
                                 <div className={styles.allFeaturesConnectImage2}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle12.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle12.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -80,7 +80,7 @@ export const AllFeaturesConnect = () => {
                                 <h3>Zapier</h3>
                                 <div className={styles.allFeaturesConnectImage3}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle17.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle17.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}

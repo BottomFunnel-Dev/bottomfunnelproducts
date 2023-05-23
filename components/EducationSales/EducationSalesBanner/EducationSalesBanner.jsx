@@ -12,7 +12,7 @@ export const EducationSalesBanner = () => {
    </div>
    <div className={styles.EducationSalesBannerannimation}>
      <lottie-player
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/salesindustriesanimation/Education.json"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Animation/salesindustriesanimation/Education.json"}
                   background="transparent"
                   speed="1"
                   loop

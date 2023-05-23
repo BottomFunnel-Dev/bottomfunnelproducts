@@ -7,7 +7,7 @@ export const contactcenter = [
       "Bring your own carrier (BYOC) or purchase numbers from 90+ countries",
     ],
 
-    img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactcenter/batter.webp",
+    img: "https://d3op2l77j7wnti.cloudfront.net/Images/contactcenter/batter.webp",
     directions: true,
   },
   {
@@ -17,7 +17,7 @@ export const contactcenter = [
       "Virtual leaders can monitor call volumes and service level attainment while keeping track of important conversations",
     ],
 
-    img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactcenter/hour.webp",
+    img: "https://d3op2l77j7wnti.cloudfront.net/Images/contactcenter/hour.webp",
     directions: false,
   },
   {
@@ -27,7 +27,7 @@ export const contactcenter = [
       "Monitor agent performance and keep a pulse on your customer satisfaction with live dashboards.",
     ],
 
-    img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactcenter/workforce.webp",
+    img: "https://d3op2l77j7wnti.cloudfront.net/Images/contactcenter/workforce.webp",
     directions: true,
   },
   {
@@ -38,7 +38,7 @@ export const contactcenter = [
       "Empower your agents to do their best work.",
     ],
 
-    img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactcenter/workload.webp",
+    img: "https://d3op2l77j7wnti.cloudfront.net/Images/contactcenter/workload.webp",
     directions: false,
   },
   // {
@@ -49,7 +49,7 @@ export const contactcenter = [
   //     "Continue the conversation across any channel with every customer",
   //   ],
 
-  //   img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactcenter/four.json",
+  //   img: "https://d3op2l77j7wnti.cloudfront.net/Images/contactcenter/four.json",
   //   directions: true,
   // },
 ];

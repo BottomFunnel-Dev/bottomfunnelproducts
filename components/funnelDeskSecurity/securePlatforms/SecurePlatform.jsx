@@ -7,7 +7,7 @@ export const SecurePlatform = () => {
     <div className={styles.securePlatformContainer}>
       <span>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskSecurity/securePlatform.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskSecurity/securePlatform.webp"}
           alt="funneldeskSecurity/securePlatform.webp"
           width={"0"}
           height={"0"}

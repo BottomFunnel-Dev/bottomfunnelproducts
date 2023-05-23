@@ -22,7 +22,7 @@ export const ManagedserviceProviderFreind = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Freind1.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Freind1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -45,7 +45,7 @@ export const ManagedserviceProviderFreind = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Freind2.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Freind2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -68,7 +68,7 @@ export const ManagedserviceProviderFreind = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Freind3.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Freind3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

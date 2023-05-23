@@ -12,7 +12,7 @@ export const AllFeaturesBanner = () => {
       </div>
       <div  className={styles.AllFeaturesBannermaindivinnerimage}>
       <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allfeaturessales/banner.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/banner.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

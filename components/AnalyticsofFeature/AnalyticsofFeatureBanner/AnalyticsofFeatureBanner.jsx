@@ -9,7 +9,7 @@ export const AnalyticsofFeatureBanner = () => {
     <div className={styles.AnalyticsofFeatureBannermaindiv}>
       <div className={styles.AnalyticsofFeatureBannerimage}>
       <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/bgbanner.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Analyticsoffeatureimage/bgbanner.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

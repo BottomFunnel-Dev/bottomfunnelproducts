@@ -97,7 +97,7 @@ export const Platform = ({
               columnGap: "5px",
             }}
           >
-            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/knowmore.png" />
+            <img src="https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/knowmore.png" />
             <h5> Know more</h5>
           </div>
           <p>What's New?</p>

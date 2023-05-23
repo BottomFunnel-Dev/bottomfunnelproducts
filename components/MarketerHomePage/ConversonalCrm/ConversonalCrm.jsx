@@ -12,7 +12,7 @@ export const ConversonalCrm = () => {
                 <div className={styles.ConversonalCrmcarddivinnerbox}>
                     <div className={styles.ConversonalCrmcarddivinnerboximage}>
                     <lottie-player
-                        src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/marketer/1st.json"
+                        src="https://d3op2l77j7wnti.cloudfront.net/Animation/marketer/1st.json"
                         background="transparent"
                         speed="1"
                         loop
@@ -33,7 +33,7 @@ export const ConversonalCrm = () => {
                 <div className={styles.ConversonalCrmcarddivinnerbox}>
                     <div className={styles.ConversonalCrmcarddivinnerboximage}>
                     <lottie-player
-                        src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/marketer/2nd.json"
+                        src="https://d3op2l77j7wnti.cloudfront.net/Animation/marketer/2nd.json"
                         background="transparent"
                         speed="1"
                         loop
@@ -57,7 +57,7 @@ export const ConversonalCrm = () => {
                 <div className={styles.ConversonalCrmcarddivinnerbox}>
                     <div className={styles.ConversonalCrmcarddivinnerboximage}>
                     <lottie-player
-                        src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/marketer/3rd.json"
+                        src="https://d3op2l77j7wnti.cloudfront.net/Animation/marketer/3rd.json"
                         background="transparent"
                         speed="1"
                         loop
@@ -80,7 +80,7 @@ export const ConversonalCrm = () => {
                     <div className={styles.ConversonalCrmcarddivinnerboximage}>
                     
                     <lottie-player
-                        src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/marketer/4rth.json"
+                        src="https://d3op2l77j7wnti.cloudfront.net/Animation/marketer/4rth.json"
                         background="transparent"
                         speed="1"
                         loop

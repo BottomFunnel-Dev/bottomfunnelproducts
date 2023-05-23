@@ -8,7 +8,7 @@ export const CPQBanner = () => {
       <div className={styles.CPQBannermaindiv}>
         <div  className={styles.CPQBannerimagediv}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cpqimage/BANNER IMG.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/cpqimage/BANNER IMG.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

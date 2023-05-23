@@ -16,7 +16,7 @@ export const  SalesMobileofFeaturesbanner = () => {
         <div className={styles.SalesMobileofFeaturesbannerimage}>
           <div className={styles.SalesMobileofFeaturesbannerinnerimage}>
           <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/banner.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/banner.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -38,7 +38,7 @@ export const  SalesMobileofFeaturesbanner = () => {
         <div className={styles.SalesMobileofFeaturesbannerimagetwo}>
           <div className={styles.SalesMobileofFeaturesbannerinnerimage}>
           <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Mobilesalesoffeaturesphotos/secondbanner.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Mobilesalesoffeaturesphotos/secondbanner.webp"}
           alt={""}
           width={"0"}
           height={"0"}

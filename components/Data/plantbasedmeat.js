@@ -6,7 +6,7 @@ export const logisticsCustomer = {
         alt: "Register image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping.png",
         alt: " Register logo",
       },
       title: "Easy App On-boarding",
@@ -18,7 +18,7 @@ export const logisticsCustomer = {
         alt: "Schedule",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-6.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-6.png",
         alt: "image",
       },
       title: "Easy Checkout",
@@ -30,7 +30,7 @@ export const logisticsCustomer = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-1.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-1.png",
         alt: "image",
       },
       title: "Multiple Payment Option",
@@ -43,7 +43,7 @@ export const logisticsCustomer = {
         alt: "Track Order image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-5.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-5.png",
         alt: "image",
       },
       title: "Track Your Order",
@@ -53,7 +53,7 @@ export const logisticsCustomer = {
   sectionTitle: "Customer's App",
 
   background:
-    "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
+    "/publichttps://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
 };
 
 export const plantBaseDriverData = {
@@ -64,7 +64,7 @@ export const plantBaseDriverData = {
         alt: "Register image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-8.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-8.png",
         alt: "image",
       },
       title: "Profile Management",
@@ -77,7 +77,7 @@ export const plantBaseDriverData = {
         alt: "Schedule",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-4.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-4.png",
         alt: "Schedule logo",
       },
       title: "Earning Analytics",
@@ -89,7 +89,7 @@ export const plantBaseDriverData = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-9.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-9.png",
         alt: "image",
       },
       title: "Driver's Personal Details",
@@ -101,7 +101,7 @@ export const plantBaseDriverData = {
         alt: "Track Order image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-7.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-7.png",
         alt: "image",
       },
       title: "New order Notifications",
@@ -110,7 +110,7 @@ export const plantBaseDriverData = {
   ],
   sectionTitle: "Drive's App",
   background:
-    "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
+    "/publichttps://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
 };
 
 export const plantBaseMeatAdmin = {
@@ -121,7 +121,7 @@ export const plantBaseMeatAdmin = {
         alt: "Register image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-10.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-10.png",
         alt: "image",
       },
       title: "Dashboard",
@@ -133,7 +133,7 @@ export const plantBaseMeatAdmin = {
         alt: "Schedule",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-7.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-7.png",
         alt: "image",
       },
       title: "Reports & Analytics",
@@ -145,7 +145,7 @@ export const plantBaseMeatAdmin = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-6.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-6.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Managing Order",
@@ -157,7 +157,7 @@ export const plantBaseMeatAdmin = {
         alt: "Track Order image",
       },
       icon: {
-        src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/PlantBasedMeat/icons/prototyping-5.png",
+        src: "https://d3op2l77j7wnti.cloudfront.net/Images/PlantBasedMeat/icons/prototyping-5.png",
         alt: "image",
       },
       title: "Reviews Dashboard",
@@ -166,7 +166,7 @@ export const plantBaseMeatAdmin = {
   ],
 
   sectionTitle: "Admin's Panel",
-  background: "/publichttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images//PlantBasedMeat/banners & backgrounds/Rectangle 4787.png",
+  background: "/publichttps://d3op2l77j7wnti.cloudfront.net/Images//PlantBasedMeat/banners & backgrounds/Rectangle 4787.png",
 };
 
 
@@ -223,7 +223,7 @@ export const plantBaseMeatAdmin = {
 //   ],
 
 //   sectionTitle: "Customer App",
-//   background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+//   background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 // };
 
 // export const carpoolDrive = {
@@ -279,7 +279,7 @@ export const plantBaseMeatAdmin = {
 //   ],
 
 //   sectionTitle: "Driver App",
-//   background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/group9.png",
+//   background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/group9.png",
 // };
 
 // export const carpoolAdmin = {
@@ -335,7 +335,7 @@ export const plantBaseMeatAdmin = {
 //   ],
 
 //   sectionTitle: "Admin App",
-//   background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 // };
 
 // export const bettingCustomer = {
@@ -391,7 +391,7 @@ export const plantBaseMeatAdmin = {
 //   ],
 
 //   sectionTitle: "User App",
-//   background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 // };
 
 // export const bettingDrive = {
@@ -447,7 +447,7 @@ export const plantBaseMeatAdmin = {
 //   ],
 
 //   sectionTitle: "Books Panel",
-//   background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 // };
 
 // export const bettingAdmin = {
@@ -503,5 +503,5 @@ export const plantBaseMeatAdmin = {
 //   ],
 
 //   sectionTitle: "Admin App",
-//   background: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "https://d3op2l77j7wnti.cloudfront.net/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 // };
