@@ -161,13 +161,8 @@ const Navbar = ({ navredux, productMount }) => {
           <div className={navstyle.logoSection}>
             {!productMount.navMount && (
               <ContactMainOther
-                className={
-                  navbar
-                    ? `${navstyle.navbarSection} ${navstyle.active}`
-                    : navstyle.navbarSection
-                }
                 // bgcolor={!navbar ? "red" : "yellow"}
-                textcolor={!navbar ? navredux.color : "black"}
+                textcolor={!navbar ? navredux.color : "white"}
               />
             )}
 
@@ -274,6 +269,7 @@ const Navbar = ({ navredux, productMount }) => {
                 style={{
                   color: scroll ? "white" : "#ef4c23",
                   background: scroll ? "#ef4c23" : "white",
+                  border: "none"
                 }}
                 onClick={() => router.push("/allproducts")}
               >
@@ -281,7 +277,7 @@ const Navbar = ({ navredux, productMount }) => {
               </button>
 
               <a target="_blank" href="https://service.bottomfunnel.net/">
-                <button
+                <button style={{border: "none"}}
                   className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
                 // onClick={() => router.push("https://service.bottomfunnel.net/")}
                 >
