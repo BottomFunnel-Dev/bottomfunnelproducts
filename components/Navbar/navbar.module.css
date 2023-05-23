@@ -149,13 +149,13 @@
 }
 
 .navbarSection.active .dropdownBar > div li:nth-child(9) {
-  color: white !important;
+  /* color: white !important; */
   background-color: #ef4c23;
   /* border: 1px solid #ef4c23; */
 }
 
 .navbarSection.active .dropdownBar > div li:nth-child(9):hover {
-  background-color: white !important;
+  /* background-color: white !important; */
   color: #ef4c23 !important;
 }
 
