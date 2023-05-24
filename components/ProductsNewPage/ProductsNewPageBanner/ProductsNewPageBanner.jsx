@@ -105,7 +105,7 @@ export const ProductsNewPageBanner = () => {
           /> */}
           <video className={styles.mainImage} autoplay loop muted playsinline
             autoPlay controls preload="true" poster="one-does-not-simply-placeholder.jpg">
-            <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/mp4" />
+            <source src="https://d3op2l77j7wnti.cloudfront.net/All+Products+video+Bottom+funnel.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
@@ -132,7 +132,7 @@ export const ProductsNewPageBanner = () => {
 
             <video className={styles.mainImagesecond} autoplay loop muted playsinline
               autoPlay controls preload="true" poster="one-does-not-simply-placeholder.jpg">
-              <source src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/All+Products+video+Bottom+funnel.mp4" type="video/webm" />
+              <source src="https://d3op2l77j7wnti.cloudfront.net/All+Products+video+Bottom+funnel.mp4" type="video/webm" />
             </video>
 
           </div>
