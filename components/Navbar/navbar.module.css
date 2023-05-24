@@ -13,9 +13,10 @@
   transition: all 0.2s linear;
 }
 
-.navbarSection.active {
+.active {
   background: white;
   position: fixed;
+  /* border: 2px solid red; */
 }
 
 .navbarSection {
