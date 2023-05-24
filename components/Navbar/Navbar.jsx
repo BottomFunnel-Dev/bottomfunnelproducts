@@ -157,7 +157,7 @@ const Navbar = ({ navredux, productMount }) => {
           }}
         >
 
-
+          
           <div className={navstyle.logoSection}>
             {!productMount.navMount && (
               <ContactMainOther
