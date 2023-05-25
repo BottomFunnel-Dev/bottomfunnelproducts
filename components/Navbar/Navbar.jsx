@@ -136,26 +136,34 @@ const Navbar = ({ navredux, productMount }) => {
       <div>
 
 
-      <nav
-        className={navstyle.navbarSection}
-        style={{
-          top: scroll ? "0" : "0px",
-          background: scroll || navbar ? "white" : "transparent",
-        }}
+        <nav
+          className=
+          {
+            navbar
+              ? `${navstyle.navbarSection} ${navstyle.active}`
+              : navstyle.navbarSection
+          }
+          // {navstyle.navbarSection}
+          style={{
+            top: scroll ? "0" : "0px",
+            background: scroll || navbar ? "white" : "transparent",
+          }}
         >
 
-          <ContactMainOther
-                textColor={!navbar ? navredux.color : "black"}
-            />
-
-
           {/* {!productMount.navMount && (
+            <ContactMainOther style={{color:"inherit"}}
+              textColor={!navbar ? navredux.color : "white"}
+            />
+          )} */}
+
+
+          {!productMount.navMount && (
             <ContactMainOther
               bgcolor={navbar ? "black" : "transparent"}
               textcolor={!navbar ? navredux.color : "black"}
             />
-          )} */}
-          
+          )}
+
           <div className={navstyle.logoSection}>
             {/* <Link href="/" className={navstyle.logoText}> */}
             <img onClick={() => router.push("/")}
