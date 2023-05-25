@@ -137,16 +137,24 @@ const Navbar = ({ navredux, productMount }) => {
 
 
         <nav
-          className={navstyle.navbarSection}
+          className=
+          {
+            navbar
+              ? `${navstyle.navbarSection} ${navstyle.active}`
+              : navstyle.navbarSection
+          }
+          // {navstyle.navbarSection}
           style={{
             top: scroll ? "0" : "0px",
             background: scroll || navbar ? "white" : "transparent",
           }}
         >
 
-          <ContactMainOther
-            textColor={!navbar ? navredux.color : "black"}
-          />
+          {!productMount.navMount && (
+            <ContactMainOther style={{color:"inherit"}}
+              textColor={!navbar ? navredux.color : "black"}
+            />
+          )}
 
 
           {/* {!productMount.navMount && (
