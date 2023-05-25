@@ -16,7 +16,7 @@ export const WhoWeAre = ({
       onMouseEnter={homeHoverIn}
       onMouseLeave={homeHoverOut}
       className={whowe.aboutNavVisible}
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "70px" }}
     >
       <div className={whowe.aboutDropdownSection}>
         <div className={whowe.aboutDropdownContent}>

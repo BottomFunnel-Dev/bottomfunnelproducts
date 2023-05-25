@@ -7,7 +7,8 @@
   z-index: 10000000;
   position: fixed;
   padding: 10px; 
- /* border: 2px solid red; */
+  /* border: 2px solid red; */
+  margin-top: 0.8%;
 }
 
 .aboutDropdownSection {

@@ -13,7 +13,7 @@ export const Platform = ({
       onMouseEnter={() => platformHoverIn()}
       onMouseLeave={() => platformHoverOut()}
       className={prods.platformVisible}
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "75px" }}
     >
       <div className={prods.platformDropdownSection}>
         <div className={prods.platformDropdownContent}>
