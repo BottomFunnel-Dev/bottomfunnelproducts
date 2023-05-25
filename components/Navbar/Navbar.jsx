@@ -186,7 +186,7 @@ const Navbar = ({ navredux, productMount }) => {
             </label>
           </div>
 
-          {!mobres && (
+          {/* {!mobres && ( */}
             <div className={navstyle.dropdownBar} >
               <div className={navstyle.mobLists}>
                 <li
@@ -277,7 +277,7 @@ const Navbar = ({ navredux, productMount }) => {
               </button>
 
               <a target="_blank" href="https://service.bottomfunnel.net/">
-                <button style={{border: "none"}}
+                <button style={{ border: "none" }}
                   className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
                 // onClick={() => router.push("https://service.bottomfunnel.net/")}
                 >
@@ -285,8 +285,8 @@ const Navbar = ({ navredux, productMount }) => {
                 </button>
               </a>
             </div>
-          )
-          }
+          {/* )
+          } */}
 
           {
             mobres && (
