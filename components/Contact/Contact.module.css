@@ -1,6 +1,12 @@
 .contectemail {
-  position: absolute;
+  /* position: absolute;
   top: -38% !important;
+  right: 3%;
+  width: 30%;
+  height: 30px;
+  display: flex; */
+  position: absolute;
+  top: 4%;
   right: 3%;
   width: 30%;
   height: 30px;
@@ -124,11 +130,9 @@
   text-decoration: none;
   /* border: 1px solid #ef4c23; */
 }
-
 .contactNumbers>li>a{
   text-decoration: none;
 }
-
 .contactNumbers > li {
   font-weight: bolder;
   text-decoration: none !important;

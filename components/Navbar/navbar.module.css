@@ -1,16 +1,28 @@
 .navbarSection {
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
   width: 100%;
   height: 70px;
   position: fixed;
-  z-index: 1000;
+  z-index: 1000; */
   /* background: #ef4c23; */
   /* margin-top: 5%; */
-  align-items: center;
-  box-sizing: border-box;
+  /* align-items: center;
+  box-sizing: border-box; */
   /* border: 2px solid yellow; */
-  transition: all 0.2s linear;
+  /* transition: all 0.2s linear; */
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1000;
+  background: transparent;
+  align-items: flex-end;
+  box-sizing: border-box;
+  transition: top 0.2s linear;
+  margin-bottom: 0;
+  background: white;
 }
 
 .navbarSection.active {
@@ -18,11 +30,11 @@
   position: fixed;
 }
 
-.navbarSection {
+/* .navbarSection {
   margin-bottom: 0;
   display: flex;
   align-items: center;
-}
+} */
 
 .navbarSection li {
   color: white;
@@ -34,7 +46,6 @@
 .logoSection {
   width: 13%;
   height: 100%;
-  /* border: 2px solid red; */
 }
 
 .logoSection img {
@@ -44,10 +55,16 @@
 }
 
 .dropdownBar {
-  width: 73%;
+  /* width: 73%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  width: 65%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 14%;
 }
 
 .dropdownBar > div {
@@ -82,7 +99,7 @@
 }
 
 .serviceButton {
-  /* border: 1px solid #ef4c23; */
+  border: 1px solid #ef4c23;
   border-radius: 20px;
 }
 
@@ -94,12 +111,12 @@
 .callToAction {
   background-color: white;
   color: #ef4c23;
-  padding: 10px 50px;
+  padding: 5px 20px;
   border-radius: 25px;
   font-size: 13px;
   font-weight: 600;
   margin: 0 5px;
-  /* border: 1px solid #ef4c23; */
+  border: 1px solid #ef4c23;
 }
 
 .buttonGradientAnimation {
@@ -150,13 +167,13 @@
 }
 
 .navbarSection.active .dropdownBar > div li:nth-child(9) {
-  /* color: white !important; */
+  color: white !important;
   background-color: #ef4c23;
-  /* border: 1px solid #ef4c23; */
+  border: 1px solid #ef4c23;
 }
 
 .navbarSection.active .dropdownBar > div li:nth-child(9):hover {
-  /* background-color: white !important; */
+  background-color: white !important;
   color: #ef4c23 !important;
 }
 
