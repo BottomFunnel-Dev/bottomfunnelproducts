@@ -135,43 +135,34 @@ const Navbar = ({ navredux, productMount }) => {
     <>
       <div>
 
-        <nav
-          className={
-            navbar
-              ? `${navstyle.navbarSection} ${navstyle.active}`
-              : navstyle.navbarSection
-          }
-          style={{
-            top:
-              scroll || productMount.navMount || productMount.salesnavMount
-                ? "0"
-                : "30px",
-            position:
-              productMount.navMount || productMount.salesnavMount
-                ? "static"
-                : "fixed",
-            transition:
-              scroll && (productMount.navMount || productMount.salesnavMount)
-                ? "all .5s ease-in"
-                : "all .5 ease-out",
-          }}
+
+      <nav
+        className={navstyle.navbarSection}
+        style={{
+          top: scroll ? "0" : "0px",
+          background: scroll || navbar ? "white" : "transparent",
+        }}
         >
 
+          <ContactMainOther
+                textColor={!navbar ? navredux.color : "black"}
+            />
+
+
+          {/* {!productMount.navMount && (
+            <ContactMainOther
+              bgcolor={navbar ? "black" : "transparent"}
+              textcolor={!navbar ? navredux.color : "black"}
+            />
+          )} */}
           
           <div className={navstyle.logoSection}>
-            {!productMount.navMount && (
-              <ContactMainOther
-                // bgcolor={!navbar ? "red" : "yellow"}
-                textcolor={!navbar ? navredux.color : "white"}
-              />
-            )}
-
             {/* <Link href="/" className={navstyle.logoText}> */}
             <img onClick={() => router.push("/")}
               src={
                 navredux.logo && !navbar
-                  ? "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/whitelogobottom.png"
-                  : "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/blacklogo.png"
+                  ? "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/whitelogobottom.png"
+                  : "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/blacklogo.png"
               }
               alt="image"
             />
@@ -180,14 +171,14 @@ const Navbar = ({ navredux, productMount }) => {
 
           <div id={navstyle.bar}>
             <label htmlFor="checkbox">
-              <IconContext.Provider value={{ className: navstyle.bars }} >
+              <IconContext.Provider value={{ className: navstyle.bars }}>
                 <AiOutlineMenu onClick={handleMob} />
               </IconContext.Provider>
             </label>
           </div>
 
           {!mobres && (
-            <div className={navstyle.dropdownBar} >
+            <div className={navstyle.dropdownBar}>
               <div className={navstyle.mobLists}>
                 <li
                   onMouseEnter={homeHoverIn}
@@ -269,7 +260,7 @@ const Navbar = ({ navredux, productMount }) => {
                 style={{
                   color: scroll ? "white" : "#ef4c23",
                   background: scroll ? "#ef4c23" : "white",
-                  border: "none"
+                  width: "18%"
                 }}
                 onClick={() => router.push("/allproducts")}
               >
@@ -277,7 +268,7 @@ const Navbar = ({ navredux, productMount }) => {
               </button>
 
               <a target="_blank" href="https://service.bottomfunnel.net/">
-                <button style={{border: "none"}}
+                <button
                   className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
                 // onClick={() => router.push("https://service.bottomfunnel.net/")}
                 >
