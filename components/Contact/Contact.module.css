@@ -20,7 +20,9 @@
   align-items: center;
   column-gap: 5px;
 }
-
+.contectemail>span>a{
+  color: black;
+}
 .dashgap {
   margin: 0 6%;
 }
