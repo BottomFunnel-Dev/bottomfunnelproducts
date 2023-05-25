@@ -122,9 +122,11 @@ export default function Testimonial() {
                   <img src={item.image} alt="" />
                 </div>
                 <div className={styles.textpart}>
-                  <h3>{item.name}</h3>
+                  <div>
+                     <h3>{item.name}</h3>
+                     <a href={item.link}><img src={item.logo} /></a>
+                  </div>
                   <h6>{item.degination}</h6>
-                  <a href={item.link}><img src={item.logo} /></a>
                   <p>{item.desc}</p>
                 </div>
               </div>

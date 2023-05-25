@@ -37,8 +37,8 @@
 }
 
 .imgpart {
-  width: 38%;
-  height: 100%;
+  width: 35%;
+  height: 95%;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
@@ -78,7 +78,16 @@
   text-decoration: underline;
   text-underline-offset: 8px;
 }
-
+.textpart>div{
+  display: flex;
+  flex-direction: row;
+}
+.textpart>div>a>img{
+  margin-left: 45%;
+  margin-top: 12%;
+  width: 25px;
+  height: 25px;
+}
 .nextButton {
   padding: 10px;
   position: absolute;
