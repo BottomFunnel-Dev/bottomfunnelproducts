@@ -6,11 +6,9 @@
   background-color: white;
   z-index: 10000000;
   position: fixed;
-  /* padding: 20px; */
+  padding: 10px; 
  /* border: 2px solid red; */
-
 }
-
 
 .aboutDropdownSection {
   width: 75%;
