@@ -150,19 +150,19 @@ const Navbar = ({ navredux, productMount }) => {
           }}
         >
 
-          {!productMount.navMount && (
-            <ContactMainOther style={{color:"inherit"}}
-              textColor={!navbar ? navredux.color : "black"}
-            />
-          )}
-
-
           {/* {!productMount.navMount && (
+            <ContactMainOther style={{color:"inherit"}}
+              textColor={!navbar ? navredux.color : "white"}
+            />
+          )} */}
+
+
+          {!productMount.navMount && (
             <ContactMainOther
               bgcolor={navbar ? "black" : "transparent"}
               textcolor={!navbar ? navredux.color : "black"}
             />
-          )} */}
+          )}
 
           <div className={navstyle.logoSection}>
             {/* <Link href="/" className={navstyle.logoText}> */}
