@@ -13,6 +13,8 @@
 }
 .SalesPageBannermainboximage {
   width: 40%;
+  /* border: 2px solid red; */
+  margin-top: 7%;
 }
 .SalesPageBannermainboxinnertextdiv > h1 {
   color: black;

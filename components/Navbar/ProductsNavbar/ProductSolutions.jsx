@@ -12,7 +12,7 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
       onMouseEnter={solHoverIn}
       onMouseLeave={solHoverOut}
       className={solnav.productSolutionsMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div
         className={solnav.productSolutionsListItems}

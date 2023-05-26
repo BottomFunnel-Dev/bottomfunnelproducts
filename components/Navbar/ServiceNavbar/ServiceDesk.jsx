@@ -9,7 +9,7 @@ export const ServiceDesk = ({ serDeskIn, serDeskOut, scroll }) => {
       onMouseEnter={serDeskIn}
       onMouseLeave={serDeskOut}
       className={deskstyle.serviceDeskMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div className={deskstyle.serviceDeskListItems} style={{ width: "100%" }}>
         {serviceFeature.map((item, i) => (
