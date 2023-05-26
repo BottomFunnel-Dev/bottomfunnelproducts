@@ -59,12 +59,12 @@
 }
 
 .dropDownFiveData .productlinkP> p:hover {
-  color: #FEBC06 !important;
+  color: #F78F1E !important;
 }
 
 .dropDownFiveData:hover {
   background-color: rgb(242, 238, 238);
-  border-left: 3px solid #FEBC06;
+  border-left: 3px solid #F78F1E;
 }
 
 .dropDownFivesAllFeaturesButton {
@@ -91,9 +91,9 @@
 }
 
 .dropDownFivesAllFeaturesButton > button:hover {
-  background-color: #FEBC06;
+  background-color: #F78F1E;
   color: white;
-  border: 1px solid #FEBC06;
+  border: 1px solid #F78F1E;
 }
 
 .prodnavbarDropdownButton{

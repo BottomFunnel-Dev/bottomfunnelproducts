@@ -9,6 +9,7 @@ import { GuideToShopFyDemo } from "../../components/GuideToShopFy/GuideToShopFyD
 import { GuideToShopFyMarketing } from "../../components/GuideToShopFy/GuideToShopFyMarketing/GuideToShopFyMarketing";
 import { GuideToShopFyQueries } from "../../components/GuideToShopFy/GuideToShopFyQueries/GuideToShopFyQueries";
 import { GuideToShopFySegments } from "../../components/GuideToShopFy/GuideToShopFySegments/GuideToShopFySegments";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -93,7 +94,7 @@ export default function guideToShopfy() {
         }}
       />
 
-      <ProdNavbar data={productData} />
+      <MarketerNavbar data={productData} />
 
             <GuideToShopFyBanner/>
             <GuideToShopFyConnect/>

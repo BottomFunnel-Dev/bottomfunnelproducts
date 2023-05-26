@@ -78,7 +78,7 @@ export const ProductsFooter = () => {
 
                         <Link className={styles.productFooterLinkTag} href={"/customersuccess"}>
                             <li>
-                                BottomFunnel Customer Success
+                                BottomFunnel Customer <br/>Success
                             </li>
                         </Link>
                     </ul>

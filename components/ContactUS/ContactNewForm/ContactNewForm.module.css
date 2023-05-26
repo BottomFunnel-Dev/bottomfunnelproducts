@@ -11,6 +11,7 @@
   .contactNewFormparentheading{
     color: white;
     text-align: center;
+    margin-top: 2%;
   }
 
   .contactNewFormparentcontent {
@@ -59,6 +60,7 @@
     border: none;
     font-size: 18px;
     padding-top: 5px;
+    color: white;
   }
 
 
@@ -148,7 +150,9 @@
     border-radius: 10px;
     border: 1px solid black;
   }
-
+  .contactheadingproduct>h5{
+    font-size: 20px;
+  }
   
 
   /* Media Query  */
@@ -273,7 +277,7 @@
 
     }
     .clientHeading>h5{
-      font-size: 30px;
+      font-size: 20px;
     }
     .emaildiv{
       width: 90%;
