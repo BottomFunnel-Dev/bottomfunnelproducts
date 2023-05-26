@@ -12,6 +12,7 @@ import { Whatsappbanner } from '../../components/Whatsappnew/Whatsappbanner'
 import { Whatsappbots } from '../../components/Whatsappnew/Whatsappbots'
 import { Whatsappcustomerexp } from '../../components/Whatsappnew/Whatsappcustomerexp'
 import { DeskFooter } from '../../components/DeskFooter/DeskFooter'
+import { MarketerNavbar } from '../../components/MarketerNavbar'
 
 
 
@@ -91,7 +92,7 @@ export default function whatsapp  ()  {
       }}
     />
 
-    <ProdNavbar data={productData} />
+    <MarketerNavbar data={productData} />
     <Whatsappbanner />
     <Whatsappbots />
     <Whatsappcustomerexp />

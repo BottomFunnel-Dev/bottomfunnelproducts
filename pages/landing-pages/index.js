@@ -14,6 +14,7 @@ import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadySta
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 
 const productData = {
   title: "Bottom Funnel Marketer",
@@ -88,7 +89,7 @@ export default function landingPages() {
           logo: false,
         }}
       />
-      <ProdNavbar data={productData} />
+      <MarketerNavbar data={productData} />
 
       <LandingBanner />
       <LandingFeature />

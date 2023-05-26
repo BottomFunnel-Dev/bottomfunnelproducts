@@ -10,6 +10,7 @@ import WhatsNewBanner from "../../components/WhatsNew/WhatsNewBanner/WhatsNewBan
 import WhatsNewDetails from "../../components/WhatsNew/WhatsNewDetails/WhatsNewDetails";
 import WhatsNewMonth from "../../components/WhatsNew/WhatsNewMonth/WhatsNewMonth";
 import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 
 export default function WhatsNew() {
   const productData = {
@@ -83,7 +84,7 @@ export default function WhatsNew() {
           logo: false,
         }}
       />
-      <ProdNavbar data={productData} />
+      <MarketerNavbar data={productData} />
 
       <WhatsNewBanner />
       <WhatsNewMonth />

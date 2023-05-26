@@ -27,7 +27,7 @@ function SamplePrevArrow(props) {
 const TrustedBy = () => {
   var settings = {
     autoplay: true,
-    autoplaySpeed: 0,
+    autoplaySpeed: 100,
     cssEase: "linear",
     speed: 9000,
     slidesToShow: 7,
@@ -131,6 +131,54 @@ const TrustedBy = () => {
           <div className={styles.trustedByslideDivSection}>
             <div>
               <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travix.png" alt="image" />
+            </div>
+          </div>
+
+          
+
+
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/voylla.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img
+                src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/BBT.png" alt="image"
+              />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/th.jpg" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/MGT.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/bottomfunnel.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travelflap.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/Blueberry.png" alt="image" />
             </div>
           </div>
         </Slider>

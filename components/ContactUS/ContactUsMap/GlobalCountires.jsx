@@ -7,25 +7,25 @@ const GlobalCountries = () => {
         {
             img: "/Images/NewTaxiBookingImage/GlobalIndiaImage.png",
             title: "India",
-            icon: "/Images/NewTaxiBookingImage/LocationImage.png",
+            icon: "/Images/ContactUS/locationicon.jpeg",
             address: "JTM Mall, Office no. 422, 4th floor, Jagatpura, Rajasthan 302025",
         },
         {
             img: "/Images/NewTaxiBookingImage/GlobalUAEImage.png",
             title: "UAE",
-            icon: "/Images/NewTaxiBookingImage/LocationImage.png",
+            icon: "/Images/ContactUS/locationicon.jpeg",
             address: "1210, The Regal Tower, Near Business Bay, Dubai, U.A.E",
         },
         {
             img: "/Images/NewTaxiBookingImage/GlobalAmericaImage.png",
             title: "United States",
-            icon: "/Images/NewTaxiBookingImage/LocationImage.png",
+            icon: "/Images/ContactUS/locationicon.jpeg",
             address: "800 3rd Ave New York, NY 10022 United States",
         },
         {
             img: "/Images/NewTaxiBookingImage/GlobalZambiaImage.png",
             title: "Zambia",
-            icon: "/Images/NewTaxiBookingImage/LocationImage.png",
+            icon: "/Images/ContactUS/locationicon.jpeg",
             address: "House no. 3 Nikanchibaya Rd, Luska, Zambia",
         },
     ]

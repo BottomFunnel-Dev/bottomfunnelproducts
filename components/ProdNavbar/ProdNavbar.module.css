@@ -9,9 +9,8 @@
     margin-top: 1%;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(227, 223, 223);
+    /* border: 1px solid rgb(227, 223, 223); */
     border-top: 1px solid rgb(227, 223, 223);
-    /* border: 2px solid red; */
 }
 
 .productsNavbarMain {

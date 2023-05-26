@@ -34,8 +34,8 @@ export default function ContactNewForm({ formdata, bgcolor }) {
               style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className={styles.clientHeading}>
-            <h5>By 500+ clients for 1300+ web and Mobile App Project</h5>
+          <div className={styles.contactheadingproduct}>
+            <p>By 500+ clients for 1300+ web and Mobile App Project</p>
           </div>
           
           <div className={styles.emaildiv}>

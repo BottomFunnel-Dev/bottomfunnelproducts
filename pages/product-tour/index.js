@@ -11,6 +11,7 @@ import { ProductTourTrail } from "../../components/ProductTour/ProductTourTrail/
 import { ProductTourVideos } from "../../components/ProductTour/ProductTourVideos/ProductTourVideos";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 
 const productData = {
   title: "Bottom Funnel Marketer",
@@ -87,7 +88,7 @@ export default function ProductTour() {
             logo: false,
           }}
         />
-        <ProdNavbar data={productData} />
+        <MarketerNavbar data={productData} />
         <ProductTourBanner/>
         <ProductTourVideos/>
         <ProductTourTrail/>

@@ -4,6 +4,7 @@ import { JourneyBanner } from "../../components/Journey/JourneyBanner/JourneyBan
 import { JourneyCustomerExperience } from "../../components/Journey/JourneyCustomerExperience/JourneyCustomerExperience";
 import { JourneyPersonalized } from "../../components/Journey/JourneyPersonized/JourneyPersonalized";
 import { JourneyTrial } from "../../components/Journey/JourneyTrial/JourneyTrial";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -88,7 +89,7 @@ export default function Journey() {
         }}
       />
 
-        <ProdNavbar data={productData} />
+        <MarketerNavbar data={productData} />
 
         <JourneyBanner />
         <ChatCampaign/>

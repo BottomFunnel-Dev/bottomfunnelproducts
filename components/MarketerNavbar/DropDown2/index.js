@@ -8,7 +8,7 @@ export default function DropDown2({ handleHover, scroll, data, more }) {
       onMouseEnter={() => handleHover("dropDown2")}
       onMouseLeave={() => handleHover("")}
       className={featurestyle.productFeatureMainDiv}
-      style={{ top: scroll ? "55px" : "120px" }}
+      style={{ top: scroll ? "65px" : "130px" }}
     >
       <div
         className={featurestyle.productFeatureListItems}
