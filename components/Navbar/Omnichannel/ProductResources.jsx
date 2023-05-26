@@ -9,7 +9,7 @@ export const ProductResources = ({ solResIn, solResOut, scroll }) => {
       onMouseEnter={solResIn}
       onMouseLeave={solResOut}
       className={resource.productResourceMainDiv}
-      style={{ top: scroll ? "6.5%" : "16%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div
         className={resource.productResourceListItems}

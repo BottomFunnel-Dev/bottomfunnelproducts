@@ -8,7 +8,7 @@ export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
       onMouseEnter={saleProIn}
       onMouseLeave={saleProOut}
       className={prodstyle.saleProductMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div className={prodstyle.saleProductListItems} style={{ width: "100%" }}>
         {salesProduct.map((item, i) => (
