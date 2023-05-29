@@ -1,5 +1,5 @@
 .smbbannermainboxes{
-    margin-top: 3.5%;
+    margin-top: 8%;
     /* border: 2px solid gold; */
     width: 100%;
     height: 80vh;
@@ -11,6 +11,7 @@
     width: 40%;
     margin-left: 5%;
     margin-top: 2%;
+    /* border: 2px solid red; */
 }
 .smbBannerHeadings{
     width: 40%;
