@@ -14,16 +14,16 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 export default function Allindustry() {
   return (
     <div>
-
-    <Navbar
-    productMount={{
-      navMount: true,
-    }}
-    navredux={{
-      color: "black",
-      logo: false,
-    }}
-  />
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+      
       <ProductsNavbar
         navproductredux={{
           color: "black",
@@ -35,16 +35,15 @@ export default function Allindustry() {
       <AllindustrycustomerDelight />
       <Allindustryfooter />
 
-      <IntegrationFooter/>
+      <IntegrationFooter />
 
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
 
-      <LifeBottomFunnel/>
+      <LifeBottomFunnel />
       {/* <GetStarted /> */}
-      <ProductsFooter/>
+      <ProductsFooter />
     </div>
-
   );
 }

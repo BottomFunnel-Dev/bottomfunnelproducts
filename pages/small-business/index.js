@@ -7,31 +7,30 @@ import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsN
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export default function SmallBusinees() {
-    return (
-        <div>
+  return (
+    <div>
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
-            <Navbar
-                productMount={{
-                    navMount: true,
-                }}
-                navredux={{
-                    color: "black",
-                    logo: false,
-                }}
-            />
+      <ProductsNavbar
+        navproductredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
-            <ProductsNavbar
-                navproductredux={{
-                    color: "black",
-                    logo: false,
-                }}
-            />
-
-            <SmallBusinessBanner />
-            <SmallBusinessSupport />
-            <SmallBusinessManagement />
-            <SmallBusinessFreshDesk />
-            <ProductsFooter />
-        </div>
-    );
+      <SmallBusinessBanner />
+      <SmallBusinessSupport />
+      <SmallBusinessManagement />
+      <SmallBusinessFreshDesk />
+      <ProductsFooter />
+    </div>
+  );
 }

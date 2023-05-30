@@ -20,70 +20,69 @@ import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonia
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 const productData = {
-    title: "Bottom Funnel Marketer",
-    logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
-    width: "45%",
-    list1: {
-      title: "Features",
-      more: { title: "View more features", path: "/" },
-      position: { right: "35%" },
-      products: [
-        {
-          dropContent: "Multichannel Engagement",
-          path: "/",
-        },
-        {
-          dropContent: "Email & SMS",
-          path: "/",
-        },
-        {
-          dropContent: "WhatsApp",
-          path: "/whatsapp",
-        },
-        {
-          dropContent: "Journeys",
-          path: "/journey",
-        },
-        {
-          dropContent: "Landing Pages",
-          path: "/landing-pages",
-        },
-        {
-          dropContent: "Shopify Integration",
-          path: "/",
-        },
-      ],
-    },
-    list4: {
-      title: "Resources",
-      more: false,
-      position: { right: "20%" },
-      products: [
-        {
-          dropContent: "Product Tours",
-          path: "/product-tour",
-        },
-        {
-          dropContent: "Case Studies",
-          path: "/",
-        },
-        {
-          dropContent: "What's new",
-          path: "/whatsnew",
-        },
-        {
-          dropContent: "Guide to Shopify",
-          path: "/guideToShopFy",
-        },
-      ],
-    },
-    pricing: "",
-  };
+  title: "Bottom Funnel Marketer",
+  logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
+  width: "45%",
+  list1: {
+    title: "Features",
+    more: { title: "View more features", path: "/" },
+    position: { right: "35%" },
+    products: [
+      {
+        dropContent: "Multichannel Engagement",
+        path: "/",
+      },
+      {
+        dropContent: "Email & SMS",
+        path: "/",
+      },
+      {
+        dropContent: "WhatsApp",
+        path: "/whatsapp",
+      },
+      {
+        dropContent: "Journeys",
+        path: "/journey",
+      },
+      {
+        dropContent: "Landing Pages",
+        path: "/landing-pages",
+      },
+      {
+        dropContent: "Shopify Integration",
+        path: "/",
+      },
+    ],
+  },
+  list4: {
+    title: "Resources",
+    more: false,
+    position: { right: "20%" },
+    products: [
+      {
+        dropContent: "Product Tours",
+        path: "/product-tour",
+      },
+      {
+        dropContent: "Case Studies",
+        path: "/",
+      },
+      {
+        dropContent: "What's new",
+        path: "/whatsnew",
+      },
+      {
+        dropContent: "Guide to Shopify",
+        path: "/guideToShopFy",
+      },
+    ],
+  },
+  pricing: "",
+};
 
 export default function guideToShopfy() {
-    return (
-        <div>
-
+  return (
+    <div>
       <Navbar
         productMount={{
           navMount: true,
@@ -96,25 +95,25 @@ export default function guideToShopfy() {
 
       <MarketerNavbar data={productData} />
 
-            <GuideToShopFyBanner/>
-            <GuideToShopFyConnect/>
-            <GuideToShopFyConfigure/>
-            <GuideToShopFyCannel/>
-            <GuideToShopFyCoversation/>
-            <GuideToShopFySegments/>
-            <GuideToShopFyMarketing/>
-            <GuideToShopFyQueries/>
-            <GuideToShopFybots/>
-            <GuideToShopFyDemo/>
+      <GuideToShopFyBanner />
+      <GuideToShopFyConnect />
+      <GuideToShopFyConfigure />
+      <GuideToShopFyCannel />
+      <GuideToShopFyCoversation />
+      <GuideToShopFySegments />
+      <GuideToShopFyMarketing />
+      <GuideToShopFyQueries />
+      <GuideToShopFybots />
+      <GuideToShopFyDemo />
 
-            <Testimonial/>
-            <TrustedBy/>
+      <Testimonial />
+      <TrustedBy />
 
-            <ReadyStarted/>
-            {/* <TalentProfiles/> */}
-            <LifeBottomFunnel/>
-            <DeskFooter/>
-            {/* <ProductsFooter/> */}
-        </div>
-    );
+      <ReadyStarted />
+      {/* <TalentProfiles/> */}
+      <LifeBottomFunnel />
+      <DeskFooter />
+      {/* <ProductsFooter/> */}
+    </div>
+  );
 }
