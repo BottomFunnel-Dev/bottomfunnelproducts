@@ -167,10 +167,10 @@ export const ChatBotsspin = () => {
     return (
         <div className={styles.chatbotspinparent}>
             <h2>
-                We ve given chatbots a whole new spin
+            Revolutionizing chatbots with a fresh perspective
             </h2>
             <p>
-                You don't have to take our word for it, try it yourself!
+            Change the interaction experience for your customers.
             </p>
             <div className={styles.chatbotspinparentonly}>
                 <div className={styles.chatbotspinparentbutton}>

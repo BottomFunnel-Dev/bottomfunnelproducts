@@ -6,15 +6,15 @@ export const AllFeaturesReach = () => {
   return (
     <div className={styles.allFeaturesReachMainDiv}>
         <div className={styles.allFeaturesReachHeading}>
-           <h1>Reach the right people at the right time</h1>
-           <p>Gain a deeper understanding of your customers with all their datapoints in one place</p>
+           <h1>Targeted Messaging: Reaching the Right Audience, Right on Time</h1>
+           <p>Engage with your audience at the perfect moment, delivering tailored messages that resonate and drive action</p>
         </div>
             <div className={styles.allFeaturesReachContainerBoxes}>
                  
                     <div className={styles.allFeatureDataContainers}>
                         <div className={styles.allFeaturesReachBoxes}>
                            <div className={styles.allFeaturesReachIconsHeading}>
-                                <h3>Marketing Segments</h3>
+                                <h3>Segmented Engagement</h3>
                                 <div className={styles.allFeaturesReachImage1}>
                                     <Image
                                         src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle11.webp"}
@@ -28,14 +28,13 @@ export const AllFeaturesReach = () => {
                             </div>
                             <div className={styles.allFeaturesReachText}>
                                 <p>
-                                    Group Your customers into segments based on demography, geography, or behaviour to
-                                    engage in personalized ways with relevant campaigns.
+                                Leverage AI chat support to target specific marketing segments, delivering personalized messages, offers, and recommendations that cater to their unique needs and preferences. Maximize engagement and conversion rates with targeted communication.
                                 </p>
                             </div>
                         </div>
                         <div className={styles.allFeaturesReachBoxes}>
                            <div className={styles.allFeaturesReachIconsHeading}>
-                                <h3>Shopify-based Segments</h3>
+                                <h3>Shopify Integration</h3>
                                 <div className={styles.allFeaturesReachImage2}>
                                     <Image
                                         src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle12.webp"}
@@ -49,14 +48,13 @@ export const AllFeaturesReach = () => {
                             </div>
                             <div className={styles.allFeaturesReachText}>
                                 <p>
-                                    Connect to Shopify and get started with pre-built segments based on orders placed,
-                                    added to cart, abandoned cart, and more, and set up personalized campaigns. 
+                                Enhance your Shopify-based segments with AI chat support. Engage customers seamlessly within their shopping journey, provide personalized product recommendations, answer queries, and drive conversions. Increase customer satisfaction and loyalty by delivering a seamless and tailored shopping experience. 
                                 </p>
                             </div>
                         </div>
                         <div className={styles.allFeaturesReachBoxes}>
                            <div className={styles.allFeaturesReachIconsHeading}>
-                                <h3>Anonymous Website Visitors</h3>
+                                <h3>Engage Anonymous Visitors</h3>
                                 <div className={styles.allFeaturesReachImage3}>
                                     <Image
                                         src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle13.webp"}
@@ -70,8 +68,7 @@ export const AllFeaturesReach = () => {
                             </div>
                             <div className={styles.allFeaturesReachText}>
                                 <p>
-                                    Use segments to identify fist-time website visitors and catch their attention
-                                    with timely offers, customized discounts, and personalized promotions.
+                                Leverage AI chat support to engage and convert anonymous website visitors. Offer personalized assistance, recommend relevant content or products, and capture lead information. By providing real-time support, you can turn anonymous visitors into potential customers and drive higher conversion rates on your website.
                                 </p>
                             </div>
                         </div>

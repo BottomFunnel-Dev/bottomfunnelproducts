@@ -7,7 +7,7 @@ export const AllFeaturesTime = () => {
     <div className={styles.allFeaturesTimeMainDiv}>
         <div className={styles.allFeaturesHeading}>
            <h1>Automate and save time</h1>
-           <p>Deliver a seamless experience with automationfeatures</p>
+           <p>Deliver an optimized experience with the power of artificial intelligence </p>
         </div>
   
             <div className={styles.allFeaturesTimeContainerBoxes}>
@@ -15,7 +15,7 @@ export const AllFeaturesTime = () => {
                     <div className={styles.allFeatureDataContainers}>
                         <div className={styles.allFeaturesBoxes}>
                            <div className={styles.allFeaturesIconsHeading}>
-                                <h3>Email Campaigns</h3>
+                                <h3>Personalized Email Campaigns</h3>
                                 <div className={styles.allFeaturesImage1}>
                                     <Image
                                         src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle25.webp"}
@@ -29,8 +29,7 @@ export const AllFeaturesTime = () => {
                             </div>
                             <div className={styles.allFeaturesText}>
                                 <p>
-                                    Create email campaigns from scratch with images, videos, and other visuals and Send
-                                    them to the right audience using lists and segments. 
+                                Leverage the Expertise of the Bottom Funnel Chatbot to Create Engaging and Conversion-Driven Email Campaigns That Resonate with Your Audience and Drive Results.
                                 </p>
                             </div>
                         </div>
@@ -50,8 +49,7 @@ export const AllFeaturesTime = () => {
                             </div>
                             <div className={styles.allFeaturesText}>
                                 <p>
-                                    Send updates through SMS to inform customers about new offers,
-                                    order updates,reminders, and more. 
+                                Leverage the Power of Personalized and Targeted SMS Messages to Connect with Your Audience in Real-Time, Drive Engagement, and Maximize Conversions for Your Business.
                                 </p>
                             </div>
                         </div>
@@ -71,8 +69,7 @@ export const AllFeaturesTime = () => {
                             </div>
                             <div className={styles.allFeaturesText}>
                                 <p>
-                                    Engage with customers on WhatsApp using one-on-one messages and 
-                                    chatbots to share messages and offer support.
+                                Seamlessly Engage and Interact with Your Customers on WhatsApp, Delivering Personalized Messages, Promotions, and Updates to Drive Engagement, Foster Customer Loyalty, and Boost Your Business Growth.
                                 </p>
                             </div>
                         </div>
@@ -92,8 +89,7 @@ export const AllFeaturesTime = () => {
                             </div>
                             <div className={styles.allFeaturesText}>
                                 <p>
-                                    Configure business-critical non-marketing emails that are triggered by user actions such as activation 
-                                    and purchase completion using transactional emails.
+                                Streamline and Automate Transactional Messaging, Delivering Real-Time Updates, Order Confirmations, Shipping Notifications, and More to Enhance Customer Experience, Build Trust, and Drive Repeat Business for Your Brand.
                                 </p>
                             </div>
                         </div>
@@ -116,8 +112,7 @@ export const AllFeaturesTime = () => {
                             </div>
                             <div className={styles.allFeaturesText}>
                                 <p>
-                                    Give instant,precise answers to commonly askd customner questions,
-                                    improving resolution times and freeing up your team's workload.
+                                Engage Customers in Real-Time Conversations, Personalize Interactions, Deliver Targeted Offers, and Drive Conversions. Seamlessly Integrate Chatbot Capabilities Across Multiple Channels for Enhanced Customer Engagement and Exceptional ROI on Your Marketing Efforts.
                                 </p>
                             </div>
                         </div>
@@ -138,8 +133,7 @@ export const AllFeaturesTime = () => {
                             </div>
                             <div className={styles.allFeaturesText}>
                                 <p>
-                                   Trigger chat messages based on the visitors website journey to 
-                                   nudge them to conversion.
+                                Connect with Your Audience through Interactive Chat Experiences, Deliver Personalized Messages, Capture Leads, and Nurture Relationships. Leverage the Power of AI Chatbots to Drive Engagement, Increase Conversions, and Achieve Remarkable Results for Your Business.
                                 </p>
                             </div>
                         </div>

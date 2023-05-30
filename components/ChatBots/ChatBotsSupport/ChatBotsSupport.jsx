@@ -5,8 +5,7 @@ export const ChatBotsSupport = () => {
     return (
         <div className={styles.chatbotssuppportparent}>
             <h2 className={styles.fontwiegth}>
-                Artificial + Human Intelligence = Exceptional
-                Support!
+            Human-AI Support: Unleashing Synergy
             </h2>
             <div className={styles.chatbotssuppportparentonediv}>
                 <div>
@@ -25,8 +24,7 @@ export const ChatBotsSupport = () => {
                         Automate resolutions
                     </h5>
                     <p>
-                        Save time for your customers and agents by
-                        having your bot automate resolutions.
+                    Streamline your customer support process and save time by automating the resolution of common queries and providing instant answers.
                     </p>
                 </div>
 
@@ -46,9 +44,7 @@ export const ChatBotsSupport = () => {
                         Digitize IVRs
                     </h5>
                     <p>
-                        Collect all the required context and triage your
-                        conversations to the relevant agent groups.
-
+                    Say goodbye to traditional IVRs. Digitize your customer interactions with AI-powered chatbots, offering personalized and efficient self-service options.
                     </p>
                 </div>
 
@@ -68,8 +64,7 @@ export const ChatBotsSupport = () => {
                         Scalability
                     </h5>
                     <p>
-                        Deliver scalable, intelligent support across all
-                        channels and make your agents more productive.
+                    Scale your customer support effortlessly with AI chatbots, capable of handling increasing volumes of customer queries without compromising quality or response time.
                     </p>
                 </div>
             </div>
@@ -92,9 +87,7 @@ export const ChatBotsSupport = () => {
                         Reduced handle times
                     </h5>
                     <p>
-                        With real-time resolutions, intelligent automation,
-                        and contextual agent handovers, you can
-                        significantly reduce your Average Handle Time.
+                    AI chatbots reduce handle times by instantly addressing customer queries, providing quick and accurate responses, and minimizing the need for manual intervention.
                     </p>
                 </div>
 
@@ -115,9 +108,7 @@ export const ChatBotsSupport = () => {
                         Optimized support
                     </h5>
                     <p>
-                        Save money and reduce support staffing
-                        costs by front-lining your bots to take care of
-                        most of your customers repetitive questions.
+                    Optimized support through AI chatbots ensures efficient handling of customer inquiries, personalized interactions, and streamlined resolution processes for enhanced customer satisfaction.
                     </p>
                 </div>
 
@@ -138,9 +129,7 @@ export const ChatBotsSupport = () => {
                         Improved CSAT
                     </h5>
                     <p>
-                        Provide instant resolutions through intelligent
-                        self-service automation and create happy
-                        customer advocates for your brand.
+                    Improved customer satisfaction (CSAT) with AI chatbots by providing quick and accurate responses, personalized assistance, and proactive problem-solving.
                     </p>
                 </div>
             </div>
