@@ -40,15 +40,14 @@ export const ProductSolutions = ({ solHoverIn, solHoverOut, scroll }) => {
                
               </div>
               
-              <p style={{ fontSize: "14px", padding: "3%", }}>
+              <p className={solnav.desknavHeading}>
                 {item.productText1}
               </p>
 
-              
-              <p style={{ fontSize: "14px", padding: "3%",marginTop:"-15%" }}>
+              <p className={solnav.desknavHeading1}>
                 {item.productText2}
-              
               </p>
+              
             </Link> 
           </div>
         ))}

@@ -22,7 +22,15 @@
   width: 80%;
   color: #393939;
 }
-
+.desknavHeading{
+  font-size: 15px !important;
+  padding: 3%;
+}
+.desknavHeading1{
+  font-size: 15px !important;
+  padding: 3%;
+  margin-top: -15% !important;
+}
 .productlinkP > div > h6 {
   text-decoration: none;
   color: black;
@@ -91,4 +99,46 @@
 .arrowIcon{
   /* border: 2px solid red; */
   width: 18px;
+}
+
+@media(max-width:480px){
+  .productSolutionsMainDiv {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    right: 0%;
+    margin-top: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100000000;
+    flex-direction: column;
+  }
+  
+  .desknavHeading{
+     font-size: 18px !important;
+     padding: 3%;
+     /* border: 2px solid red; */
+     padding-left: 4% !important;
+  }
+  .desknavHeading1{
+    font-size: 18px !important;
+    padding: 3%;
+    margin-top: -12% !important;
+    padding-left: 4% !important;
+ }
+ .productSolutionsListItems > button {
+  border: 1px solid #393939;
+  background: transparent;
+  width: 80%;
+  height: 50px;
+  margin: 8% auto;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  font-size: 18px;
+  /* padding: 2px 0; */
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
 }

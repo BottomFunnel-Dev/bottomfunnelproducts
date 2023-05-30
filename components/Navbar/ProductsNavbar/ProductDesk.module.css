@@ -63,3 +63,32 @@
 .productlinkP > :hover {
   color: #393939;
 }
+
+@media (max-width:480px){
+  .productDeskMainDiv{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    margin-top: 12%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100000000;
+  }
+  .productDeskData>img{
+    width: 45px;
+    height: 45px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .productDeskData .productlinkP > h6 {
+    font-size: 15px;
+    margin: 2% 0;
+  }
+  .productDeskData .productlinkP > p {
+    font-size: 13px;
+    margin: 2% 0;
+  }
+}

@@ -797,12 +797,14 @@
     background: #ef4c23;
     justify-content: space-between;
     padding: 0 20px;
-    height: 60px;
+    height: 50px;
     top: 0 !important;
+    /* border: 2px solid green; */
   }
 
   .logoSection {
     width: 130px;
+    /* border: 2px solid red; */
   }
 
   .dropdownBar {
@@ -829,7 +831,7 @@
 
   #bar {
     display: block;
-    color: white;
+    color: black;
   }
 
   .navbarSection.active .bars {
@@ -839,7 +841,7 @@
   .bars {
     display: block;
     font-size: 24px;
-    color: white;
+    color: black;
   }
 
   .mobDown {
@@ -855,8 +857,4 @@
 }
 
 
-/* Media Query for Tablets Ipads portrait mode */
-
-@media (min-width: 768px) and (max-width: 1024px) {
-}
 
