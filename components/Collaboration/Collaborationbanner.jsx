@@ -10,7 +10,7 @@ export const Collaborationbanner = () => {
     <div className={styles.collaborationbannerleftbox}>
     
     <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Collaboration/components/Group 1000006028.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Collaboration/components/Group 1000006028.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

@@ -9,7 +9,7 @@ export const EnterprizePlatform = () => {
             <h2>
             Built on Neo, the enterprise platform tuned for scaling
             </h2>
-            <p>Meet your expanding customer needs with the open and flexible Freshworks Platform. Access rich APIs for custom integrations, automated workflows, smart analytics, ecosystem partner solutions, and hundreds of Marketplace Apps. 
+            <p>Meet your expanding customer needs with the open and flexible Bottom Funnel Platform. Access rich APIs for custom integrations, automated workflows, smart analytics, ecosystem partner solutions, and hundreds of Marketplace Apps. 
 
 </p>
 <button className={styles.EnterprizePlatformdivbutton}>Learn More</button>
@@ -20,7 +20,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/Rectangle 1067611.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/Rectangle 1067611.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -36,7 +36,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/supr+daily.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/supr+daily.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -52,7 +52,7 @@ export const EnterprizePlatform = () => {
                 <div className={styles.EnterprizePlatformcarddivinnerbox}>
                     <div className={styles.EnterprizePlatformcarddivinnerboximage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/sens.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/sens.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

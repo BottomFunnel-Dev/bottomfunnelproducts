@@ -6,32 +6,32 @@ export const ConsultingTechTools = () => {
         {
             title: "Artificial Intelligence",
             body: "Identification of a specific person's face to provide exclusive sedrvices, identify suspects and trespassers, etc.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/AI.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/AI.png",
         },
         {
             title: "Augumented Reality",
             body: "Assising the level of a customer's satisfaction to solve unique business challenges.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/AR.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/AR.png",
         },
         {
             title: "BlockChain",
             body: "Indexing visual databases.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Blockchain.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/Blockchain.png",
         },
         {
             title: "Cloud Computing",
             body: "Producing 3D models from 2D data (e.g. medical scans).",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Cloud computing.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/Cloud computing.png",
         },
         {
             title: "Fintech",
             body: "Reading texts and number sequences (printed and handwritten).",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Fintech.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/Fintech.png",
         },
         {
             title: "Internet Of Things",
             body: "Identifying behavior anomalies and alarms in surveillance videos, counting people traversing a passage.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/IOT.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/IOT.png",
         },
     ];
 

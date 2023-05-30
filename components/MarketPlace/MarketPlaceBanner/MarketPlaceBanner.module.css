@@ -1,5 +1,5 @@
 .MarketPlaceBannerParent {
-  background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Banner.webp");
+  background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/MarketPlace/Banner.webp");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +125,7 @@
 
 @media (max-width: 780px) {
   .MarketPlaceBannerParent {
-    background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Banner.webp");
+    background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/MarketPlace/Banner.webp");
     display: flex;
     flex-direction: column;
     align-items: center;

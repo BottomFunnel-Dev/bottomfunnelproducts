@@ -17,7 +17,7 @@ export const MediaAndEntertainmentSpotLight = () => {
                             dashboard. Resolve customer issues with complete context and
                             create seamless experiences across channels</li>
                         <li> Leverage 650+ one-click integrations and flexible APIs to access
-                            customer data right within Freshdesk and offer personalized
+                            customer data right within Bottom funnel desk and offer personalized
                             assistance
                         </li>
                         <li>
@@ -28,7 +28,7 @@ export const MediaAndEntertainmentSpotLight = () => {
                 </div>
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/MediaAndEntertainment/Image1.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -39,7 +39,7 @@ export const MediaAndEntertainmentSpotLight = () => {
             <div className={styles.MediaAndEntertainmentSpotLightParentsecChild}>
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image2.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/MediaAndEntertainment/Image2.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -79,7 +79,7 @@ export const MediaAndEntertainmentSpotLight = () => {
                         <li>Track customer satisfaction by automating personalized surveys
                         </li>
                         <li>Detect customer frustration signals such as mouse trashing and
-                            dead clicks and offer proactive assistance using Freshdesk help
+                            dead clicks and offer proactive assistance using Bottom funnel desk help
                             widget</li>
                         <li>¥ Get complete visibility into team performance using live
                             dashboards, reports, and custom analytics.</li>
@@ -87,7 +87,7 @@ export const MediaAndEntertainmentSpotLight = () => {
                 </div>
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image3.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/MediaAndEntertainment/Image3.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -98,7 +98,7 @@ export const MediaAndEntertainmentSpotLight = () => {
             <div className={styles.MediaAndEntertainmentSpotLightParentFfourthChild}>
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/Image4.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/MediaAndEntertainment/Image4.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -117,7 +117,7 @@ export const MediaAndEntertainmentSpotLight = () => {
                             customer issue with complete transparency</li>
                         <li>Bring mass communication, content, audio or video streaming, and
                             digital asset management experts together for consultation using
-                            Freshdesk Collaborators</li>
+                            Bottom funnel desk Collaborators</li>
                         <li> Track progress under various stages of production and improve
                         accountability using service level agreements (SLAs).</li>
                 </ul>

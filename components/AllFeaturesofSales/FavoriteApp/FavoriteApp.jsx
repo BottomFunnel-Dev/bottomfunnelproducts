@@ -46,7 +46,7 @@ export const FavoriteApp = () => {
                 </div>
              </div>
              <div>
-              <p>Scale with the Freshworks platform. Bring in Slack, Gong, G Suite, Xero, Outlook, and other apps into your CRM.</p>
+              <p>Scale with the Bottom Funnel platform. Bring in Slack, Gong, G Suite, Xero, Outlook, and other apps into your CRM.</p>
              </div>
             </div>
         </div>

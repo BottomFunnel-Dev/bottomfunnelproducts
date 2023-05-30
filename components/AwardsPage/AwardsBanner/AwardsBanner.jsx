@@ -51,7 +51,7 @@ export const AwardsBanner = () => {
         </div>
 
         <div className={awards.awardsbannerImage}>
-          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/AwardsPhotos/banner.png" alt="Awards vector" />
+          <img src="https://d3op2l77j7wnti.cloudfront.net/Images/AwardsPhotos/banner.png" alt="Awards vector" />
         </div>
 
       </div>

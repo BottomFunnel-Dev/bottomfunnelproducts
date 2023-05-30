@@ -13,7 +13,7 @@ export const Banner = () => {
    </div>
    <div className={styles.ProvideConvenientBannerimage}>
    <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/banner.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/banner.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

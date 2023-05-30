@@ -8,7 +8,7 @@ export const Products = ({ productHoverIn, productHoverOut, scroll, productMount
       onMouseEnter={() => productHoverIn()}
       onMouseLeave={() => productHoverOut()}
       className={prods.productVisible}
-      style={{ top: scroll || productMount.navMount ? "70px" : "100px" }}
+      style={{ top: scroll || productMount.navMount ? "73px" : "73px" }}
     >
       <div className={prods.productDropdownSection}>
         <div className={prods.productDropdownContent}>

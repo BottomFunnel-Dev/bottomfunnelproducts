@@ -18,7 +18,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Email</h3>
                                 <div className={styles.allFeaturesImage1}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle1.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle1.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -39,7 +39,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>SMS</h3>
                                 <div className={styles.allFeaturesImage2}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle2.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle2.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -59,7 +59,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>WhatsApp</h3>
                                 <div className={styles.allFeaturesImage3}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle3.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle3.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -80,7 +80,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Live Chat</h3>
                                 <div className={styles.allFeaturesImage4}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle4.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle4.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -104,7 +104,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Apple Message for Business</h3>
                                 <div className={styles.allFeaturesImage5}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle7.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle7.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -125,7 +125,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Google Business Messages</h3>
                                 <div className={styles.allFeaturesImage6}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle8.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle8.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -146,7 +146,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Facebook Messenger</h3>
                                 <div className={styles.allFeaturesImage7}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle9.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle9.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -167,7 +167,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Social Media Campaigns</h3>
                                 <div className={styles.allFeaturesImage8}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle10.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle10.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -191,7 +191,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Line</h3>
                                 <div className={styles.allFeaturesImage9}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle5.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle5.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -212,7 +212,7 @@ export const AllFeaturesDrive = () => {
                                 <h3>Instagram DM</h3>
                                 <div className={styles.allFeaturesImage10}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle6.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle6.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}

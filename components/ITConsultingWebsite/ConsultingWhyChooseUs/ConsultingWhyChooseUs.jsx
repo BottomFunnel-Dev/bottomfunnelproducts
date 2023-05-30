@@ -6,22 +6,22 @@ export const ConsultingWhyChooseUs = () => {
         {
             title: "Flexible Engagement",
             body: "Distinguish regions of interest for further analysis, individual objects from the background, etc.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Curved Arrow.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/Curved Arrow.png",
         },
         {
             title: "Experienced and talented team",
             body: "Label or classify objects in digital images based on one or several object classes: people, vechicles, electronic components, etc.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Team.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/Team.png",
         },
         {
             title: "We are always here for you",
             body: "Recognize individual features of an object and classify it with more precision: identify individual people, specific vehicles, animal species, device models, etc.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/support.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/support.png",
         },
         {
             title: "Integrity and Transparency",
             body: "Recognize individual features of an object and classify it with more precision: identify individual people, specific vehicles, animal species, device models, etc.",
-            image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/Agile Iteration.png",
+            image: "https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/Agile Iteration.png",
         }
     ];
 
@@ -39,7 +39,7 @@ export const ConsultingWhyChooseUs = () => {
             <div className={styles.consultingServicesWhyChooosemain}>
                 <div className={styles.consultingServicesWhyChoooseimage}>
                     <img
-                        src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/why choose us 1.png"
+                        src="https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/why choose us 1.png"
                         alt="Image analysis core task vector"
                     />
                 </div>

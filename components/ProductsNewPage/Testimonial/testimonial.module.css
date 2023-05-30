@@ -16,7 +16,7 @@
 .mainsliderDiv {
   width: 95%;
   margin: auto;
-  height: 350px;
+  height: 390px;
   /* background-color: blue; */
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@
 .slidingDiv {
   width: 100%;
   margin: auto;
-  height: 350px;
+  height: 390px;
   background-color: #ef4c23;
   display: flex;
   align-items: center;
@@ -37,15 +37,15 @@
 }
 
 .imgpart {
-  width: 40%;
-  height: 100%;
+  width: 35%;
+  height: 95%;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
   /* background-color: yellow; */
 }
 
-.imgpart>img {
+.imgpart > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -78,7 +78,16 @@
   text-decoration: underline;
   text-underline-offset: 8px;
 }
-
+.textpart>div{
+  display: flex;
+  flex-direction: row;
+}
+.textpart>div>a>img{
+  margin-left: 45%;
+  margin-top: 12%;
+  width: 25px;
+  height: 25px;
+}
 .nextButton {
   padding: 10px;
   position: absolute;

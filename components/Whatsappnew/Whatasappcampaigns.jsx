@@ -6,7 +6,7 @@ export const Whatasappcampaigns = () => {
     const [colorchange, Setcolorchange] = useState(false)
 
 
-    const [imageChange, setImageChange]= useState("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/camp.webp")
+    const [imageChange, setImageChange]= useState("https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/camp.webp")
 
     const handleImagechange = (imagepath) =>{
         setImageChange(() => imagepath)
@@ -15,29 +15,29 @@ export const Whatasappcampaigns = () => {
     const whatsappcampaignsdata = [
         {
             xtt:"Create and lunch code-free whatsApp Campaigns",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/camp.webp"
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/camp.webp"
         },
 
         {
             xtt:"Measure campaign's performance with Analytics & Reports",
             
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Measure.webp"
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/Measure.webp"
         },
 
         {
             xtt:"Reach the right customers with advanced Segmentation",
             
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Reach the right.webp"
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/Reach the right.webp"
         },
 
         {
             xtt:"Drive better engagement with rich multimedia messages",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Drivebetter.webp"
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/Drivebetter.webp"
         },
 
         {
             xtt:"Automate Your engagement with Journeys",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Automate your engagement with  Journeys.webp"
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/Automate your engagement with  Journeys.webp"
         },
 
     ]

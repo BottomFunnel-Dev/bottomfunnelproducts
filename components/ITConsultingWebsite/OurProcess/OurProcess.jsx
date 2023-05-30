@@ -16,7 +16,7 @@ export const OurProcess = () => {
             </div>
 
             <div className={styles.consultingOurProcessImageMainDiv}>
-                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/LampiconsImage.png' alt='image' />
+                <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/LampiconsImage.png' alt='image' />
 
                 <div className={styles.consultingOurProcessImageContentDiv}>
                     <div className={styles.consultingOurProcessImageChildDiv}>

@@ -8,7 +8,7 @@ export const DeveloperPortalGetStarted = () => {
     <div className={styles.developerportalGetStartedDiv}>
         <div className={styles.developerPortalLeftSection}>
             <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group2.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group2.png"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}
@@ -21,7 +21,7 @@ export const DeveloperPortalGetStarted = () => {
             <h2>Begin your journey today!!</h2>
             <div className={styles.developerPortalBgImage}>
              <Image
-                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group20.png"}
+                src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group20.png"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}
@@ -31,7 +31,7 @@ export const DeveloperPortalGetStarted = () => {
                 <div className={styles.developerPortalData1}>
                     <div className={styles.developerPortalLogo}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Rectangle1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Rectangle1.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -50,7 +50,7 @@ export const DeveloperPortalGetStarted = () => {
                 <div className={styles.developerPortalData2}>
                     <div className={styles.developerPortalLogo}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Rectangle2.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Rectangle2.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -70,7 +70,7 @@ export const DeveloperPortalGetStarted = () => {
                 <div className={styles.developerPortalData3}>
                     <div className={styles.developerPortalLogo}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Rectangle3.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Rectangle3.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -88,7 +88,7 @@ export const DeveloperPortalGetStarted = () => {
                 <div className={styles.developerPortalData4}>
                     <div className={styles.developerPortalLogo}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Rectangle4.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Rectangle4.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}

@@ -24,7 +24,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
         </svg>
 
         <a
-          style={{ color: textcolor, fontSize: "14px", textDecoration: "none" }}
+          style={{ color: textcolor, fontSize: "14px", textDecoration: "none !important" }}
           href="mailto:info@bottomfunnel.net"
         >
           info@bottomfunnel.net
@@ -82,7 +82,11 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
           <div className={stylecon.callcontentinner}>
             <div className={stylecon.requestquote}>
               <h5>Bottom Funnel Contacts</h5>
-              <button>Request Quote</button>
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Request Quote</button>
+
             </div>
 
             <hr />
@@ -113,7 +117,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                     />
                   </svg>
                 </div>
-                
+
                 <div className={stylecon.contactNumbs}>
                   <div className={stylecon.numberMain}>
                     <Image

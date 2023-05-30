@@ -41,3 +41,15 @@
 .enterpriseBFChatToolsdata1>p{
     margin-top: 10%;
 }
+@media(max-width:480px){
+    .enterpriseBFChatToolsImage{
+        width: 100%;
+        height: auto;
+    }
+    .enterpriseBFChatToolsdata,.enterpriseBFChatToolsdata1{
+        position: static;
+        width: 80%;
+        margin:4% auto;
+    }
+  
+}

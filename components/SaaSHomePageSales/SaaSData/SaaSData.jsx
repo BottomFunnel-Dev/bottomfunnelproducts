@@ -34,7 +34,7 @@ export const SaaSData = () => {
         <div className={style.SaaSDatamaindiv}>
 
         <div className={style.SaaSDatamainimagediv1}>
-                <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SaaShomepagephotos/Saas.png" alt="screen1" />
+                <img src="https://d3op2l77j7wnti.cloudfront.net/Images/SaaShomepagephotos/Saas.png" alt="screen1" />
 
             </div>
             <div className={style.SaaSDatamaincontaindiv1}>

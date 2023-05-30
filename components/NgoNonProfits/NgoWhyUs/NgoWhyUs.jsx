@@ -7,7 +7,7 @@ export default function NgoWhyUs () {
     <div className={styles.ngoWhyUsMainDiv}>
       <div className={styles.ngoWhyUsImageDiv}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group11.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group11.webp"}
           alt={"img"}
           width={"0"}
           height={"0"}
@@ -21,7 +21,7 @@ export default function NgoWhyUs () {
                    <div className={styles.ngoWhyusData}>
                       <div className={styles.ngoWhyDataImage}>
                          <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group1.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group1.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -35,7 +35,7 @@ export default function NgoWhyUs () {
                    <div className={styles.ngoWhyusData}>
                       <div className={styles.ngoWhyDataImage}>
                          <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group2.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group2.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -49,7 +49,7 @@ export default function NgoWhyUs () {
                    <div className={styles.ngoWhyusData}>
                       <div className={styles.ngoWhyDataImage}>
                          <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group3.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group3.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -66,7 +66,7 @@ export default function NgoWhyUs () {
                    <div className={styles.ngoWhyusData1}>
                       <div className={styles.ngoWhyDataImage}>
                          <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group4.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group4.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -80,7 +80,7 @@ export default function NgoWhyUs () {
                    <div className={styles.ngoWhyusData1}>
                       <div className={styles.ngoWhyDataImage}>
                          <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group5.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group5.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

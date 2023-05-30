@@ -12,7 +12,7 @@ export const DeveloperPortalCases = () => {
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage1}>
                    <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/NT.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/NT.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -27,7 +27,7 @@ export const DeveloperPortalCases = () => {
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage2}>
                    <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/SPJ.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/SPJ.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -42,7 +42,7 @@ export const DeveloperPortalCases = () => {
             <div className={styles.developerPortalCaseBox}>
                 <div className={styles.developerPortalCaseImage}>
                    <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/BBG.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/BBG.png"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}

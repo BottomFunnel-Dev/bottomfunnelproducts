@@ -17,7 +17,7 @@ export const TravelHospitalitydashbord = () => {
                 list4: "Optimize customer context by integrating with your business applications."
             },
 
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travel & hospitality/Vectors/Group 770571.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/Travel & hospitality/Vectors/Group 770571.webp",
             link:"Explore omnichannel customer service >",
         },
 
@@ -33,7 +33,7 @@ export const TravelHospitalitydashbord = () => {
                
             },
 
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travel & hospitality/Vectors/Group 770548.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/Travel & hospitality/Vectors/Group 770548.webp",
             link:"Explore the Bottom funnel Marketplace >",
         },
 
@@ -48,7 +48,7 @@ export const TravelHospitalitydashbord = () => {
                 list4:"Identify purchase intent and convert service enquiries into leads."
             },
 
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travel & hospitality/Vectors/Group 340369.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/Travel & hospitality/Vectors/Group 340369.webp",
             link:"Explore Freddy, the AI-powered Omnibot >",
         },
 
@@ -63,7 +63,7 @@ export const TravelHospitalitydashbord = () => {
                 list4:"Identify purchase intent and convert service enquiries into leads."
             },
 
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travel & hospitality/Vectors/Group 770554.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/Travel & hospitality/Vectors/Group 770554.webp",
             link:"Explore contextual collaboration >",
         },
         {
@@ -77,7 +77,7 @@ export const TravelHospitalitydashbord = () => {
                 list4:"Identify purchase intent and convert service enquiries into leads."
             },
 
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travel & hospitality/Vectors/Group 770570.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/Travel & hospitality/Vectors/Group 770570.webp",
             link:"Explore contextual collaboration >",
         },
 

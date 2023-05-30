@@ -55,7 +55,7 @@ const ReadyStarted = () => {
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/bottom.png"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/bottom.png"
           alt="Components/lifeimage1.png"
         />
       </div>

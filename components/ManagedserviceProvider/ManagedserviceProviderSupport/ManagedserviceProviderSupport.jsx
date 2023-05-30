@@ -8,7 +8,7 @@ export const ManagedserviceProviderSupport = () => {
             </h1>
             <p>
                 Achieve faster and improved resolution rates by connecting your clients to the right agents and viewing all your support activities
-                on one common dashboard using Freshdesk Omnichannel.
+                on one common dashboard using Bottom funnel desk Omnichannel.
             </p>
             <div className={styles.ManagedserviceProviderSupportParentOnlyChild}>
                 <div>
@@ -44,7 +44,7 @@ export const ManagedserviceProviderSupport = () => {
                     </div>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Image1.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Image1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -66,7 +66,7 @@ export const ManagedserviceProviderSupport = () => {
                 <div>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Image2.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Image2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -153,7 +153,7 @@ export const ManagedserviceProviderSupport = () => {
                     </div>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Image3.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Image3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

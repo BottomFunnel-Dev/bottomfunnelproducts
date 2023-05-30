@@ -6,7 +6,7 @@ export const IntegrationBanner = () => {
     <div className={style.IntegrationBannermain}>
         <div className={style.IntegrationBannerAnimation}>
           <lottie-player
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Integration/one.json"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Animation/Integration/one.json"}
                   background="transparent"
                   speed="1"
                   loop
@@ -15,9 +15,9 @@ export const IntegrationBanner = () => {
           </lottie-player>
         </div>
         <div className={style.IntegrationBannercontain}>
-            <h1>Freshdesk Support Desk integrations</h1>
+            <h1>Bottom funnel Support Desk integrations</h1>
             <hr></hr>
-            <p>Connect tools that you already use with your Freshdesk account </p>
+            <p>Connect tools that you already use with your Bottom funnel desk account </p>
             <button className={style.IntegrationbannerButton}>Get Started</button>
         </div>
     </div>

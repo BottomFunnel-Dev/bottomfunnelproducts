@@ -8,8 +8,8 @@ const CustomerEngagementPlatform = () => {
         <h2>A scalable platform, built for everyone</h2>
         <p>
           Neo is the enterprise-grade, scalable, and secure foundation that
-          powers all Freshworks products, making our products delightfully easy
-          to onboard, use, and extend. What’s more- it makes Freshworks products
+          powers all Bottom Funnel products, making our products delightfully easy
+          to onboard, use, and extend. What’s more- it makes Bottom Funnel products
           seamlessly interoperable with each other
         </p>
         <h4>

@@ -9,7 +9,7 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
       onMouseEnter={solDeskIn}
       onMouseLeave={solDeskOut}
       className={deskstyle.productDeskMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div className={deskstyle.productDeskListItems} style={{ width: "100%" }}>
         {omnichannelDesk.map((item, i) => (

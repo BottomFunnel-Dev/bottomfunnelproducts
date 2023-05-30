@@ -5,16 +5,17 @@ const nextConfig = {
   
   images: {
     reactStrictMode: true,
-    domains: ["bottom-funnel-product.s3.ap-south-1.amazonaws.com"],
+    domains: ["d3op2l77j7wnti.cloudfront.net"],
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "bottom-funnel-product.s3.ap-south-1.amazonaws.com",
+        hostname: "d3op2l77j7wnti.cloudfront.net",
         port: "",
         pathname: "/**",
       },
     ],
   },
+
 
   async redirects() {
     return [
@@ -276,12 +277,7 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
-      {
-        source: "/market-place",
-        destination: "https://service.bottomfunnel.net/local-seo-services",
-        permanent: true,
-        basePath: false,
-      },
+
     ];
   },
 };

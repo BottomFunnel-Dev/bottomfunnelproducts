@@ -42,3 +42,20 @@
 .enterpriseBFChatNeedContainerBox>p{
     margin-top: 2%;
 }
+@media(max-width:480px){
+    .enterpriseBFChatNeedMainDiv{
+        height: max-content;
+        padding: 20px 0;
+
+    }
+   .enterpriseBFChatNeedContainer{
+    flex-direction: column;
+    height: auto;
+   } 
+ 
+   .enterpriseBFChatNeedContainerBox{
+    width: 80%;
+    margin:4% auto;
+    padding: 20px;
+   }
+}

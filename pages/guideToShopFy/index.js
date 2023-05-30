@@ -9,6 +9,7 @@ import { GuideToShopFyDemo } from "../../components/GuideToShopFy/GuideToShopFyD
 import { GuideToShopFyMarketing } from "../../components/GuideToShopFy/GuideToShopFyMarketing/GuideToShopFyMarketing";
 import { GuideToShopFyQueries } from "../../components/GuideToShopFy/GuideToShopFyQueries/GuideToShopFyQueries";
 import { GuideToShopFySegments } from "../../components/GuideToShopFy/GuideToShopFySegments/GuideToShopFySegments";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -20,7 +21,7 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 const productData = {
     title: "Bottom Funnel Marketer",
-    logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+    logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
     width: "45%",
     list1: {
       title: "Features",
@@ -93,7 +94,7 @@ export default function guideToShopfy() {
         }}
       />
 
-      <ProdNavbar data={productData} />
+      <MarketerNavbar data={productData} />
 
             <GuideToShopFyBanner/>
             <GuideToShopFyConnect/>

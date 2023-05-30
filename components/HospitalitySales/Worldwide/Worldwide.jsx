@@ -9,7 +9,7 @@ export const Worldwide = () => {
         <div className={styles.Worldwidemaindiv}>
             <div className={styles.Worldwidemaindivimage}>
             <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/logos.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/logos.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -18,7 +18,7 @@ export const Worldwide = () => {
 
                     />
             </div>
-            <p>“Overall, with Freshsales (formerly Freshworks CRM), we now have a repository of all our customers and prospects. We can access data on every single person who has ever done business with us and generate reports on our overall business performance.”</p>
+            <p>“Overall, with Freshsales (formerly Bottom Funnel CRM), we now have a repository of all our customers and prospects. We can access data on every single person who has ever done business with us and generate reports on our overall business performance.”</p>
               <hr/>
               
               <h6>Phil Shelton</h6>

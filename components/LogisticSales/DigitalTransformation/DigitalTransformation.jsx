@@ -16,7 +16,7 @@ export const DigitalTransformation = () => {
                         style={{ width: "100%", height: "100%" }}
 
                     />
-                    {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/mobiversion.png" alt="image" /> */}
+                    {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/logisticssalesphotos/mobiversion.png" alt="image" /> */}
                 </div>
                 <div className={style.DigitalTransformationinnerdivcontain}>
                     <h4>Digital Transformation</h4>
@@ -39,7 +39,7 @@ export const DigitalTransformation = () => {
                         sizes={"100vw"}
                         style={{ width: "100%", height: "100%" }}
                     />
-                    {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/rocket.png" alt="image" /> */}
+                    {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/logisticssalesphotos/rocket.png" alt="image" /> */}
                 </div>
             </div>
 
@@ -54,7 +54,7 @@ export const DigitalTransformation = () => {
                         style={{ width: "100%", height: "100%" }}
 
                     />
-                    {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/logisticssalesphotos/star.png" alt="image" /> */}
+                    {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/logisticssalesphotos/star.png" alt="image" /> */}
                 </div>
                 <div className={style.DigitalTransformationinnerdivcontain}>
                     <h4>Changing customer expectations</h4>

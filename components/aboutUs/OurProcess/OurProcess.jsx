@@ -59,7 +59,7 @@ export const OurProcess = () => {
         </div>
 
         <div className={styles.OurProcessaboutUsimage}>
-          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/meeting.jpg" alt="about us main div" />
+          <img src="https://d3op2l77j7wnti.cloudfront.net/Images/aboutusImage/meeting.jpg" alt="about us main div" />
         </div>
       </div>
       <OurProcessPush />

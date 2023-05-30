@@ -23,7 +23,7 @@ export const FeaturesCardsLeft = ({ cardsData, right }) => {
               <h2>{title}</h2>
               <span>
                 <Image
-                  src={`https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/${image}`}
+                  src={`https://d3op2l77j7wnti.cloudfront.net/Images/${image}`}
                   alt={image}
                   width={"0"}
                   height={"0"}

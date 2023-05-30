@@ -7,14 +7,14 @@ export const AutomateOlly = () => {
       title: "Two...three (or more) heads are better than one",
       body: `Bring the collective experience  of everyone on your team into the knowledge. Base creation process with
             a sacalable content management system.`,
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SelfService/TwoThreeHead.webp",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/SelfService/TwoThreeHead.webp",
       buttondetails: "Start free trial",
     },
     {
       title: "Automate with Freedy Answers",
       body: `Leverage answer bots to enhance your support and help customers get the best answer from your knowledge 
             base content any time they want`,
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SelfService/OllySolution.webp",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/SelfService/OllySolution.webp",
       buttondetails: "See pricing",
     },
   ];

@@ -26,7 +26,7 @@ export default function BankingAndFinanceScale () {
         </div>
         <div className={styles.bankingAndFinancescaleimg}>
             <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/customer.webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/customer.webp"}
             alt={"img"}
             width={"0"}
             height={"0"}
@@ -39,7 +39,7 @@ export default function BankingAndFinanceScale () {
     <div className={styles.bankingAndFinancescaleMain1}>
         <div className={styles.bankingAndFinancescaleimg}>
         <Image
-        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/Capitalize.webp"}
+        src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/Capitalize.webp"}
         alt={"img"}
         width={"0"}
         height={"0"}
@@ -82,7 +82,7 @@ export default function BankingAndFinanceScale () {
         </div>
         <div className={styles.bankingAndFinancescaleimg}>
             <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/Optimize.webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/Optimize.webp"}
             alt={"img"}
             width={"0"}
             height={"0"}
@@ -95,7 +95,7 @@ export default function BankingAndFinanceScale () {
     <div className={styles.bankingAndFinancescaleMain1}>
         <div className={styles.bankingAndFinancescaleimg}>
         <Image
-        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/dataLead.webp"}
+        src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/dataLead.webp"}
         alt={"img"}
         width={"0"}
         height={"0"}
@@ -123,7 +123,7 @@ export default function BankingAndFinanceScale () {
     <div className={styles.bankingAndFinancescaleMain}>
         <div className={styles.bankingAndFinancescaletext}>
             <h1>Stay safe with state of the art security</h1>
-            <p>Protecting your customer’s personal information is a top priority. Entrust Freshdesk with the responsibility of keeping your customer’s data safe and secure.</p>
+            <p>Protecting your customer’s personal information is a top priority. Entrust Bottom funnel desk with the responsibility of keeping your customer’s data safe and secure.</p>
             <ul>
                 <li>
                    Host your data in the US, EEA, IND or AU centers
@@ -138,7 +138,7 @@ export default function BankingAndFinanceScale () {
         </div>
         <div className={styles.bankingAndFinancescaleimg}>
             <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/StaySafe.webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/StaySafe.webp"}
             alt={"img"}
             width={"0"}
             height={"0"}

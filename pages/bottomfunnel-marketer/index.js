@@ -4,18 +4,15 @@ import { ConversonalCrm } from "../../components/MarketerHomePage/ConversonalCrm
 import { ForBusiness } from "../../components/MarketerHomePage/ForBusiness/ForBusiness";
 import { MarketerHomePageBanner } from "../../components/MarketerHomePage/MarketerHomePageBanner/MarketerHomePageBanner";
 import Navbar from "../../components/Navbar/Navbar";
-import { ProdNavbar } from "../../components/ProdNavbar";
-import {MarketerNavbar} from "../../components/MarketerNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
-import { TalentProfiles } from "../../components/ProductsNewPage/TalentProfiles/TalentProfiles";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 
 const productData = {
   title: "Bottom Funnel Marketer",
-  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+  logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
   width: "45%",
   list1: {
     title: "Features",

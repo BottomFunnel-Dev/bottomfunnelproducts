@@ -7,25 +7,25 @@ const cardFlex = {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
+      cardIcon: "https://d3op2l77j7wnti.cloudfront.net/Images/cardhttps://d3op2l77j7wnti.cloudfront.net/Images",
     },
     {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
+      cardIcon: "https://d3op2l77j7wnti.cloudfront.net/Images/cardhttps://d3op2l77j7wnti.cloudfront.net/Images",
     },
     {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
+      cardIcon: "https://d3op2l77j7wnti.cloudfront.net/Images/cardhttps://d3op2l77j7wnti.cloudfront.net/Images",
     },
     {
       cardtitle: "Card Title",
       CardDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, impedit eligendi iste adipisci. Nam voluptatum sed voluptatibus debitis, veritatis sequi. Dicta, consequatur.",
-      cardIcon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/cardhttps://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images",
+      cardIcon: "https://d3op2l77j7wnti.cloudfront.net/Images/cardhttps://d3op2l77j7wnti.cloudfront.net/Images",
     },
   ],
 };

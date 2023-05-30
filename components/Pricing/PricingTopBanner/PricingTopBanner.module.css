@@ -1,5 +1,5 @@
 .pricingTopBannerparent {
-    background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Banner.webp");
+    background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Banner.webp");
     background-position: Center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -45,7 +45,7 @@
   }
   @media(max-width:780px){
     .pricingTopBannerparent {
-        background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Banner.Webp");
+        background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Banner.Webp");
         background-position: Center;
         background-repeat: no-repeat;
         background-size: cover;

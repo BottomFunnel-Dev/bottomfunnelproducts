@@ -7,7 +7,7 @@ export default function SmartConversationsDownload () {
     <div className={styles.smartConversationsDownloadMain}>
         <div className={styles.smartConversationsDownloadimg}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/smartConversations/Group1.png"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/smartConversations/Group1.png"}
           alt={"img"}
           width={"0"}
           height={"0"}

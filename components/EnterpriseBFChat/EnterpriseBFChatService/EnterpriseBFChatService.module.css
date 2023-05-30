@@ -24,11 +24,11 @@
 }
 .enterpriseBFChatHeading>p{
     font-size: 18px;
-    font-weight: 500;
+    
 }
 .enterpriseBFChatHeading>ul>li{
     font-size: 17px;
-    font-weight: 500;
+    
 }
 .enterpriseBFChatHeading>button{
     background-color: #03C457;
@@ -47,4 +47,17 @@
 }
 .enterpriseBFChatButton{
     margin-left: 2%;
+}
+@media(max-width:480px){
+    .enterpriseBFChatService{
+        flex-direction: column;
+    }
+    .enterpriseBFChatServiceImage{
+        width: 80%;
+        height: auto;
+    }
+    .enterpriseBFChatHeading{
+        width: 80%;
+     
+    }
 }

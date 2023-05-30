@@ -7,7 +7,7 @@ export const EventsBanner = () => {
             <div className={styles.EventsBannerParent}>
                 <div className={styles.EventsBannerimage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/banner.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Event/banner.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

@@ -4,7 +4,7 @@
     width: 14%;
     height: fit-content;
     position: fixed;
-    right: 28%;
+    right: 22%;
     z-index: 100000000;
     flex-direction: column;
     /* border: 2px solid red; */
@@ -67,7 +67,7 @@
 
 .dropdownthreeList>p:hover {
     background-color: lightgray;
-    border-left: 3px solid #FEBC06;
+    border-left: 3px solid #F78F1E;
 }
 
 .productSolutionsData:last-child {
@@ -90,9 +90,9 @@
 }
 
 .productSolutionsListItems>button:hover {
-    background-color: #FEBC06;
+    background-color: #F78F1E;
     color: white;
-    border: 1px solid #FEBC06;
+    border: 1px solid #F78F1E;
 }
 
 .productSolutionsData .dropdownthreeList {

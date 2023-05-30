@@ -19,7 +19,7 @@ export const NeoMainpageServices=()=>{
         {
             img:"/Images/NeoMainpage/icon3.png",
             hd:"Custom Objects",
-            par:"A single virtual phone number can be shared by your entire phone team in Freshdesk Contact Center, no more hassle of multiple phone numbers!",
+            par:"A single virtual phone number can be shared by your entire phone team in Bottom funnel desk Contact Center, no more hassle of multiple phone numbers!",
             s:"Custom Objects"
         },
         {

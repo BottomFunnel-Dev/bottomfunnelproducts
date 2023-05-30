@@ -12,7 +12,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -27,7 +27,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -42,7 +42,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -57,7 +57,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -74,7 +74,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -89,7 +89,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -104,7 +104,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -119,7 +119,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -139,7 +139,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -154,7 +154,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -169,7 +169,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -184,7 +184,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -201,7 +201,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -216,7 +216,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -231,7 +231,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -246,7 +246,7 @@ export const ProductTourVideos = () => {
                     <h5>Contact Management</h5>
                     <div className={styles.productTourVideodata}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productTour/video.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/productTour/video.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}

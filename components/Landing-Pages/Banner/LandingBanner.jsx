@@ -15,7 +15,7 @@ export const LandingBanner= () => {
             </div> 
             <div className={styles.Landingone}>
             <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/banner.png"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/LandingPages/banner.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

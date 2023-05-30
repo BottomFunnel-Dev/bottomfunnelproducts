@@ -20,7 +20,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/chat.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/chat.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -43,7 +43,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/supportdesk.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/supportdesk.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -66,7 +66,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/omnichannel.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/omnichannel.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -93,7 +93,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/contectcenter.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/contectcenter.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -117,7 +117,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/customersucess.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/customersucess.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -140,7 +140,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/salessuits.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/salessuits.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -166,7 +166,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards1}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/sales.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/sales.webp"}
           alt={""}
           width={"0"}
           height={"0"}
@@ -189,7 +189,7 @@ export const CrmProduct = () => {
                 <div  className={styles.CrmProductsinnerthirdcards2}>
                  <div className={styles.CrmProductsinnerthirdcardslogo}>
                  <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Allproductsphotos/marketr.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Allproductsphotos/marketr.webp"}
           alt={""}
           width={"0"}
           height={"0"}

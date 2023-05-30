@@ -2,15 +2,29 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 70px;
+  height: 73px;
   position: fixed;
   z-index: 1000;
-  /* background: #ef4c23; */
-  /* margin-top: 5%; */
+  background: #ef4c23;
   align-items: center;
   box-sizing: border-box;
   /* border: 2px solid yellow; */
   transition: all 0.2s linear;
+  padding-top: 2%;
+  /* display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1000;
+  background: transparent;
+  align-items: flex-end;
+  box-sizing: border-box;
+  transition: top 0.2s linear;
+  margin-bottom: 0;
+  background: white;
+  border: 2px solid red;
+  margin-bottom: 2%; */
 }
 
 .navbarSection.active {
@@ -18,11 +32,11 @@
   position: fixed;
 }
 
-.navbarSection {
+/* .navbarSection {
   margin-bottom: 0;
   display: flex;
   align-items: center;
-}
+} */
 
 .navbarSection li {
   color: white;
@@ -33,20 +47,29 @@
 
 .logoSection {
   width: 13%;
-  height: 100%;
+  /* margin-top: 1%; */
+  /* border: 2px solid red; */
+  /* height:80px; */
 }
 
 .logoSection img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  /* object-fit: contain; */
 }
 
 .dropdownBar {
-  width: 73%;
+  /* width: 73%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  width: 75%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 3%;
+  /* border: 2px solid red; */
 }
 
 .dropdownBar > div {
@@ -93,10 +116,12 @@
 .callToAction {
   background-color: white;
   color: #ef4c23;
-  padding: 10px 50px;
+  /* padding: 5px 20px; */
+  height: 40px;
+  width: 150px !important;
   border-radius: 25px;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   margin: 0 5px;
   border: 1px solid #ef4c23;
 }
@@ -106,6 +131,7 @@
   background-size: 200%;
   animation: gradientAnimation 2s linear infinite;
   color: white;
+  width: 100px;
 }
 
 @keyframes gradientAnimation {
@@ -132,7 +158,8 @@
 .navbarSection.active .dropdownBar > div li:nth-child(8) {
   color: white !important;
   background-color: #ef4c23;
-  border: 1px solid #ef4c23;
+  border-bottom: 1px solid white;
+
 }
 
 .navbarSection.active .dropdownBar > div li {

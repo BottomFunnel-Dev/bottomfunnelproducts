@@ -7,7 +7,7 @@ export const LandingFeature = () => {
             <div className={styles.landingFatureOnlyChild}>
                 <div className={styles.landingFatureImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/LandingPages/feature.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/LandingPages/Feature.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

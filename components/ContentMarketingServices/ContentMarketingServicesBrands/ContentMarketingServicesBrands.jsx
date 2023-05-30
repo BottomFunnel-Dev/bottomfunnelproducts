@@ -7,7 +7,7 @@ export const ContentMarketingServicesBrands = () => {
             <div className={styles.ContentMarketingServicesBrandsParentPara} > <p>Trusted By Global Brands</p></div>
            
             <div><Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Brand1.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Brand1.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -15,7 +15,7 @@ export const ContentMarketingServicesBrands = () => {
           style={{ width: "100%", height: "80%"}}
           /></div>
             <div> <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Brand2.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Brand2.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -23,7 +23,7 @@ export const ContentMarketingServicesBrands = () => {
           style={{width: "100%", height: "80%" }}
           /></div>
             <div><Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Brand3.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Brand3.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -31,7 +31,7 @@ export const ContentMarketingServicesBrands = () => {
           style={{ width: "100%", height: "80%"}}
           /></div>
             <div><Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Brand4.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Brand4.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -39,7 +39,7 @@ export const ContentMarketingServicesBrands = () => {
           style={{width: "100%", height: "80%"}}
           /></div>
             <div><Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Brand5.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Brand5.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -47,7 +47,7 @@ export const ContentMarketingServicesBrands = () => {
           style={{ width: "100%", height: "80%" }}
           /></div>
             <div> <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Brand6.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Brand6.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

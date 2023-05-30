@@ -9,7 +9,7 @@ export const ContentMarketingServicesExpertise = () => {
                 <div className={styles.ContentMarketingServicesExpertiseParentonlyChildFirstChild}>
                     <div>
                         <div> <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Expertise1.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Expertise1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -29,7 +29,7 @@ export const ContentMarketingServicesExpertise = () => {
                     </div>
                     <div  className={styles.ContentMarketingServicesExpertiseParentborder}>
                         <div><Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Expertise2.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Expertise2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -47,7 +47,7 @@ export const ContentMarketingServicesExpertise = () => {
                     </div>
                     <div>
                         <div><Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Expertise3.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Expertise3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -69,7 +69,7 @@ export const ContentMarketingServicesExpertise = () => {
                 <div className={styles.ContentMarketingServicesExpertiseParentonlyChildSecChild}>
                     <div>
                         <div><Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Expertise4.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Expertise4.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -90,7 +90,7 @@ export const ContentMarketingServicesExpertise = () => {
                     </div>
                     <div className={styles.ContentMarketingServicesExpertiseParentborder}>
                         <div><Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Expertise5.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Expertise5.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -108,7 +108,7 @@ export const ContentMarketingServicesExpertise = () => {
                     </div>
                     <div>
                         <div><Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ContentMarketingServices/Expertise6.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ContentMarketingServices/Expertise6.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

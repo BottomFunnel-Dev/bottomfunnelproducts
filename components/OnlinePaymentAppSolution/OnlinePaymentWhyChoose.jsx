@@ -4,25 +4,25 @@ import styles from "./OnlinePaymentWhyChoose.module.css";
 export const OnlinePaymentWhyChoose = () => {
     const paymentwhychoosedata = [
         {
-            icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/onlinepaymentpage/customer satisfaction.png",
+            icon: "https://d3op2l77j7wnti.cloudfront.net/Images/onlinepaymentpage/customer satisfaction.png",
             htxt: "Customer Satisfaction ",
             stxt: "Upload in bulk,organise content in categories, add custom filters & upload extras.",
         },
 
         {
-            icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/onlinepaymentpage/flexibility.png",
+            icon: "https://d3op2l77j7wnti.cloudfront.net/Images/onlinepaymentpage/flexibility.png",
             htxt: "Flexibility",
             stxt: "Showcase your content in a beautiful on-demand video catalog.",
         },
 
         {
-            icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/onlinepaymentpage/on time delivery.png",
+            icon: "https://d3op2l77j7wnti.cloudfront.net/Images/onlinepaymentpage/on time delivery.png",
             htxt: "Delivery On Time",
             stxt: "Offer Subscriptions or one-time purchases.Accept credit cards & PayPal",
         },
 
         {
-            icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/onlinepaymentpage/quality assurance.png",
+            icon: "https://d3op2l77j7wnti.cloudfront.net/Images/onlinepaymentpage/quality assurance.png",
             htxt: "Quality Assurance",
             stxt: "Know what your audience likes & how your content is performing.",
         },

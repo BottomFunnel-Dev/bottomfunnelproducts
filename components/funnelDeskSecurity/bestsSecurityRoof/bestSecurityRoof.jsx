@@ -9,7 +9,7 @@ export const BestSecurityRoof = () => {
       <div className={styles.customSSLCertificatesContainer}>
         <span>
           <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskSecurity/bestSecurityRoof.webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskSecurity/bestSecurityRoof.webp"}
             alt="funneldeskSecurity/bestSecurityRoof.webp"
             width={"0"}
             height={"0"}
@@ -27,7 +27,7 @@ export const BestSecurityRoof = () => {
             <li>Set up your own support domain or vanity URL</li>
             <li>Get your custom SSL URL and running within 72 hours</li>
             <li>
-              Add multiple portals to your Freshdesk account with authenticated
+              Add multiple portals to your Bottom funnel desk account with authenticated
               SSL certification
             </li>
           </ul>
@@ -36,7 +36,7 @@ export const BestSecurityRoof = () => {
       <div className={styles.ipWhitelistingContainer}>
         <span>
           <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskSecurity/ipWhitelisting.webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskSecurity/ipWhitelisting.webp"}
             alt="funneldeskSecurity/ipWhitelisting.webp"
             width={"0"}
             height={"0"}

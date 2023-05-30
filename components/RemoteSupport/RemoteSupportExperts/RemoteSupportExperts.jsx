@@ -18,7 +18,7 @@ export const RemoteSupportExperts=()=>{
         },
         {
             img:"/Images/RemoteSupport/human4.png",
-            par:"Explore the advantages of moving to cloud with a customer support leaderfrom Freshworks"
+            par:"Explore the advantages of moving to cloud with a customer support leaderfrom Bottom Funnel"
         },
         {
             img:"/Images/RemoteSupport/human5.png",
@@ -26,7 +26,7 @@ export const RemoteSupportExperts=()=>{
         },
         {
             img:"/Images/RemoteSupport/human6.png",
-            par:"The story of how Freshworks moved to remote support from our Senior Director of Support"
+            par:"The story of how Bottom Funnel moved to remote support from our Senior Director of Support"
         },
         {
             img:"/Images/RemoteSupport/human7.png",
@@ -42,7 +42,7 @@ export const RemoteSupportExperts=()=>{
         },
         {
             img:"/Images/RemoteSupport/human10.png",
-            par:"Tips to ensure data security for remote teams from the CIO of Freshworks"
+            par:"Tips to ensure data security for remote teams from the CIO of Bottom Funnel"
         },
         {
             img:"/Images/RemoteSupport/human11.png",

@@ -7,7 +7,7 @@ export const MultichannelEngagementBanner = () => {
         <div className={styles.MultichannelEngagementBannerParent}>
             <div className={styles.MultichannelEngagementBannerImage}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MultichanelEngagement/Banner.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/MultichanelEngagement/Banner.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

@@ -11,7 +11,7 @@ export const Advantages = () => {
         <div  className={styles.Advantagesinnerbox}>
           <div className={styles.Advantagesinnerboximage} >
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/logo1.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Analyticsoffeatureimage/logo1.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -25,7 +25,7 @@ export const Advantages = () => {
         <div  className={styles.Advantagesinnerbox}>
           <div className={styles.Advantagesinnerboximage} >
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/logo2.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Analyticsoffeatureimage/logo2.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -39,7 +39,7 @@ export const Advantages = () => {
         <div  className={styles.Advantagesinnerbox}>
           <div className={styles.Advantagesinnerboximage} >
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Analyticsoffeatureimage/logo3.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Analyticsoffeatureimage/logo3.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

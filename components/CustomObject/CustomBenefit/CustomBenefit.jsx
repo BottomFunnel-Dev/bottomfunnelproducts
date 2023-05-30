@@ -7,7 +7,7 @@ export const CustomBenefit = () => {
             <div className={styles.customBenefitOnlyChild}>
                  <div className={styles.customBenefitImage}> 
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/custombenefit.png"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/customObject/custombenefit.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

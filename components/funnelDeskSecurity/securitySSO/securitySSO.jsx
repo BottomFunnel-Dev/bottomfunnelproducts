@@ -7,8 +7,8 @@ export const SecuritySSO = () => {
     <div className={styles.securitySSOContainer}>
       <span>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskSecurity/animation.webp"}
-          alt={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animations.gif"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskSecurity/animation.webp"}
+          alt={"https://d3op2l77j7wnti.cloudfront.net/Animations.gif"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}

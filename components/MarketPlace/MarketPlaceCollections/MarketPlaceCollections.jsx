@@ -2,9 +2,9 @@ import styles from "./MarketPlaceCollections.module.css"
 import Image from "next/image"
 export const MarketPlaceCollections = () => {
  const Collectionsdata = [
-        {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Collection1.webp",hd:"Built by Bottom Funnel",p:"High-quality and reliable results."},
-        {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Collection2.webp",hd:"Top apps for E-commerce",p:"Get your shop online with Bottom Funnel's e-commerce solution."},
-        {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketPlace/Collection3.webp",hd:"Remote desktop support",p:"Offer the best technical support with our remote desktop support."}]
+        {img:"https://d3op2l77j7wnti.cloudfront.net/Images/MarketPlace/Collection1.webp",hd:"Built by Bottom Funnel",p:"High-quality and reliable results."},
+        {img:"https://d3op2l77j7wnti.cloudfront.net/Images/MarketPlace/Collection2.webp",hd:"Top apps for E-commerce",p:"Get your shop online with Bottom Funnel's e-commerce solution."},
+        {img:"https://d3op2l77j7wnti.cloudfront.net/Images/MarketPlace/Collection3.webp",hd:"Remote desktop support",p:"Offer the best technical support with our remote desktop support."}]
 
         const Collectionsdata2 = [{heading:"Create Your Own Marketplace with Bottom Funnel",p:"Publish your mobile app with our marketplace",btn:"VISIT OUR DEVELOPER PORTAL"},
         {heading:"Join a growing community of developers",p:"Let’s start with building something new with like-minded community",btn:"VIEW ALL PRODUCTS"}]

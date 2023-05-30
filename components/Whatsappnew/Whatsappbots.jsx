@@ -8,21 +8,21 @@ export const Whatsappbots = () => {
         {
             htxt:"JEWELERY BOT",
             stxt:"Jewellery bot helps customers bool store appointments via whatsapp.schedule home trails answer queries related to products, orders, payments, returns and exchanges.",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Group 1000006246.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/Group 1000006246.webp",
             btn:"DEMO JEWELRY BOT"
         },
 
         {
             htxt:"BEAUTY AND WELLNESS BOT",
             stxt:"Beauty bot helps your customers pick the right products for their use in whatsApp, track orders,checkout link to complete purchase,and assists with information on your affliate programme.",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Group 1000006245.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/Group 1000006245.webp",
             btn:"DEMO BEAUTY BOT"
         },
 
         {
             htxt:"APPAREL BOT",
             stxt:"Apparel bot displays your products in WhatsApp for customers to select and shop directly,answer order queries, helps with return and refunds and other customer queries.",
-            img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/whatsapp/components/Group 1000006277.webp",
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/whatsapp/components/Group 1000006277.webp",
             btn:"DEMO APPAREL BOT"
         },
 

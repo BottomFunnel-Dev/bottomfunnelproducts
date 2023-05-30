@@ -1,4 +1,10 @@
 .contactUsMapDiv {
     /* border: 1px solid red; */
-    height: 600px;
+    height: 500px;
+}
+
+@media(max-width:480px){
+    .contactUsMapDiv{
+        height: auto;
+    }
 }

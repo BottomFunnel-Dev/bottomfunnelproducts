@@ -12,7 +12,7 @@ export const SupportCost = () => {
         <div className={styles.SupportCostmaindivinner}>
             <div className={styles.SupportCostmaindivinnerimage}>
             <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactresolutionphotos/screens.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactresolutionphotos/screens.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

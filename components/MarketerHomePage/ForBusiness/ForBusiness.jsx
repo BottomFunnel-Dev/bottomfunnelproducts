@@ -5,17 +5,17 @@ import Image from 'next/image';
 export const ForBusiness = () => {
     const business = [
         {
-            img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/Frame.png",
+            img: "https://d3op2l77j7wnti.cloudfront.net/Images/MarketerHomePagephotos/Frame.png",
             hd: "Conversational marketing and support",
             par: "Create delightful experience by truly understanding your customers and having conversations context",
         },
         {
-            img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/Frame1.png",
+            img: "https://d3op2l77j7wnti.cloudfront.net/Images/MarketerHomePagephotos/Frame1.png",
             hd: "Conversational marketing and support",
             par: "Create delightful experience by truly understanding your customers and having conversations context",
         },
         {
-            img: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/Frame2.png",
+            img: "https://d3op2l77j7wnti.cloudfront.net/Images/MarketerHomePagephotos/Frame2.png",
             hd: "Conversational marketing and support",
             par: "Create delightful experience by truly understanding your customers and having conversations context",
         },

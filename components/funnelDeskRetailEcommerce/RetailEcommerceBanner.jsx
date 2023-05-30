@@ -9,7 +9,7 @@ export const RetailEcommerceBanner = () => {
         <p>
           Your customers dont want a product.They want a delightful shopping
           experience.Wow your customers with omnichannel customer service using
-          the Freshworks customer Service Platform.
+          the Bottom Funnel customer Service Platform.
         </p>
         <button className={styles.retailsecommercebannerbutton}>
           Sign up for free
@@ -17,7 +17,7 @@ export const RetailEcommerceBanner = () => {
       </div>
       <div className={styles.retailecommercebannerrightbox}>
         <img
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Retail&ecommerce/banner/banner.webp"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/Retail&ecommerce/banner/banner.webp"
           alt="Retail&ecommerce/banner/Frame.png"
         />
       </div>

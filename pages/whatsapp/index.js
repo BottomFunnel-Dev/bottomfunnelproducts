@@ -12,12 +12,13 @@ import { Whatsappbanner } from '../../components/Whatsappnew/Whatsappbanner'
 import { Whatsappbots } from '../../components/Whatsappnew/Whatsappbots'
 import { Whatsappcustomerexp } from '../../components/Whatsappnew/Whatsappcustomerexp'
 import { DeskFooter } from '../../components/DeskFooter/DeskFooter'
+import { MarketerNavbar } from '../../components/MarketerNavbar'
 
 
 
 const productData = {
   title: "Bottom Funnel Marketer",
-  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+  logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
   width: "45%",
   list1: {
     title: "Features",
@@ -91,7 +92,7 @@ export default function whatsapp  ()  {
       }}
     />
 
-    <ProdNavbar data={productData} />
+    <MarketerNavbar data={productData} />
     <Whatsappbanner />
     <Whatsappbots />
     <Whatsappcustomerexp />

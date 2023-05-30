@@ -14,14 +14,14 @@ export const AiWork = () => {
               Automations scan through all your tickets every one hour to check
               if there's a need for an update or an alert. From following up
               with collaborators that you need inputs from, reminding you about
-              pending work, to checking on customers. Freshdesk automates all
+              pending work, to checking on customers. Bottom funnel desk automates all
               redundant work. You can be assured that no task slips through the
               cracks.
             </p>
           </div>
           <span>
           <lottie-player
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/Automation/three.json"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Animation/Automation/three.json"}
                   background="transparent"
                   speed="1"
                   loop

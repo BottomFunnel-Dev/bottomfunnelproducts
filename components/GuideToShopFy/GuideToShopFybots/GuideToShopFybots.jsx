@@ -16,7 +16,7 @@ export const GuideToShopFybots = () => {
 
                         
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon26.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon26.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -43,7 +43,7 @@ export const GuideToShopFybots = () => {
 
                       
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon27.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon27.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -70,7 +70,7 @@ export const GuideToShopFybots = () => {
 
                     
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon29.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon29.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
