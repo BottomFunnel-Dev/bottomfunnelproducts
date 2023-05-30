@@ -3,7 +3,8 @@
     width: 100%;
     height: 200px;
     text-align: center;
-    padding-top:30px;
+    padding-top:150px;
+    margin-bottom: 150px;
 }
 .allFeatureSignUp>button{
     background-color: #EF4C23;

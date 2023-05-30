@@ -21,8 +21,8 @@ export const Messaginchannelbanner = () => {
     </div>
 
     <div className={styles.messagingchannelbannerright}>
-    <h2>Develop a rapport with <span>Customers</span> through multiple channels of messaging.</h2>
-    <p>Communicate in a manner that suits various platforms, and always charm your customers with every interaction.</p>
+    <h2>Seamless <span>Multi-Channel Engagement:</span>Connect with Our AI Chatbot Anywhere, Anytime!</h2>
+    <p>"Experience the flexibility and convenience of our AI chatbot across various channels including website, mobile app, social media, and more. Get instant assistance and support wherever you are!</p>
     {/* <button className={styles.messaginchannelbannerbuton}>Explore Now</button> */}
 
     { <button className={styles.messaginchannelbannerbuton}
