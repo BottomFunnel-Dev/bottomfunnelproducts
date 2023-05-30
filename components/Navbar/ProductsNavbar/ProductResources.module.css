@@ -83,3 +83,23 @@
   color: white;
   border: 1px solid #14944C;
 }
+
+
+@media(max-width:480px){
+  .productResourceMainDiv {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin-top: 55%;
+    position: fixed;
+    top: 50px;
+    font-size: 30px;
+    right: 0%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100000000;
+
+  }
+  .productResourceData .productlinkP > p {
+    font-size: 15px;
+  }
+}
