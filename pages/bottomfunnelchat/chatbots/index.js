@@ -28,7 +28,7 @@ const productData = {
       },
       {
         dropContent: "Team Inbox",
-        path: "/bottomfunnel-chat/team-inbox",
+        path: "/team-inbox",
       },
       {
         dropContent: "Journeys",

@@ -6,8 +6,8 @@ export const AllFeaturesPerformance = () => {
   return (
     <div className={styles.allFeaturesPerformanceMainDiv}>
         <div className={styles.allFeaturesPerformanceHeading}>
-           <h1>Keep track of marketting performance</h1>
-           <p>Improve performance with actionable insights from campaigns</p>
+           <h1>Keep track of marketing campaigns </h1>
+           <p>Improve performance with in-depth insights from campaigns</p>
         </div>
             <div className={styles.allFeaturesPerformanceContainerBoxes}>
                  
@@ -28,9 +28,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                    Track store performance with the out-of-the-box dashboard.
-                                    The data is synced in real-time so you can view key metrics like total
-                                    sales this month, total orders this month, and more right from Bottom Funnel Marketer.
+                                Gain Real-time Insights, Monitor Sales Performance, Track Customer Behavior, Optimize Marketing Strategies, and Drive Business Growth. Make Data-driven Decisions and Maximize Your E-commerce Potential with our User-friendly and Comprehensive Dashboard Solution.
                                 </p>
                             </div>
                         </div>
@@ -50,8 +48,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                   Analyze Campaign performance with key metrics to understand
-                                   open rates, click rates, and more.
+                                Track Open Rates, Click-through Rates, and Conversion Rates Analyze Engagement Metrics, Identify Trends, and Fine-tune Your Messaging. Gain Actionable Insights to Enhance Campaign Effectiveness and Drive Higher ROI for Your Email and SMS Marketing Efforts.
                                 </p>
                             </div>
                         </div>
@@ -71,8 +68,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                    Track which campaigns are leading to higher conversions with
-                                    attribution reports.Get insights into best-performing email,SMS,WhatsApp, and journey campaigns. 
+                                Accurately Measure the Impact of Your Marketing Efforts on Sales. Track Revenue Generated from Email, SMS, Chat, and Other Channels, Identify High-Performing Campaigns, Optimize Your Marketing Strategy, and Drive Revenue Growth with Data-Driven Insights. 
                                 </p>
                             </div>
                         </div>
@@ -92,7 +88,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                   Improve website conversions with real-time data A/B Testing, Haetmaps, Session Replay, and more.
+                                Analyze User Behavior, Identify Bottlenecks, and Implement Data-Driven Strategies to Increase Conversion Rates. Optimize Landing Pages, Forms, and User Flows, Personalize User Experiences, and Maximize ROI for Your E-commerce Business.
                                 </p>
                             </div>
                         </div>

@@ -7,7 +7,7 @@ export const AllFeaturesConnect = () => {
 
     <div className={styles.allFeaturesConnectMainDiv}>
         <div className={styles.allFeaturesConnectHeading}>
-           <h1>Connect with your favourite tools and get work done faster</h1>
+           <h1>Connect with your favorite tools and platforms</h1>
            <p>Bottom Funnel is built to operate alongside other popular business tolls seamlessly.</p>
         </div>
             <div className={styles.allFeaturesConnectContainerBoxes}>
@@ -30,7 +30,7 @@ export const AllFeaturesConnect = () => {
                             </div>
                             <div className={styles.allFeaturesConnectText}>
                                 <p>
-                                    Integrate your account with third party applications and connect to multiple data sources.
+                                Seamlessly Connect Your E-commerce Systems, CRM, Analytics Tools, and More. Retrieve and Sync Data in Real-Time, Automate Processes, and Enhance Efficiency. Harness the Full Potential of Your Business with Custom Integrations and Extend the Functionality of Your E-commerce Platform.
                                 </p>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export const AllFeaturesConnect = () => {
                             </div>
                             <div className={styles.allFeaturesConnectText}>
                                 <p>
-                                    Scale with the Bottom Funnel platform.Extend your experience by installing trusted applications with a single click.
+                                Seamlessly List and Sell Your Products on Leading Marketplaces. Streamline Order Management, Inventory Sync, and Pricing Across Multiple Channels. Maximize Sales Opportunities, Reach New Customers, and Simplify Multi-channel Selling with our Marketplace Integration Solution.
                                 </p>
                             </div>
                         </div>
@@ -70,8 +70,7 @@ export const AllFeaturesConnect = () => {
                             </div>
                             <div className={styles.allFeaturesConnectText}>
                                 <p>
-                                    Connect your shopify storefront to engage and support your
-                                    customers across channels from one solution.
+                                Seamlessly Sync Inventory, Orders, and Customer Data between Your Shopify Store and Other Platforms. Automate Workflows, Personalize Customer Experiences, and Boost Operational Efficiency with our Optimized Shopify Integration Solution. Drive Growth and Success with a Unified E-commerce Experience.
                                 </p>
                             </div>
                         </div>
@@ -91,8 +90,7 @@ export const AllFeaturesConnect = () => {
                             </div>
                             <div className={styles.allFeaturesConnectText}>
                                 <p>
-                                    Acess the most popular apps on Zapier,create zaps, and equip
-                                    yourself with more automation.
+                                Seamlessly Connect and Sync Your Favorite Apps, Streamline Workflows, and Automate Repetitive Tasks. Unlock the Power of Zapier's Extensive App Ecosystem and Achieve Greater Efficiency and Productivity in Your Business Processes with Bottom Funnel's Zapier Integration.
                                 </p>
                             </div>
                         </div>

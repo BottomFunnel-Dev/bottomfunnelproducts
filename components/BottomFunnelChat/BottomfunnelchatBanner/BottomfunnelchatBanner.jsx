@@ -9,8 +9,8 @@ export const BottomfunnelchatBanner = () => {
             
                 <div className={styles.BottomfunnelchatBannerinnercontentdiv}>
                  
-                    <h1>Grow Customer Love with Smarter Conversations</h1>
-                    <p>Today's reletionships are digital, and always on. Power your business with intuitive and intelligent conversations. </p>
+                    <h1>Transform Customer Support with our AI Chat Bot: Streamline Operations, Enhance Satisfaction</h1>
+                    <p>Experience the power of our AI Chat Bot developed by Bottom Funnel. Revolutionize your customer support operations with advanced automation, instant responses, and personalized assistance, leading to increased efficiency and customer satisfaction.</p>
                     <button className={styles.BottomfunnelchatBannerbutton}>Start A Free Demo</button>
                     
                 </div>

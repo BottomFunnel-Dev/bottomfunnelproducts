@@ -17,12 +17,9 @@ export const ChatBotsBanner = () => {
                 />
             </div>
             <div className={styles.chatbotsbannerparentContent} >
-                <h1>Future-proof your customer
-                    service with chatbots</h1>
+                <h1>AI Chatbot Solutions: Empower Your Business</h1>
                 <h5>
-                    Win customers for life with intelligent messaging bots that focus
-                    on delighting your customers. Freshchat is your customer support
-                    team's perfect ally
+                Experience the power of AI chatbots with Bottom Funnel's cutting-edge solutions. Streamline customer interactions, automate processes, and enhance customer satisfaction. Unlock new possibilities for your business with Bottom Funnel's AI chatbot technology.
                 </h5>
                 <div className={styles.chatbotsbannerparentButtonDiv}>
                     <button>TRY FOR FREE</button>

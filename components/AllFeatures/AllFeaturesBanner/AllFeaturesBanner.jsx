@@ -17,9 +17,7 @@ export const AllFeaturesBanner = () => {
       </div>
       <div className={styles.allFeaturesBannerText}>
         <h1>
-            Grow Your e-commerce store<br/>
-            with personlized engagement<br/>
-            and powerful automation
+        Supercharge Your E-Commerce Growth with Personalized Engagement and Powerful Automation
         </h1>
         <button>Start A Free Demo</button>
       </div>

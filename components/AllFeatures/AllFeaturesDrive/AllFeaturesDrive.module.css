@@ -17,7 +17,7 @@
 .allFeaturesContainerBoxes{
     /* border: 2px solid green; */
     width: 85%;
-    height: 120vh;
+    height: 140vh;
     background-color: #FDBB4D;
     border-radius:0px 15px 15px 0px;
     position: relative;
@@ -42,7 +42,7 @@
     margin-top: 2%;
 }
 .allFeatureDataContainers3{
-    /* border: 2px solid gold; */
+    /* border: 2px solid red; */
     width: 50%;
     height: auto;
     display: flex;
@@ -53,7 +53,7 @@
 .allFeaturesBoxes{
     /* border: 2px solid red; */
     width: 22%;
-    height: 250px;
+    height: auto;
     background-color: white;
     border-radius: 15px;
     margin-left: 2%;
@@ -68,26 +68,26 @@
     /* border: 2px solid red; */
 }
 .allFeaturesImage1{
-    margin-left: 50%;
-    height: 60px;
+    height: 50px;
+    width: 60px;
 }
 .allFeaturesImage2{
-    margin-left: 50%;
-    height: 70px;
-    
+    height: 60px;
+    width: 80px;
 }
 .allFeaturesImage3{
-    margin-left: 20%;
     height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
 }
 .allFeaturesImage4{
-    margin-left: 30%;
-    height: 70px;
+    height: 60px;
+    width: 70px;
 }
 .allFeaturesImage5{
-    margin-left: 5%;
-    height: 60px;
-    width: 60px;
+    margin-left: 3%;
+    height: 55px;
+    width: 75px;
 }
 .allFeaturesImage6{
     margin-left: 2%;
@@ -105,19 +105,17 @@
     width: 90px;
 }
 .allFeaturesImage9{
-    margin-left: 55%;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 80px;
 }
 .allFeaturesImage10{
-    margin-left: 8%;
-    height: 60px;
+    height: 55px;
     width: 60px;
 }
 .allFeaturesBoxes1{
     /* border: 2px solid red; */
     width: 45%;
-    height: 250px;
+    height: auto;
     background-color: white;
     border-radius: 15px;
     margin-left: 2%;
@@ -125,4 +123,10 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
+}
+.allFeaturesIconsHeading>h3{
+    font-size: 20px;
+}
+.allFeaturesText>p{
+    font-size: 14px;
 }

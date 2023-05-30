@@ -6,29 +6,29 @@ export const Messagingplatforms = () => {
 
     const messagingplatformsdata = [
         {
-            htxt:"WOW your customers on WhatsApp!",
-            stxt:"The Bottomfunnel chat, Bottom funnel desk Omnichannel and Bottom funnel sales Suit - WhatsApp integration powered by the Bottom funnel NEO platform helps you automate replies and enable self-service for your customers.",
+            htxt:"Chatbot is now on WhatsApp for you! ",
+            stxt:"Experience the convenience of interacting with our chatbot directly on WhatsApp. Get instant answers, personalized assistance, and quick solutions to your queries, all within the familiar WhatsApp interface.",
             icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/Group 1000006013.webp",
 
         },
 
         {
-            htxt:"Deliver customer delight on SMS",
-            stxt:"Engage with your customers on the most popular messaging channel - SMS, straight from within the Bottom funnel interface.",
+            htxt:"Get instant assistance via SMS",
+            stxt:"Reach out for quick help and support through SMS, anytime, anywhere. Our chatbot is just a text message away, providing you with seamless and convenient communication to address your queries and concerns.",
             icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/Group 1000006014.webp",
 
         },
 
         {
-            htxt:"Level up with LINE !",
-            stxt:"Provide instant, contextual and personalized responses to your customers on LINE with the Bottom Funnel chat - LINE integration.",
+            htxt:"Conversational Assistance on LINE",
+            stxt:"Connect with our AI Chatbot on LINE for instant assistance. Get quick answers to your queries, personalized recommendations, and seamless support right within your LINE messaging app. Start chatting today!",
             icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/Group 1000006015.webp",
 
         },
 
         {
-            htxt:"Stay connected with Google's Business Messages",
-            stxt:"The Bottom Funnel chat - Google's Business Messages integration* will help your customers and prospects get in touch with you directly from Google Search or Google Maps.Engage woth your end-users seamlessly on this popular ,essaging channel now.",
+            htxt:"Streamline Customer Engagement with Google Business Messaging ",
+            stxt:"Enhance customer communication and support with our AI chatbot integrated with Google Business Messaging. Seamlessly interact with customers, provide real-time assistance, and build stronger relationships through this convenient and accessible platform.",
             icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/Group 1000006016.webp",
 
         },
@@ -38,7 +38,7 @@ export const Messagingplatforms = () => {
 
   return (
     <div className={styles.messagingplatformsmainboxes}>
-    <h1>Our various Services across platform</h1>
+    <h1>Our chatbot services on various platforms</h1>
     <div className={styles.messagingplatformsdataboxes}>{messagingplatformsdata.map((e)=>{
         return (
             <div className={styles.messagingplatformsindidata}>
