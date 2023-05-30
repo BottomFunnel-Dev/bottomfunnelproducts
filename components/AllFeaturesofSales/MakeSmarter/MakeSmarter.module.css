@@ -1,81 +1,155 @@
-.MakeSmarterheading{
+.MakeSmarterheading {
+  text-align: center;
+  padding-top: 5%;
+  /* border: 2px solid; */
+}
+
+.MakeSmartermaindiv {
+  background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/7.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.MakeSmartermaindivinner {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  /* border: 2px solid green; */
+}
+
+.MakeSmartermaindivinnerbox {
+  width: 30%;
+  height: 250px;
+  padding: 2%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #fadfd5;
+  /* border: 2px solid blue; */
+}
+
+.MakeSmartermaindivinnerbox p {
+  margin-top: 6%;
+  /* border: 2px solid; */
+}
+
+.MakeSmartermaindivinnerlogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MakeSmartermaindivinnerlogoimage {
+  width: 50px;
+  height: 50px;
+}
+
+.MakeSmartermaindivcolum {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: right;
+}
+
+.MakeSmartermaindivone {
+  background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/8.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3%;
+  justify-content: right;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .MakeSmarterheading {
     text-align: center;
     padding-top: 5%;
     /* border: 2px solid; */
-}
+  }
 
-.MakeSmartermaindiv{
+  .MakeSmartermaindiv {
     background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/7.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 85vh;
+    height: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-top: 3%;
-   
-}
-.MakeSmartermaindivinner{
+  }
+
+  .MakeSmartermaindivinner {
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    /* margin: auto; */
+    margin-bottom: 4%;
     margin-top: 2%;
     /* border: 2px solid green; */
-}
+  }
 
-.MakeSmartermaindivinnerbox{
-    width: 30%;
-    height: 250px;
-    padding: 2% ;
-    margin: auto;
+  .MakeSmartermaindivinnerbox {
+    width: 95%;
+    height: fit-content;
+    padding: 2%;
+    /* margin: auto; */
+    margin-bottom: 4%;
     border-radius: 10px;
     background-color: #fadfd5;
     /* border: 2px solid blue; */
-}
-.MakeSmartermaindivinnerbox p{
+  }
+
+  .MakeSmartermaindivinnerbox p {
     margin-top: 6%;
     /* border: 2px solid; */
-}
+  }
 
-.MakeSmartermaindivinnerlogo{
+  .MakeSmartermaindivinnerlogo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
+  }
 
-.MakeSmartermaindivinnerlogoimage{
+  .MakeSmartermaindivinnerlogoimage {
     width: 50px;
     height: 50px;
-}
+  }
 
-.MakeSmartermaindivcolum{
+  .MakeSmartermaindivcolum {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     width: 80%;
     justify-content: right;
-  
-}
+  }
 
-.MakeSmartermaindivone{
+  .MakeSmartermaindivone {
     background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/8.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 85vh;
+    height: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-top: 3%;
     justify-content: right;
-   
+  }
 }
-
-
-
-
-
-

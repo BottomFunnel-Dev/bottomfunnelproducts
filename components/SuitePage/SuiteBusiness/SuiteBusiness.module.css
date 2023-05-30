@@ -1,48 +1,107 @@
-.SuiteBusinessMain{
+.SuiteBusinessMain {
+  background-color: #ef4c23;
+  height: fit-content;
+  padding: 10px;
+}
+
+.SuiteBusinessMain > h1 {
+  font-weight: 700;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+  text-align: center;
+}
+
+.SuiteBusinessdiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+.SuiteBusinesscard {
+  background-color: white;
+  text-align: center;
+  width: 23%;
+  height: 35vh;
+  padding-top: 2%;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.SuiteBusinesscard:hover {
+  background-color: #d6c8c4;
+}
+
+.SuiteBusinesscardimg {
+  height: 50%;
+  width: 50%;
+  margin: auto;
+}
+
+.SuiteBusinesscard > h5 {
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .SuiteBusinessMain {
     background-color: #ef4c23;
     height: fit-content;
     padding: 10px;
-}
-.SuiteBusinessMain>h1{
+  }
+
+  .SuiteBusinessMain > h1 {
     font-weight: 700;
     padding-top: 3%;
     padding-bottom: 3%;
     color: white;
     text-align: center;
-}
-.SuiteBusinessdiv{
+  }
+
+  .SuiteBusinessdiv {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 90%;
     margin: auto;
     padding-bottom: 3%;
-}
-.SuiteBusinesscard{
+  }
+
+  .SuiteBusinesscard {
     background-color: white;
     text-align: center;
-    width: 23%;
+    width: 95%;
     height: 35vh;
     padding-top: 2%;
     border-radius: 20px;
-    margin-top: 2%;
-    margin: auto;
+    margin-bottom: 5%;
+    /* margin: auto; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.SuiteBusinesscard:hover{
+  }
+
+  .SuiteBusinesscard:hover {
     background-color: #d6c8c4;
-}
-.SuiteBusinesscardimg{
+  }
+
+  .SuiteBusinesscardimg {
     height: 50%;
     width: 50%;
     margin: auto;
-}
-.SuiteBusinesscard>h5{
+  }
+
+  .SuiteBusinesscard > h5 {
     margin-top: 5%;
     width: 90%;
     margin-left: 5%;
+  }
 }
-/* .SuiteBusinesscard>p{
-    font-size: 22px;
-} */

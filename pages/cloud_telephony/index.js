@@ -29,12 +29,12 @@ export default function CloudTelephonyPage() {
       />
       <CloudTelephony />
       <TrustedBy />
-        <Trial/>
-        <Testimonial />
+      <Trial />
+      <Testimonial />
 
       <LifeBottomFunnel />
       {/* added footer of sales in place of product footer */}
-      <SalesFooter/>
+      <SalesFooter />
     </>
   );
 }

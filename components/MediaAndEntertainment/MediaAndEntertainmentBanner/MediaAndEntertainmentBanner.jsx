@@ -9,9 +9,9 @@ export const MediaAndEntertainmentBanner = () => {
                     your story
                 </h1>
                 <p>Rich content is rapidly transforming customer expectations in
-the media and entertainment industry. Stand out from the
-competition by providing personalized customer experiences
-and fast customer support.</p>
+                    the media and entertainment industry. Stand out from the
+                    competition by providing personalized customer experiences
+                    and fast customer support.</p>
                 <button>Sign Up For Free</button>
             </div>
             <div className={styles.MediaAndEntertainmentBannerParentSecChild}>

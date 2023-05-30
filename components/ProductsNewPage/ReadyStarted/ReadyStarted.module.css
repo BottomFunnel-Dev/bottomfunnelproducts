@@ -11,6 +11,7 @@
   color: white;
   padding: 5%;
 }
+
 .textcontent > button {
   padding: 15px 40px;
   font-size: 16px;
@@ -20,6 +21,7 @@
   background-color: #f5f5f5;
   cursor: pointer;
 }
+
 .textcontent > button:hover {
   background-color: #393939;
   border: 1px solid #f5f5f5;
@@ -28,6 +30,7 @@
 
 @media (max-width: 480px) {
   .readyStartOuterDiv {
+    /* border: 2px solid red; */
     width: 100%;
     height: fit-content;
     background-color: #393939;
@@ -37,6 +40,7 @@
     text-align: center;
     box-sizing: border-box;
   }
+
   .logoImage {
     display: none;
   }
@@ -46,19 +50,22 @@
     color: white;
     padding: 0%;
   }
+
   .textcontent > h2 {
     margin: 0;
     font: 18px;
   }
+
   .textcontent > p {
     font-size: 14px;
   }
+
   .textcontent > button {
     padding: 10px 25px;
     font-size: 14px;
     font-weight: 600;
-
   }
+
   .textcontent > button:hover {
     background-color: #393939;
     border: 1px solid #f5f5f5;

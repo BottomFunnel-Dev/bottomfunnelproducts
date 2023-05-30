@@ -76,7 +76,6 @@ const productData = {
 
 export default function ProductTour() {
   return (
-
     <>
       <div style={{ color: "#393939" }}>
         <Navbar
@@ -88,18 +87,20 @@ export default function ProductTour() {
             logo: false,
           }}
         />
+
         <MarketerNavbar data={productData} />
-        <ProductTourBanner/>
-        <ProductTourVideos/>
-        <ProductTourTrail/>
+        
+        <ProductTourBanner />
+        <ProductTourVideos />
+        <ProductTourTrail />
 
-        <Testimonial/>
-        <TrustedBy/>
+        <Testimonial />
+        <TrustedBy />
 
-        <ReadyStarted/>
+        <ReadyStarted />
         {/* <TalentProfiles/> */}
-        <LifeBottomFunnel/>
-        <DeskFooter/>
+        <LifeBottomFunnel />
+        <DeskFooter />
         {/* <ProductsFooter/> */}
       </div>
     </>

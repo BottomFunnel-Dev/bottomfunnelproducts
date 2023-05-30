@@ -1,125 +1,244 @@
-.Automationheading{
-    text-align: center;
-    padding-top: 5%;
-    /* border: 2px solid; */
+.Automationheading {
+  text-align: center;
+  padding-top: 5%;
+  /* border: 2px solid; */
 }
 
-.Automationmaindiv{
+.Automationmaindiv {
+  background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/5.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3%;
+  /* border: 2px solid; */
+}
+
+.Automationmaindivinner {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  /* border: 2px solid green; */
+}
+
+.Automationmaindivinnerbox {
+  width: 45%;
+  height: 250px;
+  padding: 2%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #fadfd5;
+  /* border: 2px solid blue; */
+}
+
+.Automationmaindivinnerbox p {
+  margin-top: 6%;
+}
+
+.Automationmaindivinnerlogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Automationmaindivinnerlogoimage {
+  width: 50px;
+  height: 50px;
+}
+
+.Automationmaindivcolum {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.Automationmaindivinnerbox1 {
+  width: 45%;
+  height: 250px;
+  padding: 2%;
+  /* margin: auto; */
+  border-radius: 10px;
+  background-color: #fadfd5;
+  /* border: 2px solid blue; */
+}
+
+.Automationmaindivinnerbox1 p {
+  margin-top: 6%;
+}
+
+.Automationmaindivone {
+  background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/6.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3%;
+  justify-content: right;
+}
+
+.Automationmaindivcolum {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.Automationmaindivsecondone {
+  /* border: 2px solid green; */
+  justify-content: right;
+  width: 20%;
+  display: flex;
+  align-self: fl;
+}
+
+.Automationmaindivinnerbox1one {
+  /* width: 75%; */
+  height: 250px;
+  padding: 2%;
+  /* margin: auto; */
+  border-radius: 10px;
+  background-color: #fadfd5;
+  /* border: 2px solid blue; */
+}
+
+.Automationmaindivinnerbox1one p {
+  /* border: 2px solid; */
+  margin-top: 6%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+
+  .Automationheading {
+    text-align: center;
+    padding-top: 5%;
+    /* border: 1px solid red; */
+    /* border: 2px solid; */
+  }
+
+  .Automationmaindiv {
     background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/5.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 75vh;
+    height: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-top: 3%;
     /* border: 2px solid; */
-   
-}
-.Automationmaindivinner{
+  }
+
+  .Automationmaindivinner {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 90%;
     margin: auto;
     margin-top: 2%;
     /* border: 2px solid green; */
-}
+  }
 
-.Automationmaindivinnerbox{
-    width: 45%;
-    height: 250px;
-    padding: 2% ;
+  .Automationmaindivinnerbox {
+    width: 95%;
+    height: fit-content;
+    padding: 2%;
     margin: auto;
     border-radius: 10px;
     background-color: #fadfd5;
     /* border: 2px solid blue; */
-}
-.Automationmaindivinnerbox p{
-    margin-top: 6%;
-}
+  }
 
-.Automationmaindivinnerlogo{
+  .Automationmaindivinnerbox p {
+    margin-top: 6%;
+  }
+
+  .Automationmaindivinnerlogo {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
+  }
 
-.Automationmaindivinnerlogoimage{
+  .Automationmaindivinnerlogoimage {
     width: 50px;
     height: 50px;
-}
+  }
 
-.Automationmaindivcolum{
+  .Automationmaindivcolum {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    width: 55%;
-  
-}
+    width: 95%;
+    height: fit-content;
+  }
 
-
-
-.Automationmaindivinnerbox1{
+  .Automationmaindivinnerbox1 {
     width: 45%;
     height: 250px;
-    padding: 2% ;
+    padding: 2%;
     /* margin: auto; */
     border-radius: 10px;
     background-color: #fadfd5;
     /* border: 2px solid blue; */
-}
-.Automationmaindivinnerbox1 p{
+  }
+
+  .Automationmaindivinnerbox1 p {
     margin-top: 6%;
-}
+  }
 
-
-
-
-
-.Automationmaindivone{
+  .Automationmaindivone {
     background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/allfeaturessales/6.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 75vh;
+    height: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-top: 3%;
     justify-content: right;
-   
-}
+    /* border: 2px solid black; */
+  }
 
-.Automationmaindivcolum{
+  .Automationmaindivcolum {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    width: 55%;
-    
-   
-  
-}
+    width: 95%;
+  }
 
-.Automationmaindivsecondone{
+  .Automationmaindivsecondone {
     /* border: 2px solid green; */
     justify-content: right;
-    width: 20%;
+    width: 95%;
     display: flex;
-    align-self: fl;
-    
-}
-.Automationmaindivinnerbox1one{
+    flex-direction: column;
+    /* align-self: fl; */
+  }
+
+  .Automationmaindivinnerbox1one {
     /* width: 75%; */
-    height: 250px;
-    padding: 2% ;
+    height: fit-content;
+    padding: 2%;
     /* margin: auto; */
     border-radius: 10px;
     background-color: #fadfd5;
     /* border: 2px solid blue; */
-}
-.Automationmaindivinnerbox1one p{
+  }
+
+  .Automationmaindivinnerbox1one p {
     /* border: 2px solid; */
     margin-top: 6%;
+  }
 }
