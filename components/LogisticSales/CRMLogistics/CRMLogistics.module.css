@@ -1,48 +1,100 @@
-.CRMLogisticsmaindiv{
-    /* border:2px solid red; */
-    margin-top: 3%;
-   
+.CRMLogisticsmaindiv {
+  /* border:2px solid red; */
+  margin-top: 3%;
 }
 
+.CRMLogisticsinnerdiv {
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+  padding: 1%;
+  border-radius: 10px;
+}
 
-.CRMLogisticsinnerdiv{
+.CRMLogisticsinnerdivimage {
+  /* border: 2px solid yellow; */
+  width: 280px;
+  height: 100px;
+}
+
+.CRMLogisticsinnerdivcontain {
+  /* border: 2px solid green; */
+  margin-left: 2%;
+}
+
+.CRMLogisticsinnerdiv1 {
+  /* border: 2px solid green; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.CRMLogisticsinnerdiv1contain {
+  /* border: 2px solid green; */
+  width: 55%;
+}
+
+.CRMLogisticsinnerdiv1image {
+  /* border: 2px solid yellow; */
+  width: 40%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .CRMLogisticsmaindiv {
+    /* border:2px solid red; */
+    margin-top: 3%;
+  }
+
+  .CRMLogisticsinnerdiv {
     border: 1px solid pink;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 95%;
     margin: auto;
     font-size: 18px;
     padding: 1%;
     border-radius: 10px;
-}
-.CRMLogisticsinnerdivimage{
-    /* border: 2px solid yellow; */
-    width: 280px;
-    height: 100px;
-    /* margin-top: 0.5%; */
-    /* margin-left: 1%; */
-    /* justify-content: center; */
-}
+  }
 
-.CRMLogisticsinnerdivcontain{
- /* border: 2px solid green; */
- margin-left: 2%;
-}
-.CRMLogisticsinnerdiv1{
+  .CRMLogisticsinnerdivimage {
+    /* border: 2px solid yellow; */
+    width: 95%;
+    margin-bottom: 4%;
+    height: fit-content;
+  }
+
+  .CRMLogisticsinnerdivcontain {
+    /* border: 2px solid green; */
+    margin-left: 2%;
+  }
+
+  .CRMLogisticsinnerdiv1 {
     /* border: 2px solid green; */
     width: 90%;
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    flex-direction: row;
     margin-top: 3%;
-}
-.CRMLogisticsinnerdiv1contain{
+  }
+
+  .CRMLogisticsinnerdiv1contain {
     /* border: 2px solid green; */
-    width: 55%;
-}
-.CRMLogisticsinnerdiv1image{
+    width: 95%;
+  }
+
+  .CRMLogisticsinnerdiv1image {
     /* border: 2px solid yellow; */
-    width: 40%;
+    width: 95%;
+  }
 }

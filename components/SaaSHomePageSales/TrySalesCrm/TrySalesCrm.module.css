@@ -1,36 +1,90 @@
-.TrySalesCrmmaindiv{
+.TrySalesCrmmaindiv {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid green; */
+  /* width: 90%; */
+  /* margin: auto; */
+  background-color: rgb(250, 232, 234);
+  margin-top: 5%;
+}
+
+.TrySalesCrmcontaindiv {
+  /* border: 2px solid greenyellow; */
+  width: 60%;
+  margin-left: 6%;
+  padding-top: 40px;
+}
+
+.TrySalesCrmcontaindiv p {
+  font-size: 18px;
+  margin-top: 4%;
+}
+
+.TrySalesCrmimagediv {
+  /* border: 2px solid red; */
+  width: 30%;
+  height: 350px;
+}
+
+.TrySalesCrmimagediv img {
+  width: 100%;
+  height: 100%;
+}
+
+.TrySalesCrmbutton {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  font-size: 18px;
+  color: white;
+  border: none;
+  margin-top: 3%;
+}
+
+.TrySalesCrmbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+  border: 1px solid #ef4c23;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .TrySalesCrmmaindiv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* border: 2px solid green; */
     /* width: 90%; */
     /* margin: auto; */
-    background-color: rgb(250, 232, 234); 
+    background-color: rgb(250, 232, 234);
     margin-top: 5%;
+  }
 
-}
-.TrySalesCrmcontaindiv{
+  .TrySalesCrmcontaindiv {
     /* border: 2px solid greenyellow; */
-    width: 60%;
+    width: 95%;
     margin-left: 6%;
     padding-top: 40px;
+  }
 
-}
-.TrySalesCrmcontaindiv p{
+  .TrySalesCrmcontaindiv p {
     font-size: 18px;
     margin-top: 4%;
-}
-.TrySalesCrmimagediv{
+  }
+
+  .TrySalesCrmimagediv {
     /* border: 2px solid red; */
-    width: 30%;
-     height: 350px;
+    width: 95%;
+    height: fit-content;
+  }
 
-}
-
-.TrySalesCrmimagediv img{
+  .TrySalesCrmimagediv img {
     width: 100%;
-    height:100% ;
-}
-.TrySalesCrmbutton{
+    height: 100%;
+  }
+
+  .TrySalesCrmbutton {
     width: 150px;
     height: 50px;
     border-radius: 10px;
@@ -39,10 +93,11 @@
     color: white;
     border: none;
     margin-top: 3%;
-}
-.TrySalesCrmbutton:hover{
+  }
+
+  .TrySalesCrmbutton:hover {
     background-color: white;
     color: #ef4c23;
     border: 1px solid #ef4c23;
-
+  }
 }

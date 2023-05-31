@@ -1,59 +1,119 @@
-.Experiencemaindiv{
-    margin-top: 3%;
+.Experiencemaindiv {
+  margin-top: 3%;
 }
 
-.Experiencemaindiv h2{
-    /* border: 2px solid yellow; */
-    text-align: center;
-    
-
+.Experiencemaindiv h2 {
+  /* border: 2px solid yellow; */
+  text-align: center;
 }
 
-.Experiencemaindivinner{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    justify-content: space-around;
-    margin-top: 4%;
-
+.Experiencemaindivinner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 4%;
 }
 
-.Experiencemaindivinnerone{
-     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    justify-content: space-around;
-    margin-top: 4%;
+.Experiencemaindivinnerone {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 4%;
 }
 
-.Experiencemaindivinnerimage{
+.Experiencemaindivinnerimage {
   width: 45%;
 }
 
-.Experiencemaindivinnercontent{
-    width: 40%;
+.Experiencemaindivinnercontent {
+  width: 40%;
 }
 
-.Experiencelist{
+.Experiencelist {
+  width: 90%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.Experiencemaindivinnersecond {
+  width: 85%;
+  margin: auto;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Experiencemaindivinnerimagesecond {
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .Experiencemaindiv {
+    margin-top: 3%;
+  }
+
+  .Experiencemaindiv h2 {
+    /* border: 2px solid yellow; */
+    text-align: center;
+  }
+
+  .Experiencemaindivinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 4%;
+  }
+
+  .Experiencemaindivinnerone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 4%;
+  }
+
+  .Experiencemaindivinnerimage {
+    width: 95%;
+  }
+
+  .Experiencemaindivinnercontent {
+    width: 95%;
+  }
+
+  .Experiencelist {
     width: 90%;
     margin: auto;
     margin-top: 4%;
-}
+  }
 
-.Experiencemaindivinnersecond{
-    width: 85%;
+  .Experiencemaindivinnersecond {
+    width: 95%;
     margin: auto;
     margin-top: 4%;
     display: flex;
-    flex-direction: column-reverse;
-}
-.Experiencemaindivinnerimagesecond{
+    flex-direction: column;
+  }
+
+  .Experiencemaindivinnerimagesecond {
     width: 70%;
-    height: 600px;
+    height: fit-content;
     margin: auto;
     margin-top: 2%;
+  }
 }

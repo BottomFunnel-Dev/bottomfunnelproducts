@@ -1,31 +1,65 @@
-.Screensmaindiv{
+.Screensmaindiv {
+  /* border: 2px solid; */
+  width: 90%;
+  margin: auto;
+}
+
+.Screensmaininnerdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.Screensmaininnerdivcontent {
+  width: 45%;
+}
+
+.Screensmaininnerdivimage {
+  width: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Screensmaininnerdivone {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .Screensmaindiv {
     /* border: 2px solid; */
-     width: 90%;
-     margin: auto;
-    
-}
-.Screensmaininnerdiv{
+    width: 95%;
+    margin: auto;
+  }
+
+  .Screensmaininnerdiv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
-    margin-top: 3%
-   
-}
-.Screensmaininnerdivcontent{
-width: 45%;
-}
+    margin-top: 3%;
+  }
 
-.Screensmaininnerdivimage{
-    width: 50%;
+  .Screensmaininnerdivcontent {
+    width: 95%;
+  }
+
+  .Screensmaininnerdivimage {
+    width: 95%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
+  }
 
-
-.Screensmaininnerdivone{
-      display: flex;
-    flex-direction: row-reverse;
+  .Screensmaininnerdivone {
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
-    margin-top: 3%
+    margin-top: 3%;
+  }
 }

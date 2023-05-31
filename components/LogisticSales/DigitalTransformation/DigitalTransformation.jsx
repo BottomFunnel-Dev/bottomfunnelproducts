@@ -18,6 +18,7 @@ export const DigitalTransformation = () => {
                     />
                     {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/logisticssalesphotos/mobiversion.png" alt="image" /> */}
                 </div>
+                
                 <div className={style.DigitalTransformationinnerdivcontain}>
                     <h4>Digital Transformation</h4>
                     <p>Process optimization, efficiency, speed, and timing have become key metrics for logistics companies to stand out in the market. There are several digital transformations the industry is witnessing today. The first, and most important one, is the emergence of artificial intelligence (AI) and machine learning that help companies wade through heaps of unstructured data and generate patterns and insights that help improve operations. The second is the availability of tracking tools that help trace a shipment from a manufacturing facility to the end-stage delivery. The third is the rapid increase in the number of 3PL (third-party logistics) providers who help control costs and reduce overheards. And lastly, the proliferation of autonomous vehicles and robots that enable companies to manage transportation and storage.</p>

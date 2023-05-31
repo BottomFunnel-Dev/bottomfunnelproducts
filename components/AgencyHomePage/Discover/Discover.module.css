@@ -1,18 +1,37 @@
-.Discovermaindiv{
-    /* border: 2px solid red; */
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-
+.Discovermaindiv {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
 }
 
-.Discoverimage{
+.Discoverimage {
+  /* border: 1px solid lightgray; */
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .Discovermaindiv {
+    /* border: 2px solid red; */
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .Discoverimage {
     /* border: 1px solid lightgray; */
-    width: 70%;
-    height: 600px;
+    width: 95%;
+    height: fit-content;
     margin: auto;
     margin-top: 2%;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
+  }
 }

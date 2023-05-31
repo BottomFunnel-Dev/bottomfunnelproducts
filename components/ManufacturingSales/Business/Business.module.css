@@ -1,12 +1,31 @@
-.Businessmaindiv{
+.Businessmaindiv {
+  /* border: 2px solid ; */
+  width: 90%;
+
+  margin: auto;
+  margin-top: 3%;
+}
+
+.Businessmaindivimage {
+  width: 500px;
+  height: 450px;
+  margin: auto;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .Businessmaindiv {
     /* border: 2px solid ; */
     width: 90%;
-   
+
     margin: auto;
     margin-top: 3%;
-}
-.Businessmaindivimage{
-    width: 500px;
-    height: 450px;
+  }
+
+  .Businessmaindivimage {
+    width: 90%;
+    height: fit-content;
     margin: auto;
+  }
 }

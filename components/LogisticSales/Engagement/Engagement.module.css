@@ -1,20 +1,41 @@
-.Engagementmaindiv{
+.Engagementmaindiv {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3%;
+  background-color: #fdf3f0;
+}
+
+.Engagementmaindivimage {
+  width: 30%;
+  height: 340px;
+}
+
+.Engagementmaindivcontent {
+  width: 60%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .Engagementmaindiv {
     /* border: 2px solid black; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-around;
     margin-top: 3%;
     background-color: #fdf3f0;
+  }
 
+  .Engagementmaindivimage {
+    width: 95%;
+    height: fit-content;
+  }
+
+  .Engagementmaindivcontent {
+    width: 95%;
+  }
 }
-.Engagementmaindivimage{
-    width: 30%;
-    height: 340px;
-
-}
-.Engagementmaindivcontent{
-    width: 60%;
-}
-
-

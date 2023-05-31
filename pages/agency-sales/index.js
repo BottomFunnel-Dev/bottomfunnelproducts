@@ -1,7 +1,4 @@
 import React from "react";
-import { EstateAgency } from "../../components/RealEstateSales/EstateAgency/EstateAgency";
-import { MakeYourDeal } from "../../components/SalesPage/MakeYourDeal/MakeYourDeal";
-import { SalesWorldwide } from "../../components/SalesPage/SalesWorldwide/SalesWorldwide";
 import { AgencyBanner } from "../../components/AgencyHomePage/AgencyBanner/AgencyBanner";
 import { AgencyNeedCrm } from "../../components/AgencyHomePage/AgencyNeedCrm/AgencyNeedCrm";
 import { AngencyCrm } from "../../components/AgencyHomePage/AngencyCrm/AngencyCrm";
@@ -22,43 +19,39 @@ import { SalesFooter } from "../../components/SalesFooter/SalesFooter";
 export default function AgencyHomePage() {
   return (
     <>
+      <div style={{ color: "#393939" }}>
+        <Navbar
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
-    <div style={{ color: "#393939" }}>
-    
-    <Navbar
-      productMount={{
-        navMount: true,
-      }}
-      navredux={{
-        color: "black",
-        logo: false,
-      }}
-    />
-      <SalesNavbar  navproductredux={{
-          color: "black",
-          logo: false,
-        }}/>
+        <SalesNavbar
+          navproductredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
-      <AgencyBanner />
-      <AngencyCrm />
-      <AgencyNeedCrm />
-      <Discover />
-      <AutomateTask />
-      <Performing />
-      <AgencySales/>
-
-      {/* <EstateAgency /> */}
-      {/* <SalesWorldwide />
-      <MakeYourDeal /> */}
-
-      
-<Trial/>
-        <Testimonial/>
-        <TrustedBy/>
-        <ReadyStarted/>
-      <LifeBottomFunnel/>
-       {/* added footer of sales in place of product footer */}
-     <SalesFooter/>
+        <AgencyBanner />
+        <AngencyCrm />
+        <AgencyNeedCrm />
+        <Discover />
+        <AutomateTask />
+        <Performing />
+        <AgencySales />
+        
+        <Trial />
+        <Testimonial />
+        <TrustedBy />
+        <ReadyStarted />
+        <LifeBottomFunnel />
+        {/* added footer of sales in place of product footer */}
+        <SalesFooter />
       </div>
     </>
   );

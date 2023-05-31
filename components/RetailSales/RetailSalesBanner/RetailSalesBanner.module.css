@@ -1,5 +1,53 @@
 .RetailSalesBannermainbox {
-    height: 100vh;
+  height: 100vh;
+  width: 100%;
+  border: 1px solid transparent;
+  background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/realestatesales/Sales banner background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.RetailSalesBannerannimation {
+  width: 45%;
+}
+
+.RetailSalesBannermainboxinnertextdiv {
+  width: 37%;
+}
+
+.RetailSalesBannermainboxinnertextdiv > h1 {
+  font-size: 40px;
+}
+
+.RetailSalesBannerbutton {
+  border-radius: 10px;
+  width: 220px;
+  height: 40px;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 22px;
+}
+
+.RetailSalesBannerbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .RetailSalesBannermainbox {
+    height: 80vh;
     width: 100%;
     border: 1px solid transparent;
     background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/realestatesales/Sales banner background.png");
@@ -7,24 +55,23 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     align-items: center;
-    justify-content: space-around;
-   
   }
-  .RetailSalesBannerannimation{
-    width: 45%;
+
+  .RetailSalesBannerannimation {
+    width: 95%;
   }
+
   .RetailSalesBannermainboxinnertextdiv {
-   width: 37%;
+    width: 95%;
   }
+
   .RetailSalesBannermainboxinnertextdiv > h1 {
     font-size: 40px;
-    }
- 
-  
+  }
+
   .RetailSalesBannerbutton {
- 
     border-radius: 10px;
     width: 220px;
     height: 40px;
@@ -37,9 +84,9 @@
     color: white;
     margin-top: 22px;
   }
-  
+
   .RetailSalesBannerbutton:hover {
     background-color: white;
     color: #ef4c23;
   }
-  
+}

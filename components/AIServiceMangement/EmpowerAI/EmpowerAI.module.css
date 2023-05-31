@@ -1,31 +1,72 @@
-.EmpowerAImaindiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    justify-content: space-between;
-    margin-top: 4%;
+.EmpowerAImaindiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 4%;
 }
-.EmpowerAImaindivinner{
+
+.EmpowerAImaindivinner {
+  /* border: 2px solid; */
+  width: 30%;
+  height: 220px;
+  text-align: center;
+  padding: 1%;
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.EmpowerAImaindivinner h5 {
+  margin-top: 6%;
+}
+
+.EmpowerAImaindivimage {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.EmpowerAImaindivheading {
+  text-align: center;
+  margin-top: 4%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .EmpowerAImaindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 4%;
+  }
+
+  .EmpowerAImaindivinner {
     /* border: 2px solid; */
-    width: 30%;
-    height: 220px;
+    width: 95%;
+    height: fit-content;
     text-align: center;
     padding: 1%;
     border-radius: 10px;
-/* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  }
 
-}
-.EmpowerAImaindivinner h5{
-  margin-top: 6%;
-}
-.EmpowerAImaindivimage{
+  .EmpowerAImaindivinner h5 {
+    margin-top: 6%;
+  }
+
+  .EmpowerAImaindivimage {
     width: 70px;
     height: 70px;
     margin: auto;
-}
-.EmpowerAImaindivheading{
+  }
+
+  .EmpowerAImaindivheading {
     text-align: center;
     margin-top: 4%;
+  }
 }

@@ -1,54 +1,113 @@
-.InsuranceSalesScreensmaindiv{
+.InsuranceSalesScreensmaindiv {
+  /* border:  2px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  margin-top: 6%;
+}
+
+.InsuranceSalesScreensmaindiv p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.InsuranceSalesScreensmaincontaindiv {
+  /* border: 2px solid green; */
+  width: 60%;
+}
+
+.InsuranceSalesScreensmainimagediv {
+  border: 1px solid lightgray;
+  width: 50%;
+  height: 480px;
+  margin-left: 2%;
+  border-radius: 10px;
+  /* margin-top: 1%; */
+}
+
+.InsuranceSalesScreensmainimagediv img {
+  width: 100%;
+  height: 100%;
+}
+
+.InsuranceSalesScreensmainimagediv1 {
+  border: 1px solid lightgray;
+  width: 50%;
+  height: 480px;
+  /* margin-left: 2%; */
+  border-radius: 10px;
+  /* margin-top: 1%; */
+}
+
+.InsuranceSalesScreensmainimagediv1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.InsuranceSalesScreensmaincontaindiv1 {
+  /* border: 2px solid green; */
+  width: 60%;
+  margin-left: 3%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .InsuranceSalesScreensmaindiv {
     /* border:  2px solid red; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     width: 90%;
     margin: auto;
     margin-top: 6%;
+  }
 
-}
-.InsuranceSalesScreensmaindiv p{
+  .InsuranceSalesScreensmaindiv p {
     font-size: 18px;
     margin-top: 30px;
-}
-.InsuranceSalesScreensmaincontaindiv{
+  }
+
+  .InsuranceSalesScreensmaincontaindiv {
     /* border: 2px solid green; */
-    width: 60%;
-   
-}
-.InsuranceSalesScreensmainimagediv{
+    width: 95%;
+    margin: auto;
+  }
+
+  .InsuranceSalesScreensmainimagediv {
     border: 1px solid lightgray;
-    width: 50%;
-     height: 480px;
-     margin-left: 2%;
-     border-radius: 10px;
-     /* margin-top: 1%; */
-}
-.InsuranceSalesScreensmainimagediv img{
+    width: 95%;
+    height: fit-content;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin: auto;
+    /* margin-top: 1%; */
+  }
+
+  .InsuranceSalesScreensmainimagediv img {
     width: 100%;
     height: 100%;
-    
+  }
 
-}
-
-.InsuranceSalesScreensmainimagediv1{
+  .InsuranceSalesScreensmainimagediv1 {
     border: 1px solid lightgray;
-    width: 50%;
-     height: 480px;
-     /* margin-left: 2%; */
-     border-radius: 10px;
-     /* margin-top: 1%; */
-}
-.InsuranceSalesScreensmainimagediv1 img{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    /* margin-left: 2%; */
+    border-radius: 10px;
+    /* margin-top: 1%; */
+  }
+
+  .InsuranceSalesScreensmainimagediv1 img {
     width: 100%;
     height: 100%;
-    
+  }
 
-}
-.InsuranceSalesScreensmaincontaindiv1{
+  .InsuranceSalesScreensmaincontaindiv1 {
     /* border: 2px solid green; */
-    width: 60%;
+    width: 95%;
     margin-left: 3%;
-   
+    margin: auto;
+  }
 }
-

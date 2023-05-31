@@ -1,50 +1,101 @@
-.InsuranceAgencymaindiv{
-/* border: 2px solid yellow; */
-margin-top: 5%;
-
-
-
+.InsuranceAgencymaindiv {
+  /* border: 2px solid yellow; */
+  margin-top: 5%;
 }
-.InsuranceAgencymaindiv h1{
-text-align: center;
 
+.InsuranceAgencymaindiv h1 {
+  text-align: center;
 }
-.InsuranceAgencyinnerdiv{
+
+.InsuranceAgencyinnerdiv {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.InsuranceAgencycarddiv {
+  /* border: 2px solid green; */
+  width: 25%;
+  height: 470px;
+  margin: 2%;
+  justify-content: center;
+  text-align: center;
+  /* padding-top:40px;
+    padding-bottom: 20px; */
+  padding: 40px 20px 40px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* align-items: center; */
+}
+
+.InsuranceAgencycarddiv:hover {
+  background-color: #f8e2dd;
+}
+
+.InsuranceAgencycarddivimage {
+  width: 60%;
+  height: 250px;
+  margin-left: 18%;
+  /* border: 2px solid yellow; */
+}
+
+.InsuranceAgencycarddivimage img {
+  width: 100%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .InsuranceAgencymaindiv {
+    /* border: 2px solid yellow; */
+    margin-top: 5%;
+  }
+
+  .InsuranceAgencymaindiv h1 {
+    text-align: center;
+  }
+
+  .InsuranceAgencyinnerdiv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
     justify-content: center;
     margin-top: 4%;
+  }
 
-}
-.InsuranceAgencycarddiv{
+  .InsuranceAgencycarddiv {
     /* border: 2px solid green; */
-    width: 25%;
-    height: 470px;
+    width: 95%;
+    height: fit-content;
     margin: 2%;
-
     justify-content: center;
     text-align: center;
     /* padding-top:40px;
-    padding-bottom: 20px; */
-    padding: 40px 20px 40px 20px ;
+          padding-bottom: 20px; */
+    padding: 40px 20px 40px 20px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* align-items: center; */
-}
-.InsuranceAgencycarddiv:hover{
-    background-color: #f8e2dd;
-}
-.InsuranceAgencycarddivimage{
-    width: 60%;
-    height: 250px;
-    margin-left: 18%;
-    /* border: 2px solid yellow; */
-   
+  }
 
-}
-.InsuranceAgencycarddivimage img{
+  .InsuranceAgencycarddiv:hover {
+    background-color: #f8e2dd;
+  }
+
+  .InsuranceAgencycarddivimage {
+    width: 95%;
+    height: fit-content;
+    /* margin-left: 18%; */
+    /* border: 2px solid yellow; */
+  }
+
+  .InsuranceAgencycarddivimage img {
     width: 100%;
+  }
 }
