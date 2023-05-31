@@ -17,13 +17,10 @@ export const GoogleBusinessMessageBanner = () => {
                 />
             </div>
             <div className={styles.googleBusinessBannertwo}>
-                <h1>Support customers at their moment
-                    of need with Google’s Business
-                    Messages </h1>
+                <h1>Supporting customers when they need with Google Business Messages </h1>
                 <hr className={styles.hr}/>
 
-                <p>Engage high-intent visitors from Google Search and Google
-Maps to drive smarter and richer conversations</p>
+                <p>In the age of instant gratification, businesses must be readily available to support customers whenever and wherever they need assistance. With Google Business Messages, companies can provide real-time support, personalized interactions, seamless transitions between channels, proactive assistance, and convenient self-service options. Explore how this platform empowers businesses to support customers in their moments of need.</p>
                 <button>Explore Now</button>
             </div>
 

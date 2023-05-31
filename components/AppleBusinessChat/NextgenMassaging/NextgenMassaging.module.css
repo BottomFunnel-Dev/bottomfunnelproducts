@@ -24,7 +24,7 @@
 .NextgenMassagingmaindivcardsbox{
     /* border: 1px solid red; */
     width: 45%;
-    height: 520px;
+    height: fit-content;
     padding: 1%;
     margin-top: 4%;
 }

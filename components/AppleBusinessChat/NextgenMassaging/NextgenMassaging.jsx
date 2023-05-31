@@ -6,41 +6,40 @@ export const NextgenMassaging = () => {
   const Nextd = [
     {
       img: "/Images/Applebusinesschat/image 24.webp",
-      hd: "Be available for your customers on Apple Messages for Business",
-      li1: "Let customers reach out to you on their preferred device and app.",
-      li2: "Empower your agents and bots to work together.",
-      li3: " Offer exceptional service on Business Messages, with Bottom Funnel chat.",
+      hd: "Apple Business Chat Integration: Be Available for Your Customers Anytime, Anywhere",
+      li1: "Engage with your customers directly on Apple Messages for Business, providing them with a convenient and familiar channel to reach out to your business.",
+      li2: "Respond to customer inquiries in real-time, offering prompt support and resolving their concerns efficiently to enhance customer satisfaction.",
+      li3: "Utilize AI-powered chatbots to deliver personalized experiences, understanding customer preferences and providing tailored recommendations and assistance.",
     },
     {
       img: "/Images/Applebusinesschat/Frame.webp",
-      hd: "Simplify every customer interaction",
-      li1: "Enable your customers to get all the help they need in one place.",
-      li2: "Let your customers schedule appointments or meetings without having to leave the app.",
-      li3: "Offer instant, secure payment options with Apple Pay",
+      hd: "Streamline Customer Interactions: Simplify Every Interaction with Bottom Funnel Chat",
+      li1: "Simplify customer interactions by providing instant and accurate responses through AI chatbots, reducing customer effort and improving satisfaction.",
+      li2: "Streamline processes with automated workflows, ensuring smooth and consistent interactions across multiple channels, saving time and resources.",
+      li3: "Empower customers with self-service options, enabling them to find information, make purchases, or resolve issues independently, enhancing convenience and reducing dependency on support teams.",
     },
     {
       img: "/Images/Applebusinesschat/Frame (1).webp",
-      hd: "Future proof your customer service",
-      li1: "An effortless messaging experience for your customers and context-driven interactions for your team.",
-      li2: "Deliver great digital service experiences that your customers expect.",
-      li3: "The future of messaging is mobile — be there to welcome your customers on Apple Messages for Business.",
+      hd: "Future-Proof Your Customer Service: Embrace Innovation with Bottom Funnel Chat",
+      li1: "Stay ahead of the curve by implementing AI-powered chatbots and automation, providing cutting-edge customer service that adapts to evolving customer needs.",
+      li2: "Future-proof your customer service strategy by offering seamless support across multiple channels, ensuring a consistent and personalized experience for customers.",
+      li3: "Prepare your customer service for growth and change with scalable and flexible solutions that can easily adapt to increasing customer demands and emerging technologies.",
     },
     {
       img: "/Images/Applebusinesschat/image 25.webp",
-      hd: "Manage multiple business hours",
-      li1: "Deflect repetitive, transactional service requests with AI-powered bots.",
-      li2: "Your agents can now focus oncomplex interactions that require a human touch.",
-      li3: "Deliver seamless customer experiences with intuitive hand-off from bots to human agents.",
+      hd: "Efficiently Manage Multiple Business Hours with Bottom Funnel Chat",
+      li1: "Easily configure and manage different operating hours for your business, ensuring that your customers receive timely support based on their local time zones.",
+      li2: "Seamlessly switch between different business hours based on predefined schedules or specific events, allowing for efficient management of customer interactions across various time periods.",
+      li3: "Receive instant alerts and notifications when business hours change, ensuring that your team is always informed and prepared to provide support during active hours while managing customer expectations during non-operating hours.",
     },
   ];
   return (
     <div>
       <div className={styles.NextgenMassagingmaindiv}>
         <div className={styles.NextgenMassagingmaindivheading}>
-          <h2>The next-gen messaging experience</h2>
+          <h2>Unleash the Power of Next-Gen Messaging with Bottom-Funnelchat</h2>
           <p>
-            Let your customers message you as easily as they message their
-            friends and family
+          Connect with Your Customers Effortlessly, Just Like Messaging Friends and Family
           </p>
         </div>
       </div>

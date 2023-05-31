@@ -6,7 +6,7 @@ export default function InstagramDmDelighfull () {
   return (
   
     <div className={styles.instagramDmDelightfullContainer}>
-     <h1>Enable customers on instagram to reach you right from where they are</h1>
+     <h1>Providing Flexibility and Convenience with AI Chatbots on Instagram</h1>
       <div className={styles.instagramDmDelightfullDiv}>
         <div className={styles.instagramDmCustomerRight}>
             <Image
@@ -21,17 +21,18 @@ export default function InstagramDmDelighfull () {
         <div className={styles.instagramDmCustomerLeft}>
             <ul>
                 <li>
-                   <h4>Get insights into journey performance</h4>
-                   <p>Understand how your campaigns are performing and how customers are engaging to optimize journeys for better results.</p>
+                AI chatbots on Instagram provide clients with instant accessibility, allowing them to reach out and seek assistance at any time, eliminating the limitations of traditional business hours.
                 </li>
                 <li>
-                    <h4>Create nurture campaigns</h4>
-                    <p>Nurture your customers based on their web page visits, downloads, etc., and send targeted emails that improve conversions.</p>
+                AI chatbots offer flexibility by enabling clients to engage with businesses through various channels, including direct messages, comments, and even Instagram Stories, accommodating their preferred method of communication.
                 </li>
                 <li>
-                     <h4>Schedule at the right time</h4>
-                     <p>Plan your customer journeys to go at the right time, for instance, anniversary campaigns, launches, etc.</p>
+                With AI chatbots, businesses can deliver prompt responses to client queries, ensuring a seamless and efficient communication experience, even during peak times.
                 </li>
+                <li>
+                AI chatbots on Instagram can gather information about clients' preferences and previous interactions, enabling personalized engagement and tailored recommendations.
+                </li>
+                <li>AI chatbots can provide self-service options for clients, allowing them to find answers to common questions or access relevant information without the need for human intervention, enhancing convenience and efficiency.</li>
                
             </ul>
         </div>

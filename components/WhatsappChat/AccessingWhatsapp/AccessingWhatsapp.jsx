@@ -3,21 +3,22 @@ import styles from "./AccessingWhatsapp.module.css"
 import Image from 'next/image'
 
 export const AccessingWhatsapp = () => {
-  const Accessd = [{img:"/Images/WhatsApp-Chat/Rectangle 4.webp",p:"Sign up for Bottom Funnel chat to receive an email with the next steps"},
-  {img:"/Images/WhatsApp-Chat/Rectangle 4-1.webp",p:"Sign up for Bottom Funnel chat to receive an email with the next steps"},
-  {img:"/Images/WhatsApp-Chat/Rectangle 4-2.webp",p:"Sign up for Bottom Funnel chat to receive an email with the next steps"},
+  const Accessd = [{img:"/Images/WhatsApp-Chat/Rectangle 4.webp",hd:"Streamlined Communication:",p:"Efficient and quick communication for businesses and customers."},
+  {img:"/Images/WhatsApp-Chat/Rectangle 4-1.webp",hd:"Enhanced Customer Engagement:",p:"Personalized conversations and stronger connections."},
+  {img:"/Images/WhatsApp-Chat/Rectangle 4-2.webp",hd:"Convenience and Accessibility:",p:"Accessible support through a familiar platform."},
   ]
   return (
     <div>
         <div className={styles.AccessingWhatsappheading}>
-            <h2>Accessing the Bottom Funnel chat - WhatsApp integration</h2>
-            <p>The WhatsApp Business integration is available on the Pro and Enterprise plans.</p>
+            <h2>Unlock the Power of WhatsApp Integration with Bottom Funnel Chat</h2>
+            <p>Seamlessly Connect with Customers: Experience the Power of Bottom Funnel Chat - WhatsApp Integration for Enhanced Customer Engagement.</p>
         </div>
         <div className={styles.AccessingWhatsappcards}>
         {Accessd.map((item) => {
           return(
             <div className={styles.AccessingWhatsappcardsinnerdiv}>
                 <div className={styles.AccessingWhatsappcardscontent}>
+                  <h5>{item.hd}</h5>
                     <p>{item.p}</p>
                 </div>
                 <div  className={styles.AccessingWhatsappcardsinnerdivimage}>

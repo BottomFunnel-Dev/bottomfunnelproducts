@@ -18,18 +18,19 @@ export default function InstagramDmBots () {
             />
         </div>
         <div className={styles.instagramDmCustomerLeft}>
-            <h4>Handle rush hours with ease using AI-powered bots and automation.</h4>
-            <p>With the Bottom Funnel - Instagram integration:</p>
+            <h4>Handle rush hours like a pro</h4>
+            <p>During rush hours, it's crucial for businesses to handle client inquiries promptly and efficiently. With the help of AI chatbots on Instagram, businesses can ensure round-the-clock support, personalized assistance, and instant responses to deliver a delightful customer experience.</p>
             <ul>
                 <li>
-                    Empower your team and bots to work together and provide round-the-clock service on Instagram.
+                An AI chatbot on Instagram can handle a surge in client queries during rush hours, providing instant responses to their inquiries and ensuring no delays or waiting times.
                 </li>
                 <li>
-                    Deflect repetitive questions and free-up your agent’s time to solve complex queries. 
+                With AI chatbots, businesses can easily scale up their support capabilities during peak hours, efficiently managing a large volume of client interactions without compromising on response time or quality. 
                 </li>
                 <li>
-                    Capture customer information, and transfer them to your agents whenever needed.
+                AI chatbots can be programmed to understand client preferences and provide personalized recommendations or solutions, enhancing the overall customer experience even during busy periods.
                 </li>
+               
             </ul>
         </div>
       </div>

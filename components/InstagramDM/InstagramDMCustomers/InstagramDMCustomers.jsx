@@ -6,24 +6,23 @@ export default function InstagramDMCustomers () {
   return (
   
     <div className={styles.instagramDmCustomersContainer}>
-        <h1>Enable round-the-clock support with bots and automation</h1>
+        <h1>24/7 Support Made Easy</h1>
+        <p>Empower Your Business with Automated Bots and Intelligent Automation for Round-the-Clock Customer Assistance</p>
       <div className={styles.instagramDmCustomersDiv}>
       <div className={styles.instagramDmCustomerLeft}>
-            <h4>Manage all your Instagram business accounts from Bottom Funnel </h4>
-            <p>Connect multiple Instagram Business accounts to your Freshchat account in a jiffy! With this native integration (supported by our Neo platform), your agents can:</p>
+            <h4>Round-the-clock support is crucial for businesses to deliver exceptional customer service.</h4>
+            <p>It ensures availability, prompt responses, global reach, increased efficiency, and improved customer satisfaction. Discover the benefits of round-the-clock support below.</p>
             <ul>
                 <li>
-                    Converse with Bots through Instagram DMs
+                Round-the-clock support ensures that customers can reach out for assistance at any time, regardless of the day or time zone.
                 </li>
                 <li>
-                    Promptly respond to customer comments with all the context 
+                With round-the-clock support, customers receive prompt responses to their queries and concerns, enhancing their overall experience and satisfaction. 
                 </li>
                 <li>
-                    Get notified and initiate engaging conversations from story mentions and comments on poststags.
+                Round-the-clock support enables businesses to cater to customers from different regions and time zones, expanding their reach and providing a seamless experience to a diverse customer base.
                 </li>
-                <li>
-                   React to Bots’ messages  
-                </li>
+                
             </ul>
         </div>
         <div className={styles.instagramDmCustomerRight}>

@@ -8,12 +8,12 @@ export const AppleBusinessChatBanner = () => {
         
         <div className={styles.AppleBusinessChatBannermaindiv}>
             <div className={styles.AppleBusinessChatBannermaindivcontent}>
-             <h1>Deliver smarter conversations with Apple Business Chat and Bottom-Funnelchat</h1>
-             <p>Provide instant, seamless, and effortless service for your customers by integrating Apple Messages for Business with Bottom Funnel</p>
+             <h1>Enhance Customer Conversations with Apple Business Chat and Bottom-Funnelchat</h1>
+             <p>Unlock the power of intelligent conversations with the seamless integration of Apple Business Chat and Bottom-Funnelchat, delivering personalized and efficient customer experiences.</p>
              <ul>
-              <li>Official Apple Messaging Service provider</li>
-              <li>Set up Messages for Business in 5 days</li>
-              <li>Reduce spends by 60%</li>
+              <li>Leverage the capabilities of Apple Business Chat and Bottom-Funnelchat to provide tailored and contextually relevant conversations, ensuring a personalized customer experience.</li>
+              <li>Automatically route conversations to the right agents or departments, streamlining the support process and reducing customer wait times.</li>
+              <li>Analyze chat interactions and customer feedback to optimize responses, identify improvement areas, and enhance overall conversation quality.</li>
              </ul>
              <button  className={styles.AppleBusinessChatBannermaindivcontentbutton}>Explore Now</button>
             </div>

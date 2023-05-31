@@ -3,17 +3,17 @@ import styles from "./DoMore.module.css"
 import Image from 'next/image'
 
 export const DoMore = () => {
-  const Domored = [{img:"/Images/WhatsApp-Chat/Rectangle 4-1.webp",hd:"Plug-in and use",p:"Use the Marketplace to connect with tools like Bottom Funnel desk, Stripe, Calendly, etc"},
-  {img:"/Images/WhatsApp-Chat/Rectangle 4-5.webp",hd:"Route automatically",p:"Route incoming messages to the right teams instantly and increase CSAT."},
-  {img:"/Images/WhatsApp-Chat/Rectangle 4-4.webp",hd:"Analyze and Optimize",p:"Derive insights from customer touchpoints and make business-critical decisions"},
-  {img:"/Images/WhatsApp-Chat/Rectangle 4-6.webp",hd:"Take service to customers",p:"Use Bottom Funnel chat with other digital channels like Messenger, LINE, Telegram, Messages, etc"},
-  {img:"/Images/WhatsApp-Chat/Rectangle 4-8.webp",hd:"Break the language barrier",p:"Personalize your agent and customer experiences in 20+ languages. Automatically translate incoming messages"},
-  {img:"/Images/WhatsApp-Chat/Rectangle 4-7.webp",hd:"Secure your data",p:"Use a robust and secure software that’s GDPR compliant"}
+  const Domored = [{img:"/Images/WhatsApp-Chat/Rectangle 4-1.webp",hd:"Plug-in and use",p:"Easily integrate Bottom Funnel Chat into your existing systems and start providing seamless customer service instantly."},
+  {img:"/Images/WhatsApp-Chat/Rectangle 4-5.webp",hd:"Route automatically",p:"Automatically route customer inquiries to the right department or agent, ensuring efficient and timely resolution."},
+  {img:"/Images/WhatsApp-Chat/Rectangle 4-4.webp",hd:"Analyze and Optimize",p:"Gain valuable insights from data analytics to optimize your customer support strategies and improve overall performance."},
+  {img:"/Images/WhatsApp-Chat/Rectangle 4-6.webp",hd:"Take service to customers",p:"Extend your customer service reach by engaging with customers on their preferred communication channels."},
+  {img:"/Images/WhatsApp-Chat/Rectangle 4-8.webp",hd:"Break the language barrier",p:"Overcome language barriers with multilingual support, enabling effective communication with customers from diverse backgrounds."},
+  {img:"/Images/WhatsApp-Chat/Rectangle 4-7.webp",hd:"Secure your data",p:"Protect sensitive customer information with robust security measures and data encryption to ensure privacy and compliance.  "}
 ]
   return (
     <div>
       <div className={styles.DoMoremaindivheading}>
-        <h2>Do more with Bottom Funnel Chat!</h2>
+        <h2>Unlock the Power of Bottom Funnel Chat: Do More, Achieve More</h2>
        </div>
        <div className={styles.DoMoremaindivInnerDiv}>
       {Domored.map((item) => {
