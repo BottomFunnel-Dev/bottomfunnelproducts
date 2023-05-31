@@ -83,7 +83,7 @@
 
 /* media query for mobile and tablet  */
 @media (max-width: 1024px) {
-  .ticketingServicesMainDiv{
+  .ticketingServicesMainDiv {
     margin-top: 10%;
    
   }
@@ -99,7 +99,6 @@
   .TicketingServicesContainer > div:nth-child(1) {
     width: 100%;
     margin-bottom: 10%;
-   
   }
 
   .TicketingServicesContainer > div:nth-child(3) {
@@ -114,7 +113,6 @@
   .TicketingServicesContainer > div > h1 {
     font-size: 22px;
     margin-top: 5%;
-   
   }
 
   .TicketingServicesContainer > div > p {

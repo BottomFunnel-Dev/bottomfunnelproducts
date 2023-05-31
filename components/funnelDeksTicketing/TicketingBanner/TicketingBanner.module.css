@@ -25,7 +25,7 @@
 }
 
 .ticketingBannerContent > h1 > span {
-  color: #12944D;
+  color: #12944d;
 }
 
 .ticketingBannerContent > hr {
@@ -44,24 +44,24 @@
   height: 45px;
   border-radius: 5px;
   outline: none;
-  border: 2px solid #12944D;
-  background: #12944D;
+  border: 2px solid #12944d;
+  background: #12944d;
   color: white;
   cursor: pointer;
 }
 
 .ticketingBannerButtons > button:hover {
   background: white;
-  color: #12944D;
+  color: #12944d;
 }
 
-.ticketingBannerButtons1{
+.ticketingBannerButtons1 {
   width: 25%;
   height: 45px;
   border-radius: 5px;
   outline: none;
-  border: 2px solid #12944D;
-  background: #12944D;
+  border: 2px solid #12944d;
+  background: #12944d;
   color: white;
   cursor: pointer;
   margin-left: 2%;
@@ -69,7 +69,7 @@
 
 .ticketingBannerButtons1:hover {
   background: white;
-  color: #12944D;
+  color: #12944d;
 }
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
@@ -82,7 +82,6 @@
 
   .ticketingBannerImage {
     width: 90%;
-   
   }
 
   .ticketingBannerContent {
@@ -110,8 +109,8 @@
   .ticketingBannerButtons > button {
     font-size: 18px;
     width: 40%;
-    height: auto;
+    height: 50px;
     margin-top: 4%;
-    
+    margin-bottom: 4%;
   }
 }

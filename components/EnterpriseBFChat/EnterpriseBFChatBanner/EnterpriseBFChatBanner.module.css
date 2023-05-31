@@ -4,6 +4,7 @@
   height: 90vh;
   display: flex;
   flex-direction: row;
+  margin-top: 3%;
 }
 .enterpriseBFChatBannerImage {
   /* border: 2px solid red; */
@@ -46,7 +47,7 @@
 @media (max-width: 480px) {
   .enterpriseBFChatBanner {
     flex-direction: column;
-    margin-top: 10%;
+    margin-top:30%;
   text-align: center;
   }
   .enterpriseBFChatBannerImage {

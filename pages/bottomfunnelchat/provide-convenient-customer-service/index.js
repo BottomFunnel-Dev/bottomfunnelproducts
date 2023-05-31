@@ -26,19 +26,19 @@ const productData = {
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/bottomfunnel-chat/messaging-channel",
+        path: "/bottomfunnelchat/messagingchannel",
       },
       {
         dropContent: "Chatbots",
-        path: "/bottomfunnel-chat/chat-bots",
+        path: "/bottomfunnelchat/chatbots",
       },
       {
         dropContent: "Team Inbox",
-        path: "/bottomfunnel-chat/team-inbox",
+        path: "/team-inbox",
       },
       {
         dropContent: "Journeys",
-        path: "/bottomfunnel-chat/journeys",
+        path: "/bottomfunnelchat/journeys",
       },
     ],
   },

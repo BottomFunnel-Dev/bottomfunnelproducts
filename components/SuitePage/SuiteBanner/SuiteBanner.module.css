@@ -40,7 +40,7 @@
   border-radius: 10px;
   width: 230px;
   background-color: #ef4c23;
-  border: none;
+  border: 1px solid transparent;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: 18px;

@@ -6,7 +6,7 @@ import { JourneysTrail } from "../../../components/Journeys/JourneysTrail/Journe
 import { JourneysWhy } from "../../../components/Journeys/JourneysWhy/JourneysWhy";
 import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
 import { ProdNavbar } from "../../../components/ProdNavbar";
-import { Navbar } from "react-bootstrap";
+import Navbar from "../../../components/Navbar/Navbar";
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -19,19 +19,19 @@ const productData = {
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/bottomfunnel-chat/messaging-channel",
+        path: "/bottomfunnelchat/messagingchannel",
       },
       {
         dropContent: "Chatbots",
-        path: "/bottomfunnel-chat/chat-bots",
+        path: "/bottomfunnelchat/chatbots",
       },
       {
         dropContent: "Team Inbox",
-        path: "/bottomfunnel-chat/team-inbox",
+        path: "/team-inbox",
       },
       {
         dropContent: "Journeys",
-        path: "/bottomfunnel-chat/journeys",
+        path: "/bottomfunnelchat/journeys",
       },
     ],
   },
@@ -138,7 +138,7 @@ export default function Journeys() {
     return (
 
         <div>
-      {/* <Navbar
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -146,7 +146,7 @@ export default function Journeys() {
           color: "black",
           logo: false,
         }}
-      /> */}
+      />
       <ProdNavbar data={productData} />
             <JourneysBanner />
             <JourneysChat />

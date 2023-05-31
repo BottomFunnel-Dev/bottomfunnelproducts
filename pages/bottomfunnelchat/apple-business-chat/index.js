@@ -1,16 +1,16 @@
-import React from 'react'
-import { AppleBusinessChatBanner } from '../../../components/AppleBusinessChat/AppleBusinessChatBanner/AppleBusinessChatBanner'
-import { BusinessMassaging } from '../../../components/AppleBusinessChat/BusinessMassaging/BusinessMassaging'
-import { FinancialService } from '../../../components/AppleBusinessChat/FinancialService/FinancialService'
-import { NextgenMassaging } from '../../../components/AppleBusinessChat/NextgenMassaging/NextgenMassaging'
-import Navbar from '../../../components/Navbar/Navbar'
-import { ProdNavbar } from '../../../components/ProdNavbar'
-import LifeBottomFunnel from '../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
-import { ProductsFooter } from '../../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
-import ReadyStarted from '../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
-import Testimonial from '../../../components/ProductsNewPage/Testimonial/Testimonial'
-import TrustedBy from '../../../components/TrustedByProductsPage/TrustedBy'
-import { ChatFooter } from '../../../components/ChatFooter/ChatFooter'
+import React from "react";
+import { AppleBusinessChatBanner } from "../../../components/AppleBusinessChat/AppleBusinessChatBanner/AppleBusinessChatBanner";
+import { BusinessMassaging } from "../../../components/AppleBusinessChat/BusinessMassaging/BusinessMassaging";
+import { FinancialService } from "../../../components/AppleBusinessChat/FinancialService/FinancialService";
+import { NextgenMassaging } from "../../../components/AppleBusinessChat/NextgenMassaging/NextgenMassaging";
+import Navbar from "../../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../../components/ProdNavbar";
+import LifeBottomFunnel from "../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import ReadyStarted from "../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import Testimonial from "../../../components/ProductsNewPage/Testimonial/Testimonial";
+import TrustedBy from "../../../components/TrustedByProductsPage/TrustedBy";
+import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -18,24 +18,27 @@ const productData = {
   width: "65%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/bottomfunnelchat/allFeatures" },
+    more: {
+      title: "View more features",
+      path: "/bottomfunnelchat/allFeatures",
+    },
     position: { left: "35%" },
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/bottomfunnel-chat/messaging-channel",
+        path: "/bottomfunnelchat/messagingchannel",
       },
       {
         dropContent: "Chatbots",
-        path: "/bottomfunnel-chat/chat-bots",
+        path: "/bottomfunnelchat/chatbots",
       },
       {
         dropContent: "Team Inbox",
-        path: "/bottomfunnel-chat/team-inbox",
+        path: "/team-inbox",
       },
       {
         dropContent: "Journeys",
-        path: "/bottomfunnel-chat/journeys",
+        path: "/bottomfunnelchat/journeys",
       },
     ],
   },
@@ -80,16 +83,31 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-          { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
-          { title: "Provide convenient customer service", path: "/bottomfunnelchat/provide-convenient-customer-service" },
-          { title: "Move from costly channels", path: "/bottomfunnelchat/move-from-costly-channel" },
+          {
+            title: "Smart Conversations",
+            path: "/bottomfunnelchat/solutions/smart-conversations",
+          },
+          {
+            title: "Zero Contact Resolutions",
+            path: "/bottomfunnelchat/solutions/contactresolution",
+          },
+          {
+            title: "Provide convenient customer service",
+            path: "/bottomfunnelchat/provide-convenient-customer-service",
+          },
+          {
+            title: "Move from costly channels",
+            path: "/bottomfunnelchat/move-from-costly-channel",
+          },
         ],
       },
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+          {
+            title: "Enterprise",
+            path: "/bottomfunnelchat/solutions/enterprise",
+          },
           { title: "SMB", path: "/bottomfunnelchat/smb" },
         ],
       },
@@ -137,11 +155,10 @@ const productData = {
   pricing: "",
 };
 
-
 export default function applebusinesschat() {
-    return (
+  return (
     <div>
-        <Navbar
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -150,19 +167,17 @@ export default function applebusinesschat() {
           logo: false,
         }}
       />
-         <ProdNavbar data={productData} />
-        <AppleBusinessChatBanner/>
-        <NextgenMassaging/>
-        <BusinessMassaging/>
-        <FinancialService/>
+      <ProdNavbar data={productData} />
+      <AppleBusinessChatBanner />
+      <NextgenMassaging />
+      <BusinessMassaging />
+      <FinancialService />
 
-
-        <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
-
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+      <ChatFooter />
     </div>
-  )
+  );
 }

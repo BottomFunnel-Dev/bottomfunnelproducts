@@ -14,31 +14,33 @@ import Testimonial from "../../../../components/ProductsNewPage/Testimonial/Test
 import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
 import { ChatFooter } from "../../../../components/ChatFooter/ChatFooter";
 
-
 const productData = {
   title: "Bottom Funnel Chat",
   logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Chat.png",
   width: "65%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/bottomfunnelchat/allFeatures" },
+    more: {
+      title: "View more features",
+      path: "/bottomfunnelchat/allFeatures",
+    },
     position: { left: "35%" },
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/bottomfunnel-chat/messaging-channel",
+        path: "/bottomfunnelchat/messagingchannel",
       },
       {
         dropContent: "Chatbots",
-        path: "/bottomfunnel-chat/chat-bots",
+        path: "/bottomfunnelchat/chatbots",
       },
       {
         dropContent: "Team Inbox",
-        path: "/bottomfunnel-chat/team-inbox",
+        path: "/team-inbox",
       },
       {
         dropContent: "Journeys",
-        path: "/bottomfunnel-chat/journeys",
+        path: "/bottomfunnelchat/journeys",
       },
     ],
   },
@@ -83,16 +85,31 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-          { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
-          { title: "Provide convenient customer service", path: "/bottomfunnelchat/provide-convenient-customer-service" },
-          { title: "Move from costly channels", path: "/bottomfunnelchat/move-from-costly-channel" },
+          {
+            title: "Smart Conversations",
+            path: "/bottomfunnelchat/solutions/smart-conversations",
+          },
+          {
+            title: "Zero Contact Resolutions",
+            path: "/bottomfunnelchat/solutions/contactresolution",
+          },
+          {
+            title: "Provide convenient customer service",
+            path: "/bottomfunnelchat/provide-convenient-customer-service",
+          },
+          {
+            title: "Move from costly channels",
+            path: "/bottomfunnelchat/move-from-costly-channel",
+          },
         ],
       },
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+          {
+            title: "Enterprise",
+            path: "/bottomfunnelchat/solutions/enterprise",
+          },
           { title: "SMB", path: "/bottomfunnelchat/smb" },
         ],
       },
@@ -143,7 +160,7 @@ const productData = {
 export default function SmartConversation() {
   return (
     <div>
-    <Navbar
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -153,20 +170,19 @@ export default function SmartConversation() {
         }}
       />
       <ProdNavbar data={productData} />
-      
-      <EnterpriseBFChatBanner/>
-      <EnterpriseBFChatService/>
-      <EnterpriseBFChatScale/>
-      <EnterpriseBFChatNeed/>
-      <EnterpriseBFChatTools/>
-      <EnterpriseBFChatData/>
-      
 
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
+      <EnterpriseBFChatBanner />
+      <EnterpriseBFChatService />
+      <EnterpriseBFChatScale />
+      <EnterpriseBFChatNeed />
+      <EnterpriseBFChatTools />
+      <EnterpriseBFChatData />
+
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+      <ChatFooter />
     </div>
   );
 }
