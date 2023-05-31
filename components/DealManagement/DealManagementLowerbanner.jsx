@@ -22,7 +22,7 @@ export const DealManagementLowerbanner = () => {
 
 <div className={styles.lowerbannerrightbox}>
 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Deal management/banners & background/ha/sales vector 1.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Deal management/banners & background/ha/sales vector 1.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

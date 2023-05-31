@@ -136,16 +136,16 @@ export const TalentProfiles = () => {
       buttondetails: "See more",
       technicalscore: "Technical Score",
     },
-    {
-      title: "Muskan Gupta",
-      body: `MERN Stack Developer`,
-      profileLink: `https://www.linkedin.com/in/muskan-gupta01/`,
-      image: "/Images/OurTeamPhotos/muskan.png",
-      experience: "Ex: 0-1 years",
-      communication: "Communication Score",
-      buttondetails: "See more",
-      technicalscore: "Technical Score",
-    },
+    // {
+    //   title: "Muskan Gupta",
+    //   body: `MERN Stack Developer`,
+    //   profileLink: `https://www.linkedin.com/in/muskan-gupta01/`,
+    //   image: "/Images/OurTeamPhotos/muskan.png",
+    //   experience: "Ex: 0-1 years",
+    //   communication: "Communication Score",
+    //   buttondetails: "See more",
+    //   technicalscore: "Technical Score",
+    // },
 
     {
       title: "Jyotiranjan Das",
@@ -157,26 +157,7 @@ export const TalentProfiles = () => {
       buttondetails: "See more",
       technicalscore: "Technical Score",
     },
-    {
-      title: "Dibyanshu Srivastav",
-      body: `MERN Stack Developer`,
-      profileLink: `https://www.linkedin.com/in/dibyanshu-srivastav-290b7718b`,
-      image: "/Images/OurTeamPhotos/Dibyanshu Srivastav.png",
-      experience: "Ex: 0-1 years",
-      communication: "Communication Score",
-      buttondetails: "See more",
-      technicalscore: "Technical Score",
-    },
-    {
-      title: "Pankaj Singh",
-      body: `MERN Stack Developer`,
-      profileLink: `https://www.linkedin.com/in/pankaj-singh-sajwan-6ba061224`,
-      image: "/Images/OurTeamPhotos/pankaj singh.png",
-      experience: "Ex: 0-1 years",
-      communication: "Communication Score",
-      buttondetails: "See more",
-      technicalscore: "Technical Score",
-    },
+
     {
       title: "Riya Gupta",
       body: `UI/UX Designer`,
@@ -287,11 +268,13 @@ export const TalentProfiles = () => {
                     </p>
                   </div>
 
-                  {/* <button
-                    className={styles.productsTalentProfilesContentButton}
-                  >
-                    {buttondetails}
-                  </button> */}
+                  <a target="_blank" href={profileLink}>
+                    <button
+                      className={styles.productsTalentProfilesContentButton}
+                    >
+                      {buttondetails}
+                    </button>
+                  </a>
                 </div>
               </div>
             ),

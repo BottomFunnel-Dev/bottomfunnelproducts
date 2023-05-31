@@ -12,7 +12,7 @@ export const Softwareandserviceitbanner = () => {
                 <p>Your technology is mission-critical to your customer’s
                     business. You need to back it up with responsive, proactive
                     customer service. Deliver outstanding experiences with the
-                    Freshworks Customer Service Platform.
+                    Bottom Funnel Customer Service Platform.
                 </p>
                 <button>Request For Demo</button>
             </div>
@@ -20,7 +20,7 @@ export const Softwareandserviceitbanner = () => {
 
             <div className={styles.softwareandserviceitbannerone}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/softwareandserviceit/banner.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/softwareandserviceit/banner.webp"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

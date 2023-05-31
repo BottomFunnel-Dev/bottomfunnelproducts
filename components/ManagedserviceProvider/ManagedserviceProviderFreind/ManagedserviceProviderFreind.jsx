@@ -8,7 +8,7 @@ export const ManagedserviceProviderFreind = () => {
 
             </h4>
             <p>
-                At Freshworks, we do things differently. We know that transactions are short-lived, but the relationships we build are for life.
+                At Bottom Funnel, we do things differently. We know that transactions are short-lived, but the relationships we build are for life.
 
                 We will help you find and create customers for life, and we d like you to be our customer for life.
             </p>
@@ -22,7 +22,7 @@ export const ManagedserviceProviderFreind = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Freind1.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Freind1.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -45,7 +45,7 @@ export const ManagedserviceProviderFreind = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Freind2.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Freind2.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}
@@ -68,7 +68,7 @@ export const ManagedserviceProviderFreind = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ManagedServiceProvider/Freind3.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/ManagedServiceProvider/Freind3.webp"}
                             alt={"image"}
                             width={"0"}
                             height={"0"}

@@ -12,7 +12,7 @@ export const NeoAdminEnterprise = () => {
         <div className={styles.neoAdminEnterprisePassword}>
             <div className={styles.neoAdminEnterpriseImage}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Group7.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/neoAdmin/Group7.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -42,7 +42,7 @@ export const NeoAdminEnterprise = () => {
             </div>
             <div className={styles.neoAdminEnterpriseImage1}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Group1.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/neoAdmin/Group1.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -54,7 +54,7 @@ export const NeoAdminEnterprise = () => {
         <div className={styles.neoAdminEnterprisePassword}>
             <div className={styles.neoAdminEnterpriseImage3}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Frame1.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/neoAdmin/Frame1.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -84,7 +84,7 @@ export const NeoAdminEnterprise = () => {
             </div>
             <div className={styles.neoAdminEnterpriseImage1}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/neoAdmin/Frame2.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/neoAdmin/Frame2.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

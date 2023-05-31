@@ -7,7 +7,7 @@ export const EngagementBanner = () => {
     <div className={styles.engagementBannerContainer}>
       <div className={styles.engagementBannerImage}>
         <img
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/engagementPhotos/banner.png"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/engagementPhotos/banner.png"
           alt="Engagement models banner human image"
         />
       </div>

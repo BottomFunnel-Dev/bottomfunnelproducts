@@ -20,7 +20,7 @@ From welcome emails to internal reminders for your team members to complete task
             </div>
             <div className={style.AutomateTaskimage}>
             <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/006.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/006.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -28,7 +28,7 @@ From welcome emails to internal reminders for your team members to complete task
   style={{ width: "100%", height: "100%" }}
 
   />
-             {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
+             {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
             </div>
 
           </div>
@@ -37,7 +37,7 @@ From welcome emails to internal reminders for your team members to complete task
 
           <div className={style.AutomateTaskimage}>
           <Image
-              src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/agency.png"}
+              src={"https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/agency.png"}
               alt={"image"}
               width={"0"}
               height={"0"}
@@ -45,7 +45,7 @@ From welcome emails to internal reminders for your team members to complete task
               style={{ width: "100%", height: "100%" }}
 
               />
-             {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
+             {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/screen1.png" alt="image" /> */}
             </div>
             <div className={style.AutomateTaskdiv2}>
             <h2> View all customer data in one place</h2>

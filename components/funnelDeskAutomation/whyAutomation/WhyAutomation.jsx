@@ -7,32 +7,32 @@ export const WhyAutomation = () => {
     {
       title: "Easy to set-up and manage",
       description:
-        "Freshdesk creates an automatic summary of every rule that looks like a simple workflow document. The rule summaries and the simple form interface makes setting up automations quick and easy.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/task.png",
+        "Bottom funnel desk creates an automatic summary of every rule that looks like a simple workflow document. The rule summaries and the simple form interface makes setting up automations quick and easy.",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskAutomation/task.png",
     },
     {
       title: "Manage dependencies efficiently",
       description:
         "When you need inputs from a different team, automations can remind, alert and bring tickets with dependencies to the attention of the right people at the right time.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/setting.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskAutomation/setting.png",
     },
     {
       title: "Multi-level logical operators",
       description:
         "With the flexibility to use a combination of AND/OR coditions and multi-select opions, you can set-up powerful rules to automate any complex workflow.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/light.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskAutomation/light.png",
     },
     {
       title: "Scalable",
       description:
         "Every automation rule comes with an audit log to help you keep track of changes easily. When you need to make changes, you can test them in a sandbox and have them automatically synced to your live account.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/world.png",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskAutomation/world.png",
     },
     {
       title: "AI-powered",
       description:
-        "Automations do not reopen tickets that have responses like 'gracias' or 'all good'. By not opening tickets that don't need any further action, Freshdesk ensures that your reporting metrics aren't skewed.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/tech.png",
+        "Automations do not reopen tickets that have responses like 'gracias' or 'all good'. By not opening tickets that don't need any further action, Bottom funnel desk ensures that your reporting metrics aren't skewed.",
+      image: "https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskAutomation/tech.png",
     },
   ];
 

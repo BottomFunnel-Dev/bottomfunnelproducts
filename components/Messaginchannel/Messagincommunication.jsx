@@ -8,26 +8,26 @@ export const Messagincommunication = () => {
     const messagingcommunicationdata = [
         {
             htxt:"Connect across apps",
-            stxt:"Reduce the complexity of communication across Google, Apple, WhatsApp, and other business-related messaging services.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 46.webp",
+            stxt:"Seamlessly Connect and Interact Across Multiple Apps with Our AI Chatbot. Enhance User Experience and Streamline Operations by Integrating Chatbot Functionality into Your Existing Applications and Platforms. Improve Efficiency, Communication, and Customer Satisfaction.",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/image 46.webp",
         },
 
         {
             htxt:"Be Available",
-            stxt:"Connect with your customers on their preferred messaging channels and build meaningful relationships wherever they are.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 47.webp",
+            stxt:"Be Available 24/7 with Our AI Chatbot. Ensure Round-the-Clock Support and Instant Responses to Customer Queries. Never Miss an Opportunity to Engage with Your Audience, Even Outside Business Hours. Provide Timely Assistance, Build Trust, and Deliver Exceptional Customer Service with our Always-On Chatbot Solution.",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/image 47.webp",
         },
 
         {
             htxt:"Build customer trust",
-            stxt:"Stay dependable and help your customers when they need you using our secure and reliable messaging API.",
-            icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/image 48.webp",
+            stxt:"Build Customer Trust with Our AI Chatbot. Deliver Personalized Interactions, Provide Accurate Information, and Resolve Customer Issues Promptly. Create a Seamless Customer Experience that Builds Confidence and Loyalty. Gain Customer Trust through Reliable and Consistent Support, Enhancing Your Brand Reputation and Driving Long-term Relationships.",
+            icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/image 48.webp",
         },
     ]
 
   return (
     <div className={styles.messaigingcommunicationmainboxes}>
-    <h1>Revise your customer communication strategy</h1>
+    <h1>Unlock Efficiency and Customer Satisfaction with Our AI Chatbot Solution</h1>
     <div className={styles.messagingcommunicationdatamappingbox}>
         {messagingcommunicationdata.map((e)=>{
         return (
@@ -50,11 +50,11 @@ export const Messagincommunication = () => {
     })}</div>
 
 <div className={styles.messagingexperience}>
-<h2>Ensure seamless conversational experiences</h2>
-<p>By increasing your agent productivity and enhancing your customer experience, you can achieve a higher level of contextual conversations across popular messaging applications.</p>
+<h2>Seamless Conversational Experiences</h2>
+<p> Enhance Customer Engagement and Satisfaction with Our AI Chatbot</p>
 <div className={styles.messagingexperienceimagebox}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/messaging channels.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/messaging channels.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

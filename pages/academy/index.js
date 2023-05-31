@@ -9,11 +9,10 @@ import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadySta
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
-
 export default function Academy() {
   return (
     <div>
-    <Navbar
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -22,16 +21,16 @@ export default function Academy() {
           logo: false,
         }}
       />
-     
-      <AcademyBanner/>
-      <AcademyContent/>
-      <WhyAcademy/>
-      
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ProductsFooter/>
+
+      <AcademyBanner />
+      <AcademyContent />
+      <WhyAcademy />
+
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+      <ProductsFooter />
     </div>
   );
 }

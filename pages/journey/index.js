@@ -4,6 +4,7 @@ import { JourneyBanner } from "../../components/Journey/JourneyBanner/JourneyBan
 import { JourneyCustomerExperience } from "../../components/Journey/JourneyCustomerExperience/JourneyCustomerExperience";
 import { JourneyPersonalized } from "../../components/Journey/JourneyPersonized/JourneyPersonalized";
 import { JourneyTrial } from "../../components/Journey/JourneyTrial/JourneyTrial";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -15,7 +16,7 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 const productData = {
     title: "Bottom Funnel Marketer",
-    logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+    logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
     width: "45%",
     list1: {
       title: "Features",
@@ -88,7 +89,7 @@ export default function Journey() {
         }}
       />
 
-        <ProdNavbar data={productData} />
+        <MarketerNavbar data={productData} />
 
         <JourneyBanner />
         <ChatCampaign/>

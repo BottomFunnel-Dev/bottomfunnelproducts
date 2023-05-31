@@ -15,7 +15,7 @@ export const CustomerSuccessBanner = () => {
     </div>
     <div className={styles.CustomerSuccesshomepageBannermaindivimage} >
            <lottie-player
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/customerSucess/banner.json"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Animation/customerSucess/banner.json"}
                   background="transparent"
                   speed="1"
                   loop

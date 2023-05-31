@@ -3,11 +3,11 @@ import Image from "next/image"
 export const JourneyCustomerExperience = () => {
     return (
          <div className={styles.JourneyCustomerExperiencemain}>
-            <h1 className={styles.JourneyCustomerExperiencemainheading}>Deliver delightful customer experiences with timely ,targeted engagement</h1>
+            <h1 className={styles.JourneyCustomerExperiencemainheading}>Deliver delightful customer experiences with timely, targeted engagement</h1>
             <div className={styles.JourneyCustomerExperienceOnlyChild}>
                  <div className={styles.JourneyCustomerExperienceImage}> 
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Journey/7793.png"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/Journey/7793.png"}
                     alt={"img"}
                     width={"0"}
                     height={"0"}

@@ -17,7 +17,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/2-1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -37,7 +37,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-2.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/2-2.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -58,7 +58,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-3.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/2-3.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -77,7 +77,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-4.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/2-4.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -98,7 +98,7 @@ Zero contact resolution is the way to go</h2>
             <div className={styles.HowSeekingmaindivcardsboxinnerimage}>
         <div className={styles.HowSeekingmaindivcardsboximage}>
      <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProvideConvenientCustomerService/2-5.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ProvideConvenientCustomerService/2-5.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

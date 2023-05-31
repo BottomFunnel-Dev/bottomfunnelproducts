@@ -113,7 +113,7 @@ export const Omnichannel = ({ navproductredux }) => {
       }}
     >
       <div className={prodnav.omnichannelLogo}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/support-desk.png" />
+        <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/funnel-desk/support-desk.png" />
         <h5>Bottom Funnel OmniChannel</h5>
       </div>
       <div className={prodnav.omnichannelList}>
@@ -125,7 +125,7 @@ export const Omnichannel = ({ navproductredux }) => {
           Desk Products
           <img
             className={prodnav.omnichanneldownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -138,7 +138,7 @@ export const Omnichannel = ({ navproductredux }) => {
           Features{" "}
           <img
             className={prodnav.omnichanneldownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -160,7 +160,7 @@ export const Omnichannel = ({ navproductredux }) => {
           Solutions{" "}
           <img
             className={prodnav.omnichanneldownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -173,7 +173,7 @@ export const Omnichannel = ({ navproductredux }) => {
           Resources{" "}
           <img
             className={prodnav.omnichanneldownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>

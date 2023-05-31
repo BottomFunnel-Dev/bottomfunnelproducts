@@ -31,7 +31,7 @@ export default function NgoBenefits () {
             <div className={styles.ngoBenefitsImageDiv}>
                 <div className={styles.ngoBenefitsImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group7.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group7.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -45,7 +45,7 @@ export default function NgoBenefits () {
             <div className={styles.ngoBenefitsImageDiv}>
                 <div className={styles.ngoBenefitsImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group8.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group8.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -93,7 +93,7 @@ export default function NgoBenefits () {
             <div className={styles.ngoBenefitsImageDiv}>
                 <div className={styles.ngoBenefitsImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group9.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group9.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -107,7 +107,7 @@ export default function NgoBenefits () {
             <div className={styles.ngoBenefitsImageDiv}>
                 <div className={styles.ngoBenefitsImage}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ngoandnonProfits/Group10.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/ngoandnonProfits/Group10.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

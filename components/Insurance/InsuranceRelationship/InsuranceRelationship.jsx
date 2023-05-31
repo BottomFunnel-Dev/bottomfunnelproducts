@@ -18,7 +18,7 @@ export const InsuranceRelationship = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/Logo1.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/Insurance/Logo1.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -46,7 +46,7 @@ export const InsuranceRelationship = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/Logo2.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/Insurance/Logo2.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -72,7 +72,7 @@ export const InsuranceRelationship = () => {
                     </h4>
                     <div>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Insurance/Logo3.webp"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/Insurance/Logo3.webp"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

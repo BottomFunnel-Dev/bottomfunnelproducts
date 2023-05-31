@@ -1,5 +1,6 @@
 import React from "react";
 import career from "./CareerReason.module.css";
+import { CaerrForm } from "../CarrerForm/CarrerForm";
 
 
 export const CareerReason = () => {
@@ -24,11 +25,47 @@ export const CareerReason = () => {
             employees interact with each other every day.
           </p>
 
-          <button>Read more</button>
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+            Get Started
+          </button>
+
+
+          <div>
+            <div
+              className="modal"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div>
+                    <CaerrForm />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
 
         <div className={career.careerReasonImage}>
-          <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/careerPhotos/reason.png" alt="whyBF.png" />
+          <img src="https://d3op2l77j7wnti.cloudfront.net/Images/careerPhotos/reason.png" alt="whyBF.png" />
         </div>
       </div>
 

@@ -17,7 +17,7 @@ export const SmallBusinessManagement = () => {
                 </div>
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/image1.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -32,7 +32,7 @@ export const SmallBusinessManagement = () => {
 
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image2.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/image2.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -60,7 +60,7 @@ export const SmallBusinessManagement = () => {
                 </div>
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image3.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/image3.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -76,7 +76,7 @@ export const SmallBusinessManagement = () => {
 
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image4.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/image4.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -102,13 +102,13 @@ export const SmallBusinessManagement = () => {
                     </h1>
                     <p>Analyze trends in support tickets, gauge team
                         performance, and monitor customer satisfaction metrics
-                        using Freshdesk s one-click reports</p>
+                        using Bottom funnel desk s one-click reports</p>
                     <p>Leverage live dashboards to get a bird s eye view of
                         conversations in different queues, CSAT scores, and more</p>
                 </div>
                 <div>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Small-Business/image5.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Small-Business/image5.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

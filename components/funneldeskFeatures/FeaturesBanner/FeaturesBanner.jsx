@@ -12,7 +12,7 @@ export const FeaturesBanner = ({ data }) => {
       </div>
       <span>
         <Image
-          src={`https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/${data.image}`}
+          src={`https://d3op2l77j7wnti.cloudfront.net/Images/${data.image}`}
           alt={data.image}
           width={"0"}
           height={"0"}

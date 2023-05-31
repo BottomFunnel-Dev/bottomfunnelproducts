@@ -6,21 +6,21 @@ export const DeveloperResource = () => {
   const data = [
     {
       image:
-        "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group9.png",
+        "https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group9.png",
       hd: " Explore the Documentation",
       p: "Technical documentation to help you understand the technology.",
       
     },
     {
       image:
-        "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group1.png",
+        "https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group1.png",
       hd: " Bottom Funnel Developer Blogs",
       p: "Bottom Funnel's official blog channel to get platform updates for developers.       ",
       
     },
     {
       image:
-        "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group10.png",
+        "https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group10.png",
       hd: "  Explore the Documentation",
       p: " Benefit from our developer support tools with Bottom Funnel developer’s support tools.      ",
      
@@ -66,7 +66,7 @@ export const DeveloperResource = () => {
     //         <div className={styles.developerResourceBox}>
     //           <div className={styles.developerPortalResourceImage}>
     //             <Image
-    //               src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group9.png"}
+    //               src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group9.png"}
     //               alt={"image"}
     //               width={"0"}
     //               height={"0"}
@@ -90,7 +90,7 @@ export const DeveloperResource = () => {
     //         <div className={styles.developerResourceBox}>
     //           <div className={styles.developerPortalResourceImage}>
     //             <Image
-    //               src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group1.png"}
+    //               src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group1.png"}
     //               alt={"image"}
     //               width={"0"}
     //               height={"0"}
@@ -114,7 +114,7 @@ export const DeveloperResource = () => {
     //         <div className={styles.developerResourceBox}>
     //           <div className={styles.developerPortalResourceImage}>
     //             <Image
-    //               src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/developerPortal/Group10.png"}
+    //               src={"https://d3op2l77j7wnti.cloudfront.net/Images/developerPortal/Group10.png"}
     //               alt={"image"}
     //               width={"0"}
     //               height={"0"}

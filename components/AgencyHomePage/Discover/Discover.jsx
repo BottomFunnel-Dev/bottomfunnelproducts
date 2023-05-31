@@ -14,7 +14,7 @@ export const Discover = () => {
     </div>
     <div className={style.Discoverimage}>
     <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/Activities 01.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/Activities 01.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -22,7 +22,7 @@ export const Discover = () => {
   style={{ width: "100%", height: "100%" }}
 
   />
-        {/* <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Agencyhomepagephotos/Activities 01.webp" alt="image" /> */}
+        {/* <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Agencyhomepagephotos/Activities 01.webp" alt="image" /> */}
     </div>
     </div>
   )

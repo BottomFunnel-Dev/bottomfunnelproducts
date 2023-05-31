@@ -10,7 +10,7 @@ export const Messaginchannelbanner = () => {
     <div className={styles.messagingchannelbannerleft}>
     
     <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Messaging channels/components/Group 1000006011.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Messaging channels/components/Group 1000006011.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}
@@ -21,8 +21,8 @@ export const Messaginchannelbanner = () => {
     </div>
 
     <div className={styles.messagingchannelbannerright}>
-    <h2>Develop a rapport with <span>Customers</span> through multiple channels of messaging.</h2>
-    <p>Communicate in a manner that suits various platforms, and always charm your customers with every interaction.</p>
+    <h2>Seamless <span>Multi-Channel Engagement:</span>Connect with Our AI Chatbot Anywhere, Anytime!</h2>
+    <p>"Experience the flexibility and convenience of our AI chatbot across various channels including website, mobile app, social media, and more. Get instant assistance and support wherever you are!</p>
     {/* <button className={styles.messaginchannelbannerbuton}>Explore Now</button> */}
 
     { <button className={styles.messaginchannelbannerbuton}

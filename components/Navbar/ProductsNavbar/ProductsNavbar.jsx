@@ -6,6 +6,9 @@ import { ProductResources } from "./ProductResources";
 import { ProductFeature } from "./ProductFeature";
 import { ProductDesk } from "./ProductDesk";
 import { useRouter } from "next/router";
+import { IconContext } from "react-icons";
+import { AiOutlineMenu } from "react-icons/ai";
+import DropdownRespDesk from "../responsiveDropdownDesk/DropdownRespDesk";
 
 export const ProductsNavbar = ({ navproductredux }) => {
   const [ProductSolution, setProductSolution] = useState(false);
@@ -15,6 +18,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
   const [productnavbar, setproductNabvar] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const [mobres, setMobres] = useState(false);
   const router = useRouter();
   // const navproductredux = useSelector((state) => state.navbar);
 
@@ -103,6 +107,11 @@ export const ProductsNavbar = ({ navproductredux }) => {
     window.addEventListener("scroll", navBackground);
   });
 
+  const handleMob = () => {
+    mobres ? setMobres(false) : setMobres(true);
+    console.log("working tree", mobres);
+  };
+
   return (
     <div
       className={prodnav.productsnavbar}
@@ -113,9 +122,19 @@ export const ProductsNavbar = ({ navproductredux }) => {
       }}
     >
       <div className={prodnav.deskLogo}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/funnel-desk/support-desk.png" />
+        <img src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/funnel-desk/support-desk.png" />
         <h5>Bottom Funnel Desk</h5>
       </div>
+
+      <div id={prodnav.bar}>
+            <label htmlFor="checkbox">
+              <IconContext.Provider value={{ className: prodnav.bars }}>
+                <AiOutlineMenu onClick={handleMob} />
+              </IconContext.Provider>
+            </label>
+      </div>
+
+      {!mobres && (
       <div className={prodnav.deskList}>
         <li
           onMouseEnter={solDeskIn}
@@ -125,7 +144,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Desk Products
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -138,7 +157,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Features{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -160,7 +179,7 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Solutions{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -173,14 +192,31 @@ export const ProductsNavbar = ({ navproductredux }) => {
           Resources{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Logos/downarrow.png"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
         <li>Sign In</li>
         <button>Free Trial</button>
       </div>
+          )
+        }
 
+{
+            mobres && (
+              <DropdownRespDesk
+                solHoverIn={solHoverIn}
+                solHoverOut={solHoverOut}
+                solResIn={solResIn}
+                solResOut={solResOut}
+                solFeaIn={solFeaIn}
+                solFeaOut={solFeaOut}
+                solDeskIn={solDeskIn}
+                solDeskOut={solDeskOut}
+                scroll={scroll}
+              />
+            )
+          }
       {/* service drop down section code start */}
 
       {/* ProductSolutions drop down section code start */}

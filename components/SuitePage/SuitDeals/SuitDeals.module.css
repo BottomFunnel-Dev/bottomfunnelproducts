@@ -1,79 +1,105 @@
-.SuitDealsMain{
+.SuitDealsMain {
+  width: 100%;
+  height: fit-content;
+}
+
+.SuitDealsdiv {
+  width: 100%;
+  background-color: #f5f5f5;
+  color: black;
+  padding: 5%;
+  padding-top: -4%;
+}
+
+.SuitDealsbox {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  margin-left: 2.5%;
+  padding: 10px;
+}
+
+.SuitDealsbox:nth-child(2) {
+  margin-top: 8%;
+}
+
+.SuitDealsimg {
+  width: 40%;
+  margin-top: 3%;
+  height: 400px;
+}
+
+.SuitDealstext {
+  width: 50%;
+  margin-top: 3%;
+}
+
+.SuitDealstext > h5 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.SuitDealstext > p {
+  font-size: 20px;
+}
+
+.list {
+  font-size: 19px;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .SuitDealsMain {
     width: 100%;
     height: fit-content;
-    
-}
-.SuitDealsdiv{
+  }
+
+  .SuitDealsdiv {
     width: 100%;
     background-color: #f5f5f5;
     color: black;
     padding: 5%;
     padding-top: -4%;
+  }
 
-}
-.SuitDealsbox{
+  .SuitDealsbox {
     width: 95%;
     display: flex;
-    flex-direction: row;
-    gap: 10%;
-    margin: auto;
-  margin-left: 0;
+    flex-direction: column;
+    gap: 0%;
+    margin-left: 2.5%;
     padding: 10px;
-    width: 95%;
-  
-}
-.SuitDealsbox:nth-child(2){
-    margin-top: 8%;
-}
-.SuitDealsimg{
-width: 45%;
-margin-top: 3%;
-height: auto;
-/* border: 1px solid; */
-}
+  }
 
-.SuitDealstext{
-    width: 50%;
-    margin: auto;
-    /* border: 1px solid; */
-    height: max-content;
-}
-.SuitDealstext>h5{
-font-weight: 700;
-font-size: 25px;
-padding-bottom: 10px;
-}
-.SuitDealstext>p{
+  .SuitDealsbox:nth-child(2) {
+    margin-top: 8%;
+  }
+
+  .SuitDealsimg {
+    width: 100%;
+    margin-top: 3%;
+    height: 400px;
+  }
+
+  .SuitDealstext {
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .SuitDealstext > h5 {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .SuitDealstext > p {
     font-size: 20px;
-}
-.list{
+  }
+
+  .list {
     font-size: 19px;
-}
-@media(max-width:480px){
-    .SuitDealsbox{
-        flex-direction: column;
-        width: 100%;
-    }
-   
-    .SuitDealsdiv{
-      padding-top: 0;
-    }
-    .SuitDealsimg{
-        width: 100%;
-        height: auto;
-        margin:auto;
-        margin-bottom: 4%;
-        
-        /* border: 1px solid red; */
-        }
-        
-        .SuitDealstext{
-            width: 100%;
-            /* text-align: center; */
-            /* border: 1px solid red; */
-        }
-        .SuitDealstext>p ,.SuitDealstext>h5 {
-            text-align: center;
-        }
-    
+  }
 }

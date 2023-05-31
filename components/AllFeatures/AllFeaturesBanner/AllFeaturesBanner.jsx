@@ -7,7 +7,7 @@ export const AllFeaturesBanner = () => {
     <div className={styles.allFeaturesBannerMaindiv}>
       <div className={styles.allFeaturesBannerImage}>
         <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/banner.webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/banner.webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
@@ -17,9 +17,7 @@ export const AllFeaturesBanner = () => {
       </div>
       <div className={styles.allFeaturesBannerText}>
         <h1>
-            Grow Your e-commerce store<br/>
-            with personlized engagement<br/>
-            and powerful automation
+        Supercharge Your E-Commerce Growth with Personalized Engagement and Powerful Automation
         </h1>
         <button>Start A Free Demo</button>
       </div>

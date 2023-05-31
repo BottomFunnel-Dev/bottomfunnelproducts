@@ -9,7 +9,7 @@ export const Communication = () => {
         <h3>Engage in contextual communication with your customers. Earn more loyalty. Improve overall customer experience. Choose Bottom-Funnel CRM.</h3>
         <div className= {style.Communicationmaindivimage}>
         <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/financesalesimage/banner (2).webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/financesalesimage/banner (2).webp"}
   alt={"image"}
   width={"0"}
   height={"0"}

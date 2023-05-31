@@ -15,7 +15,7 @@ export const SimplifiedTicketting = () => {
         </div>
         <div className={styles.simplifiedTickettingImage}>
           <img
-            src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ticketingPhotos/Tickets-4.webp"
+            src="https://d3op2l77j7wnti.cloudfront.net/Images/ticketingPhotos/Tickets-4.webp"
             alt="simplifiedTicketting"
           />
         </div>

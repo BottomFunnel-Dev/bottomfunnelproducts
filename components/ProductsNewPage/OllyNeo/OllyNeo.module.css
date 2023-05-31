@@ -87,11 +87,11 @@
 }
 
 @media (max-width: 480px) {
-  .ollyNeoMainDiv{
-    height: 75vh;
+  .ollyNeoMainDiv {
+    height: 60vh;
   }
   .ollyNeoImage1 {
-    height: 200px;
+    height: 240px;
     /* border: 2px solid green; */
   }
   .ollyNeoContent1 {
@@ -107,6 +107,25 @@
 
   .ollyNeoContent1 > p {
     font-size: 10px;
+  }
+
+  .ollyNeoContentButton {
+    /* top: 50%; */
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #ef4c23;
+    outline: none !important;
+    border: none;
+  }
+
+  .ollyNeoContentButton:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ef4c23;
+    color: #ef4c23;
   }
 
   .ollyNeoContent2 {
@@ -127,11 +146,11 @@
     /* width: 70%;   */
   }
   .ollyNeoImage2 {
-    /* border: 2px solid blue; */
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     position: relative;
+    
   }
 }

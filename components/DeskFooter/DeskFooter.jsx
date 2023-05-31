@@ -15,7 +15,7 @@ export const DeskFooter = () => {
         <div className={styles.desksFooterParentDiv}>
             <div className={styles.desksFooterTopImagesMainDiv}>
                 <div className={styles.deskFooterLogoDiv}>
-                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
+                    <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
                 </div>
 
 
@@ -324,8 +324,8 @@ export const DeskFooter = () => {
                     <div className={styles.deskFooterBottomDivImagesDiv}>
                         <p> Download the apps now</p>
                         <div>
-                            <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/PlayStore.png' alt='image' />
-                            <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/AppStore.png' alt='image' />
+                            <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/PlayStore.png' alt='image' />
+                            <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/AppStore.png' alt='image' />
                         </div>
                     </div>
                 </div>
@@ -339,7 +339,7 @@ export const DeskFooter = () => {
 
                     <div className={styles.deskFooterBottomDivPaymentImage}>
                         <p> We accept: </p>
-                        <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/PaymentGroup.png' alt='image' />
+                        <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/PaymentGroup.png' alt='image' />
                     </div>
                 </div>
             </div>

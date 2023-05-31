@@ -16,16 +16,16 @@ export const NeoMainpageFeature=()=>{
             img:"/Images/NeoMainpage/screen2.png",
             hd:"Extend effortlessly",
             par:"With Neo, you can extend applications as needed even as your processes get more demanding.",
-            l1:"Extend your Freshworks experience with 1200+ marketplace apps",
+            l1:"Extend your Bottom Funnel experience with 1200+ marketplace apps",
             l2:"Employ the developer portal and community to build upon solutions of choice easily",
             l3:"Harness native integrations to seamlessly connect across applications"
         },
         {
             img:"/Images/NeoMainpage/screen3.png",
             hd:"Work Seamlessly",
-            par:"Freshworks products are built ground up on the common foundation of the Neo platform, giving you a secure and unified Freshworks experience",
+            par:"Bottom Funnel products are built ground up on the common foundation of the Neo platform, giving you a secure and unified Bottom Funnel experience",
             l1:"Get a 360-degree user view with a unified data platform",
-            l2:"Make smart business decisions with actionable insights from Freshworks Analytics",
+            l2:"Make smart business decisions with actionable insights from Bottom Funnel Analytics",
             l3:"Manage easily with a common admin, signup, and billing platform"  
         },
     ]

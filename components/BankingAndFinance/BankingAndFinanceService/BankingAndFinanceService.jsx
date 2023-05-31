@@ -11,7 +11,7 @@ export default function BankingAndFinanceService () {
                 <h4>Unrivaled time to value</h4>
                 <div className={styles.bankingFinanceServiceImages}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/vector1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/vector1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -26,7 +26,7 @@ export default function BankingAndFinanceService () {
                 <h4>Enterprise-grade</h4>
                 <div className={styles.bankingFinanceServiceImages}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/Image1.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/Image1.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -41,7 +41,7 @@ export default function BankingAndFinanceService () {
                 <h4>You can count on us</h4>
                 <div className={styles.bankingFinanceServiceImages}>
                     <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bankingandfinance/Image2.png"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/bankingandfinance/Image2.png"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

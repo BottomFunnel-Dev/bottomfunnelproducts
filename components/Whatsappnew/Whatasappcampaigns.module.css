@@ -1,6 +1,7 @@
 .whatsappcampaignsmainboxes{
     height: fit-content;
-
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .whatsappcampaignsmainboxes>h2{
@@ -35,9 +36,6 @@ border-radius: 10px;
     background-color: #ef4c23;
     color: white;
 }
-
-
-
 .shadowboxes>h4{
     font-weight: 700;
     font-size: 14px;
@@ -46,7 +44,27 @@ border-radius: 10px;
 }
 
 .shadowimagedownbox{
-    width: 50%;
+    width: 60%;
     margin: auto;
+    margin-top: 2%;
+}
 
+@media (max-width:480px) {
+    .whatsappcampaignsmainboxes{
+        margin-top: 12%;
+    }
+    .whatsappcampaigndatabox{
+        flex-direction: column;
+        width: 100%;
+    }
+    .shadowboxes{
+        width: 80%;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .shadowimagedownbox{
+        width: 90%;
+        margin-top: 5%;
+    }
+    
 }

@@ -10,7 +10,7 @@ export const DropDown3 = ({ handleHover, scroll, data, more }) => {
       onMouseEnter={() => handleHover("dropDown3")}
       onMouseLeave={() => handleHover("")}
       className={solnav.productSolutionsMainDiv}
-      style={{ top: scroll ? "55px" : "120px" }}
+      style={{ top: scroll ? "65px" : "130px" }}
     >
       <div
         className={solnav.productSolutionsListItems}

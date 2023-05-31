@@ -9,20 +9,20 @@ const serviceexperiencedata = [
     {
         htxt:"Customer engagement",
         stxt:"Engage with customers via their preferred channels, set up appointments and build better customer relationships with an omnichannel brand pressence.",
-        icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 4.webp",
+        icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Feild Service Management/Icons/Rectangle 4.webp",
     },
 
     {
         htxt:"Save time and resources",
         stxt:"Expand your service coverage area, improve field team response time and provide the tools your team needs to resolve queries efficiently.",
-        icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 4-2.webp",
+        icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Feild Service Management/Icons/Rectangle 4-2.webp",
     },
 
 
     {
         htxt:"Empower your field teams",
         stxt:"Expand your service coverage area, improve field team responsetime and provide the tools your team needs to resolve queries efficiently.",
-        icon:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Feild Service Management/Icons/Rectangle 4-1.webp",
+        icon:"https://d3op2l77j7wnti.cloudfront.net/Images/Feild Service Management/Icons/Rectangle 4-1.webp",
     },
 
 ]

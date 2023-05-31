@@ -17,7 +17,7 @@ export const GuideToShopFyCoversation = () => {
                         <div>
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon19.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon19.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -37,7 +37,7 @@ export const GuideToShopFyCoversation = () => {
 
                           
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon20.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon20.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

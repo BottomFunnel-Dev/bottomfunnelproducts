@@ -42,7 +42,7 @@ export const OnlinePaymentAdminPannel = () => {
 
             <div className={styles.onlinepaymentadminpannelrightbox}>
                 <div className={styles.onlinepaymentadminpannelrightboxchangerimages}>
-                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/onlinepaymentpage/payment integration.png' alt='admin' />
+                    <img src='https://d3op2l77j7wnti.cloudfront.net/Images/onlinepaymentpage/payment integration.png' alt='admin' />
                 </div>
             </div>
         </div>

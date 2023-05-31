@@ -12,7 +12,7 @@ export const TravelSystem = () => {
             
             <div className={styles.TravelSystemmaindivimage}>
             <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Travelagencysales/ststem.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/Travelagencysales/ststem.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

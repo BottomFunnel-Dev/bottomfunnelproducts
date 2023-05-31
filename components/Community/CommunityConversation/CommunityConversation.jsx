@@ -25,7 +25,7 @@ export default function CommunityConversation() {
       image: "/Images/community/Group 1000006971.png",
       text1: "Robert",
       text2: "Apprentice",
-      text3: "Integrating ChatGPT to FreshDesk",
+      text3: "Integrating ChatGPT to Bottom funnel desk",
       time: "6 hours ago",
       p: "When I close the ticket, give me the option of creating a new solution article using what I put in the resolution/solution field as a starting point. We’re currently in the process of building our Solutions Knowledge Base. AI is learning from us so it doesn’t currently give our end users suggestions when they submit a ticket or our agents suggestions when they look at a ticket. it would be nice if after I close a ticket that I get asked if I would like to create a new solution article from what I put in the solution/resolution field",
     },

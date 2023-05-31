@@ -7,7 +7,7 @@ export const BottomFunnelOmnichannelBanner = () => {
      <div className={styles.BottomFunnelOmnichannelBannerinnerdiv}>
      <div className={styles.BottomFunnelOmnichannelBannerimage}>
         <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/banner.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Bottomfunnelomnichannelphotos/banner.webp"}
           alt={""}
           width={"0"}
           height={"0"}

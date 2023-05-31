@@ -47,7 +47,7 @@ export const ClientBanner = () => {
 
       <div className={clients.ourClientBannerImage}>
         <img
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ourclientPhotos/banner.png"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/ourclientPhotos/banner.png"
           alt="Our Client page banner"
         />
       </div>

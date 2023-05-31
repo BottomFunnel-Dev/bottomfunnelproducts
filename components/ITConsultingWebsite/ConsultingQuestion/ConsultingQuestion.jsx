@@ -5,7 +5,7 @@ export const ConsultingQuestion = () => {
     return (
         <div className={styles.consultingQuestionParentDiv}>
             <div className={styles.consultingQuestionBackImage}>
-                <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ItConsulting/RedOrange Background.png' alt='image' />
+                <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ItConsulting/RedOrange Background.png' alt='image' />
             </div>
             <div className={styles.consultingQuestionContentMainDiv}>
                 <div className={styles.consultingQuestionContentTextDiv}>

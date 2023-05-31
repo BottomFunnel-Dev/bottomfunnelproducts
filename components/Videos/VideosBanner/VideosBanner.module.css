@@ -1,34 +1,35 @@
-.videoBannerMainDiv{
-    /* border: 2px solid red; */
-    width: 100%;
-    /* height: 80vh; */
+.videoBannerMainDiv {
+  /* border: 2px solid red; */
+  width: 100%;
+  /* height: 80vh; */
 }
-.videoBannerImage{
-    /* border: 2px solid red; */
-    position: relative;
+.videoBannerImage {
+  /* border: 2px solid red; */
+  position: relative;
 }
-.videoBannerText{
-    /* border: 2px solid red; */
-    position: absolute;
-    width: 50%;
-    top: 30%;
-    right: 3%;
+.videoBannerText {
+  /* border: 2px solid red; */
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  right: 3%;
 }
-.videoBannerText>h2{
-    font-size: 60px;
-    color: #393939;
+.videoBannerText > h2 {
+  font-size: 60px;
+  color: #393939;
 }
 
-@media(max-width:480px){
-    .videoBannerMainDiv{
-        /* border: 2px solid darkblue; */
-        height: 170px;
-    }
-    .videoBannerText>h2{
-        font-size: 15px;
-        color: #393939;
-    }
-    .videoBannerImage{
-        height: 170px;
-    }
+@media (max-width: 480px) {
+  .videoBannerMainDiv {
+    /* border: 2px solid darkblue; */
+    height: fit-content;
+    margin-top: 5%;
+  }
+  .videoBannerText > h2 {
+    font-size: 15px;
+    color: #393939;
+  }
+  .videoBannerImage {
+    height: 200px;
+  }
 }

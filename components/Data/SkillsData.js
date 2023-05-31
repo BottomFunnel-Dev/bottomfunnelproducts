@@ -5,15 +5,15 @@ export const nodejsData = {
     "When it comes to node.js web development, there is no-one better than Bottom Funnel node.js developers, who develop robust applications and websites that will meet your exact needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Node.js Development Services",
     description: `Brand your new app with BottomFunnel's NodeJS development services and clients will be flocking in like moths to a flame! Our team has years of experience working with the platform, so we'll be able to help you quickly build out your application while maintaining a high level of quality throughout the process.`,
   },
   isDes: true,
   desData: {
     title: "Node js",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/js-logo-new.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/js-logo-new.webp",
     description: `Node.js (Node) is a server-side JavaScript framework that's gaining popularity among developers for its scalability and ease of use, especially for real-time applications. Like any other tool, it has its pros and cons, but when it comes to building scalable and high-performance web applications, the advantages of Node are simply too big to ignore.`,
   },
   isWhyApp: true,
@@ -22,7 +22,7 @@ export const nodejsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/fast-run.webp",
           alt: "nodejsphotos/fast-run.webp",
         },
         title: "The fast suit",
@@ -30,7 +30,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/clock.webp",
           alt: "nodejsphotos/clock.webp",
         },
         title: "Real time web application",
@@ -38,7 +38,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/extreme-data.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/extreme-data.webp",
           alt: "nodejsphotos/extreme-data.webp",
         },
         title: "Extreme data streaming agilty",
@@ -46,7 +46,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/data.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/data.webp",
           alt: "nodejsphotos/data.webp",
         },
         title: "Single code based",
@@ -54,7 +54,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/dynamic.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/dynamic.webp",
           alt: "nodejsphotos/dynamic.webp",
         },
         title: "Rich ecosystem",
@@ -62,7 +62,7 @@ export const nodejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/community.webp",
           alt: "nodejsphotos/community.webp",
         },
         title: "Community driven",
@@ -73,7 +73,7 @@ export const nodejsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For Node.js",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/nodejs-big-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/nodejs-big-logo.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -87,7 +87,7 @@ export const nodejsData = {
   BookCallData: {
     title: "Need node.js developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -96,42 +96,42 @@ export const nodejsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/bar-chart.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/bar-chart.webp",
           alt: "nodejsphotos/bar-chart.webp",
         },
         title: "Business application development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/nodejs.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/nodejs.webp",
           alt: "nodejsphotos/nodejs.webp",
         },
         title: "Advance Node.js Programming",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/crm.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/crm.webp",
           alt: "nodejsphotos/crm.webp",
         },
         title: "CRM or Backend System for Data Management",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mean-2.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mean-2.webp",
           alt: "nodejsphotos/mean-2.webp",
         },
         title: "MEAN stack development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/collab.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/collab.webp",
           alt: "nodejsphotos/collab.webp",
         },
         title: "Custom Collaborative Tools",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/iot-3.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/iot-3.webp",
           alt: "nodejsphotos/iot-3.webp",
         },
         title: "Internet of Things(IOT)",
@@ -147,17 +147,17 @@ export const phpData = {
     "Bottom funnel's php web development services are the best way to start your website development journey. Get in touch with the best php developers in the market to develop robust applications and websites that look great. ",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "PHP Development Services",
     description: `It's important that you get your web presence maintained with a reliable team who can provide you with the best possible services.`,
   },
   isDes: true,
   desData: {
     title: "PHP",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/php-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/php-logo.webp",
     description: `PHP is a server-side language that is used to develop websites and graphical user interfaces (GUIs). It is also used to create dynamic content, security measures, and many other things. With PHP you can make your site look great by implementing templates and formatting.
-      You will not only be able to output plain text but you can also create different types of outputs such as HTML, https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images, PDFs or even Flash animations! PHP gives you the freedom to choose how your website should look like.`,
+      You will not only be able to output plain text but you can also create different types of outputs such as HTML, https://d3op2l77j7wnti.cloudfront.net/Images, PDFs or even Flash animations! PHP gives you the freedom to choose how your website should look like.`,
   },
   isWhyApp: true,
   WhyAppData: {
@@ -165,7 +165,7 @@ export const phpData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/open-source.webp",
           alt: "phpskillsphotos/open-source.webp",
         },
         title: "Open Source",
@@ -175,7 +175,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/scalable.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/scalable.webp",
           alt: "phpskillsphotos/scalable.webp",
         },
         title: "Dynamic & Flexible",
@@ -183,7 +183,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/dynamic2.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/dynamic2.webp",
           alt: "phpskillsphotos/dynamic2.webp",
         },
         title: "Scalable & Web documented",
@@ -191,7 +191,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/frameworks.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/frameworks.webp",
           alt: "phpskillsphotos/frameworks.webp",
         },
         title: "Effective Frameworks",
@@ -199,7 +199,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/hosting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/hosting.webp",
           alt: "phpskillsphotos/hosting.webp",
         },
         title: "Better hosting options",
@@ -207,7 +207,7 @@ export const phpData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/support.webp",
           alt: "phpskillsphotos/support.webp",
         },
         title: "Easy Support & Updates",
@@ -218,7 +218,7 @@ export const phpData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For PHP",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/php-big-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/php-big-logo.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -232,7 +232,7 @@ export const phpData = {
   BookCallData: {
     title: "Need our PHP developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -241,42 +241,42 @@ export const phpData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/cms.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/cms.webp",
           alt: "phpskillsphotos/cms.webp",
         },
         title: "CMS Development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/custom.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/custom.webp",
           alt: "phpskillsphotos/custom.webp",
         },
         title: "Custom Applications",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/CLOUD.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/CLOUD.webp",
           alt: "phpskillsphotos/CLOUD.webp",
         },
         title: "Programming Interface Integration",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
           alt: "phpskillsphotos/php-web-portals.webp",
         },
         title: "PHP Web Portals",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/clound-solutions.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/clound-solutions.webp",
           alt: "phpskillsphotos/clound-solutions.webp",
         },
         title: "Cloud Solutions",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/community-driven.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/community-driven.webp",
           alt: "phpskillsphotos/community-driven.webp",
         },
         title: "Community driven",
@@ -292,8 +292,8 @@ export const DotnetData = {
     "Bottom Funnel gets you the best .NET developers in the market who can develop robust applications and websites using the latest technologies like ASP.net and VB.net on an hourly, part-time and full-time contract basis.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: ".NET Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -301,7 +301,7 @@ export const DotnetData = {
   isDes: true,
   desData: {
     title: ".Net",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/dotnetlogo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/dotnetlogo.webp",
     description:
       ".NET is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -311,7 +311,7 @@ export const DotnetData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/simple.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/simple.webp",
           alt: "dotnetphotos/simple.webp",
         },
         title: "B2B and B2C web portal development",
@@ -321,7 +321,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/xml.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/xml.webp",
           alt: "dotnetphotos/xml.webp",
         },
         title: "XML web application development",
@@ -330,7 +330,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/framework.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/framework.webp",
           alt: "dotnetphotos/framework.webp",
         },
         title: "CMS web application development",
@@ -339,7 +339,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/e-commerce.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/e-commerce.webp",
           alt: "dotnetphotos/e-commerce.webp",
         },
         title: "E-commerce web application development",
@@ -348,7 +348,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/shopping-cart.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/shopping-cart.webp",
           alt: "dotnetphotos/shopping-cart.webp",
         },
         title: "Shopping cart web application development",
@@ -357,7 +357,7 @@ export const DotnetData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/custom-website.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/custom-website.webp",
           alt: "dotnetphotos/custom-website.webp",
         },
         title: "MS-SQL customised web development",
@@ -369,7 +369,7 @@ export const DotnetData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For .NET",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/image-2.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/image-2.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -383,7 +383,7 @@ export const DotnetData = {
   BookCallData: {
     title: "Need our .NET developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -393,42 +393,42 @@ export const DotnetData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/agile-software.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/agile-software.webp",
           alt: "dotnetphotos/agile-software.webp",
         },
         title: "Excellent performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/creative.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/creative.webp",
           alt: "dotnetphotos/creative.webp",
         },
         title: "Platform independent",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/trusted.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/trusted.webp",
           alt: "dotnetphotos/trusted.webp",
         },
         title: "Excellent user interface",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/custom-software.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/custom-software.webp",
           alt: "dotnetphotos/custom-software.webp",
         },
         title: "Object oriented",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/techie.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/techie.webp",
           alt: "dotnetphotos/techie.webp",
         },
         title: "Cross platform design",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/security.webp",
           alt: "dotnetphotos/security.webp",
         },
         title: "Easy maintenance",
@@ -444,8 +444,8 @@ export const laravelData = {
     "Bottom Funnel is a globally dominant company having highly experienced Laravel developers. Our Laravel development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Laravel Development Services",
     description:
       "Let our Laravel developers build an expressive and elegant Laravel web application for you.",
@@ -453,7 +453,7 @@ export const laravelData = {
   isDes: true,
   desData: {
     title: "Laravel",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/laravel-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/laravel-logo.webp",
     description: `Laravel is one of the most popular PHP frameworks and Laravel web application development companies are hiring for new software engineers to help out with their rapidly growing team. Why choose us? We'll help you master all the framework's features so you can build powerful, engaging websites quickly. Plus, our Laravel developers are top-notch experts with years of experience building cutting-edge applications using this framework. You'll be in good hands as we work together to create amazing things!`,
   },
   isWhyApp: true,
@@ -462,7 +462,7 @@ export const laravelData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/bundled-features.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/bundled-features.webp",
           alt: "larvelskillsphotos/bundled-features.webp",
         },
         title: "Bundled Features",
@@ -471,7 +471,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
           alt: "larvelskillsphotos/automated-test.webp",
         },
         title: "Automated Testing",
@@ -479,7 +479,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/reuseable-code.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/reuseable-code.webp",
           alt: "larvelskillsphotos/reuseable-code.webp",
         },
         title: "Reusable code",
@@ -487,7 +487,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
           alt: "larvelskillsphotos/agile-dev.webp",
         },
         title: "Agile development",
@@ -495,7 +495,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/ajax.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/ajax.webp",
           alt: "larvelskillsphotos/ajax.webp",
         },
         title: "AJAX-enabled widgets",
@@ -503,7 +503,7 @@ export const laravelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/build-tools.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/build-tools.webp",
           alt: "larvelskillsphotos/build-tools.webp",
         },
         title: "Build in tools",
@@ -514,7 +514,7 @@ export const laravelData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom funnel For Laravel",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -528,7 +528,7 @@ export const laravelData = {
   BookCallData: {
     title: "Need our laravel developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -538,42 +538,42 @@ export const laravelData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/latest-php-support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/latest-php-support.webp",
           alt: "larvelskillsphotos/latest-php-support.webp",
         },
         title: "Latest PHP support",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/new-components.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/new-components.webp",
           alt: "larvelskillsphotos/new-components.webp",
         },
         title: "New UI components",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/database-migrations.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/database-migrations.webp",
           alt: "larvelskillsphotos/database-migrations.webp",
         },
         title: "Database Migrations",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/microframework.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/microframework.webp",
           alt: "larvelskillsphotos/microframework.webp",
         },
         title: "Microframework",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
           alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy to develop",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
           alt: "larvelskillsphotos/automated-test.webp",
         },
         title: "Intact security",
@@ -589,15 +589,15 @@ export const djangoData = {
     "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Django Development Services",
     description: `Want to build a web application quickly, cost-efficiently, and with less code? Our Django web development services can help!`,
   },
   isDes: true,
   desData: {
     title: "Django",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/django-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/django-logo.webp",
     description: `Django is the leading framework for building web apps in Python. It follows a clean architecture, encourages rapid development and provides you with clean and pragmatic design patterns. Bottom Funnel is among the top Django web application development company in Asia, USA, middle-east and Africa which provides the best Django web application development services by experienced and best Django web developers.
       BottomFunnel believes that every app should be built with love. With an eye for detail and a dedication to quality, we work hard to exceed your expectations. From our start to finish process, you can be sure that your project will be delivered on time and with quality!`,
   },
@@ -607,7 +607,7 @@ export const djangoData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/remark-speed.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/remark-speed.webp",
           alt: "djangoPhotos/remark-speed.webp",
         },
         title: "Django application development",
@@ -616,7 +616,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/complete-load.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/complete-load.webp",
           alt: "djangoPhotos/complete-load.webp",
         },
         title: "Django website Development ",
@@ -624,7 +624,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/exception-secure.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/exception-secure.webp",
           alt: "djangoPhotos/exception-secure.webp",
         },
         title: "Django Web Interface Design",
@@ -632,7 +632,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/wealthy-feature.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/wealthy-feature.webp",
           alt: "djangoPhotos/wealthy-feature.webp",
         },
         title: "Django Template Design",
@@ -640,7 +640,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/very-scalable.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/very-scalable.webp",
           alt: "djangoPhotos/very-scalable.webp",
         },
         title: "Django REST framework",
@@ -648,7 +648,7 @@ export const djangoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/very-scalable.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/very-scalable.webp",
           alt: "djangoPhotos/very-scalable.webp",
         },
         title: "Django Support and Maintenance",
@@ -659,7 +659,7 @@ export const djangoData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Django",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -673,7 +673,7 @@ export const djangoData = {
   BookCallData: {
     title: "Need our django developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -682,42 +682,42 @@ export const djangoData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangophotos/backward-compatible.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangophotos/backward-compatible.webp",
           alt: "djangophotos/backward-compatible.webp",
         },
         title: "Backward compatible",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/community-driven.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/community-driven.webp",
           alt: "djangoPhotos/community-driven.webp",
         },
         title: "Community driven",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/rest-framework.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/rest-framework.webp",
           alt: "djangoPhotos/rest-framework.webp",
         },
         title: "REST framework",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/infastructure.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/infastructure.webp",
           alt: "djangoPhotos/infastructure.webp",
         },
         title: "Infrastructure",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/versatile.webp",
           alt: "djangoPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/sercure-update.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/sercure-update.webp",
           alt: "djangoPhotos/sercure-update.webp",
         },
         title: "Secure & up-to-date",
@@ -733,8 +733,8 @@ export const cakePHPData = {
     "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Cakephp Development Services",
     description:
       "Trust us when we say that CakePHP will be your perfect partner as you bring your vision to life!",
@@ -742,7 +742,7 @@ export const cakePHPData = {
   isDes: true,
   desData: {
     title: "CakePHP",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/cakephp-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/cakephp-logo.webp",
     description: `CakePHP framework allows us to create elegant, functional, and stable applications. What makes Cake so special? Let's find out!- Cake PHP offers easy to understand paradigms that help you build your app. Also, it is easy to integrate with other frameworks/libraries. Lastly, its shortcommings are also good for newbies.
 
       If you're still undecided about CakePHP or thinking about switching over from another Framework, then think no more! Onward with cake funnels!`,
@@ -753,7 +753,7 @@ export const cakePHPData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/compatible.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/compatible.webp",
           alt: "cakephpPhotos/compatible.webp",
         },
         title: "Compatible",
@@ -761,7 +761,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/code-reuse.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/code-reuse.webp",
           alt: "cakephpPhotos/code-reuse.webp",
         },
         title: "Code reusability",
@@ -769,7 +769,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/facile-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/facile-database.webp",
           alt: "cakephpPhotos/facile-database.webp",
         },
         title: "Facile database management",
@@ -777,7 +777,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/custom-element.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/custom-element.webp",
           alt: "cakephpPhotos/custom-element.webp",
         },
         title: "Customizable elements",
@@ -785,7 +785,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC pattern",
@@ -793,7 +793,7 @@ export const cakePHPData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
           alt: "cakephpPhotos/easy-debug.webp",
         },
         title: "Easy debugging",
@@ -804,7 +804,7 @@ export const cakePHPData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For CakePHP",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -818,7 +818,7 @@ export const cakePHPData = {
   BookCallData: {
     title: "Need our cakePHP developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -827,42 +827,42 @@ export const cakePHPData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/built-feature.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/built-feature.webp",
           alt: "cakephpPhotos/built-feature.webp",
         },
         title: "In-built features",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/model-view.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/model-view.webp",
           alt: "cakephpPhotos/model-view.webp",
         },
         title: "Model-view-control model",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/enables-test.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/enables-test.webp",
           alt: "cakephpPhotos/enables-test.webp",
         },
         title: "Enables testing now and team",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/content-framework.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/content-framework.webp",
           alt: "cakephpPhotos/content-framework.webp",
         },
         title: "Content-accommodating framework",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/crud-scaffolding.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/crud-scaffolding.webp",
           alt: "cakephpPhotos/crud-scaffolding.webp",
         },
         title: "CRUD scaffolding",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/lang-compat.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/lang-compat.webp",
           alt: "cakephpPhotos/lang-compat.webp",
         },
         title: "Language compatibility",
@@ -878,8 +878,8 @@ export const codeigniterData = {
     "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "CodeIgniter Development Services",
     description:
       "Delivering on your business vision with quality codeigniter web development.",
@@ -887,7 +887,7 @@ export const codeigniterData = {
   isDes: true,
   desData: {
     title: "CodeIgniter",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/CodeIgniter-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/CodeIgniter-logo.webp",
     description:
       "Codelgniter empowers programmers to build robust applications from scratch bypassing all the possible constraints that ultimately leads to functional and dynamic products. Feature-rich apps made in a hassle-free way require high understandability of the framework and expertise in making things work. Thankfully, we at Konstant possess both.",
   },
@@ -897,7 +897,7 @@ export const codeigniterData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/framework-footprint.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/framework-footprint.webp",
           alt: "codeigniterPhotos/framework-footprint.webp",
         },
         title: "Framework with right footprint",
@@ -907,7 +907,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
           alt: "codeigniterPhotos/simply-sol.webp",
         },
         title: "Simplified solutions",
@@ -916,7 +916,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/restriction-coding.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/restriction-coding.webp",
           alt: "codeigniterPhotos/restriction-coding.webp",
         },
         title: "no restrictions on coding",
@@ -925,7 +925,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/custom-element.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/custom-element.webp",
           alt: "cakephpPhotos/custom-element.webp",
         },
         title: "Accepts Third-party Scripts",
@@ -934,7 +934,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC approach",
@@ -943,7 +943,7 @@ export const codeigniterData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
           alt: "cakephpPhotos/easy-debug.webp",
         },
         title: "Documentation",
@@ -955,7 +955,7 @@ export const codeigniterData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For CodeIgniter",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -969,7 +969,7 @@ export const codeigniterData = {
   BookCallData: {
     title: "Need our codeigniter developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -979,42 +979,42 @@ export const codeigniterData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/customWeb.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/customWeb.webp",
           alt: "codeigniterPhotos/customWeb.webp",
         },
         title: "Custom web development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/appDev.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/appDev.webp",
           alt: "codeigniterPhotos/appDev.webp",
         },
         title: "Application development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/api.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/api.webp",
           alt: "codeigniterPhotos/api.webp",
         },
         title: "API & liberary development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/portal-design.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/portal-design.webp",
           alt: "codeigniterPhotos/portal-design.webp",
         },
         title: "Portal design & development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/integration.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/integration.webp",
           alt: "codeigniterPhotos/integration.webp",
         },
         title: "Customization and integration",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
           alt: "codeigniterPhotos/maintenance.webp",
         },
         title: "Maintenance & support",
@@ -1030,8 +1030,8 @@ export const springBootData = {
     "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "SpringBoot Development Services",
     description:
       "Delivering on your business vision with quality springboot java development.",
@@ -1039,7 +1039,7 @@ export const springBootData = {
   isDes: true,
   desData: {
     title: "SpringBoot",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/springboot-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/springboot-logo.webp",
     description: `Planning to build a new project in the spring framework? Or you have an existing application and would like to upgrade it to be more robust and scalable? Then, this is the right time! Spring Boot is gaining popularity day by day. This framework helps developers develop stand-alone, production-grade micro services without requiring an entire Spring configuration setup. In today's world of huge apps, where everyone wants their own department to work independently but still share data seamlessly without any glitches, that's not just a dream anymore but reality now!`,
   },
   isWhyApp: true,
@@ -1048,7 +1048,7 @@ export const springBootData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
           alt: "springbootSkillsPhotos/easy-development.webp",
         },
         title: "Easy Development",
@@ -1057,7 +1057,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
           alt: "springbootSkillsPhotos/war-files.webp",
         },
         title: "No war files develoyment",
@@ -1065,7 +1065,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
           alt: "springbootSkillsPhotos/xml-logo.webp",
         },
         title: "No XML configuration",
@@ -1073,7 +1073,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
           alt: "springbootSkillsPhotos/stand-application.webp",
         },
         title: "Standalone Applications",
@@ -1081,7 +1081,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
           alt: "springbootSkillsPhotos/simple-setup.webp",
         },
         title: "Simple setup and management",
@@ -1089,7 +1089,7 @@ export const springBootData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
           alt: "springbootSkillsPhotos/easy-start.webp",
         },
         title: "Easy to start",
@@ -1100,7 +1100,7 @@ export const springBootData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Springboot",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1114,7 +1114,7 @@ export const springBootData = {
   BookCallData: {
     title: "Need our springboot developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1124,21 +1124,21 @@ export const springBootData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
           alt: "springbootSkillsPhotos/java.webp",
         },
         title: "Java Developer",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
           alt: "springbootSkillsPhotos/software-application.webp",
         },
         title: "Application Developer",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
           alt: "springbootSkillsPhotos/cpu.webp",
         },
         title: "Software Engineer",
@@ -1153,8 +1153,8 @@ export const hiberateData = {
     "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Hibernate Development Services",
     description:
       "Delivering on your business vision with quality hibernate java development.",
@@ -1162,7 +1162,7 @@ export const hiberateData = {
   isDes: true,
   desData: {
     title: "Hibernate",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/hiberate-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/hiberate-logo.webp",
     description: `Hibernate is the perfect tool for developers who want a lightweight, open-source solution to manage their Java data. It implements the specifications of JPA (Java Persistence API) for data persistence, so you can rely on it to take care of your database requirements.
       Start working with Hibernate today and enjoy the benefits of its simple, flexible approach to database interaction.`,
   },
@@ -1172,7 +1172,7 @@ export const hiberateData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
           alt: "hibernateSkillsPhotos/open-source.webp",
         },
         title: "Open source and Lightweight",
@@ -1181,7 +1181,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
           alt: "hibernateSkillsPhotos/fast-performance.webp",
         },
         title: "Fast Performance",
@@ -1189,7 +1189,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
           alt: "hibernateSkillsPhotos/Frame-5.webp",
         },
         title: "Database Independent Query",
@@ -1197,7 +1197,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
           alt: "hibernateSkillsPhotos/automatic-table.webp",
         },
         title: "Automatic Table Creation",
@@ -1205,7 +1205,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
           alt: "hibernateSkillsPhotos/simplifies.webp",
         },
         title: "Simplifies Complex Join",
@@ -1213,7 +1213,7 @@ export const hiberateData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
           alt: "hibernateSkillsPhotos/query-static.webp",
         },
         title: "Provides Query Statistics",
@@ -1224,7 +1224,7 @@ export const hiberateData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Hibernate",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1238,7 +1238,7 @@ export const hiberateData = {
   BookCallData: {
     title: "Need our hibernate developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1248,42 +1248,42 @@ export const hiberateData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
           alt: "vuejsSkillsPhotos/speedometer.webp",
         },
         title: "High performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
           alt: "springbootSkillsPhotos/java.webp",
         },
         title: "Java Developer",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
           alt: "vuejsSkillsPhotos/easy.webp",
         },
         title: "Simplicity",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
           alt: "hibernateSkillsPhotos/database.webp",
         },
         title: "Database Independent",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
           alt: "angularjsSkillsPhotos/complex-handling.webp",
         },
         title: "Easy complex component handling",
@@ -1298,8 +1298,8 @@ export const flaskData = {
     "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Flask Development Services",
     description:
       "Delivering on your business vision with quality python development.",
@@ -1307,7 +1307,7 @@ export const flaskData = {
   isDes: true,
   desData: {
     title: "Flask",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/flask-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/flask-logo.webp",
     description: `Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. 
       However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, and various other features you might need for your project.`,
   },
@@ -1317,7 +1317,7 @@ export const flaskData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/unicode.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/unicode.webp",
           alt: "flaskSkillsPhotos/unicode.webp",
         },
         title: "Improved SEO Performance",
@@ -1326,7 +1326,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/printing.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/printing.webp",
           alt: "flaskSkillsPhotos/printing.webp",
         },
         title: "Integrated support for unit testing",
@@ -1334,7 +1334,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/files.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/files.webp",
           alt: "flaskSkillsPhotos/files.webp",
         },
         title: "Complete documentration",
@@ -1342,7 +1342,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/cookies-guard.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/cookies-guard.webp",
           alt: "flaskSkillsPhotos/cookies-guard.webp",
         },
         title: "Support for secure cookies",
@@ -1351,7 +1351,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/bug-setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/bug-setting.webp",
           alt: "flaskSkillsPhotos/bug-setting.webp",
         },
         title: "Development server and debugger",
@@ -1360,7 +1360,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/fast-run.webp",
           alt: "flaskSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -1372,7 +1372,7 @@ export const flaskData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Flask",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/flaskSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/flaskSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1386,7 +1386,7 @@ export const flaskData = {
   BookCallData: {
     title: "Need our flask developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1396,21 +1396,21 @@ export const flaskData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
           alt: "sqliteSkillsPhotos/setting-loading.webp",
         },
         title: "Highly flexible",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
           alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy to deploy",
@@ -1426,15 +1426,15 @@ export const reactjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "React.js Development services",
     description: `React.js development services that will take your app from concept to production in no time.`,
   },
   isDes: true,
   desData: {
     title: "Reactjs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-logo.webp",
     description: `When it comes to building a user-friendly website, React is the way to go. This library for building encapsulated components manages its own state and then composes them to make complex UIs. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa which provides the best React web application development services by experienced and best React web developers.`,
   },
   isWhyApp: true,
@@ -1443,7 +1443,7 @@ export const reactjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/better-user.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/better-user.webp",
           alt: "reactjsSkillsPhotos/better-user.webp",
         },
         title: "Portal Development",
@@ -1452,7 +1452,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/easy-jsx.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/easy-jsx.webp",
           alt: "reactjsSkillsPhotos/easy-jsx.webp",
         },
         title: "Interactive ReactJS UI Development",
@@ -1462,7 +1462,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/big-timesaver.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/big-timesaver.webp",
           alt: "reactjsSkillsPhotos/big-timesaver.webp",
         },
         title: "React.js migration service",
@@ -1470,7 +1470,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/performance-ecosystem.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/performance-ecosystem.webp",
           alt: "reactjsSkillsPhotos/performance-ecosystem.webp",
         },
         title: "Custom React.Js Development",
@@ -1478,7 +1478,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/great-developer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/great-developer.webp",
           alt: "reactjsSkillsPhotos/great-developer.webp",
         },
         title: "Ajax Development",
@@ -1486,7 +1486,7 @@ export const reactjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/easy-understand.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/easy-understand.webp",
           alt: "reactjsSkillsPhotos/easy-understand.webp",
         },
         title: "E-commerce Development",
@@ -1500,7 +1500,7 @@ export const reactjsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Reactjs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1514,7 +1514,7 @@ export const reactjsData = {
   BookCallData: {
     title: "Need our reactjs developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1525,42 +1525,42 @@ export const reactjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/portal-devleopment.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/portal-devleopment.webp",
           alt: "reactjsSkillsPhotos/portal-devleopment.webp",
         },
         title: "Portal Development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-ui-devleopment.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-ui-devleopment.webp",
           alt: "reactjsSkillsPhotos/reactjs-ui-devleopment.webp",
         },
         title: "Ineractive ReactJS UI Development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-migration.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-migration.webp",
           alt: "reactjsSkillsPhotos/reactjs-migration.webp",
         },
         title: "Enables testing now and team",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/custom-reactjs.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/custom-reactjs.webp",
           alt: "reactjsSkillsPhotos/custom-reactjs.webp",
         },
         title: "Custom ReactJs Development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/ajax-development.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/ajax-development.webp",
           alt: "reactjsSkillsPhotos/ajax-development.webp",
         },
         title: "Ajax Development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/internet-commerce.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/internet-commerce.webp",
           alt: "reactjsSkillsPhotos/internet-commerce.webp",
         },
         title: "Internet/E-commerce Development",
@@ -1576,15 +1576,15 @@ export const angularjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Angularjs Development Services",
     description: `Speed up your web application development with our top-notch angular.js development services.`,
   },
   isDes: true,
   desData: {
     title: "Angularjs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/angularjs-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/angularjs-logo.webp",
     description: `When it comes to building the framework most suited to your application development needs, AngularJS is hard to beat. Bottom Funnel is one of the leading providers of Angular.js web app development services in Asia, USA, Middle East and Africa -- and we have a reputation for delivering world-class quality in every project we undertake.
     We take pride in our work and consider ourselves stewards of a powerful new technology that will continue to transform the way people interact with the internet. We believe in providing cutting-edge solutions that are tailored to meet our clients' needs, while also adhering to industry best practices and security standards.`,
   },
@@ -1594,7 +1594,7 @@ export const angularjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/two-way-bind.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/two-way-bind.webp",
           alt: "angularjsSkillsPhotos/two-way-bind.webp",
         },
         title: "Custom AngularJS Development",
@@ -1603,7 +1603,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
           alt: "angularjsSkillsPhotos/trouble-free.webp",
         },
         title: "Portal development",
@@ -1611,7 +1611,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/complete-client-solution.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/complete-client-solution.webp",
           alt: "angularjsSkillsPhotos/complete-client-solution.webp",
         },
         title: `Single page application development`,
@@ -1619,7 +1619,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
           alt: "angularjsSkillsPhotos/captivating-support.webp",
         },
         title: "Angular.js support and maintenance",
@@ -1627,7 +1627,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/features-excited.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/features-excited.webp",
           alt: "angularjsSkillsPhotos/features-excited.webp",
         },
         title: "UI/UX Development",
@@ -1635,7 +1635,7 @@ export const angularjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "Integrating API Services",
@@ -1648,7 +1648,7 @@ export const angularjsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Angularjs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1662,7 +1662,7 @@ export const angularjsData = {
   BookCallData: {
     title: "Need our angularjs developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1673,42 +1673,42 @@ export const angularjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
           alt: "angularjsSkillsPhotos/complex-handling.webp",
         },
         title: "Easy complex component handling",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/time-saving.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/time-saving.webp",
           alt: "angularjsSkillsPhotos/time-saving.webp",
         },
         title: "Time-Saving Process",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
           alt: "angularjsSkillsPhotos/effective-framework.webp",
         },
         title: "Effective Framework",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
           alt: "angularjsSkillsPhotos/reuseable-code.webp",
         },
         title: "Reusable code",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/testing-now-then.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/testing-now-then.webp",
           alt: "angularjsSkillsPhotos/testing-now-then.webp",
         },
         title: "Enables Testing Now and Then",
@@ -1724,15 +1724,15 @@ export const vuejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Vue.js Development Services",
     description: "Trust the experts-hire vue.js developers today.",
   },
   isDes: true,
   desData: {
     title: "Vue.js",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/vuejs-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/vuejs-logo.webp",
     description:
       "Vue.js is an open-source view-model front end javascript frameword for building user interfaces and single-page applications. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on defferent use cases. Bottom Funnel is among the leading React.js web application development company in Asia, USA, middle-east and Africa which provides the best React.js web application development services by experienced and best React.js web developers.",
   },
@@ -1742,7 +1742,7 @@ export const vuejsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/straight-forward.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/straight-forward.webp",
           alt: "vuejsSkillsPhotos/straight-forward.webp",
         },
         title: "Vue.js Custom App Development",
@@ -1752,7 +1752,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/easy-understand.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/easy-understand.webp",
           alt: "vuejsSkillsPhotos/easy-understand.webp",
         },
         title: "Single Page App Development",
@@ -1761,7 +1761,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/two-communication.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/two-communication.webp",
           alt: "vuejsSkillsPhotos/two-communication.webp",
         },
         title: "Third-Party Integration",
@@ -1770,7 +1770,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/adaptablity.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/adaptablity.webp",
           alt: "vuejsSkillsPhotos/adaptablity.webp",
         },
         title: "Migration & Integration Services",
@@ -1779,7 +1779,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/extra-tool.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/extra-tool.webp",
           alt: "vuejsSkillsPhotos/extra-tool.webp",
         },
         title: "Vue.js Component Development",
@@ -1788,7 +1788,7 @@ export const vuejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/small.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/small.webp",
           alt: "vuejsSkillsPhotos/small.webp",
         },
         title: "Vue.js Support & Maintenance",
@@ -1800,7 +1800,7 @@ export const vuejsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Vue.js",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1814,7 +1814,7 @@ export const vuejsData = {
   BookCallData: {
     title: "Need our Vuejs developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1824,42 +1824,42 @@ export const vuejsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
           alt: "vuejsSkillsPhotos/easy.webp",
         },
         title: "Simplicity",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/architecture.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/architecture.webp",
           alt: "vuejsSkillsPhotos/architecture.webp",
         },
         title: "Component-based architecture",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/reusability.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/reusability.webp",
           alt: "vuejsSkillsPhotos/reusability.webp",
         },
         title: "Reusability",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
           alt: "vuejsSkillsPhotos/speedometer.webp",
         },
         title: "High performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/documentation.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/documentation.webp",
           alt: "vuejsSkillsPhotos/documentation.webp",
         },
         title: "Documentation",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
           alt: "vuejsSkillsPhotos/cross-platform.webp",
         },
         title: "Cross-platform",
@@ -1874,8 +1874,8 @@ export const emberjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced emberjs developers. Our emberjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Emberjs Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -1883,7 +1883,7 @@ export const emberjsData = {
   isDes: true,
   desData: {
     title: "EmberJs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/ember-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/ember-logo.webp",
     description:
       "Ember.js is an open-source JavaScript web framework that utilizes a component-service pattern. It allows developers to create scalable single-page web applications by incorporating common idioms, best practices, and patterns from other single-page-app ecosystem patterns into the framework.",
   },
@@ -1893,7 +1893,7 @@ export const emberjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/patent-adds.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/patent-adds.webp",
           alt: "emberjSkillsPhotos/patent-adds.webp",
         },
         title: "Patent add-ons",
@@ -1903,7 +1903,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/ember-cli.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/ember-cli.webp",
           alt: "emberjSkillsPhotos/ember-cli.webp",
         },
         title: "Ember CLI",
@@ -1912,7 +1912,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/convention.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/convention.webp",
           alt: "emberjSkillsPhotos/convention.webp",
         },
         title: "Convention over configuration",
@@ -1921,7 +1921,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/stability-sans.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/stability-sans.webp",
           alt: "emberjSkillsPhotos/stability-sans.webp",
         },
         title: "Stability sans stagnation",
@@ -1930,7 +1930,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/community.webp",
           alt: "emberjSkillsPhotos/community.webp",
         },
         title: "Community",
@@ -1939,7 +1939,7 @@ export const emberjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/ember-oct.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/ember-oct.webp",
           alt: "emberjSkillsPhotos/ember-oct.webp",
         },
         title: "Ember Octane",
@@ -1951,7 +1951,7 @@ export const emberjsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Emberjs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -1965,7 +1965,7 @@ export const emberjsData = {
   BookCallData: {
     title: "Need our emberjs developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -1975,42 +1975,42 @@ export const emberjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/practice.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/practice.webp",
           alt: "emberjSkillsPhotos/practice.webp",
         },
         title: "Built-in Best Practices",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/blockchain.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/blockchain.webp",
           alt: "emberjSkillsPhotos/blockchain.webp",
         },
         title: "Integrates With Large Teams",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/future.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/future.webp",
           alt: "emberjSkillsPhotos/future.webp",
         },
         title: "Future of the Web",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/features.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/features.webp",
           alt: "emberjSkillsPhotos/features.webp",
         },
         title: "Amazing Features",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/computer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/computer.webp",
           alt: "emberjSkillsPhotos/computer.webp",
         },
         title: "Giant Ecosystem",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/stability.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/stability.webp",
           alt: "emberjSkillsPhotos/stability.webp",
         },
         title: "Stability",
@@ -2025,8 +2025,8 @@ export const jqueryData = {
     "Bottom Funnel is a globally dominant company having highly experienced jquery developers. Our jquery development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Jquery Development Services",
     description:
       "Delivering on your business vision with quality jquery development.",
@@ -2034,7 +2034,7 @@ export const jqueryData = {
   isDes: true,
   desData: {
     title: "Jquery",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/jquery-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/jquery-logo.webp",
     description:
       "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of Aug 2022, jQuery is used by 77% of the 10 million most popular websites.",
   },
@@ -2044,7 +2044,7 @@ export const jqueryData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/easy-understand.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/easy-understand.webp",
           alt: "jquerySkillsPhotos/easy-understand.webp",
         },
         title: "Easy to understand",
@@ -2054,7 +2054,7 @@ export const jqueryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/speed-thing.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/speed-thing.webp",
           alt: "jquerySkillsPhotos/speed-thing.webp",
         },
         title: "Speed thing up",
@@ -2063,7 +2063,7 @@ export const jqueryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/lot-plugins.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/lot-plugins.webp",
           alt: "jquerySkillsPhotos/lot-plugins.webp",
         },
         title: "Lots of plugins",
@@ -2072,7 +2072,7 @@ export const jqueryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/community.webp",
           alt: "jquerySkillsPhotos/community.webp",
         },
         title: "Community",
@@ -2081,7 +2081,7 @@ export const jqueryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
           alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "Animation becomes easy",
@@ -2090,7 +2090,7 @@ export const jqueryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/extension.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/extension.webp",
           alt: "jquerySkillsPhotos/extension.webp",
         },
         title: "Extension",
@@ -2102,7 +2102,7 @@ export const jqueryData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Jquery",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2116,7 +2116,7 @@ export const jqueryData = {
   BookCallData: {
     title: "Need our jquery developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -2126,42 +2126,42 @@ export const jqueryData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
           alt: "angularjsSkillsPhotos/effective-framework.webp",
         },
         title: "jQuery is widely used",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
           alt: "codeigniterPhotos/simply-sol.webp",
         },
         title: "Promotes simplicity",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/emberjSkillsPhotos/computer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/emberjSkillsPhotos/computer.webp",
           alt: "emberjSkillsPhotos/computer.webp",
         },
         title: "Cross-browser compatibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsPhotos/easy-develop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsPhotos/easy-develop.webp",
           alt: "larvelskillsPhotos/easy-develop.webp",
         },
         title: "Clean and beautiful syntax",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source library",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
           alt: "springbootSkillsPhotos/software-application.webp",
         },
         title: "Highly extensible",
@@ -2177,8 +2177,8 @@ export const nextjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced nextjs developers. Our nextjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Nextjs Development Services",
     description:
       "Delivering on your business vision with quality nextjs web development.",
@@ -2186,7 +2186,7 @@ export const nextjsData = {
   isDes: true,
   desData: {
     title: "Nextjs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/nextjs-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/nextjs-logo.webp",
     description:
       "Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites. React documentation mentions Next.js among 'Recommended Toolchains' advising it to developers as a solution when 'Building a server-rendered website with Node.js'.",
   },
@@ -2196,7 +2196,7 @@ export const nextjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
           alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "Improved SEO Performance",
@@ -2206,7 +2206,7 @@ export const nextjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/computer-lock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/computer-lock.webp",
           alt: "nextjsSkillsPhotos/computer-lock.webp",
         },
         title: "Security",
@@ -2215,7 +2215,7 @@ export const nextjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/setting-task.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/setting-task.webp",
           alt: "nextjsSkillsPhotos/setting-task.webp",
         },
         title: "Flexible",
@@ -2224,7 +2224,7 @@ export const nextjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/loading.webp",
           alt: "nextjsSkillsPhotos/loading.webp",
         },
         title: "Quick loading",
@@ -2233,7 +2233,7 @@ export const nextjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/support.webp",
           alt: "nextjsSkillsPhotos/support.webp",
         },
         title: "Excellent Support",
@@ -2242,7 +2242,7 @@ export const nextjsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -2254,7 +2254,7 @@ export const nextjsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Nextjs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2268,7 +2268,7 @@ export const nextjsData = {
   BookCallData: {
     title: "Need our nextjs developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -2278,21 +2278,21 @@ export const nextjsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-migration.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-migration.webp",
           alt: "reactjsSkillsPhotos/reactjs-migration.webp",
         },
         title: "Server-Side Rendering",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSKillsPhotos/performance-ecosystem.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSKillsPhotos/performance-ecosystem.webp",
           alt: "reactjsSKillsPhotos/performance-ecosystem.webp",
         },
         title: "Improved SEO",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
           alt: "hibernateSkillsPhotos/fast-performance.webp",
         },
         title: "Better performance",
@@ -2308,8 +2308,8 @@ export const backbonejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced backbonejs developers. Our backbonejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Backbonejs Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -2317,7 +2317,7 @@ export const backbonejsData = {
   isDes: true,
   desData: {
     title: "Backbonejs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/backbone-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/backbone-logo.webp",
     description:
       "Backbone.js is a JavaScript rich-client web app framework based on the model-view-controller design paradigm, intended to connect to an API over a RESTful JSON interface. Backbone is known for being lightweight, as its only hard dependency is on one JavaScript library, Underscore.js, plus jQuery for use of the full library. It is designed for developing single-page web applications, and for keeping various parts of web applications synchronized.",
   },
@@ -2327,7 +2327,7 @@ export const backbonejsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
           alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
@@ -2337,7 +2337,7 @@ export const backbonejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/frames.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/frames.webp",
           alt: "backbonejsSkillsPhotos/frames.webp",
         },
         title: "MV structure and abstract code",
@@ -2346,7 +2346,7 @@ export const backbonejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/database-docs.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/database-docs.webp",
           alt: "backbonejsSkillsPhotos/database-docs.webp",
         },
         title: "Lots of small libraries",
@@ -2355,7 +2355,7 @@ export const backbonejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/chatting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/chatting.webp",
           alt: "backbonejsSkillsPhotos/chatting.webp",
         },
         title: "Event-driven communication",
@@ -2364,7 +2364,7 @@ export const backbonejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/api-cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/api-cloud.webp",
           alt: "backbonejsSkillsPhotos/api-cloud.webp",
         },
         title: "API and documentation",
@@ -2373,7 +2373,7 @@ export const backbonejsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/coding-screen.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/coding-screen.webp",
           alt: "backbonejsSkillsPhotos/coding-screen.webp",
         },
         title: "Conventions for coding style",
@@ -2385,7 +2385,7 @@ export const backbonejsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Backbonejs",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2399,7 +2399,7 @@ export const backbonejsData = {
   BookCallData: {
     title: "Need our backbonejs developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -2409,21 +2409,21 @@ export const backbonejsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
           alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVP Design",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/chatting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/chatting.webp",
           alt: "backbonejsSkillsPhotos/chatting.webp",
         },
         title: "Event-driven",
@@ -2439,8 +2439,8 @@ export const svelteData = {
     "Bottom Funnel is a globally dominant company having highly experienced svelte developers. Our svelte development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Svelte Development Services",
     description:
       "Delivering on your business vision with quality svelte development.",
@@ -2448,7 +2448,7 @@ export const svelteData = {
   isDes: true,
   desData: {
     title: "Svelte",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/svelte-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/svelte-logo.webp",
     description:
       "Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members. Svelte is not a monolithic JavaScript library imported by applications: instead, Svelte compiles HTML templates to specialized code that manipulates the DOM directly, which may reduce the size of transferred files and give better client performance, application code is also processed by the compiler, inserting calls to automatically recompute data and re-render UI elements when the data they depend on is modified.",
   },
@@ -2458,7 +2458,7 @@ export const svelteData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/computer-leaf.webp",
           alt: "svelteSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
@@ -2468,7 +2468,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
           alt: "svelteSkillsPhotos/settings-loading.webp",
         },
         title: "All in one",
@@ -2477,7 +2477,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/fast-run.webp",
           alt: "svelteSkillsPhotos/fast-run.webp",
         },
         title: "Fast",
@@ -2486,7 +2486,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
           alt: "svelteSkillsPhotos/settings-loading.webp",
         },
         title: "Easy to learn",
@@ -2495,7 +2495,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/documents.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/documents.webp",
           alt: "svelteSkillsPhotos/documents.webp",
         },
         title: "stable",
@@ -2504,7 +2504,7 @@ export const svelteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/loading.webp",
           alt: "svelteSkillsPhotos/loading.webp",
         },
         title: "Reusable components",
@@ -2516,7 +2516,7 @@ export const svelteData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Svelte",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2530,7 +2530,7 @@ export const svelteData = {
   BookCallData: {
     title: "Need our svelte developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -2540,42 +2540,42 @@ export const svelteData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
           alt: "vuejsSkillsPhotos/easy.webp",
         },
         title: "Easy to learn",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/collab.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/collab.webp",
           alt: "nodejsphotos/collab.webp",
         },
         title: "No virtual DOM",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
           alt: "vuejsSkillsPhotos/cross-platform.webp",
         },
         title: "Cross-platform",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/setting-task.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/setting-task.webp",
           alt: "nextjsSkillsPhotos/setting-task.webp",
         },
         title: "Client and server-side rendering",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
           alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "SEO support",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast rendering",
@@ -2590,8 +2590,8 @@ export const msSQLData = {
     "Bottom Funnel is a globally dominant company having highly experienced microsoft SQL developers. Our microsoft SQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "MicrosoftSQL Development Services",
     description:
       "Delivering on your business vision with quality backend development.",
@@ -2599,7 +2599,7 @@ export const msSQLData = {
   isDes: true,
   desData: {
     title: "MicrosoftSQL",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/mssql-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/mssql-logo.webp",
     description:
       "Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.",
   },
@@ -2609,7 +2609,7 @@ export const msSQLData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/docs-security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/docs-security.webp",
           alt: "mssqlSKillsPhotos/docs-security.webp",
         },
         title: "Increse data security",
@@ -2619,7 +2619,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/computer-ai.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/computer-ai.webp",
           alt: "mssqlSKillsPhotos/computer-ai.webp",
         },
         title: "Ease of configuration",
@@ -2628,7 +2628,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/database.webp",
           alt: "mssqlSKillsPhotos/database.webp",
         },
         title: "Optimized data storage",
@@ -2637,7 +2637,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/setting-docs-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/setting-docs-loading.webp",
           alt: "mssqlSKillsPhotos/setting-docs-loading.webp",
         },
         title: "Data recovery support",
@@ -2646,7 +2646,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
           alt: "mssqlSKillsPhotos/sql-server.webp",
         },
         title: "Intelligent database",
@@ -2655,7 +2655,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/fast-run.webp",
           alt: "mssqlSKillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -2667,7 +2667,7 @@ export const msSQLData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For MicrosoftSQL",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2681,7 +2681,7 @@ export const msSQLData = {
   BookCallData: {
     title: "Need our microsoftSQL developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -2691,21 +2691,21 @@ export const msSQLData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast query processing",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
           alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "No Coding Skills",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/scalable.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/scalable.webp",
           alt: "phpskillsphotos/scalable.webp",
         },
         title: "Standardized Language",
@@ -2720,8 +2720,8 @@ export const mongodbData = {
     "Bottom Funnel is a globally dominant company having highly experienced mongoDB developers. Our mongoDB development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "MongoDB Development Services",
     description:
       "MongoDB is a powerful database that's a favorite among developers. This flexible schema approach makes it popular with teams using agile methodologies.",
@@ -2729,7 +2729,7 @@ export const mongodbData = {
   isDes: true,
   desData: {
     title: "MongoDB",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/mongodb.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/mongodb.webp",
     description:
       "MongoDB is a database that's used by developers worldwide. It's flexible, scalable and easy to use. With its drivers for programming languages, you can start building your app right away without spending time on installing the database. And with its support in agile methodologies like Agile SDLC, it's even more popular today than before!",
   },
@@ -2739,7 +2739,7 @@ export const mongodbData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/user-cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/user-cloud.webp",
           alt: "mongodbSkillsPhotos/user-cloud.webp",
         },
         title: "Cloud based",
@@ -2749,7 +2749,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
           alt: "mongodbSkillsPhotos/docs-checked.webp",
         },
         title: "Flexible document schemas",
@@ -2758,7 +2758,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/desktop-setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/desktop-setting.webp",
           alt: "mongodbSkillsPhotos/desktop-setting.webp",
         },
         title: "Widely supported and code native access",
@@ -2767,7 +2767,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/mobile-smile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/mobile-smile.webp",
           alt: "mongodbSkillsPhotos/mobile-smile.webp",
         },
         title: "Change-friendly design",
@@ -2776,7 +2776,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/setting-clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/setting-clock.webp",
           alt: "mongodbSkillsPhotos/setting-clock.webp",
         },
         title: "High performance",
@@ -2785,7 +2785,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
           alt: "mongodbSkillsPhotos/analysis.webp",
         },
         title: "Powerful querying and analytics",
@@ -2797,7 +2797,7 @@ export const mongodbData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For MongoDB",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2811,7 +2811,7 @@ export const mongodbData = {
   BookCallData: {
     title: "Need our MongoDB developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -2821,21 +2821,21 @@ export const mongodbData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/hosting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/hosting.webp",
           alt: "phpskillsphotos/hosting.webp",
         },
         title: "Document Oriented Storage",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/frameworks.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/frameworks.webp",
           alt: "phpskillsphotos/frameworks.webp",
         },
         title: "Rich queries",
@@ -2850,8 +2850,8 @@ export const mysqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced mySQL developers. Our mySQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "MySQL Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -2859,7 +2859,7 @@ export const mysqlData = {
   isDes: true,
   desData: {
     title: "MySQL",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/mysql-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/mysql-logo.webp",
     description:
       "MySQL is an open-source relational database management system (RDBMS). Its name is a combination of 'My', the name of co-founder Michael Widenius's daughter My, and 'SQL', the abbreviation for Structured Query Language. A relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data.",
   },
@@ -2869,7 +2869,7 @@ export const mysqlData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/security.webp",
           alt: "mysqlSkillsPhotos/security.webp",
         },
         title: "Data security",
@@ -2879,7 +2879,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
           alt: "mysqlSkillsPhotos/user-database.webp",
         },
         title: "On demand scalibility",
@@ -2888,7 +2888,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/setting-clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/setting-clock.webp",
           alt: "mysqlSkillsPhotos/setting-clock.webp",
         },
         title: "High performance",
@@ -2897,7 +2897,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/databasae-clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/databasae-clock.webp",
           alt: "mysqlSkillsPhotos/databasae-clock.webp",
         },
         title: "Round-the-clock Uptime",
@@ -2906,7 +2906,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/docs-left-right.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/docs-left-right.webp",
           alt: "mysqlSkillsPhotos/docs-left-right.webp",
         },
         title: "Comprehensive transactions support",
@@ -2915,7 +2915,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/setting-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/setting-loading.webp",
           alt: "mysqlSkillsPhotos/setting-loading.webp",
         },
         title: "Complete Workflow Control",
@@ -2927,7 +2927,7 @@ export const mysqlData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For MySQL",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2941,7 +2941,7 @@ export const mysqlData = {
   BookCallData: {
     title: "Need our MySQL developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -2951,21 +2951,21 @@ export const mysqlData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
           alt: "vuejsSkillsPhotos/speedometer.webp",
         },
         title: "High Performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
           alt: "mysqlSkillsPhotos/user-database.webp",
         },
         title: "Scalability of Demand",
@@ -2980,8 +2980,8 @@ export const postgresqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced postgreSQL developers. Our postgreSQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "PostgreSQL Development Services",
     description:
       "Do you have a lot of data and need an easy way to manage it? | PostgreSQL is the perfect choice for you.",
@@ -2989,7 +2989,7 @@ export const postgresqlData = {
   isDes: true,
   desData: {
     title: "PostgreSQL",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/postgresql-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/postgresql-logo.webp",
     description: `Companies worldwide are turning to PostgreSQL as a powerful, open source database system with over 35 years of active development. With a reputation for stability and reliability, PostgreSQL has earned its place as one of the most trusted database systems in the industry.
       PostgreSQL offers an unmatched level of functionality and extensibility, making it an ideal choice for any enterprise looking to modernize their data infrastructure. Plus, thanks to its commitment to community development, you're always getting new features and bug fixes that make your app more efficient and reliable.
       `,
@@ -3000,7 +3000,7 @@ export const postgresqlData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/dumble.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/dumble.webp",
           alt: "postgresqlSkillsPhotos/dumble.webp",
         },
         title: "Data types and Data Integrity",
@@ -3010,7 +3010,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/oops.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/oops.webp",
           alt: "postgresqlSkillsPhotos/oops.webp",
         },
         title: "Performance",
@@ -3019,7 +3019,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/sql-docs.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/sql-docs.webp",
           alt: "postgresqlSkillsPhotos/sql-docs.webp",
         },
         title: "Disaster Recovery & Reliability",
@@ -3028,7 +3028,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/recycle.webp",
           alt: "postgresqlSkillsPhotos/recycle.webp",
         },
         title: "Extensibility",
@@ -3037,7 +3037,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/user-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/user-database.webp",
           alt: "postgresqlSkillsPhotos/user-database.webp",
         },
         title: "Internationalization & Text Search",
@@ -3046,7 +3046,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/light-setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/light-setting.webp",
           alt: "postgresqlSkillsPhotos/light-setting.webp",
         },
         title: "Support of non-relational data",
@@ -3058,7 +3058,7 @@ export const postgresqlData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For PostgreSQL",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/postgresqlSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/postgresqlSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3072,7 +3072,7 @@ export const postgresqlData = {
   BookCallData: {
     title: "Need our PostgreSQL developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -3082,21 +3082,21 @@ export const postgresqlData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangoPhotos/community-driven.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangoPhotos/community-driven.webp",
           alt: "djangoPhotos/community-driven.webp",
         },
         title: "Community-driven",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/security.webp",
           alt: "dotnetphotos/security.webp",
         },
         title: "Security",
@@ -3112,8 +3112,8 @@ export const redisData = {
     "Bottom Funnel is a globally dominant company having highly experienced redis developers. Our redis development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Redis Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3121,7 +3121,7 @@ export const redisData = {
   isDes: true,
   desData: {
     title: "Redis",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/redis-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/redis-logo.webp",
     description:
       "Redis is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3131,7 +3131,7 @@ export const redisData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/setting-up.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/setting-up.webp",
           alt: "redisSkillsPhotos/setting-up.webp",
         },
         title: "Performace",
@@ -3141,7 +3141,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/structure.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/structure.webp",
           alt: "redisSkillsPhotos/structure.webp",
         },
         title: "Flexible data structure",
@@ -3150,7 +3150,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/docs-rotate.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/docs-rotate.webp",
           alt: "redisSkillsPhotos/docs-rotate.webp",
         },
         title: "Replication and persistence",
@@ -3159,7 +3159,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/cloud-clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/cloud-clock.webp",
           alt: "redisSkillsPhotos/cloud-clock.webp",
         },
         title: "High availability and scalability",
@@ -3168,7 +3168,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/docs-left-right.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/docs-left-right.webp",
           alt: "redisSkillsPhotos/docs-left-right.webp",
         },
         title: "Support transactions",
@@ -3177,7 +3177,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
           alt: "redisSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -3189,7 +3189,7 @@ export const redisData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For redis",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3203,7 +3203,7 @@ export const redisData = {
   BookCallData: {
     title: "Need our Redis developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -3213,21 +3213,21 @@ export const redisData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/caching.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/caching.webp",
           alt: "redisSkillsPhotos/caching.webp",
         },
         title: "Caching",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
           alt: "redisSkillsPhotos/fast-run.webp",
         },
         title: "Performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
           alt: "mssqlSKillsPhotos/sql-server.webp",
         },
         title: "Data Structures",
@@ -3242,8 +3242,8 @@ export const wordpressData = {
     "Bottom Funnel is a globally dominant company having highly experienced wordpress developers. Our wordpress development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Wordpress Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3251,7 +3251,7 @@ export const wordpressData = {
   isDes: true,
   desData: {
     title: "Wordpress",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/wordpress-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/wordpress-logo.webp",
     description:
       "Wordpress is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3261,7 +3261,7 @@ export const wordpressData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/analysis.webp",
           alt: "wpSkillsPhotos/analysis.webp",
         },
         title: "Improved SEO performance",
@@ -3271,7 +3271,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/uiux-pen.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/uiux-pen.webp",
           alt: "wpSkillsPhotos/uiux-pen.webp",
         },
         title: "Better user experience",
@@ -3280,7 +3280,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/setting-tasks.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/setting-tasks.webp",
           alt: "wpSkillsPhotos/setting-tasks.webp",
         },
         title: "Flexible",
@@ -3289,7 +3289,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/open-source.webp",
           alt: "wpSkillsPhotos/open-source.webp",
         },
         title: "Open source",
@@ -3298,7 +3298,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/support.webp",
           alt: "wpSkillsPhotos/support.webp",
         },
         title: "Excellent support",
@@ -3307,7 +3307,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/fast-run.webp",
           alt: "wpSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -3319,7 +3319,7 @@ export const wordpressData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For wordpress",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wpSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wpSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3333,7 +3333,7 @@ export const wordpressData = {
   BookCallData: {
     title: "Need our wordpress developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -3343,21 +3343,21 @@ export const wordpressData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/extreme-data.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/extreme-data.webp",
           alt: "nodejsphotos/extreme-data.webp",
         },
         title: "Hosting doesn't have to be a hassle",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/custom-website.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/custom-website.webp",
           alt: "dotnetphotos/custom-website.webp",
         },
         title: "Wide variety of themes",
@@ -3373,8 +3373,8 @@ export const wixData = {
     "Bottom Funnel is a globally dominant company having highly experienced wix developers. Our wix development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Wix Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3382,7 +3382,7 @@ export const wixData = {
   isDes: true,
   desData: {
     title: "Wix",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/wix-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/wix-logo.webp",
     description:
       "Wix is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3392,7 +3392,7 @@ export const wixData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/indicator.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/indicator.webp",
           alt: "wixSkillsPhotos/indicator.webp",
         },
         title: "Intuitive drag and drop interface",
@@ -3402,7 +3402,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/graph.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/graph.webp",
           alt: "wixSkillsPhotos/graph.webp",
         },
         title: "Better user experience",
@@ -3411,7 +3411,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/database.webp",
           alt: "wixSkillsPhotos/database.webp",
         },
         title: "Massive template collection",
@@ -3420,7 +3420,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/fast-run.webp",
           alt: "wixSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -3429,7 +3429,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/support.webp",
           alt: "wixSkillsPhotos/support.webp",
         },
         title: "Excellent support",
@@ -3438,7 +3438,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/setting-tasks.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/setting-tasks.webp",
           alt: "wixSkillsPhotos/setting-tasks.webp",
         },
         title: "Flexible",
@@ -3450,7 +3450,7 @@ export const wixData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For redis",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3464,7 +3464,7 @@ export const wixData = {
   BookCallData: {
     title: "Need our Redis developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -3474,42 +3474,42 @@ export const wixData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/simple.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/simple.webp",
           alt: "dotnetphotos/simple.webp",
         },
         title: "Simplet to use",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
           alt: "springbootSkillsPhotos/easy-development.webp",
         },
         title: "No knowledge of coding required",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mean-2.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mean-2.webp",
           alt: "nodejsphotos/mean-2.webp",
         },
         title: "Wix offers a complete package",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/wixSkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/wixSkillsPhotos/support.webp",
           alt: "wixSkillsPhotos/support.webp",
         },
         title: "Staff of experts to assist you",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
           alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "Personalised SEO approach",
@@ -3524,8 +3524,8 @@ export const joomlaData = {
     "Bottom Funnel is a globally dominant company having highly experienced joomla developers. Our joomla development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Joomla Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3533,7 +3533,7 @@ export const joomlaData = {
   isDes: true,
   desData: {
     title: "Joomla",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/joomla-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/joomla-logo.webp",
     description:
       "Joomla is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3543,7 +3543,7 @@ export const joomlaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/drone-setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/drone-setting.webp",
           alt: "joomlaSkillsPhotos/drone-setting.webp",
         },
         title: "Free to use",
@@ -3553,7 +3553,7 @@ export const joomlaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/ecomeerce-desktop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/ecomeerce-desktop.webp",
           alt: "joomlaSkillsPhotos/ecomeerce-desktop.webp",
         },
         title: "Suitable for e-commerce",
@@ -3562,7 +3562,7 @@ export const joomlaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/php-icon.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/php-icon.webp",
           alt: "joomlaSkillsPhotos/php-icon.webp",
         },
         title: "Support PHP scripting",
@@ -3571,7 +3571,7 @@ export const joomlaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/community.webp",
           alt: "joomlaSkillsPhotos/community.webp",
         },
         title: "Active forum community",
@@ -3580,7 +3580,7 @@ export const joomlaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/cache-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/cache-database.webp",
           alt: "joomlaSkillsPhotos/cache-database.webp",
         },
         title: "Build-in caching",
@@ -3589,7 +3589,7 @@ export const joomlaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/languages.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/languages.webp",
           alt: "joomlaSkillsPhotos/languages.webp",
         },
         title: "Support multiple language",
@@ -3601,7 +3601,7 @@ export const joomlaData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Joomla",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/joomlaSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/joomlaSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3615,7 +3615,7 @@ export const joomlaData = {
   BookCallData: {
     title: "Need our joomla developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -3625,21 +3625,21 @@ export const joomlaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mean-2.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mean-2.webp",
           alt: "nodejsphotos/mean-2.webp",
         },
         title: "Multiple joomla templates",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Safe, fast and easy to use",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/performance-ecosystem.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/performance-ecosystem.webp",
           alt: "reactjsSkillsPhotos/performance-ecosystem.webp",
         },
         title: "Build-in SEO functionality",
@@ -3654,8 +3654,8 @@ export const hubspotData = {
     "Bottom Funnel is a globally dominant company having highly experienced hubspot developers. Our hubspot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Hubspot CMS hub Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3663,7 +3663,7 @@ export const hubspotData = {
   isDes: true,
   desData: {
     title: "Hubspot CMS hub",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/hubspot-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/hubspot-logo.webp",
     description:
       "Hubspot CMS hub is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3673,7 +3673,7 @@ export const hubspotData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/drone-setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/drone-setting.webp",
           alt: "hubSkillsPhotos/drone-setting.webp",
         },
         title: "Combined publishing",
@@ -3683,7 +3683,7 @@ export const hubspotData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/newsletter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/newsletter.webp",
           alt: "hubSkillsPhotos/newsletter.webp",
         },
         title: "Smart content",
@@ -3692,7 +3692,7 @@ export const hubspotData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/settings.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/settings.webp",
           alt: "hubSkillsPhotos/settings.webp",
         },
         title: "Personalization without CMS",
@@ -3701,7 +3701,7 @@ export const hubspotData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/light.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/light.webp",
           alt: "hubSkillsPhotos/light.webp",
         },
         title: "Google AMP support",
@@ -3710,7 +3710,7 @@ export const hubspotData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/security.webp",
           alt: "hubSkillsPhotos/security.webp",
         },
         title: "Security through obscurity",
@@ -3719,7 +3719,7 @@ export const hubspotData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/checked-setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/checked-setting.webp",
           alt: "hubSkillsPhotos/checked-setting.webp",
         },
         title: "Easy to use",
@@ -3731,7 +3731,7 @@ export const hubspotData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Hubspot CMS Hub",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hubSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hubSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3745,7 +3745,7 @@ export const hubspotData = {
   BookCallData: {
     title: "Need our hubspot CMS hub developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -3755,21 +3755,21 @@ export const hubspotData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/simple.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/simple.webp",
           alt: "dotnetphotos/simple.webp",
         },
         title: "Social media integration",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/collab.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/collab.webp",
           alt: "nodejsphotos/collab.webp",
         },
         title: "Website integration",
@@ -3784,8 +3784,8 @@ export const wooecommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced woocommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Woocommerce Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3793,7 +3793,7 @@ export const wooecommerceData = {
   isDes: true,
   desData: {
     title: "Woo commerce",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/woocommerce-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/woocommerce-logo.webp",
     description:
       "Woocommerce is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3803,7 +3803,7 @@ export const wooecommerceData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/dollar-secure.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/dollar-secure.webp",
           alt: "woocommerceSkillsPhotos/dollar-secure.webp",
         },
         title: "Secure payment",
@@ -3813,7 +3813,7 @@ export const wooecommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/folder-setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/folder-setting.webp",
           alt: "woocommerceSkillsPhotos/folder-setting.webp",
         },
         title: "Customization",
@@ -3822,7 +3822,7 @@ export const wooecommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/open-source.webp",
           alt: "woocommerceSkillsPhotos/open-source.webp",
         },
         title: "Open source",
@@ -3831,7 +3831,7 @@ export const wooecommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/analysis.webp",
           alt: "woocommerceSkillsPhotos/analysis.webp",
         },
         title: "Improved SEO performance",
@@ -3840,7 +3840,7 @@ export const wooecommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/support.webp",
           alt: "woocommerceSkillsPhotos/support.webp",
         },
         title: "excellent support",
@@ -3849,7 +3849,7 @@ export const wooecommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/setting-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/setting-loading.webp",
           alt: "woocommerceSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
@@ -3861,7 +3861,7 @@ export const wooecommerceData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Woo Commerce",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/woocommerceSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/woocommerceSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3875,7 +3875,7 @@ export const wooecommerceData = {
   BookCallData: {
     title: "Need our woo commerce developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -3885,21 +3885,21 @@ export const wooecommerceData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
           alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy & Effective Design",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
           alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "No coding skill required",
@@ -3914,8 +3914,8 @@ export const drupalData = {
     "Bottom Funnel is a globally dominant company having highly experienced drupal developers. Our drupal development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Drupal Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3923,7 +3923,7 @@ export const drupalData = {
   isDes: true,
   desData: {
     title: "Drupal",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/drupal-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/drupal-logo.webp",
     description:
       "Drupal is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3933,7 +3933,7 @@ export const drupalData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/router.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/router.webp",
           alt: "drupalSkillsPhotos/router.webp",
         },
         title: "Marketing automation",
@@ -3943,7 +3943,7 @@ export const drupalData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/hide-eye.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/hide-eye.webp",
           alt: "drupalSkillsPhotos/hide-eye.webp",
         },
         title: "Strong Security",
@@ -3952,7 +3952,7 @@ export const drupalData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/database.webp",
           alt: "drupalSkillsPhotos/database.webp",
         },
         title: "Massive template collection",
@@ -3961,7 +3961,7 @@ export const drupalData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/fast-run.webp",
           alt: "drupalSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -3970,7 +3970,7 @@ export const drupalData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/support.webp",
           alt: "drupalSkillsPhotos/support.webp",
         },
         title: "Excellent support",
@@ -3979,7 +3979,7 @@ export const drupalData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/setting-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/setting-loading.webp",
           alt: "drupalSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
@@ -3991,7 +3991,7 @@ export const drupalData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Drupal",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/drupalSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/drupalSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4005,7 +4005,7 @@ export const drupalData = {
   BookCallData: {
     title: "Need our drupal developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4015,21 +4015,21 @@ export const drupalData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source & free to use",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
           alt: "springbootSkillsPhotos/easy-development.webp",
         },
         title: "Advanced Development Methods",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSKillsPhotos/time-saving.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSKillsPhotos/time-saving.webp",
           alt: "angularjsSKillsPhotos/time-saving.webp",
         },
         title: "Mobile-first features",
@@ -4044,8 +4044,8 @@ export const bigcommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced big-commerce developers. Our big-commerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Big commerce Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4053,7 +4053,7 @@ export const bigcommerceData = {
   isDes: true,
   desData: {
     title: "Big commerce",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/bigcommerce-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/bigcommerce-logo.webp",
     description:
       "Big commerce is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4063,7 +4063,7 @@ export const bigcommerceData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/analysis.webp",
           alt: "bigcommerceSkillsPhotos/analysis.webp",
         },
         title: "Improved SEO performance",
@@ -4073,7 +4073,7 @@ export const bigcommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/uiux-layout.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/uiux-layout.webp",
           alt: "bigcommerceSkillsPhotos/uiux-layout.webp",
         },
         title: "Better user experience",
@@ -4082,7 +4082,7 @@ export const bigcommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/thumbs-up.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/thumbs-up.webp",
           alt: "bigcommerceSkillsPhotos/thumbs-up.webp",
         },
         title: "Rating & Reviews",
@@ -4091,7 +4091,7 @@ export const bigcommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/fast-run.webp",
           alt: "bigcommerceSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -4100,7 +4100,7 @@ export const bigcommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/support.webp",
           alt: "bigcommerceSkillsPhotos/support.webp",
         },
         title: "Excellent support",
@@ -4109,7 +4109,7 @@ export const bigcommerceData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/setting-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/setting-loading.webp",
           alt: "bigcommerceSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
@@ -4121,7 +4121,7 @@ export const bigcommerceData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Big Commerce",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4135,7 +4135,7 @@ export const bigcommerceData = {
   BookCallData: {
     title: "Need our big commerce developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4145,42 +4145,42 @@ export const bigcommerceData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/portal-design.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/portal-design.webp",
           alt: "codeigniterPhotos/portal-design.webp",
         },
         title: "Best At Design",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
           alt: "codeigniterPhotos/simply-sol.webp",
         },
         title: "Smart Solutions",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/security.webp",
           alt: "dotnetphotos/security.webp",
         },
         title: "Security At Its Best",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/support.webp",
           alt: "phpskillsphotos/support.webp",
         },
         title: "Great Support",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/reactjsSkillsPhotos/great-developer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/reactjsSkillsPhotos/great-developer.webp",
           alt: "reactjsSkillsPhotos/great-developer.webp",
         },
         title: "Mobile Friendly",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/collab.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/collab.webp",
           alt: "nodejsphotos/collab.webp",
         },
         title: "Easily Manage Returns",
@@ -4195,8 +4195,8 @@ export const ibmData = {
     "Bottom Funnel is a globally dominant company having highly experienced IBM db2 developers. Our IBM db2 development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "IBM db2 Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4204,7 +4204,7 @@ export const ibmData = {
   isDes: true,
   desData: {
     title: "IBM db2",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ibmSkillsPhotos/ibm-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ibmSkillsPhotos/ibm-logo.webp",
     description:
       "IBM db2 is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4214,7 +4214,7 @@ export const ibmData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ibmSkillsPhotos/graph.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ibmSkillsPhotos/graph.webp",
           alt: "ibmSkillsPhotos/graph.webp",
         },
         title: "Industry-leading performance",
@@ -4224,7 +4224,7 @@ export const ibmData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ibmSkillsPhotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ibmSkillsPhotos/security.webp",
           alt: "ibmSkillsPhotos/security.webp",
         },
         title: "Advance protection",
@@ -4233,7 +4233,7 @@ export const ibmData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ibmSkillsPhotos/loading-24.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ibmSkillsPhotos/loading-24.webp",
           alt: "ibmSkillsPhotos/loading-24.webp",
         },
         title: "Continuous availability",
@@ -4242,7 +4242,7 @@ export const ibmData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ibmSkillsPhotos/pip.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ibmSkillsPhotos/pip.webp",
           alt: "ibmSkillsPhotos/pip.webp",
         },
         title: "Scaling",
@@ -4251,7 +4251,7 @@ export const ibmData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ibmSkillsPhotos/frames.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ibmSkillsPhotos/frames.webp",
           alt: "ibmSkillsPhotos/frames.webp",
         },
         title: "Multiple data types",
@@ -4260,7 +4260,7 @@ export const ibmData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ibmSkillsPhotos/user-building.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ibmSkillsPhotos/user-building.webp",
           alt: "ibmSkillsPhotos/user-building.webp",
         },
         title: "Automated administration",
@@ -4272,7 +4272,7 @@ export const ibmData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For IBM db2",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/bigcommerceSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/bigcommerceSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4286,7 +4286,7 @@ export const ibmData = {
   BookCallData: {
     title: "Need our ibm db2 developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4296,21 +4296,21 @@ export const ibmData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
           alt: "mssqlSKillsPhotos/sql-server.webp",
         },
         title: "Powerfull SQL",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
           alt: "vuejsSkillsPhotos/cross-platform.webp",
         },
         title: "Multiple platform support",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
           alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "IBM Support",
@@ -4325,8 +4325,8 @@ export const elasticData = {
     "Bottom Funnel is a globally dominant company having highly experienced elasticsearch developers. Our elasticsearch development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Elasticsearch Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4334,7 +4334,7 @@ export const elasticData = {
   isDes: true,
   desData: {
     title: "Elasticsearch",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/elastic-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/elastic-logo.webp",
     description:
       "Elasticsearch is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4344,7 +4344,7 @@ export const elasticData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/security.webp",
           alt: "elasticSkillsPhotos/security.webp",
         },
         title: "Security",
@@ -4354,7 +4354,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/management.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/management.webp",
           alt: "elasticSkillsPhotos/management.webp",
         },
         title: "Management",
@@ -4363,7 +4363,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
           alt: "elasticSkillsPhotos/pip.webp",
         },
         title: "Scalability and resiliency",
@@ -4372,7 +4372,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/switch.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/switch.webp",
           alt: "elasticSkillsPhotos/switch.webp",
         },
         title: "Integrations",
@@ -4381,7 +4381,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/upgrade-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/upgrade-database.webp",
           alt: "elasticSkillsPhotos/upgrade-database.webp",
         },
         title: "Data enrichment",
@@ -4390,7 +4390,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/database-search.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/database-search.webp",
           alt: "elasticSkillsPhotos/database-search.webp",
         },
         title: "Automatic node recovery",
@@ -4402,7 +4402,7 @@ export const elasticData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Elasticsearch",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4416,7 +4416,7 @@ export const elasticData = {
   BookCallData: {
     title: "Need our elasticsearch developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4426,42 +4426,42 @@ export const elasticData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
           alt: "phpskillsphotos/php-web-portals.webp",
         },
         title: "Lots of search options",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
           alt: "mongodbSkillsPhotos/docs-checked.webp",
         },
         title: "Document-oriented",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
           alt: "redisSkillsPhotos/fast-run.webp",
         },
         title: "Speed",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/database-docs.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/database-docs.webp",
           alt: "backbonejsSkillsPhotos/database-docs.webp",
         },
         title: "Data record",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
           alt: "mongodbSkillsPhotos/analysis.webp",
         },
         title: "Query fine tuning",
@@ -4476,8 +4476,8 @@ export const sqliteData = {
     "Bottom Funnel is a globally dominant company having highly experienced SQLite developers. Our SQLite development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "SQLite Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4485,7 +4485,7 @@ export const sqliteData = {
   isDes: true,
   desData: {
     title: "SQLite",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/sqlite-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/sqlite-logo.webp",
     description:
       "SQLite is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4495,7 +4495,7 @@ export const sqliteData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/open-source.webp",
           alt: "sqliteSkillsPhotos/open-source.webp",
         },
         title: "Open source",
@@ -4505,7 +4505,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/free.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/free.webp",
           alt: "sqliteSkillsPhotos/free.webp",
         },
         title: "Free to use",
@@ -4514,7 +4514,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/sync.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/sync.webp",
           alt: "sqliteSkillsPhotos/sync.webp",
         },
         title: "Cross-platform",
@@ -4523,7 +4523,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
           alt: "sqliteSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
@@ -4532,7 +4532,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/no-user.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/no-user.webp",
           alt: "sqliteSkillsPhotos/no-user.webp",
         },
         title: "No licence required",
@@ -4541,7 +4541,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/no-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/no-database.webp",
           alt: "sqliteSkillsPhotos/no-database.webp",
         },
         title: "Serverless",
@@ -4553,7 +4553,7 @@ export const sqliteData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For SQLite",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sqliteSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sqliteSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4567,7 +4567,7 @@ export const sqliteData = {
   BookCallData: {
     title: "Need our SQLite developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4577,21 +4577,21 @@ export const sqliteData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
           alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Better performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
           alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "No installation needed",
@@ -4606,8 +4606,8 @@ export const cassandraData = {
     "Bottom Funnel is a globally dominant company having highly experienced cassandra developers. Our cassandra development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Cassandra Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4615,7 +4615,7 @@ export const cassandraData = {
   isDes: true,
   desData: {
     title: "Cassandra",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/cassandra-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/cassandra-logo.webp",
     description:
       "Cassandra is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4625,7 +4625,7 @@ export const cassandraData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/box-dimension.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/box-dimension.webp",
           alt: "cassandraSkillsPhotos/box-dimension.webp",
         },
         title: "Distributed footprint",
@@ -4635,7 +4635,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/qr-code.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/qr-code.webp",
           alt: "cassandraSkillsPhotos/qr-code.webp",
         },
         title: "Better user experience",
@@ -4644,7 +4644,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/shut-button.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/shut-button.webp",
           alt: "cassandraSkillsPhotos/shut-button.webp",
         },
         title: "Fault tolerance",
@@ -4653,7 +4653,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/open-source.webp",
           alt: "cassandraSkillsPhotos/open-source.webp",
         },
         title: "Open source",
@@ -4662,7 +4662,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/pip.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/pip.webp",
           alt: "cassandraSkillsPhotos/pip.webp",
         },
         title: "Scalability",
@@ -4671,7 +4671,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/fast-run.webp",
           alt: "cassandraSkillsPhotos/fast-run.webp",
         },
         title: "Fast writes",
@@ -4683,7 +4683,7 @@ export const cassandraData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For cassandra",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cassandraSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cassandraSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4697,7 +4697,7 @@ export const cassandraData = {
   BookCallData: {
     title: "Need our cassandra developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4707,21 +4707,21 @@ export const cassandraData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Performance - speed",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
           alt: "elasticSkillsPhotos/pip.webp",
         },
         title: "Scalability",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/clock.webp",
           alt: "nodejsphotos/clock.webp",
         },
         title: "Reliability",
@@ -4736,8 +4736,8 @@ export const strutsData = {
     "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Struts Development Services",
     description:
       "Delivering on your business vision with quality struts development.",
@@ -4745,7 +4745,7 @@ export const strutsData = {
   isDes: true,
   desData: {
     title: "Struts",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/struts-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/struts-logo.webp",
     description: `Apache Struts 1 is an open-source web application framework for developing Java EE web applications. It uses and extends the Java Servlet API to encourage developers to adopt a model-view-controller(MVC) architecture. It was originally created by Craig McClanahan and donated to the Apache Foundation in May 2000. Formerly located under the Apache Jakarta Project, it became a top-level Apache project in 2005. In 2015, it was renamed from Struts 1 to Struts 2 on account of several significant changes (e.g., JSF 2 support; tag libraries; and several MVC improvements). After more than 15 years, Struts is still going strong with millions of downloads every year!`,
   },
   isWhyApp: true,
@@ -4754,7 +4754,7 @@ export const strutsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/price-tag.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/price-tag.webp",
           alt: "strutsSkillsPhotos/price-tag.webp",
         },
         title: "Tag support",
@@ -4763,7 +4763,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/database.webp",
           alt: "strutsSkillsPhotos/database.webp",
         },
         title: "Teplate support",
@@ -4771,7 +4771,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/coordination.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/coordination.webp",
           alt: "strutsSkillsPhotos/coordination.webp",
         },
         title: "Intigration support",
@@ -4779,7 +4779,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/ajax.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/ajax.webp",
           alt: "strutsSkillsPhotos/ajax.webp",
         },
         title: "Ajax support",
@@ -4787,7 +4787,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/open-source.webp",
           alt: "strutsSkillsPhotos/open-source.webp",
         },
         title: "Open Source",
@@ -4795,7 +4795,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/result.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/result.webp",
           alt: "strutsSkillsPhotos/result.webp",
         },
         title: "Various result types",
@@ -4806,7 +4806,7 @@ export const strutsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Struts",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/strutsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/strutsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4820,7 +4820,7 @@ export const strutsData = {
   BookCallData: {
     title: "Need our struts developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4830,21 +4830,21 @@ export const strutsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC design",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
           alt: "springbootSkillsPhotos/easy-start.webp",
         },
         title: "Centralized Configuration",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
           alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Web application development easy",
@@ -4858,8 +4858,8 @@ export const golangData = {
   description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Golang Development Services",
     description:
       "Delivering on your business vision with quality golang development.",
@@ -4867,7 +4867,7 @@ export const golangData = {
   isDes: true,
   desData: {
     title: "Golang",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/golang-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/golang-logo.webp",
     description: `Golang is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is syntactically similar to C but with memory safety, garbage collection, structural typing and concurrency support. Go is often referred to as Golang because of its former domain name golang.org but its proper name is Go.`,
   },
   isWhyApp: true,
@@ -4876,7 +4876,7 @@ export const golangData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/open-source.webp",
           alt: "golangSkillsPhotos/open-source.webp",
         },
         title: "Open Source",
@@ -4885,7 +4885,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/sync.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/sync.webp",
           alt: "golangSkillsPhotos/sync.webp",
         },
         title: "Cross-platform development",
@@ -4893,7 +4893,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/printing.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/printing.webp",
           alt: "golangSkillsPhotos/printing.webp",
         },
         title: "Testing capabilities",
@@ -4901,7 +4901,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/keyboard.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/keyboard.webp",
           alt: "golangSkillsPhotos/keyboard.webp",
         },
         title: "Static typing",
@@ -4909,7 +4909,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/books.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/books.webp",
           alt: "golangSkillsPhotos/books.webp",
         },
         title: "Powerful standard library",
@@ -4917,7 +4917,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/proccess.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/proccess.webp",
           alt: "golangSkillsPhotos/proccess.webp",
         },
         title: "Concurrency support",
@@ -4928,7 +4928,7 @@ export const golangData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Golang",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/golangSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/golangSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4942,7 +4942,7 @@ export const golangData = {
   BookCallData: {
     title: "Need our golang developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -4952,42 +4952,42 @@ export const golangData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
           alt: "nextjsSKillsPhotos/fast-run.webp",
         },
         title: "Fast and efficiency",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
           alt: "mysqlSkillsPhotos/user-database.webp",
         },
         title: "Scalability",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
           alt: "svelteSkillsPhotos/settings-loading.webp",
         },
         title: "Ease of learning",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/creative.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/creative.webp",
           alt: "dotnetphotos/creative.webp",
         },
         title: "Transparency",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
           alt: "larvelskillsphotos/automated-test.webp",
         },
         title: "In-built testing",
@@ -5002,8 +5002,8 @@ export const symfonyData = {
     "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Symfony Development Services",
     description:
       "Delivering on your business vision with quality PHP web development.",
@@ -5011,7 +5011,7 @@ export const symfonyData = {
   isDes: true,
   desData: {
     title: "Symfony",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/symfonySkillsPhotos/symfony-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/symfonySkillsPhotos/symfony-logo.webp",
     description: `There are multiple reasons why Symfony is the go-to choice for developers. Whether you're looking to build a simple solution or an enterprise-grade application, its powerful features will help you achieve your goals. In this tutorial, we'll introduce you to the basics of Symfony and give you an overview of its key features. By the end of it, you'll feel confident enough to move on to more advanced topics!`,
   },
   isWhyApp: true,
@@ -5020,7 +5020,7 @@ export const symfonyData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/symfonySkillsPhotos/php.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/symfonySkillsPhotos/php.webp",
           alt: "symfonySkillsPhotos/php.webp",
         },
         title: "Stable and Sustainable",
@@ -5029,7 +5029,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/symfonySkillsPhotos/database-checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/symfonySkillsPhotos/database-checked.webp",
           alt: "symfonySkillsPhotos/database-checked.webp",
         },
         title: "Refined MVC Architecture",
@@ -5037,7 +5037,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/symfonySkillsPhotos/curved.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/symfonySkillsPhotos/curved.webp",
           alt: "symfonySkillsPhotos/curved.webp",
         },
         title: "Flexible",
@@ -5045,7 +5045,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsphotos/symfonySkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsphotos/symfonySkillsPhotos/setting.webp",
           alt: "symfonySkillsPhotos/setting.webp",
         },
         title: "Customization",
@@ -5053,7 +5053,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/symfonySkillsPhotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/symfonySkillsPhotos/support.webp",
           alt: "symfonySkillsPhotos/support.webp",
         },
         title: "Excellent support",
@@ -5061,7 +5061,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/symfonySkillsPhotos/users.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/symfonySkillsPhotos/users.webp",
           alt: "symfonySkillsPhotos/users.webp",
         },
         title: "Large community",
@@ -5072,7 +5072,7 @@ export const symfonyData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Symfony",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/symfonySkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/symfonySkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5086,7 +5086,7 @@ export const symfonyData = {
   BookCallData: {
     title: "Need our symfony developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5096,21 +5096,21 @@ export const symfonyData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast paced development",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
           alt: "larvelskillsphotos/agile-dev.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
           alt: "angularjsSkillsPhotos/effective-framework.webp",
         },
         title: "Expandable framework",
@@ -5126,8 +5126,8 @@ export const grailsData = {
     "Bottom Funnel is a globally dominant company having highly experienced grails developers. Our grails development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Grails Development Services",
     description:
       "Delivering on your business vision with quality grails development.",
@@ -5135,7 +5135,7 @@ export const grailsData = {
   isDes: true,
   desData: {
     title: "Grails",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/grails-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/grails-logo.webp",
     description: `Grails is perfect for building high-productivity web apps that follow the 'coding by convention' paradigm. It provides a stable development environment and hides much of the configuration detail from the developer so they can focus on the code! Plus, compared to other frameworks such as Angular or React, Grails is easier to learn and use because it uses plain old JavaScript instead of its own language (Groovy).`,
   },
   isWhyApp: true,
@@ -5144,7 +5144,7 @@ export const grailsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/strategy.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/strategy.webp",
           alt: "grailsSkillsPhotos/strategy.webp",
         },
         title: "Pragmatic Strategy",
@@ -5153,7 +5153,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/printing.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/printing.webp",
           alt: "grailsSkillsPhotos/printing.webp",
         },
         title: "Build-in testing frameworkd",
@@ -5161,7 +5161,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/java.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/java.webp",
           alt: "grailsSkillsPhotos/java.webp",
         },
         title: "Seamless java integration",
@@ -5169,7 +5169,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/dns.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/dns.webp",
           alt: "grailsSkillsPhotos/dns.webp",
         },
         title: "Dynamic doman class reloading",
@@ -5177,7 +5177,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/liberary.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/liberary.webp",
           alt: "grailsSkillsPhotos/liberary.webp",
         },
         title: "Plugin liberary",
@@ -5185,7 +5185,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/leaf.webp",
           alt: "grailsSkillsPhotos/leaf.webp",
         },
         title: "Spring boot foundation",
@@ -5196,7 +5196,7 @@ export const grailsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Grails",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/grailsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/grailsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5210,7 +5210,7 @@ export const grailsData = {
   BookCallData: {
     title: "Need our grails developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5220,21 +5220,21 @@ export const grailsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
           alt: "nextjsSKillsPhotos/fast-run.webp",
         },
         title: "Faster Time to Market",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
           alt: "angularjsSkillsPhotos/reuseable-code.webp",
         },
         title: "Reusability",
@@ -5250,8 +5250,8 @@ export const jsfData = {
     "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "JSF Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -5259,7 +5259,7 @@ export const jsfData = {
   isDes: true,
   desData: {
     title: "JSF",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/jsf-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/jsf-logo.webp",
     description: `Jakarta Faces is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process. It is also an MVC web framework that simplifies the construction of user interfaces(UI) for server-based applications by using reusable UI components on a page. In this tutorial, we will cover some of its more popular features, like Ajax based communication, data binding with change detection etc.`,
   },
   isWhyApp: true,
@@ -5268,7 +5268,7 @@ export const jsfData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/help.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/help.webp",
           alt: "jsfSkillsPhotos/help.webp",
         },
         title: "Default exception handling",
@@ -5277,7 +5277,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/html.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/html.webp",
           alt: "jsfSkillsPhotos/html.webp",
         },
         title: "Support HTML5",
@@ -5285,7 +5285,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/coding.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/coding.webp",
           alt: "jsfSkillsPhotos/coding.webp",
         },
         title: "Ease and rapid web development",
@@ -5293,7 +5293,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/security.webp",
           alt: "jsfSkillsPhotos/security.webp",
         },
         title: "Security",
@@ -5301,7 +5301,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/ajax.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/ajax.webp",
           alt: "jsfSkillsPhotos/ajax.webp",
         },
         title: "Inbuilt AJAX support",
@@ -5309,7 +5309,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/database.webp",
           alt: "jsfSkillsPhotos/database.webp",
         },
         title: "Templating",
@@ -5320,7 +5320,7 @@ export const jsfData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For JSF",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/jsfSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/jsfSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5334,7 +5334,7 @@ export const jsfData = {
   BookCallData: {
     title: "Need our JSF developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5344,21 +5344,21 @@ export const jsfData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
           alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC design",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
           alt: "angularjsSkillsPhotos/reuseable-code.webp",
         },
         title: "Reusable UI components",
@@ -5373,8 +5373,8 @@ export const phalconData = {
     "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Phalcon Development Services",
     description:
       "Delivering on your business vision with quality PHP web development.",
@@ -5382,7 +5382,7 @@ export const phalconData = {
   isDes: true,
   desData: {
     title: "Phalcon",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/phalcon-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/phalcon-logo.webp",
     description: `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.
 
       And with over 6 million downloads already and counting, there's no doubt that people are recognizing its value and power. Why not give it a try today?`,
@@ -5393,7 +5393,7 @@ export const phalconData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/jcb.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/jcb.webp",
           alt: "phalconSkillsPhotos/jcb.webp",
         },
         title: "Improved SEO performance",
@@ -5402,7 +5402,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/router.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/router.webp",
           alt: "phalconSkillsPhotos/router.webp",
         },
         title: "Security",
@@ -5410,7 +5410,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/fast-run.webp",
           alt: "phalconSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -5418,7 +5418,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/open-source.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/open-source.webp",
           alt: "phalconSkillsPhotos/open-source.webp",
         },
         title: "Autoloader",
@@ -5426,7 +5426,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/user-file.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/user-file.webp",
           alt: "phalconSkillsPhotos/user-file.webp",
         },
         title: "Independent framework",
@@ -5434,7 +5434,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/php.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/php.webp",
           alt: "phalconSkillsPhotos/php.webp",
         },
         title: "Fastest framework for PHP",
@@ -5446,7 +5446,7 @@ export const phalconData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Phalcon",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phalconSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phalconSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5460,7 +5460,7 @@ export const phalconData = {
   BookCallData: {
     title: "Need our phalcon developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5469,21 +5469,21 @@ export const phalconData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
           alt: "nextjsSKillsPhotos/fast-run.webp",
         },
         title: "Great performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/djangophotos/backward-compatible.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/djangophotos/backward-compatible.webp",
           alt: "djangophotos/backward-compatible.webp",
         },
         title: "Compatible with C language",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
           alt: "angularjsSkillsPhotos/trouble-free.webp",
         },
         title: "Web application development",
@@ -5499,8 +5499,8 @@ export const semanticData = {
     "Bottom Funnel is a globally dominant company having highly experienced Semantic Ui developers. Our Semantic Ui development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Semantic Ui Development Services",
     description:
       "Delivering on your business vision with quality Semantic UI web development.",
@@ -5508,7 +5508,7 @@ export const semanticData = {
   isDes: true,
   desData: {
     title: "Semantic UI",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/logo.webp",
     description:
       "Semantic UI is a design system that was created to make creating beautiful, user-friendly websites easier. The system offers an intuitive drag-and-drop interface that makes it easy to create fluid and organized designs. Semantic UI also includes features such as components, modules, views, routes, models and stores. This allows you to quickly build dynamic pages with complex layouts without having to worry about the code behind them.Semantic UI is free and available on both Mac and PC platforms. It can be used standalone or in conjunction with another frontend framework like Bootstrap or Foundation.",
   },
@@ -5518,7 +5518,7 @@ export const semanticData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/Frame-5.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/Frame-5.webp",
           alt: "semanticphotos/Frame-5.webp",
         },
         title: "Lightweight and Minimal",
@@ -5528,7 +5528,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/Frame-4.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/Frame-4.webp",
           alt: "semanticphotos/Frame-4.webp",
         },
         title: "Multiple Themes",
@@ -5537,7 +5537,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/Frame-3.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/Frame-3.webp",
           alt: "semanticphotos/Frame-3.webp",
         },
         title: "Intutive Javascript",
@@ -5546,7 +5546,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/Frame-1.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/Frame-1.webp",
           alt: "semanticphotos/Frame-1.webp",
         },
         title: "Varying Prototypes",
@@ -5555,7 +5555,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/Frame-2.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/Frame-2.webp",
           alt: "semanticphotos/Frame-2.webp",
         },
         title: "Easy to Understand",
@@ -5564,7 +5564,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/fastrun.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/fastrun.webp",
           alt: "semanticphotos/fastrun.webp",
         },
         title: "Fast Performance",
@@ -5576,7 +5576,7 @@ export const semanticData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Semantic UI",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/Frame.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/Frame.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5590,7 +5590,7 @@ export const semanticData = {
   BookCallData: {
     title: "Need our Semantic UI developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/semanticphotos/minibanner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/semanticphotos/minibanner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5599,21 +5599,21 @@ export const semanticData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/fast-run.webp",
           alt: "nodejsphotos/fast-run.webp",
         },
         title: "Performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/dotnetphotos/security.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/dotnetphotos/security.webp",
           alt: "dotnetphotos/security.webp",
         },
         title: "Security",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
           alt: "angularjsSkillsPhotos/captivating-support.webp",
         },
         title: "Technical support",
@@ -5628,8 +5628,8 @@ export const GhostData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Ghost Development Services",
     description:
       "Delivering on your business vision with quality ghost website builder experts.",
@@ -5637,7 +5637,7 @@ export const GhostData = {
   isDes: true,
   desData: {
     title: "Ghost",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/ghost-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/ghost-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -5647,7 +5647,7 @@ export const GhostData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/leafs.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/leafs.webp",
           alt: "ghostPhotos/leafs.webp",
         },
         title: "Lightweight and minimal",
@@ -5657,7 +5657,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/aritficial.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/aritficial.webp",
           alt: "ghostPhotos/aritficial.webp",
         },
         title: "Integrations",
@@ -5666,7 +5666,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/setting.webp",
           alt: "ghostPhotos/setting.webp",
         },
         title: "Easy to customize and themes",
@@ -5675,7 +5675,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/stars.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/stars.webp",
           alt: "ghostPhotos/stars.webp",
         },
         title: "SEO friendly",
@@ -5684,7 +5684,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/document.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/document.webp",
           alt: "ghostPhotos/document.webp",
         },
         title: "Good documentation",
@@ -5693,7 +5693,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/fast-run.webp",
           alt: "ghostPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -5705,7 +5705,7 @@ export const GhostData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for ghost",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5719,7 +5719,7 @@ export const GhostData = {
   BookCallData: {
     title: "Need our ghost developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5728,21 +5728,21 @@ export const GhostData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
           alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/stars.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/stars.webp",
           alt: "ghostPhotos/stars.webp",
         },
         title: "SEO friendly",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/setting.webp",
           alt: "ghostPhotos/setting.webp",
         },
         title: "Easy to customise",
@@ -5758,8 +5758,8 @@ export const WeeblyData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Weebly Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -5767,7 +5767,7 @@ export const WeeblyData = {
   isDes: true,
   desData: {
     title: "Weebly",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/weebly-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/weebly-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -5777,7 +5777,7 @@ export const WeeblyData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/setting.webp",
           alt: "weeblyPhotos/setting.webp",
         },
         title: "Flexible",
@@ -5787,7 +5787,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/document.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/document.webp",
           alt: "weeblyPhotos/document.webp",
         },
         title: "Smart Content",
@@ -5796,7 +5796,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/custom.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/custom.webp",
           alt: "weeblyPhotos/custom.webp",
         },
         title: "Easy Personalization",
@@ -5805,7 +5805,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/seo.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/seo.webp",
           alt: "weeblyPhotos/seo.webp",
         },
         title: "SEO is Easy",
@@ -5814,7 +5814,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/secure.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/secure.webp",
           alt: "weeblyPhotos/secure.webp",
         },
         title: "High Security & Protected",
@@ -5823,7 +5823,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/checked.webp",
           alt: "weeblyPhotos/checked.webp",
         },
         title: "Easy to use",
@@ -5835,7 +5835,7 @@ export const WeeblyData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for weebly",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/weeblyPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/weeblyPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5849,7 +5849,7 @@ export const WeeblyData = {
   BookCallData: {
     title: "Need our weebly developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/ghostPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/ghostPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5858,21 +5858,21 @@ export const WeeblyData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
           alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy to use",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/phpskillsphotos/support.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/phpskillsphotos/support.webp",
           alt: "phpskillsphotos/support.webp",
         },
         title: "User support",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
           alt: "codeigniterPhotos/maintenance.webp",
         },
         title: "Maintenance",
@@ -5887,8 +5887,8 @@ export const cubaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Cuba framework Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -5896,7 +5896,7 @@ export const cubaData = {
   isDes: true,
   desData: {
     title: "Cuba",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/cuba-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/cuba-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -5906,7 +5906,7 @@ export const cubaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
           alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
@@ -5916,7 +5916,7 @@ export const cubaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/building.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/building.webp",
           alt: "cubaSkillsPhotos/building.webp",
         },
         title: "Enterprise apps development",
@@ -5925,7 +5925,7 @@ export const cubaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/fast-run.webp",
           alt: "cubaSkillsPhotos/fast-run.webp",
         },
         title: "Powerful pre-built components",
@@ -5934,7 +5934,7 @@ export const cubaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/leaf.webp",
           alt: "cubaSkillsPhotos/leaf.webp",
         },
         title: "Built to fit the user's environment",
@@ -5943,7 +5943,7 @@ export const cubaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/people.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/people.webp",
           alt: "cubaSkillsPhotos/people.webp",
         },
         title: "Community support",
@@ -5952,7 +5952,7 @@ export const cubaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/advance.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/advance.webp",
           alt: "cubaSkillsPhotos/advance.webp",
         },
         title: "Built-in management interface",
@@ -5964,7 +5964,7 @@ export const cubaData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for cuba",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5978,7 +5978,7 @@ export const cubaData = {
   BookCallData: {
     title: "Need our cuba developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -5987,42 +5987,42 @@ export const cubaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
           alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
           alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
           alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
           alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
           alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -6037,8 +6037,8 @@ export const cherryData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Cherrypy Online Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6046,7 +6046,7 @@ export const cherryData = {
   isDes: true,
   desData: {
     title: "Cherrypy",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/cherrypy-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/cherrypy-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -6056,7 +6056,7 @@ export const cherryData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/leaf.webp",
           alt: "cherrypySkillsPhotos/leaf.webp",
         },
         title: "Lightweight and minimal",
@@ -6066,7 +6066,7 @@ export const cherryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/setting.webp",
           alt: "cherrypySkillsPhotos/setting.webp",
         },
         title: "Multiple themes",
@@ -6075,7 +6075,7 @@ export const cherryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/language.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/language.webp",
           alt: "cherrypySkillsPhotos/language.webp",
         },
         title: "Best use of python utilities",
@@ -6084,7 +6084,7 @@ export const cherryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/mobile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/mobile.webp",
           alt: "cherrypySkillsPhotos/mobile.webp",
         },
         title: "Free to use",
@@ -6093,7 +6093,7 @@ export const cherryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/document.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/document.webp",
           alt: "cherrypySkillsPhotos/document.webp",
         },
         title: "Easy to understand",
@@ -6102,7 +6102,7 @@ export const cherryData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/fast-run.webp",
           alt: "cherrypySkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -6114,7 +6114,7 @@ export const cherryData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for cherrypy",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -6128,7 +6128,7 @@ export const cherryData = {
   BookCallData: {
     title: "Need our cherrypy developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cherrypySkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cherrypySkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -6137,42 +6137,42 @@ export const cherryData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
           alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
           alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
           alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
           alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
           alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -6187,8 +6187,8 @@ export const echoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Echo Framework Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6196,7 +6196,7 @@ export const echoData = {
   isDes: true,
   desData: {
     title: "echo",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/echo-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/echo-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -6206,7 +6206,7 @@ export const echoData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/rocket.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/rocket.webp",
           alt: "echoSkillsPhotos/rocket.webp",
         },
         title: "Optimized router",
@@ -6216,7 +6216,7 @@ export const echoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/cloud.webp",
           alt: "echoSkillsPhotos/cloud.webp",
         },
         title: "Scalable",
@@ -6225,7 +6225,7 @@ export const echoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/verified.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/verified.webp",
           alt: "echoSkillsPhotos/verified.webp",
         },
         title: "Automatic TLS",
@@ -6234,7 +6234,7 @@ export const echoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/clock.webp",
           alt: "echoSkillsPhotos/clock.webp",
         },
         title: "HTTP/2",
@@ -6243,7 +6243,7 @@ export const echoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/funnel.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/funnel.webp",
           alt: "echoSkillsPhotos/funnel.webp",
         },
         title: "Middleware",
@@ -6252,7 +6252,7 @@ export const echoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/database.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/database.webp",
           alt: "echoSkillsPhotos/database.webp",
         },
         title: "Data binding",
@@ -6264,7 +6264,7 @@ export const echoData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for echo",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -6278,7 +6278,7 @@ export const echoData = {
   BookCallData: {
     title: "Need our echo developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/echoSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/echoSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -6287,42 +6287,42 @@ export const echoData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
           alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
           alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
           alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
           alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
           alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -6337,8 +6337,8 @@ export const gitData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Git Backend Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6346,7 +6346,7 @@ export const gitData = {
   isDes: true,
   desData: {
     title: "git",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/git-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/git-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -6356,7 +6356,7 @@ export const gitData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/city.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/city.webp",
           alt: "gitSkillsPhotos/city.webp",
         },
         title: "Branch workflow",
@@ -6366,7 +6366,7 @@ export const gitData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/tranfer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/tranfer.webp",
           alt: "gitSkillsPhotos/tranfer.webp",
         },
         title: "Distributed development",
@@ -6375,7 +6375,7 @@ export const gitData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/threads.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/threads.webp",
           alt: "gitSkillsPhotos/threads.webp",
         },
         title: "Pull requests",
@@ -6384,7 +6384,7 @@ export const gitData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/people.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/people.webp",
           alt: "gitSkillsPhotos/people.webp",
         },
         title: "Community",
@@ -6393,7 +6393,7 @@ export const gitData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/package.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/package.webp",
           alt: "gitSkillsPhotos/package.webp",
         },
         title: "Faster Release cycle",
@@ -6402,7 +6402,7 @@ export const gitData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/document.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/document.webp",
           alt: "gitSkillsPhotos/document.webp",
         },
         title: "Easy to understand",
@@ -6414,7 +6414,7 @@ export const gitData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for git",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -6428,7 +6428,7 @@ export const gitData = {
   BookCallData: {
     title: "Need our git developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gitSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gitSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -6437,42 +6437,42 @@ export const gitData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
           alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
           alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
           alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
           alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
           alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -6487,8 +6487,8 @@ export const zendData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Zend Framework Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6496,7 +6496,7 @@ export const zendData = {
   isDes: true,
   desData: {
     title: "Zend",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/zend-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/zend-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -6506,7 +6506,7 @@ export const zendData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/computer-leaf.webp",
           alt: "zendSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
@@ -6516,7 +6516,7 @@ export const zendData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/document.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/document.webp",
           alt: "zendSkillsPhotos/document.webp",
         },
         title: "Simplicity",
@@ -6525,7 +6525,7 @@ export const zendData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/fast-run.webp",
           alt: "zendSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -6534,7 +6534,7 @@ export const zendData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/community.webp",
           alt: "zendSkillsPhotos/community.webp",
         },
         title: "Open source",
@@ -6543,7 +6543,7 @@ export const zendData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/people.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/people.webp",
           alt: "zendSkillsPhotos/people.webp",
         },
         title: "Community support",
@@ -6552,7 +6552,7 @@ export const zendData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/vector.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/vector.webp",
           alt: "zendSkillsPhotos/vector.webp",
         },
         title: "Flexibility",
@@ -6564,7 +6564,7 @@ export const zendData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for zend",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -6578,7 +6578,7 @@ export const zendData = {
   BookCallData: {
     title: "Need our zend developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/zendSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/zendSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -6587,42 +6587,42 @@ export const zendData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
           alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
           alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
           alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
           alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
           alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -6637,8 +6637,8 @@ export const yiiData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "yii Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6646,7 +6646,7 @@ export const yiiData = {
   isDes: true,
   desData: {
     title: "yii",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/yii-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/yii-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -6656,7 +6656,7 @@ export const yiiData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/leaf.webp",
           alt: "yiiSkillsPhotos/leaf.webp",
         },
         title: "Lightweight",
@@ -6666,7 +6666,7 @@ export const yiiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/meter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/meter.webp",
           alt: "yiiSkillsPhotos/meter.webp",
         },
         title: "High-performance",
@@ -6675,7 +6675,7 @@ export const yiiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/community.webp",
           alt: "yiiSkillsphotos/community.webp",
         },
         title: "Expert Contributors",
@@ -6684,7 +6684,7 @@ export const yiiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/hand.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/hand.webp",
           alt: "yiiSkillsPhotos/hand.webp",
         },
         title: "Highly extensible",
@@ -6693,7 +6693,7 @@ export const yiiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/clock.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/clock.webp",
           alt: "yiiSkillsPhotos/clock.webp",
         },
         title: "Rapid development",
@@ -6702,7 +6702,7 @@ export const yiiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/fast-run.webp",
           alt: "yiiSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
@@ -6714,7 +6714,7 @@ export const yiiData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for yii",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -6728,7 +6728,7 @@ export const yiiData = {
   BookCallData: {
     title: "Need our yii developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -6737,42 +6737,42 @@ export const yiiData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/anagle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
           alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
           alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
           alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
           alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
           alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -6787,8 +6787,8 @@ export const railsData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Rails Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6796,7 +6796,7 @@ export const railsData = {
   isDes: true,
   desData: {
     title: "Rails",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/rails-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/rails-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -6806,7 +6806,7 @@ export const railsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/currency.webp",
           alt: "railsSkillsPhotos/currency.webp",
         },
         title: "Cost-effective",
@@ -6816,7 +6816,7 @@ export const railsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/cloud.webp",
           alt: "railsSkillsPhotos/cloud/webp",
         },
         title: "Built on MVC",
@@ -6825,7 +6825,7 @@ export const railsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/fast-run.webp",
           alt: "railsSkillsPhotos/fast-run.webp",
         },
         title: "Focus on performance",
@@ -6834,7 +6834,7 @@ export const railsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/analysis.webp",
           alt: "railsSkillsPhotos/analysis.webp",
         },
         title: "Easy to manage changes",
@@ -6843,7 +6843,7 @@ export const railsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/secure.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/secure.webp",
           alt: "railsSkillsPhotos/secure.webp",
         },
         title: "Secure",
@@ -6852,7 +6852,7 @@ export const railsData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/community.webp",
           alt: "railsSkillsPhotos/community.webp",
         },
         title: "Large community",
@@ -6864,7 +6864,7 @@ export const railsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for rails",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/railsSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/railsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -6878,7 +6878,7 @@ export const railsData = {
   BookCallData: {
     title: "Need our rails developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -6887,42 +6887,42 @@ export const railsData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
           alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
           alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
           alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
           alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
           alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -6937,8 +6937,8 @@ export const gorillaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Gorilla Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6946,7 +6946,7 @@ export const gorillaData = {
   isDes: true,
   desData: {
     title: "Gorilla",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/gorilla-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/gorilla-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -6956,7 +6956,7 @@ export const gorillaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/router.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/router.webp",
           alt: "gorillaSkillsPhotos/router.webp",
         },
         title: "Development of routers",
@@ -6966,7 +6966,7 @@ export const gorillaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/www.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/www.webp",
           alt: "gorillaSkillsPhotos/www.webp",
         },
         title: "Authenticated URLs",
@@ -6975,7 +6975,7 @@ export const gorillaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/internet.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/internet.webp",
           alt: "gorillaSkillsPhotos/internet.webp",
         },
         title: "Assistance with the middleware",
@@ -6984,7 +6984,7 @@ export const gorillaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/document.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/document.webp",
           alt: "gorillaSkillsPhotos/document.webp",
         },
         title: "Requests",
@@ -6993,7 +6993,7 @@ export const gorillaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/right.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/right.webp",
           alt: "gorillaSkillsPhotos/right.webp",
         },
         title: "Simple and productive",
@@ -7002,7 +7002,7 @@ export const gorillaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/checked.webp",
           alt: "gorillaSkillsPhotos/checked.webp",
         },
         title: "Easy to use",
@@ -7014,7 +7014,7 @@ export const gorillaData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for gorilla",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -7028,7 +7028,7 @@ export const gorillaData = {
   BookCallData: {
     title: "Need our gorilla developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -7037,42 +7037,42 @@ export const gorillaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
           alt: "gorillaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
           alt: "gorillaSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
           alt: "gorillaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
           alt: "gorillaSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
           alt: "gorillaSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
           alt: "gorillaSkillsPhotos/recycle.webp",
         },
         title: "Multi work adoptivity",
@@ -7087,8 +7087,8 @@ export const hanamiData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Hanami Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7096,7 +7096,7 @@ export const hanamiData = {
   isDes: true,
   desData: {
     title: "Hanami",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/hanami-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/hanami-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -7106,7 +7106,7 @@ export const hanamiData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/thinking.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/thinking.webp",
           alt: "hanamiSkillsPhotos/thinking.webp",
         },
         title: "Multi tasking",
@@ -7116,7 +7116,7 @@ export const hanamiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/speed.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/speed.webp",
           alt: "hanamiSkillsPhotos/speed.webp",
         },
         title: "Fast response times",
@@ -7125,7 +7125,7 @@ export const hanamiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/secure.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/secure.webp",
           alt: "hanamiSkillsPhotos/secure.webp",
         },
         title: "Secure by default",
@@ -7134,7 +7134,7 @@ export const hanamiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/computer-leaf.webp",
           alt: "hanamiSkillsPhotos/computer-leaf.webp",
         },
         title: "Full-featured, but lightweight",
@@ -7143,7 +7143,7 @@ export const hanamiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/right.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/right.webp",
           alt: "hanamiSkillsPhotos/right.webp",
         },
         title: "Simple and productive",
@@ -7152,7 +7152,7 @@ export const hanamiData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/checked.webp",
           alt: "hanamiSkillsPhotos/checked.webp",
         },
         title: "Easy to use",
@@ -7164,7 +7164,7 @@ export const hanamiData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for hanami",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/hanamiSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/hanamiSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -7178,7 +7178,7 @@ export const hanamiData = {
   BookCallData: {
     title: "Need our hanami developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -7187,42 +7187,42 @@ export const hanamiData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
           alt: "gorillaSkillsPhotos/currency/webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
           alt: "gorillaSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
           alt: "GorillaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
           alt: "gorillaSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
           alt: "gorillaSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
           alt: "gorillaSkillsPhotos/recycle.webp",
         },
         title: "Multi work adoptivity",
@@ -7237,8 +7237,8 @@ export const irisData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Iris Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7246,7 +7246,7 @@ export const irisData = {
   isDes: true,
   desData: {
     title: "Iris",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/iris-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/iris-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -7256,7 +7256,7 @@ export const irisData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/right.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/right.webp",
           alt: "irisSkillsPhotos/right.webp",
         },
         title: "Simplicity",
@@ -7266,7 +7266,7 @@ export const irisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/cloud.webp",
           alt: "irisSkillsPhotos/cloud.webp",
         },
         title: "Open source",
@@ -7275,7 +7275,7 @@ export const irisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/fast-run.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/fast-run.webp",
           alt: "irisSkillsPhotos/fast-run.webp",
         },
         title: "Focus on performance",
@@ -7284,7 +7284,7 @@ export const irisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/analysis.webp",
           alt: "irisSkillsPhotos/analysis.webp",
         },
         title: "Targeting Vision",
@@ -7293,7 +7293,7 @@ export const irisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/grid.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/grid.webp",
           alt: "irisSkillsPhotos/grid.webp",
         },
         title: "Multiple templates",
@@ -7302,7 +7302,7 @@ export const irisData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/center.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/center.webp",
           alt: "irisSkillsPhotos/center.webp",
         },
         title: "Smart Compressions",
@@ -7314,7 +7314,7 @@ export const irisData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for iris",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -7328,7 +7328,7 @@ export const irisData = {
   BookCallData: {
     title: "Need our iris developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -7337,42 +7337,42 @@ export const irisData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/meter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/meter.webp",
           alt: "irisSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/setting.webp",
           alt: "irisSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/recycle.webp",
           alt: "irisSkillsPhotos/recycle.webp",
         },
         title: "Multi work adaptivity",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/currency.webp",
           alt: "irisSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/versatile.webp",
           alt: "irisSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/irisSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/irisSkillsPhotos/automated.webp",
           alt: "irisSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -7387,8 +7387,8 @@ export const padrinoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Padrino Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7396,7 +7396,7 @@ export const padrinoData = {
   isDes: true,
   desData: {
     title: "Padrino",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/padrino-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/padrino-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -7406,7 +7406,7 @@ export const padrinoData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/computer-leaf.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/computer-leaf.webp",
           alt: "padrinoSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
@@ -7416,7 +7416,7 @@ export const padrinoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/cloud.webp",
           alt: "padrinoSkillsPhotos/cloud.webp",
         },
         title: "Open source",
@@ -7425,7 +7425,7 @@ export const padrinoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/analysis.webp",
           alt: "padrinoSkillsPhotos/analysis.webp",
         },
         title: "Drop in Admin",
@@ -7434,7 +7434,7 @@ export const padrinoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/checked.webp",
           alt: "padrinoSkillsPhotos/checked.webp",
         },
         title: "Comprehensive",
@@ -7443,7 +7443,7 @@ export const padrinoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/loop.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/loop.webp",
           alt: "padrinoSkillsPhotos/loop.webp",
         },
         title: "Agnostic",
@@ -7452,7 +7452,7 @@ export const padrinoData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/hat.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/hat.webp",
           alt: "padrinoSkillsPhotos/hat.webp",
         },
         title: "Sinatra Core",
@@ -7464,7 +7464,7 @@ export const padrinoData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for padrino",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -7478,7 +7478,7 @@ export const padrinoData = {
   BookCallData: {
     title: "Need our padrino developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -7487,42 +7487,42 @@ export const padrinoData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/currency.webp",
           alt: "padrinoSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/versatile.webp",
           alt: "padrinoSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/automated.webp",
           alt: "padrinoSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/meter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/meter.webp",
           alt: "padrinoSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/setting.webp",
           alt: "padrinoSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/padrinoSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/padrinoSkillsPhotos/recycle.webp",
           alt: "padrinoSkillsPhotos/recycle.webp",
         },
         title: "Multi work adaptivity",
@@ -7537,8 +7537,8 @@ export const revelData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Revel Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7546,7 +7546,7 @@ export const revelData = {
   isDes: true,
   desData: {
     title: "Revel",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/revel-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/revel-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -7556,7 +7556,7 @@ export const revelData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/golang.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/golang.webp",
           alt: "revelSkillsPhotos/golang.webp",
         },
         title: "Go compatible",
@@ -7566,7 +7566,7 @@ export const revelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/analysis.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/analysis.webp",
           alt: "revelSkillsPhotos/analysis.webp",
         },
         title: "High-productivity",
@@ -7575,7 +7575,7 @@ export const revelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/layer.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/layer.webp",
           alt: "revelSkillsPhotos/layer.webp",
         },
         title: "Full-stack",
@@ -7584,7 +7584,7 @@ export const revelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/speed.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/speed.webp",
           alt: "revelSkillsPhotos/speed.webp",
         },
         title: "High performance",
@@ -7593,7 +7593,7 @@ export const revelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/cloud.webp",
           alt: "revelSkillsPhotos/cloud.webp",
         },
         title: "Open source",
@@ -7602,7 +7602,7 @@ export const revelData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/right.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/right.webp",
           alt: "revelSkillsPhotos/right.webp",
         },
         title: "Simple",
@@ -7614,7 +7614,7 @@ export const revelData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for revel",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -7628,7 +7628,7 @@ export const revelData = {
   BookCallData: {
     title: "Need our revel developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -7637,42 +7637,42 @@ export const revelData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/meter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/meter.webp",
           alt: "revelSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/setting.webp",
           alt: "revelSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/recycle.webp",
           alt: "revelSkillsPhotos/recycle.webp",
         },
         title: "Multi work adaptivity",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/currency.webp",
           alt: "revelSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/versatile.webp",
           alt: "revelSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/revelSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/revelSkillsPhotos/automated.webp",
           alt: "revelSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -7687,8 +7687,8 @@ export const rodaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Roda Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7696,7 +7696,7 @@ export const rodaData = {
   isDes: true,
   desData: {
     title: "Roda",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/roda-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/roda-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -7706,7 +7706,7 @@ export const rodaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/right.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/right.webp",
           alt: "rodaSkillsPhotos/right.webp",
         },
         title: "Simplicity",
@@ -7716,7 +7716,7 @@ export const rodaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/cloud.webp",
           alt: "rodaSkillsPhotos/cloud.webp",
         },
         title: "Scalable",
@@ -7725,7 +7725,7 @@ export const rodaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/storage.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/storage.webp",
           alt: "rodaSkillsPhotos/storage.webp",
         },
         title: "Format migration",
@@ -7734,7 +7734,7 @@ export const rodaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/grid.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/grid.webp",
           alt: "rodaSkillsPhotos/grid.webp",
         },
         title: "Multiple formats",
@@ -7743,7 +7743,7 @@ export const rodaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/chain.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/chain.webp",
           alt: "rodaSkillsPhotos/chain.webp",
         },
         title: "Vendor independent",
@@ -7752,7 +7752,7 @@ export const rodaData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/setting.webp",
           alt: "rodaSkillsPhotos/setting.webp",
         },
         title: "Advanced access control",
@@ -7764,7 +7764,7 @@ export const rodaData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for roda",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -7778,7 +7778,7 @@ export const rodaData = {
   BookCallData: {
     title: "Need our roda developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -7787,42 +7787,42 @@ export const rodaData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/angle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/angle.webp",
           alt: "rodaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/community.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/community.webp",
           alt: "rodaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/recycle.webp",
           alt: "rodaSkillsPhotos/recycle.webp",
         },
         title: "Quick swqp approach",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/currency.webp",
           alt: "rodaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/versatile.webp",
           alt: "rodaSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/rodaSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/rodaSkillsPhotos/automated.webp",
           alt: "rodaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
@@ -7837,8 +7837,8 @@ export const sinatraData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    icon: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/banner.webp",
+    icon: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/banner.webp",
     title: "Sinatra Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7846,7 +7846,7 @@ export const sinatraData = {
   isDes: true,
   desData: {
     title: "Sinatra",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/sinatra-logo.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/sinatra-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -7856,7 +7856,7 @@ export const sinatraData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/pip.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/pip.webp",
           alt: "sinatraSkillsPhotos/pip.webp",
         },
         title: "Small and focused",
@@ -7866,7 +7866,7 @@ export const sinatraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/document.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/document.webp",
           alt: "sinatraSkillsPhotos/document.webp",
         },
         title: "Easy to learn",
@@ -7875,7 +7875,7 @@ export const sinatraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/checked.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/checked.webp",
           alt: "sinatraSkillsPhotos/checked.webp",
         },
         title: "Easy to use",
@@ -7884,7 +7884,7 @@ export const sinatraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/speed.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/speed.webp",
           alt: "sinatraSkillsPhotos/speed.webp",
         },
         title: "High performance",
@@ -7893,7 +7893,7 @@ export const sinatraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/cloud.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/cloud.webp",
           alt: "sinatraSkillsPhotos/cloud.webp",
         },
         title: "Open source",
@@ -7902,7 +7902,7 @@ export const sinatraData = {
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/diamond.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/diamond.webp",
           alt: "sinatraSkillsPhotos/diamond.webp",
         },
         title: "Works with many ruby libraries",
@@ -7914,7 +7914,7 @@ export const sinatraData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for sinatra",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/big-left-image.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -7928,7 +7928,7 @@ export const sinatraData = {
   BookCallData: {
     title: "Need our sinatra developers to build your application?",
     btn: "Book a call now",
-    image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+    image: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
@@ -7937,42 +7937,42 @@ export const sinatraData = {
     cardsData: [
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/currency.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/currency.webp",
           alt: "sinatraSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/versatile.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/versatile.webp",
           alt: "sinatraSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/automated.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/automated.webp",
           alt: "sinatraSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/meter.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/meter.webp",
           alt: "sinatraSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/setting.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/setting.webp",
           alt: "sinatraSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
-          src: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/skillsPhotos/sinatraSkillsPhotos/recycle.webp",
+          src: "https://d3op2l77j7wnti.cloudfront.net/Images/skillsPhotos/sinatraSkillsPhotos/recycle.webp",
           alt: "sinatraSkillsPhotos/recycle.webp",
         },
         title: "Multi work adaptivity",

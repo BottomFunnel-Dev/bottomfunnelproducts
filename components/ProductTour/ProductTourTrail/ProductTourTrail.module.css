@@ -1,21 +1,51 @@
-.productTourTrailMainDiv{
+.productTourTrailMainDiv {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.productTourTrailMainDiv > p {
+  margin-top: 2%;
+}
+
+.productTourTrailMainDiv > button {
+  /* border: 2px solid red; */
+  width: 15%;
+  height: 45px;
+  background-color: #f88f1f;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+/* for any type of mobile screens responsive */
+
+@media (max-width: 480px) {
+  .productTourTrailMainDiv {
     /* border: 2px solid red; */
     width: 100%;
     height: auto;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 2%;
-}
-.productTourTrailMainDiv>p{
+  }
+
+  .productTourTrailMainDiv > p {
     margin-top: 2%;
-}
-.productTourTrailMainDiv>button{
+  }
+
+  .productTourTrailMainDiv > button {
     /* border: 2px solid red; */
-    width: 15%;
+    width: 25%;
     height: 45px;
-    background-color: #F88F1F;
+    background-color: #f88f1f;
     border: none;
     color: white;
     border-radius: 5px;
     margin-top: 2%;
+  }
 }

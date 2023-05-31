@@ -9,7 +9,7 @@ export const Unifiedcustomerbanner = () => {
     <div className={styles.unifiedcustomerbennerleftbox}>
     
     <lottie-player
-    src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/unifiedbanneranimation/Banner animation JSon file for Developers.json"
+    src="https://d3op2l77j7wnti.cloudfront.net/Animation/unifiedbanneranimation/Banner animation JSon file for Developers.json"
     background="transparent"
     speed="1"
     style={{ width: "100%", height: "100%",  }}

@@ -11,7 +11,7 @@ export const ServiceTools = () => {
         <div className={styles.ServiceToolsimagebox}>
             <div className={styles.ServiceToolsimageboxinner}>
             <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/screen1.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelservicephotos/screen1.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -35,7 +35,7 @@ export const ServiceTools = () => {
         <div className={styles.ServiceToolsimagebox}>
             <div className={styles.ServiceToolsimageboxinner}>
             <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/screens2.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelservicephotos/screens2.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
@@ -61,7 +61,7 @@ export const ServiceTools = () => {
         <div className={styles.ServiceToolsimagebox}>
             <div className={styles.ServiceToolsimageboxinner}>
             <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelservicephotos/screens3.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelservicephotos/screens3.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

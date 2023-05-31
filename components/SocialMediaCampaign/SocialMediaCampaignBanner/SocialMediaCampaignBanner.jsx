@@ -7,7 +7,7 @@ export const SocialMediaCampaignBanner = () => {
     <div className={styles.socialMediaBannerMaindiv}>
       <div className={styles.socialMediaBannerImage}>
         <Image
-            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SocialMediaCampaign/banner.webp"}
+            src={"https://d3op2l77j7wnti.cloudfront.net/Images/SocialMediaCampaign/banner.webp"}
             alt={"image"}
             width={"0"}
             height={"0"}

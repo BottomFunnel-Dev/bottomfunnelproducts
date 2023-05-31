@@ -9,14 +9,14 @@ export const MediaAndEntertainmentBanner = () => {
                     your story
                 </h1>
                 <p>Rich content is rapidly transforming customer expectations in
-the media and entertainment industry. Stand out from the
-competition by providing personalized customer experiences
-and fast customer support.</p>
+                    the media and entertainment industry. Stand out from the
+                    competition by providing personalized customer experiences
+                    and fast customer support.</p>
                 <button>Sign Up For Free</button>
             </div>
             <div className={styles.MediaAndEntertainmentBannerParentSecChild}>
                 <Image
-                    src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MediaAndEntertainment/banner.webp"}
+                    src={"https://d3op2l77j7wnti.cloudfront.net/Images/MediaAndEntertainment/banner.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

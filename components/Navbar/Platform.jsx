@@ -13,7 +13,7 @@ export const Platform = ({
       onMouseEnter={() => platformHoverIn()}
       onMouseLeave={() => platformHoverOut()}
       className={prods.platformVisible}
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "73px" : "73px" }}
     >
       <div className={prods.platformDropdownSection}>
         <div className={prods.platformDropdownContent}>
@@ -97,7 +97,7 @@ export const Platform = ({
               columnGap: "5px",
             }}
           >
-            <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/knowmore.png" />
+            <img src="https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/knowmore.png" />
             <h5> Know more</h5>
           </div>
           <p>What's New?</p>

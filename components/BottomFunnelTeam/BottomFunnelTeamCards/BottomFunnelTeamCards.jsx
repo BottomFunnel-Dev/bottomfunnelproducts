@@ -11,7 +11,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/recruit.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/recruit.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -27,7 +27,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/database.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/database.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -43,7 +43,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/administration.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/administration.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -60,7 +60,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/payroll.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/payroll.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -82,7 +82,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/appraisal.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/appraisal.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -98,7 +98,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/attendance.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/attendance.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -114,7 +114,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/hr report.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/hr report.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}
@@ -131,7 +131,7 @@ export const BottomFunnelTeamCards = () => {
             <div className={styles.BottomFunnelTeamCardsinnerdivcards}>
                 <div className={styles.BottomFunnelTeamCardsinnerdivimage}>
                 <Image
-  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/bottomfunnelteamsphotos/feature.webp"}
+  src={"https://d3op2l77j7wnti.cloudfront.net/Images/bottomfunnelteamsphotos/feature.webp"}
   alt={"image"}
   width={"0"}
   height={"0"}

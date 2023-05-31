@@ -15,7 +15,7 @@ export const WhatCustomObject = () => {
             <div className={styles.whatCustomDataContainer}>
                 <div className={styles.whatCustomDataBox1}>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/whatCustomObjectone.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/customObject/whatCustomObjectone.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -36,7 +36,7 @@ export const WhatCustomObject = () => {
                 </div>
                 <div className={styles.whatCustomDataBox1}>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/whatCustomObjectsec.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/customObject/whatCustomObjectsec.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}
@@ -49,7 +49,7 @@ export const WhatCustomObject = () => {
             <div className={styles.whatCustomDataContainer}>
                 <div className={styles.whatCustomDataBox1}>
                         <Image
-                            src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/customObject/whatCustomObjectthird.png"}
+                            src={"https://d3op2l77j7wnti.cloudfront.net/Images/customObject/whatCustomObjectthird.png"}
                             alt={"img"}
                             width={"0"}
                             height={"0"}

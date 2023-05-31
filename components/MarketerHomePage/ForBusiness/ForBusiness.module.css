@@ -1,6 +1,6 @@
 .ForBusinessdivmain{
     border: 2px solid transparent;
-    background: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/MarketerHomePagephotos/baground1.png");
+    background: url("https://d3op2l77j7wnti.cloudfront.net/Images/MarketerHomePagephotos/baground1.png");
     background-repeat: no-repeat;
     background-size: 100% 460px;
     background-position: center;
@@ -103,21 +103,7 @@
     }
     
     .ForBusinessdivcardimagecontain{
-        /* border: 2px solid green; */
         padding-left: 60px;
         padding-right: 60px;
-        /* width: 320px; */
-    }
-    .ForBusinessdivcardimagecontain h5{
-        margin: 0%;
-    }
-    .ForBusinessdivcardimagecontain p{
-        margin: 0%;
-        font-size: 14px;
-    }
-    .ForBusinessdivcardimage{
-        /* border: 2px solid yellowgreen; */
-        /* width: 50px; */
-    }
-    
+    }    
 }

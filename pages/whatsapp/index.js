@@ -1,23 +1,22 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-import { ProductsNavbar } from '../../components/Navbar/ProductsNavbar/ProductsNavbar'
-import { ProdNavbar } from '../../components/ProdNavbar'
-import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
-import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
-import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
-import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
-import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
-import { Whatasappcampaigns } from '../../components/Whatsappnew/Whatasappcampaigns'
-import { Whatsappbanner } from '../../components/Whatsappnew/Whatsappbanner'
-import { Whatsappbots } from '../../components/Whatsappnew/Whatsappbots'
-import { Whatsappcustomerexp } from '../../components/Whatsappnew/Whatsappcustomerexp'
-import { DeskFooter } from '../../components/DeskFooter/DeskFooter'
-
-
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
+import { ProdNavbar } from "../../components/ProdNavbar";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import { Whatasappcampaigns } from "../../components/Whatsappnew/Whatasappcampaigns";
+import { Whatsappbanner } from "../../components/Whatsappnew/Whatsappbanner";
+import { Whatsappbots } from "../../components/Whatsappnew/Whatsappbots";
+import { Whatsappcustomerexp } from "../../components/Whatsappnew/Whatsappcustomerexp";
+import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 
 const productData = {
   title: "Bottom Funnel Marketer",
-  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+  logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
   width: "45%",
   list1: {
     title: "Features",
@@ -76,34 +75,31 @@ const productData = {
   pricing: "",
 };
 
-
-export default function whatsapp  ()  {
+export default function whatsapp() {
   return (
-  
     <div style={{ color: "#393939" }}>
-    <Navbar
-      productMount={{
-        navMount: true,
-      }}
-      navredux={{
-        color: "black",
-        logo: false,
-      }}
-    />
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
-    <ProdNavbar data={productData} />
-    <Whatsappbanner />
-    <Whatsappbots />
-    <Whatsappcustomerexp />
-    <Whatasappcampaigns />
+      <MarketerNavbar data={productData} />
+      <Whatsappbanner />
+      <Whatsappbots />
+      <Whatsappcustomerexp />
+      <Whatasappcampaigns />
 
-    <TrustedBy />
-    <Testimonial />
-    <ReadyStarted />
-    <LifeBottomFunnel />
-    <DeskFooter/>
-    {/* <ProductsFooter /> */}
-
+      <TrustedBy />
+      <Testimonial />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+      <DeskFooter />
+      {/* <ProductsFooter /> */}
     </div>
-  )
+  );
 }

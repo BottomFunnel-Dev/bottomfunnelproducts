@@ -67,12 +67,7 @@
 }
 @media(max-width:780px){
     .LandingBrandParent{
-        margin-top: 5%;
-      
-        width: 90%;
-        margin-left: 5%;
-       margin-bottom: 5%;
-       text-align: center;
+        margin-top: 12%;
     }
     .LandingBrandParent>h1{
         text-align: center; 
@@ -84,31 +79,22 @@
        border-radius: 10px;
     }
     .LandingBrandChild{
-        
-        display: flex;
         flex-direction: column;
-       align-content: center;
-       align-items: center;
     }
     .LandingBrandChild>div{
-        margin-top: 2%;
-       width: 50%;
-       height: 100px;
+        margin-top: 6%;
+       width: 85%;
+       height: 65px;
        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    
-      padding: 2%;
+      
+      padding: 3%;
+      font-size: 16px;
     }
     .LandingBrandChild>div:hover{
-        width: 21%;
-        margin-left: 4%;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-       border-radius: 40px;
-       padding: 1%;
-       font-weight: bold;
+        width: 85%;
     } 
     .LandingBrandButtons{
         display: flex;
-       
        justify-content: space-between;
         
     }
@@ -124,12 +110,23 @@
         background-color: #c124c1;
         border-radius: 10px;
     }
+   .LandingBrandfilterChild{
+    margin-top: 10%;
+   }
     
     .LandingBrandPhotos>div{
-        
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
-        margin-top: 1%;
+    }
+    .LandingBrandPhotosfirstdiv{
+        flex-direction: column;
+    }
+    .LandingBrandPhotosfirstdiv>div{
+        margin-top: 3%;
+    }
+    .LandingBrandPhotossecdiv>div{
+        margin-top: 3%;
     }
 
 }

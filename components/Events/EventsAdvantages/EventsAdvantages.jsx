@@ -2,9 +2,9 @@
 import styles from "./EventsAdvantages.module.css"
 import Image from "next/image";
 export const EventsAdvantages = () => {
-    const eventsdata = [{img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconone.webp",hd:"Secure,Scalable,and reliable",p:"Minimize operational overhead through the use of no servers to manage. Plan for the events that you are willing to publish and pay for them."},
-    {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/icontwo.webp",hd:"Forget Automate Complex workflows tabs",p:"Automate specific and critical tasks allowing AWS Lambda to respond to events."},
-    {img:"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Event/iconthree.webp",hd:"More freedom to customers",p:"Easily access and engage with events in desired locations through the integration of other AWS services."}]
+    const eventsdata = [{img:"https://d3op2l77j7wnti.cloudfront.net/Images/Event/iconone.webp",hd:"Secure,Scalable,and reliable",p:"Minimize operational overhead through the use of no servers to manage. Plan for the events that you are willing to publish and pay for them."},
+    {img:"https://d3op2l77j7wnti.cloudfront.net/Images/Event/icontwo.webp",hd:"Forget Automate Complex workflows tabs",p:"Automate specific and critical tasks allowing AWS Lambda to respond to events."},
+    {img:"https://d3op2l77j7wnti.cloudfront.net/Images/Event/iconthree.webp",hd:"More freedom to customers",p:"Easily access and engage with events in desired locations through the integration of other AWS services."}]
     return (
         <div className={styles.eventsAdvantagesParent}>
             <div className={styles.eventsAdvantagesHeading}>

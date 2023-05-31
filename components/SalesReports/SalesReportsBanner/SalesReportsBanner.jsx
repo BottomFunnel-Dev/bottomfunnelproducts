@@ -15,7 +15,7 @@ export const SalesReportsBanner = () => {
             </div >
             <div className={style.SalesReportsBannermaindivimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/salesreportimage/banner.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/salesreportimage/banner.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

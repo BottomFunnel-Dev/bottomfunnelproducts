@@ -16,6 +16,7 @@ export default function Testimonial() {
       <i class="bi bi-arrow-left"></i>
     </button>
   );
+
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
     <button
       {...props}
@@ -44,7 +45,6 @@ export default function Testimonial() {
     touchMove: false,
     slidesToShow: 1,
     pauseOnHover: false,
-    autoplay: true,
     cssEase: "linear",
     arrows: true,
     prevArrow: <SlickArrowLeft />,
@@ -78,22 +78,35 @@ export default function Testimonial() {
 
   const data = [
     {
-      name: "Leslie al",
-      degination: "CEO, SPJ Electronics",
+      name: "Jai Kishan Tewani",
+      degination: "President & Partner, BlueBerry Group, SPJ Electronics, Next Holidays",
       desc: "it was a seamless experience with bottom funnel team, they built our consumer electronics brand spj electronics in the terms of web development and mobile applications development. we recommend bottom funnel team to everybody who have some technical requirements. at the same time it was a fun and great experience with the team",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/JaiKishanTiwani.png",
+      link: "https://www.linkedin.com/in/jai-kishan-tewani-b6b1a5148/",
+      logo: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/linkedin.png",
     },
     {
-      name: "Leslie al",
-      degination: "CEO, Next Holidays",
+      name: "Suresh Kirplani",
+      degination: "President & Partner, BlueBerry Group, SPJ Electronics",
       desc: "It was an great expreience with bottom funnel team. they have complete our D2C travel brand name called  Next Holidays We glad that we connect to the bottom funnel technical team. It was an insane experience with the team.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/SureshRectangle.png",
+      logo: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/linkedin.png",
     },
     {
-      name: "Leslie al",
-      degination: "CEO, Digital PT",
+      name: "Pradeep Kishnani",
+      degination: "Vice President & Partner, BlueBerry Group, SPJ Electronics",
       desc: "It was a wonderfull experience with the Bottom funnel developers team they build our B2C B2B Mobile app development & website development As per our requirement they were so calm & patient we thankfull for their efforts time & energy I hope will get an oppurtunity to work with the team again in future cheers.",
-      image: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/productsmainpage/Components/testimonial1.png",
+      image: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/PradeepRectangle.png",
+      link: "https://www.linkedin.com/in/kishnani-pradeep-31967951/",
+      logo: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/linkedin.png",
+    },
+    {
+      name: "Vineet Changulani",
+      degination: "Founder & CEO, TravelFlap, Bottom Funnel",
+      desc: "It was a wonderfull experience with the Bottom funnel developers team they build our B2C B2B Mobile app development & website development As per our requirement they were so calm & patient we thankfull for their efforts time & energy I hope will get an oppurtunity to work with the team again in future cheers.",
+      image: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/VineetChangulani.png",
+      link: "https://www.linkedin.com/in/vineet-changulani-b2b4aa1a0/",
+      logo: "https://dn6g7abak8oqz.cloudfront.net/Images/testimonialsImages/linkedin.png",
     },
   ];
 
@@ -107,13 +120,13 @@ export default function Testimonial() {
             <div key={index} className={styles.mainsliderDiv}>
               <div className={styles.slidingDiv}>
                 <div className={styles.imgpart}>
-                  <div className={styles.productBannerPlayIcon}>
-                    <i class="bi bi-play-circle"></i>
-                  </div>
                   <img src={item.image} alt="" />
                 </div>
                 <div className={styles.textpart}>
-                  <h3>{item.name}</h3>
+                  <div>
+                    <h3>{item.name}</h3>
+                    <a href={item.link}><img src={item.logo} /></a>
+                  </div>
                   <h6>{item.degination}</h6>
                   <p>{item.desc}</p>
                 </div>

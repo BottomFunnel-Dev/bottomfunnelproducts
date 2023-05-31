@@ -8,7 +8,7 @@ export const SalesResources = ({ saleResIn, saleResOut, scroll }) => {
       onMouseEnter={saleResIn}
       onMouseLeave={saleResOut}
       className={stylesale.saleResourceMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div className={stylesale.saleResourceListItems} style={{ width: "100%" }}>
         {salesResources.map((item, i) => (

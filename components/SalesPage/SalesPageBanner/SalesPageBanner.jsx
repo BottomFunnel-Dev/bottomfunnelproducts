@@ -9,7 +9,7 @@ export const SalesPageBanner = () => {
         <div className={style.SalesPageBannermainboximage}>
           <lottie-player
             src={
-              "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Animation/saleshomepage/Sales.json"
+              "https://d3op2l77j7wnti.cloudfront.net/Animation/saleshomepage/Sales.json"
             }
             background="transparent"
             speed="1"

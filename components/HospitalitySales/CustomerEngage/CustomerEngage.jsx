@@ -19,7 +19,7 @@ export const CustomerEngage = () => {
         <div className={styles.CustomerEngagelogodiv}>
           <div className={styles.CustomerEngagelogodivimage}>
           <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/customer.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/customer.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -33,7 +33,7 @@ export const CustomerEngage = () => {
         <div className={styles.CustomerEngagelogodiv}>
           <div className={styles.CustomerEngagelogodivimage}>
           <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/delivered.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/delivered.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -48,7 +48,7 @@ export const CustomerEngage = () => {
         <div className={styles.CustomerEngagelogodiv}>
           <div className={styles.CustomerEngagelogodivimage}>
           <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/Frame.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/Frame.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -63,7 +63,7 @@ export const CustomerEngage = () => {
         <div className={styles.CustomerEngagelogodiv}>
           <div className={styles.CustomerEngagelogodivimage}>
           <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/hospitalitysalesphotos/user-engagement.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/user-engagement.webp"}
                         alt={"img"}
                         width={"0"}
                         height={"0"}

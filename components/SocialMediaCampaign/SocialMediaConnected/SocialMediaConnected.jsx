@@ -11,7 +11,7 @@ export const SocialMediaConnected = () => {
                 <h1>Drive business results</h1>
                 <div className={styles.socialmediaConnectedImage}>
                    <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SocialMediaCampaign/vector1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/SocialMediaCampaign/vector1.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -27,7 +27,7 @@ export const SocialMediaConnected = () => {
                 <h1>Drive business results</h1>
                 <div className={styles.socialmediaConnectedImage}>
                    <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SocialMediaCampaign/vector1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/SocialMediaCampaign/vector1.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -43,7 +43,7 @@ export const SocialMediaConnected = () => {
                 <h1>Drive business results</h1>
                 <div className={styles.socialmediaConnectedImage}>
                    <Image
-                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/SocialMediaCampaign/vector1.webp"}
+                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/SocialMediaCampaign/vector1.webp"}
                         alt={"image"}
                         width={"0"}
                         height={"0"}

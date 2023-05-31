@@ -11,10 +11,11 @@ import { ProductTourTrail } from "../../components/ProductTour/ProductTourTrail/
 import { ProductTourVideos } from "../../components/ProductTour/ProductTourVideos/ProductTourVideos";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
+import { MarketerNavbar } from "../../components/MarketerNavbar";
 
 const productData = {
   title: "Bottom Funnel Marketer",
-  logo: "https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/navbar/product/Market.png",
+  logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
   width: "45%",
   list1: {
     title: "Features",
@@ -75,7 +76,6 @@ const productData = {
 
 export default function ProductTour() {
   return (
-
     <>
       <div style={{ color: "#393939" }}>
         <Navbar
@@ -87,18 +87,20 @@ export default function ProductTour() {
             logo: false,
           }}
         />
-        <ProdNavbar data={productData} />
-        <ProductTourBanner/>
-        <ProductTourVideos/>
-        <ProductTourTrail/>
 
-        <Testimonial/>
-        <TrustedBy/>
+        <MarketerNavbar data={productData} />
+        
+        <ProductTourBanner />
+        <ProductTourVideos />
+        <ProductTourTrail />
 
-        <ReadyStarted/>
+        <Testimonial />
+        <TrustedBy />
+
+        <ReadyStarted />
         {/* <TalentProfiles/> */}
-        <LifeBottomFunnel/>
-        <DeskFooter/>
+        <LifeBottomFunnel />
+        <DeskFooter />
         {/* <ProductsFooter/> */}
       </div>
     </>

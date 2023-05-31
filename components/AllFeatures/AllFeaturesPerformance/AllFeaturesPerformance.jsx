@@ -6,8 +6,8 @@ export const AllFeaturesPerformance = () => {
   return (
     <div className={styles.allFeaturesPerformanceMainDiv}>
         <div className={styles.allFeaturesPerformanceHeading}>
-           <h1>Keep track of marketting performance</h1>
-           <p>Improve performance with actionable insights from campaigns</p>
+           <h1>Keep track of marketing campaigns </h1>
+           <p>Improve performance with in-depth insights from campaigns</p>
         </div>
             <div className={styles.allFeaturesPerformanceContainerBoxes}>
                  
@@ -17,7 +17,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>E-commerce Dashboard</h3>
                                 <div className={styles.allFeaturesPerformanceImage1}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle21.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle21.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -28,9 +28,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                    Track store performance with the out-of-the-box dashboard.
-                                    The data is synced in real-time so you can view key metrics like total
-                                    sales this month, total orders this month, and more right from Bottom Funnel Marketer.
+                                Gain Real-time Insights, Monitor Sales Performance, Track Customer Behavior, Optimize Marketing Strategies, and Drive Business Growth. Make Data-driven Decisions and Maximize Your E-commerce Potential with our User-friendly and Comprehensive Dashboard Solution.
                                 </p>
                             </div>
                         </div>
@@ -39,7 +37,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>Email & SMS performance dashboard</h3>
                                 <div className={styles.allFeaturesPerformanceImage2}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle22.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle22.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -50,8 +48,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                   Analyze Campaign performance with key metrics to understand
-                                   open rates, click rates, and more.
+                                Track Open Rates, Click-through Rates, and Conversion Rates Analyze Engagement Metrics, Identify Trends, and Fine-tune Your Messaging. Gain Actionable Insights to Enhance Campaign Effectiveness and Drive Higher ROI for Your Email and SMS Marketing Efforts.
                                 </p>
                             </div>
                         </div>
@@ -60,7 +57,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>Revenue attribution</h3>
                                 <div className={styles.allFeaturesPerformanceImage3}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle23.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle23.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -71,8 +68,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                    Track which campaigns are leading to higher conversions with
-                                    attribution reports.Get insights into best-performing email,SMS,WhatsApp, and journey campaigns. 
+                                Accurately Measure the Impact of Your Marketing Efforts on Sales. Track Revenue Generated from Email, SMS, Chat, and Other Channels, Identify High-Performing Campaigns, Optimize Your Marketing Strategy, and Drive Revenue Growth with Data-Driven Insights. 
                                 </p>
                             </div>
                         </div>
@@ -81,7 +77,7 @@ export const AllFeaturesPerformance = () => {
                                 <h3>Conversion Rate Optimization</h3>
                                 <div className={styles.allFeaturesPerformanceImage4}>
                                     <Image
-                                        src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/allFeatures/Rectangle24.webp"}
+                                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/allFeatures/Rectangle24.webp"}
                                         alt={"image"}
                                         width={"0"}
                                         height={"0"}
@@ -92,7 +88,7 @@ export const AllFeaturesPerformance = () => {
                             </div>
                             <div className={styles.allFeaturesPerformanceText}>
                                 <p>
-                                   Improve website conversions with real-time data A/B Testing, Haetmaps, Session Replay, and more.
+                                Analyze User Behavior, Identify Bottlenecks, and Implement Data-Driven Strategies to Increase Conversion Rates. Optimize Landing Pages, Forms, and User Flows, Personalize User Experiences, and Maximize ROI for Your E-commerce Business.
                                 </p>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ export const CustomerSuccessFeature = ({ solFeaIn, solFeaOut, scroll }) => {
       onMouseEnter={solFeaIn}
       onMouseLeave={solFeaOut}
       className={featurestyle.customerSuccessMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div
         className={featurestyle.customerSuccessListItems}

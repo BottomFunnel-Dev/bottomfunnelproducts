@@ -15,7 +15,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon8.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon8.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -34,7 +34,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon9.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon9.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -52,7 +52,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon10.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon10.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -73,7 +73,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon12.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon12.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -92,7 +92,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon13.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon13.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -110,7 +110,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon14.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon14.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -131,7 +131,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon16.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon16.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -150,7 +150,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon17.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon17.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -168,7 +168,7 @@ export const GuideToShopFyCannel = () => {
 
 
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/GuideToShopFy/icon15.png"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/GuideToShopFy/icon15.png"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

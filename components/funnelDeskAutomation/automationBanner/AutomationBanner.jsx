@@ -14,7 +14,7 @@ export const AutomationBanner = () => {
       <span>
         <div className={styles.funneldeskautomationImage}>
         <Image
-          src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/funneldeskAutomation/banner.webp"
+          src="https://d3op2l77j7wnti.cloudfront.net/Images/funneldeskAutomation/banner.webp"
           alt="Picture of the author"
           width={"0"}
           height={"0"}

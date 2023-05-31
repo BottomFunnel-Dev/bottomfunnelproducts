@@ -8,7 +8,7 @@ export const HealthcareCrm = () => {
        <div className={styles.HealthcareCrmdiv}>
         <div className={styles.HealthcareCrmdivimage}>
         <Image
-      src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/healthcaresales/question.webp"}
+      src={"https://d3op2l77j7wnti.cloudfront.net/Images/healthcaresales/question.webp"}
       alt={"img"}
       width={"0"}
       height={"0"}

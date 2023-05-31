@@ -6,7 +6,7 @@ export const AboutusBanner = () => {
   return (
     <div className={styles.aboutusBanner}>
       {/* <div className={styles.aboutusbannerimage}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/aboutusImage/banner.jpg" alt="About us banner" />
+        <img src="https://d3op2l77j7wnti.cloudfront.net/Images/aboutusImage/banner.jpg" alt="About us banner" />
       </div> */}
 
       <div className={styles.aboutusbannercontent}>

@@ -11,10 +11,10 @@ const Digital = () => {
           />
         </div>
         <div className={styles.digitalcontentcontainer}>
-          <h2>So effortless, you won't notice what makes Freshdesk great.</h2>
+          <h2>So effortless, you won't notice what makes Bottom funnel desk great.</h2>
           <p>
             Deliver a seamless experience across digital and traditional
-            channels with Freshdesk Omnichannel.
+            channels with Bottom funnel desk Omnichannel.
           </p>
           <a href="#">Learn More →</a>
         </div>

@@ -16,7 +16,7 @@ export const OmnichannelSolution = () => {
                 <h5>Delight customers effortlessly</h5>
                 <div className={styles.OmnichannelSolutionimage}>
                 <Image
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/logo1.webp"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Images/Bottomfunnelomnichannelphotos/logo1.webp"}
                   alt={"Image"}
                   width={"0"}
                   height={"0"}
@@ -31,7 +31,7 @@ export const OmnichannelSolution = () => {
                 <h5>Make every agent a customer champion</h5>
                 <div className={styles.OmnichannelSolutionimage}>
                 <Image
-                  src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/logo2.webp"}
+                  src={"https://d3op2l77j7wnti.cloudfront.net/Images/Bottomfunnelomnichannelphotos/logo2.webp"}
                   alt={"Image"}
                   width={"0"}
                   height={"0"}
@@ -47,7 +47,7 @@ export const OmnichannelSolution = () => {
                 <h5>Skyrocket the speed of service</h5>
                 <div className={styles.OmnichannelSolutionimage}>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Bottomfunnelomnichannelphotos/logo3.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/Bottomfunnelomnichannelphotos/logo3.webp"}
           alt={"Image"}
           width={"0"}
           height={"0"}

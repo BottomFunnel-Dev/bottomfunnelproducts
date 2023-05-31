@@ -21,8 +21,9 @@
 
 .productFooterLogoDiv > img {
   width: 30%;
-  margin-left: 7%;
+  margin-left: 5%;
   object-fit: cover;
+  /* border: 2px solid red; */
 }
 
 .productsFooterSideButtons {
@@ -32,7 +33,10 @@
   margin-top: 1%;
   margin-left: 20%;
 }
-
+.productFooterLogoDiv1{
+  /* border: 2px solid red; */
+  margin-left: 17%;
+}
 .productsFooterCallToAction {
   background-color: #ffeae5;
   border: 1px solid #ef4c23;
@@ -136,14 +140,14 @@
   font-weight: 600;
   /* margin-left: -5%; */
   /* border: 2px solid red; */
-  width: 50%;
+  width: 30%;
 }
 
 .productsfooterSocialMediaSection {
   display: flex;
-  width: 100%;
+  width:7%;
   justify-content: center;
-  margin: 5px 0;
+  /* margin: 0px 0; */
   column-gap: 16px;
   /* border: 2px solid yellow; */
 }
@@ -169,21 +173,22 @@
 
 .productFooterBottomDivImagesDiv {
   /* border: 1px solid gold; */
-  width: 50%;
-  margin-left: 16%;
+  width:20%;
+  margin-left: 27%;
+  margin-top: 1%;
 }
 
 .productFooterBottomDivImagesDiv > p {
   margin-top: 0%;
   margin-bottom: 1%;
-  margin-left: 35%;
+  /* margin-left: 35%; */
   font-weight: 500;
 }
 
 .productFooterBottomDivImagesDiv > div {
   /* border: 1px solid red; */
-  width: 50%;
-  margin-left: 35%;
+  width: 100%;
+  /* margin-left: 35%; */
 }
 
 .productFooterBottomDivImagesDiv > div > img {
@@ -198,9 +203,9 @@
   border-top: 1px solid black;
   height: 60px;
   display: flex;
-  width: 89%;
+  width: 94%;
   margin-left: 2%;
-  margin-top: 1%;
+  margin-top: 2%;
   flex-direction: row;
 }
 
@@ -234,7 +239,10 @@
   margin-left: 1%;
   object-fit: contain;
 }
-
+.productFooterBottomDivHeading>p>a{
+  color: #393939;
+  text-decoration: none;
+}
 /* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
@@ -268,6 +276,8 @@
   }
   .productFooterLogoDiv1 {
     width: 100%;
+    /* border: 2px solid red; */
+    margin: auto;
   }
   .productFooterLogoDiv > img {
     width: 100%;
@@ -334,19 +344,24 @@
   }
 
   .productsFooterSocialMediaLogos > p {
-    margin: 0;
-    width: 70%;
+    /* margin: 0; */
+    width: 40%;
     margin-top: 2%;
+    /* border: 2px solid red; */
   }
 
   .productsFooterSocialMediaLogos {
     width: 100%;
-    justify-content: space-around;
-    padding: 5px 0;
+    /* justify-content: space-around; */
+    /* padding: 5px 0; */
+    /* border: 2px solid red; */
   }
 
   .productsfooterSocialMediaSection {
     justify-content: space-around;
+    /* border: 2px solid yellow; */
+    margin-left: 25%;
+    margin-top: 1%;
   }
 
   .productPagesocialIcons {

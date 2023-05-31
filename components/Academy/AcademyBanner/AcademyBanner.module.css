@@ -1,67 +1,97 @@
-.academyBanner{
-    /* border: 2px solid red; */
+.academyBanner {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/academy/bg.png");
+}
+.academyBannerImage {
+  /* border: 2px solid red; */
+  width: 45%;
+  height: 500px;
+  margin-top: 1.5%;
+  margin-left: 5%;
+}
+.academyHeading {
+  /* border: 2px solid red; */
+  width: 32%;
+  color: white;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.academyHeading > h2 {
+  font-size: 45px;
+}
+.academyHeading > p {
+  font-size: 22px;
+}
+.academyHeading > button {
+  background-color: white;
+  color: #ef4c23;
+  border: none;
+  /* border: 2px solid #EF4C23; */
+  width: 30%;
+  height: 45px;
+  border-radius: 8px;
+}
+.academyHeading > button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.academyButton {
+  margin-left: 2%;
+}
+
+@media (max-width: 480px) {
+  .academyBanner {
+    /* border: 2px solid green; */
+    flex-direction: column;
+    height: 90vh;
+  }
+
+  .academyBannerImage {
+    /* border: 2px solid yellow; */
+    height: fit-content;
     width: 100%;
-    height: 70vh;
-    display: flex;
-    flex-direction: row;
-    background-image: url("https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/academy/bg.png");
-}
-.academyBannerImage{
-    /* border: 2px solid red; */
-    width:45%;
-    height: 500px;
-    margin-top: 1.5%;
-    margin-left: 5%;
-}
-.academyHeading{
-    /* border: 2px solid red; */
-    width: 32%;
+    margin: 0%;
+    margin-top: 2%;
+  }
+
+  .academyHeading {
+    /* border: 2px solid green; */
+    width: 90%;
     color: white;
-    margin-top: 10%;
-    margin-left: 10%;
-}
-.academyHeading>h2{
+    margin: auto;
+    margin-top: 2%;
+  }
+
+  .academyHeading > h2 {
     font-size: 45px;
-}
-.academyHeading>p{
+  }
+  
+  .academyHeading > p {
     font-size: 22px;
-}
-.academyHeading>button{
+  }
+  
+  .academyHeading > button {
     background-color: white;
-    color: #EF4C23;
+    color: #ef4c23;
     border: none;
     /* border: 2px solid #EF4C23; */
     width: 30%;
     height: 45px;
     border-radius: 8px;
-}
-.academyHeading>button:hover{
+  }
+  
+  .academyHeading > button:hover {
     background-color: transparent;
     border: 2px solid white;
     color: white;
-}
-.academyButton{
+  }
+  
+  .academyButton {
     margin-left: 2%;
-}
-
-@media(max-width:480px){
-    .academyBanner{
-        /* border: 2px solid green; */
-        flex-direction: column-reverse;
-        height: 78vh;
-    }
-    .academyBannerImage{
-        /* border: 2px solid yellow; */
-        height:450px;
-        width: 100%;
-        margin: 0%;
-        margin-top: 2%;
-    }
-    .academyHeading{
-        /* border: 2px solid green; */
-        width: 90%;
-        color: white;
-        margin:auto;
-        margin-top: 2%;
-    }
+  }
 }

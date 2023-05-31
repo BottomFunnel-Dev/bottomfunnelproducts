@@ -9,7 +9,7 @@ export const ServiceSolutions = ({ serSolHoverIn, serSolHoverOut, scroll }) => {
       onMouseEnter={serSolHoverIn}
       onMouseLeave={serSolHoverOut}
       className={deskstyle.serviceMainDiv}
-      style={{ top: scroll ? "6.5%" : "15%" }}
+      style={{ top: scroll ? "9%" : "18%" }}
     >
       <div className={deskstyle.serviceSolListItems} style={{ width: "100%" }}>
         {serviceSolution.map((item, i) => (

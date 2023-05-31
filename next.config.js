@@ -5,16 +5,17 @@ const nextConfig = {
   
   images: {
     reactStrictMode: true,
-    domains: ["bottom-funnel-product.s3.ap-south-1.amazonaws.com"],
+    domains: ["d3op2l77j7wnti.cloudfront.net"],
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "bottom-funnel-product.s3.ap-south-1.amazonaws.com",
+        hostname: "d3op2l77j7wnti.cloudfront.net",
         port: "",
         pathname: "/**",
       },
     ],
   },
+
 
   async redirects() {
     return [
@@ -145,6 +146,138 @@ const nextConfig = {
         permanent: true,
         basePath: false,
       },
+      {
+        source: "/funneldesk",
+        destination: "/bottomfunnel-support-desk",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/marketer",
+        destination: "/bottomfunnel-marketer",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/sales",
+        destination: "/bottomfunnel-sales",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/bottomfunnelservice",
+        destination: "/bottomfunnel-service",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/customersuccess",
+        destination: "/bottomfunnel-customersuccess",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/contact-center",
+        destination: "/bottomfunnel-contact-center",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/messagingchannel",
+        destination: "/bottomfunnelchat/messagingchannel",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/features/ticketing",
+        destination: "/bottomfunnel-support-desk/ticketing",
+        permanent: true,
+      },
+      {
+        source: "/funneldesk/features/collaboration",
+        destination: "/bottomfunnel-support-desk/collaboration",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/features/automation",
+        destination: "/bottomfunnel-support-desk/automation",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/features/helpwidget",
+        destination: "/bottomfunnel-support-desk/helpwidget",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/features/reportandanalysis",
+        destination: "/bottomfunnel-support-desk/reportandanalysis",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/features/security",
+        destination: "/bottomfunnel-support-desk/security",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/features/integration",
+        destination: "/bottomfunnel-support-desk/integration",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/features",
+        destination: "/bottomfunnel-support-desk/features",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/solutions/enterprise",
+        destination: "/bottomfunnel-support-desk/enterprise",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/solutions/smb",
+        destination: "/bottomfunnel-support-desk/smb",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/solutions/selfservice",
+        destination: "/bottomfunnel-support-desk/selfservice",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/solutions/fieldservicemanagement",
+        destination: "/bottomfunnel-support-desk/fieldservicemanagement",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/solutions/retailandecommerce",
+        destination: "/bottomfunnel-support-desk/retailandecommerce",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/funneldesk/solutions/travel-and-hospitality",
+        destination: "/bottomfunnel-support-desk/travel-and-hospitality",
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: "/team-inbox",
+        destination: "/bottomfunnelchat/messagingchannel",
+        permanent: true,
+        basePath: false,
+      },
+
     ];
   },
 };

@@ -5,7 +5,7 @@ export const CollaborationBanner = () => {
   return (
     <div className={styles.CollaborationBannerContainer}>
       <div className={styles.CollaborationBannerImage}>
-        <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/collaborationPhotos/banner.gif" alt="banner.webp" />
+        <img src="https://d3op2l77j7wnti.cloudfront.net/Images/collaborationPhotos/banner.gif" alt="banner.webp" />
       </div>
       <div className={styles.CollaborationBannerContent}>
         <h1>

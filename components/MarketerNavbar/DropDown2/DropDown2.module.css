@@ -4,8 +4,8 @@
     width: 13%;
     height: fit-content;
     position: fixed;
-    top: 50px;
-    left: 40%;
+    top: 55px;
+    left: 45%;
     z-index: 100000000;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     /* border: 2px solid red; */
@@ -60,13 +60,13 @@
 }
 
 .productFeatureData .productlinkP>p:hover {
-    color: #FEBC06;
+    color: #F78F1E;
 }
 
 .productFeatureData:hover {
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     background-color: lightgray;
-    border-left: 3px solid #FEBC06;
+    border-left: 3px solid #F78F1E;
 }
 
 .productFeaturesAllFeaturesButton {
@@ -93,7 +93,7 @@
 }
 
 .productFeaturesAllFeaturesButton>button:hover {
-    background-color: #FEBC06;
+    background-color: #F78F1E;
     color: white;
-    border: 1px solid #FEBC06;
+    border: 1px solid #F78F1E;
 }

@@ -1,16 +1,14 @@
 
 .JourneyCustomerExperiencemain{
     background-color: whitesmoke;
-    margin-top: 2%;
+    margin-top: 5%;
     padding-top: 1%;
 }
 
 .JourneyCustomerExperienceParent{
-    height: auto;
-   
+    height: auto; 
 }
-.JourneyCustomerExperienceOnlyChild{
-   
+.JourneyCustomerExperienceOnlyChild{ 
     display: flex;
     width: 90%;
    margin-left: 5%;
@@ -20,11 +18,10 @@
 .JourneyCustomerExperienceOnlyChild>div{
     width: 43%;
     padding-top: 2%;
-   
-   
 }
 .JourneyCustomerExperiencemainheading{
-    width: 80%;
+    width: 72%;
+    text-align: center;
     margin-left: 10%;
     margin-top: 3%;
 }
@@ -32,50 +29,30 @@
    margin-top: 2%;
 font-size: 28px;
 }
-.JourneyCustomerExperiencelistdiv>p{
-    margin: 0px;
-}
-.JourneyCustomerExperiencelistdiv>li{
-    margin: 0px;
-}
+
 @media(max-width:780px){
     .JourneyCustomerExperiencemain{
         padding-top: 2%;
         background-color: whitesmoke;
     }
     
-    .JourneyCustomerExperienceParent{
-        height: auto;
-       
-    }
     .JourneyCustomerExperienceOnlyChild{
         margin-top: 5%;
         display: flex;
         flex-direction: column;
-      
-        width: 90%;
-       margin-left: 5%;
+        width: 90%; 
     }
     .JourneyCustomerExperienceOnlyChild>div{
         width: 100%;
         padding-top: 2%;
-        margin-top: 5%;
-       
+        margin-top: 5%;  
     }
     .JourneyCustomerExperiencemainheading{
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin: auto;
         margin-top: 3%;
     }
-    .JourneyCustomerExperiencePara{
-       margin-top: 2%;
-    font-size: 28px;
-    }
-    .JourneyCustomerExperiencelistdiv>p{
-        margin: 0px;
-    }
-    .JourneyCustomerExperiencelistdiv>li{
-        margin: 0px;
-    }
+  
+    
    
 }

@@ -31,7 +31,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -46,7 +46,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -61,7 +61,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -75,7 +75,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -89,7 +89,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -104,7 +104,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -118,7 +118,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -135,7 +135,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -149,7 +149,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -164,7 +164,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -178,7 +178,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -193,7 +193,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -207,7 +207,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -221,7 +221,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -236,7 +236,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -268,7 +268,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -284,7 +284,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -302,7 +302,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -316,7 +316,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -332,7 +332,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -350,7 +350,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -365,7 +365,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -381,7 +381,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -396,7 +396,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -410,7 +410,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -425,7 +425,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -439,7 +439,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -455,7 +455,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -469,7 +469,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -507,7 +507,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -523,7 +523,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -540,7 +540,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -555,7 +555,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -570,7 +570,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -589,7 +589,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -605,7 +605,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -620,7 +620,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -634,7 +634,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -649,7 +649,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -663,7 +663,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -679,7 +679,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -714,7 +714,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -730,7 +730,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -746,7 +746,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -761,7 +761,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -777,7 +777,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -823,7 +823,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -838,7 +838,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -853,7 +853,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -867,7 +867,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -881,7 +881,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -896,7 +896,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -910,7 +910,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -927,7 +927,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -941,7 +941,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -956,7 +956,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -970,7 +970,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -985,7 +985,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -999,7 +999,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1013,7 +1013,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1028,7 +1028,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1060,7 +1060,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1076,7 +1076,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1094,7 +1094,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1108,7 +1108,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1124,7 +1124,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1142,7 +1142,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1157,7 +1157,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1173,7 +1173,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1188,7 +1188,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1202,7 +1202,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1217,7 +1217,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1231,7 +1231,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1247,7 +1247,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1261,7 +1261,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1299,7 +1299,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1315,7 +1315,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1332,7 +1332,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1347,7 +1347,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1362,7 +1362,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1381,7 +1381,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1397,7 +1397,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1412,7 +1412,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1426,7 +1426,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1441,7 +1441,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1455,7 +1455,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1471,7 +1471,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1506,7 +1506,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1522,7 +1522,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1538,7 +1538,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1553,7 +1553,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1569,7 +1569,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1616,7 +1616,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1631,7 +1631,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1646,7 +1646,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1660,7 +1660,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1674,7 +1674,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1689,7 +1689,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1703,7 +1703,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1720,7 +1720,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1734,7 +1734,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1749,7 +1749,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1763,7 +1763,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1778,7 +1778,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1792,7 +1792,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1806,7 +1806,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1821,7 +1821,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1853,7 +1853,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1869,7 +1869,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1887,7 +1887,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1901,7 +1901,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1917,7 +1917,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1935,7 +1935,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1950,7 +1950,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1966,7 +1966,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1981,7 +1981,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -1995,7 +1995,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2010,7 +2010,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2024,7 +2024,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2040,7 +2040,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2054,7 +2054,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2092,7 +2092,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2108,7 +2108,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2125,7 +2125,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2140,7 +2140,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2155,7 +2155,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2174,7 +2174,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2190,7 +2190,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2205,7 +2205,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2219,7 +2219,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2234,7 +2234,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2248,7 +2248,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2264,7 +2264,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2299,7 +2299,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2315,7 +2315,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2331,7 +2331,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2346,7 +2346,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2362,7 +2362,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2408,7 +2408,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2423,7 +2423,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2438,7 +2438,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2452,7 +2452,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2466,7 +2466,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2481,7 +2481,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2495,7 +2495,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2512,7 +2512,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2526,7 +2526,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2541,7 +2541,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2555,7 +2555,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2570,7 +2570,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2584,7 +2584,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2598,7 +2598,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2613,7 +2613,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2645,7 +2645,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2661,7 +2661,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2679,7 +2679,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2693,7 +2693,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2709,7 +2709,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2727,7 +2727,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2742,7 +2742,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2758,7 +2758,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2773,7 +2773,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2787,7 +2787,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2802,7 +2802,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2816,7 +2816,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2832,7 +2832,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2846,7 +2846,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2884,7 +2884,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2900,7 +2900,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2917,7 +2917,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2932,7 +2932,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2947,7 +2947,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2966,7 +2966,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2982,7 +2982,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -2997,7 +2997,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3011,7 +3011,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3026,7 +3026,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3040,7 +3040,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3056,7 +3056,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3091,7 +3091,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3107,7 +3107,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3123,7 +3123,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3138,7 +3138,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3154,7 +3154,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3200,7 +3200,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3215,7 +3215,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3230,7 +3230,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3244,7 +3244,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3258,7 +3258,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3273,7 +3273,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3287,7 +3287,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3304,7 +3304,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3318,7 +3318,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3333,7 +3333,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3347,7 +3347,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3362,7 +3362,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3376,7 +3376,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3390,7 +3390,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3405,7 +3405,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3437,7 +3437,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3453,7 +3453,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3471,7 +3471,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3485,7 +3485,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3501,7 +3501,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3519,7 +3519,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3534,7 +3534,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3550,7 +3550,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3565,7 +3565,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3579,7 +3579,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3594,7 +3594,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3608,7 +3608,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3624,7 +3624,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3638,7 +3638,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3676,7 +3676,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3692,7 +3692,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3709,7 +3709,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3724,7 +3724,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3739,7 +3739,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3758,7 +3758,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3774,7 +3774,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3789,7 +3789,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3803,7 +3803,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3818,7 +3818,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3832,7 +3832,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3848,7 +3848,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3883,7 +3883,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3899,7 +3899,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3915,7 +3915,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}
@@ -3930,7 +3930,7 @@ export const PricingBanner = ({ props }) => {
                     <div className={styles.PricingTrailcheckdiv}>
                         <div>
                             <Image
-                                src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/Pricing/Rigth.webp"}
+                                src={"https://d3op2l77j7wnti.cloudfront.net/Images/Pricing/Rigth.webp"}
                                 alt={"img"}
                                 width={"0"}
                                 height={"0"}

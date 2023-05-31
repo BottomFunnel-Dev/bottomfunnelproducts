@@ -15,7 +15,7 @@ export const ProductsFooter = () => {
         <div className={styles.productsFooterParentDiv}>
             <div className={styles.productsFooterTopImagesMainDiv}>
                 <div className={styles.productFooterLogoDiv}>
-                    <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
+                    <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/MainHorizontalLogo.png' alt='image' />
                 </div>
 
                 <div className={styles.productFooterLogoDiv1}>
@@ -78,7 +78,7 @@ export const ProductsFooter = () => {
 
                         <Link className={styles.productFooterLinkTag} href={"/customersuccess"}>
                             <li>
-                                BottomFunnel Customer Success
+                                BottomFunnel Customer <br/>Success
                             </li>
                         </Link>
                     </ul>
@@ -295,8 +295,8 @@ export const ProductsFooter = () => {
                     <div className={styles.productFooterBottomDivImagesDiv}>
                         <p> Download the apps now</p>
                         <div>
-                            <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/PlayStore.png' alt='image' />
-                            <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/AppStore.png' alt='image' />
+                            <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/PlayStore.png' alt='image' />
+                            <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/AppStore.png' alt='image' />
                         </div>
                     </div>
                 </div>
@@ -304,13 +304,13 @@ export const ProductsFooter = () => {
                 <div className={styles.productFooterBottomContentDiv}>
                     <div className={styles.productFooterBottomDivHeading}>
                         <p>
-                            ©2022 All rights reserved to the Bottom-Funnel Private Limited
+                            ©2022 All rights reserved to the Bottom-Funnel Private Limited  <a href='/privacy-policy'>Privacy Policy</a>
                         </p>
                     </div>
 
                     <div className={styles.productFooterBottomDivPaymentImage}>
                         <p> We accept: </p>
-                        <img src='https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/ProductsPage/Footer/PaymentGroup.png' alt='image' />
+                        <img src='https://d3op2l77j7wnti.cloudfront.net/Images/ProductsPage/Footer/PaymentGroup.png' alt='image' />
                     </div>
                 </div>
             </div>

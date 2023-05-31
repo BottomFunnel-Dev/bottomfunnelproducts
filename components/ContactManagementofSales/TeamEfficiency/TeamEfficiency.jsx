@@ -12,7 +12,7 @@ export const TeamEfficiency = () => {
              <div className={styles.TeamEfficiencyinnerdivimage}>
                 <div>
                 <Image
-          src={"https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/contactmanagementofsalesphotos/Frame.webp"}
+          src={"https://d3op2l77j7wnti.cloudfront.net/Images/contactmanagementofsalesphotos/Frame.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

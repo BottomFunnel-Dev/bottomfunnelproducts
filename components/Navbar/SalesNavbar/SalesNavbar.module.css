@@ -1,8 +1,9 @@
 .productsnavbar {
   width: 100%;
-  height: 60px;
+  height: 75px;
   position: fixed;
-
+  margin-top: 1%;
+  /* border: 2px solid red; */
   transition: top 100ms ease-in-out;
   z-index: 1000;
   display: flex;

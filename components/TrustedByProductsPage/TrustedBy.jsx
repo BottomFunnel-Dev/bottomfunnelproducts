@@ -27,7 +27,7 @@ function SamplePrevArrow(props) {
 const TrustedBy = () => {
   var settings = {
     autoplay: true,
-    autoplaySpeed: 0,
+    autoplaySpeed: 100,
     cssEase: "linear",
     speed: 9000,
     slidesToShow: 7,
@@ -76,7 +76,7 @@ const TrustedBy = () => {
 
           <p>
             We are a leading provider of the modern SaaS solutions that solve multiple, complex business problems to
-            companies of all sizes. Businesses from more than 120 countries around the world use Freshworks products to
+            companies of all sizes. Businesses from more than 120 countries around the world use Bottom Funnel products to
             delight their customers and employees every day.
           </p>
         </div>
@@ -86,51 +86,99 @@ const TrustedBy = () => {
         <Slider {...settings}>
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/bluenile.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/bluenile.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/brewdos.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/brewdos.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
               <img
-                src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/bridgestone.png" alt="image"
+                src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/bridgestone.png" alt="image"
               />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/fiver.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/fiver.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/itv.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/itv.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/klarna.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/klarna.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/multichoice.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/multichoice.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://bottom-funnel-product.s3.ap-south-1.amazonaws.com/Images/TrustedBy/travix.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travix.png" alt="image" />
+            </div>
+          </div>
+
+          
+
+
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/voylla.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img
+                src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/BBT.png" alt="image"
+              />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/th.jpg" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/MGT.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/bottomfunnel.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travelflap.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/Blueberry.png" alt="image" />
             </div>
           </div>
         </Slider>

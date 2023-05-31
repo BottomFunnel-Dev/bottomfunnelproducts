@@ -5,9 +5,10 @@
   height: 350px;
   position: fixed;
   box-sizing: border-box;
-  top: 78px;
+  top: 150px;
   left: 15%;
-
+  /* border:2px solid red; */
+  margin-top: 0.8%;
   z-index: 100000000;
   justify-content: center;
 }
@@ -19,7 +20,7 @@
   position: fixed;
   box-sizing: border-box;
   top: 78px;
-  left: 42%;
+  left: 35%;
   z-index: 100000000;
   justify-content: center;
 }

@@ -21,7 +21,7 @@ return(
             <h1><b>Your vision, our platform</b></h1>
             <p> 
             Customize, extend, and unify experiences for your
-growing business with the Freshworks Neo platform.
+growing business with the Bottom Funnel Neo platform.
             </p>
             <button className={styles.NeoMainpageBannerdemo}>LET'S TALK</button>
             <button className={styles.NeoMainpageBannerVideo}>WATCH VIDEO</button>
