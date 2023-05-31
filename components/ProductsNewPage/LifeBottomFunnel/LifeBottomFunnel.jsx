@@ -11,7 +11,7 @@ const LifeBottomFunnel = () => {
       <div className={styles.lifeHeadingMainDiv}>
         <p>Welcome to Bottom Funnel</p>
 
-        <h1>Work the way that works for you</h1>
+        <h2>Work the way that works for you</h2>
       </div>
 
       <div className={styles.lifeImageMainDiv}>

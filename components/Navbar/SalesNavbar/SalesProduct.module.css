@@ -66,3 +66,23 @@
 .productlinkP > :hover {
   color: #393939;
 }
+
+@media(max-width:480px){
+  .saleProductMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    left: 0%;
+    margin-top: 12%;
+  }
+  .saleProductData .productlinkP > h6 {
+    font-size: 15px;
+  }
+  .saleProductData .productlinkP > p {
+    font-size: 15px;
+  }
+  .saleProductData > img {
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+}

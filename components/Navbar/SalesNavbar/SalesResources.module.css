@@ -86,3 +86,17 @@
   color: white;
   border: 1px solid #ef4c23;
 }
+
+
+@media(max-width:480px){
+  .saleResourceMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    left: 0%;
+    margin-top: 52%;
+    height: auto;
+  }
+  .saleResourceData .productlinkP > p {
+    font-size: 15px;
+  }
+}

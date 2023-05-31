@@ -1,26 +1,24 @@
 import React from "react";
-
-import { WhoWeAre } from "../WhoWeAre";
-
-import dropdown from "./dropdownRespChat.module.css";
-import { NavIndustries } from "../NavIndustries";
-import { Products } from "../Products";
-import { Platform } from "../Platform";
-import { Resource } from "../Resource";
+import dropdown from "./dropdownRespSales.module.css";
 import { useRouter } from "next/router";
-export default function DropdownRespChat({
-  homeHoverIn,
-  homeHoverOut,
-  resHoverIn,
-  resHoverOut,
-  solHoverIn,
-  solHoverOut,
+import { ProductSolutions } from "../ProductsNavbar/ProductSolutions";
+import { ProductResources } from "../ProductsNavbar/ProductResources";
+import { ProductFeature } from "../ProductsNavbar/ProductFeature";
+import { ProductDesk } from "../ProductsNavbar/ProductDesk";
+import { SalesIndustries } from "../SalesNavbar/SalesIndustries";
+import { SalesResources } from "../SalesNavbar/SalesResources";
+import { SalesFeature } from "../SalesNavbar/SalesFeature";
+import { SalesProduct } from "../SalesNavbar/SalesProduct";
+export default function DropdownRespSales({
+  saleProIn,
+  saleProOut,
+  saleResIn,
+  saleResOut,
+  saleIndIn,
+  saleIndOut,
+  saleFeaIn,
+  saleFeaOut,
   scroll,
-  productMount,
-  productHoverIn,
-  productHoverOut,
-  platformHoverIn,
-  platformHoverOut,
 }) {
   const router = useRouter();
   return (
@@ -36,7 +34,7 @@ export default function DropdownRespChat({
               aria-expanded="false"
               aria-controls="collapseOne"
             >
-              About
+              Products
             </button>
           </h2>
           <div
@@ -46,12 +44,11 @@ export default function DropdownRespChat({
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <WhoWeAre
-                homeHoverIn={homeHoverIn}
-                homeHoverOut={homeHoverOut}
-                scroll={scroll}
-                productMount={productMount}
-              />
+            <SalesProduct
+              saleProIn={saleProIn}
+              saleProOut={saleProOut}
+              scroll={scroll}
+            />
             </div>
           </div>
         </div>
@@ -75,12 +72,11 @@ export default function DropdownRespChat({
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <NavIndustries
-                solHoverIn={solHoverIn}
-                solHoverOut={solHoverOut}
-                scroll={scroll}
-                productMount={productMount}
-              />
+            <SalesFeature
+          saleFeaIn={saleFeaIn}
+          saleFeaOut={saleFeaOut}
+          scroll={scroll}
+        />
             </div>
           </div>
         </div>
@@ -94,7 +90,7 @@ export default function DropdownRespChat({
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Products
+            Industries
             </button>
           </h2>
           <div
@@ -104,12 +100,11 @@ export default function DropdownRespChat({
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <Products
-                productHoverIn={productHoverIn}
-                productHoverOut={productHoverOut}
-                scroll={scroll}
-                productMount={productMount}
-              />
+            <SalesIndustries
+          saleIndIn={saleIndIn}
+          saleIndOut={saleIndOut}
+          scroll={scroll}
+        />
             </div>
           </div>
         </div>
@@ -123,7 +118,7 @@ export default function DropdownRespChat({
               aria-expanded="false"
               aria-controls="collapseFour"
             >
-              Platform
+              Resource
             </button>
           </h2>
           <div
@@ -133,52 +128,22 @@ export default function DropdownRespChat({
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <Platform
-                platformHoverIn={platformHoverIn}
-                platformHoverOut={platformHoverOut}
-                scroll={scroll}
-                productMount={productMount}
-              />
+            <SalesResources
+              saleResIn={saleResIn}
+              saleResOut={saleResOut}
+              scroll={scroll}
+            />
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFive"
-              aria-expanded="false"
-              aria-controls="collapseFive"
-            >
-              Resources
-            </button>
-          </h2>
-          <div
-            id="collapseFive"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFive"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <Resource
-                resHoverIn={resHoverIn}
-                resHoverOut={resHoverOut}
-                scroll={scroll}
-                productMount={productMount}
-              />
-            </div>
-          </div>
-        </div>
+        
       </div>
 
       <div className={dropdown.otherNav}>
         <div onClick={() => router.push("/pricing")} > Pricing </div>
-        <div onClick={() => router.push("/")} > Support </div>
+        <div onClick={() => router.push("/")} > Sign In </div>
 
         <button onClick={() => router.push("/allproducts")} >Free Trial</button>
-        <button onClick={() => router.push("https://service.bottomfunnel.net/")} >Services</button>
       </div>
     </div>
   );

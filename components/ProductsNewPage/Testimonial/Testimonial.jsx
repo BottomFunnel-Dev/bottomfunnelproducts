@@ -111,7 +111,7 @@ export default function Testimonial() {
 
   return (
     <div className={styles.testimonials}>
-      <h1>Testimonials</h1>
+      <h2>Testimonials</h2>
       <p>Using basic skills you can improve your business stuff </p>
       <div className={styles.sliderDivcomp}>
         <Slider {...settings}>

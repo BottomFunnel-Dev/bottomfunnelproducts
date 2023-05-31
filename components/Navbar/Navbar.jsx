@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import navstyle from "./navbar.module.css";
-import Link from "next/link";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { WhoWeAre } from "./WhoWeAre";
 
-
 import { useEffect } from "react";
-import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
@@ -134,7 +131,6 @@ const Navbar = ({ navredux, productMount }) => {
   return (
     <>
       <div>
-
 
         <nav
           className=

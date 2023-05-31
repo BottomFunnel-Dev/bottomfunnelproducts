@@ -87,3 +87,35 @@
     border: 1px solid #ef4c23;
   }
   
+
+  @media(max-width:480px){
+    .productFeatureMainDiv{
+      /* border: 2px solid red; */
+      width: 100%;
+      left: 0%;
+      margin-top: 25%;
+    }
+    .productFeatureData .productlinkP > p {
+      font-size: 15px;
+    }
+    .salesnavbutton>button {
+      border: 1px solid #ef4c23;
+      background: #ef4c23;
+      width: 80%;
+      height: 40px;
+      margin: 2% auto;
+      margin-bottom: 10%;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 2px 0;
+      font-weight: 500;
+      outline: none;
+      cursor: pointer;
+      color: white;
+      margin-left: 8%;
+    }
+    .salesnavbutton>button:hover{
+      background-color: transparent;
+      color: #ef4c23;
+    }
+  }
