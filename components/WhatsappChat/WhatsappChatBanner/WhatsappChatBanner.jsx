@@ -7,8 +7,8 @@ export const WhatsappChatBanner = () => {
     <div>
          <div className={styles.WhatsappChatBannermaindiv}>
             <div className={styles.WhatsappChatBannermaindivcontent}>
-             <h1>Serve your customers on WhatsApp</h1>
-             <p> Redefine your customer service strategy by leveraging Bottom Funnel chat official WhatsApp Business integration to serve your customers, wherever they are.</p>
+             <h1>Seamless Customer Service on WhatsApp</h1>
+             <p>Experience seamless customer service and support on WhatsApp with our AI chatbot. Engage customers in real-time, provide instant assistance, and enhance their experience with personalized interactions, all within the popular messaging platform.</p>
             
              <button  className={styles.WhatsappChatBannermaindivcontentbutton}>Explore Now</button>
             </div>

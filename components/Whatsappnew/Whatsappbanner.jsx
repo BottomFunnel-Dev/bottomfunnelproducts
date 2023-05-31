@@ -20,8 +20,8 @@ export const Whatsappbanner = () => {
     
     </div>
     <div className={styles.whatsappbannerrightboxes}>
-    <h1>Grow your business with WhatsApp Campaigns</h1>
-    <p>Use WhatsApp to engage with prospects, sell fater and provide real-time support.</p>
+    <h1>Seamless Customer Service on WhatsApp</h1>
+    <p>Experience seamless customer service and support on WhatsApp with our AI chatbot. Engage customers in real-time, provide instant assistance, and enhance their experience with personalized interactions, all within the popular messaging platform.</p>
 
     <button className={styles.whatsappbutton}>Start Free Trail</button>
     </div>

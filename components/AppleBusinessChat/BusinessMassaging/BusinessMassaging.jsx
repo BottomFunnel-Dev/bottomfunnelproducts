@@ -7,39 +7,39 @@ export const BusinessMassaging = () => {
     {
       img: "/Images/Applebusinesschat/smartphone 1.webp ",
       hd: "All in one inbox",
-      p: " Brings conversations from web, mobile, and social messengers into one inbox",
+      p: "Streamline your customer communications with an all-in-one inbox, consolidating messages from various channels into a centralized platform for efficient management and response.",
     },
     {
       img: "/Images/Applebusinesschat/smartphone 1 (1).webp",
       hd: "Integrate with your familiar apps",
-      p: "Connects with payments, order management, or CRM tools for real-time conversations on order updates, refunds, and more",
+      p: "Seamlessly connect your existing tools and applications with Bottom Funnel, enabling smooth integration and enhancing workflow efficiency for a streamlined customer support experience.",
     },
     {
       img: "/Images/Applebusinesschat/chat-bot 1.webp",
       hd: "Privacy and security",
-      p: "Secure with OTP authentication, privacy modes, GDPR compliance",
+      p: "Rest assured with robust privacy and security measures in place, safeguarding customer data and ensuring compliance with industry regulations for complete peace of mind.",
     },
     {
       img: "/Images/Applebusinesschat/smartphone 1 (2).webp",
       hd: "Manage multiple business hours",
-      p: "For your support teams working across different regions, times, or time zones.",
+      p: "Effortlessly manage and customize business hours to align with your operational needs, ensuring efficient customer service round the clock.",
     },
     {
         img: "/Images/Applebusinesschat/smartphone 1 (3).webp",
         hd: "Support customers worldwide",
-        p: "With our Live Translate feature. Also, our agent platform and customer messenger supports over 32 languages.",
+        p: "Deliver exceptional customer support to customers around the globe, breaking down geographical barriers and providing assistance across different time zones and languages.",
       },
       {
         img: "/Images/Applebusinesschat/chat-bot 1 (1).webp",
         hd: "Control agent access",
-        p: "With advanced Roles and Permissions. Create special privileges and profiles that specify what an agent can see and do.",
+        p: "Effortlessly manage and control access for your agents, ensuring secure and authorized interactions with customers while maintaining data privacy and compliance.",
       },
   ];
 
   return (
     <div>
       <div className={styles.BusinessMassagingsingup}>
-        <h2>Unlock the full power of Apple Messages for Business</h2>
+        <h2>Harness the Full Potential of Apple Messages for Business with Bottom Funnel Chat</h2>
         <button className={styles.BusinessMassagingsingupbutton}>
           Sign Up For Free
         </button>
@@ -47,12 +47,10 @@ export const BusinessMassaging = () => {
       <div className={styles.BusinessMassagingmaindiv}>
         <div className={styles.BusinessMassagingmaindivheading}>
           <h2>
-            Bottom Funnel make businesses successful with Apple Business
-            Messages
+          Drive Business Success with Bottom Funnel and Apple Business Messages
           </h2>
           <p>
-            Offer contextual, digital-first experiences that your customers and
-            agents will love.</p>
+          Unlock the potential of your business with the winning combination of Bottom Funnel and Apple Business Messages for seamless customer engagement and enhanced success.</p>
         </div>
 
         <div className={styles.BusinessMassagingmaindivcards}>

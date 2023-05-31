@@ -7,7 +7,7 @@ export const FacebookBanner = () => {
     <div>
         <div className={styles.FacebookBannermaindiv}>
             <div className={styles.FacebookBannermaindivcontent}>
-             <h1>Deliver digital-first customer service to your customers on facebook </h1>
+             <h1>Engage and Support Your Customers on Facebook with Seamless Digital Experiences</h1>
              <p>Be there for your customers whenever and wherever they need you. Engage your customers and offer personal, proactive, and timely support on Facebook Messenger. </p>
              <button  className={styles.FacebookBannermaindivcontentbutton}>Explore Now</button>
             </div>

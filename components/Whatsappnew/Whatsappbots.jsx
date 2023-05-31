@@ -33,10 +33,8 @@ export const Whatsappbots = () => {
 
   return (
     <div className={styles.whatsappbotsmainboxes}>
-    <h2>See WhatsApp Bots in action</h2>
-    <p>Our bots can be customized for your online store to work for you 24*7 - help your customers
-    find the right products, answer questions and more.
-    </p>
+    <h2>Unlock the Power of WhatsApp Integration with Bottom Funnel Chat</h2>
+    <p>Seamlessly Connect with Customers: Experience the Power of Bottom Funnel Chat - WhatsApp Integration for Enhanced Customer Engagement.</p>
     <div className={styles.whatsappdatamapping}>{whatsappbotsdata.map((e)=>{
         return (
             <div className={styles.whatsappbotsdataindi}>

@@ -16,9 +16,9 @@ export default function InstagramDmBanner () {
         />
         </div>
         <div className={styles.instagramDmBannertext}>
-        <h1>Deliver delightfull experience on instagram</h1>
+        <h1>Creating Delightful Experiences on Instagram</h1>
             <hr></hr>
-            <p>Link multiple instagram Business accounts with Bottom Funnel and drive real-time conversations effortlessly</p>
+            <p>Unleash the Power of Bottom Funnel's AI Chat Support to Engage and Delight Your Instagram Audience.</p>
             <button>Explore Now</button>
         </div>
     </div>

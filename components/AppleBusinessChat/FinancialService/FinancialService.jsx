@@ -50,9 +50,8 @@ export const FinancialService = () => {
         </div>
 
         <div className={styles.FinancialServicemaindivsecond}>
-            <h2>Set up Apple Messages for Business in five days and reduce spends by 60%</h2>
-            <p>Apple Messages for Business is available as integration on Pro and Enterprise.
-Setting up Apple Messages for Business is as simple as ABC!</p>
+            <h2>Implement Apple Messages for Business in just five days and achieve a remarkable 60% reduction in costs, optimizing your customer service operations effectively and efficiently.</h2>
+            <p>Unlock the power of Apple Messages for Business with seamless integration on our Pro and Enterprise plans. Set up and start leveraging this powerful messaging platform effortlessly.</p>
 <button className={styles.FinancialServicemaindivsecondbutton}>Sign Up For Free</button>
         </div>
     </div>
