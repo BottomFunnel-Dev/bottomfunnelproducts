@@ -99,3 +99,14 @@
   color: white;
   border: 1px solid #14944C;
 }
+
+@media(max-width:480px){
+  .customerSuccessMainDiv{
+    width: 100%;
+    left: 0%;
+    margin-top: 8%;
+  }
+  .customerSuccessData .productlinkP>p {
+    font-size: 14px;
+  }
+}

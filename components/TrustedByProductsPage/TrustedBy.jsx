@@ -70,9 +70,9 @@ const TrustedBy = () => {
 
       <div className={styles.trustedByContentDiv}>
         <div className={styles.trustedByHeadingDiv}>
-          <h1>
+          <h2>
             Trusted by 50K+ customers big and small
-          </h1>
+          </h2>
 
           <p>
             We are a leading provider of the modern SaaS solutions that solve multiple, complex business problems to

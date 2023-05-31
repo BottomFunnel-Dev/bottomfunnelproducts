@@ -2,12 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import prodnav from "./ProdNavbar.module.css";
 
-import DropDown1 from "./DropDown1";
 import DropDown2 from "./DropDown2";
 import { DropDown3 } from "./DropDown3";
 import Image from "next/image";
 import DropDown5 from "./DropDown5";
-import Link from "next/link";
 
 export const MarketerNavbar = ({ data }) => {
   const [dropdown, setDropdown] = useState("none");

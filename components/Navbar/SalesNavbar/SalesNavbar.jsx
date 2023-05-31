@@ -6,6 +6,9 @@ import { SalesFeature } from "./SalesFeature";
 import { SalesResources } from "./SalesResources";
 import { SalesIndustries } from "./SalesIndustries";
 import { useRouter } from "next/router";
+import { IconContext } from "react-icons";
+import { AiOutlineMenu } from "react-icons/ai";
+import DropdownRespSales from "../responsiveDropdownSales/DropdownRespSales";
 
 export const SalesNavbar = ({ navproductredux }) => {
   // const navigate = useNavigate();
@@ -17,6 +20,7 @@ export const SalesNavbar = ({ navproductredux }) => {
   // const navproductredux = useSelector((state) => state);
   const [navbar, setNabvar] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const [mobres, setMobres] = useState(false);
   const router = useRouter();
 
   const skillProductHoverIn = () => {
@@ -103,8 +107,14 @@ export const SalesNavbar = ({ navproductredux }) => {
     window.addEventListener("scroll", navBackground);
     // console.log(scrollY);
   });
+  
+  const handleMob = () => {
+    mobres ? setMobres(false) : setMobres(true);
+    console.log("working tree", mobres);
+  };
 
   return (
+   
     <div
       className={navsales.productsnavbar}
       style={{
@@ -116,6 +126,14 @@ export const SalesNavbar = ({ navproductredux }) => {
         <img src="https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/bottomFunnnelSales.png" />
         <h5>Bottom Funnel Sales</h5>
       </div>
+          <div id={navsales.bar}>
+            <label htmlFor="checkbox">
+              <IconContext.Provider value={{ className: navsales.bars }}>
+                <AiOutlineMenu onClick={handleMob} />
+              </IconContext.Provider>
+            </label>
+          </div>
+          {!mobres && (
       <div className={navsales.deskList}>
         <li
           onMouseEnter={saleProIn}
@@ -179,6 +197,24 @@ export const SalesNavbar = ({ navproductredux }) => {
         <li>Sign In</li>
         <button>Free Trial</button>
       </div>
+        )
+      }
+
+          {
+            mobres && (
+              <DropdownRespSales
+              saleIndIn={saleIndIn}
+              saleIndOut={saleIndOut}
+              saleResIn={saleResIn}
+              saleResOut={saleResOut}
+              saleFeaIn={saleFeaIn}
+              saleFeaOut={saleFeaOut}
+              saleProIn={saleProIn}
+              saleProOut={saleProOut}
+              scroll={scroll}
+              />
+            )
+          }
 
       {/* service drop down section cde start */}
 
