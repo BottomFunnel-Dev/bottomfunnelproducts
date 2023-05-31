@@ -1,24 +1,48 @@
-.AgencyNeedCrmmaindiv{
+.AgencyNeedCrmmaindiv {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  justify-content: space-around;
+}
+
+.AgencyNeedCrmimage {
+  /* border: 2px solid green; */
+  width: 35%;
+  /* height: 260px; */
+}
+
+.AgencyNeedCrmcontain {
+  /* border: 2px solid pink; */
+  /* margin-left: 2%; */
+  text-align: justify;
+  width: 50%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .AgencyNeedCrmmaindiv {
     /* border: 2px solid red; */
     display: flex;
-    flex-direction: row;
-    width: 90%;
+    flex-direction: column;
+    width: 95%;
     margin: auto;
     margin-top: 3%;
-    justify-content: space-around;
+  }
 
-
-}
-.AgencyNeedCrmimage{
+  .AgencyNeedCrmimage {
     /* border: 2px solid green; */
-   width: 35%;
+    width: 95%;
     /* height: 260px; */
+  }
 
-}
-
-.AgencyNeedCrmcontain{
+  .AgencyNeedCrmcontain {
     /* border: 2px solid pink; */
     /* margin-left: 2%; */
     text-align: justify;
-    width: 50%;
+    width: 95%;
+  }
 }

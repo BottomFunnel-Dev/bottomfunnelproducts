@@ -1,10 +1,73 @@
-.CustomerEngagemainpageinner{
+.CustomerEngagemainpageinner {
+  /* border: 2px solid red; */
+  padding: 4%;
+  width: 90%;
+  margin: auto;
+}
+
+.CustomerEngageindustries {
+  /* border: 2px solid green; */
+  /* background-color: lightgrey; */
+  background: url("https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/bg2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90% 80%;
+  height: 500px;
+  padding-top: 5px;
+}
+
+.CustomerEngageindustriesmain {
+  background-color: whitesmoke;
+}
+
+.CustomerEngageindustriesinner {
+  width: 92%;
+  margin: auto;
+  /* border: 2px solid yellow;   */
+}
+
+.CustomerEngageindustriesinner h2 {
+  margin-left: 5%;
+}
+
+.CustomerEngagelogodiv {
+  /* border: 2px solid red; */
+  margin: auto;
+  width: 17%;
+  padding: 1%;
+}
+
+.CustomerEngagelogodiv h6 {
+  margin-top: 4%;
+}
+
+.CustomerEngagelogodivimage {
+  width: 80px;
+  height: 80px;
+  margin-left: 30%;
+}
+
+.CustomerEngagelogodivmaindiv {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid; */
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+  /* width: 90%; */
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .CustomerEngagemainpageinner {
     /* border: 2px solid red; */
     padding: 4%;
     width: 90%;
     margin: auto;
-}
-.CustomerEngageindustries{
+  }
+
+  .CustomerEngageindustries {
     /* border: 2px solid green; */
     /* background-color: lightgrey; */
     background: url("https://d3op2l77j7wnti.cloudfront.net/Images/hospitalitysalesphotos/bg2.webp");
@@ -13,38 +76,42 @@
     background-size: 90% 80%;
     height: 500px;
     padding-top: 5px;
+    display: none;
+  }
 
-}
-.CustomerEngageindustriesmain{
+  .CustomerEngageindustriesmain {
     background-color: whitesmoke;
-}
+  }
 
-.CustomerEngageindustriesinner{
+  .CustomerEngageindustriesinner {
     width: 92%;
-    margin: auto; 
+    margin: auto;
     /* border: 2px solid yellow;   */
-}
-.CustomerEngageindustriesinner h2{
-  margin-left: 5%;
-}
-.CustomerEngagelogodiv{
+  }
+
+  .CustomerEngageindustriesinner h2 {
+    margin-left: 5%;
+  }
+
+  .CustomerEngagelogodiv {
     /* border: 2px solid red; */
     margin: auto;
-    width: 17%;
+    width: 95%;
     padding: 1%;
+    display: none;
+  }
 
-}
-.CustomerEngagelogodiv h6{
+  .CustomerEngagelogodiv h6 {
     margin-top: 4%;
-}
-.CustomerEngagelogodivimage{
+  }
+
+  .CustomerEngagelogodivimage {
     width: 80px;
     height: 80px;
     margin-left: 30%;
-   
-}
+  }
 
-.CustomerEngagelogodivmaindiv{
+  .CustomerEngagelogodivmaindiv {
     display: flex;
     flex-direction: row;
     /* border: 2px solid; */
@@ -52,5 +119,5 @@
     text-align: center;
     margin-top: 10%;
     /* width: 90%; */
-    
+  }
 }

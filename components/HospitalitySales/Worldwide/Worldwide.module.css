@@ -1,33 +1,79 @@
-.Worldwidemaindiv{
+.Worldwidemaindiv {
+  /* border: 2px solid green; */
+  width: 40%;
+  margin: auto;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 3%;
+  /* align-items: center; */
+}
+
+.Worldwidemaindivimage {
+  width: 40%;
+  align-self: center;
+  /* justify-content: center; */
+}
+
+.Worldwidemaindiv hr {
+  width: 30%;
+  margin: auto;
+}
+
+.Worldwidemaindiv h2 {
+  font-weight: 300;
+}
+
+.Worldwidemaindivtopdiv h2 {
+  text-align: center;
+}
+
+.Worldwidemaindivtopdiv {
+  margin-top: 4%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .Worldwidemaindiv {
     /* border: 2px solid green; */
-    width: 40%;
+    width: 95%;
     margin: auto;
     /* justify-content: center; */
     display: flex;
     flex-direction: column;
-     justify-content: center;
-     text-align: center;
-     padding: 1%;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-     margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 3%;
     /* align-items: center; */
-}
-.Worldwidemaindivimage{
-    width: 40%;
+  }
+
+  .Worldwidemaindivimage {
+    width: 95%;
     align-self: center;
     /* justify-content: center; */
-}
-.Worldwidemaindiv hr{
+  }
+
+  .Worldwidemaindiv hr {
     width: 30%;
     margin: auto;
-}
-.Worldwidemaindiv h2{
-    font-weight: 300;
-}
+  }
 
-.Worldwidemaindivtopdiv h2{
+  .Worldwidemaindiv h2 {
+    font-weight: 300;
+  }
+
+  .Worldwidemaindivtopdiv h2 {
     text-align: center;
-}
-.Worldwidemaindivtopdiv{
+  }
+
+  .Worldwidemaindivtopdiv {
     margin-top: 4%;
+  }
 }

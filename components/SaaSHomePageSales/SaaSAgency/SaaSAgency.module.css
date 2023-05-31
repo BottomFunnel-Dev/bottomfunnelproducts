@@ -1,45 +1,96 @@
-.SaaSAgencymaindiv{
-/* border: 2px solid yellow; */
-margin-top: 5%;
-
-
-
+.SaaSAgencymaindiv {
+  /* border: 2px solid yellow; */
+  margin-top: 5%;
 }
-.SaaSAgencymaindiv h1{
-text-align: center;
-justify-content: center;
+
+.SaaSAgencymaindiv h1 {
+  text-align: center;
+  justify-content: center;
 }
-.SaaSAgencyinnerdiv{
+
+.SaaSAgencyinnerdiv {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.SaaSAgencycarddiv {
+  /* border: 2px solid green; */
+  width: 28%;
+  height: 520px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* align-items: center; */
+}
+
+.SaaSAgencycarddiv:hover {
+  background-color: #f8e2dd;
+}
+
+.SaaSAgencycarddivimage {
+  width: 80%;
+  margin-left: 12%;
+}
+
+.SaaSAgencycarddivimage img {
+  width: 100%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .SaaSAgencymaindiv {
+    /* border: 2px solid yellow; */
+    margin-top: 5%;
+  }
+
+  .SaaSAgencymaindiv h1 {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .SaaSAgencyinnerdiv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
     margin-top: 4%;
+  }
 
-}
-.SaaSAgencycarddiv{
+  .SaaSAgencycarddiv {
     /* border: 2px solid green; */
-    width: 28%;
-    height: 520px;
+    width: 95%;
+    height: fit-content;
     margin: auto;
+    margin-bottom: 4%;
     justify-content: center;
     text-align: center;
-    padding-top:40px;
+    padding-top: 40px;
     padding-bottom: 20px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* align-items: center; */
-}
-.SaaSAgencycarddiv:hover{
+  }
+
+  .SaaSAgencycarddiv:hover {
     background-color: #f8e2dd;
-}
-.SaaSAgencycarddivimage{
+  }
+
+  .SaaSAgencycarddivimage {
     width: 80%;
     margin-left: 12%;
-   
+  }
 
-}
-.SaaSAgencycarddivimage img{
+  .SaaSAgencycarddivimage img {
     width: 100%;
+  }
 }

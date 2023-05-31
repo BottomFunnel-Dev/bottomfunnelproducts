@@ -1,6 +1,17 @@
-.MortarDeadmaindivinner{
+.MortarDeadmaindivinner {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .MortarDeadmaindivinner {
     display: flex;
-    flex-direction: row;
-    width: 90%;
+    flex-direction: column-reverse;
+    width: 95%;
     margin: auto;
+  }
 }

@@ -1,41 +1,95 @@
-.SaaSBusinessmaindiv{
+.SaaSBusinessmaindiv {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.SaaSBusinessmaindiv p {
+  font-size: 18px;
+}
+
+.SaaSBusinessmaindiv h1 {
+  margin-bottom: 3%;
+}
+
+.SaaSBusinessinnerdiv {
+  border: 2px solid pink;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 30px 30px 30px;
+}
+
+.SaaSBusinessinnerimagediv {
+  /* border: 2px solid green; */
+  width: 32%;
+  height: 380px;
+}
+
+.SaaSBusinessinnerimagediv img {
+  width: 100%;
+  height: 100%;
+}
+
+.SaaSBusinessinnercontaindiv {
+  /* border: 2px solid yellow; */
+  width: 60%;
+  margin-left: 4%;
+  padding-top: 20px;
+}
+
+.SaaSBusinessinnercontaindiv h2 {
+  color: #ef4c23;
+  margin-bottom: 4%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .SaaSBusinessmaindiv {
     /* border: 2px solid red; */
     width: 90%;
-   margin: auto;
-   margin-top: 5%;
+    margin: auto;
+    margin-top: 5%;
+  }
 
-}
-.SaaSBusinessmaindiv p{
+  .SaaSBusinessmaindiv p {
     font-size: 18px;
-}
-.SaaSBusinessmaindiv h1{
+  }
+
+  .SaaSBusinessmaindiv h1 {
     margin-bottom: 3%;
-}
-.SaaSBusinessinnerdiv{
+  }
+
+  .SaaSBusinessinnerdiv {
     border: 2px solid pink;
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 30px 30px 30px 30px;
+  }
 
-}
-.SaaSBusinessinnerimagediv{
+  .SaaSBusinessinnerimagediv {
     /* border: 2px solid green; */
-    width: 32%;
-    height: 380px;
-}
-.SaaSBusinessinnerimagediv img{
+    width: 95%;
+    height: fit-content;
+  }
+
+  .SaaSBusinessinnerimagediv img {
     width: 100%;
     height: 100%;
- }
-.SaaSBusinessinnercontaindiv{
+  }
+
+  .SaaSBusinessinnercontaindiv {
     /* border: 2px solid yellow; */
-    width: 60%;
+    width: 100%;
     margin-left: 4%;
     padding-top: 20px;
-}
-.SaaSBusinessinnercontaindiv h2{
+  }
+
+  .SaaSBusinessinnercontaindiv h2 {
     color: #ef4c23;
     margin-bottom: 4%;
-    
+  }
 }

@@ -1,6 +1,3 @@
-{
-  /* <CRMLogistics/> */
-}
 
 import React from "react";
 import { Trial } from "../../components/AnalyticsofFeature/Trial/Trial";
@@ -32,6 +29,7 @@ export default function logisticsales() {
             logo: false,
           }}
         />
+        
         <SalesNavbar
           navproductredux={{
             color: "black",

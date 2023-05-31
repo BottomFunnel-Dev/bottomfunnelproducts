@@ -1,21 +1,21 @@
-.ManufacturingCrmmaindiv{
-    width: 80%;
-    margin: auto;
-    margin-top: 3%;
-   
+.ManufacturingCrmmaindiv {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
 }
 
-.ManufacturingCrmmaindivinner{
-    /* border: 2px solid; */
-   background-color: whitesmoke;
-   margin-top: 2%;
-   padding: 1%;
-   
+.ManufacturingCrmmaindivinner {
+  /* border: 2px solid; */
+  background-color: whitesmoke;
+  margin-top: 2%;
+  padding: 1%;
 }
-.ManufacturingCrmmaindivinner h2{
-    margin-left:9% ;
+
+.ManufacturingCrmmaindivinner h2 {
+  margin-left: 9%;
 }
-.ManufacturingCrmmaindivrowbox{
+
+.ManufacturingCrmmaindivrowbox {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -24,7 +24,8 @@
   align-items: center;
   justify-content: space-around;
 }
-.ManufacturingCrmmaindivrowboxdiv{
+
+.ManufacturingCrmmaindivrowboxdiv {
   /* border: 2px solid; */
   width: 25%;
   padding: 1%;
@@ -33,18 +34,76 @@
   margin-top: 2%;
 }
 
-.ManufacturingCrmmaindivrowboxdiv:hover{
-    transition: all 0.2s linear;
+.ManufacturingCrmmaindivrowboxdiv:hover {
+  transition: all 0.2s linear;
 
   transform: translateY(-10px);
 }
-.ManufacturingCrmmaindivrowboxdivimage{
+
+.ManufacturingCrmmaindivrowboxdivimage {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+  margin: auto;
+}
+
+.ManufacturingCrmmaindivrowboxdiv h5 {
+  margin-top: 6%;
+}
+
+/* this code is for the mobile resposive */
+
+@media (max-width: 480px) {
+  .ManufacturingCrmmaindiv {
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  .ManufacturingCrmmaindivinner {
+    /* border: 2px solid; */
+    background-color: whitesmoke;
+    margin-top: 2%;
+    padding: 1%;
+  }
+
+  .ManufacturingCrmmaindivinner h2 {
+    margin-left: 9%;
+  }
+
+  .ManufacturingCrmmaindivrowbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .ManufacturingCrmmaindivrowboxdiv {
+    /* border: 2px solid; */
+    width: 95%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 2%;
+  }
+
+  .ManufacturingCrmmaindivrowboxdiv:hover {
+    transition: all 0.2s linear;
+
+    transform: translateY(-10px);
+  }
+
+  .ManufacturingCrmmaindivrowboxdivimage {
     width: 80px;
     height: 80px;
     align-self: center;
     margin: auto;
-}
-.ManufacturingCrmmaindivrowboxdiv h5{
+  }
 
+  .ManufacturingCrmmaindivrowboxdiv h5 {
     margin-top: 6%;
+  }
 }
