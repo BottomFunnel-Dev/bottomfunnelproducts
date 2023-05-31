@@ -37,7 +37,7 @@
 @media(max-width:480px){
     .ContactResolutionBannermaindiv{
         flex-direction: column-reverse;
-        margin-top: 20%;
+        margin-top: 35%;
         height: max-content;
     }
     .ContactResolutionBannermaindivinner{

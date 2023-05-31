@@ -4,7 +4,7 @@
 }
 
 .simplifiedTickettingContainer hr {
-  background-color: #12944D;
+  background-color: #12944d;
   height: 20px;
   border: none;
   outline: none;
@@ -53,8 +53,7 @@
   .simplifiedTickettingContainer div {
     flex-direction: column;
     width: 100%;
-    margin-top: 10%;
-    
+    margin-top: 4%;
   }
 
   .simplifiedTickettingContent {
@@ -64,7 +63,6 @@
 
   .simplifiedTickettingContent > h1 {
     font-size: 26px;
-    
   }
 
   .simplifiedTickettingContent > p {
@@ -73,18 +71,16 @@
 
   .simplifiedTickettingImage {
     width: 100%;
-    border-top: 8px solid #12944D;
-    border-bottom: 8px solid #12944D;
+    border-top: 8px solid #12944d;
+    border-bottom: 8px solid #12944d;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 2%;
-    
   }
 
   .simplifiedTickettingImage > img {
     width: 50%;
     transform: scale(1.3);
-    
   }
 }

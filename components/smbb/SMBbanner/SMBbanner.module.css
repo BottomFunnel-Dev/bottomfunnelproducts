@@ -1,5 +1,5 @@
 .sMBbannerParent {
-    margin-top: 6%;
+    margin-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
@@ -63,7 +63,7 @@
 @media(max-width: 780px){
 
     .sMBbannerParent {
-        margin-top: 10%;
+        margin-top: 27%;
         flex-direction: column;
         
     }

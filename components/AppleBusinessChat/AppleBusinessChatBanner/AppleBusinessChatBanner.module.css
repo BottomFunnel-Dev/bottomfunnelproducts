@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100vh ;
+    margin-top: 3%;
 
 }
 .AppleBusinessChatBannermaindivcontent{
@@ -34,7 +35,7 @@
         /* border: 2px solid green ; */
         flex-direction: column-reverse;
         height: fit-content ;
-        margin-top: 22%;
+        margin-top: 32%;
     
     }
    

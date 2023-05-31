@@ -1,52 +1,50 @@
-.FacebookBannermaindiv{
+.FacebookBannermaindiv {
+  /* border: 2px solid green ; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin-top: 4%;
+}
+.FacebookBannermaindivcontent {
+  width: 40%;
+}
+.FacebookBannermaindivimage {
+  width: 45%;
+}
+.FacebookBannermaindivcontentbutton {
+  width: 220px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #04c354;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+}
+.FacebookBannermaindivcontentbutton:hover {
+  border: 1px solid #04c354;
+  background-color: white;
+  color: #04c354;
+}
+
+@media (max-width: 1024px) {
+  .FacebookBannermaindiv {
     /* border: 2px solid green ; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh ;
+    flex-direction: column-reverse;
 
-}
-.FacebookBannermaindivcontent{
-    width: 40%;
-}
-.FacebookBannermaindivimage{
-    width: 45%;
-}
-.FacebookBannermaindivcontentbutton{
-    width: 220px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #04C354;
-    color: white;
-    border-radius: 10px;
-    height: 40px;
-    border: none;
-}
-.FacebookBannermaindivcontentbutton:hover{
-    border: 1px solid #04C354;
-    background-color: white;
-    color: #04C354;
-}
-
-@media  (max-width:1024px){
-    .FacebookBannermaindiv{
-        /* border: 2px solid green ; */
-        display: flex;
-        flex-direction: column-reverse;
-    
-        height: fit-content ;
-        margin-top: 16%;
-    
-    }
-    .FacebookBannermaindivcontent{
-        width: 90%;
-        margin:4% auto;
-        text-align: center;
-    }
-    .FacebookBannermaindivimage{
-        width: 90%;
-        margin: auto;
-    }
-   
+    height: fit-content;
+    margin-top: 35%;
+  }
+  .FacebookBannermaindivcontent {
+    width: 90%;
+    margin: 4% auto;
+    text-align: center;
+  }
+  .FacebookBannermaindivimage {
+    width: 90%;
+    margin: auto;
+  }
 }

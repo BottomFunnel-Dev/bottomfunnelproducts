@@ -18,24 +18,27 @@ const productData = {
   width: "65%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/bottomfunnelchat/allFeatures" },
+    more: {
+      title: "View more features",
+      path: "/bottomfunnelchat/allFeatures",
+    },
     position: { left: "35%" },
     products: [
       {
         dropContent: "Messaging Channels",
-        path: "/bottomfunnel-chat/messaging-channel",
+        path: "/bottomfunnelchat/messagingchannel",
       },
       {
         dropContent: "Chatbots",
-        path: "/bottomfunnel-chat/chat-bots",
+        path: "/bottomfunnelchat/chatbots",
       },
       {
         dropContent: "Team Inbox",
-        path: "/bottomfunnel-chat/team-inbox",
+        path: "/team-inbox",
       },
       {
         dropContent: "Journeys",
-        path: "/bottomfunnel-chat/journeys",
+        path: "/bottomfunnelchat/journeys",
       },
     ],
   },
@@ -80,16 +83,31 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-          { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
-          { title: "Provide convenient customer service", path: "/bottomfunnelchat/provide-convenient-customer-service" },
-          { title: "Move from costly channels", path: "/bottomfunnelchat/move-from-costly-channel" },
+          {
+            title: "Smart Conversations",
+            path: "/bottomfunnelchat/solutions/smart-conversations",
+          },
+          {
+            title: "Zero Contact Resolutions",
+            path: "/bottomfunnelchat/solutions/contactresolution",
+          },
+          {
+            title: "Provide convenient customer service",
+            path: "/bottomfunnelchat/provide-convenient-customer-service",
+          },
+          {
+            title: "Move from costly channels",
+            path: "/bottomfunnelchat/move-from-costly-channel",
+          },
         ],
       },
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+          {
+            title: "Enterprise",
+            path: "/bottomfunnelchat/solutions/enterprise",
+          },
           { title: "SMB", path: "/bottomfunnelchat/smb" },
         ],
       },
@@ -139,7 +157,6 @@ const productData = {
 
 export default function AllFeatures() {
   return (
-
     <>
       <div style={{ color: "#393939" }}>
         <Navbar
@@ -154,15 +171,15 @@ export default function AllFeatures() {
 
         <ProdNavbar data={productData} />
 
-        <AllFeaturesBanner/>
-        <AllFeaturesDrive/>
-        <AllFeaturesReach/>
-        <AllFeaturesTemplate/>
-        <AllFeaturesTime/>
-        <AllFeaturesPerformance/>
-        <AllFeaturesConnect/>
-        <AllFeatureSignUp/>
-        <ChatFooter/>
+        <AllFeaturesBanner />
+        <AllFeaturesDrive />
+        <AllFeaturesReach />
+        <AllFeaturesTemplate />
+        <AllFeaturesTime />
+        <AllFeaturesPerformance />
+        <AllFeaturesConnect />
+        <AllFeatureSignUp />
+        <ChatFooter />
       </div>
     </>
   );

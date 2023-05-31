@@ -6,6 +6,7 @@
     align-items: center;
     height: 100vh ;
     background-color: #f6f6f6;
+    margin-top: 6%;
 
 }
 .WhatsappChatBannermaindivcontent{
@@ -33,7 +34,7 @@
 @media  (max-width:1024px){
     .WhatsappChatBannermaindiv{
         /* border: 2px solid green ; */
-        margin-top: 14%;
+        margin-top: 25%;
         flex-direction: column-reverse;
          
         height: max-content ;

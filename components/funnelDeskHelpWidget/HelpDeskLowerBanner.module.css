@@ -1,9 +1,11 @@
 .helpdesklowerbannermainbox {
   height: fit-content;
   padding: 2% 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d3op2l77j7wnti.cloudfront.net/Images/helpdesk/Component 69.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://d3op2l77j7wnti.cloudfront.net/Images/helpdesk/Component 69.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin-bottom: 3%;
 }
 
 .helpdesklowerbannertextbox {
@@ -23,7 +25,7 @@
   padding: 10px 50px;
   border-radius: 100px;
   width: fit-content;
-  background-color: #2C8753;
+  background-color: #2c8753;
   border: none;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -35,34 +37,28 @@
 
 .button1helpdest:hover {
   background-color: white;
-  color: #2C8753;
+  color: #2c8753;
 }
 
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
   .helpdesklowerbannermainbox {
-    height: fit-content;
-    padding: 3% 0;
-    border: none;
+    padding: 20px 0;
   }
-
-  /* .helpdesklowerbannersomebutton{
-    flex-direction: column;
-  } */
 
   .helpdesklowerbannertextbox {
     width: 90%;
     margin: 0 auto;
   }
 
-  .helpdesklowerbannertextbox>h2 {
+  .helpdesklowerbannertextbox > h2 {
     font-size: 25px;
     line-height: 30px;
     margin: 2% 0;
   }
 
-  .helpdesklowerbannertextbox>p {
-    font-size: 14px;
+  .helpdesklowerbannertextbox > p {
+    font-size: 16px;
     margin: 2% 0;
     line-height: 20px;
   }
@@ -78,7 +74,7 @@
   }
 
   .button1helpdest {
-    font-size: 12px;
+   height: 40px;
     margin: 0;
     padding: 8px 20px;
     width: fit-content;
