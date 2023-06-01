@@ -3,56 +3,52 @@
     border: 1px solid white;
     background: url("https://d3op2l77j7wnti.cloudfront.net/Images/cloudtelephony/Component 3.png");
     background-repeat: no-repeat;
-    background-position-y: center;
+background-position: 10% 80%;   
     background-color: #f5f5f5;
+    
 }
 
 .cloudtelephonybannersometextboxes{
     height: fit-content;
-    width: 45%;
+    width: 40%;
     margin-left: 50%;
-    margin-top: 15%;
+    margin-top: 20%;
  
 }
 
-.cloudtelephonybannersometextboxes >h1{
-    font-weight: 700;
-    font-size: 50px;
-}
+
 .cloudtelephonybannersometextboxes>p{
     font-size: 18px;
 }
 
 .cloudtelebannerbutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: fit-content;
+   
     background-color: #ef4c23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 20px;
-    font-weight: 600;
     color: white;
-  margin-top: 5%;
+    width: 220px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 10px;
+border: none;
+
 }
 
 .cloudtelebannerbutton:hover {
 
-    background-color:white;
-    color:  #ef4c23;
+     background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
 
 }
 @media (max-width:1024px){
     .cloudtelephonybannermainbox{
-        height: 100vh;
-        /* border: 1px solid red; */
-        background: url("https://d3op2l77j7wnti.cloudfront.net/Images/cloudtelephony/Component 3.png");
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: 100% 50%;
-        margin-top: 100px;
-        background-color: #f5f5f5;
+      
+        background-position: 50% 30%;
+        background-size: 80% 40%;
+        height: auto;
+        padding-bottom: 30px;
+        
     }
     
     .cloudtelephonybannersometextboxes{
@@ -62,7 +58,7 @@
         margin: auto;
      
         text-align: center;
-        margin-top: 95%; 
+        margin-top: 100%; 
      
     }
     
@@ -70,28 +66,8 @@
         font-weight: 600;
         font-size: 30px;
     }
-    .cloudtelephonybannersometextboxes>p{
-        font-size: 18px;
-    }
+   
     
-    .cloudtelebannerbutton{
-        padding: 10px 50px;
-        border-radius: 100px;
-        width: fit-content;
-        background-color: #ef4c23;
-        border: none;
-        outline: none;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        font-size: 20px;
-        font-weight: 600;
-        color: white;
-      margin-top: 5%;
-    }
     
-    .cloudtelebannerbutton:hover {
     
-        background-color:white;
-        color:  #ef4c23;
-    
-    }
 }

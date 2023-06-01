@@ -1,16 +1,11 @@
 
-.EmailIntegrationCardsinner{
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
 
-}
 
 .EmailIntegrationCardsmainbox{
     display: flex;
     flex-direction: row;
     width: 90%;
-    margin: auto;
+    margin:4% auto;
     justify-content: space-around;
     align-items: center;
     /* border: 2px solid; */
@@ -18,15 +13,10 @@
 
 }
 
-.EmailIntegrationCardsmainbox1{
-    display: flex;
+.EmailIntegrationCardsmainbox:nth-child(3),.EmailIntegrationCardsmainbox:nth-child(4){
+   
     flex-direction: row-reverse;
-    width: 90%;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-    /* border: 2px solid; */
-    margin-top: 3%;
+    
 }
 .EmailIntegrationCardsmaincontent{
     /* border: 2px solid red; */
@@ -41,34 +31,19 @@
 }
 @media (max-width:1024px){
     
-.EmailIntegrationCardsinner{
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
 
-}
 
 .EmailIntegrationCardsmainbox{
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-    /* border: 2px solid; */
-    margin-top: 3%;
+    margin: 4% auto;
+    gap: 20px;
 
 }
 
-.EmailIntegrationCardsmainbox1{
-    display: flex;
+.EmailIntegrationCardsmainbox:nth-child(3),.EmailIntegrationCardsmainbox:nth-child(4){
     flex-direction: column-reverse;
-    width: 100%;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-    /* border: 2px solid; */
-    margin-top: 3%;
 }
 .EmailIntegrationCardsmaincontent{
     /* border: 2px solid red; */
@@ -77,9 +52,7 @@
     text-align: center;
     /* margin-left: 5%; */
 }
-.EmailIntegrationCardsmaincontent p{
-    text-align: justify;
-}
+
 .EmailIntegrationCardsimage{
     width: 90%;
 }

@@ -3,75 +3,70 @@
  border: 5px solid transparent;
 background: url("https://d3op2l77j7wnti.cloudfront.net/Images/Deal management/banners & background/ha/Group 1000003850.webp");
 background-repeat: no-repeat;
-background-position-y:center;
+background-position: 10% 60%;
 background-color: #f5f5f5;
 }
 
 .dealmanagementbannertxtboxes{
     height: fit-content;
-    width: 50%;
-    margin-left: 45%;
-    margin-top: 12%;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 15%;
+ 
 }
 
 .dealmanagementbannertxtboxes>h1{
-    font-weight: 700;
-    font-size: 45px;
-}
+           font-weight: 700;
+          
+       }
 
 .dealmanagementbannertxtboxes>p{
     font-size: 18px;
 }
 
 .dealmanagementbannerbutton {
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: fit-content;
     background-color: #ef4c23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    width: 220px;
     font-size: 18px;
     font-weight: 600;
-    color: white;
-    margin-top: 4%;
+    height: 40px;
+    border-radius: 10px;
+border: none;
   }
   
   .dealmanagementbannerbutton:hover {
     background-color: white;
     color: #ef4c23;
+    border: 1px solid #ef4c23;
 
   }
 
   @media (max-width:1024px){
     .dealmanagementbannermainboxes{
-        height: 100vh;
-        border: 1px solid transparent;
-       background: url("https://d3op2l77j7wnti.cloudfront.net/Images/Deal management/banners & background/ha/Group 1000003850.webp");
-       background-repeat: no-repeat;
-       background-position:top;
-       background-size: 100% 48%;
-       background-color: #f5f5f5;
-       margin-top: 90px;
+       
+      
+       background-position:40% 30%;
+       background-size: 80% 40%;
+      
+       
        }
        
        .dealmanagementbannertxtboxes{
-           height: fit-content;
+          
            width: 90%;
           margin: auto;
           text-align: center;
-          margin-top: 85%;
+          margin-top: 95%;
+          padding-top: 20px;
        }
        
        .dealmanagementbannertxtboxes>h1{
-           font-weight: 700;
+          
            font-size: 30px;
        }
        
-       .dealmanagementbannertxtboxes>p{
-           font-size: 18px;
-           text-align: justify;
-       }
+       
        
        
   }

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from "./CpqScreens.module.css";
 
 export const CpqScreens = () => {
+   
   return (
     <div>
     <div className={styles.CpqScreensmaindiv}>

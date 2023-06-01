@@ -17,6 +17,9 @@
 .dealbusinesshealthflexbox{
     display: flex;
  margin-top: 3%;
+ 
+}
+.dealbusinesshealthflexbox:nth-child(1){
     background-color: #f5f5f5;
 }
 
@@ -47,10 +50,9 @@
     }
     
     .dealbusinesshealthmainboxes>h1{
-        text-align: center;
-        font-weight: 700;
+       
         font-size: 32px;
-        /* border: 2px solid; */
+        
     }
     
     .dealbusinesshealthmainboxes>p{
@@ -62,18 +64,24 @@
     .dealbusinesshealthflexbox{
         display: flex;
         flex-direction: column-reverse;
-     margin-top: 3%;
-        background-color: #f5f5f5;
+    
+     padding: 10px 0;
     }
     
     .dealbusinesshealthleftboxes{
-        width: 90%;
+        width: 85%;
+        padding: 10px;
         margin: auto;
         text-align: center;
+       
 
     }
+    .dealbusinesshealthflexbox:nth-child(4) .dealbusinesshealthrighttboxes{
+       width: 50%;
+      margin: auto;
+    }
     .dealbusinesshealthleftboxes>h2{
-        font-weight: 700;
+       
         font-size: 32px;
       margin: auto;
     }
@@ -83,8 +91,8 @@
     }
     .dealbusinesshealthrighttboxes{
         width: 90%;
-        margin-left: 5%;
-        height: fit-content;
+      
+        height: auto;
     }
     
 }

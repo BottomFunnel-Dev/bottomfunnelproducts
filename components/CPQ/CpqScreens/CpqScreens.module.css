@@ -13,7 +13,7 @@
 }
 .CpqScreensmaindivinnercontent{
   width: 45%;
-  padding: 40px 5px 40px 5px;
+  padding: 40px 5px;
 }
 .CpqScreensmaindivinnerimage{
     width: 45%;
@@ -29,36 +29,31 @@
 }
 
 @media (max-width:1024px){
-    .CpqScreensmaindiv{
-        display: flex;
-         flex-direction: column;
-     }
+    
      .CpqScreensmaindivinner{
-         display: flex;
+       
          flex-direction: column-reverse;
          width: 100%;
-         margin: auto;
-         justify-content: space-between;
-         align-items: center;
-         margin-top: 4%;
+        
      }
      .CpqScreensmaindivinnercontent{
        width: 90%;
-       padding: 40px 5px 40px 5px;
-       margin: auto;
+      padding: 0;
+      margin: 4% auto;
+     
+     }
+     .CpqScreensmaindivinnercontent>h2{
+        text-align: center;
+        margin: 4% auto;
      }
      .CpqScreensmaindivinnerimage{
          width: 90%;
          margin: auto;
      }
      .CpqScreensmaindivinnertwo{
-         display: flex;
+        
          flex-direction:column-reverse;
-          width: 90%;
-         margin: auto;
-         justify-content: space-between;
-         align-items: center;
-         margin-top: 4%;
+         
      }
      
 }
