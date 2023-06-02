@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { ConnectwithCustomer } from "../../../components/Facebook/ConnectwithCustomer/ConnectwithCustomer";
 import { FacebookBanner } from "../../../components/Facebook/FacebookBanner/FacebookBanner";
 import { SeeingResult } from "../../../components/Facebook/SeeingResult/SeeingResult";
@@ -154,8 +158,24 @@ const productData = {
   pricing: "",
 };
 export default function facebook() {
+  
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <Navbar
         productMount={{
           navMount: true,

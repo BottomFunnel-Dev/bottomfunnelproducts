@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import Banner from "../../components/BottomfunnelContact/Homepage/banner/Banner";
 import Setup from "../../components/BottomfunnelContact/Homepage/setup/Setup";
 import Support from "../../components/BottomfunnelContact/Homepage/support/Support";
@@ -12,8 +16,23 @@ import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadySta
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 export default function index() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <Navbar
         productMount={{
           navMount: true,
@@ -30,16 +49,16 @@ export default function index() {
         }}
       />
 
-      <Banner/>
-      <Support/>
-      <Setup/>
-      <IntegrationFooter/>
-      
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
+      <Banner />
+      <Support />
+      <Setup />
+      <IntegrationFooter />
+
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
       <LifeBottomFunnel />
-      <DeskFooter/>
+      <DeskFooter />
     </div>
   );
 }

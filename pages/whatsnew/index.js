@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -13,6 +17,15 @@ import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 import { MarketerNavbar } from "../../components/MarketerNavbar";
 
 export default function WhatsNew() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   const productData = {
     title: "Bottom Funnel Marketer",
     logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Market.png",
@@ -73,8 +86,15 @@ export default function WhatsNew() {
     },
     pricing: "",
   };
+
   return (
     <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <Navbar
         productMount={{
           navMount: true,
@@ -94,7 +114,7 @@ export default function WhatsNew() {
       <Testimonial />
       <ReadyStarted />
       <LifeBottomFunnel />
-      <DeskFooter/>
+      <DeskFooter />
       {/* <ProductsFooter /> */}
     </div>
   );

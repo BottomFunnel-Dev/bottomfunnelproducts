@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { BottomfunnelchatBanner } from "../../components/BottomFunnelChat/BottomfunnelchatBanner/BottomfunnelchatBanner";
 import { ConversationalEngagement } from "../../components/BottomFunnelChat/ConversationalEngagement/ConversationalEngagement";
 import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import { DeskStarted } from "../../components/funnelDeskCom/DeskStarted";
+
 import Navbar from "../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../components/ProdNavbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -19,7 +22,10 @@ const productData = {
   width: "65%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/bottomfunnelchat/allFeatures" },
+    more: {
+      title: "View more features",
+      path: "/bottomfunnelchat/allFeatures",
+    },
     position: { left: "35%" },
     products: [
       {
@@ -81,66 +87,57 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-          { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
-          { title: "Provide convenient customer service", path: "/bottomfunnelchat/provide-convenient-customer-service" },
-          { title: "Move from costly channels", path: "/bottomfunnelchat/move-from-costly-channel" },
+          {
+            title: "Smart Conversations",
+            path: "/bottomfunnelchat/solutions/smart-conversations",
+          },
+          {
+            title: "Zero Contact Resolutions",
+            path: "/bottomfunnelchat/solutions/contactresolution",
+          },
+          {
+            title: "Provide convenient customer service",
+            path: "/bottomfunnelchat/provide-convenient-customer-service",
+          },
+          {
+            title: "Move from costly channels",
+            path: "/bottomfunnelchat/move-from-costly-channel",
+          },
         ],
       },
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+          {
+            title: "Enterprise",
+            path: "/bottomfunnelchat/solutions/enterprise",
+          },
           { title: "SMB", path: "/bottomfunnelchat/smb" },
         ],
       },
     ],
   },
-  // list4: {
-  //   title: "Resources",
-  //   more: { title: "View more resources", path: "/" },
-  //   position: { right: "20%" },
-  //   products: [
-  //     {
-  //       dropContent: "Holiday Support",
-  //       path: "/",
-  //     },
-  //     {
-  //       dropContent: "Case Studies",
-  //       path: "/",
-  //     },
-  //     {
-  //       dropContent: "Customer Spotlight",
-  //       path: "/",
-  //     },
-  //     {
-  //       dropContent: "Ebooks",
-  //       path: "/",
-  //     },
-  //     {
-  //       dropContent: "Blogs",
-  //       path: "/",
-  //     },
-  //     {
-  //       dropContent: "Product Tours",
-  //       path: "/",
-  //     },
-  //     {
-  //       dropContent: "Academy",
-  //       path: "/",
-  //     },
-  //     {
-  //       dropContent: "What's new",
-  //       path: "/",
-  //     },
-  //   ],
-  // },
   pricing: "",
 };
 
 export default function BottomFunnelChat() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <Navbar
         productMount={{
           navMount: true,
@@ -156,11 +153,9 @@ export default function BottomFunnelChat() {
       <ConversationalEngagement />
       {/* <DeskStarted /> */}
 
-  
       <Testimonial />
       <TrustedBy />
-     
-      
+
       <ReadyStarted />
       <TalentProfiles />
       <LifeBottomFunnel />

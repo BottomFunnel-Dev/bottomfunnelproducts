@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import Navbar from "../../../../components/Navbar/Navbar";
 import { ProdNavbar } from "../../../../components/ProdNavbar";
 import LifeBottomFunnel from "../../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
@@ -12,14 +16,16 @@ import SmartConversationsDownload from "../../../../components/SmartConversation
 import TrustedBy from "../../../../components/TrustedByProductsPage/TrustedBy";
 import { ChatFooter } from "../../../../components/ChatFooter/ChatFooter";
 
-
 const productData = {
   title: "Bottom Funnel Chat",
   logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Chat.png",
   width: "65%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/bottomfunnelchat/allFeatures" },
+    more: {
+      title: "View more features",
+      path: "/bottomfunnelchat/allFeatures",
+    },
     position: { left: "35%" },
     products: [
       {
@@ -81,16 +87,31 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-          { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
-          { title: "Provide convenient customer service", path: "/bottomfunnelchat/provide-convenient-customer-service" },
-          { title: "Move from costly channels", path: "/bottomfunnelchat/move-from-costly-channel" },
+          {
+            title: "Smart Conversations",
+            path: "/bottomfunnelchat/solutions/smart-conversations",
+          },
+          {
+            title: "Zero Contact Resolutions",
+            path: "/bottomfunnelchat/solutions/contactresolution",
+          },
+          {
+            title: "Provide convenient customer service",
+            path: "/bottomfunnelchat/provide-convenient-customer-service",
+          },
+          {
+            title: "Move from costly channels",
+            path: "/bottomfunnelchat/move-from-costly-channel",
+          },
         ],
       },
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+          {
+            title: "Enterprise",
+            path: "/bottomfunnelchat/solutions/enterprise",
+          },
           { title: "SMB", path: "/bottomfunnelchat/smb" },
         ],
       },
@@ -138,11 +159,25 @@ const productData = {
   pricing: "",
 };
 
-
 export default function SmartConversation() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
-    <Navbar
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -152,17 +187,17 @@ export default function SmartConversation() {
         }}
       />
       <ProdNavbar data={productData} />
-    
-     <SmartConversationsBanner/>
-     <SmartConversationsBusiness/>
-     <SmartConversationsChanges/>
-     <SmartConversationsDownload/>
-      
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
+
+      <SmartConversationsBanner />
+      <SmartConversationsBusiness />
+      <SmartConversationsChanges />
+      <SmartConversationsDownload />
+
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+      <ChatFooter />
     </div>
   );
 }

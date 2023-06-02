@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
 
 import { EngagementBanner } from "../../components/EngagementPage/EngagementBanner/EngagementBanner";
 import { EngagementProcess } from "../../components/EngagementPage/EngagementProcess/EngagementProcess";
@@ -7,18 +10,22 @@ import { EngagementQuery } from "../../components/EngagementPage/EngagementQuery
 import Head from "next/head";
 
 export default function EngagementModel() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
-      <Head>
-        <title>
-          Engagement Models - Fixed Price, Time Material, Dedicated Resource |
-          Bottom Funnel
-        </title>
-        <meta
-          name="description"
-          content="Bottom Funnel is a modern, efficient way to meet customer's needs. We offer multiple engagement models and pricing options to meet client needs. Bottom Funnel's experienced staff understand how to design engaging websites that will keep visitors interested. Our team can also assist with marketing strategies so your business can reach the maximum number of visitors possible!"
-        />
-      </Head>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
       <main>
         {/* <Navbar
@@ -37,4 +44,4 @@ export default function EngagementModel() {
       </main>
     </div>
   );
-};
+}

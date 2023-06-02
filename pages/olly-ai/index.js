@@ -1,3 +1,8 @@
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import Navbar from "../../components/Navbar/Navbar";
 import OllyAiAdvantage from "../../components/OllyAi/OllyAiAdvantage/OllyAiAdvantage";
 import OllyAiBanner from "../../components/OllyAi/OllyAiBanner/OllyAiBanner";
@@ -11,8 +16,23 @@ import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonia
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 export default function OllyAi() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <Navbar
         productMount={{
           navMount: false,
@@ -22,14 +42,14 @@ export default function OllyAi() {
           logo: false,
         }}
       />
-      <OllyAiBanner/>
-      <OllyAiAdvantage/>
-      <OllyAiTeams/>
-      <OllyAiFeatures/>
-      <OllyAiCTA/>
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
+      <OllyAiBanner />
+      <OllyAiAdvantage />
+      <OllyAiTeams />
+      <OllyAiFeatures />
+      <OllyAiCTA />
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
       <LifeBottomFunnel />
       <ProductsFooter />
     </div>

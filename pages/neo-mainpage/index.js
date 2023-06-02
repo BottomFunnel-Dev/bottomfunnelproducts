@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
@@ -12,32 +16,46 @@ import { NeoMainpageFeature } from "../../components/NeoMainpage/NeoMainpageFeat
 import { NeoMainpageCTEtwo } from "../../components/NeoMainpage/NeoMainpageCTEtwo/NeoMainpageCTEtwo";
 import { NeoMainpageServices } from "../../components/NeoMainpage/NeoMainpageServices/NeoMainpageServices";
 
-export default function neoMainpage(){
-    return(
-        <>
-        <Navbar
-          productMount={{
-            navMount: true,
-          }}
-          navredux={{
-            color: "black",
-            logo: false,
-          }}
-          />
+export default function neoMainpage() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
 
-          <NeoMainpageBanner/>
-          <NeoMainpageCTE/>
-          <NeoMainpageFeature/>
-          <NeoMainpageCTEtwo/>
-          <NeoMainpageServices/>
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
 
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <TalentProfiles/>
-      <LifeBottomFunnel/>
-      <SalesFooter/>
-        
-        </>
-    )}
+  return (
+    <>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+
+      <NeoMainpageBanner />
+      <NeoMainpageCTE />
+      <NeoMainpageFeature />
+      <NeoMainpageCTEtwo />
+      <NeoMainpageServices />
+
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <TalentProfiles />
+      <LifeBottomFunnel />
+      <SalesFooter />
+    </>
+  );
+}

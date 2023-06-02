@@ -1,3 +1,8 @@
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { CaseStudy } from "../../components/CustomerSpotlight/CaseStudy/CaseStudy";
 import { CustomerSpotLightBanner } from "../../components/CustomerSpotlight/CustomerSpotlightBanner/CustomerSpotlightBanner";
 import { CustomerSpotlightDemo } from "../../components/CustomerSpotlight/CustomerSpotlightDemo/CustomerSpotlightDemo";
@@ -10,29 +15,44 @@ import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonia
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
 export default function CustomerSpotlight() {
-    return (
-        <div>
-        <Navbar
-            productMount={{
-            navMount: true,
-            }}
-            navredux={{
-            color: "black",
-            logo: false,
-            }}
-        />
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
 
-           <CustomerSpotLightBanner/>
-           <CaseStudy/>
-           <CustomerSpotlightDemo/>
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
 
-           <Testimonial/>
-           <TrustedBy/>
+  return (
+    <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
-            <ReadyStarted/>
-            <TalentProfiles/>
-            <LifeBottomFunnel/>
-            <ProductsFooter/>
-        </div>
-    )
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+
+      <CustomerSpotLightBanner />
+      <CaseStudy />
+      <CustomerSpotlightDemo />
+
+      <Testimonial />
+      <TrustedBy />
+
+      <ReadyStarted />
+      <TalentProfiles />
+      <LifeBottomFunnel />
+      <ProductsFooter />
+    </div>
+  );
 }
