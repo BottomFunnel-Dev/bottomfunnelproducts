@@ -19,7 +19,7 @@ export const CRMedtech = () => {
                     />
        </div>
        <div className={styles.CRMedtechmaindivcontent}>
-        <h1>Why do education technology organization need CRM?</h1>
+        <h2>Why do education technology organization need CRM?</h2>
         <p>As an EdTech company, you aim to make learning more accessible and erase the restrictions of old-school classrooms. But, to go beyond revolutionizing education, you cannot depend on spreadsheets and age-old CRMs that hold you back.
 
 Wait, why not? </p>

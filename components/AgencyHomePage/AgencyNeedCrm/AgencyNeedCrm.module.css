@@ -29,20 +29,20 @@
     display: flex;
     flex-direction: column;
     width: 95%;
-    margin: auto;
-    margin-top: 3%;
+   
+   
   }
 
   .AgencyNeedCrmimage {
     /* border: 2px solid green; */
     width: 95%;
-    /* height: 260px; */
+   
   }
 
   .AgencyNeedCrmcontain {
-    /* border: 2px solid pink; */
-    /* margin-left: 2%; */
+
     text-align: justify;
+    margin-top: 4%;
     width: 95%;
   }
 }

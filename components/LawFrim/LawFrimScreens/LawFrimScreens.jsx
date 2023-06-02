@@ -3,19 +3,41 @@ import styles from "./LawFrimScreens.module.css";
 import Image from 'next/image';
 
 export const LawFrimScreens = () => {
+    const data1 = [
+        {
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 01.png",
+            hd:"Capture Everything",
+            p:"Legal, being a data-sensitive industry, it is essential to securely record every single interaction you have with your prospects and clients. And it is even better when all that information is curated on a single page. You also get to customize the essential data points you want to see upfront in the summary and highlights section."
+        },
+        {
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 05.png",
+            hd:"Manage things end to end",
+            p:"In law, no two cases are the same. Even if they are similar, the details vary to a great extent. With Freshsales case management tool, you can customize and capture everything related to a case without being restricted to standard fields."
+        },
+        {
+            img:"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 03.png",
+            hd:"Engage with more context",
+            p:"Your clients and prospects seek your legal help and will reach out to you by any means possible—phone, emails, web forms, chat, SMS. Amidst your busy schedule, you not just have to juggle between your phone and computer, but the information is also scattered across different tools. Finding key messages and case references instantly is a struggle."
+        }
+
+    ]
+   
   return (
     <div>
-    <div className={styles.LawFrimScreensmaindiv}>
+        <div className={styles.LawFrimScreens}>
+            {data1.map((e) => {
+                return(
+                    <div className={styles.LawFrimScreensmaindiv}>
 <div>
-<h2>Capture Everything</h2>
+<h2>{e.hd}</h2>
 <p>
-Legal, being a data-sensitive industry, it is essential to securely record every single interaction you have with your prospects and clients. And it is even better when all that information is curated on a single page. You also get to customize the essential data points you want to see upfront in the summary and highlights section.
+{e.p}
 </p>
 
 </div>
 <div className={styles.LawFrimScreensmaindivimage}>
 <Image
-                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 01.png"}
+                        src={e.img}
                         alt={"img"}
                         width={"0"}
                         height={"0"}
@@ -25,46 +47,12 @@ Legal, being a data-sensitive industry, it is essential to securely record every
                     />
 </div>
     </div>
-    <div className={styles.LawFrimScreensmaindiv}>
-<div>
-<h2>Manage things end to end</h2>
-<p>
-In law, no two cases are the same. Even if they are similar, the details vary to a great extent. With Freshsales case management tool, you can customize and capture everything related to a case without being restricted to standard fields. 
-</p>
-
-</div>
-<div className={styles.LawFrimScreensmaindivimage}>
-<Image
-                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 05.png"}
-                        alt={"img"}
-                        width={"0"}
-                        height={"0"}
-                        sizes={"100vw"}
-                        style={{ width: "100%", height: "100%" }}
-
-                    />
-</div>
-    </div>
-    <div className={styles.LawFrimScreensmaindiv}>
-<div>
-<h2>Engage with more context </h2>
-<p>
-Your clients and prospects seek your legal help and will reach out to you by any means possible—phone, emails, web forms, chat, SMS. Amidst your busy schedule, you not just have to juggle between your phone and computer, but the information is also scattered across different tools. Finding key messages and case references instantly is a struggle.  
-</p>
-
-</div>
-<div className={styles.LawFrimScreensmaindivimage}>
-<Image
-                        src={"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/Law firm 03.png"}
-                        alt={"img"}
-                        width={"0"}
-                        height={"0"}
-                        sizes={"100vw"}
-                        style={{ width: "100%", height: "100%" }}
-
-                    />
-</div>
-    </div>
+                );
+            })}
+      
+        </div>
+    
+    
     <div className={styles.LawFrimScreensmaindiv}>
 <div>
 <h2>Say goodbye to the stacks of files

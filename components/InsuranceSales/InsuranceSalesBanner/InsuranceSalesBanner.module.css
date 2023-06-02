@@ -47,16 +47,12 @@
 
 @media (max-width: 480px) {
   .InsuranceSalesbannermainbox {
-    height: 75vh;
+    height: auto;
     width: 100%;
-    border: 1px solid transparent;
-    background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/realestatesales/Sales banner background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    margin-top: 30%;
+    text-align: center;
+    padding-bottom: 20px;
   }
 
   .InsuranceSalesbannerannimation {
@@ -67,26 +63,5 @@
     width: 95%;
   }
 
-  .InsuranceSalesbannermainboxinnertextdiv > h1 {
-    font-size: 40px;
-  }
 
-  .InsuranceSalesbannerbutton {
-    height: 40px;
-    border-radius: 10px;
-    width: 220px;
-    background-color: #ef4c23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-top: 22px;
-  }
-
-  .InsuranceSalesbannerbutton:hover {
-    background-color: white;
-    color: #ef4c23;
-  }
 }

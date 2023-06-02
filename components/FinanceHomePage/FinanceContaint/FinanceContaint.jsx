@@ -21,7 +21,7 @@ export const FinanceContaint = () => {
 
                     <div className={style.FinanceContaintinnerdivcontain}>
                         <h4>Organize customer data with modern view</h4>
-                        <p>By creating customizable views in a click, Freshsales lets you access data on one screen and perform your daily tasks faster than before.
+                        <p>By creating customizable views in a click, Bottom funnel saleslets you access data on one screen and perform your daily tasks faster than before.
 
                             With quick actions and easy access to customer data from one place, you can visualize where each contact stands and spot roadblocks, thus enhancing your team’s productivity and efficiency.</p>
                         <p>Using drag-and-drop cards and group fields, you can track your contacts’ progress.
@@ -35,7 +35,7 @@ export const FinanceContaint = () => {
                         <h4>Identify sales-ready leads with AI</h4>
                         <p>Your agents have to secure target accounts. But how do they know if the leads they are reaching out to will convert? This is where a Finance CRM can step in.
 
-                            Freshsales CRM offers AI-based contact scoring that identifies clients who are best suited for your business with the help of positive and negative scoring signals.</p>
+                            Bottom funnel salesCRM offers AI-based contact scoring that identifies clients who are best suited for your business with the help of positive and negative scoring signals.</p>
                         <p>The CRM tags high-intent contacts as “Likely to Buy” and recommends the next best action to your agents who can further engage with them.</p>
 
                     </div>

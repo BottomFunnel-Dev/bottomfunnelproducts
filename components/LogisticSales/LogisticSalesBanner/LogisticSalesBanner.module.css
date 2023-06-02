@@ -49,15 +49,11 @@
 @media (max-width: 480px) {
   .LogisticSalesbannermainbox {
     height: fit-content;
-    width: 100%;
-    border: 1px solid transparent;
-    background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/realestatesales/Sales banner background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    margin-top: 30%;
+    text-align: center;
+    padding-bottom: 20px;
+   
   }
 
   .LogisticSalesbannerannimation {
@@ -68,27 +64,7 @@
     width: 95%;
   }
 
-  .LogisticSalesbannermainboxinnertextdiv > h1 {
-    font-size: 40px;
-  }
+  
 
-  .LogisticSalesbannerbutton {
-    border-radius: 10px;
-    width: 220px;
-    height: 40px;
-    background-color: #ef4c23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-top: 15px;
-  }
-
-  .LogisticSalesbannerbutton:hover {
-    background-color: white;
-    color: #ef4c23;
-    border: 1px solid #ef4c23;
-  }
+ 
 }

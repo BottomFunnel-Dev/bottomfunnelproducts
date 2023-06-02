@@ -17,7 +17,7 @@ margin-top: 4%;
     /* border: 2px solid yellow; */
     width: 50%;
 }
-.CRMedtechmaindivcontent h1{
+.CRMedtechmaindivcontent h2{
     color: #ef4c23;
 }
 .CRMedtechmaindivcontent p{
@@ -32,9 +32,7 @@ margin-top: 4%;
         flex-direction: column;
         width: 100%;
         margin: auto;
-    justify-content: space-between;
-    margin-top: 4%;
-     
+   
     }
     .CRMedtechmaindivimage{
        width: 90%;
@@ -46,11 +44,7 @@ margin-top: 4%;
       margin: auto;
       text-align: center;
     }
-    .CRMedtechmaindivcontent h1{
-        color: #ef4c23;
-    }
-    .CRMedtechmaindivcontent p{
-        text-align: justify;
-    }
+    
+    
     
 }
