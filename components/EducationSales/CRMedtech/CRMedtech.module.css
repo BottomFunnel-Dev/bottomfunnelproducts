@@ -35,14 +35,14 @@ margin-top: 4%;
    
     }
     .CRMedtechmaindivimage{
-       width: 90%;
-       margin: auto;
+       width: 80%;
+       margin: 4% auto;
     }
     
     .CRMedtechmaindivcontent{
       width: 90%;
       margin: auto;
-      text-align: center;
+      text-align: left;
     }
     
     

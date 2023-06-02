@@ -9,7 +9,7 @@ export const LawFrimBanner = () => {
         <div className={styles.LawFrimBannermaindiv}>
    <div className={styles.LawFrimBannermaindivinner}>
     <h1 >CRM FOR LAW-FRIM</h1>
-    <p>Build and nurture strong relationships with your prospects and clients with Freshsales, a leading modern CRM for law firms.</p>
+    <p>Build and nurture strong relationships with your prospects and clients with Bottom Funnel Sales, a leading modern CRM for law firms.</p>
    <button className={styles.LawFrimBannermaindivbutton}>Start Your Free Trial</button>
    </div>
    <div className={styles.LawFrimBannerannimation}>

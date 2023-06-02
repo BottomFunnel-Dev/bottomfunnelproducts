@@ -17,7 +17,9 @@
     margin-top: 3%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.TravelFeaturesmaindiv:nth-of-type(1) li{
+    display: none;
+}
 @media (max-width:1024px) {
     .TravelFeaturesmaindiv{
         /* border: 2px solid red; */

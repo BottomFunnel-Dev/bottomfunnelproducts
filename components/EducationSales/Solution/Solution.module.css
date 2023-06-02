@@ -24,17 +24,21 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     .Solutionmaindiv{
         /* border: 2px solid green; */
         background: none ;
-        width: 100%;
+        width: 90%;
    
     display: flex;
     height: fit-content;
  
      }
+     .Solutionmaindivcontent>h3{
+        text-align: center;
+     }
     .Solutionmaindivcontent{
         /* border: 2px solid red; */
         width: 100%;
         margin-top: 5%;
-        text-align: center;
+      
+        padding: 10px;
     }
     
 }

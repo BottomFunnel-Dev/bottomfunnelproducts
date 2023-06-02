@@ -26,7 +26,7 @@ export const HealthcareIndustries = () => {
     <div>
 
 <div className={styles.HealthcareIndustriesmaindiv}>
-           <h2>Why Freshsales is ideal for the Healthcare Industry</h2>
+           <h2>Why Bottom Funnel Sales is ideal for the Healthcare Industry</h2>
            <div className={styles.HealthcareIndustriesmaindivinnerdiv}>
            {data.map((e) => {
 return (

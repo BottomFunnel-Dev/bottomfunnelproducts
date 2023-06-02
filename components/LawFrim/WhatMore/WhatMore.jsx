@@ -17,7 +17,7 @@ export const WhatMore = () => {
             {
                 img:"https://d3op2l77j7wnti.cloudfront.net/Images/lawfrimphotos/chat (6).png",
                 hd:"Send instant messages",
-                p:"SMS is faster than an email and yet less intrusive than a phone call. Freshsales allows you to SMS your clients from within the CRM."
+                p:"SMS is faster than an email and yet less intrusive than a phone call. Bottom Funnel Sales allows you to SMS your clients from within the CRM."
                 },
         
         ]  
