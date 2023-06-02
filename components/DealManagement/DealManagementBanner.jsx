@@ -10,7 +10,7 @@ export const DealManagementBanner = () => {
     <p>With Bottom Funnel,track your contact's
      communication, unify data, improve customer engagement,
     and develop long-lasting relationships.</p>
-    <button className={styles.dealmanagementbannerbutton}>Signup for free</button>
+    <button className={styles.dealmanagementbannerbutton}>Sign up for free</button>
     
     </div>
     

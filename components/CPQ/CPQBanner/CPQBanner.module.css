@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 3%;
 }
 .CPQBannerimagediv{
     width: 40%;
+ margin-top: 7%;
 }
 .CPQBannercontent{
     width: 35%;
-    margin-right: 3%;
+    
 }
 .CPQBannercontent p{
     font-size: 18px;
@@ -50,56 +51,25 @@
 }
 @media (max-width:1024px){
     .CPQBannermaindiv{
-        display: flex;
+      
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 6%;
+      
+        margin-top: 30%;
     }
     .CPQBannerimagediv{
         width: 90%;
-        margin: auto;
+        margin:auto;
+        
     }
     .CPQBannercontent{
         width: 90%;
-        margin: auto;
+        margin:4% auto;
         text-align: center;
     }
     .CPQBannercontent p{
         font-size: 18px;
         text-align: justify;
     }
-    .CPQBannerbuttonone{
-        border: 2px solid;
-        width: 200px;
-        height: 40px;
-        font-size: 18px;
-        font-weight: 600;
-        border-radius: 10px;
-        background-color: #ef4c23;
-        color: white;
-        border: none;
-        margin-top: 2%;
-    }
-    .CPQBannerbuttonone:hover{
-        background: transparent;
-        color: #ef4c23;
-        border: 1px solid #ef4c23;
-    }
-    .CPQBannerbuttontwo{
-        border: 1px solid #ef4c23;
-        width: 200px;
-        height: 40px;
-        font-size: 18px;
-        font-weight: 600;
-        border-radius: 10px;
-        background-color: transparent;
-        color: #ef4c23;
-         margin-top: 2%;
-        }
-    .CPQBannerbuttontwo:hover{
-        border: none;
-        background-color: #ef4c23;
-        color: white;
-    }
+    
+    
 }

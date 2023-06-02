@@ -1,14 +1,15 @@
 .SalesReportsBannermaindiv{
     /* border: 2px solid green; */
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     height: 90vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 7%;
 
 }
 .SalesReportsBannermaindivcontent{
-    width: 35%;
+    width: 40%;
 }
 .SalesReportsBannermaindivcontent p{
     font-size: 18px;
@@ -38,44 +39,28 @@
     
     display: flex;
     flex-direction: column-reverse;
-    height: 80vh;
-    align-items: center;
-    justify-content: space-between;
+   margin-top: 35%;
+   height: auto;
+   gap: 10px;
 
 }
 .SalesReportsBannermaindivcontent{
-    width: 90%;
+    width: 95%;
     margin: auto;
     text-align: center;
   
-    margin-top: -3%;
+   
 }
 .SalesReportsBannermaindivcontent p{
     font-size: 16px;
 }
 
-.SalesReportsBannermaindivcontent h1{
-    font-size: 28px;
-}
+
 .SalesReportsBannermaindivimage{
     width: 90%;
     margin: auto;
   
 }
-.SalesReportsBannermaindivbutton{
-    width: 220px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #ef4c23;
-    color: white;
-    border: none;
-}
-.SalesReportsBannermaindivbutton:hover{
-    border: 1px solid #ef4c23;
-    color: #ef4c23;
-    background:#fff;
-}
+
 }
 

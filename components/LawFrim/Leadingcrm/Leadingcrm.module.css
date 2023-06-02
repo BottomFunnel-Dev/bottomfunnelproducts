@@ -72,7 +72,9 @@
        
     }
     .Leadingcrmimage{
-        width: 80%;
+        width: 60%;
+        height: auto;
+        margin-top: 10%;
     }
     
     .Leadingcrmmaindivinner h2{

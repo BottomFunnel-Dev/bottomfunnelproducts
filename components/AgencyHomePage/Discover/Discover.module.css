@@ -21,17 +21,13 @@
   .Discovermaindiv {
     /* border: 2px solid red; */
     width: 95%;
-    margin: auto;
-    margin-top: 5%;
+   
   }
 
   .Discoverimage {
     /* border: 1px solid lightgray; */
     width: 95%;
     height: fit-content;
-    margin: auto;
-    margin-top: 2%;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
+   
+    }
 }

@@ -21,12 +21,10 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.Screensmaininnerdivone {
-  display: flex;
+.Screensmaininnerdiv:nth-child(even) {
+  
   flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 3%;
+ 
 }
 
 /* this code is for the mobile resposive */
@@ -41,9 +39,7 @@
   .Screensmaininnerdiv {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 3%;
+    
   }
 
   .Screensmaininnerdivcontent {
@@ -52,14 +48,16 @@
 
   .Screensmaininnerdivimage {
     width: 95%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 4% auto;
   }
-
   .Screensmaininnerdivone {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 3%;
+   
+  }
+  .Screensmaininnerdiv:nth-child(even) {
+  
+    flex-direction: column-reverse;
+   
   }
 }
