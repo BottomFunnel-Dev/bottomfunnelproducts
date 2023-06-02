@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import HeadSeo from "../../components/HeadSeo/HeadSeo";
 import { useRouter } from "next/router";
@@ -29,7 +30,7 @@ export default function dealmanagement() {
     const data = MetaData.filter((item) => item.route === router.pathname);
     setPageMeta(data);
   }, [MetaData]);
-
+  
   return (
     <div>
       <HeadSeo
@@ -46,7 +47,12 @@ export default function dealmanagement() {
           logo: false,
         }}
       />
-
+      <SalesNavbar
+        navproductredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
       <DealManagementBanner />
       <PipelineManagement />
       <DealBusinesshealth />

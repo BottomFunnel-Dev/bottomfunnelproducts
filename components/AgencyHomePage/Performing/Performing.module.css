@@ -39,24 +39,20 @@
   .Performingmaindiv {
     /* border: 2px solid green; */
     width: 95%;
-    margin: auto;
-    margin-top: 5%;
+   
   }
 
   .Performing1stdivimage {
     /* border: 1px solid lightgrey; */
     width: 95%;
     height: fit-content;
-    border-radius: 10px;
-    margin: auto;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
   }
 
   .Performing2ndinnerdiv {
     /* border: 2px solid red; */
-    display: flex;
+  
     flex-direction: column;
-    margin-top: 5%;
   }
 
   .Performing2ndpart1 {
@@ -68,6 +64,5 @@
     /* border: 2px solid yellow; */
     width: 95%;
     height: fit-content;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
+    }
 }

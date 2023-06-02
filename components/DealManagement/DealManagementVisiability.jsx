@@ -41,8 +41,11 @@ export const DealManagementVisiability = () => {
 
     ]
 
-  return (
-    <div className={styles.dealmanagementvisiabilitymainboxes}>{dealmanagementvisibilitydata.map((e)=>{
+  return ( <div className={styles.mainbox}>
+    <h2>Deal Management Features</h2>
+    <div className={styles.dealmanagementvisiabilitymainboxes}>
+       
+            {dealmanagementvisibilitydata.map((e)=>{
         return (
             <div>
             <div className={styles.dealmanagementvisiabilityiconbox}>
@@ -68,5 +71,7 @@ export const DealManagementVisiability = () => {
     
     
     </div>
+    </div>
   )
 }
+

@@ -47,15 +47,13 @@
 
 @media (max-width: 480px) {
   .AgencySalesbannermainbox {
-    height: 80vh;
+    height: max-content;
     width: 100%;
-    background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/realestatesales/Sales banner background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
+    margin-top: 30%;
+    text-align: center;
+    padding-bottom: 20px;
     flex-direction: column-reverse;
-    align-items: center;
+    
   }
 
   .AgencySalesbannerannimation {
@@ -66,27 +64,7 @@
     width: 95%;
   }
 
-  .AgencySalesbannermainboxinnertextdiv > h1 {
-    font-size: 40px;
-  }
+ 
 
-  .AgencySalesbannerbutton {
-    border-radius: 10px;
-    width: 220px;
-    height: 40px;
-    background-color: #ef4c23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-top: 15px;
-  }
-
-  .AgencySalesbannerbutton:hover {
-    background-color: white;
-    color: #ef4c23;
-    border: 1px solid #ef4c23;
-  }
+ 
 }

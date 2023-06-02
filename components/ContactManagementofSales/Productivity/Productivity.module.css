@@ -15,7 +15,7 @@
     margin: auto;
     border-radius: 10px;
     width: 26%;
-    padding: 20px 10px 20px 10px ;
+    padding: 20px 10px ;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -28,21 +28,18 @@
 }
 @media (max-width:1024px){
     .Productivityinnercards{
-        display: flex;
+     
         flex-direction: column;
         width: 90%;
-        margin: auto;
-        margin-top: 2%;
+        margin:4% auto;
+     
         
     }
     .Productivitymaindivcards{
         margin: auto;
         border-radius: 10px;
         width: 90%;
-        padding: 20px 10px 20px 10px ;
-        text-align: center;
         margin-top: 5%;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 }
 

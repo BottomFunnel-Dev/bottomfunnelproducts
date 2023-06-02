@@ -46,51 +46,26 @@
 /* this code is for the mobile resposive */
 
 @media (max-width: 480px) {
-  .Financepragrafmaindiv {
-    /* border: 2px solid red; */
-    margin-top: 3%;
-  }
-
+ 
   .Financepragrafinnerdiv {
     width: 95%;
-    margin: auto;
+   
   }
 
   .Financepragrafinnerdivsecond {
     /* border: 2px solid green; */
     width: 95%;
-    margin: auto;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
+    }
 
-  .Financepragrafinnerdivsecondinner {
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin-top: 2%;
-    margin: auto;
-    /* justify-content: space-around; */
-  }
 
   .Financepragrafinnerdivsecondimage {
     /* border: 2px solid blue; */
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
+    margin: 2%;
   }
 
-  .Financepragrafinnerdivsecondinner h2 {
-    color: #ef2c23;
-    width: 100%;
-    /* border: 2px solid; */
-    margin-left: 5%;
-  }
-
-  .Financepragrafinnerdivsecondcontent {
-    padding: 2%;
-  }
+  
 }
 
 @media (min-width: 481) and (max-width: 1024px) {
@@ -114,11 +89,7 @@
     /* border: 2px solid yellow; */
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 1%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin-top: 2%;
-    /* justify-content: space-around; */
+    
   }
   .Financepragrafinnerdivsecondimage {
     /* border: 2px solid blue; */
@@ -126,14 +97,9 @@
     height: 80px;
   }
 
-  .Financepragrafinnerdivsecondinner h2 {
-    color: #ef2c23;
-    width: 100%;
-    /* border: 2px solid; */
-    margin-left: 5%;
-  }
+  
   .Financepragrafinnerdivsecondcontent {
-    padding: 2%;
+   
     text-align: justify;
   }
 }

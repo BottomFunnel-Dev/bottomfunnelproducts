@@ -1,9 +1,10 @@
 .SalesMobileofFeaturesbannermaindiv{
  display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
 height: 90vh;
 justify-content: space-evenly;
 align-items: center;
+margin-top: 5%;
 }
 .SalesMobileofFeaturesbannercontent{
   width: 35%;
@@ -50,50 +51,33 @@ align-items: center;
     .SalesMobileofFeaturesbannermaindiv{
         display: flex;
        flex-direction: column-reverse;
-       height: 90vh;
-       justify-content: space-evenly;
-       align-items: center;
-       /* border: 2px solid; */
+     
+      margin-top: 20%;
+     
+     
+      
        }
        .SalesMobileofFeaturesbannercontent{
          width: 90%;
          text-align: center;
+         /* border: 1px solid red; */
        }
-       .SalesMobileofFeaturesbannercontent p{
-           font-size: 18px;
-           text-align: justify;
-       }
+      
        .SalesMobileofFeaturesbannerimage{
          width: 90%;
-         margin: auto;
-       }
-       .SalesMobileofFeaturesbannerbutton{
-           width: 220px;
-           height: 40px;
-           font-size: 18px;
-           font-weight: 600;
-           background-color: #ef4c23;
-           color: white;
-           border-radius: 10px;
-           border: none;
-       }
-       .SalesMobileofFeaturesbannerbutton:hover{
-           color: #ef4c23;
-           border: 1px solid #ef4c23;
-           background-color: white;
+      
+         /* border: 1px solid red; */
        }
        
+       
        .SalesMobileofFeaturesbannermaindiv1{
-       display: flex;
+
        flex-direction: column-reverse;
-       height: fit-content;
-       justify-content: space-evenly;
-       align-items: center;
-       /* border: 2px solid; */
+      
        }
        .SalesMobileofFeaturesbannercontenttwo{
            width: 90%;
-           margin: auto;
+           margin: 4% auto;
            text-align: center;
        }
        .SalesMobileofFeaturesbannercontenttwo p{
@@ -101,7 +85,7 @@ align-items: center;
        }
        
        .SalesMobileofFeaturesbannerimagetwo{
-           width: 90%;
+           width: 70%;
        }
        
 }

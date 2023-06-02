@@ -9,7 +9,7 @@ export const Leadingcrm = () => {
            <div className={styles.Leadingcrmmaindiv}>
    <div className={styles.Leadingcrmmaindivinner}>
     <h2 >A leading CRM for law firms</h2>
-    <p>Build and nurture strong relationships with your prospects and clients with Freshsales, a leading modern CRM for law firms.</p>
+    <p>Build and nurture strong relationships with your prospects and clients with Bottom Funnel Sales, a leading modern CRM for law firms.</p>
   <ul>
     <li>Streamline your activities</li>
     <li>Understand your cases inside-out</li>

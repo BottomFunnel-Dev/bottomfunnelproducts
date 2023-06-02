@@ -24,26 +24,21 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     .Solutionmaindiv{
         /* border: 2px solid green; */
         background: none ;
-        background-position: center;
-       
-    
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    margin: auto;
+        width: 90%;
+   
     display: flex;
     height: fit-content;
-    justify-content: right;
-    align-items: center;
-    border-radius: 20px;
-    margin-top: 4%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
+ 
+     }
+     .Solutionmaindivcontent>h3{
+        text-align: center;
+     }
     .Solutionmaindivcontent{
         /* border: 2px solid red; */
         width: 100%;
         margin-top: 5%;
-        text-align: center;
+      
+        padding: 10px;
     }
     
 }

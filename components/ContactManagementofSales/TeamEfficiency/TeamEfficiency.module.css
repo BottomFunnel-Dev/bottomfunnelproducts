@@ -24,21 +24,18 @@
     text-align: center;
 }
 @media (max-width:1024px){
+    .TeamEfficiencymaindiv{
+        margin: 10% auto;
+        padding: 20px 5px;
+    }
     .TeamEfficiencyinnerdiv{
-        display: flex;
+      margin: 5% auto;
         flex-direction: column;
-        width: 90%;
-        margin: auto;
-        margin-top: 3%;
-       
-        align-items: center;
+      gap: 20px;
     }
-    .TeamEfficiencyinnerdivimage{
+    .TeamEfficiencyinnerdivimage,.TeamEfficiencyinnerdivcontent{
         /* border: 2px solid yellow; */
-        width: 90%;
-    }
-    .TeamEfficiencyinnerdivcontent{
         width: 95%;
-        margin-left: 5%;
     }
+   
 }

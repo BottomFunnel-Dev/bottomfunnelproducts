@@ -19,12 +19,6 @@
   margin: auto;
 }
 
-.DigitalTransformationinnerdiv2contain {
-  /* border: 2px solid red; */
-  font-size: 18px;
-  padding-top: 70px;
-  /* text-align: center; */
-}
 
 .DigitalTransformationinnerdivcontain {
   /* border: 2px solid red; */
@@ -34,25 +28,14 @@
   /* text-align: center; */
 }
 
-.DigitalTransformationinnerdiv2 {
+.DigitalTransformationinnerdiv:nth-child(even) {
   /* border: 2px solid green; */
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 80%;
-  margin: auto;
+  flex-direction: row-reverse;
+ 
 }
 
-.DigitalTransformationinnerdiv3 {
-  /* border: 2px solid green; */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 80%;
-  margin: auto;
-}
+
 
 .DigitalTransformationinnerdivimage {
   width: 25%;
@@ -63,61 +46,39 @@
 
 @media (max-width: 480px) {
   .DigitalTransformationmaindiv {
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid #ffff00; */
-    justify-content: center;
-    background-color: #ffedd4;
-    margin-top: 5%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+   height: auto;
   }
 
   .DigitalTransformationinnerdiv {
     /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
     width: 95%;
-    margin: auto;
+   
   }
 
-  .DigitalTransformationinnerdiv2contain {
-    /* border: 2px solid red; */
-    font-size: 18px;
-    padding-top: 70px;
-    /* text-align: center; */
-  }
+  
 
   .DigitalTransformationinnerdivcontain {
     /* border: 2px solid red; */
-    font-size: 18px;
+  
     width: 95%;
-    /* padding-top: 60px; */
-    /* text-align: center; */
+  
   }
 
-  .DigitalTransformationinnerdiv2 {
-    /* border: 2px solid green; */
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    width: 95%;
-    margin: auto;
-  }
-
-  .DigitalTransformationinnerdiv3 {
+  .DigitalTransformationinnerdiv:nth-child(even) {
     /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 95%;
-    margin: auto;
+   
   }
 
+
   .DigitalTransformationinnerdivimage {
-    width: 95%;
+    width: 90%;
     height: fit-content;
+    margin:4% auto ;
+   
   }
 }

@@ -35,42 +35,23 @@
 }
 .TravelAgencySalesBannerannimation{
     width: 45%;
+    margin-top: 4%;
 }
 
 @media (max-width:1024px) {
     .TravelAgencySalesBannermaindiv{
    
-        background: url("https://d3op2l77j7wnti.cloudfront.net/Images/realestatesales/Sales banner background.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+       
         height: fit-content;
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: space-around;
+       
         /* border: 2px solid; */
-        margin-top: 30px;
+        margin-top: 30%;
     }
     
-    .TravelAgencySalesBannermaindivbutton{
-        /* border: 2px solid yellow; */
-        width: 220px;
-        height: 40px;
-        color: white;
-        background-color: #ef4c23;
-        font-size: 18px;
-        font-weight: 600;
-        border-radius: 10px;
-        border: none;
-        margin-top: 2%;
-    
-    }
-    .TravelAgencySalesBannermaindivbutton:hover{
-        border: 1px solid #ef4c23;
-        color: #ef4c23;
-        background-color: white;
-    }
+   
+   
     .TravelAgencySalesBannermaindivinner{
         width: 90%;
         margin: auto;

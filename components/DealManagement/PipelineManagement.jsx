@@ -5,8 +5,8 @@ import Image from 'next/image'
 export const PipelineManagement = () => {
   return (
     <div className={styles.pipelinemanagementmainboxes}>
-    <h1>What is<span> Pipeline Management 2.0</span></h1>
-    <p>An ordinary sales pipeline offers basic functionalities like tracking and managing your deals but with Pipeline Management 2.0 in Freshsales,
+    <h2>What is<span> Pipeline Management 2.0</span></h2>
+    <p>An ordinary sales pipeline offers basic functionalities like tracking and managing your deals but with Pipeline Management 2.0 in Bottom Funnel sales,
     Visualize your entire sales process and break it down into actionable tasks.Backend by an AI-powered assistant, easily predict deal's performance, engage with your prospects,forecast revenue, and make smarter decisions to move your deals up the sales ladder.
     Get Context at a glance with the summary and overview cards on the deal landing page.
     </p>

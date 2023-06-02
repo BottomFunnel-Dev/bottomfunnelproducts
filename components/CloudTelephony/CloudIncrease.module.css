@@ -17,7 +17,7 @@ padding-bottom: 5%;
     font-size: 40px;
 }
 .cloudincreasesalestextboxupper >p{
-   width: 67%;
+   width: 80%;
    margin: auto;
    text-align: justify;
    padding-top: 1%;
@@ -30,12 +30,16 @@ padding-bottom: 5%;
 
 .cloudincreasesalesboxflexingdiv{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 5%;
 }
-
+.cloudincreasesalesboxflexingdiv:nth-child(even){
+    flex-direction: row-reverse;
+}
 .cloudincreasesalesboxflexingdivleft{
-    width: 50%;
-    margin-left: 5%;
+    width: 40%;
+    margin-left: 3%;
  padding-top: 7%;
     height: fit-content;
    
@@ -43,22 +47,17 @@ padding-bottom: 5%;
 
 .cloudincreasesalesboxflexingdivright{
     height: 400px;
-    width: 45%;
+    width: 40%;
  
 
 }
 
-.cloudincreasesalesboxflexingdivright >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
+
 @media (max-width:1024px){
     .cloudincreasesalesmainboxes{
-        height: fit-content;
-    padding-top: 0%;
+        
     padding-bottom: 0%;
-     background-color: white;
+    
     }
     
     .cloudincreasesalestextboxupper{
@@ -74,45 +73,39 @@ padding-bottom: 5%;
     }
     .cloudincreasesalestextboxupper >p{
        width: 95%;
-       margin: auto;
-       text-align: justify;
+      
        padding-top: 0%;
-       font-size: 17px;
+      
     }
     
-    .specialcolor{
-        color: #ef4c23;
-    }
+   
     
     .cloudincreasesalesboxflexingdiv{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 0%;
     }
-    
+    .cloudincreasesalesboxflexingdiv:nth-child(even){
+        flex-direction: column-reverse;
+    }
     .cloudincreasesalesboxflexingdivleft{
         width: 90%;
        margin: auto;
      padding-top: 0%;
      text-align: center;
-        height: fit-content;
-       /* border: 2px solid; */
+       
     }
     .cloudincreasesalesboxflexingdivleft p{
         text-align: justify;
     }
     
     .cloudincreasesalesboxflexingdivright{
-        height: 400px;
+       height: auto;
         width: 90%;
-        margin: auto;
+        margin:4% auto;
      
     
     }
     
-    .cloudincreasesalesboxflexingdivright >img{
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-    }
+    
 }
