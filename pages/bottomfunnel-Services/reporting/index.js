@@ -1,3 +1,7 @@
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
 
 import Navbar from "../../../components/Navbar/Navbar";
 import { ServiceNavbar } from "../../../components/Navbar/ServiceNavbar/ServiceNavbar";
@@ -11,39 +15,50 @@ import { ReportingPerk } from "../../../components/Reporting/ReportingPerk/Repor
 import { ServiceFooter } from "../../../components/ServiceFooter/ServiceFooter";
 import TrustedBy from "../../../components/TrustedByProductsPage/TrustedBy";
 
+export default function Reporting() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
 
-export default function Reporting(){
-    return(
-<div>
-        <Navbar
-          productMount={{
-            navMount: true,
-          }}
-          navredux={{
-            color: "black",
-            logo: false,
-          }}
-        />
-    
-        <ServiceNavbar
-          navproductredux={{
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
+  return (
+    <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
           color: "black",
           logo: false,
         }}
       />
-    <ReportingBanner/>
-    <ReportingFeatures/>
-    <ReportingPerk/>
-   
-   
-    <Testimonial />
-    <TrustedBy/>
-     
-      
+
+      <ServiceNavbar
+        navproductredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+      <ReportingBanner />
+      <ReportingFeatures />
+      <ReportingPerk />
+
+      <Testimonial />
+      <TrustedBy />
+
       <ReadyStarted />
-      <TalentProfiles/>
+      <TalentProfiles />
       <LifeBottomFunnel />
       <ServiceFooter />
-</div>
-    )
+    </div>
+  );
 }

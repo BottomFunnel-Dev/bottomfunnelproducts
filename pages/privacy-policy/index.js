@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { Privacy } from "../../components/PrivacyPolicy/PrivacyPolicy";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
 import { TalentProfiles } from "../../components/ProductsNewPage/TalentProfiles/TalentProfiles";
@@ -7,25 +11,40 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import Navbar from "../../components/Navbar/Navbar";
 
 export default function PrivacyPolicy() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "black",
-            logo: false,
-          }}
-        />
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
-        <Privacy/>
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
-        <ReadyStarted />
-        <TalentProfiles />
+      <Privacy />
 
-        <LifeBottomFunnel />
-        <ProductsFooter />
+      <ReadyStarted />
+      <TalentProfiles />
+
+      <LifeBottomFunnel />
+      <ProductsFooter />
     </>
   );
 }

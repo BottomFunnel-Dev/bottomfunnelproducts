@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { FeaturedIntegration } from "../../../components/FeaturedIntegrationPage/FeaturedIntegration/FeaturedIntegration";
 import { FeatureList } from "../../../components/FeaturedIntegrationPage/FeatureList/FeatureList";
 import { IntegrationBanner } from "../../../components/FeaturedIntegrationPage/IntegrationBanner/IntegrationBanner";
@@ -13,8 +17,23 @@ import ReadyStarted from "../../../components/ProductsNewPage/ReadyStarted/Ready
 import { DeskFooter } from "../../../components/DeskFooter/DeskFooter";
 
 const index = () => {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <Navbar
         productMount={{
           navMount: true,
@@ -25,23 +44,23 @@ const index = () => {
         }}
       />
       <ProductsNavbar
-      navproductredux={{
-        color: "black",
-        logo: false,
-      }}
+        navproductredux={{
+          color: "black",
+          logo: false,
+        }}
       ></ProductsNavbar>
-      
+
       <IntegrationBanner />
       <FeaturedIntegration />
       <FeatureList />
       <IntegrationFooter />
 
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
       {/* <TalentProfiles/> */}
       <LifeBottomFunnel />
-      <DeskFooter/>
+      <DeskFooter />
       {/* <ProductsFooter /> */}
     </div>
   );

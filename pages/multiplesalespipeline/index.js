@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import MultipleSalesBanner from "../../components/MultipleSalesPipeline/MultipleSalesBanner/MultipleSalesBanner";
 import MultiplesSalesAd from "../../components/MultipleSalesPipeline/MultiplesSalesAd/MultiplesSalesAd";
 import MultipleSalesInfo from "../../components/MultipleSalesPipeline/MultipleSalesInfo/MultipleSalesInfo";
@@ -13,9 +17,24 @@ import Navbar from "../../components/Navbar/Navbar";
 import GetStartedFooter from "../../components/ReusableComponent/GetStartedFooter/GetStartedFooter";
 
 const index = () => {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <>
-    <Navbar
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -32,7 +51,11 @@ const index = () => {
           <BulkEmailSuiteBox />
         </div>
       </div>
-      <GetStartedFooter title={"Reduce your manual efforts and focus on selling"} desc={"21-day free trial. Unrestricted access"} btntext={"GET STARTED"}/>
+      <GetStartedFooter
+        title={"Reduce your manual efforts and focus on selling"}
+        desc={"21-day free trial. Unrestricted access"}
+        btntext={"GET STARTED"}
+      />
 
       <Testimonial />
       <TrustedBy />

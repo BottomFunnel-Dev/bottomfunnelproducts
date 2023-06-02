@@ -1,20 +1,31 @@
-import React from 'react'
-import { Messaginchannelbanner } from '../../components/Messaginchannel/Messaginchannelbanner'
-import { Messagincommunication } from '../../components/Messaginchannel/Messagincommunication'
-import { Messagingchannellowerbanner } from '../../components/Messaginchannel/Messagingchannellowerbanner'
-import { Messagingplatforms } from '../../components/Messaginchannel/Messagingplatforms'
-import Navbar from '../../components/Navbar/Navbar'
-import { ProdNavbar } from '../../components/ProdNavbar'
-import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
-import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
-import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
-import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
-import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
-import { ChatFooter } from '../../components/ChatFooter/ChatFooter'
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
 
+import { Messaginchannelbanner } from "../../components/Messaginchannel/Messaginchannelbanner";
+import { Messagincommunication } from "../../components/Messaginchannel/Messagincommunication";
+import { Messagingchannellowerbanner } from "../../components/Messaginchannel/Messagingchannellowerbanner";
+import { Messagingplatforms } from "../../components/Messaginchannel/Messagingplatforms";
+import Navbar from "../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../components/ProdNavbar";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import { ChatFooter } from "../../components/ChatFooter/ChatFooter";
 
+export default function messaginchannel() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
 
-export default function messaginchannel ()  {
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   const productData = {
     title: "Bottom Funnel Chat",
     logo: "https://d3op2l77j7wnti.cloudfront.net/Images/navbar/product/Chat.png",
@@ -83,8 +94,14 @@ export default function messaginchannel ()  {
         {
           dropContent: "By Use Size",
           list: [
-            { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-            { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
+            {
+              title: "Smart Conversations",
+              path: "/bottomfunnelchat/solutions/smart-conversations",
+            },
+            {
+              title: "Zero Contact Resolutions",
+              path: "/bottomfunnelchat/solutions/contactresolution",
+            },
             { title: "Provide convenient customer service", path: "/" },
             { title: "Move from costly channels", path: "/" },
           ],
@@ -92,7 +109,10 @@ export default function messaginchannel ()  {
         {
           dropContent: "By Use Size",
           list: [
-            { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+            {
+              title: "Enterprise",
+              path: "/bottomfunnelchat/solutions/enterprise",
+            },
             { title: "SMB", path: "/" },
           ],
         },
@@ -141,29 +161,32 @@ export default function messaginchannel ()  {
   };
   return (
     <div>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
-    <Navbar
-    productMount={{
-      navMount: false,
-    }}
-    navredux={{
-      color: "black",
-      logo: false,
-    }}
-  />
+      {/* <ProdNavbar data={productData} /> */}
+      <Messaginchannelbanner />
+      <Messagincommunication />
+      <Messagingplatforms />
+      <Messagingchannellowerbanner />
 
-    {/* <ProdNavbar data={productData} /> */}
-    <Messaginchannelbanner />
-    <Messagincommunication />
-    <Messagingplatforms />
-    <Messagingchannellowerbanner />
-    
-    
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+      <ChatFooter />
     </div>
-  )
+  );
 }

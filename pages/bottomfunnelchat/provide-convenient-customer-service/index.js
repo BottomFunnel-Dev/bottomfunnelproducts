@@ -1,19 +1,21 @@
-import React from 'react'
-import { EnterprizePlatform } from '../../../components/ContactResolution/EnterprizePlatform/EnterprizePlatform'
-import Navbar from '../../../components/Navbar/Navbar'
-import { ProdNavbar } from '../../../components/ProdNavbar'
-import LifeBottomFunnel from '../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
-import { ProductsFooter } from '../../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
-import ReadyStarted from '../../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
-import Testimonial from '../../../components/ProductsNewPage/Testimonial/Testimonial'
-import { Banner } from '../../../components/ProvideConvenientCustomerService/Banner/Banner'
-import { HowSeeking } from '../../../components/ProvideConvenientCustomerService/HowSeeking/HowSeeking'
-import { PowerBack } from '../../../components/ProvideConvenientCustomerService/PowerBack/PowerBack'
-import { WhatMore } from '../../../components/ProvideConvenientCustomerService/WhatMore/WhatMore'
-import TrustedBy from '../../../components/TrustedByProductsPage/TrustedBy'
-import { ChatFooter } from '../../../components/ChatFooter/ChatFooter'
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
 
-
+import { EnterprizePlatform } from "../../../components/ContactResolution/EnterprizePlatform/EnterprizePlatform";
+import Navbar from "../../../components/Navbar/Navbar";
+import { ProdNavbar } from "../../../components/ProdNavbar";
+import LifeBottomFunnel from "../../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import ReadyStarted from "../../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import Testimonial from "../../../components/ProductsNewPage/Testimonial/Testimonial";
+import { Banner } from "../../../components/ProvideConvenientCustomerService/Banner/Banner";
+import { HowSeeking } from "../../../components/ProvideConvenientCustomerService/HowSeeking/HowSeeking";
+import { PowerBack } from "../../../components/ProvideConvenientCustomerService/PowerBack/PowerBack";
+import { WhatMore } from "../../../components/ProvideConvenientCustomerService/WhatMore/WhatMore";
+import TrustedBy from "../../../components/TrustedByProductsPage/TrustedBy";
+import { ChatFooter } from "../../../components/ChatFooter/ChatFooter";
 
 const productData = {
   title: "Bottom Funnel Chat",
@@ -21,7 +23,10 @@ const productData = {
   width: "65%",
   list1: {
     title: "Features",
-    more: { title: "View more features", path: "/bottomfunnelchat/allFeatures" },
+    more: {
+      title: "View more features",
+      path: "/bottomfunnelchat/allFeatures",
+    },
     position: { left: "35%" },
     products: [
       {
@@ -83,16 +88,31 @@ const productData = {
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Smart Conversations", path: "/bottomfunnelchat/solutions/smart-conversations" },
-          { title: "Zero Contact Resolutions", path: "/bottomfunnelchat/solutions/contactresolution" },
-          { title: "Provide convenient customer service", path: "/bottomfunnelchat/provide-convenient-customer-service" },
-          { title: "Move from costly channels", path: "/bottomfunnelchat/move-from-costly-channel" },
+          {
+            title: "Smart Conversations",
+            path: "/bottomfunnelchat/solutions/smart-conversations",
+          },
+          {
+            title: "Zero Contact Resolutions",
+            path: "/bottomfunnelchat/solutions/contactresolution",
+          },
+          {
+            title: "Provide convenient customer service",
+            path: "/bottomfunnelchat/provide-convenient-customer-service",
+          },
+          {
+            title: "Move from costly channels",
+            path: "/bottomfunnelchat/move-from-costly-channel",
+          },
         ],
       },
       {
         dropContent: "By Use Size",
         list: [
-          { title: "Enterprise", path: "/bottomfunnelchat/solutions/enterprise" },
+          {
+            title: "Enterprise",
+            path: "/bottomfunnelchat/solutions/enterprise",
+          },
           { title: "SMB", path: "/bottomfunnelchat/smb" },
         ],
       },
@@ -139,12 +159,26 @@ const productData = {
   // },
   pricing: "",
 };
-  
 
 export default function index() {
-    return (
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
+  return (
     <div>
-        <Navbar
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
+      <Navbar
         productMount={{
           navMount: true,
         }}
@@ -154,19 +188,17 @@ export default function index() {
         }}
       />
       <ProdNavbar data={productData} />
-        <Banner/>
-        <HowSeeking/>
-        <PowerBack/>
-        <WhatMore/>
-        <EnterprizePlatform/>
+      <Banner />
+      <HowSeeking />
+      <PowerBack />
+      <WhatMore />
+      <EnterprizePlatform />
 
-
-         
-      <Testimonial/>
-      <TrustedBy/>
-      <ReadyStarted/>
-      <LifeBottomFunnel/>
-      <ChatFooter/>
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+      <ChatFooter />
     </div>
-  )
+  );
 }

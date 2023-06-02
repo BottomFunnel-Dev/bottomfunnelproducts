@@ -1,23 +1,45 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-import TopBannerWithBgImgNdBtn from '../../components/ReusableComponent/TopBannerWithBgImgNdBtn/TopBannerWithBgImgNdBtn'
-import BulkEmailFlexBoxRhtImg from '../../components/BulkEmail/BulkEmailFlexBoxRhtImg/BulkEmailFlexBoxRhtImg'
-import AdWithBgImgNdHeadingNdDesc from '../../components/ReusableComponent/AdWithBgImgNdHeadingNdDesc/AdWithBgImgNdHeadingNdDesc'
-import BulkEmailFlexBoxLftImg from '../../components/BulkEmail/BulkEmailFlexBoxLftImg/BulkEmailFlexBoxLftImg'
-import TopImageFlexBox from '../../components/ReusableComponent/TopImageFlexBox/TopImageFlexBox'
-import BulkEmailSuiteBox from '../../components/BulkEmail/BulkEmailSuiteBox/BulkEmailSuiteBox'
-import GetStartedFooter from '../../components/ReusableComponent/GetStartedFooter/GetStartedFooter'
-import Testimonial from '../../components/ProductsNewPage/Testimonial/Testimonial'
-import TrustedBy from '../../components/TrustedByProductsPage/TrustedBy'
-import ReadyStarted from '../../components/ProductsNewPage/ReadyStarted/ReadyStarted'
-import { TalentProfiles } from '../../components/ProductsNewPage/TalentProfiles/TalentProfiles'
-import LifeBottomFunnel from '../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel'
-import { ProductsFooter } from '../../components/ProductsNewPage/ProductsFooter/ProductsFooter'
-import { web_formsInfoCardFirstRow, web_formsInfoCardSecondRow } from '../../Data/web_formsInfo'
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
+import Navbar from "../../components/Navbar/Navbar";
+import TopBannerWithBgImgNdBtn from "../../components/ReusableComponent/TopBannerWithBgImgNdBtn/TopBannerWithBgImgNdBtn";
+import BulkEmailFlexBoxRhtImg from "../../components/BulkEmail/BulkEmailFlexBoxRhtImg/BulkEmailFlexBoxRhtImg";
+import AdWithBgImgNdHeadingNdDesc from "../../components/ReusableComponent/AdWithBgImgNdHeadingNdDesc/AdWithBgImgNdHeadingNdDesc";
+import BulkEmailFlexBoxLftImg from "../../components/BulkEmail/BulkEmailFlexBoxLftImg/BulkEmailFlexBoxLftImg";
+import TopImageFlexBox from "../../components/ReusableComponent/TopImageFlexBox/TopImageFlexBox";
+import BulkEmailSuiteBox from "../../components/BulkEmail/BulkEmailSuiteBox/BulkEmailSuiteBox";
+import GetStartedFooter from "../../components/ReusableComponent/GetStartedFooter/GetStartedFooter";
+import Testimonial from "../../components/ProductsNewPage/Testimonial/Testimonial";
+import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
+import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
+import { TalentProfiles } from "../../components/ProductsNewPage/TalentProfiles/TalentProfiles";
+import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
+import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
+import {
+  web_formsInfoCardFirstRow,
+  web_formsInfoCardSecondRow,
+} from "../../Data/web_formsInfo";
 
 const index = () => {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <Navbar
         productMount={{
           navMount: true,
@@ -30,7 +52,9 @@ const index = () => {
 
       <div style={{ backgroundColor: "rgba(241, 241, 241, 0.432)" }}>
         <TopBannerWithBgImgNdBtn
-          title={"Fast-track your sales process by getting leads directly from your website into your CRM"}
+          title={
+            "Fast-track your sales process by getting leads directly from your website into your CRM"
+          }
           desc={
             "Capture website visitors as leads, track their journey to engage in contextual selling, and close deals faster."
           }
@@ -73,16 +97,14 @@ const index = () => {
 
           <>
             <h3 style={{ textAlign: "center", marginBottom: "9rem" }}>
-            Automate data collection and take back your time
+              Automate data collection and take back your time
             </h3>
             <TopImageFlexBox data={web_formsInfoCardFirstRow} />
-            <TopImageFlexBox
-              data={web_formsInfoCardSecondRow}
-            />
+            <TopImageFlexBox data={web_formsInfoCardSecondRow} />
           </>
 
           <div style={{ marginTop: "4rem" }}>
-            <BulkEmailSuiteBox/>
+            <BulkEmailSuiteBox />
             <GetStartedFooter
               title={"Start tracking your sales activities today"}
               desc={"21-day free trial. Unrestricted access"}
@@ -99,7 +121,7 @@ const index = () => {
       <LifeBottomFunnel />
       <ProductsFooter />
     </>
-  )
-}
+  );
+};
 
-export default index
+export default index;
