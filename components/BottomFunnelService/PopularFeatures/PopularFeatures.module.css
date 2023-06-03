@@ -3,7 +3,8 @@
 }
 .PopularFeaturesmaindiv h2{
     /* border: 2px solid; */
-    margin-left: 3%;
+    text-align: center;
+    margin:2% auto;
 }
 
 .PopularFeatureinnerdiv{
@@ -34,50 +35,36 @@
 .PopularFeatureimagebox{
     /* border: 2px solid red; */
     width: 80px ;
-   margin-left: 40%;
+   margin:auto;
 }
 
 
 @media  (max-width:1024px){
-    .PopularFeaturesmaindiv{
-        /* border: 2px solid green; */
-    }
-    .PopularFeaturesmaindiv h2{
-        /* border: 2px solid; */
-        margin-left: 3%;
-    }
+    
+   
     
     .PopularFeatureinnerdiv{
         /* border: 2px solid yellow; */
         width: 100%;
-        display: flex;
+       
         flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        margin: auto;
+      
       
     
     }
     .PopularFeatureinnerbox{
         /* border: 2px solid blue; */
         width: 90%;
-        margin: auto;
-        padding: 10px 5px 10px 5px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border-radius: 10px;
+      
         margin-top: 4%;
     }
-    .PopularFeatureinnerbox:hover{
-        transition: all 0.2s linear;
-    
-      transform: translateY(-10px);
-    }
+   
     
     .PopularFeatureimagebox{
         /* border: 2px solid red; */
         width: 80px ;
-       margin-left: 40%;
-       /* margin-top: 4%; */
+      
+     
     }
     
 }

@@ -44,20 +44,15 @@
   margin-top: 2%;
   /* border: 2px solid red; */
 }
-.CustomerSuccesshomepageBannermaindivimage img {
-  width: 100%;
-  height: 90%;
-}
+
 
 @media (max-width: 480px) {
   .CustomerSuccesshomepageBannermaindiv {
-    display: flex;
-    align-items: flex-end;
     flex-direction: column-reverse;
-    width: 100%;
-    justify-content: space-evenly;
+   
     height: fit-content;
-    margin-top: 20%;
+    margin-top: 30%;
+    text-align: center;
   }
   .CustomerSuccesshomepageBannermaindivcontain {
     width: 95%;
@@ -65,8 +60,8 @@
   }
   .CustomerSuccesshomepageBannermaindivcontain h1 {
     width: 100%;
-    margin: 0%;
-    text-align: center;
+   
+   
   }
   .CustomerSuccesshomepageBannermaindivcontain p {
     width: 90%;
@@ -76,30 +71,12 @@
    font-size: 18px;
   }
   
-  .CustomerSuccesshomepageBannermaindivbutton {
-    width: 180px;
-    font-size: 18px;
-    border-radius: 10px;
-    height: 40px;
-    background-color: #14944C;
-    color: white;
-    border: none;
-    display: block;
-    margin: auto;
-    margin-top: 5%; 
-  }
-  .CustomerSuccesshomepageBannermaindivbutton:hover{
-    background-color: white;
-    border: 2px solid #14944C;
-    color: #14944C;
-  }
+  
   .CustomerSuccesshomepageBannermaindivimage {
     width: 90%;
     margin: auto;
+    
   }
-  .CustomerSuccesshomepageBannermaindivimage img {
-    width: 100%;
-    height: 90%;
-  }
+  
   
 }

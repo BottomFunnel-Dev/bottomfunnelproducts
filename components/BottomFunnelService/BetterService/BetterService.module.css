@@ -9,11 +9,8 @@
 @media  (max-width:1024px){
     .BetterServicemaindiv{
         /* border: 2px solid green; */
-        margin-top:2% ;
-        text-align: center;
-        padding: 10px;
-        background: linear-gradient(to left, white, lightgray, white);
-    }
+         padding: 10px;
+     }
     .BetterServicemaindiv p{
         text-align: justify;
     }
