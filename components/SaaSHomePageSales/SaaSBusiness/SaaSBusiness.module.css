@@ -48,48 +48,22 @@
 
 @media (max-width: 480px) {
   .SaaSBusinessmaindiv {
-    /* border: 2px solid red; */
     width: 90%;
-    margin: auto;
     margin-top: 5%;
-  }
-
-  .SaaSBusinessmaindiv p {
-    font-size: 18px;
-  }
-
-  .SaaSBusinessmaindiv h1 {
-    margin-bottom: 3%;
   }
 
   .SaaSBusinessinnerdiv {
     border: 2px solid pink;
-    border-radius: 10px;
-    display: flex;
     flex-direction: column;
-    padding: 30px 30px 30px 30px;
+    padding: 10px 10px 10px 10px;
   }
 
   .SaaSBusinessinnerimagediv {
-    /* border: 2px solid green; */
-    width: 95%;
-    height: fit-content;
-  }
-
-  .SaaSBusinessinnerimagediv img {
     width: 100%;
-    height: 100%;
   }
 
   .SaaSBusinessinnercontaindiv {
-    /* border: 2px solid yellow; */
     width: 100%;
-    margin-left: 4%;
-    padding-top: 20px;
-  }
-
-  .SaaSBusinessinnercontaindiv h2 {
-    color: #ef4c23;
-    margin-bottom: 4%;
+    margin: auto;
   }
 }

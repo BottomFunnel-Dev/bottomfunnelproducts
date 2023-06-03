@@ -56,26 +56,25 @@
   width: 60%;
   margin-left: 3%;
 }
+.Productivitymore{
+  color: orangered;
+  text-decoration: underline;
+}
 
 /* this code is for the mobile resposive */
 
 @media (max-width: 480px) {
   .SaaSDatamaindiv {
-    /* border:  2px solid red; */
-    display: flex;
     flex-direction: column;
-    width: 90%;
-    margin: auto;
-    margin-top: 6%;
   }
-
-  .SaaSDatamaindiv p {
-    font-size: 18px;
-    margin-top: 30px;
+  .SaaSDatamaindiv:nth-child(2){
+    flex-direction: column-reverse;
+  }
+  .SaaSDatamaindiv:nth-child(4){
+    flex-direction: column-reverse;
   }
 
   .SaaSDatamaincontaindiv {
-    /* border: 2px solid green; */
     width: 95%;
   }
 
@@ -83,39 +82,18 @@
     border: 1px solid lightgray;
     width: 95%;
     height: fit-content;
-    margin-left: 2%;
-    border-radius: 10px;
+    margin: auto;
   }
 
-  .SaaSDatamainimagediv img {
-    width: 100%;
-  }
-
-  .SaaSdatalearnmore {
-    color: rgb(65, 191, 241);
-    text-decoration: underline;
-    font-size: 18px;
-  }
-
-  .SaaSdatalearnmore:hover {
-    background-color: rgb(250, 232, 234);
-  }
 
   .SaaSDatamainimagediv1 {
     border: 1px solid lightgray;
     width: 95%;
     height: fit-content;
-    /* margin-left: 2%; */
-    border-radius: 10px;
-  }
-
-  .SaaSDatamainimagediv1 img {
-    width: 100%;
   }
 
   .SaaSDatamaincontaindiv1 {
-    /* border: 2px solid green; */
-    width: 95%;
-    margin-left: 3%;
+    width: 100%;
+   margin: auto;
   }
 }
