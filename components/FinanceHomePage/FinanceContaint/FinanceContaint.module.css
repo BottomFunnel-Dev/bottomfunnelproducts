@@ -19,7 +19,9 @@
   justify-content: space-around;
   margin-top: 2%;
 }
-
+.FinanceContaintinnerdiv:nth-child(even){
+  flex-direction: row-reverse;
+}
 .FinanceContaintinnerdivcontain {
   /* border: 2px solid red; */
   font-size: 18px;
@@ -48,8 +50,8 @@
 width: 80%;
 
   }
-  .FinanceContaintinnerdiv:nth-child(2){
-    flex-direction: column-reverse;
+  .FinanceContaintinnerdiv:nth-child(even){
+    flex-direction: column;
   }
 
   .FinanceContaintinnerdivcontain {
@@ -78,7 +80,9 @@ width: 80%;
     margin: auto;
    
   }
-
+  .FinanceContaintinnerdiv:nth-child(even){
+    flex-direction: column;
+  }
   .FinanceContaintinnerdivcontain {
     /* border: 2px solid red; */
     font-size: 18px;
