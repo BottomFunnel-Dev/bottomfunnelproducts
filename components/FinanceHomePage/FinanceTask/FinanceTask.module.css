@@ -23,7 +23,7 @@
 .FinanceTaskinnerdivone {
   /* border: 2px solid pink; */
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 90%;
   margin: auto;
   align-items: center;
@@ -32,16 +32,10 @@
   padding: 20px;
 }
 
-.FinanceTaskinnerdivone1 {
+.FinanceTaskinnerdivone:nth-child(even) {
   /* border: 2px solid pink; */
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  margin: auto;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 2%;
-  padding: 20px;
+
+  flex-direction: row-reverse;
 }
 
 .FinanceTaskimageone {
@@ -57,38 +51,33 @@
 /* this code is for the mobile resposive */
 
 @media (max-width: 480px) {
-  
-
   .FinanceTaskinnerdiv {
     /* border: 2px solid yellow; */
     width: 95%;
-  
   }
 
   .FinanceTaskimage {
     /* border: 2px solid black; */
     width: 95%;
     height: fit-content;
-   }
+  }
 
   .FinanceTaskinnerdivone {
     /* border: 2px solid pink; */
     display: flex;
     flex-direction: column-reverse;
     width: 95%;
-    }
+  }
 
-  .FinanceTaskinnerdivone1 {
+  .FinanceTaskinnerdivone:nth-child(even) {
     /* border: 2px solid pink; */
     display: flex;
     flex-direction: column-reverse;
     width: 95%;
-   
   }
 
   .FinanceTaskimageone {
     width: 95%;
-   
   }
 
   .FinanceTaskcontentone {
@@ -97,7 +86,7 @@
   }
 }
 
-@media (min-width) and (max-width: 1024px) {
+@media (min-width:481px) and (max-width: 1024px) {
   .FinanceTaskmaindiv {
     /* border: 2px solid green; */
     margin-top: 3%;
@@ -114,7 +103,6 @@
     width: 90%;
     height: fit-content;
     margin: auto;
-   
   }
 
   .FinanceTaskinnerdivone {
@@ -123,19 +111,14 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-    
   }
-  .FinanceTaskinnerdivone1 {
+  .FinanceTaskinnerdivone:nth-child(even) {
     /* border: 2px solid pink; */
-    display: flex;
+
     flex-direction: column;
-    width: 90%;
-    margin: auto;
-    
   }
   .FinanceTaskimageone {
     width: 45%;
-    
   }
   .FinanceTaskcontentone {
     width: 43%;

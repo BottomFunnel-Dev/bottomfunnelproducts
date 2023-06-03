@@ -6,9 +6,9 @@ import { MetaData } from "../../Data/MeatdataData";
 import { AgencyBanner } from "../../components/AgencyHomePage/AgencyBanner/AgencyBanner";
 import { AgencyNeedCrm } from "../../components/AgencyHomePage/AgencyNeedCrm/AgencyNeedCrm";
 import { AngencyCrm } from "../../components/AgencyHomePage/AngencyCrm/AngencyCrm";
-import { AutomateTask } from "../../components/AgencyHomePage/AutomateTask/AutomateTask";
+
 import { Discover } from "../../components/AgencyHomePage/Discover/Discover";
-import { Performing } from "../../components/AgencyHomePage/Performing/Performing";
+
 import Navbar from "../../components/Navbar/Navbar";
 import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
 import { Trial } from "../../components/AnalyticsofFeature/Trial/Trial";
@@ -60,8 +60,7 @@ export default function AgencyHomePage() {
         <AngencyCrm />
         <AgencyNeedCrm />
         <Discover />
-        <AutomateTask />
-        <Performing />
+       
         <AgencySales />
 
         <Trial />
