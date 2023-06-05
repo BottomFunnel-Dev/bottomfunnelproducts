@@ -63,8 +63,7 @@
         
         height: fit-content;
         background-image: none;
-        /* background-image: url("https://d3op2l77j7wnti.cloudfront.net/Images/Bottomfunnelomnichannelphotos/bannerbg.webp"); */
-        background: linear-gradient(to top,#ebcf35, #14944C  );
+         background: linear-gradient(to top,#ebcf35, #14944C  );
         
         background-size: 100% 100%;
         margin-top: 35%;
@@ -75,10 +74,8 @@
         flex-direction: column;
         /* height: 80vh; */
         width: 100%;
-        margin: auto;
-        justify-content: space-between;
-    align-items: center;
-    padding-top: 7%;
+       
+   
     text-align: center;
     padding-bottom: 30px;
     color: white;
@@ -86,25 +83,7 @@
     
     }
     
-    .BottomFunnelOmnichannelBannerbutton{
-        border: none;
-        font-size: 18px;
-        font-weight: 600;
-        width: 220px;
-        height: 40px;
-        border-radius: 10px;
-        color: white;
-        background-color: #14944C;
-        /* padding-bottom: 10px; */
-        /* border: 2px solid red; */
-    
-    }
-    
-    .BottomFunnelOmnichannelBannerbutton:hover{
-        background: white;
-        color: #14944C;
-        border: 1px solid #14944C;
-    }
+ 
     .BottomFunnelOmnichannelBannerimage{
         /* border: 2px solid yellow; */
         width: 90%;

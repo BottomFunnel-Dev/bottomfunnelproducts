@@ -5,7 +5,7 @@ import Image from 'next/image'
 export const BottomFunnelServiceBanner = () => {
   return (
     <div>
-    <div className={styles.BottomFunnelServiceBannermaindiv}>
+    
       <div className={styles.BottomFunnelServiceouterdiv}>
     <div className={styles.BottomFunnelServiceBannerinnerdiv}>
        
@@ -25,7 +25,7 @@ export const BottomFunnelServiceBanner = () => {
           style={{ width: "100%", height: "100%" }}
         />  
     </div>
-    </div>
+  
 
     
     </div>

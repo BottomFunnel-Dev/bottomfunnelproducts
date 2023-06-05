@@ -38,34 +38,25 @@
         /* border: 2px solid green ; */
         display: flex;
         flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-        height: fit-content ;
+    
+
+
+      
     
     }
     .AIServiceMangementBannermaindivcontent{
         width: 95%;
-        margin: auto;
+      
         text-align: center;
+    }
+    .AIServiceMangementBannermaindivcontent>p{
+        width: 100%;
     }
     .AIServiceMangementBannermaindivimage{
         width: 90%;
-        margin: auto;
+       
+        margin-top: 30%;
     }
-    .AIServiceMangementBannermaindivcontentbutton{
-        width: 220px;
-        font-size: 18px;
-        font-weight: 600;
-        background-color: #ef4c23;
-        color: white;
-        border-radius: 10px;
-        height: 40px;
-        border: none;
-    }
-    .AIServiceMangementBannermaindivcontentbutton:hover{
-        border: 1px solid #ef4c23;
-        background-color: white;
-        color: #ef4c23;
-    }
+  
     
 }
