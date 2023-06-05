@@ -7,7 +7,7 @@ export default function SuiteBanner() {
 
       <div className={styles.SuiteBannertext}>
         <h1>
-          Unite Sales and Marketing around<br /> the customer with an all-in-one CRM
+          Unite Sales and Marketing around the customer with an all-in-one CRM
         </h1>
         <p>Know customer intent to help sales convert faster with a 360° view</p>
         <div className={styles.SuiteBannerbutton}>

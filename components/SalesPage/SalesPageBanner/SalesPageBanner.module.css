@@ -77,13 +77,10 @@
 
 @media  (max-width:1024px){
   .SalesPageBannermainbox {
-    
     flex-direction: column;
-    
-    /* border: 2px solid green; */
     text-align: center;
-    
-    margin-top: 25%;
+    margin-top: 10%;
+
   }
   
   .SalesPageBannermainboxinnertextdiv {

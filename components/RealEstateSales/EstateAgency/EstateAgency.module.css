@@ -43,3 +43,15 @@ justify-content: center;
 .EstateAgencycarddivimage img{
     width: 100%;
 }
+
+@media (max-width:480px) {
+    .EstateAgencyinnerdiv{
+        flex-direction: column;
+    }
+    .EstateAgencycarddiv{
+        /* border: 2px solid green; */
+        width: 100%;
+        margin-top: 5%;
+        height: auto;
+    }
+}

@@ -1,8 +1,8 @@
 .CustomerEngagemainpageinner {
-  /* border: 2px solid red; */
   padding: 4%;
   width: 90%;
   margin: auto;
+  /* border: 2px solid red; */
 }
 
 .CustomerEngageindustries {
@@ -65,6 +65,7 @@
     padding: 4%;
     width: 90%;
     margin: auto;
+    margin-top: 8%;
   }
 
   .CustomerEngageindustries {

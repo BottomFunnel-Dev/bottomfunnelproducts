@@ -143,10 +143,6 @@ export const SaaSData = () => {
 
                 </div>
 
-
-
-
-
             </div>
         </div>
     )
