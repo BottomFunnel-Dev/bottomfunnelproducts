@@ -5,7 +5,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 4%;
     margin-bottom: 3%;
@@ -13,6 +13,8 @@
 
 .LookingSolutionmaindivcontent{
     width: 50%;
+    margin: 4% ;
+  
 }
 
 .LookingSolutionmaindivimage{
@@ -23,24 +25,14 @@
 @media (max-width:1024px){
     .LookingSolutionmaindiv{
         border: none;
-        width: 85%;
-        margin: auto;
-        border-radius: 10px;
-        display: flex;
+       
         flex-direction: column-reverse;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 4%;
-        margin-bottom: 3%;
+        
     }
     
     .LookingSolutionmaindivcontent{
         width: 90%;
     }
-    
-    .LookingSolutionmaindivimage{
-        width: 350px;
-        height: 300px;
-    }
+
     
 }

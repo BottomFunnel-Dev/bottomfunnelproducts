@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
 
 import { NewsEventBanner } from "../../components/PressAndMedia/NewsEventBanner/NewsEventBanner";
 import { NewsEventSection } from "../../components/PressAndMedia/NewsEventSection/NewsEventSection";
@@ -14,17 +17,22 @@ import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStart
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 
 export default function PressMedia() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
-      <Head>
-        <title>Press and Media| Bottom Funnel</title>
-        <meta
-          name="description"
-          content="Find the latest news and updates on the press and media
-          industry, including publications, conferences, law firms, 
-         and more. Stay updated with our daily newsletter."
-        />
-      </Head>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
       <main>
         <Navbar

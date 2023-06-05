@@ -1,6 +1,6 @@
 .cloudprodcolorbackground{
     background-color: white;
-    padding-bottom: 5%;
+   
 }
 .cloudboostproductivitymainboxes{
     height: fit-content;
@@ -12,8 +12,8 @@
      text-align: center;
 }
 .cloudboostproductuppertext>p{
-    text-align: justify;
-    width: 58%;
+    text-align: center;
+    
     margin: auto;
 }
 .specialcolor{
@@ -23,7 +23,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .cloudboostproductivityindiboxmapper{
     height: 250px;
@@ -48,40 +48,16 @@ transform: scale(1.02);
 }
 @media (max-width:1024px){
     .cloudprodcolorbackground{
-        background-color: white;
+      
         padding-bottom: 0%;
-        margin-top: 5%;
-    }
-    .cloudboostproductivitymainboxes{
-        height: fit-content;
-        width: 90%;
-        margin: auto;
-      }
-    .cloudboostproductuppertext{
-        height: fit-content;
-         text-align: center;
-    }
-    .cloudboostproductuppertext>p{
-        text-align: justify;
-        width: 90%;
-        margin: auto;
-    }
-    .specialcolor{
-        color: #ef4c23;
-    }
-    .cloudboostproductmapperbox{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 5%;
+        margin: 5% auto;
     }
     .cloudboostproductivityindiboxmapper{
-        height: 250px;
+        height: auto;
         width: 90%;
-      text-align: justify;
-        margin: auto;
-        padding: 10px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
+    
+        margin: 4% auto;
+        
+         }
     
 }

@@ -1,159 +1,131 @@
-.Opportunitymaindiv{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2%;
-    /* border: 2px solid green; */
-
+.Opportunitymaindiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  /* border: 2px solid green; */
 }
-.Opportunityinnerdiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 95%;
-    justify-content: space-evenly;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* border: 2px solid yellow; */
-    margin-top: 3%;
-    padding: 1%;
-     
+.Opportunityinnerdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95%;
+  justify-content: space-evenly;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 2px solid yellow; */
+  margin-top: 3%;
+  padding: 1%;
 }
-.Opportunityinnerdivheading{
-    width: 55%;
-    /* border: 2px solid red; */
-   
+.Opportunityinnerdivheading {
+  width: 55%;
+  /* border: 2px solid red; */
 }
 
-.Opportunityinnerdivheading h6{
-    margin: 0%;
+.Opportunityinnerdivheading h6 {
+  margin: 0%;
 }
-.Opportunitylogodiv{
-    
+.Opportunitylogodiv {
   width: 30px;
   height: 30px;
- margin-top: 1%;
-   
-
+  margin-top: 1%;
 }
-.Opportunitylogodivcontain{
-    margin-left: 2%;
-   
+.Opportunitylogodivcontain {
+  margin-left: 2%;
 }
-.Opportunitylogodivcontain p{
-    margin: 1%;
+.Opportunitylogodivcontain p {
+  margin: 1%;
 }
-.Opportunityimagediv{
-    width: 30%;
-    padding-top: 4%;
-    
-
+.Opportunityimagediv {
+  width: 30%;
+  padding-top: 4%;
 }
-.Opportunityimagedivinner{
-   /* width: 90%; */
-    /* height: 80%; */
-    margin: auto;
-    
+.Opportunityimagedivinner {
+  /* width: 90%; */
+  /* height: 80%; */
+  margin: auto;
 }
 
-.Opportunityimagedivinner:hover{
-    transition: all 0.2s linear;
+.Opportunityimagedivinner:hover {
+  transition: all 0.2s linear;
 
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
-.Opportunitylogodivupper{
-   width: 64%;
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-.Opportunityinnerdivheading h4{
-color: #ef2c30;
-margin-top: 1%;
+.Opportunitylogodivupper {
+  width: 64%;
+  display: flex;
+  flex-direction: row;
 }
 
+.Opportunityinnerdivheading h4 {
+  color: #ef2c30;
+  margin-top: 1%;
+}
 
-.Opportunityptag{
+.Opportunityptag {
+  margin-top: 1%;
+  text-decoration: underline;
+  color: blue;
+}
+
+.Opportunityinnerdiv:nth-child(even) {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .Opportunitymaindiv {
+    flex-direction: column;
+    margin-top: 4%;
+  }
+  .Opportunityinnerdiv {
+    flex-direction: column-reverse;
+
+    width: 100%;
+  }
+  .Opportunityinnerdivheading {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .Opportunityinnerdivheading h6 {
+    margin: 0%;
+  }
+  .Opportunitylogodiv {
+    width: 60px;
+    height: 40px;
     margin-top: 1%;
-    text-decoration: underline;
-    color: blue;
-    
-}
+  }
+  .Opportunitylogodivcontain {
+    margin-left: 4%;
+  }
+  .Opportunitylogodivcontain p {
+    margin: 1%;
+  }
+  .Opportunityimagediv {
+    width: 90%;
+    padding-top: 4%;
+  }
+  .Opportunityimagedivinner {
+    margin: auto;
+  }
 
-.Opportunityinnerdiv:nth-child(even){
-    flex-direction: row-reverse;
-    align-self: flex-end;
-  
-}
+  .Opportunitylogodivupper {
+    width: 90%;
 
-@media  (max-width:1024px){
-    .Opportunitymaindiv{
-       
-        flex-direction: column;
-        margin-top: 4%;
-    }
-    .Opportunityinnerdiv{
-       
-        flex-direction: column-reverse;
-       
-        width: 100%;
-       
-         
-    }
-    .Opportunityinnerdivheading{
-        width: 95%;
-        padding: 15px; 
-    }
-    
-    .Opportunityinnerdivheading h6{
-        margin: 0%;
-    }
-    .Opportunitylogodiv{  
-      width: 40px;
-      height: 40px;
-     margin-top: 1%;
-    }
-    .Opportunitylogodivcontain{
-        margin-left: 4%;
-    }
-    .Opportunitylogodivcontain p{
-        margin: 1%;
-    }
-    .Opportunityimagediv{
-        width: 90%;
-        padding-top: 4%;
-    }
-    .Opportunityimagedivinner{
-        margin: auto;
-    }
-    
+    margin-top: 3%;
+  }
 
-    .Opportunitylogodivupper{
-        width: 90%;
-        
-       
-        margin-top: 3%;
-    }
-    
-    .Opportunityinnerdivheading h4{
+  .Opportunityinnerdivheading h4 {
     color: #ef2c30;
     margin-top: 8%;
-    }
-    
-    
-    .Opportunityptag{
-        margin-top: 4%;  
-    }
-    .Opportunityinnerdiv:nth-child(even){
-       
-        flex-direction: column-reverse;
-        align-self: flex-end;
-      
-    }
-    
+  }
+
+  .Opportunityptag {
+    margin-top: 4%;
+  }
+  .Opportunityinnerdiv:nth-child(even) {
+    flex-direction: column-reverse;
+    align-self: flex-end;
+  }
 }
-
-
-

@@ -1,5 +1,7 @@
-import React from "react";
-import styles from "./VettingPage.module.css";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
 
 import { VettingBanner } from "../../components/VettingPage/VettingBanner/VettingBanner";
 import { VettingProcess } from "../../components/VettingPage/VettingProcess/VettingProcess";
@@ -13,28 +15,33 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import Navbar from "../../components/Navbar/Navbar";
 
 export default function Vetting() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
-      <Head>
-        <title> Our vetting-Process | Bottom Funnel </title>
-        <meta
-          name="description"
-          content="We know you have a lot of doubts about online hiring. But we are here to change your perception about it! 
-          We have been in this business for nine years, and we have got over 2,000 happy clients from various sectors across 
-          the world."
-        />
-      </Head>
-      <main>
-
-      <Navbar
-        productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
       />
+
+      <main>
+        <Navbar
+          productMount={{
+            navMount: true,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
         <VettingBanner />
         {/* <VettingProcess /> */}

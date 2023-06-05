@@ -13,7 +13,7 @@ const cloudboostproddata=[
     {
         icon:"Images/cloudtelephony/call 1.png",
         htxt:"Take calls on the Go",
-        txt:"With the Freshsales enable your salespeople to sell from any location their work takes them Make phone calls or answer them,create leads on the go and be more productive.",
+        txt:"With the Bottom Funnel sales enable your salespeople to sell from any location their work takes them Make phone calls or answer them,create leads on the go and be more productive.",
     },
 
     {
@@ -49,7 +49,7 @@ const cloudboostproddata=[
     <div className={styles.cloudboostproductivitymainboxes}>
     <div className={styles.cloudboostproductuppertext}>
     <h1>Improve sales conversions and boost productivity</h1>
-    <p>The built-in-phone capabilities in Freshsales provides you with everything that you need for successful sales calls.With a host of functionalities like call recording,call logging after call work etc you can enable your salepeople to maximize conversion and bring in more revenue.</p>
+    <p>The built-in-phone capabilities in Bottom Funnel sales provides you with everything that you need for successful sales calls. With a host of functionalities like call recording, call logging after call work etc you can enable your salepeople to maximize conversion and bring in more revenue.</p>
     </div>
     <div className={styles.cloudboostproductmapperbox}>{cloudboostproddata.map((e)=>{
         return (

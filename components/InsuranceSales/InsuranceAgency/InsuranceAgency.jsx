@@ -1,36 +1,57 @@
 import React from 'react'
 import style from "./InsuranceAgency.module.css";
+import Image from 'next/image';
 
 
 export const InsuranceAgency = () => {
+    const data = [
+        {
+        img:"/Images/InsuranceSalesphotos/Documents1.png",
+        hd:"Stay on top of your sales game",
+        p:"Even when you’re away from your desk, get a holistic view of all your leads, accounts, deals, and contacts on your smartphone with theBottom Funnel Sales' Android or iPhone mobile app."
+        },
+        {
+        img:"/Images/InsuranceSalesphotos/Securedata-cuate.png",
+        hd:"Access multiple integrations",
+        p:"Generate higher revenues by integrating theBottom Funnel Sales software with other business tools such as Google Calendar, Zapier, MailChimp, or Hubspot."
+        },
+        {
+        img:"/Images/InsuranceSalesphotos/Emailcampaign.png",
+        hd:"Compare performance reports",
+        p:"View multiple reports on a single panel with the reports dashboard. Create your own or use the pre-existing templates on theBottom Funnel Sales platform and share them with your team."
+        },
+        
+        ]
     return (
         <div className={style.InsuranceAgencymaindiv}>
             <h1>Do all of this and more with Bottom Funnel Sales</h1>
             <div className={style.InsuranceAgencyinnerdiv}>
-                <div className={style.InsuranceAgencycarddiv}>
-                    <h4>Stay on top of your sales game </h4>
-                    <div className={style.InsuranceAgencycarddivimage}>
-                        <img src="Images/InsuranceSalesphotos/Documents1.png" alt="image" />
-                    </div>
-                    <p>Even when you’re away from your desk, get a holistic view of all your leads, accounts, deals, and contacts on your smartphone with theBottom Funnel Sales' Android or iPhone mobile app.</p>
-                </div>
-                <div className={style.InsuranceAgencycarddiv}>
-                    <h4>Access multiple integrations</h4>
-                    <div className={style.InsuranceAgencycarddivimage}>
-                        <img src="Images/InsuranceSalesphotos/Securedata-cuate.png" alt="image" />
-                    </div>
-                    <p>Generate higher revenues by integrating theBottom Funnel Sales software with other business tools such as Google Calendar, Zapier, MailChimp, or Hubspot.</p>
-                </div>
-                <div className={style.InsuranceAgencycarddiv}>
-                    <h4>Compare performance reports</h4>
-                    <div className={style.InsuranceAgencycarddivimage}>
-                        <img src="Images/InsuranceSalesphotos/Emailcampaign.png" alt="image" />
-                    </div>
-                    <p>View multiple reports on a single panel with the reports dashboard. Create your own or use the pre-existing templates on theBottom Funnel Sales platform and share them with your team.</p>
-                </div>
+            {data.map((e) => {
+return (
+    <div className={style.InsuranceAgencycarddiv}>
+    <h4>{e.hd}</h4>
+        <div className={style.InsuranceAgencycarddivimage}>
+        <Image
+src={e.img}
+alt={"img"}
+width={"0"}
+height={"0"}
+sizes={"100vw"}
+style={{ width: "100%", height: "100%" }}
 
-            </div>
+/>
+        </div>
+        <p>{e.p}</p>  </div>
+  
 
+
+
+  
+  )
+})}
+</div>
+
+           
 
         </div>
     )

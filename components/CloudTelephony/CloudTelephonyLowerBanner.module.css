@@ -2,7 +2,7 @@
     height: 68vh;
     background-color: #ffefeb;
    
-    margin-top: 3%;
+   margin-bottom: 4%;
 }
 .cloudtelephonylowerbannersometxt{
     height: auto;
@@ -62,49 +62,27 @@
         width: 100%;
       margin: auto;
 
-      
+   
         position: static;
     }
     .cloudtelephonylowerbannerflexboxinner{
         display: flex;
         flex-direction: column-reverse;
+      
     }
     .cloudlowerbannerleftbox{
         width: 90%;
         margin: auto;
     }
     .cloudlowerbannerleftbox >ul >li{
-        margin-top: 2%;
+       
         text-align: left;
     }
     .cloudlowerbannerrightbox{
         width: 90%;
-        margin: auto;
+     
        height: 250px;
     }
-    .cloudlowerbannerrightbox>img{
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-    }
-    .lowerbannercloudtelephonybutton{
-        padding: 10px 50px;
-        border-radius: 100px;
-        width: fit-content;
-        background-color: #ef4c23;
-        border: none;
-        outline: none;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        font-size: 18px;
-        font-weight: 600;
-        color: white;
-        margin-top: 5%;
-     margin-left: 2%;
-      
-    }
-    .lowerbannercloudtelephonybutton:hover {
-       background-color:white;
-        color:  #ef4c23;
-    
-    }  
+   
+  
 }

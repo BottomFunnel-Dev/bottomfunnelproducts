@@ -1,55 +1,48 @@
 .InsuranceSalesScreensmaindiv {
   /* border:  2px solid red; */
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   width: 90%;
   margin: auto;
   margin-top: 6%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.InsuranceSalesScreensmaindiv p {
-  font-size: 18px;
-  margin-top: 30px;
+.InsuranceSalesScreensmaindiv:nth-child(even) {
+  flex-direction: row;
+}
+.InsuranceSalesScreensmaincontaindiv h2 {
+  font-size: 40px;
 }
 
 .InsuranceSalesScreensmaincontaindiv {
   /* border: 2px solid green; */
-  width: 60%;
+  width: 50%;
 }
 
 .InsuranceSalesScreensmainimagediv {
   border: 1px solid lightgray;
-  width: 50%;
-  height: 480px;
+  width: 45%;
+  height: auto;
   margin-left: 2%;
   border-radius: 10px;
   /* margin-top: 1%; */
 }
 
-.InsuranceSalesScreensmainimagediv img {
-  width: 100%;
-  height: 100%;
-}
-
-.InsuranceSalesScreensmainimagediv1 {
-  border: 1px solid lightgray;
-  width: 50%;
-  height: 480px;
-  /* margin-left: 2%; */
+.Productivitymore {
   border-radius: 10px;
-  /* margin-top: 1%; */
+
+  margin-top: 2%;
+  background-color: transparent;
+  color: #ef4c23;
+  border: none;
+  font-size: 20px;
+}
+.Productivitymore:hover {
+  text-decoration: underline;
 }
 
-.InsuranceSalesScreensmainimagediv1 img {
-  width: 100%;
-  height: 100%;
-}
-
-.InsuranceSalesScreensmaincontaindiv1 {
-  /* border: 2px solid green; */
-  width: 60%;
-  margin-left: 3%;
-}
 
 /* this code is for the mobile resposive */
 
@@ -57,57 +50,30 @@
   .InsuranceSalesScreensmaindiv {
     /* border:  2px solid red; */
     display: flex;
-    flex-direction: column-reverse;
-    width: 90%;
-    margin: auto;
-    margin-top: 6%;
+    flex-direction: column;
   }
-
-  .InsuranceSalesScreensmaindiv p {
-    font-size: 18px;
-    margin-top: 30px;
+  
+  .InsuranceSalesScreensmaindiv:nth-child(even) {
+    flex-direction: column;
   }
-
+  .InsuranceSalesScreensmaincontaindiv h2 {
+    font-size: 30px;
+    text-align: center;
+  }
   .InsuranceSalesScreensmaincontaindiv {
     /* border: 2px solid green; */
     width: 95%;
     margin: auto;
+    margin-left: 0;
   }
 
   .InsuranceSalesScreensmainimagediv {
-    border: 1px solid lightgray;
     width: 95%;
     height: fit-content;
-    margin-left: 2%;
-    border-radius: 10px;
-    margin: auto;
+
+    margin:3% auto;
     /* margin-top: 1%; */
   }
 
-  .InsuranceSalesScreensmainimagediv img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .InsuranceSalesScreensmainimagediv1 {
-    border: 1px solid lightgray;
-    width: 95%;
-    height: fit-content;
-    margin: auto;
-    /* margin-left: 2%; */
-    border-radius: 10px;
-    /* margin-top: 1%; */
-  }
-
-  .InsuranceSalesScreensmainimagediv1 img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .InsuranceSalesScreensmaincontaindiv1 {
-    /* border: 2px solid green; */
-    width: 95%;
-    margin-left: 3%;
-    margin: auto;
-  }
+ 
 }

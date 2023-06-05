@@ -47,49 +47,32 @@
 /* this code is for the mobile resposive */
 
 @media (max-width: 480px) {
-  .AgencySalesmaindiv {
-    /* border: 2px solid yellow; */
-    margin-top: 5%;
-  }
+  
 
-  .AgencySalesmaindiv h1 {
-    text-align: center;
-    justify-content: center;
-  }
-
+  
   .AgencySalesinnerdiv {
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
     width: 95%;
-    margin: auto;
-    margin-top: 4%;
+    
   }
 
   .AgencySalescarddiv {
     /* border: 2px solid green; */
     width: 95%;
     height: fit-content;
-    margin: auto;
+    margin:3% auto;
     margin-bottom: 4%;
-    justify-content: center;
-    text-align: center;
-    padding-top: 20px;
-    padding: 1%;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
   }
 
-  .AgencySalescarddiv:hover {
-    background-color: #f8e2dd;
-  }
+ 
 
   .AgencySalescarddivimage {
     width: 95%;
     margin-left: 0%; 
   }
 
-  .AgencySalescarddivimage img {
-    width: 100%;
-  }
+ 
 }

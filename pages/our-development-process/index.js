@@ -1,5 +1,8 @@
-import React from "react";
-import styles from "./OurDevPage.module.css";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { OurDevBanner } from "../../components/OurDevPage/OurDevBanner/OurDevBanner";
 import { OurDevProcess } from "../../components/OurDevPage/OurDevProcess/OurDevProcess";
 import { OurWholeDev } from "../../components/OurDevPage/OurWholeDev/OurWholeDev";
@@ -10,17 +13,22 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import Navbar from "../../components/Navbar/Navbar";
 
 export default function OurDevelopment() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
-      <Head>
-        <title>
-          Our Development Process and Working Methodology | Bottom Funnel
-        </title>
-        <meta
-          name="description"
-          content="Bottom Funnel has evolved from a humble beginning as an IT service provider to a leading global software company with widespread presence across the globe."
-        />
-      </Head>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
       <main>
         <Navbar

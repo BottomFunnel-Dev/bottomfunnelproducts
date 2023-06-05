@@ -1,10 +1,4 @@
-.ActiveGoalsmaindiv{
-    /* border: 2px solid yellow; */
-}
 
-.ActiveGoalsmaindivcontainer{
-    /* border: 2px solid red; */
-}
 .ActiveGoalsmaindivcontain{
     /* border: 1px solid green; */
     text-align: center;
@@ -15,7 +9,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.ActiveGoalsmaindivcontain h1{
+.ActiveGoalsmaindivcontain h2{
     /* border: 2px solid yellow; */
     width: 80%;
     margin: auto;
@@ -36,6 +30,10 @@
     flex-direction: row;
     width: 90%;
     margin: auto;
+}
+.ActiveGoalsmaindivcardsdivinnerImage{
+    width: 30%;
+    margin: 4% auto;
 }
 .ActiveGoalsmaindivcardsdivinner{
     /* border: 2px solid yellow; */
@@ -60,34 +58,24 @@
     }
     
     .ActiveGoalsmaindivcontain{
-        text-align: center;
-        background: url("https://d3op2l77j7wnti.cloudfront.net/Images/customersuccesshomepagephotos/bg1.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        
+        
+        text-align: justify;
     }
-    .ActiveGoalsmaindivcontain h1{
+    .ActiveGoalsmaindivcontain h2{
         /* border: 2px solid yellow; */
         width: 95%;
-        margin: auto;
-        font-size: 23px;
-        text-align: justify;
+       
     }
     .ActiveGoalsmaindivcontain p{
         /* border: 2px solid yellow; */
         width: 95%;
-        margin: auto;
-        margin-top: 5%;
-        font-size: 18px;
-        text-align: justify;
+       margin: 4% auto;
+       font-size: 20px;
+      
     }
     
-    .ActiveGoalsmaindivcards{
-        /* border: 2px solid red; */
-        margin-top: 2%;
-    }
+    
     .ActiveGoalsmaindivcardsdiv{
         /* border: 2px solid pink; */
         display: flex;
@@ -97,19 +85,11 @@
     }
     .ActiveGoalsmaindivcardsdivinner{
         /* border: 2px solid yellow; */
-        text-align: center;
-        margin: auto;
+     
         width: 90%;
-        height: 280px;
-        border-radius: 10px;
-        padding: 10px 5px 10px 5px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        margin-top: 3%;
+       
+        margin-top: 10%;
     }
-    .ActiveGoalsmaindivcardsdivinner:hover{
-         
-         transition: all 0.2s linear;
-         transform: translateY(-10px);
-    }
+   
     
 }

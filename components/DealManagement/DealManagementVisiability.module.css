@@ -3,9 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: auto;
+    margin: 3% auto;
 }
+.mainbox>h2{
+    text-align: center;
+    margin-top: 4%;
+    font-weight: 700;
 
+}
 .dealmanagementvisiabilitymainboxes>div{
     width: 30%;
     height: 200px;
@@ -25,11 +30,8 @@ text-align: justify;
 
 @media (max-width:1024px){
     .dealmanagementvisiabilitymainboxes{
-        height: fit-content;
-        display: flex;
-        flex-wrap: wrap;
+        
         width: 100%;
-        margin: auto;
     }
     
     .dealmanagementvisiabilitymainboxes>div{
@@ -38,16 +40,12 @@ text-align: justify;
          margin: auto;
           padding: 10px;
     }
-    
-    .dealmanagementvisiabilityiconbox{
-        height: 30%;
-        width: 20%;
-       
-       
+    .mainbox>h2{
+        font-size: 30px;
+     padding: 10px;
     }
     
-    .dealmanagementvisiabilitymainboxes>div>p{
-    text-align: justify;
-    }
+    
+   
     
 }

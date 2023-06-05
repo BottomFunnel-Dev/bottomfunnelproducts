@@ -10,8 +10,8 @@ export const InsuranceProductivity = () => {
             <img src="Images/InsuranceSalesphotos/Thinkingface-cuate.png" alt="" />
           </div>
           <div className={style.InsuranceProductivitymaindiv1contain}>
-            <h1>But, is there room for productivity in an insurance </h1>
-            <h1> sales agent’s day?</h1>
+            <h2>But, is there room for productivity in an insurance </h2>
+            <h2> sales agent’s day?</h2>
           </div>
 
         </div>

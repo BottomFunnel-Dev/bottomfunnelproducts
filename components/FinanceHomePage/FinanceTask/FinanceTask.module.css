@@ -23,7 +23,7 @@
 .FinanceTaskinnerdivone {
   /* border: 2px solid pink; */
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 90%;
   margin: auto;
   align-items: center;
@@ -32,16 +32,10 @@
   padding: 20px;
 }
 
-.FinanceTaskinnerdivone1 {
+.FinanceTaskinnerdivone:nth-child(even) {
   /* border: 2px solid pink; */
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  margin: auto;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 2%;
-  padding: 20px;
+
+  flex-direction: row-reverse;
 }
 
 .FinanceTaskimageone {
@@ -57,26 +51,15 @@
 /* this code is for the mobile resposive */
 
 @media (max-width: 480px) {
-  .FinanceTaskmaindiv {
-    /* border: 2px solid green; */
-    margin-top: 3%;
-  }
-
   .FinanceTaskinnerdiv {
     /* border: 2px solid yellow; */
     width: 95%;
-    margin: auto;
-    padding: 20px;
   }
 
   .FinanceTaskimage {
     /* border: 2px solid black; */
     width: 95%;
     height: fit-content;
-    margin: auto;
-    margin-top: 2%;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   .FinanceTaskinnerdivone {
@@ -84,27 +67,17 @@
     display: flex;
     flex-direction: column-reverse;
     width: 95%;
-    margin: auto;
-    align-items: center;
-    margin-top: 2%;
-    padding: 20px;
   }
 
-  .FinanceTaskinnerdivone1 {
+  .FinanceTaskinnerdivone:nth-child(even) {
     /* border: 2px solid pink; */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 95%;
-    margin: auto;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2%;
-    padding: 20px;
   }
 
   .FinanceTaskimageone {
     width: 95%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   .FinanceTaskcontentone {
@@ -113,9 +86,9 @@
   }
 }
 
-@media (min-width) and (max-width: 1024px) {
+@media (min-width:481px) and (max-width: 1024px) {
   .FinanceTaskmaindiv {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-top: 3%;
   }
   .FinanceTaskinnerdiv {
@@ -130,9 +103,6 @@
     width: 90%;
     height: fit-content;
     margin: auto;
-    margin-top: 2%;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   .FinanceTaskinnerdivone {
@@ -141,25 +111,14 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2%;
-    padding: 20px;
   }
-  .FinanceTaskinnerdivone1 {
+  .FinanceTaskinnerdivone:nth-child(even) {
     /* border: 2px solid pink; */
-    display: flex;
+
     flex-direction: column;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2%;
-    padding: 20px;
   }
   .FinanceTaskimageone {
     width: 45%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
   .FinanceTaskcontentone {
     width: 43%;

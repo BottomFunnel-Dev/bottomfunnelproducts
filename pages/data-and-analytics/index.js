@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { Advantages } from "../../components/AnalyticsofFeature/Advantages/Advantages";
 import { AnalyticsofFeatureBanner } from "../../components/AnalyticsofFeature/AnalyticsofFeatureBanner/AnalyticsofFeatureBanner";
 import { Insight } from "../../components/AnalyticsofFeature/Insight/Insight";
@@ -9,15 +13,22 @@ import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/
 import Head from "next/head";
 
 export default function AnalyticsofFeature() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div>
-      <Head>
-        <title> SaaS based data and analytics services| Bottom Funnel </title>
-        <meta
-          name="description"
-          content="Looking to get your business ahead of the competition with data and analytics services? Our range of SaaS based data and analytics services are designed to meet your needs"
-        />
-      </Head>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
       <main>
         <Navbar

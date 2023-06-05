@@ -2,6 +2,7 @@ import React from 'react'
 import style from "./FinancePerforming.module.css";
 
 export const FinancePerforming = () => {
+    
   return (
     <div>
          <div className={style.Performingmaindiv}>

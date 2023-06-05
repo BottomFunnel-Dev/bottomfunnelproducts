@@ -43,38 +43,22 @@
 }
 
 @media (max-width:1024px) {
-    .DoallThismaindiv{
-        /* border: 2px solid red; */
-         text-align: center;
-         margin-top: 4%;
     
-    }
     
     .DoallThismaindivinnerdiv{
         /* border: 2px solid green; */
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* margin-top: 1%; */
+       
     
     }
     .DoallThismaindivinnerdivcell{
         /* border: 2px solid violet; */
         width: 80%;
-        height: 300px;
-        margin: 1%;
-        padding: 3%;
-        
-        border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
-    }
-    .DoallThismaindivinnerdivcell:hover{
-        transition: all 0.2s linear;
-    
-        transform: translateY(-10px);
-    }
+        height: 250px;
+        margin-top: 4%;
+         }
+   
     .DoallThismaindivinnerdivcell h4{
         text-align: center;
         margin-top: 1%;

@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { AgencyBanner } from "../../components/AgencyHomePage/AgencyBanner/AgencyBanner";
 import { AgencyNeedCrm } from "../../components/AgencyHomePage/AgencyNeedCrm/AgencyNeedCrm";
 import { AngencyCrm } from "../../components/AgencyHomePage/AngencyCrm/AngencyCrm";
-import { AutomateTask } from "../../components/AgencyHomePage/AutomateTask/AutomateTask";
+
 import { Discover } from "../../components/AgencyHomePage/Discover/Discover";
-import { Performing } from "../../components/AgencyHomePage/Performing/Performing";
+
 import Navbar from "../../components/Navbar/Navbar";
 import { SalesNavbar } from "../../components/Navbar/SalesNavbar/SalesNavbar";
 import { Trial } from "../../components/AnalyticsofFeature/Trial/Trial";
@@ -17,9 +21,24 @@ import { AgencySales } from "../../components/AgencyHomePage/AgencySales/AgencyS
 import { SalesFooter } from "../../components/SalesFooter/SalesFooter";
 
 export default function AgencyHomePage() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <>
       <div style={{ color: "#393939" }}>
+        <HeadSeo
+          title={pageMeta[0]?.title}
+          description={pageMeta[0]?.description}
+          cannonicalpost={pageMeta[0]?.cannonicalpost}
+        />
+
         <Navbar
           productMount={{
             navMount: true,
@@ -41,10 +60,9 @@ export default function AgencyHomePage() {
         <AngencyCrm />
         <AgencyNeedCrm />
         <Discover />
-        <AutomateTask />
-        <Performing />
+       
         <AgencySales />
-        
+
         <Trial />
         <Testimonial />
         <TrustedBy />

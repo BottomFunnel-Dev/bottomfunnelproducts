@@ -1,11 +1,530 @@
 export const MetaData = [
   {
-    title: "Hire Java Developers, Dedicated Java Freelancer Developers",
-    route: "/java-development",
-    cannonicalpost: "https://service.bottomfunnel.net/skills/java-developer",
-    description:
-      "Skilled remote java developers to build robust java web applications. Contact us now to hire experienced dedicated top java developers!",
-    keywords: "Developement, Techstack, mean, mean-developer",
-    page: "Java Developement",
-  },
+    title: "Easy-to-use CRM products, SaaS-based Products, Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/",
+    route: "https://bottomfunnel.net/",
+    description: "Bottom Funnel makes easy-to-use business software. We are a leading provider of modern SaaS solutions that solve multiple, complex business problems.",
+    keywords: "" ,
+    page: "Bottom Funnel Product"
+},
+{
+    title: "About Bottom funnel Inc.| Growing SaaS Start-Up",
+    cannonicalpost:"https://bottomfunnel.net/about-us",
+    route: "/about-us",
+    description: "The BottomFunnel Story Philosophy & Culture Everything you need to know about the fastest growing startups in the country  Bottomfunnel Cloud software Business",
+    keywords: "" ,
+    page: "About Us"
+},
+{
+    title: "Bottom funnel Contact| Contact Us, Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/contact-us",
+    route: "/contact-us",
+    description: "Contact Us  Your Business Deserve A Better SaaS Suite  Refreshing Cloud Business Software  Bottom Funnel Pvt.Ltd",
+    keywords: "" ,
+    page: "Contact Us"
+},
+{
+    title: "Award-Winning Business Solutions for Clients",
+    cannonicalpost:"https://bottomfunnel.net/press-and-media",
+    route: "/press-and-media",
+    description: "Our dedication to continuous learning has earned us the Bar of Success badge, boosting our excellence in providing innovative business solutions.",
+    keywords: "" ,
+    page: "Press and media"
+},
+{
+    title: "Top Quality Web and Mobile Digital Products-Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/our-development-process",
+    route: "/our-development-process",
+    description: "At Bottom Funnel, we create superior digital products for web and mobile. Explore our range of top-quality products designed to enhance your online experience.",
+    keywords: "" ,
+    page: "Our Development Process"
+},
+{
+    title: "Engagement Models: Fixed Price, Time/Material, Dedicated Resource",
+    cannonicalpost:"https://bottomfunnel.net/engagement",
+    route: "/engagement",
+    description: "We provide various engagement models and pricing to suit clients. Our experts design engaging websites and help with marketing strategies to reach maximum visitors!",
+    keywords: "" ,
+    page: "Engagement Models"
+},
+{
+    title: "Advanced data analytics and bigdata solutions",
+    cannonicalpost:"https://bottomfunnel.net/data-and-analytics",
+    route: "/data-and-analytics",
+    description: "Make data-driven decisions for your business, and transform your business with our outcome-driven strategy. Don't miss out on this powerful. Contact us! ",
+    keywords: "" ,
+    page: "Data and Analytics"
+},
+{
+    title: "SaaS data security solutions | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/neo-admin-center",
+    route: "/neo-admin-center",
+    description: "Get ready to crack some serious data security challenges. Our SaaS data encryption solutions are designed to keep your company safe from unwanted prying eyes. Contact Us!",
+    keywords: "" ,
+    page: "Neo Admin Centre"
+},
+{
+    title: "Collaboration Platform | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/neo-admin-center",
+    route: "/data-and-analytics",
+    description: "Collaboration platform powers deep integrations between Bottomfunnel products and other popular team collaboration tools, for team productivity and efficiency.",
+    keywords: "" ,
+    page: "Collaboration"
+},
+{
+    title: "Events and Notifications | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/neo-admin-center",
+    route: "/data-and-analytics",
+    description: "Collaboration platform powers deep integrations between Bottomfunnel products and other popular team collaboration tools, for team productivity and efficiency.",
+    keywords: "" ,
+    page: "Events and Notifications"
+},
+{
+    title: "Unified Customer Record | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/unified-customer",
+    route: "/data-and-analytics",
+    description: "Want to gather customer data from every touchpoint and use it to deliver better experiences? Our unified customer record is for you! Click now",
+    keywords: "" ,
+    page: "Unified Customer Record"
+},
+{
+    title: "Messaging Channels Framework",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/messagingchannel",
+    route: "/bottomfunnelchat/messagingchannel",
+    description: "Our platform’s Messaging API enables popular messaging apps to seamlessly integrate with the Bottomfunnel products and empower your business to engage with customers.",
+    keywords: "" ,
+    page: "Messaging Channels framework"
+},
+{
+    title: "Custom Objects Editor App Integration with Bottom Funnel Support",
+    cannonicalpost:"https://bottomfunnel.net/custom-object",
+    route: "/custom-object",
+    description: "Integrate the Custom Objects Editor app into Bottom Funnel Support. Create, Edit, and manage relationships between Sunshine custom objects",
+    keywords: "" ,
+    page: "Custom Objects"
+},
+{
+    title: "Support Desk solution with Bottom Funnel as the supported platform",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk",
+    route: "/bottomfunnel-support-desk",
+    description: "Get hands-on experience with our customer service software that drives meaningful conversations across channels. Read on to know about our offerings",
+    keywords: "" ,
+    page: "Support Desk"
+},
+{
+    title: "A cloud-based contact center solution | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-contact-center",
+    route: "bottomfunnel-contact-center",
+    description: "The support desk contact center is a convenient and affordable solution for facilitating a superior customer experience for businesses.",
+    keywords: "" ,
+    page: "Contact Centre"
+},
+{
+    title: "Customer Service Support-desk software",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-omnichannel",
+    route: "/bottomfunnel-omnichannel",
+    description: "With the assistance of Bottom Funnel Omnichannel Support-desk Software, you can provide omnichannel support for your customers through all channels",
+    keywords: "" ,
+    page: "Omnichannel"
+},
+{
+    title: "Ticketing - Funneldesk Features | Bottom funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/ticketing",
+    route: "/bottomfunnel-omnichannel",
+    description: "Ticketing helps you keep track of all issues.  We offer features of a ticketing system that make it a top choice for businesses. Contact us!",
+    keywords: "" ,
+    page: "support desk ticketing"
+},
+{
+    title: "Collaborate Across Teams with Funneldesk | Bottom funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/collaboration",
+    route: "/bottomfunnel-support-desk/collaboration",
+    description: "Looking to collaborate across teams with ease? Our funneldesk software makes it easy for teams to work together efficiently and effectively. click to know more!",
+    keywords: "" ,
+    page: "support desk collaboration"
+},
+{
+    title: "Helpdesk Automation by Funneldesk | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/automation",
+    route: "/bottomfunnel-support-desk/automation",
+    description: "Automate your helpdesk/service desk to streamline your helpdesk and automate the repetitive tasks! Helpdesk automation gives practical automation ideas to get you started.",
+    keywords: "" ,
+    page: "support desk automation"
+},
+{
+    title: "Helpdesk Automation by Funneldesk | Bottom Funnel",
+    cannonicalpost:"bottomfunnel.net/bottomfunnel-support-desk/helpwidget",
+    route: "/bottomfunnel-support-desk/helpwidget",
+    description: "Empower customers to reach out to you from anywhere, at anytime. You can embed answers, collect feedback, and address issues even before they turn into problems.",
+    keywords: "" ,
+    page: "support desk help desk"
+},
+{
+    title: "Get useful support insights with helpdesk analytics | Funneldesk",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/reportandanalysis",
+    route: "/bottomfunnel-support-desk/reportandanalysis",
+    description: "Use Funneldesk’s Analytics Report to understand your team’s performance and productivity. Get in contact with Bottom Funnel",
+    keywords: "" ,
+    page: "support desk report and analysis"
+},
+{
+    title: "Secure Customer Service and Helpdesk Software| Funneldesk",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/security",
+    route: "/bottomfunnel-support-desk/security",
+    description: "Funneldesk customer support software offers high-end, secure encrypted server with automatic, free software upgrades to take care of your data.",
+    keywords: "" ,
+    page: "support desk security"
+},
+{
+    title: "Integrations | Funneldesk Support Desk",
+    cannonicalpost:"bottomfunnel.net/bottomfunnel-support-desk/integration",
+    route: "/bottomfunnel-support-desk/integration",
+    description: "Funneldesk Support-desk Integrations can help you accommodate all your favorite marketplace apps under one roof.",
+    keywords: "" ,
+    page: "support desk integration"
+},
+{
+    title: "Enterprise Customer Service Platform by Funneldesk | Bottomfunnel",
+    cannonicalpost:"bottomfunnel.net/bottomfunnel-support-desk/enterprise",
+    route: "/bottomfunnel-support-desk/enterprise",
+    description: " With bottomfunnel enterprise-grade Customer Service Platform, have personalized conversations with your customers across all support channels.",
+    page: "support desk enterprise"
+},
+{
+    title: "Customer Support Software for SMBs - Funneldesk | Bottom funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/smb",
+    route: "/bottomfunnel-support-desk/smb",
+    description: "Take the chaos out of your support process so you can focus on growing your business instead. Check out the customer support software for SMB's now.", 
+    page: "support desk SMB"
+},
+{
+    title: "Self Service for Customers by Funneldesk | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/selfservice",
+    route: "/bottomfunnel-support-desk/selfservice",
+    description: "Self-service reduces customer support tickets by providing easy to use support articles. Set up your self-service with Funneldesk right now.", 
+    page: "support desk self-service"
+},
+{
+    title: "Field Service Management by Funneldesk | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/fieldservicemanagement",
+    route: "/bottomfunnel-support-desk/fieldservicemanagement",
+    description: "Manage service tasks, coordinate field teams, and deliver support in person, no matter where your customers are, with Field Service Management by Funneldesk.",
+    page: "Field service management"
+},
+{
+    title: "Funneldesk software for retail & E-commerce",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/retailandecommerce",
+    route: "/bottomfunnel-support-desk/retailandecommerce",
+    description: "Improve your customer experience quality and watch your business grow. Take a free trial of the industry's first context-aware Funneldesk today.", 
+    page: "Retail and E-commerce"
+},
+{
+    title: "Best funnelDesk Software For Travel & Hospitality",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-support-desk/travel-and-hospitality",
+    route: "/bottomfunnel-support-desk/travel-and-hospitality",
+    description: "Bottom Funnel funneldesk software enables travel & hospitality businesses to manage customer service, collect customer feedback,track issues, manage customer contacts.", 
+    page: "Travel and Hospitality"
+},
+{
+    title: "Funnelchat | Live Chat Software | BottomFunnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-chat",
+    route: "/bottomfunnel-chat",
+    description: "Get live chat software that unifies messaging channels and personalizes self-service for your website, in-app, and across digital channels. Contact Us!", 
+    page: "Bottom Funnel chat"
+},
+{
+    title: "Customer Service Chatbots | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/chatbots",
+    route: "/bottomfunnelchat/chatbots",
+    description: "Create engaging customer service experiences with our AI-powered chat and messaging bots. Get started today!", 
+    page: "Bottom Funnel chatbots",
+},
+{
+    title: "Automate the User Journey, Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/journeys",
+    route: "/bottomfunnelchat/journeys",
+    description: "Proactively engage your visitors and customers wherever they are in the Journeys. Get in connect with us!",
+    page: "Bottom Funnel journeys",
+},
+{
+    title: "Instagram integration | Funnelchat by Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/instagram-dm",
+    route: "/instagram-dm",
+    description: "Want to connect multiple Instagram Business accounts? With our easy-to-use Instagram integration, it's simple. Read on to learn how.",
+     page: "Bottom Funnel instagram integration",
+},
+{
+    title: "Google Business Integration | Funnelchat by Bottom Funnel",
+    cannonicalpost:"bottomfunnel.net/google-business",
+    route: "/google-business",
+    description: "Connect your Google Business with our bottom funnel chat and receive unified results Contact us now!",
+     page: "Bottom Funnel Google business",
+},
+{
+    title: "Whatsapp integration | Funnelchat by Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/whatsapp-chat",
+    route: "/bottomfunnelchat/whatsapp-chat",
+    description: "Want to get the WhatsApp Business API integration ready for launch? Want to use our WhatsApp Business API to send and receive messages? Contact Us",
+     page: "Bottom Funnel Whatsapp integration",
+},
+{
+    title: "Facebook Messenger Integration | Facebook Chat Integration | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/facebook",
+    route: "/bottomfunnelchat/facebook",
+    description: "Want to connect multiple Facebook Business accounts? With our easy-to-use Facebook integration, it's simple. Read on to learn how!",
+     page: "Bottom Funnel facebook messenger integration",
+},
+{
+    title: "Line chat integration | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/linechat",
+    route: "/bottomfunnelchat/linechat",
+    description: "Integrate your LINE accounts with  Bottom Funnel chat and provide instant and personalized responses and resolutions to your customers on LINE.  Contact Us!",
+     page: "Bottom Funnel line chat integration",
+},
+{
+    title: "SMS Integration | Coversational SMS Integration | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/sms",
+    route: "/bottomfunnelchat/sms",
+    description: "Get ready to increase the value of your SMS campaigns with our SMS integration solution. Bottom Funnel  integrates your SMS campaign with your website or app",
+     page: "Bottom Funnel SMS integration",
+},
+{
+    title: "Zero Contact Resolution (ZCR)| Digital-first customer service",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/solutions/contactresolution",
+    route: "/bottomfunnelchat/solutions/contactresolution",
+    description: "Reduce customer-agent friction, customer wait times, customer frustration, and to get instant service with zero contact resolution with Funnelchat.",
+     page: "Contact resolution",
+},
+{
+    title: "Provide convenient, digital-first customer service | Funnelchat",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/provide-convenient-customer-service",
+    route: "/bottomfunnelchat/provide-convenient-customer-service",
+    description: "Make it easy for your customers to get help. Provide effortless experiences on the messaging apps and channels of their choice. Sign up for Funnelchat now!",
+     page: "Funnel chat convenient customer services ",
+},
+{
+    title: "Lower your support costs with messaging | Funnelchat",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/move-from-costly-channel",
+    route: "/bottomfunnelchat/provide-convenient-customer-service",
+    description: "Emails are slow. Phone calls are expensive. Use messaging coupled with self-service AI to lower costs and scale your customer service. Sign up for Funnelchat now!",
+     page: "move from costly channel",
+},
+{
+    title: "Live chat software for Enterprise | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/solutions/enterprise",
+    route: "/bottomfunnelchat/solutions/enterprise",
+    description: "Integrate our Live chat software for your Enterprise. Deliver personalized user experience. Contact Us!                                                ",
+     page: "Chat enterprise",
+},
+{
+    title: "Customized AI-powered messaging software for Small Business | Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnelchat/smb",
+    route: "/bottomfunnelchat/smb",
+    description: "Enable Your small businesses deliver personalized experiences with ease. Bottom Funnel Chat integration increases messaging capabilities. Contact Us!",
+     page: "Chat smb",
+},
+{
+    title: "Marketing Automation Service| Bottom Funnel",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-marketer",
+    route: "/bottomfunnel-marketer",
+    description: "Manage your marketing campaigns in real time. Send your leads and customers to the right marketing automation software.",      
+     page: "Bottom Funnel Marketer",
+},
+{
+    title: "CRM for Sales & Marketing Teams | Funnelsales Suite",
+    cannonicalpost:"https://bottomfunnel.net/bottomfunnel-sales",
+    route: "/bottomfunnel-sales",
+    description: "Funnelsales bridges the capabilities of CRM, Marketing Automation, and AI to provide a unified experience for sales and marketing teams. Get started today!",      
+     page: "Bottom Funnel sales",
+},
+{
+    title: "SuiteCRM - Open Source CRM Software Application for Businesses",
+    cannonicalpost:"https://bottomfunnel.net/suite",
+    route: "/suite",
+    description: "Still searching for that perfect CRM? Look no further. Compare CRM by various vendors and learn how Funnelsales suits your business well.",      
+     page: "Bottom Funnel suite",
+},
+{
+    title: "Contact Management | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/suite",
+    route: "/suite",
+    description: "Gain 360 degree view of your contacts to easily manage and organize them all in one place with Funnelsales. Get started today!",      
+     page: "Bottom Funnel contact Management",
+},
+{
+    title: "Cloud Telephony | Built-in Phone | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/cloud_telephony",
+    route: "/cloud_telephony",
+    description: "Deliver consistent sales experiences and converse better with cloud telephony features in Freshsales CRM. Start increasing your sales efficiency today.",      
+     page: "Bottom Funnel cloud telephony",
+},
+{
+    title: "Configure Price Quote (CPQ) | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/cpq",
+    route: "/cpq",
+    description: "Generate branded documents and speed up your sales process with CPQ in Funnelsales. Sign up today!",      
+     page: "Bottom Funnel CPQ",
+},
+{
+    title: "Deal Management | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/deal-management",
+    route: "/deal-management",
+    description: "Deal Management is specifically designed to track and manage your deals in the pipeline for increased sales. Close more deals today. Try Funnelsales",      
+     page: "Bottom Funnel Deal Management",
+},
+{
+    title: "CRM - Email Integration | Funnelsales",
+    cannonicalpost:"bottomfunnel.net/emailintegration",
+    route: "/emailintegration",
+    description: "Enhance your sales efficiency through CRM - Email integration in Freshsales. See it for yourself. Try Funnelsales",      
+     page: "Bottom Funnel Deal Management",
+},
+{
+    title: "Funnelsales app For iOS & Android",
+    cannonicalpost:"https://bottomfunnel.net/mobilesales",
+    route: "/mobilesales",
+    description: "Funnelsales lets you to do more sales on the go. Customer data at your fingertips and track deals on the move. Start your free trial today!",      
+     page: "Bottom Funnel Deal mobile sales",
+},
+{
+    title: "Sales Analytics Report with Advanced CRM Reporting | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/salesreports",
+    route: "/salesreports",
+    description: "Analyze sales data and get detailed action-oriented insights on sales performances with in-depth analytics. Signup for Funnelsales",      
+     page: "Bottom Funnel Deal sales report",
+},
+{
+    title: "Real Estate CRM Software | CRM for Real Estate Agents - BottomFunnel",
+    cannonicalpost:"https://bottomfunnel.net/realestatesales",
+    route: "/salesreports",
+    description: "Built for real estate agencies of all sizes, Funnelsales CRM offers all the cutting edge sales process management and automation needed to win more deals",      
+     page: "Bottom Funnel Deal real-estae",
+},
+{
+    title: "Manufacturing SaaS software transforms the industry.",
+    cannonicalpost:"https://bottomfunnel.net/manufacturingsales",
+    route: "/manufacturingsales",
+    description: "The manufacturing Saas software has several benefits. It reduces costs and offers easy access and effective communication.",      
+     page: "Bottom Funnel manufacturing sales",
+},
+{
+    title: "Bottom funnel for Saas business",
+    cannonicalpost:"https://bottomfunnel.net/saashomepage",
+    route: "/saashomepage",
+    description: "Want to set up a CRM software for your business? A bottom funnel could be the perfect solution. click to get started with this vital marketing tactic.",      
+     page: "Bottom Funnel saas business",
+},
+{
+    title: "CRM for Hotels and Hospitality | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/hospitalitysales",
+    route: "/hospitalitysales",
+    description: "Give clients and guests an exceptional level of service every time, building loyalty and positive word of mouth by using an easily customizable CRM.",      
+     page: "Bottom Funnel hospitality sales",
+},
+{
+    title: "CRM Insurance Software | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/insurancesales",
+    route: "/hospitalitysales",
+    description: "Use CRM insurance software to manage policyholder information, automate renewal reminders and streamline your sales processes.",      
+     page: "Bottom Funnel insurance sales",
+},
+{
+    title: "CRM for Logistics | Try Funnelsales for Logistics Industry",
+    cannonicalpost:"https://bottomfunnel.net/logisticsales",
+    route: "/logisticsales",
+    description: "Check out the CRM for Logistics Industry Improve speed, time, and quality of customer service with Freshsales for the Logistics Industry Try Funnelsales",
+     page: "Bottom Funnel logistics sales",
+},
+{
+    title: "CRM for Agency | CRM Software for Digital, Ad & Marketing Agencies",
+    cannonicalpost:"https://bottomfunnel.net/agency-sales",
+    route: "/agency-sales",
+    description: "CRM for Agency helps insurance, Digital Marketing, Advertising, Design, Human Resource, and Marketing agencies to build and maintain a better relationships with clients.  Get a free trial | Funnelsales",
+     page: "Bottom Funnel agency sales",
+},
+{
+    title: "Finance CRM | CRM Software for Financial Services - Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/financesales",
+    route: "/financesales",
+    description: "Financial services CRM system to help you gain complete understanding of your clients’ needs. Ideal for banking, wealth management, investment, mutual funds, insurance, brokerage firms and advisors. Get started for free today.",
+     page: "Bottom Funnel finance sales",
+},
+{
+    title: "Healthcare CRM - definition and benefits | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/healthcaresales",
+    route: "/healthcaresales",
+    description: "A healthcare CRM can improve patient relationship management, automate processes and promote patient engagement and loyalty. Learn more about it.",
+     page: "Bottom Funnel healthcare sales",
+},
+{
+    title: "Education CRM | CRM Software for Education Services - Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/educationsales",
+    route: "/educationsales",
+    description: "A Education CRM can improve schools relationship management, automate processes and promote schools' engagement and loyalty. Learn more about it.",
+     page: "Bottom Funnel education sales",
+},
+{
+    title: "Travel Agency CRM Software | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/travelagencysales",
+    route: "/travelagencysales",
+    description: "Get a 360𝆩 view of your travelers, engage in meaningful conversations, curate personalized trips, and keep them coming back for more with Funnelsales.",
+     page: "Bottom Funnel travel agency sales",
+},
+{
+    title: "Law firm CRM Software | Funnelsales",
+    cannonicalpost:"https://bottomfunnel.net/lawfrim",
+    route: "/lawfrim",
+    description: "Capture all your client information, keep complete view of your cases, manage important files digitally, and get data-backed reports with a secure law firm CRM.",
+     page: "Bottom Funnel travel firm sales",
+},
+{
+    title: "Customer Support services| Best user experience",
+    cannonicalpost:"bottomfunnel.net/bottomfunnel-service",
+    route: "/bottomfunnel-service",
+    description: "We aim for providing reliable, advanced IT services that will help you reach your business goals faster than you could have ever imagined.",
+     page: "",
+},
+{
+    title: "IT Service Management Software | Try Funnelservice for Free",
+    cannonicalpost:"https://bottomfunnel.net/itms-Service",
+    route: "/itms-Service",
+    description: "Funnelservice Modern, Intelligent IT Service Management Software ✓ Consolidate and streamline all IT services with ITIL-aligned service management software.",
+     page: "itms",
+},
+{
+    title: "Bottom Funnel- Marketplace",
+    cannonicalpost:"https://bottomfunnel.net/market-place",
+    route: "/market-place",
+    description: "Bottom Funnel includes all your required apps and tools such as Facebook, Slack, Mailchimp, and Google Apps including your software in one place. Get your tools now!",
+     page: "Bottom Funnel Marketplace",
+},
+{
+    title: "Developer Portal | API documentation and other resources",
+    cannonicalpost:"https://bottomfunnel.net/developers-portal",
+    route: "/bottomfunnel-Services/knowledge-management",
+    description: "Develop innovative solutions to provide customer delight through a secure, serverless, and self-service platform powered by rich APIs. Get a quote now!",
+     page: "developer portal",
+},
+{
+    title: "Bottom Funnel Customers and their experience",
+    cannonicalpost:"https://bottomfunnel.net/customer-spotlight",
+    route: "/customer-spotlight",
+    description: "Bottom Funnel is the go-to solution for businesses seeking the highest standards of customer service. The trusted provider worldwide aims to provide exceptional customer service. ",
+     page: "customer spotlight",
+},
+{
+    title: "Avail Bottom Funnel Services ",
+    cannonicalpost:"https://bottomfunnel.net/customer-services",
+    route: "/customer-services",
+    description: "Our team of industry experts are here to assist you during your Bottom Funnel journey. Together, we'll maximize the value of your solution to meet your evolving business needs.",
+     page: "customer services",
+},
+{
+    title: "Grow customers engagements | Best Conversational engagement tools ",
+    cannonicalpost:"https://bottomfunnel.net/customer-engagement",
+    route: "/customer-engagement",
+    description: "Increase the effectiveness of your customer engagements through smart conversations. We give your support agents access to AI-powered conversational engagement tools.",
+     page: "customer engagement",
+},
+
 ];

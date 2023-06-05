@@ -8,7 +8,8 @@
     display: flex;
     background: linear-gradient(to left,white, rgb(249, 203, 210), white);
     flex-direction: column;
-    margin-top: 2%;
+    margin: 2% auto;
+    padding: 20px 0;
 
 }
 .ServiceToolsbox{
@@ -22,34 +23,23 @@
 }
 
 
-.ServiceToolsmaindivinner1{
+.ServiceToolsbox:nth-child(even){
     /* border: 2px solid red; */
     display: flex;
     /* background: linear-gradient(to left,white, rgb(249, 203, 210), white); */
-    flex-direction: column;
+    flex-direction: row-reverse;
     margin-top: 2%;
 
 }
-.ServiceToolsbox1{
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: row-reverse;
-    width: 85%;
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .ServiceToolsimagebox{
     /* border: 2px solid aqua; */
     width: 40%;
+    height: auto;
     
     padding: 15px 15px 15px 15px ;
 }
-.ServiceToolsimageboxinner{
-    height: 320px;
-    /* border: 2px solid red; */
 
-}
 .ServiceToolsboxcontent{
     /* border: 2px solid blue; */
     width: 45%;
@@ -62,16 +52,11 @@
 }
 
 @media  (max-width:1024px){
-    .ServiceToolsmaindiv{
-        /* border: 2px solid green; */
-        text-align: center;
-        margin-top: 4%;
-    }
+    
     .ServiceToolsmaindivinner{
         /* border: 2px solid red; */
         display: flex;
-        background: linear-gradient(to left,white, rgb(249, 203, 210), white);
-        flex-direction: column;
+       
         margin-top: 4%;
     
     }
@@ -80,49 +65,30 @@
         display: flex;
         flex-direction: column;
         width: 95%;
-        margin: auto;
-        align-items: center;
-        justify-content: space-between;
+       
     }
     
     
-    .ServiceToolsmaindivinner1{
+    .ServiceToolsbox:nth-child(even){
         /* border: 2px solid red; */
         display: flex;
-        /* background: linear-gradient(to left,white, rgb(249, 203, 210), white); */
-        flex-direction: column;
-        margin-top: 4%;
+       flex-direction: column;
+       
     
     }
-    .ServiceToolsbox1{
-        /* border: 2px solid yellow; */
-        display: flex;
-        flex-direction: column;
-        width: 95%;
-        margin: auto;
-        align-items: center;
-        justify-content: space-between;
-    }
+    
     .ServiceToolsimagebox{
         /* border: 2px solid aqua; */
-        width:fit-content;
+        width:90%;
         height: fit-content;
         padding: 1px ;
     }
-    .ServiceToolsimageboxinner{
-        height: 320px;
-        /* border: 2px solid red; */
-    
-    }
+   
     .ServiceToolsboxcontent{
         /* border: 2px solid blue; */
-        width: 80%;
-        justify-content: center;
-        align-items: center;
+        width: 90%;
+      
         margin-top: 4%;
     }
-    .ServiceToolsboxcontentinnerdiv{
-        /* border: 2px solid chartreuse; */
-        margin: auto;
-    }
+   
 }

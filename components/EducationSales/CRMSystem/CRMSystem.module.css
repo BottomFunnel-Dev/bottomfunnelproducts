@@ -24,11 +24,8 @@
     .CRMSystemmaindiv{
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: space-around;
-        /* border: 2px solid; */
-       background-color: #fdf3f0;
-       margin-top: 4%;
+       
+        
     
     }
     .CRMSystemmaindivcontent{
@@ -37,7 +34,7 @@
         text-align: center;
     }
     .CRMSystemmaindivcontent h3{
-        font-weight: 400;
+      
         text-align: justify;
     }
     .CRMSystemmaindivimage{

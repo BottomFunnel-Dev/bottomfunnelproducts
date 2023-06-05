@@ -1,3 +1,8 @@
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import Navbar from "../../components/Navbar/Navbar";
 import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
 import ReadyStarted from "../../components/ProductsNewPage/ReadyStarted/ReadyStarted";
@@ -8,30 +13,43 @@ import { ResourcesCasestudiesSupport } from "../../components/ResourcesCasestudi
 import { ResourcescasestudiesStories } from "../../components/ResourcesCasestudies/ResourcescasestudiesStories/ResourcescasestudiesStories";
 import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 
-export default function ResourcesCasestudies(){
-return(
+export default function ResourcesCasestudies() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
+  return (
     <div>
-    <Navbar
-productMount={{
-  navMount: true,
-}}
-navredux={{
-  color: "black",
-  logo: false,
-}}
-/>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
 
+      <Navbar
+        productMount={{
+          navMount: true,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
 
-<ResourcesCasestudiesBanner/>
-<ResourcescasestudiesStories/>
-<ResourcesCasestudiesCTE/>
-<ResourcesCasestudiesSupport/>
+      <ResourcesCasestudiesBanner />
+      <ResourcescasestudiesStories />
+      <ResourcesCasestudiesCTE />
+      <ResourcesCasestudiesSupport />
 
-<Testimonial/>
-<TrustedBy/>
-<ReadyStarted/>
-<LifeBottomFunnel/>
-
-</div>
-)
+      <Testimonial />
+      <TrustedBy />
+      <ReadyStarted />
+      <LifeBottomFunnel />
+    </div>
+  );
 }

@@ -1,12 +1,16 @@
-.AIScreensmaindiv {
+.AIScreenswholediv {
+ 
+  margin: 4% auto;
+
+  background-color: whitesmoke;
+  padding: 20px 0;
+  /* margin-bottom: 3%; */
+}
+.AIScreensmaindiv{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 7%;
   align-items: center;
-  background-color: whitesmoke;
-  padding: 1%;
-  /* margin-bottom: 3%; */
 }
 
 .AIScreensmaindivcontent {
@@ -17,7 +21,7 @@
   width: 35%;
 }
 
-.AIScreensmaindivone {
+.AIScreensmaindiv:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
@@ -33,28 +37,28 @@
   .AIScreensmaindiv {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 7%;
-    align-items: center;
-    background-color: whitesmoke;
-    padding: 1%;
+   
+   
     /* margin-bottom: 3%; */
   }
 
   .AIScreensmaindivcontent {
     width: 95%;
+
+  }
+  .AIScreensmaindivcontent>h3{
+    text-align: center;
+    font-size: 30px;
   }
 
   .AIScreensmaindivimage {
-    width: 95%;
+    width: 90%;
+    margin: 4% auto;
   }
 
-  .AIScreensmaindivone {
+  .AIScreensmaindiv:nth-child(even) {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-evenly;
-    margin-top: 7%;
-    align-items: center;
-    /* background-color: whitesmoke; */
-    padding: 1%;
+ 
   }
 }

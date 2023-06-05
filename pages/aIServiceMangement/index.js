@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import { AIScreens } from "../../components/AIServiceMangement/AIScreens/AIScreens";
 import { AIServiceMangementBanner } from "../../components/AIServiceMangement/AIServiceMangementBanner/AIServiceMangementBanner";
 import { EmpowerAI } from "../../components/AIServiceMangement/EmpowerAI/EmpowerAI";
@@ -12,9 +16,24 @@ import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
 import { DeskFooter } from "../../components/DeskFooter/DeskFooter";
 
 export default function whatsAppChat() {
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <>
       <div style={{ color: "#393939" }}>
+        <HeadSeo
+          title={pageMeta[0]?.title}
+          description={pageMeta[0]?.description}
+          cannonicalpost={pageMeta[0]?.cannonicalpost}
+        />
+
         <Navbar
           productMount={{
             navMount: true,

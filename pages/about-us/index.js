@@ -1,4 +1,8 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import { useRouter } from "next/router";
+import { MetaData } from "../../Data/MeatdataData";
+
 import styles from "./AboutUS.module.css";
 
 import { AboutusBanner } from "../../components/aboutUs/AboutusBanner/AboutusBanner";
@@ -7,10 +11,6 @@ import { OurBlogs } from "../../components/aboutUs/OurBlogs/OurBlogs";
 import { OurProcess } from "../../components/aboutUs/OurProcess/OurProcess";
 import { WorkLifeBalance } from "../../components/aboutUs/WorkLifeBalance/WorkLifeBalance";
 
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import TrustedBy from "../../components/TrustedByProductsPage/TrustedBy";
-import LifeBottomFunnel from "../../components/ProductsNewPage/LifeBottomFunnel/LifeBottomFunnel";
-import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar";
@@ -24,18 +24,24 @@ export default function AboutUS() {
     image: "/Images/aboutusImage/aerial-view-business-team 1.webp",
     color: "#ef4c23",
   };
+
+  const [pageMeta, setPageMeta] = useState([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.pathname);
+    const data = MetaData.filter((item) => item.route === router.pathname);
+    setPageMeta(data);
+  }, [MetaData]);
+
   return (
     <div className={styles.AboutUSmain}>
-      <Head>
-        <title>About us | Bottom Funnel</title>
-        <meta
-          name="description"
-          content="Welcome to Bottom Funnel, the world's leading app development company
-          for fintech and startup companies. We pride ourselves on delivering
-          unparalleled value to our partners, through our experience and
-          expertise in the field."
-        />
-      </Head>
+      <HeadSeo
+        title={pageMeta[0]?.title}
+        description={pageMeta[0]?.description}
+        cannonicalpost={pageMeta[0]?.cannonicalpost}
+      />
+
       <main>
         <Navbar
           productMount={{
@@ -46,7 +52,7 @@ export default function AboutUS() {
             logo: true,
           }}
         />
-        
+
         <AboutusBanner />
         <OurProcess />
         <Location />
