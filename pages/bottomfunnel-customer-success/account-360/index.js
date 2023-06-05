@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import HeadSeo from "../../../components/HeadSeo/HeadSeo";
 import { useRouter } from "next/router";
-import { MetaData } from "../../Data/MeatdataData";
+import { MetaData } from "../../../Data/MeatdataData";
 
 import { Account360degBanner } from "../../../components/Account360deg/Account360degBanner/Account360degBanner";
 import { Account360degCTE } from "../../../components/Account360deg/Account360degCTE/Account360degCTE";
