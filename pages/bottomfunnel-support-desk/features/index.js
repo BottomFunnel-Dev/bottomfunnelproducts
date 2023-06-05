@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import HeadSeo from "../../components/HeadSeo/HeadSeo";
+import HeadSeo from "../../../components/HeadSeo/HeadSeo";
 import { useRouter } from "next/router";
-import { MetaData } from "../../Data/MeatdataData";
+import { MetaData } from "../../../Data/MeatdataData";
 
 import { FeaturesBanner } from "../../../components/funneldeskFeatures/FeaturesBanner/FeaturesBanner";
 import { FeaturesCardsLeft } from "../../../components/funneldeskFeatures/FeaturesCardsLeft/FeaturesCardsLeft";

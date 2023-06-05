@@ -6,10 +6,14 @@ import { MetaData } from "../../Data/MeatdataData";
 
 import { DealBusinesshealth } from "../../components/DealManagement/DealBusinesshealth";
 import { DealManagementBanner } from "../../components/DealManagement/DealManagementBanner";
-import { DealManagementHandle } from "../../components/DealManagement/DealManagementHandle";
+// import { DealManagementHandle } from "../../components/DealManagement/DealManagementHandle";
+
+
 import { DealManagementLowerbanner } from "../../components/DealManagement/DealManagementLowerbanner";
-import { DealManagementperformance } from "../../components/DealManagement/DealManagementperformance";
-import { DealManagementTrack } from "../../components/DealManagement/DealManagementTrack";
+// import { DealManagementperformance } from "../../components/DealManagement/DealManagementperformance";
+
+// import { DealManagementTrack } from "../../components/DealManagement/DealManagementTrack";
+
 import { DealManagementVisiability } from "../../components/DealManagement/DealManagementVisiability";
 import { PipelineManagement } from "../../components/DealManagement/PipelineManagement";
 import Navbar from "../../components/Navbar/Navbar";
@@ -56,9 +60,9 @@ export default function dealmanagement() {
       <DealManagementBanner />
       <PipelineManagement />
       <DealBusinesshealth />
-      <DealManagementHandle />
-      <DealManagementperformance />
-      <DealManagementTrack />
+      {/* <DealManagementHandle /> */}
+      {/* <DealManagementperformance /> */}
+      {/* <DealManagementTrack /> */}
       <DealManagementVisiability />
       <DealManagementLowerbanner />
 
