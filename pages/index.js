@@ -30,6 +30,7 @@ export default function Home() {
           your customers like never before!"
         />
       </Head>
+      
       <main>
         <Navbar
           productMount={{

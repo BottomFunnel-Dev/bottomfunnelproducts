@@ -121,7 +121,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                 <div className={stylecon.contactNumbs}>
                   <div className={stylecon.numberMain}>
                     <Image
-                      src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/navbar/iconcontact/india.svg"
+                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/india.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -141,7 +141,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
 
                   <div className={stylecon.numberMain}>
                     <Image
-                      src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/navbar/iconcontact/usa.svg"
+                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/usa.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -156,7 +156,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                   </div>
                   <div className={stylecon.numberMain}>
                     <Image
-                      src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/navbar/iconcontact/uae.svg"
+                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/uae.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -174,7 +174,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                   </div>
                   <div className={stylecon.numberMain}>
                     <Image
-                      src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/navbar/iconcontact/kenya.svg"
+                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/kenya.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -189,7 +189,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                   </div>
                   <div className={stylecon.numberMain}>
                     <Image
-                      src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/navbar/iconcontact/skypes.svg"
+                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/skypes.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -204,7 +204,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                   </div>
                   <div className={stylecon.numberMain}>
                     <Image
-                      src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/navbar/iconcontact/mail.svg"
+                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/mail.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -251,7 +251,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                 <div className={stylecon.contactNumbs}>
                   <div className={stylecon.numberMain}>
                     <Image
-                      src="https://bottom-funnel-fe.s3.ap-south-1.amazonaws.com/Images/navbar/iconcontact/india.svg"
+                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/india.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
