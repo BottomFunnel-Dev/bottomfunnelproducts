@@ -1,11 +1,12 @@
 .vettingBannerContainer {
-  height: 90vh;
+  height: 80vh;
   border-bottom: 8px solid #ef4c23;
   /* position: relative; */
   z-index: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 5%;
 }
 
 .vettingBannerMain {
