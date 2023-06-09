@@ -3,10 +3,6 @@ import HeadSeo from "../../components/HeadSeo/HeadSeo";
 import { useRouter } from "next/router";
 import { MetaData } from "../../Data/MeatdataData";
 
-import HeadSeo from "../../components/HeadSeo/HeadSeo";
-import { useRouter } from "next/router";
-import { MetaData } from "../../Data/MeatdataData";
-
 import Navbar from "../../components/Navbar/Navbar";
 import { ProductsFooter } from "../../components/ProductsNewPage/ProductsFooter/ProductsFooter";
 import { ServiceCatalogueBanner } from "../../components/ServiceCatalogue/ServiceCatalogueBanner/ServiceCatalogueBanner";

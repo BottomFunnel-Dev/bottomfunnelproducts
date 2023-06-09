@@ -5,11 +5,13 @@
   justify-content: space-around;
   background: #f1f1f1;
   color: #393939;
+  /* border: 1px solid red; */
 }
 
 .ourClientBannerContent {
   width: 40%;
   text-align: left;
+  margin-top: 5%;
 }
 
 .ourClientBannerContent > h1 {
@@ -46,15 +48,17 @@
 
 .ourClientBannerImage {
   width: fit-content;
-  height: 600px;
+  height: 80vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .ourClientBannerImage > img {
   height: 95%;
 }
+
 @media(max-width:480px){
   .ourClientBannerMain{
     flex-direction: column-reverse;
