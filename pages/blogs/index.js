@@ -44,7 +44,7 @@ export default function Blog() {
       <BlogsBanner />
       <BlogsData />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

@@ -192,7 +192,7 @@ export default function applebusinesschat() {
       <BusinessMassaging />
       <FinancialService />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

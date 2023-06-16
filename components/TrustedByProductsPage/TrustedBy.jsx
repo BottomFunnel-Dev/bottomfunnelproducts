@@ -26,7 +26,7 @@ function SamplePrevArrow(props) {
 
 const TrustedBy = () => {
   var settings = {
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 100,
     cssEase: "linear",
     speed: 9000,
@@ -130,12 +130,21 @@ const TrustedBy = () => {
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travix.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/Ciana.png" alt="image" />
             </div>
           </div>
 
-          
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net//Images/TrustedBy/JamboShop.png" alt="image" />
+            </div>
+          </div>
 
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/OnCart.png" alt="image" />
+            </div>
+          </div>
 
 
           <div className={styles.trustedByslideDivSection}>
@@ -144,13 +153,6 @@ const TrustedBy = () => {
             </div>
           </div>
 
-          <div className={styles.trustedByslideDivSection}>
-            <div>
-              <img
-                src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/BBT.png" alt="image"
-              />
-            </div>
-          </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
@@ -172,15 +174,36 @@ const TrustedBy = () => {
 
           <div className={styles.trustedByslideDivSection}>
             <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/Blueberry.png" alt="image" />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
               <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travelflap.png" alt="image" />
             </div>
           </div>
 
           <div className={styles.trustedByslideDivSection}>
             <div>
-              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/Blueberry.png" alt="image" />
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/NextHolidays.png" alt="image" />
             </div>
           </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img
+                src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/BBT.png" alt="image"
+              />
+            </div>
+          </div>
+
+          <div className={styles.trustedByslideDivSection}>
+            <div>
+              <img src="https://d3op2l77j7wnti.cloudfront.net/Images/TrustedBy/travix.png" alt="image" />
+            </div>
+          </div>
+
         </Slider>
       </div>
     </div>

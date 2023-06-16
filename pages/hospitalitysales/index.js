@@ -58,7 +58,7 @@ export default function hospitalitysales() {
         <Worldwide />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

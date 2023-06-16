@@ -48,7 +48,7 @@ export default function NeoAdminCenter() {
         <NeoAdminBilling />
         <NeoAdminAdministration />
 
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

@@ -47,7 +47,7 @@ const index = () => {
 
       {/* Other react required components  */}
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

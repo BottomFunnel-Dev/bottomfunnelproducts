@@ -55,7 +55,7 @@ const index = () => {
       <FeatureList />
       <IntegrationFooter />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

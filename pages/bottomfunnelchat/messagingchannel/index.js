@@ -190,7 +190,7 @@ export default function messaginchannel() {
       <Messagincommunication />
       <Messagingplatforms />
       <Messagingchannellowerbanner />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

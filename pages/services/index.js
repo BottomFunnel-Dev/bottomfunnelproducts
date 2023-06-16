@@ -45,7 +45,7 @@ export default function Services() {
       <ServicesBanner />
       <ServicesPackages />
       <ServicesSpecialized />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

@@ -193,7 +193,7 @@ export default function InstagramDm() {
       <InstagramDmBots />
       <InstagramDmDelighfull />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

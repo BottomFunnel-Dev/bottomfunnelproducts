@@ -52,7 +52,7 @@ export default function saashomepage() {
 
         <SaaSHomePage />
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

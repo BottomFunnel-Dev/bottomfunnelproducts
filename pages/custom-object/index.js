@@ -47,7 +47,7 @@ export default function Custom() {
       <CustomObjectSupport />
 
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <ProductsFooter />

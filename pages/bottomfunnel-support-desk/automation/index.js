@@ -61,7 +61,7 @@ export default function FunnelDeskAutomation() {
       <WhyAutomation />
 
       <CollaborationMidBanner />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

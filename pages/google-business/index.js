@@ -192,7 +192,7 @@ export default function guideToShopfy() {
       <GoogleBusinessMessageCustomer />
       <GoogleBusinessMessageDemo />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

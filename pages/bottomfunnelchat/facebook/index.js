@@ -190,7 +190,7 @@ export default function facebook() {
       <ConnectwithCustomer />
       <SeeingResult />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

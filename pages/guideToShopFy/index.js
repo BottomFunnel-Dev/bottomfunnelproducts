@@ -126,7 +126,7 @@ export default function guideToShopfy() {
       <GuideToShopFybots />
       <GuideToShopFyDemo />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

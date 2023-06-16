@@ -109,7 +109,7 @@ export default function MarketerHomePage() {
       <ConversonalCrm />
       <ForBusiness />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

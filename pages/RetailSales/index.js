@@ -54,7 +54,7 @@ export default function RetailSales() {
         <MortarDead />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

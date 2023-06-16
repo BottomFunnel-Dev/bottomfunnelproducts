@@ -50,7 +50,7 @@ export default function neoMainpage() {
       <NeoMainpageCTEtwo />
       <NeoMainpageServices />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <TalentProfiles />

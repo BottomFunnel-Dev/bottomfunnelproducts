@@ -54,7 +54,7 @@ export default function index() {
       <Setup />
       <IntegrationFooter />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

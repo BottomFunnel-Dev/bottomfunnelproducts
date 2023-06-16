@@ -55,7 +55,7 @@ export default function whatsAppChat() {
         <EmpowerAI />
         <AIScreens />
 
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

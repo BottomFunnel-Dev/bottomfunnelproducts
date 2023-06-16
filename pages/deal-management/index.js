@@ -67,7 +67,7 @@ export default function dealmanagement() {
       <DealManagementLowerbanner />
 
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       {/* added footer of sales in place of product footer */}

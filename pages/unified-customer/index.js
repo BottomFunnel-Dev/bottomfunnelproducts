@@ -46,7 +46,7 @@ export default function Unifiedcustomerdata() {
       <Unifiedsystem />
       <UnifiedUCRaction />
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <ProductsFooter />

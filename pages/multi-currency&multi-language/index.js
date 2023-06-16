@@ -66,7 +66,7 @@ const index = () => {
         btntext={"GET STARTED"}
       />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

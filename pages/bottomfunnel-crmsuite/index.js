@@ -52,7 +52,7 @@ export default function bottomfunnelCrmSuit() {
       <BottomFunnelTeamCards />
       <Implementation />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

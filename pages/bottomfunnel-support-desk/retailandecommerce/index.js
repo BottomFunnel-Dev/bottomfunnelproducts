@@ -64,7 +64,7 @@ export default function funnelDeskRetailEcommerce() {
       <RetailInsights />
       <IntegrationFooter />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

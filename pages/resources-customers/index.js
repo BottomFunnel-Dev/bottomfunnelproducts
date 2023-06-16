@@ -46,7 +46,7 @@ export default function ResourcesCasestudies() {
       <ResourcesCasestudiesCTE />
       <ResourcesCasestudiesSupport />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

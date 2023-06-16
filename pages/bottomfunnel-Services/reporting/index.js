@@ -52,7 +52,7 @@ export default function Reporting() {
       <ReportingFeatures />
       <ReportingPerk />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

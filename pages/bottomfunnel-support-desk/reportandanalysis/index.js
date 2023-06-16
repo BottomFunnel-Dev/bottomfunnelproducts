@@ -58,7 +58,7 @@ export default function funnelDeskReportAndAnalysis() {
       <ReportAndAnalysisCards />
       <IntegrationFooter />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

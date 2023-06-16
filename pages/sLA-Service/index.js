@@ -53,7 +53,7 @@ export default function itmsService() {
         <SLAScreens />
         <Trial />
 
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

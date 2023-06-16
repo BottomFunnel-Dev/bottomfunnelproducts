@@ -51,7 +51,7 @@ export default function financesales() {
 
       <FinanceHomePage />
       <Trial />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

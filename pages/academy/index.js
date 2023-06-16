@@ -45,7 +45,7 @@ export default function Academy() {
       <AcademyContent />
       <WhyAcademy />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

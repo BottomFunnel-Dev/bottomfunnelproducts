@@ -114,7 +114,7 @@ export default function whatsapp() {
       <Whatasappcampaigns />
 
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <DeskFooter />

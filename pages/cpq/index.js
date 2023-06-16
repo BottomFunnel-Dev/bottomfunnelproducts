@@ -60,7 +60,7 @@ export default function cpq() {
         <CloudTelephonyLowerBanner />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

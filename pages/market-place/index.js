@@ -50,7 +50,7 @@ export default function MarketPlace() {
       <MarketPlaceNewly />
       <MarketPlaceCollections />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

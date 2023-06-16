@@ -67,7 +67,7 @@ export default function InsuranceSales() {
       <MakeYourDeal /> */}
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

@@ -53,7 +53,7 @@ export default function NgoandNonProfits() {
       <NgoWhyUs />
       <NgoBenefits />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

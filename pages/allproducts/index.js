@@ -49,7 +49,7 @@ export default function allproducts() {
         <ItServiceProduct />
         <CrmProduct />
 
-        <Testimonial />
+         
         <TrustedBy />
 
         <ReadyStarted />

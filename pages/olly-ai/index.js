@@ -47,7 +47,7 @@ export default function OllyAi() {
       <OllyAiTeams />
       <OllyAiFeatures />
       <OllyAiCTA />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

@@ -47,7 +47,7 @@ export default function Shopify() {
       <Shopifylowerbanner />
 
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <ProductsFooter />

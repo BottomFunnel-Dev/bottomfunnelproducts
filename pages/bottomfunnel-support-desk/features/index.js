@@ -77,7 +77,7 @@ export default function funnelDeskFeatures() {
       <FeatureDemo />
 
       {/* <StoriesSection /> */}
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <TalentProfiles />

@@ -56,7 +56,7 @@ export default function FieldServiceManagement() {
       <Servicemanagementscreens />
       <Stellerfieldservice />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

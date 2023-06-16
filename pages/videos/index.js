@@ -45,7 +45,7 @@ export default function Blog() {
       <VideoSpotlight />
       <VideosExplore />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

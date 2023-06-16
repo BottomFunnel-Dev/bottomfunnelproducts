@@ -55,7 +55,7 @@ export default function itmsService() {
         <ITSMServicesScreens />
         <Advantage />
 
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

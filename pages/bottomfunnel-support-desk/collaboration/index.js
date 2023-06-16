@@ -58,7 +58,7 @@ export default function funnelDeskCollaboration() {
       <CollaborationOffers />
       <CollaborationMidBanner />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

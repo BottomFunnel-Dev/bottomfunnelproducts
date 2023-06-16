@@ -55,7 +55,7 @@ export default function BankingAndFinance() {
       <BankingAndFinanceScale />
       <BankingAndFinanceService />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

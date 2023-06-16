@@ -53,7 +53,7 @@ export default function KnowledgeManagement() {
       <KnowledgeManagementEmpower />
       <KnowledgeManagementPerks />
       <KnowledgeManagementFreeTrial />
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

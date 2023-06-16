@@ -23,6 +23,7 @@ export default function DropdownResp({
   platformHoverOut,
 }) {
   const router = useRouter();
+  
   return (
     <div className={dropdown.dropdown_css}>
       <div class="accordion" id="accordionExample">

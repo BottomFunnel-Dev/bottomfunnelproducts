@@ -94,7 +94,7 @@ const index = () => {
           </div>
         </div>
       </div>
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

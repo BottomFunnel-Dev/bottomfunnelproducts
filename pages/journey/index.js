@@ -116,7 +116,7 @@ export default function Journey() {
       <JourneyCustomerExperience />
       <JourneyTrial />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

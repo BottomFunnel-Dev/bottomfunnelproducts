@@ -58,7 +58,7 @@ export default function manufacturingsales() {
       <Business />
 
       <Trial />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

@@ -62,7 +62,7 @@ export default function educationsales() {
         <EdtechIndustries />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />
