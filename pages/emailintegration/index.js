@@ -59,7 +59,7 @@ export default function emailintegration() {
 
         <TrustedBy />
         <Trial />
-        <Testimonial />
+         
         <LifeBottomFunnel />
         {/* added footer of sales in place of product footer */}
         <SalesFooter />

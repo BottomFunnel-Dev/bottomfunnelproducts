@@ -59,7 +59,7 @@ export default function FunnelDesk() {
       <IndustryExperts />
       <IntegrationFooter />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
 

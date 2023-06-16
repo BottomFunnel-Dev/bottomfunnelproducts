@@ -59,7 +59,7 @@ export default function funnelDeskSelfService() {
       <SelfServiceCustomerHelp />
       <IntegrationFooter />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

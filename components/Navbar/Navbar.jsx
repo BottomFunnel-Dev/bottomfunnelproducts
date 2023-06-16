@@ -128,6 +128,7 @@ const Navbar = ({ navredux, productMount }) => {
     mobres ? setMobres(false) : setMobres(true);
     console.log("working tree", mobres);
   };
+  
   return (
     <>
       <div>

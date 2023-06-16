@@ -48,7 +48,7 @@ export default function collaboration() {
       <Collaborationdata />
       <Collaborationlowerbanner />
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <ProductsFooter />

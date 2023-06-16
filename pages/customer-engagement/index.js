@@ -47,7 +47,7 @@ const CustomerEngagement = () => {
       <Digital />
       <CustomerEngagmentTrialBox />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

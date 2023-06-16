@@ -55,7 +55,7 @@ export default function funnelDeskHelpWidget() {
       <HelpWidget />
       <HelpDeskLowerBanner />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

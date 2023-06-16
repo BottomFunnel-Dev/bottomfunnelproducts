@@ -67,7 +67,7 @@ export default function FunnedDeskSecurity() {
       <SecureFeatureList />
       <SecurityMidBanner />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

@@ -51,7 +51,7 @@ export default function Community() {
       <CommunityConversation />
       <CommunityUserNetwork />
       <CommunityHelp />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

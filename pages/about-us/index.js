@@ -45,7 +45,7 @@ export default function AboutUS() {
       <main>
         <Navbar
           productMount={{
-            navMount: false,
+            navMount: true,
           }}
           navredux={{
             color: "white",

@@ -120,7 +120,7 @@ export default function landingPages() {
       <LandingCustomer />
       <LandingSales />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

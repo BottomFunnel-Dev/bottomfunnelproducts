@@ -82,17 +82,6 @@
   /* border: 2px solid; */
 }
 
-/* .aboutusanimatedtitle::after {
-  content: "|";
-  position: absolute;
-  font-size: 40px;
-  right: 0;
-  width: 70%;
-  height: 100%;
-  background-color: #f4f4f4;
-  color: #393939;
-  animation: animateTitle 19s linear infinite, caret 1s infinite;
-} */
 
 @keyframes animateTitle {
   0% {
@@ -117,7 +106,7 @@
     background: #f4f4f4;
     display: flex;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 12%;
     flex-direction: column;
     background-image: url("/Images/aboutusImage/bgbanner.webp");
   }

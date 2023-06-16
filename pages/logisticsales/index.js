@@ -64,7 +64,7 @@ export default function logisticsales() {
         <Engagement />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

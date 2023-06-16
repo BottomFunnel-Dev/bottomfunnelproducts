@@ -47,7 +47,7 @@ export default function events() {
       <EventsAmazon />
       <EventsScale />
       <EventsTrail />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

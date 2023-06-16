@@ -53,7 +53,7 @@ export default function travelhositality() {
       <TravelHospitalitydashbord />
 
       <IntegrationFooter />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

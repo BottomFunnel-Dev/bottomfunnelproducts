@@ -54,7 +54,7 @@ export default function Account360deg() {
       <Account360degBanner />
       <Account360degData />
       <Account360degCTE />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <TalentProfiles />

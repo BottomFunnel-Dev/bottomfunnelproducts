@@ -21,10 +21,6 @@ export const AboutusBanner = () => {
           unparalleled value to our partners, through our experience and
           expertise in the field.
         </p>
-        {/* <button
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">Get Started</button> */}
 
         <div>
           <div

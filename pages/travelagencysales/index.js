@@ -59,7 +59,7 @@ export default function travelagencysales() {
         <TravelSystem />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

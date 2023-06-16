@@ -194,7 +194,7 @@ export default function whatsAppChat() {
       <DoMore />
       <ConnectWithCustomer />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

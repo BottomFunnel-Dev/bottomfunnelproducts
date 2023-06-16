@@ -197,7 +197,7 @@ export default function SmartConversation() {
       <EnterpriseBFChatTools />
       <EnterpriseBFChatData />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

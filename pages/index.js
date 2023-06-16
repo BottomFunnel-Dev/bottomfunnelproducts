@@ -48,7 +48,6 @@ export default function Home() {
         <Hiretalent />
         <SimpleAndEasy />
         <OllyNeo/>
-        <Testimonial />
         <TrustedBy />
         <ReadyStarted />
         <TalentProfiles />

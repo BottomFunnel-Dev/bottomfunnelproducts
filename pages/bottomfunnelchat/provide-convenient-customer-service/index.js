@@ -194,7 +194,7 @@ export default function index() {
       <WhatMore />
       <EnterprizePlatform />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

@@ -56,7 +56,7 @@ export default function DevelopersPortal() {
       <DeveloperPortalCases />
       <DeveloperPortalRegister />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

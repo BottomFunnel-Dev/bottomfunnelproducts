@@ -53,7 +53,7 @@ export default function SuitePage() {
       <SaleSmarter />
       <SuiteLower />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

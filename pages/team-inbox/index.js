@@ -193,7 +193,7 @@ export default function TeamInbox() {
       <TeamInboxLower />
 
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <ChatFooter />

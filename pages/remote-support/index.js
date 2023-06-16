@@ -59,7 +59,7 @@ export default function RemoteSupport() {
       <RemoteSupportGuide />
       <RemoteSupportCTEthree />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

@@ -56,7 +56,7 @@ export default function Allindustry() {
 
       <IntegrationFooter />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
 

@@ -57,7 +57,7 @@ export default function FormulaFields() {
       <FormulaFieldsGetData />
       <FormulaFieldsCTA />
       <FormulaFieldsCTAnext />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

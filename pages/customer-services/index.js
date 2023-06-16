@@ -47,7 +47,7 @@ export default function CustomerServices() {
       <CustomerServicesSectionOne />
       <CustomerServicesSectionTwo />
       <CustomerServicesSectionThree />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

@@ -49,7 +49,7 @@ export default function CloudTelephonyPage() {
       <CloudTelephony />
       <TrustedBy />
       <Trial />
-      <Testimonial />
+       
 
       <LifeBottomFunnel />
       {/* added footer of sales in place of product footer */}

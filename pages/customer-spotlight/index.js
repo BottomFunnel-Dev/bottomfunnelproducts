@@ -46,7 +46,7 @@ export default function CustomerSpotlight() {
       <CaseStudy />
       <CustomerSpotlightDemo />
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

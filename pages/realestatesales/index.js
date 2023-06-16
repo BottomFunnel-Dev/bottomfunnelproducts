@@ -32,7 +32,7 @@ export default function realestatesales() {
 
       <RealEstateSales />
       <Trial />
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

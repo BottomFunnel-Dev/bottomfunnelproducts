@@ -111,7 +111,7 @@ export default function WhatsNew() {
       <WhatsNewDetails />
 
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <DeskFooter />

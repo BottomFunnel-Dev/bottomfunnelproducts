@@ -49,7 +49,7 @@ const index = () => {
         <BulkEmailSuiteBox />
       </div>
 
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

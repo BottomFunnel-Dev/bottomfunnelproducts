@@ -57,7 +57,7 @@ export default function CustomerSuccessHome() {
       <ActiveGoals />
       <CustomerValue />
       <RequestDemo />
-      <Testimonial />
+       
       <TrustedBy />
 
       <ReadyStarted />

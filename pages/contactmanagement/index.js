@@ -57,7 +57,7 @@ export default function contactmanagement() {
         <TeamEfficiency />
         <TrustedBy />
         <Trial />
-        <Testimonial />
+         
 
         <LifeBottomFunnel />
         {/* added footer of sales in place of product footer */}

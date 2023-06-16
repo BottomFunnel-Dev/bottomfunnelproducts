@@ -54,7 +54,7 @@ export default function funnelDeskEnterprise() {
       <EnterpriseEngage />
       <EnterpriseDeskService />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

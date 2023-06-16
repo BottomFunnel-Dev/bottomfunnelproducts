@@ -55,7 +55,7 @@ export default function salesreports() {
         <Solution />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

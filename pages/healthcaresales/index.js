@@ -57,7 +57,7 @@ export default function healthcaresales() {
         <HealthcareIndustries />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />

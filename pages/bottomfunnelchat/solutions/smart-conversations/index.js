@@ -193,7 +193,7 @@ export default function SmartConversation() {
       <SmartConversationsChanges />
       <SmartConversationsDownload />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

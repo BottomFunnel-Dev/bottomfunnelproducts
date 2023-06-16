@@ -197,7 +197,7 @@ export default function contactresolution() {
       <GetMore />
       <EnterprizePlatform />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

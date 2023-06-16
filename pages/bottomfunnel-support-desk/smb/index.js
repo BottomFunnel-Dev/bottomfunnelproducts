@@ -55,7 +55,7 @@ export default function SMB() {
       <Smbfooter />
 
       <TrustedBy />
-      <Testimonial />
+       
       <ReadyStarted />
       <LifeBottomFunnel />
       <DeskFooter />

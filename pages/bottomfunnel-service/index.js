@@ -66,7 +66,7 @@ export default function bottomfunnelservice() {
 
         {/* <DeskStarted/> */}
 
-        <Testimonial />
+         
         <TrustedBy />
 
         <ReadyStarted />

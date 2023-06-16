@@ -196,7 +196,7 @@ export default function movefromcostlychannel() {
       <DeliverStellar />
       <EnterprizePlatform />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <LifeBottomFunnel />

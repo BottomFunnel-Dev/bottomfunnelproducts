@@ -52,7 +52,7 @@ export default function Pricing() {
       <PricingQuestion />
       <PricingStarted />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       <TalentProfiles />

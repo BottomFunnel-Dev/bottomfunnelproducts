@@ -58,7 +58,7 @@ export default function funnelDeskTicketing() {
 
       <TickettingStartTrials />
 
-      <Testimonial />
+       
       <TrustedBy />
       <ReadyStarted />
       {/* <TalentProfiles/> */}

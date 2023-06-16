@@ -57,7 +57,7 @@ export default function lawfrim() {
         <WhatMore />
 
         <Trial />
-        <Testimonial />
+         
         <TrustedBy />
         <ReadyStarted />
         <LifeBottomFunnel />
