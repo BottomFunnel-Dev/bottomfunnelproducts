@@ -28,7 +28,8 @@ export const WhoWeAre = ({
               <div
                 key={i}
                 onClick={() => {
-                  router.push(`/${item.path}`);
+                  // /${item.path}
+                  router.push({pathname:item.path});
                   homeHoverOut();
                 }}
                 className={whowe.aboutimageIconDivSection}
