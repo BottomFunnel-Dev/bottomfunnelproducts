@@ -20,38 +20,39 @@ export const WhoWeAre = ({
     >
       <div className={whowe.aboutDropdownSection}>
         <div className={whowe.aboutDropdownContent}>
-        
-            <h5 className={whowe.noStyle} onClick={()=>router.push('/')} style={{margin:"10px"}}>Company</h5>
-       
+
+          <h5 className={whowe.noStyle} onClick={() => router.push('/')} style={{ margin: "10px" }}>Company</h5>
+
           <div className={whowe.listItems}>
             {company.map((item, i) => (
-              <div
-                key={i}
-                onClick={() => {
-                  // /${item.path}
-                  router.push({pathname:item.path});
-                  homeHoverOut();
-                }}
-                className={whowe.aboutimageIconDivSection}
-              >
-                <div>
-                  <img
-                    className={whowe.iconDivSection}
-                    src={item.navIcons}
-                    alt=""
-                  />
-                </div>
-               
+              <Link href={item.path} style={{color: "inherit", textDecoration: "none"}}>
+                <div
+                  // key={i}
+                  // onClick={() => {
+                  //   router.push(`/${item.path}`);
+                  //   homeHoverOut();
+                  // }}
+                  className={whowe.aboutimageIconDivSection}
+                >
+                  <div>
+                    <img
+                      className={whowe.iconDivSection}
+                      src={item.navIcons}
+                      alt=""
+                    />
+                  </div>
+
                   <p className={whowe.aboutlinkP}>{item.dropContent}</p>
-               
-              </div>
+
+                </div>
+              </Link>
             ))}
           </div>
         </div>
         <div className={whowe.aboutDropdownContent}>
-       
-            <h5 className={whowe.noStyle} style={{margin:"10px"}}>Why Bottom Funnel</h5>
-        
+
+          <h5 className={whowe.noStyle} style={{ margin: "10px" }}>Why Bottom Funnel</h5>
+
           <div className={whowe.listItems}>
             {whyBottom.map((item, i) => (
               <div
@@ -69,17 +70,17 @@ export const WhoWeAre = ({
                     alt=""
                   />
                 </div>
-               
-                  <p className={whowe.aboutlinkP}>{item.dropContent}</p>
-            
+
+                <p className={whowe.aboutlinkP}>{item.dropContent}</p>
+
               </div>
             ))}
           </div>
         </div>
         <div className={whowe.aboutDropdownContent}>
-         
-            <h5 className={whowe.noStyle} style={{margin:"10px"}}>Our Process</h5>
-        
+
+          <h5 className={whowe.noStyle} style={{ margin: "10px" }}>Our Process</h5>
+
           <div className={whowe.listItems}>
             {process.map((item, i) => (
               <div
@@ -97,9 +98,9 @@ export const WhoWeAre = ({
                     alt=""
                   />
                 </div>
-              
-                  <p   className={whowe.aboutlinkP}>{item.dropContent}</p>
-          
+
+                <p className={whowe.aboutlinkP}>{item.dropContent}</p>
+
               </div>
             ))}
           </div>
