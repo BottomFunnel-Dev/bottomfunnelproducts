@@ -272,10 +272,10 @@ const Navbar = ({ navredux, productMount }) => {
                 Free Trial
               </button>
 
-              <a target="_blank" href="https://service.bottomfunnel.net/">
+              <a target="_blank" href="https://bottomfunnel.net">
                 <button
                   className={`${navstyle.callToAction} ${navstyle.buttonGradientAnimation}`}
-                // onClick={() => router.push("https://service.bottomfunnel.net/")}
+                // onClick={() => router.push("https://bottomfunnel.net")}
                 >
                   Services
                 </button>

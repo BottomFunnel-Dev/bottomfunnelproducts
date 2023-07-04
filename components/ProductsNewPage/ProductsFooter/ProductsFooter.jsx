@@ -25,7 +25,7 @@ export const ProductsFooter = () => {
                         </button>
                     </Link>
 
-                    <a target="_blank" href="https://service.bottomfunnel.net/apply-as-talent">
+                    <a target="_blank" href="https://bottomfunnel.netapply-as-talent">
                         <button className={styles.productsFooterCallToAction}>
                             Apply as a Talent
                         </button>
@@ -198,29 +198,29 @@ export const ProductsFooter = () => {
 
                     <ul className={styles.productMainProductDivLink}>
 
-                        <Link style={{ color: "black", textDecoration: "none" }} href={"https://service.bottomfunnel.net/"}>
+                        <Link style={{ color: "black", textDecoration: "none" }} href={"https://bottomfunnel.net"}>
                             <h5>Services </h5>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/web-development"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.netweb-development"}>
                             <li>
                                 Web Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/mobile-app-development"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.netmobile-app-development"}>
                             <li>
                                 Mobile App Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/Digital-marketing"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.netDigital-marketing"}>
                             <li>
                                 Digital Marketing
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://service.bottomfunnel.net/trending-technologies"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.nettrending-technologies"}>
                             <li>
                                 Trending Technologies
                             </li>
