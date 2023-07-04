@@ -86,7 +86,6 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop">Request Quote</button>
-
             </div>
 
             <hr />
@@ -119,29 +118,10 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                 </div>
 
                 <div className={stylecon.contactNumbs}>
-                  <div className={stylecon.numberMain}>
-                    <Image
-                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/india.svg"
-                      alt=""
-                      width={"0"}
-                      height={"0"}
-                      sizes={"100vw"}
-                      style={{ width: "30px", height: "fit-content", backgroundColor: "red", textDecoration: "none" }}
-                    />
-
-                    <ul className={stylecon.contactNumbers}>
-                      <li>
-                        <a href="tel:+917877680588">+91 7877680588</a>
-                      </li>
-                      <li>
-                        <a href="tel:+918209366227">+91 8209366227</a>
-                      </li>
-                    </ul>
-                  </div>
 
                   <div className={stylecon.numberMain}>
-                    <Image
-                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/usa.svg"
+                    <img
+                      data-src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/usa.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -154,9 +134,11 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                       </li>
                     </ul>
                   </div>
+
+
                   <div className={stylecon.numberMain}>
-                    <Image
-                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/uae.svg"
+                    <img
+                      data-src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/uae.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -167,14 +149,16 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                       <li>
                         <a href="tel:+971553070316">+971 553070316</a>
                       </li>
-                      <li>
+
+                      {/* <li>
                         <a href="tel:+971553070316">+971 565664624</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
+
                   <div className={stylecon.numberMain}>
-                    <Image
-                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/kenya.svg"
+                    <img
+                      data-src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/india.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -183,13 +167,18 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>
-                        <a href="tel:+254787213522">+254 787213522</a>
+                        <a href="tel:+917877680588">+91 8433130927</a>
+                      </li>
+                      <li>
+                        <a href="tel:+918209366227">+91 8209655534</a>
                       </li>
                     </ul>
                   </div>
+
+
                   <div className={stylecon.numberMain}>
-                    <Image
-                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/skypes.svg"
+                    <img
+                      data-src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/skypes.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -202,9 +191,10 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                       </li>
                     </ul>
                   </div>
+
                   <div className={stylecon.numberMain}>
-                    <Image
-                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/mail.svg"
+                    <img
+                      data-src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/mail.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -222,6 +212,16 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                           info@bottomfunnel.net
                         </a>
                       </li>
+                      <li>
+                        <a href="mailto:sales@bottomfunnel.net">
+                          hr@bottomfunnel.net
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:info@bottomfunnel.net">
+                          ta@bottomfunnel.net
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
 
             <hr />
 
-            <div className={stylecon.salesenquiry}>
+            {/* <div className={stylecon.salesenquiry}>
               <h6>For HR Enquiry</h6>
 
               <div className={stylecon.outercontact}>
@@ -250,8 +250,8 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                 </div>
                 <div className={stylecon.contactNumbs}>
                   <div className={stylecon.numberMain}>
-                    <Image
-                      src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/india.svg"
+                    <img
+                      data-src="https://dn6g7abak8oqz.cloudfront.net/Images/navbar/iconcontact/india.svg"
                       alt=""
                       width={"0"}
                       height={"0"}
@@ -269,7 +269,7 @@ export const ContactMainOther = ({ scroll, navbar, textcolor }) => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       )}
