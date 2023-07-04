@@ -25,7 +25,7 @@ export const ProductsFooter = () => {
                         </button>
                     </Link>
 
-                    <a target="_blank" href="https://bottomfunnel.netapply-as-talent">
+                    <a target="_blank" href="https://bottomfunnel.net/apply-as-talent">
                         <button className={styles.productsFooterCallToAction}>
                             Apply as a Talent
                         </button>
@@ -202,25 +202,25 @@ export const ProductsFooter = () => {
                             <h5>Services </h5>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.netweb-development"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.net/web-development"}>
                             <li>
                                 Web Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.netmobile-app-development"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.net/mobile-app-development"}>
                             <li>
                                 Mobile App Development
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.netDigital-marketing"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.net/Digital-marketing"}>
                             <li>
                                 Digital Marketing
                             </li>
                         </Link>
 
-                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.nettrending-technologies"}>
+                        <Link className={styles.productFooterLinkTag} href={"https://bottomfunnel.net/trending-technologies"}>
                             <li>
                                 Trending Technologies
                             </li>
