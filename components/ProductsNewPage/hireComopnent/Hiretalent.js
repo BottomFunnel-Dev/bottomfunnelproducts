@@ -11,35 +11,35 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "React.js",
-          path: "https://service.bottomfunnel.net/reactjs",
+          path: "https://bottomfunnel.netreactjs",
         },
         {
           stack: "Angular.js",
-          path: "https://service.bottomfunnel.net/angularjs",
+          path: "https://bottomfunnel.netangularjs",
         },
         {
           stack: "Vue.js",
-          path: "https://service.bottomfunnel.net/vuejs",
+          path: "https://bottomfunnel.netvuejs",
         },
         {
           stack: "Ember.js",
-          path: "https://service.bottomfunnel.net/emberjs",
+          path: "https://bottomfunnel.netemberjs",
         },
         {
           stack: "Jquery",
-          path: "https://service.bottomfunnel.net/jquery",
+          path: "https://bottomfunnel.netjquery",
         },
         {
           stack: "Next.js",
-          path: "https://service.bottomfunnel.net/nextjs",
+          path: "https://bottomfunnel.netnextjs",
         },
         {
           stack: "Backbone.js",
-          path: "https://service.bottomfunnel.net/backbonejs",
+          path: "https://bottomfunnel.netbackbonejs",
         },
         {
           stack: "Svelte",
-          path: "https://service.bottomfunnel.net/svelte",
+          path: "https://bottomfunnel.netsvelte",
         },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/frontend.png",
@@ -49,43 +49,43 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "Php",
-          path: "https://service.bottomfunnel.net/php",
+          path: "https://bottomfunnel.netphp",
         },
         {
           stack: ".NET",
-          path: "https://service.bottomfunnel.net/dotnet",
+          path: "https://bottomfunnel.netdotnet",
         },
         {
           stack: "Golang",
-          path: "https://service.bottomfunnel.net/golang",
+          path: "https://bottomfunnel.netgolang",
         },
         {
           stack: "Laravel",
-          path: "https://service.bottomfunnel.net/laravel",
+          path: "https://bottomfunnel.netlaravel",
         },
         {
           stack: "Springboot",
-          path: "https://service.bottomfunnel.net/springboot",
+          path: "https://bottomfunnel.netspringboot",
         },
         {
           stack: "Django",
-          path: "https://service.bottomfunnel.net/django",
+          path: "https://bottomfunnel.netdjango",
         },
         {
           stack: "Cakephp",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Hibernate",
-          path: "https://service.bottomfunnel.net/skills/hibernate",
+          path: "https://bottomfunnel.netskills/hibernate",
         },
         {
           stack: "Flask",
-          path: "https://service.bottomfunnel.net/skills/flask",
+          path: "https://bottomfunnel.netskills/flask",
         },
         {
           stack: "Revel",
-          path: "https://service.bottomfunnel.net/skills/revel",
+          path: "https://bottomfunnel.netskills/revel",
         },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/backend.png",
@@ -96,23 +96,23 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "UX Designers",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "UI Designers",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Motion Designers",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Graphic Designers",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Visual Designers",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/productdesign.png",
@@ -122,43 +122,43 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "Golang",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Python",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Php",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: ".NET",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Ruby",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "R",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "MERN stack",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "PERL",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Java",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Revel",
-          path: "https://service.bottomfunnel.net/skills/revel",
+          path: "https://bottomfunnel.netskills/revel",
         },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/sde.png",
@@ -169,23 +169,23 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "Tableau",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "System Administrator",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Platform Manager",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Solution Architect",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
         {
           stack: "Technical Architect",
-          path: "https://service.bottomfunnel.net/cakephp",
+          path: "https://bottomfunnel.netcakephp",
         },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/salesforce.png",
@@ -195,31 +195,31 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "SEO Expert",
-          path: "https://service.bottomfunnel.net/seo-services",
+          path: "https://bottomfunnel.netseo-services",
         },
         {
           stack: "Local SEO Expert",
-          path: "https://service.bottomfunnel.net/local-seo-services",
+          path: "https://bottomfunnel.netlocal-seo-services",
         },
         {
           stack: "SEM Expert",
-          path: "https://service.bottomfunnel.net/sem-services",
+          path: "https://bottomfunnel.netsem-services",
         },
         {
           stack: "PPC Expert",
-          path: "https://service.bottomfunnel.net/ppc-services",
+          path: "https://bottomfunnel.netppc-services",
         },
         {
           stack: "Link Building Expert",
-          path: "https://service.bottomfunnel.net/link-building-services",
+          path: "https://bottomfunnel.netlink-building-services",
         },
         // {
         //   stack: "Guest Posting Expert",
-        //   path: "https://service.bottomfunnel.net/guest-posting-services",
+        //   path: "https://bottomfunnel.netguest-posting-services",
         // },
         // {
         //   stack: "Email marketer",
-        //   path: "https://service.bottomfunnel.net/emailmarketing-services",
+        //   path: "https://bottomfunnel.netemailmarketing-services",
         // },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/digital.png",
@@ -230,23 +230,23 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "React Native",
-          path: "https://service.bottomfunnel.net/reactnative-development",
+          path: "https://bottomfunnel.netreactnative-development",
         },
         {
           stack: "Flutter",
-          path: "https://service.bottomfunnel.net/flutter-development",
+          path: "https://bottomfunnel.netflutter-development",
         },
         {
           stack: "Ionic",
-          path: "https://service.bottomfunnel.net/ionic",
+          path: "https://bottomfunnel.netionic",
         },
         {
           stack: "Xamarin",
-          path: "https://service.bottomfunnel.net/xamarin-development",
+          path: "https://bottomfunnel.netxamarin-development",
         },
         {
           stack: "Kotlin",
-          path: "https://service.bottomfunnel.net/kotlin-development",
+          path: "https://bottomfunnel.netkotlin-development",
         },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/crossdev.png",
@@ -256,20 +256,20 @@ export default function Hiretalent() {
       stack: [
         {
           stack: "Android",
-          path: "https://service.bottomfunnel.net/android-development",
+          path: "https://bottomfunnel.netandroid-development",
         },
         {
           stack: "IOS",
-          path: "https://service.bottomfunnel.net/ios-development",
+          path: "https://bottomfunnel.netios-development",
         },
         {
           stack: "React Native",
-          path: "https://service.bottomfunnel.net/reactnative-development",
+          path: "https://bottomfunnel.netreactnative-development",
         },
 
         {
           stack: "Flutter",
-          path: "https://service.bottomfunnel.net/flutter-development",
+          path: "https://bottomfunnel.netflutter-development",
         },
       ],
       img: "https://d3op2l77j7wnti.cloudfront.net/Images/productsmainpage/Components/native.png",

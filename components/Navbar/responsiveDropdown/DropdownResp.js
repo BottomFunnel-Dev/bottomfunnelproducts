@@ -179,7 +179,7 @@ export default function DropdownResp({
         <div onClick={() => router.push("/")} > Support </div>
 
         <button onClick={() => router.push("/allproducts")} >Free Trial</button>
-        <button onClick={() => router.push("https://service.bottomfunnel.net/")} >Services</button>
+        <button onClick={() => router.push("https://bottomfunnel.net")} >Services</button>
       </div>
     </div>
   );
