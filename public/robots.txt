@@ -1,5 +1,2 @@
-User Agent: *
-
-Disallow:http://testproduct.bottomfunnel.net/ 
-
-allow: /
+User-agent: *
+Disallow: /
